@@ -326,8 +326,12 @@ def create_visualization(df):
     ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig('/home/user/experiments/voter-chart-chile/chile_voter_demographics.png', dpi=150, bbox_inches='tight')
-    plt.savefig('/home/user/experiments/voter-chart-chile/chile_voter_demographics.pdf', bbox_inches='tight')
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(os.path.dirname(script_dir), 'output')
+    os.makedirs(output_dir, exist_ok=True)
+    plt.savefig(os.path.join(output_dir, 'chile_voter_demographics.png'), dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(output_dir, 'chile_voter_demographics.pdf'), bbox_inches='tight')
     print("Saved: chile_voter_demographics.png and chile_voter_demographics.pdf")
 
     return fig
@@ -455,8 +459,12 @@ def create_improved_visualization(df):
     plt.tight_layout()
     plt.subplots_adjust(bottom=0.08)
 
-    plt.savefig('/home/user/experiments/voter-chart-chile/chile_voter_demographics_v2.png', dpi=150, bbox_inches='tight')
-    plt.savefig('/home/user/experiments/voter-chart-chile/chile_voter_demographics_v2.pdf', bbox_inches='tight')
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(os.path.dirname(script_dir), 'output')
+    os.makedirs(output_dir, exist_ok=True)
+    plt.savefig(os.path.join(output_dir, 'chile_voter_demographics_v2.png'), dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(output_dir, 'chile_voter_demographics_v2.pdf'), bbox_inches='tight')
     print("Saved: chile_voter_demographics_v2.png and chile_voter_demographics_v2.pdf")
 
     return fig
@@ -478,7 +486,11 @@ def main():
     print()
 
     # Save data
-    df.to_csv('/home/user/experiments/voter-chart-chile/voting_gaps_data.csv', index=False)
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(os.path.dirname(script_dir), 'data')
+    os.makedirs(data_dir, exist_ok=True)
+    df.to_csv(os.path.join(data_dir, 'voting_gaps_data.csv'), index=False)
     print("Saved: voting_gaps_data.csv")
 
     # Create visualizations
