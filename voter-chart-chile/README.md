@@ -2,123 +2,125 @@
 
 Analysis of voting patterns by education and income in Chilean presidential elections (1999-2025), reproducing the style of the US "education-income voting gap" chart.
 
-## The Chart
+## The Chart (CORRECTED VERSION)
 
-![Chile Voter Demographics](output/chile_voter_demographics_final.png)
+![Chile Voter Demographics](output/chile_voter_demographics_CORRECTED.png)
 
-## Key Findings
+## Data Quality Disclaimer
 
-### Chile Shows an Opposite Pattern from the US
+**IMPORTANT**: This analysis uses two types of data:
 
-In the United States, the Democratic Party has shifted from representing working-class voters (low education, low income) to increasingly representing educated, higher-income voters. **Chile shows the inverse trajectory**:
+| Period | Data Quality | Source |
+|--------|--------------|--------|
+| **2021-2025** | ✅ **VERIFIED** | SERVEL official results, major news outlets |
+| **1999-2017** | ⚠️ **ESTIMATED** | Academic literature on class-based voting patterns |
 
-| Period | Chilean Left | Chilean Right |
-|--------|--------------|---------------|
-| **1999-2017** | Consistently performed 15-20pp better among LOW education/income voters | Consistently performed 15-20pp better among HIGH education/income voters |
-| **2021** | Education/income gaps nearly disappeared | Gaps nearly disappeared |
-| **2025** | Slight advantage among educated voters | Captured the working class vote |
+The verified 2021-2025 data shows larger gaps than the historical estimates, suggesting either:
+1. Historical estimates were too conservative
+2. 2021 was an exceptional election (Boric's strong mobilization of poor comunas)
+3. The methodology needs refinement
 
-### The Great Realignment
+## Key Findings (VERIFIED DATA)
 
-The data reveals a dramatic political realignment in Chile:
+### 2021 Second Round: Boric vs Kast
 
-1. **Traditional Pattern (1999-2017)**: Chilean politics followed a classic "class-based" voting pattern where the left (Lagos, Bachelet, Frei, Guillier) drew support from working-class comunas while the right (Lavín, Piñera, Matthei) dominated affluent areas.
+| Community Type | Boric % | Kast % | Source |
+|---------------|---------|--------|--------|
+| **Vitacura** (wealthy) | 16.7% | 83.3% | SERVEL/Emol |
+| **Las Condes** (wealthy) | 26.5% | 73.5% | SERVEL/Emol |
+| **Lo Barnechea** (wealthy) | 21.0% | 79.0% | SERVEL |
+| **La Pintana** (poor) | 72.9% | 27.1% | Calculated from vote counts |
+| **Lo Espejo** (poor) | 73.1% | 26.9% | Calculated from vote counts |
+| **Cerro Navia** (poor) | 70.2% | 29.8% | Calculated from vote counts |
 
-2. **The Shift (2021)**: When Boric faced Kast, the traditional class divide nearly vanished. Both candidates drew support more evenly across socioeconomic groups.
+**Gap: ~38.6 percentage points** (left did much better in poor comunas)
 
-3. **The Reversal (2025)**: By 2025, Kast won decisively (58%) by capturing working-class voters while Jara's support was slightly stronger among educated voters—a complete reversal of historical patterns.
+### 2025 Second Round: Jara vs Kast
 
-## Data Summary
+| Community Type | Jara % | Kast % | Source |
+|---------------|--------|--------|--------|
+| **Vitacura** (wealthy) | 12.9% | 87.1% | BioBioChile/SERVEL |
+| **Las Condes** (wealthy) | 22.2% | 77.8% | BioBioChile/SERVEL |
+| **Lo Barnechea** (wealthy) | 16.5% | 83.5% | BioBioChile/SERVEL |
+| **Providencia** (wealthy) | 42.9% | 57.1% | BioBioChile/SERVEL |
+| **Ñuñoa** (educated middle) | 51.1% | 48.9% | BioBioChile/SERVEL |
+| **La Pintana** (poor) | 52.1% | 47.9% | La Tercera/SERVEL |
+| **Pedro Aguirre Cerda** (poor) | 58.7% | 41.3% | La Tercera/SERVEL |
 
-| Year | Left Candidate | Right Candidate | Education Gap | Income Gap |
-|------|----------------|-----------------|---------------|------------|
-| 1999 | Lagos | Lavín | -17.9% | -19.9% |
-| 2005 | Bachelet | Piñera | -21.3% | -23.6% |
-| 2009 | Frei | Piñera | -18.6% | -20.5% |
-| 2013 | Bachelet | Matthei | -21.3% | -23.9% |
-| 2017 | Guillier | Piñera | -15.6% | -17.7% |
-| 2021 | Boric | Kast | -1.9% | -4.5% |
-| 2025 | Jara | Kast | +2.8% | +0.5% |
+**Gap: ~25.8 percentage points** (still favors left in poor areas, but narrower)
 
-**Note**: Negative values indicate the left candidate performed better among low education/income voters. Positive values indicate the left performed better among high education/income voters.
+### The Shift (2021 → 2025)
+
+| Metric | 2021 | 2025 | Change |
+|--------|------|------|--------|
+| Left vote in wealthy comunas | 31.4% | 27.9% | -3.5pp |
+| Left vote in poor comunas | 70.0% | 53.7% | **-16.3pp** |
+| **Gap (high - low)** | -38.6pp | -25.8pp | **+12.8pp** |
+
+**Key Finding**: Poor comunas shifted ~16 percentage points toward Kast between 2021 and 2025. This is the working-class realignment.
 
 ## Methodology
 
 ### Approach
 
-The analysis correlates comuna-level election results with socioeconomic data to calculate voting gaps:
+The analysis correlates comuna-level election results with socioeconomic data:
 
 ```
-Education Gap = Left vote share in HIGH education comunas - Left vote share in LOW education comunas
-Income Gap = Left vote share in HIGH income comunas - Left vote share in LOW income comunas
+Gap = Left vote share in HIGH edu/income comunas - Left vote share in LOW edu/income comunas
 ```
+
+A **negative gap** means the left does better in poor/low-education areas (traditional pattern).
 
 ### Comuna Classification
 
-**High Education Comunas** (≥30% with university degree):
-- Vitacura, Las Condes, Lo Barnechea, Providencia, Ñuñoa, La Reina, Viña del Mar, Santiago Centro
+Based on CASEN 2022, Census 2017, and AIM Chile GSE data:
 
-**Low Education Comunas** (<20% with university degree):
-- Puente Alto, San Bernardo, La Pintana, Lo Espejo, El Bosque, Cerro Navia, Pedro Aguirre Cerda, La Granja, Renca, San Ramón, Lo Prado
+**High Education + High Income** (GSE ABC1 dominant):
+- Vitacura, Las Condes, Lo Barnechea, Providencia, La Reina
 
-**High Income Comunas** (GSE ABC1/C2 dominant):
-- Vitacura, Las Condes, Lo Barnechea, Providencia, Ñuñoa, La Reina, Viña del Mar, Antofagasta
-
-**Low Income Comunas** (GSE D/E dominant):
-- La Pintana, Lo Espejo, El Bosque, Cerro Navia, Pedro Aguirre Cerda, La Granja, Renca, San Ramón, Lo Prado
+**Low Education + Low Income** (GSE D/E dominant):
+- La Pintana, Lo Espejo, Cerro Navia, El Bosque, Pedro Aguirre Cerda, La Granja, Renca
 
 ## Data Sources
 
-### Election Data
+### Election Data (VERIFIED)
 
-| Source | Description | URL |
-|--------|-------------|-----|
-| **SERVEL** | Servicio Electoral de Chile - Official election results by comuna | [servel.cl](https://www.servel.cl/centro-de-datos/resultados-electorales-historicos-gw3/) |
-| **BCN** | Biblioteca del Congreso Nacional - Historical election results | [bcn.cl](https://www.bcn.cl/siit/elecciones_historicas/) |
+| Source | Description | Reliability |
+|--------|-------------|-------------|
+| [SERVEL](https://www.servel.cl/) | Official Electoral Service of Chile | ✅ Official |
+| [Emol Election Results](https://www.emol.com/especiales/2021/nacional/carrera-presidencial/resultados_segunda_vuelta.asp) | 2021 results by comuna | ✅ Based on SERVEL |
+| [BioBioChile](https://www.biobiochile.cl/noticias/nacional/chile/2025/12/14/kast-arraso-en-comunas-mas-pobres-de-chile-jara-solo-gano-en-nunoa-entre-las-mas-ricas.shtml) | 2025 results analysis | ✅ Based on SERVEL |
+| [La Tercera](https://www.latercera.com/) | Election coverage | ✅ Major newspaper |
 
 ### Socioeconomic Data
 
-| Source | Description | URL |
-|--------|-------------|-----|
-| **CASEN** | Encuesta de Caracterización Socioeconómica Nacional | [observatorio.ministeriodesarrollosocial.gob.cl](http://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen) |
-| **Census 2017/2024** | Instituto Nacional de Estadísticas - Education and income by comuna | [ine.cl](https://www.ine.cl/) |
-| **AIM Chile** | Asociación de Investigadores de Mercado - GSE classification | [aimchile.cl/gse-chile](https://aimchile.cl/gse-chile/) |
+| Source | Description |
+|--------|-------------|
+| [CASEN](http://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen) | National Socioeconomic Survey |
+| [INE Census](https://www.ine.cl/) | Education and income by comuna |
+| [AIM Chile](https://aimchile.cl/gse-chile/) | GSE (socioeconomic group) classification |
 
 ### Academic References
 
-1. **"Voting for Democracy: Chile's Plebiscito and the Electoral Participation of a Generation"** (2023)
-   - American Economic Journal: Economic Policy
-   - [NBER Working Paper](https://www.nber.org/system/files/working_papers/w26440/w26440.pdf)
-
-2. **"Class-Biased Electoral Participation: The Youth Vote in Chile"** (2013)
-   - Latin American Politics and Society, Cambridge University Press
-   - [Cambridge Core](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/abs/classbiased-electoral-participation-the-youth-vote-in-chile/8261D29CDD29A868C6994ADFF571D155)
-
-3. **"'It's the economy, stupid': Mapping Electoral Divisiveness in Chile from 1989 to 2021"** (2025)
-   - Regional Science Policy & Practice, Taylor & Francis
-   - [Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/21681376.2025.2518158)
-
-4. **"Electoral Apathy Among Chilean Youth: New Evidence for the Voter Registration Dilemma"** (2017)
-   - Estudios Gerenciales
-   - [Redalyc](https://www.redalyc.org/journal/212/21254609003/html/)
-
-5. **"Citizens' Stability of Electoral Preferences in Chile Since the Social Upheaval"** (2024)
-   - Journal of Politics in Latin America
-   - [SAGE Journals](https://journals.sagepub.com/doi/full/10.1177/1866802X231213885)
+1. **"Voting for Democracy: Chile's Plebiscito"** (2023) - [NBER](https://www.nber.org/system/files/working_papers/w26440/w26440.pdf)
+2. **"Class-Biased Electoral Participation: The Youth Vote in Chile"** (2013) - [Cambridge](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/abs/classbiased-electoral-participation-the-youth-vote-in-chile/8261D29CDD29A868C6994ADFF571D155)
+3. **"Mapping Electoral Divisiveness in Chile 1989-2021"** (2025) - [Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/21681376.2025.2518158)
 
 ## Project Structure
 
 ```
 voter-chart-chile/
-├── README.md                 # This file
+├── README.md                                    # This file
 ├── data/
-│   └── voting_gaps_data.csv  # Calculated voting gaps by election
+│   ├── voting_gaps_data.csv                     # Original (flawed) data
+│   └── voting_gaps_CORRECTED.csv                # Corrected verified data
 ├── output/
-│   ├── chile_voter_demographics_final.png  # Main visualization
-│   └── chile_voter_demographics_final.pdf  # PDF version
+│   ├── chile_voter_demographics_final.png       # Original chart
+│   └── chile_voter_demographics_CORRECTED.png   # Corrected chart
 └── src/
-    ├── chile_voter_analysis.py   # Full analysis with data processing
-    └── chile_voter_final.py      # Final visualization script
+    ├── chile_voter_analysis.py                  # Original analysis
+    ├── chile_voter_final.py                     # Original visualization
+    └── chile_voter_corrected.py                 # CORRECTED analysis
 ```
 
 ## How to Run
@@ -127,33 +129,40 @@ voter-chart-chile/
 # Install dependencies
 pip install pandas numpy matplotlib
 
-# Run the analysis
+# Run the CORRECTED analysis (recommended)
 cd src
-python chile_voter_final.py
+python chile_voter_corrected.py
 ```
-
-## Elections Analyzed
-
-| Year | Left Coalition | Right Coalition | Result |
-|------|----------------|-----------------|--------|
-| 1999 | Ricardo Lagos (PS/PPD) | Joaquín Lavín (UDI) | Lagos 51.3% |
-| 2005 | Michelle Bachelet (PS) | Sebastián Piñera (RN) | Bachelet 53.5% |
-| 2009 | Eduardo Frei (DC) | Sebastián Piñera (RN) | Piñera 51.6% |
-| 2013 | Michelle Bachelet (PS) | Evelyn Matthei (UDI) | Bachelet 62.2% |
-| 2017 | Alejandro Guillier (Ind) | Sebastián Piñera (RN) | Piñera 54.6% |
-| 2021 | Gabriel Boric (CS/FA) | José Antonio Kast (REP) | Boric 55.9% |
-| 2025 | Jeannette Jara (PC) | José Antonio Kast (REP) | Kast 58.0% |
 
 ## Interpretation
 
-The Chilean political landscape is undergoing a fundamental transformation. The traditional left-right divide based on economic class is being replaced by new cleavages around cultural issues, immigration, and security—similar to trends observed in the US, UK, and Western Europe.
+### What the Data Shows
 
-**Key factors driving this realignment:**
+1. **Chile maintains class-based voting**: Even in 2025, the left still does better in poor comunas (~54%) than wealthy comunas (~28%). The pattern hasn't reversed like in the US.
 
-1. **Mandatory voting reintroduction (2022)**: Brought millions of new voters who are younger, lower-income, and politically unattached
-2. **Immigration concerns**: Security and immigration have become salient issues that cut across traditional class lines
-3. **Disillusionment with establishment**: Both traditional left and right coalitions seen as failing to deliver change
-4. **Rise of new political movements**: Frente Amplio (left) and Partido Republicano (right) disrupting traditional parties
+2. **Significant working-class shift right**: Poor comunas shifted ~16pp toward Kast between 2021-2025. This is substantial but the class divide persists.
+
+3. **Ñuñoa is unique**: The only wealthy comuna where Jara won (51%). This educated, progressive enclave may represent a future realignment similar to US patterns.
+
+4. **2021 was exceptional**: Boric achieved ~70-73% in poor comunas - unusually high for a left candidate. This may have been due to post-estallido social sentiment and youth mobilization.
+
+### Limitations
+
+- Historical data (pre-2021) is estimated from academic literature, not verified comuna-level results
+- The gap between estimated historical data (~20pp) and verified 2021 data (~39pp) suggests methodological inconsistencies
+- Rural poor comunas (La Araucanía, Bío Bío) showed very different patterns from urban poor comunas
+
+## Elections Analyzed
+
+| Year | Left | Right | Result | Data Quality |
+|------|------|-------|--------|--------------|
+| 1999 | Lagos | Lavín | Lagos 51.3% | ⚠️ Estimated |
+| 2005 | Bachelet | Piñera | Bachelet 53.5% | ⚠️ Estimated |
+| 2009 | Frei | Piñera | Piñera 51.6% | ⚠️ Estimated |
+| 2013 | Bachelet | Matthei | Bachelet 62.2% | ⚠️ Estimated |
+| 2017 | Guillier | Piñera | Piñera 54.6% | ⚠️ Estimated |
+| 2021 | Boric | Kast | Boric 55.9% | ✅ Verified |
+| 2025 | Jara | Kast | Kast 58.0% | ✅ Verified |
 
 ## License
 
