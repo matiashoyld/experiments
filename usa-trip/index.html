@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zabala's Trip - Agosto 2026</title>
+    <style>
+        :root {
+            --seattle: #2563eb;
+            --seattle-light: #dbeafe;
+            --yellowstone: #d97706;
+            --yellowstone-light: #fef3c7;
+            --banff: #059669;
+            --banff-light: #d1fae5;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-text-size-adjust: 100%; }
+        a { color: inherit; }
+        .card a { color: var(--seattle); text-decoration: underline; text-underline-offset: 2px; }
+        .hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%); color: white; text-align: center; padding: 80px 20px 60px; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&q=80') center/cover; opacity: 0.15; }
+        .hero-content { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; }
+        .hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 12px; letter-spacing: -1px; }
+        .hero .subtitle { font-size: 1.25rem; opacity: 0.85; margin-bottom: 8px; }
+        .hero .details { font-size: 1rem; opacity: 0.65; display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
+        .hero .details span { display: flex; align-items: center; gap: 6px; }
+        .nav-tabs { display: flex; justify-content: center; gap: 8px; padding: 20px; background: white; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .nav-tab { padding: 10px 24px; border: 2px solid var(--border); border-radius: 50px; cursor: pointer; font-weight: 600; font-size: 0.95rem; transition: all 0.3s; background: white; }
+        .nav-tab:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .nav-tab.active-seattle { border-color: var(--seattle); background: var(--seattle-light); color: var(--seattle); }
+        .nav-tab.active-yellowstone { border-color: var(--yellowstone); background: var(--yellowstone-light); color: var(--yellowstone); }
+        .nav-tab.active-banff { border-color: var(--banff); background: var(--banff-light); color: var(--banff); }
+        .nav-tab.active-compare { border-color: #7c3aed; background: #ede9fe; color: #7c3aed; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .section { display: none; }
+        .section.active { display: block; }
+        .dest-header { border-radius: 20px; overflow: hidden; margin-bottom: 32px; box-shadow: 0 8px 30px rgba(0,0,0,0.12); }
+        .dest-header img { width: 100%; height: 400px; object-fit: cover; }
+        .dest-header-info { padding: 32px; background: white; }
+        .dest-header-info h2 { font-size: 2rem; margin-bottom: 8px; }
+        .dest-header-info .tagline { color: var(--text-muted); font-size: 1.1rem; }
+        .price-badge { display: inline-block; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 1.5rem; margin-top: 16px; }
+        .price-badge.seattle { background: var(--seattle-light); color: var(--seattle); }
+        .price-badge.yellowstone { background: var(--yellowstone-light); color: var(--yellowstone); }
+        .price-badge.banff { background: var(--banff-light); color: var(--banff); }
+        .price-sub { font-size: 0.85rem; font-weight: 400; opacity: 0.7; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; margin-bottom: 40px; }
+        .card { background: white; border-radius: 16px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); border: 1px solid var(--border); }
+        .card h3 { font-size: 1.15rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+        .card-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; }
+        .card-icon.seattle { background: var(--seattle-light); }
+        .card-icon.yellowstone { background: var(--yellowstone-light); }
+        .card-icon.banff { background: var(--banff-light); }
+        .card table { width: 100%; border-collapse: collapse; }
+        .card th, .card td { padding: 8px 0; text-align: left; font-size: 0.9rem; }
+        .card th { color: var(--text-muted); font-weight: 500; border-bottom: 1px solid var(--border); }
+        .card td { border-bottom: 1px solid #f1f5f9; }
+        .card tr:last-child td { border-bottom: none; font-weight: 700; }
+        .card ul { list-style: none; }
+        .card li { padding: 6px 0; font-size: 0.9rem; display: flex; gap: 8px; }
+        .card li::before { content: ''; flex-shrink: 0; }
+        .pro::before { content: '+'; color: #16a34a; font-weight: 700; width: 16px; }
+        .con::before { content: '-'; color: #dc2626; font-weight: 700; width: 16px; }
+        .tip::before { content: '!'; color: var(--yellowstone); font-weight: 700; width: 16px; }
+        .itinerary { background: white; border-radius: 16px; padding: 32px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); border: 1px solid var(--border); margin-bottom: 40px; }
+        .itinerary h3 { font-size: 1.3rem; margin-bottom: 20px; }
+        .day-row { display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid #f1f5f9; align-items: flex-start; }
+        .day-num { font-weight: 700; font-size: 0.85rem; padding: 4px 12px; border-radius: 8px; white-space: nowrap; flex-shrink: 0; }
+        .day-num.seattle { background: var(--seattle-light); color: var(--seattle); }
+        .day-num.yellowstone { background: var(--yellowstone-light); color: var(--yellowstone); }
+        .day-num.banff { background: var(--banff-light); color: var(--banff); }
+        .day-content h4 { font-size: 0.95rem; margin-bottom: 4px; }
+        .day-content p { font-size: 0.85rem; color: var(--text-muted); }
+        .compare-table { width: 100%; border-collapse: separate; border-spacing: 0; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 40px; }
+        .compare-table th, .compare-table td { padding: 16px 20px; text-align: left; border-bottom: 1px solid var(--border); }
+        .compare-table thead th { background: #0f172a; color: white; font-weight: 600; font-size: 0.95rem; }
+        .compare-table thead th:nth-child(2) { background: var(--seattle); }
+        .compare-table thead th:nth-child(3) { background: #b45309; }
+        .compare-table thead th:nth-child(4) { background: var(--banff); }
+        .compare-table td { font-size: 0.9rem; }
+        .compare-table td:first-child { font-weight: 600; color: var(--text-muted); }
+        .compare-table tr:last-child td { border-bottom: none; font-weight: 700; font-size: 1.05rem; }
+        .compare-table tr:hover td { background: #f8fafc; }
+        .winner { position: relative; }
+        .winner::after { content: 'Mejor'; position: absolute; top: 50%; right: 8px; transform: translateY(-50%); font-size: 0.65rem; background: #dcfce7; color: #16a34a; padding: 2px 8px; border-radius: 50px; font-weight: 700; }
+        .best-for-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 40px; }
+        .best-for-item { background: white; border-radius: 12px; padding: 20px; border: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .best-for-item .label { font-size: 0.9rem; color: var(--text-muted); }
+        .best-for-item .winner-tag { padding: 6px 14px; border-radius: 50px; font-weight: 700; font-size: 0.8rem; }
+        .tag-seattle { background: var(--seattle-light); color: var(--seattle); }
+        .tag-yellowstone { background: var(--yellowstone-light); color: var(--yellowstone); }
+        .tag-banff { background: var(--banff-light); color: var(--banff); }
+        .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
+        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 12px; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.03); }
+        .action-items { background: linear-gradient(135deg, #1e293b, #334155); color: white; border-radius: 16px; padding: 32px; margin-top: 40px; }
+        .action-items h3 { font-size: 1.3rem; margin-bottom: 20px; }
+        .action-item { display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1); align-items: flex-start; }
+        .action-item:last-child { border-bottom: none; }
+        .action-when { background: rgba(255,255,255,0.15); padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 700; white-space: nowrap; flex-shrink: 0; }
+        .action-what { font-size: 0.9rem; opacity: 0.9; }
+        .footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.85rem; }
+        .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -20px; padding: 0 20px; }
+        .table-scroll .compare-table { min-width: 580px; }
+
+        /* ===== MOBILE: Tablets ===== */
+        @media (max-width: 768px) {
+            .hero { padding: 52px 16px 40px; }
+            .hero h1 { font-size: 2rem; }
+            .hero .subtitle { font-size: 1.05rem; }
+            .hero .details { font-size: 0.85rem; gap: 10px 20px; }
+
+            .nav-tabs {
+                justify-content: flex-start;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                gap: 6px;
+                padding: 12px 16px;
+                flex-wrap: nowrap;
+            }
+            .nav-tabs::-webkit-scrollbar { display: none; }
+            .nav-tab {
+                padding: 10px 18px;
+                font-size: 0.85rem;
+                white-space: nowrap;
+                flex-shrink: 0;
+            }
+
+            .container { padding: 24px 16px; }
+
+            .dest-header { border-radius: 14px; margin-bottom: 24px; }
+            .dest-header img { height: 240px; }
+            .dest-header-info { padding: 24px 20px; }
+            .dest-header-info h2 { font-size: 1.5rem; }
+            .dest-header-info .tagline { font-size: 0.95rem; }
+            .price-badge { font-size: 1.25rem; padding: 6px 16px; }
+
+            .cards-grid { grid-template-columns: 1fr; gap: 16px; margin-bottom: 28px; }
+            .card { padding: 20px; border-radius: 12px; }
+            .card h3 { font-size: 1.05rem; margin-bottom: 12px; }
+
+            .gallery { grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 24px; }
+            .gallery img { height: 150px; border-radius: 8px; }
+
+            .table-scroll { margin: 0 -16px; padding: 0 16px; }
+
+            .compare-table th, .compare-table td { padding: 10px 8px; font-size: 0.8rem; }
+            .winner::after { font-size: 0.55rem; padding: 1px 5px; right: 3px; }
+
+            .best-for-grid { grid-template-columns: 1fr; gap: 8px; margin-bottom: 28px; }
+            .best-for-item { padding: 14px 16px; border-radius: 10px; }
+
+            .itinerary { padding: 20px; margin-bottom: 28px; border-radius: 12px; }
+            .itinerary h3 { font-size: 1.15rem; margin-bottom: 16px; }
+            .day-row { gap: 10px; padding: 10px 0; }
+            .day-num { font-size: 0.75rem; padding: 3px 8px; }
+            .day-content h4 { font-size: 0.9rem; }
+            .day-content p { font-size: 0.8rem; }
+
+            .action-items { padding: 24px 20px; margin-top: 28px; border-radius: 12px; }
+            .action-items h3 { font-size: 1.15rem; }
+            .action-item { gap: 10px; }
+            .action-when { font-size: 0.7rem; padding: 3px 8px; }
+            .action-what { font-size: 0.85rem; }
+
+            /* Override inline styles on headings */
+            h2[style*="font-size"] { font-size: 1.4rem !important; }
+            h3[style*="font-size"] { font-size: 1.15rem !important; }
+        }
+
+        /* ===== MOBILE: Small phones ===== */
+        @media (max-width: 420px) {
+            .hero { padding: 40px 12px 32px; }
+            .hero h1 { font-size: 1.6rem; letter-spacing: -0.5px; }
+            .hero .subtitle { font-size: 0.95rem; }
+            .hero .details { font-size: 0.8rem; gap: 6px 14px; }
+
+            .nav-tabs { padding: 10px 12px; gap: 4px; }
+            .nav-tab { padding: 8px 14px; font-size: 0.78rem; }
+
+            .container { padding: 20px 12px; }
+
+            .dest-header img { height: 190px; }
+            .dest-header-info { padding: 20px 16px; }
+            .dest-header-info h2 { font-size: 1.3rem; }
+            .dest-header-info .tagline { font-size: 0.85rem; }
+            .price-badge { font-size: 1.1rem; }
+            .price-sub { font-size: 0.75rem; }
+
+            .card { padding: 16px; }
+            .card h3 { font-size: 0.95rem; gap: 8px; }
+            .card-icon { width: 34px; height: 34px; font-size: 1.1rem; border-radius: 8px; }
+            .card th, .card td { font-size: 0.82rem; padding: 6px 0; }
+            .card li { font-size: 0.82rem; padding: 5px 0; }
+
+            .gallery img { height: 120px; }
+
+            .table-scroll { margin: 0 -12px; padding: 0 12px; }
+            .table-scroll .compare-table { min-width: 520px; }
+
+            .best-for-item { padding: 12px 14px; }
+            .best-for-item .label { font-size: 0.82rem; }
+            .best-for-item .winner-tag { font-size: 0.72rem; padding: 4px 10px; }
+
+            .itinerary { padding: 16px; }
+            .day-row { flex-direction: column; gap: 4px; }
+            .day-num { align-self: flex-start; }
+
+            .action-items { padding: 20px 16px; }
+            .action-item { flex-direction: column; gap: 6px; }
+            .action-when { align-self: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Zabala's Trip 2026</h1>
+        <p class="subtitle">Eligiendo nuestra aventura: Seattle vs Yellowstone vs Banff</p>
+        <div class="details">
+            <span>3-13 Agosto, 2026</span>
+            <span>9 Adultos + 3 Ninos</span>
+            <span>10 Noches</span>
+            <span>Desde SFO</span>
+        </div>
+    </div>
+</div>
+
+<div class="nav-tabs">
+    <button class="nav-tab active-compare" data-tab="compare" onclick="showTab('compare')">Comparar Todo</button>
+    <button class="nav-tab" data-tab="seattle" onclick="showTab('seattle')">Seattle + Parques NW</button>
+    <button class="nav-tab" data-tab="yellowstone" onclick="showTab('yellowstone')">Yellowstone</button>
+    <button class="nav-tab" data-tab="banff" onclick="showTab('banff')">Banff</button>
+</div>
+
+<div class="container">
+
+<!-- ==================== COMPARACION ==================== -->
+<div id="compare" class="section active">
+    <h2 style="text-align:center; margin-bottom: 32px; font-size: 1.8rem;">Comparacion Lado a Lado</h2>
+    <p style="text-align:center; color: var(--text-muted); margin-bottom: 16px; font-size: 0.85rem;">Actualizado con precios reales de Google Flights, KAYAK, Airbnb, VRBO y sitios de arriendo (Feb 16, 2026)</p>
+
+    <div class="table-scroll">
+    <table class="compare-table">
+        <thead>
+            <tr>
+                <th>Categoria</th>
+                <th>Seattle + Parques NW</th>
+                <th>Yellowstone</th>
+                <th>Banff (Canada)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Vuelos (SFO ida y vuelta)</td><td class="winner">$2,000</td><td>$3,500</td><td>$2,850</td></tr>
+            <tr><td>2 SUVs Arriendo (10 dias)</td><td>$4,000</td><td>$6,500</td><td class="winner">$2,700</td></tr>
+            <tr><td>Bencina</td><td>$390</td><td class="winner">$350</td><td>$365</td></tr>
+            <tr><td>Alojamiento</td><td>$3,900</td><td>$6,500</td><td class="winner">$3,550</td></tr>
+            <tr><td>Entrada a parques</td><td>$160</td><td>$160</td><td class="winner">$0 (GRATIS!)</td></tr>
+            <tr><td>Comida (10 dias)</td><td>$3,000</td><td class="winner">$1,650</td><td>$4,088</td></tr>
+            <tr><td>Actividades</td><td>$1,490</td><td class="winner">$900</td><td>$2,400</td></tr>
+            <tr><td>Varios</td><td>$600</td><td class="winner">$400</td><td>$550</td></tr>
+            <tr>
+                <td>TOTAL GENERAL</td>
+                <td style="color: var(--seattle); font-size:1.1rem;">$15,540</td>
+                <td style="color: var(--yellowstone); font-size:1.1rem;">$19,960</td>
+                <td style="color: var(--banff); font-size:1.1rem;">$16,503</td>
+            </tr>
+            <tr>
+                <td>Por Adulto (dividido en 9)</td>
+                <td style="color: var(--seattle);">$1,727</td>
+                <td style="color: var(--yellowstone);">$2,218</td>
+                <td style="color: var(--banff);">$1,834</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <h3 style="text-align:center; margin-bottom: 20px; font-size: 1.4rem;">Mejor Para...</h3>
+    <div class="best-for-grid">
+        <div class="best-for-item"><span class="label">Ahorrar Plata</span><span class="winner-tag tag-seattle">Seattle</span></div>
+        <div class="best-for-item"><span class="label">Parque Nacional Iconico</span><span class="winner-tag tag-yellowstone">Yellowstone</span></div>
+        <div class="best-for-item"><span class="label">Mas Escenico / Fotogenico</span><span class="winner-tag tag-banff">Banff</span></div>
+        <div class="best-for-item"><span class="label">Mejor Vida Salvaje</span><span class="winner-tag tag-yellowstone">Yellowstone</span></div>
+        <div class="best-for-item"><span class="label">Ciudad + Naturaleza</span><span class="winner-tag tag-seattle">Seattle</span></div>
+        <div class="best-for-item"><span class="label">Logistica Mas Facil (1 Base)</span><span class="winner-tag tag-yellowstone">Yellowstone</span></div>
+        <div class="best-for-item"><span class="label">Mejor Comida y Restaurantes</span><span class="winner-tag tag-seattle">Seattle</span></div>
+        <div class="best-for-item"><span class="label">Experiencias Mas Diversas</span><span class="winner-tag tag-seattle">Seattle</span></div>
+        <div class="best-for-item"><span class="label">Mejor para Guaguas (Baja Altitud)</span><span class="winner-tag tag-seattle">Seattle</span></div>
+        <div class="best-for-item"><span class="label">Sin Problema de Pasaporte</span><span class="winner-tag tag-seattle">Seattle / Yellowstone</span></div>
+        <div class="best-for-item"><span class="label">Paisajes "Wow"</span><span class="winner-tag tag-banff">Banff</span></div>
+        <div class="best-for-item"><span class="label">Geisers y Termas Unicas</span><span class="winner-tag tag-yellowstone">Yellowstone</span></div>
+    </div>
+
+    <div class="cards-grid">
+        <div class="card">
+            <h3><span class="card-icon seattle">&#127747;</span> Seattle + Parques NW</h3>
+            <ul>
+                <li class="pro">Opcion mas barata (~$4-5K menos)</li>
+                <li class="pro">Mayor variedad: ciudad + bosque lluvioso + montanas + playas</li>
+                <li class="pro">Agosto es el mejor mes de Seattle (24-27C)</li>
+                <li class="pro">Excelente gastronomia (Pike Place!)</li>
+                <li class="pro">Menor altitud - mejor para guaguas</li>
+                <li class="pro">No necesitan pasaporte extra</li>
+                <li class="con">Mas manejo/mudanzas (4 Airbnbs)</li>
+                <li class="con">Menos vida silvestre que las alternativas</li>
+                <li class="con">Hacer/deshacer maletas con guaguas</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#127755;</span> Yellowstone + Grand Teton</h3>
+            <ul>
+                <li class="pro">EL parque nacional iconico de EEUU</li>
+                <li class="pro">Mejor vida silvestre (bisontes, lobos, grizzlies)</li>
+                <li class="pro">Formaciones geotermales unicas en el mundo</li>
+                <li class="pro">Un solo campamento base funciona perfecto</li>
+                <li class="pro">Atracciones con pasarelas (ideal con coches)</li>
+                <li class="con">Vuelos y arriendo de autos mas caros</li>
+                <li class="con">Agosto muy lleno (temporada alta)</li>
+                <li class="con">Altitud alta (2,300m) - cuidado con guaguas</li>
+                <li class="con">Senal de celular muy limitada</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon banff">&#9968;</span> Banff (Canada)</h3>
+            <ul>
+                <li class="pro">Destino mas escenico (lagos turquesa!)</li>
+                <li class="pro">Entrada GRATIS a parques en 2026!</li>
+                <li class="pro">4 parques nacionales accesibles</li>
+                <li class="pro">Pueblos con encanto (Banff, Canmore)</li>
+                <li class="pro">Gondolas, glaciares, termas</li>
+                <li class="con">Todos necesitan pasaporte (guaguas tambien!)</li>
+                <li class="con">Precios canadienses 15-25% mas altos</li>
+                <li class="con">Shuttle a Moraine Lake se agota rapido</li>
+                <li class="con">Roaming de celular (~$10/dia)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="action-items">
+        <h3>Cosas Que Hacer Ya (Sin Importar Cual Elijamos)</h3>
+        <div class="action-item"><span class="action-when">AHORA</span><span class="action-what">Reservar alojamiento - Agosto se llena rapido para grupos grandes</span></div>
+        <div class="action-item"><span class="action-when">AHORA</span><span class="action-what">Reservar vuelos - los precios solo suben de aqui en adelante</span></div>
+        <div class="action-item"><span class="action-when">AHORA</span><span class="action-what">Si Banff: verificar que TODOS (incluidas guaguas) tengan pasaporte americano vigente</span></div>
+        <div class="action-item"><span class="action-when">MARZO</span><span class="action-what">Reservar autos de arriendo - las SUV grandes se agotan para verano</span></div>
+        <div class="action-item"><span class="action-when">ABR 15</span><span class="action-what">Si Banff: reservar shuttle a Moraine Lake a las 8am MT (se agota en minutos)</span></div>
+        <div class="action-item"><span class="action-when">JUNIO</span><span class="action-what">Reservar tickets de actividades (gondolas, tours, CityPASS, etc.)</span></div>
+        <div class="action-item"><span class="action-when">PRE-VIAJE</span><span class="action-what">Descargar mapas offline, comprar spray anti-osos localmente, empacar capas para todas las temperaturas</span></div>
+    </div>
+</div>
+
+<!-- ==================== SEATTLE ==================== -->
+<div id="seattle" class="section">
+    <div class="dest-header">
+        <img src="https://images.unsplash.com/photo-1761256805284-45fbafa05917?w=1200&q=80" alt="Seattle con Mount Rainier">
+        <div class="dest-header-info">
+            <h2>Seattle + Parques del Pacifico NW</h2>
+            <p class="tagline">Vida urbana, bosques lluviosos, volcanes, playas oceanicas y termas</p>
+            <div class="price-badge seattle">$15,540 total <span class="price-sub">($1,727/adulto)</span></div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1503775243438-e0ed1a6c8197?w=600&q=80" alt="Pike Place Market Seattle">
+        <img src="https://images.unsplash.com/photo-1568226292316-fba38a17051c?w=600&q=80" alt="Mount Rainier">
+        <img src="https://images.unsplash.com/photo-1731791838647-bec6b4536541?w=600&q=80" alt="Bosque Lluvioso Hoh">
+        <img src="https://images.unsplash.com/photo-1703358700720-aa3a8c06ad46?w=600&q=80" alt="Playa Ruby Beach">
+        <img src="https://images.unsplash.com/photo-1465680949814-1ed23ecb963f?w=600&q=80" alt="Space Needle Seattle">
+        <img src="https://images.unsplash.com/photo-1590423156319-8eb3ef7ae5c5?w=600&q=80" alt="Hurricane Ridge Olympic NP">
+    </div>
+
+    <div class="cards-grid">
+        <div class="card">
+            <h3><span class="card-icon seattle">&#9992;</span> Vuelos</h3>
+            <table>
+                <tr><th>Item</th><th>Costo</th></tr>
+                <tr><td>9 adultos ida/vuelta (SFO-SEA)</td><td>$1,800</td></tr>
+                <tr><td>1 nino ida/vuelta (5 anos)</td><td>$200</td></tr>
+                <tr><td>2 guaguas en brazos</td><td>$0</td></tr>
+                <tr><td>Total vuelos</td><td>$2,000</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Alaska Airlines y Southwest mejores para familias</li>
+                <li class="tip">Southwest: 2 maletas gratis (sillas de auto!)</li>
+                <li class="tip">Solo 2h15m vuelo directo</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon seattle">&#128663;</span> 2 SUVs Arriendo</h3>
+            <table>
+                <tr><th>Item</th><th>Costo</th></tr>
+                <tr><td>2 SUVs grandes x 10 dias</td><td>$3,000</td></tr>
+                <tr><td>Impuestos y cargos aeropuerto</td><td>$1,000</td></tr>
+                <tr><td>Total arriendo autos</td><td>$4,000</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Washington exige silla mirando atras para ambas guaguas</li>
+                <li class="tip">Llevar sillas propias (aerolineas las despachan gratis)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon seattle">&#127968;</span> Alojamiento</h3>
+            <table>
+                <tr><th>Ubicacion</th><th>Noches</th><th>Costo</th></tr>
+                <tr><td>Seattle (inicio)</td><td>3</td><td>$1,400</td></tr>
+                <tr><td>Zona Mount Rainier</td><td>2</td><td>$800</td></tr>
+                <tr><td>Peninsula Olimpica</td><td>3</td><td>$1,200</td></tr>
+                <tr><td>Seattle (ultima noche)</td><td>1</td><td>$400</td></tr>
+                <tr><td>Total</td><td>~10</td><td>$3,900</td></tr>
+            </table>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon seattle">&#127860;</span> Comida</h3>
+            <table>
+                <tr><th>Categoria</th><th>Costo</th></tr>
+                <tr><td>Restaurantes en Seattle</td><td>$1,050</td></tr>
+                <tr><td>Dias en parques (comida preparada)</td><td>$1,000</td></tr>
+                <tr><td>Dias de traslado</td><td>$500</td></tr>
+                <tr><td>Supermercado (compra grande)</td><td>$600</td></tr>
+                <tr><td>Total comida</td><td>$3,000</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Pike Place Market: $15-25/persona para almuerzo increible</li>
+                <li class="tip">Comprar en Costco en Seattle antes de ir a los parques</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon seattle">&#127965;</span> Actividades Imperdibles</h3>
+            <ul>
+                <li class="pro">Pike Place Market (gratis para recorrer!)</li>
+                <li class="pro">Space Needle + Chihuly combo ($69)</li>
+                <li class="pro">Ferry a Bainbridge Island (escenico, ninos gratis)</li>
+                <li class="pro">Sendero Myrtle Falls - apto coches, flores silvestres!</li>
+                <li class="pro">Praderas de flores en Paradise (peak en agosto!)</li>
+                <li class="pro">Bosque Lluvioso Hoh - bosque antiguo magico</li>
+                <li class="pro">Pozas de marea en Ruby Beach</li>
+                <li class="pro">Termas Sol Duc (piscina apta para guaguas!)</li>
+                <li class="pro">Hurricane Ridge - sendero pavimentado con vistas</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon seattle">&#128161;</span> Info Clave</h3>
+            <ul>
+                <li class="tip">Entrada parques: $160 (2 pases America the Beautiful)</li>
+                <li class="tip">No se necesita reserva anticipada en Mt Rainier en 2026!</li>
+                <li class="tip">Total manejo: ~1,300 km en 10 dias</li>
+                <li class="tip">Agosto es el MEJOR mes de Seattle (24-27C, seco)</li>
+                <li class="tip">Senal limitada en parques - descargar mapas offline</li>
+                <li class="tip">Bosque Hoh: solo porta-guaguas (no coches)</li>
+                <li class="tip">CityPASS ahorra ~50% en atracciones de Seattle</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="itinerary">
+        <h3>Itinerario Sugerido de 10 Dias</h3>
+        <div class="day-row"><span class="day-num seattle">Dia 1</span><div class="day-content"><h4>Llegada a Seattle</h4><p>Vuelo SFO a SEA, recoger 2 SUVs, instalarse en Airbnb, paseo nocturno por Pike Place Market</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 2</span><div class="day-content"><h4>Dia de Ciudad en Seattle</h4><p>Pike Place Market en la manana, Space Needle + Chihuly combo, paseo por el waterfront</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 3</span><div class="day-content"><h4>Seattle + Ferry</h4><p>Museo de Cultura Pop, ferry por la tarde a Bainbridge Island, cena en Seattle</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 4</span><div class="day-content"><h4>Manejo a Mt Rainier</h4><p>~2hrs manejo a Ashford. Tarde: explorar zona Longmire, check-in en cabana</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 5</span><div class="day-content"><h4>Mt Rainier - Paradise</h4><p>Dia completo: sendero Myrtle Falls, Nisqually Vista, praderas de flores, centro de visitantes</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 6</span><div class="day-content"><h4>Mt Rainier - Sunrise</h4><p>Manana en zona Sunrise (punto mas alto en auto). Opcional: Grove of the Patriarchs</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 7</span><div class="day-content"><h4>Manejo a Peninsula Olimpica</h4><p>~4hrs manejo via Tacoma. Parada en Port Townsend. Check-in en Airbnb en Port Angeles</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 8</span><div class="day-content"><h4>Hurricane Ridge + Termas</h4><p>Manana: sendero pavimentado Hurricane Ridge. Tarde: Termas Sol Duc</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 9</span><div class="day-content"><h4>Bosque Hoh + Playas</h4><p>Manana: Hall of Mosses (1.3km). Tarde: pozas de marea en Ruby Beach</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 10</span><div class="day-content"><h4>Lake Crescent + Regreso</h4><p>Manana: caminata escenica en Lake Crescent. Manejo de vuelta a Seattle (~3hrs). Cena de despedida</p></div></div>
+        <div class="day-row"><span class="day-num seattle">Dia 11</span><div class="day-content"><h4>Vuelta a Casa</h4><p>Devolver autos en SEA, vuelo SEA a SFO</p></div></div>
+    </div>
+</div>
+
+<!-- ==================== YELLOWSTONE ==================== -->
+<div id="yellowstone" class="section">
+    <div class="dest-header">
+        <img src="https://images.unsplash.com/photo-1533419784160-1f7f79022119?w=1200&q=80" alt="Grand Prismatic Spring Yellowstone">
+        <div class="dest-header-info">
+            <h2>Yellowstone + Grand Teton</h2>
+            <p class="tagline">Geiseres, vida salvaje, canones y el parque nacional mas iconico del mundo</p>
+            <div class="price-badge yellowstone">$19,960 total <span class="price-sub">($2,218/adulto)</span></div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1533419784160-1f7f79022119?w=600&q=80" alt="Grand Prismatic Spring">
+        <img src="https://images.unsplash.com/photo-1754878302051-6087c8d632bf?w=600&q=80" alt="Old Faithful">
+        <img src="https://images.unsplash.com/photo-1588719118823-67f5177ce0b8?w=600&q=80" alt="Bisontes Yellowstone">
+        <img src="https://images.unsplash.com/photo-1625419398989-91d2226db648?w=600&q=80" alt="Grand Teton">
+        <img src="https://images.unsplash.com/photo-1509804625874-7e46d1ed36f9?w=600&q=80" alt="Yellowstone Falls">
+        <img src="https://images.unsplash.com/photo-1567556862908-c38b2665455a?w=600&q=80" alt="Morning Glory Pool">
+    </div>
+
+    <div class="cards-grid">
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#9992;</span> Vuelos</h3>
+            <table>
+                <tr><th>Item</th><th>Costo</th></tr>
+                <tr><td>9 adultos ida/vuelta (SFO-BZN)</td><td>$2,970</td></tr>
+                <tr><td>1 nino ida/vuelta (5 anos)</td><td>$330</td></tr>
+                <tr><td>2 guaguas en brazos</td><td>$0</td></tr>
+                <tr><td>Total vuelos</td><td>$3,500</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Volar a Bozeman (BZN) - mejor valor + directo</li>
+                <li class="tip">United y Alaska Airlines tienen vuelos directos</li>
+                <li class="tip">Jackson Hole (JAC) mas cerca pero $100-200 mas/persona</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#128663;</span> 2 SUVs Arriendo</h3>
+            <table>
+                <tr><th>Item</th><th>Costo</th></tr>
+                <tr><td>2 SUVs Premium x 10 dias</td><td>$5,000</td></tr>
+                <tr><td>Impuestos, seguro y cargos</td><td>$1,500</td></tr>
+                <tr><td>Total arriendo autos</td><td>$6,500</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">BZN es el aeropuerto #1 mas caro de EEUU para arriendo!</li>
+                <li class="tip">Probar local: <a href="https://www.journeyrentacar.com/suv-rental/suburban-rental/" target="_blank">Journey Rent-A-Car</a></li>
+                <li class="tip">Tambien: <a href="https://explore-rentals.com/rental-chevrolet-suburbans-in-bozeman/" target="_blank">Explore Rentals</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#127968;</span> Alojamiento</h3>
+            <table>
+                <tr><th>Propiedad</th><th>Por Noche</th><th>10 Noches</th></tr>
+                <tr><td>Faithful Street Inn (6 piezas)</td><td>$399-799</td><td>$4,000-8,000</td></tr>
+                <tr><td>Yellowstone Escapes (6-7 piezas)</td><td>$500-800</td><td>$5,000-8,000</td></tr>
+                <tr><td>Estimado total con cargos</td><td>~$650</td><td>$6,500</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Quedarse en West Yellowstone (1.6km de la entrada)</li>
+                <li class="tip">Llamar Faithful Street Inn: (866) 646-4329</li>
+                <li class="tip">Llamar Yellowstone Escapes: (208) 270-7591</li>
+                <li class="tip"><a href="https://yellowstoneescapes.com/properties/" target="_blank">Ver todas las propiedades</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#127860;</span> Comida</h3>
+            <table>
+                <tr><th>Categoria</th><th>Costo</th></tr>
+                <tr><td>Supermercado (cocinar mayoria)</td><td>$900</td></tr>
+                <tr><td>Comer afuera (3-4 cenas)</td><td>$500</td></tr>
+                <tr><td>Almuerzos y snacks para llevar</td><td>$250</td></tr>
+                <tr><td>Total comida</td><td>$1,650</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Comprar en Costco y Albertsons en Bozeman</li>
+                <li class="tip">Food Roundup en West Yellowstone para reabastecerse</li>
+                <li class="tip">Llevar cooler con almuerzos para paseos diarios al parque</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#127755;</span> Actividades Imperdibles</h3>
+            <ul>
+                <li class="pro">Old Faithful - erupciona cada ~90 min</li>
+                <li class="pro">Grand Prismatic Spring - pasarela plana de 1.3km</li>
+                <li class="pro">Lamar Valley - lobos, bisontes desde el auto!</li>
+                <li class="pro">Gran Canon de Yellowstone - vista Artist Point</li>
+                <li class="pro">Mammoth Hot Springs - terrazas de travertino</li>
+                <li class="pro">Fountain Paint Pots - a los ninos les encanta el barro</li>
+                <li class="pro">Grand Teton - Crucero Jenny Lake ($30/adulto)</li>
+                <li class="pro">Jackson Hole - plaza del pueblo, rodeo</li>
+                <li class="pro">Grizzly & Wolf Discovery Center (dia lluvioso)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon yellowstone">&#128161;</span> Info Clave</h3>
+            <ul>
+                <li class="tip">Entrada parques: $160 (2 pases America the Beautiful)</li>
+                <li class="tip">Grand Loop Road: 228 km (manejar lento, con paradas)</li>
+                <li class="tip">Altitud: 2,300m+ - aclimatarse dia 1, tomar mucha agua</li>
+                <li class="tip">Dia: 21-29C / Noche: 2-7C - llevar capas!</li>
+                <li class="tip">QUEDARSE EN PASARELAS - suelo fino sobre agua hirviendo</li>
+                <li class="tip">Mantener 100m de osos, 25m de bisontes</li>
+                <li class="tip">Senal de celular muy limitada - descargar mapas offline</li>
+                <li class="tip">Los bisontes lastiman mas visitantes que cualquier animal</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="itinerary">
+        <h3>Itinerario Sugerido de 10 Dias</h3>
+        <div class="day-row"><span class="day-num yellowstone">Dia 1</span><div class="day-content"><h4>Llegada a Bozeman</h4><p>Vuelo SFO a BZN. Recoger 2 SUVs. Parar en Costco/Albertsons. Manejar a West Yellowstone (1h45m). Instalarse.</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 2</span><div class="day-content"><h4>Upper Geyser Basin</h4><p>Old Faithful, Grand Prismatic, Fountain Paint Pots, Biscuit Basin. Todo accesible por pasarelas!</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 3</span><div class="day-content"><h4>Canyon Country</h4><p>Gran Canon de Yellowstone, Artist Point, vida silvestre en Hayden Valley al atardecer</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 4</span><div class="day-content"><h4>Mammoth y Lamar Valley</h4><p>Manana: terrazas de Mammoth Hot Springs. Tarde/atardecer: manejo por Lamar Valley viendo animales</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 5</span><div class="day-content"><h4>Dia de Descanso</h4><p>Dormir hasta tarde! Grizzly & Wolf Discovery Center. Pueblo de West Yellowstone. IMAX. Tarde relajada.</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 6</span><div class="day-content"><h4>Grand Teton - Norte</h4><p>Manejar al sur a Grand Teton. Oxbow Bend, Colter Bay, vistas desde Signal Mountain</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 7</span><div class="day-content"><h4>Grand Teton - Jenny Lake</h4><p>Crucero escenico por Jenny Lake, Mormon Row, tarde en pueblo de Jackson</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 8</span><div class="day-content"><h4>Jackson Hole</h4><p>Plaza del pueblo, rodeo (mie/sab), compras, Museo Nacional de Arte de Vida Silvestre</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 9</span><div class="day-content"><h4>Yellowstone Otra Vez</h4><p>Revisitar favoritos o explorar Midway Geyser Basin, Norris Geyser Basin, o Firehole Swimming Area</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 10</span><div class="day-content"><h4>Amanecer en Lamar Valley + Despedida</h4><p>Madrugar para Lamar Valley (mejor vida silvestre). Empacar. Cena de despedida.</p></div></div>
+        <div class="day-row"><span class="day-num yellowstone">Dia 11</span><div class="day-content"><h4>Vuelta a Casa</h4><p>Manejar a Bozeman (1h45m). Devolver SUVs. Vuelo BZN a SFO.</p></div></div>
+    </div>
+</div>
+
+<!-- ==================== BANFF ==================== -->
+<div id="banff" class="section">
+    <div class="dest-header">
+        <img src="https://images.unsplash.com/flagged/photo-1556669546-b1f29875df1c?w=1200&q=80" alt="Moraine Lake Banff">
+        <div class="dest-header-info">
+            <h2>Parque Nacional Banff (Canada)</h2>
+            <p class="tagline">Lagos turquesa, picos imponentes, glaciares y las Rocosas Canadienses</p>
+            <div class="price-badge banff">$16,503 total <span class="price-sub">($1,834/adulto)</span></div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/flagged/photo-1556669546-b1f29875df1c?w=600&q=80" alt="Moraine Lake">
+        <img src="https://images.unsplash.com/photo-1752035682765-85b0b13a51bd?w=600&q=80" alt="Lake Louise">
+        <img src="https://images.unsplash.com/photo-1696206345903-39b09d664efe?w=600&q=80" alt="Icefields Parkway">
+        <img src="https://images.unsplash.com/photo-1698523745205-0933bca7b9c5?w=600&q=80" alt="Johnston Canyon">
+        <img src="https://images.unsplash.com/photo-1566215461119-1a3d6094cdb4?w=600&q=80" alt="Pueblo de Banff">
+        <img src="https://images.unsplash.com/photo-1659221483768-451d7ff5f3c0?w=600&q=80" alt="Peyto Lake">
+    </div>
+
+    <div class="cards-grid">
+        <div class="card">
+            <h3><span class="card-icon banff">&#9992;</span> Vuelos</h3>
+            <table>
+                <tr><th>Item</th><th>Costo</th></tr>
+                <tr><td>9 adultos ida/vuelta (SFO-YYC)</td><td>$2,520</td></tr>
+                <tr><td>1 nino ida/vuelta (5 anos)</td><td>$280</td></tr>
+                <tr><td>2 guaguas en brazos</td><td>$50</td></tr>
+                <tr><td>Total vuelos</td><td>$2,850</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Vuelos directos en WestJet y United (2h15m)</li>
+                <li class="tip">WestJet generalmente mas barato con mejor equipaje</li>
+                <li class="tip">Internacional: guaguas en brazos pueden tener cargo pequeno</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon banff">&#128663;</span> 2 SUVs Arriendo</h3>
+            <table>
+                <tr><th>Item</th><th>Costo (USD)</th></tr>
+                <tr><td>2 SUVs grandes x 10 dias</td><td>$1,752</td></tr>
+                <tr><td>Seguro/CDW</td><td>$430</td></tr>
+                <tr><td>Impuestos y cargos (~25%)</td><td>$475</td></tr>
+                <tr><td>Total arriendo autos</td><td>$2,700</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Calgary mucho mas barato que Bozeman!</li>
+                <li class="tip">Alberta exime arriendos &lt;14 dias de ley de sillas</li>
+                <li class="tip">Igual llevar sillas propias por seguridad</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon banff">&#127968;</span> Alojamiento</h3>
+            <table>
+                <tr><th>Opcion</th><th>Por Noche</th><th>10 Noches (USD)</th></tr>
+                <tr><td>Panorama 5 piezas (VRBO)</td><td>CA$450-476</td><td>$3,200-3,400</td></tr>
+                <tr><td>Casa 5 piezas (Airbnb)</td><td>CA$500-700</td><td>$3,550-4,970</td></tr>
+                <tr><td>Estimado total con cargos</td><td>-</td><td>$3,550</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Quedarse en Canmore (mas barato, mejor super, 20min a Banff)</li>
+                <li class="tip">Una sola base para las 10 noches!</li>
+                <li class="tip"><a href="https://www.vrbo.com/1702721" target="_blank">VRBO #1702721</a> - 5 piezas/4.5 banos, jacuzzi, vista a montanas!</li>
+                <li class="tip">Llamar Spring Creek: 1.877.678.5511</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon banff">&#127860;</span> Comida</h3>
+            <table>
+                <tr><th>Categoria</th><th>Costo (USD)</th></tr>
+                <tr><td>Supermercado (mayoria de comidas en casa)</td><td>$2,190</td></tr>
+                <tr><td>Comer afuera (3-4 cenas)</td><td>$1,460</td></tr>
+                <tr><td>Cafe/snacks en el camino</td><td>$438</td></tr>
+                <tr><td>Total comida</td><td>$4,088</td></tr>
+            </table>
+            <ul style="margin-top:12px">
+                <li class="tip">Precios canadienses 15-25% mas altos que EEUU</li>
+                <li class="tip">Save-On-Foods y Safeway en Canmore</li>
+                <li class="tip">Propina: igual que en EEUU (15-20%)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon banff">&#9968;</span> Actividades Imperdibles</h3>
+            <ul>
+                <li class="pro">Lake Louise - lago glaciar turquesa, sendero plano</li>
+                <li class="pro">Moraine Lake - "lago mas bello" (requiere shuttle)</li>
+                <li class="pro">Icefields Parkway - la ruta mas escenica del mundo</li>
+                <li class="pro">Johnston Canyon - pasarelas en paredes del canon</li>
+                <li class="pro">Gondola de Banff - vistas 360 grados desde la cumbre</li>
+                <li class="pro">Columbia Icefield - manejar sobre un glaciar!</li>
+                <li class="pro">Crucero en Lake Minnewanka</li>
+                <li class="pro">Termas de Banff</li>
+                <li class="pro">Yoho NP - Takakkaw Falls (30 min de Lake Louise)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon banff">&#128161;</span> Info Clave</h3>
+            <ul>
+                <li class="tip" style="font-weight:700; color:#16a34a;">ENTRADA A PARQUES ES GRATIS (Canada Strong Pass)!</li>
+                <li class="tip">Todos (incluidas guaguas) necesitan pasaporte</li>
+                <li class="tip">Ciudadanos EEUU: no necesitan visa/eTA para Canada</li>
+                <li class="tip">Solicitar pasaportes de guaguas AHORA (6-8 semanas)</li>
+                <li class="tip">Abr 15 a las 8am MT: reserva shuttle Moraine Lake</li>
+                <li class="tip">Dia: 20-25C / Noche: 5-8C - llevar ropa abrigada!</li>
+                <li class="tip">Posible humo de incendios - monitorear calidad del aire</li>
+                <li class="tip">Comprar spray anti-osos en Canmore (no se puede volar con el)</li>
+                <li class="tip">Roaming celular: ~$10/dia (T-Mobile puede ser gratis)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="background: #fef2f2; border: 2px solid #fecaca; border-radius: 12px; padding: 24px; margin-bottom: 32px;">
+        <h3 style="color: #dc2626; margin-bottom: 8px;">&#9888; Requisito de Pasaporte</h3>
+        <p style="color: #991b1b; font-size: 0.95rem;">Todas las personas que viajen a Canada, <strong>incluidas las guaguas</strong>, necesitan un pasaporte americano vigente. Solicitar pasaportes de guaguas AHORA - el tramite demora 6-8 semanas. Ambos padres deben presentarse en persona para la primera solicitud de pasaporte de un menor.</p>
+    </div>
+
+    <div class="itinerary">
+        <h3>Itinerario Sugerido de 10 Dias</h3>
+        <div class="day-row"><span class="day-num banff">Dia 1</span><div class="day-content"><h4>Llegada a Calgary</h4><p>Vuelo SFO a YYC. Recoger 2 SUVs. Manejar a Canmore (1h15m). Compras en Save-On-Foods. Instalarse.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 2</span><div class="day-content"><h4>Pueblo de Banff + Gondola</h4><p>Explorar Banff. Gondola de Banff. Caminata Bow Falls. Cascade Gardens. Dia tranquilo.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 3</span><div class="day-content"><h4>Lake Louise</h4><p>Llegar a las 7am! Sendero costero (apto coches). Tarde: Gondola de Lake Louise.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 4</span><div class="day-content"><h4>Moraine Lake + Relajo</h4><p>Manana: shuttle a Moraine Lake. Tarde: Two Jack Lake o Cascade Ponds (area de juegos).</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 5</span><div class="day-content"><h4>Johnston Canyon + Crucero</h4><p>Manana: caminata Johnston Canyon (ir temprano). Tarde: crucero en Lake Minnewanka.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 6</span><div class="day-content"><h4>Dia de Descanso - Canmore</h4><p>Explorar Canmore. Senderos del Nordic Centre (planos, aptos coches). Tiendas, cafes. Las guaguas necesitan descanso!</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 7</span><div class="day-content"><h4>Paseo a Icefields Parkway</h4><p>Dia completo! Bow Lake, Peyto Lake, Columbia Icefield Adventure. Llevar almuerzos. Cargar bencina.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 8</span><div class="day-content"><h4>Kootenay NP + Termas</h4><p>Paseo: Marble Canyon, Paint Pots (apto coches), bano en Radium Hot Springs.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 9</span><div class="day-content"><h4>Yoho NP</h4><p>Takakkaw Falls (caminata corta), Natural Bridge. O volver a zona Lake Louise.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 10</span><div class="day-content"><h4>Dia de Despedida</h4><p>Amanecer en Vermilion Lakes. Termas de Banff. Ultimas compras. Cena de despedida.</p></div></div>
+        <div class="day-row"><span class="day-num banff">Dia 11</span><div class="day-content"><h4>Vuelta a Casa</h4><p>Manejar Canmore a Calgary (1h15m). Devolver SUVs. Vuelo YYC a SFO.</p></div></div>
+    </div>
+</div>
+
+</div>
+
+<div class="footer">
+    <p>Zabala's Trip - Preparado el 16 de Febrero, 2026</p>
+    <p>Todos los precios son estimaciones basadas en datos actuales. Confirmar precios mas cerca de la fecha del viaje.</p>
+</div>
+
+<script>
+    function showTab(tabName) {
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        document.getElementById(tabName).classList.add('active');
+        document.querySelectorAll('.nav-tab').forEach(t => {
+            t.className = 'nav-tab';
+            if (t.dataset.tab === tabName) t.classList.add('active-' + tabName);
+        });
+        window.scrollTo({ top: document.querySelector('.nav-tabs').offsetTop - 10, behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>

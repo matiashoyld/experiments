@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp.*
+.yarn/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large binary files
+*.mp3
+*.mp4
+*.wav
+*.pptx
+*.ppt
+
+# Generated output (keep tracked ones, ignore new)
+*.pdf

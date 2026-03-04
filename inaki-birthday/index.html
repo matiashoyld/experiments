@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Iñaki cumple 5!</title>
+
+  <!-- Open Graph / WhatsApp preview -->
+  <meta property="og:title" content="¡Iñaki cumple 5!">
+  <meta property="og:description" content="Este mini Mandalorian te invita a una aventura. 26 de Febrero, 18:00 hs.">
+  <meta property="og:image" content="https://inaki-birthday.vercel.app/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="674">
+  <meta property="og:url" content="https://inaki-birthday.vercel.app">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #000;
+      color: #e0e0e0;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ===== HYPERSPACE OVERLAY ===== */
+    #hyperspace {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #000;
+      pointer-events: none;
+    }
+
+    #hyperspace.done {
+      animation: hyperspaceFade 0.8s ease forwards;
+    }
+
+    @keyframes hyperspaceFade {
+      0% { opacity: 1; }
+      100% { opacity: 0; pointer-events: none; }
+    }
+
+    /* Hide page content until hyperspace is done */
+    .page { opacity: 0; }
+    .page.revealed { animation: fadeIn 0.5s ease forwards; }
+
+    /* ===== STAR FIELD (Canvas) ===== */
+    #starfield {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* ===== LIGHTSABER CURSOR TRAIL ===== */
+    #cursor-trail {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* ===== SCROLL CONTAINER ===== */
+    .page {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      overflow: hidden;
+    }
+
+    .crawl-intro {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 400;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #4fc3f7;
+      margin-bottom: 16px;
+      max-width: 380px;
+      line-height: 1.6;
+      text-align: center;
+      opacity: 0;
+      animation: flicker 2s ease forwards 0.2s;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 0; }
+      20% { opacity: 0.8; }
+      25% { opacity: 0.3; }
+      30% { opacity: 0.9; }
+      35% { opacity: 0.5; }
+      40% { opacity: 1; }
+      100% { opacity: 1; }
+    }
+
+    .hero-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4rem;
+      font-weight: 900;
+      color: #ffd700;
+      text-shadow:
+        0 0 10px rgba(255, 215, 0, 0.8),
+        0 0 40px rgba(255, 215, 0, 0.4),
+        0 0 80px rgba(255, 215, 0, 0.2),
+        0 4px 0 #b8860b;
+      margin-bottom: 4px;
+      opacity: 0;
+      animation: titleReveal 1.2s ease forwards 0.8s;
+    }
+
+    /* ===== CUMPLE 5 with animated lightsaber "5" ===== */
+    .hero-subtitle {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #ffd700;
+      text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      margin-bottom: 30px;
+      opacity: 0;
+      animation: titleReveal 1s ease forwards 1.2s;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .animated-five {
+      position: relative;
+      display: inline-block;
+    }
+
+    .animated-five .five-text {
+      position: relative;
+      z-index: 1;
+      background: linear-gradient(180deg, #ffd700 0%, #ff8c00 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: 2.6rem;
+      font-weight: 900;
+    }
+
+    .animated-five .five-glow {
+      position: absolute;
+      inset: -8px;
+      background: radial-gradient(ellipse at center, rgba(79, 195, 247, 0.4) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: saberPulse 2.5s ease-in-out infinite;
+      z-index: 0;
+    }
+
+    .animated-five .five-slash {
+      position: absolute;
+      top: -20%;
+      left: -30%;
+      width: 160%;
+      height: 140%;
+      overflow: hidden;
+      z-index: 2;
+      pointer-events: none;
+      opacity: 0;
+      animation: slashReveal 0.6s ease forwards 1.8s;
+    }
+
+    .animated-five .five-slash::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -100%;
+      width: 200%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #4fc3f7, #fff, #4fc3f7, transparent);
+      transform: rotate(-35deg);
+      box-shadow: 0 0 10px #4fc3f7, 0 0 30px rgba(79, 195, 247, 0.5);
+      animation: slashMove 0.5s ease forwards 2s;
+    }
+
+    @keyframes slashReveal {
+      to { opacity: 1; }
+    }
+
+    @keyframes slashMove {
+      0% { left: -100%; }
+      100% { left: 100%; }
+    }
+
+    @keyframes saberPulse {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.15); }
+    }
+
+    .hero-tagline {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 0.5);
+      font-style: italic;
+      margin-bottom: 28px;
+      max-width: 340px;
+      line-height: 1.5;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1.6s;
+    }
+
+    @keyframes titleReveal {
+      0% { opacity: 0; transform: scale(0.5); filter: blur(10px); }
+      60% { filter: blur(0); }
+      100% { opacity: 1; transform: scale(1); filter: blur(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== HERO PHOTO ===== */
+    .hero-photo {
+      position: relative;
+      width: 320px;
+      max-width: 85vw;
+      margin-bottom: 30px;
+      opacity: 0;
+      animation: photoReveal 1.5s ease forwards 1.8s;
+    }
+
+    @keyframes photoReveal {
+      0% { opacity: 0; transform: translateY(40px) scale(0.9); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .photo-wrapper {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow:
+        0 0 30px rgba(255, 215, 0, 0.3),
+        0 0 60px rgba(255, 165, 0, 0.15),
+        0 20px 60px rgba(0, 0, 0, 0.8);
+    }
+
+    .photo-wrapper::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #ffd700, transparent 40%, transparent 60%, #ff6b00);
+      z-index: -1;
+    }
+
+    .photo-wrapper img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      border: 2px solid rgba(255, 215, 0, 0.3);
+    }
+
+    .photo-wrapper::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 40%;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+      border-radius: 0 0 20px 20px;
+      pointer-events: none;
+    }
+
+    /* Scroll indicator */
+    .scroll-hint {
+      margin-top: 20px;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 2.5s;
+    }
+
+    .scroll-arrow {
+      width: 24px;
+      height: 24px;
+      border-right: 2px solid rgba(255, 215, 0, 0.4);
+      border-bottom: 2px solid rgba(255, 215, 0, 0.4);
+      transform: rotate(45deg);
+      animation: bounce 2s ease infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: rotate(45deg) translateY(0); }
+      50% { transform: rotate(45deg) translateY(8px); }
+    }
+
+    /* ===== LIGHTSABER DIVIDER ===== */
+    .lightsaber-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      padding: 30px 20px;
+      opacity: 0;
+    }
+
+    .lightsaber-divider.visible { animation: fadeIn 0.6s ease forwards; }
+
+    .saber-hilt {
+      width: 30px;
+      height: 8px;
+      background: linear-gradient(to right, #555, #888, #555);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .saber-blade {
+      height: 3px;
+      flex: 1;
+      max-width: 120px;
+      border-radius: 2px;
+    }
+
+    .saber-blade.left {
+      background: linear-gradient(to left, #4fc3f7, rgba(79, 195, 247, 0));
+      box-shadow: 0 0 8px #4fc3f7, 0 0 20px rgba(79, 195, 247, 0.5);
+    }
+
+    .saber-blade.right {
+      background: linear-gradient(to right, #4fc3f7, rgba(79, 195, 247, 0));
+      box-shadow: 0 0 8px #4fc3f7, 0 0 20px rgba(79, 195, 247, 0.5);
+    }
+
+    /* ===== SECTIONS ===== */
+    .section {
+      padding: 20px 20px 40px;
+      max-width: 560px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .section-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #4fc3f7;
+      margin-bottom: 28px;
+      opacity: 0;
+    }
+
+    .section-title.visible { animation: fadeInUp 0.6s ease forwards; }
+
+    /* Detail cards */
+    .details-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      opacity: 0;
+    }
+
+    .details-grid.visible { animation: fadeInUp 0.6s ease forwards 0.1s; }
+
+    .detail-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 24px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(79, 195, 247, 0.1);
+      border-radius: 12px;
+      transition: border-color 0.3s ease, background 0.3s ease;
+    }
+
+    .detail-card:hover {
+      border-color: rgba(79, 195, 247, 0.3);
+      background: rgba(79, 195, 247, 0.05);
+    }
+
+    .detail-icon {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(79, 195, 247, 0.1);
+      border-radius: 10px;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    .detail-info { text-align: left; }
+
+    .detail-label {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 2px;
+    }
+
+    .detail-value {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    /* ===== GIFTS ===== */
+    .gifts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      max-width: 420px;
+      margin: 0 auto;
+      opacity: 0;
+    }
+
+    .gifts-grid.visible { animation: fadeInUp 0.6s ease forwards 0.1s; }
+
+    .gift-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 14px;
+      background: rgba(255, 215, 0, 0.04);
+      border: 1px solid rgba(255, 215, 0, 0.08);
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #ccc;
+      transition: all 0.3s ease;
+    }
+
+    .gift-item:hover {
+      border-color: rgba(255, 215, 0, 0.25);
+      background: rgba(255, 215, 0, 0.08);
+      color: #fff;
+    }
+
+    .gift-icon { font-size: 1.2rem; flex-shrink: 0; }
+
+    /* ===== RSVP ===== */
+    .rsvp-section {
+      padding: 40px 20px 60px;
+      max-width: 560px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .cta-button {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 18px 44px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #000;
+      background: linear-gradient(135deg, #ffd700, #ffb300);
+      border: none;
+      border-radius: 60px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow:
+        0 4px 20px rgba(255, 215, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+      opacity: 0;
+      animation: fadeInUp 0.8s ease forwards 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow:
+        0 8px 40px rgba(255, 215, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    }
+
+    .cta-button:active { transform: translateY(0) scale(1); }
+
+    /* ===== FORM ===== */
+    .form-container {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+      opacity: 0;
+    }
+
+    .form-container.open {
+      max-height: 650px;
+      opacity: 1;
+    }
+
+    .form-inner {
+      padding: 28px 24px;
+      margin-top: 24px;
+      background: rgba(10, 15, 30, 0.9);
+      border: 1px solid rgba(79, 195, 247, 0.15);
+      border-radius: 16px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+      text-align: left;
+    }
+
+    .form-group label {
+      display: block;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #4fc3f7;
+      margin-bottom: 8px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 14px 16px;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(79, 195, 247, 0.15);
+      border-radius: 10px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: #4fc3f7;
+      box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.1);
+      background: rgba(79, 195, 247, 0.03);
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: rgba(255, 255, 255, 0.2);
+    }
+
+    .form-group textarea { resize: vertical; min-height: 60px; }
+    .number-inputs { display: flex; gap: 14px; }
+    .number-inputs .form-group { flex: 1; }
+
+    .submit-button {
+      width: 100%;
+      padding: 16px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000;
+      background: linear-gradient(135deg, #4fc3f7, #0288d1);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 8px;
+      box-shadow: 0 4px 15px rgba(79, 195, 247, 0.3);
+    }
+
+    .submit-button:hover {
+      box-shadow: 0 6px 25px rgba(79, 195, 247, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .submit-button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    /* ===== SUCCESS ===== */
+    .success-message { display: none; padding: 40px 20px; text-align: center; }
+    .success-message.show { display: block; animation: fadeInUp 0.6s ease; }
+
+    .success-photo {
+      width: 280px;
+      max-width: 85vw;
+      margin: 0 auto 24px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow:
+        0 0 25px rgba(79, 195, 247, 0.3),
+        0 0 50px rgba(79, 195, 247, 0.15),
+        0 15px 40px rgba(0, 0, 0, 0.6);
+      border: 2px solid rgba(79, 195, 247, 0.3);
+    }
+
+    .success-photo img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .success-text {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #ffd700;
+      margin-bottom: 10px;
+    }
+
+    .success-subtext {
+      font-size: 1.05rem;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.6);
+      font-style: italic;
+    }
+
+    .error-message { display: none; color: #ff5252; font-size: 0.85rem; margin-top: 12px; text-align: center; }
+    .error-message.show { display: block; }
+
+    /* ===== GIFTS BUTTON ===== */
+    .gifts-button {
+      display: inline-block;
+      padding: 12px 32px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.6);
+      background: transparent;
+      border: 1px solid rgba(255, 215, 0, 0.2);
+      border-radius: 60px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .gifts-button:hover {
+      color: #ffd700;
+      border-color: rgba(255, 215, 0, 0.5);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+    }
+
+    /* ===== STAR WARS CRAWL OVERLAY ===== */
+    .crawl-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      background: #000;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .crawl-overlay.open {
+      display: block;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .crawl-close {
+      position: fixed;
+      top: 20px; right: 24px;
+      z-index: 101;
+      background: none;
+      border: none;
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 2rem;
+      cursor: pointer;
+      transition: color 0.2s;
+      line-height: 1;
+    }
+
+    .crawl-close:hover { color: #fff; }
+
+    .crawl-hint {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 101;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.3);
+      letter-spacing: 2px;
+    }
+
+    .crawl-perspective {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      perspective: 350px;
+      overflow: hidden;
+    }
+
+    .crawl-container {
+      position: absolute;
+      top: 100%;
+      width: 90%;
+      max-width: 500px;
+      transform-origin: 50% 100%;
+      transform: rotateX(22deg);
+      animation: crawlScroll 35s linear forwards;
+    }
+
+    .crawl-overlay.open .crawl-container {
+      animation: crawlScroll 35s linear forwards;
+    }
+
+    @keyframes crawlScroll {
+      0% { top: 100%; }
+      100% { top: -180%; }
+    }
+
+    .crawl-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.8;
+      color: #ffd700;
+      text-align: center;
+    }
+
+    .crawl-text .crawl-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      letter-spacing: 3px;
+    }
+
+    .crawl-text p {
+      margin-bottom: 24px;
+    }
+
+    .crawl-text .crawl-list {
+      list-style: none;
+      margin: 20px 0 30px;
+      padding: 0;
+    }
+
+    .crawl-text .crawl-list li {
+      padding: 6px 0;
+      font-size: 1.3rem;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      text-align: center;
+      padding: 30px 20px 40px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 4px;
+      color: rgba(255, 215, 0, 0.25);
+    }
+
+    /* ===== FLOATING PARTICLES ===== */
+    .particle {
+      position: fixed;
+      width: 2px; height: 2px;
+      background: #ffd700;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0;
+      animation: float-particle linear infinite;
+    }
+
+    @keyframes float-particle {
+      0% { opacity: 0; transform: translateY(100vh) scale(0); }
+      10% { opacity: 0.8; }
+      90% { opacity: 0.8; }
+      100% { opacity: 0; transform: translateY(-20vh) scale(1); }
+    }
+
+    /* ===== SCROLL ANIMATIONS ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 480px) {
+      .hero { padding: 30px 16px; min-height: 100svh; }
+      .hero-title { font-size: 3rem; }
+      .hero-subtitle { font-size: 1.4rem; }
+      .animated-five .five-text { font-size: 2rem; }
+      .hero-photo { width: 280px; }
+      .section { padding: 16px 16px 32px; }
+      .detail-card { padding: 14px 16px; gap: 12px; }
+      .detail-value { font-size: 1.05rem; }
+      .crawl-text { font-size: 1.2rem; }
+      .crawl-text .crawl-title { font-size: 1.4rem; }
+      .cta-button { padding: 16px 32px; font-size: 0.8rem; width: 100%; }
+      .number-inputs { flex-direction: column; gap: 0; }
+      .form-inner { padding: 24px 16px; }
+      .crawl-intro { font-size: 0.75rem; letter-spacing: 3px; }
+    }
+
+    @media (max-width: 360px) {
+      .hero-title { font-size: 2.5rem; }
+      .hero-subtitle { font-size: 1.2rem; }
+      .animated-five .five-text { font-size: 1.8rem; }
+      .hero-photo { width: 240px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hyperspace overlay -->
+  <canvas id="hyperspace"></canvas>
+
+  <!-- Star field canvas -->
+  <canvas id="starfield"></canvas>
+
+  <!-- Lightsaber cursor trail -->
+  <canvas id="cursor-trail"></canvas>
+
+  <!-- Floating particles -->
+  <div id="particles"></div>
+
+  <div class="page" id="page">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <p class="crawl-intro">Este mini Mandalorian te invita a una aventura</p>
+      <h1 class="hero-title">IÑAKI</h1>
+      <p class="hero-subtitle">
+        CUMPLE
+        <span class="animated-five">
+          <span class="five-glow"></span>
+          <span class="five-text">5</span>
+          <span class="five-slash"></span>
+        </span>
+      </p>
+      <div class="hero-photo">
+        <div class="photo-wrapper">
+          <img src="inaki_mandalorian.jpeg" alt="Iñaki como el Mandalorian con Grogu">
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ===== LIGHTSABER DIVIDER ===== -->
+    <div class="lightsaber-divider reveal">
+      <div class="saber-blade left"></div>
+      <div class="saber-hilt"></div>
+      <div class="saber-blade right"></div>
+    </div>
+
+    <!-- ===== EVENT DETAILS ===== -->
+    <section class="section">
+      <h2 class="section-title reveal">Cuándo y Dónde</h2>
+      <div class="details-grid reveal">
+        <div class="detail-card">
+          <div class="detail-icon">📅</div>
+          <div class="detail-info">
+            <div class="detail-label">Fecha</div>
+            <div class="detail-value">26 de Febrero</div>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-icon">⏰</div>
+          <div class="detail-info">
+            <div class="detail-label">Hora</div>
+            <div class="detail-value">18:00 hs</div>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-icon">📍</div>
+          <div class="detail-info">
+            <div class="detail-label">Ubicación</div>
+            <div class="detail-value">Camino de las Ermitas 4306</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LIGHTSABER DIVIDER ===== -->
+    <div class="lightsaber-divider reveal">
+      <div class="saber-blade left"></div>
+      <div class="saber-hilt"></div>
+      <div class="saber-blade right"></div>
+    </div>
+
+    <!-- ===== RSVP ===== -->
+    <section class="rsvp-section" id="rsvp-section">
+      <h2 class="section-title reveal" style="margin-bottom: 24px;">Confirma tu asistencia</h2>
+
+      <button class="cta-button" id="rsvp-toggle" onclick="toggleForm()">
+        Confirmar Asistencia
+      </button>
+
+      <div class="form-container" id="form-container">
+        <div class="form-inner">
+          <form id="rsvp-form" onsubmit="submitForm(event)">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="number-inputs">
+              <div class="form-group">
+                <label for="adultos">Adultos</label>
+                <input type="number" id="adultos" name="adultos" min="0" max="20" value="1" required>
+              </div>
+              <div class="form-group">
+                <label for="ninos">Niños</label>
+                <input type="number" id="ninos" name="ninos" min="0" max="20" value="0" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="notas">Notas / Alergias <span style="opacity:0.4; font-weight:400;">(opcional)</span></label>
+              <textarea id="notas" name="notas" placeholder="Alguna alergia o nota..."></textarea>
+            </div>
+            <button type="submit" class="submit-button" id="submit-btn">Enviar</button>
+            <div class="error-message" id="error-msg">Hubo un error. Por favor intentá de nuevo.</div>
+          </form>
+        </div>
+      </div>
+
+      <div class="success-message" id="success-msg">
+        <div class="success-photo">
+          <img src="inaki_luke.jpeg" alt="Iñaki con Luke Skywalker y R2-D2">
+        </div>
+        <p class="success-text">¡Nos vemos!</p>
+        <p class="success-subtext">Que la fuerza te acompañe</p>
+      </div>
+    </section>
+
+    <!-- ===== GIFT IDEAS ===== -->
+    <section class="section">
+      <button class="gifts-button reveal" onclick="openGiftsModal()">Ideas de Regalos</button>
+    </section>
+
+    <!-- Star Wars Crawl for Gifts -->
+    <div class="crawl-overlay" id="gifts-crawl" onclick="closeGiftsCrawl(event)">
+      <button class="crawl-close" onclick="closeGiftsCrawl()">&times;</button>
+      <div class="crawl-perspective">
+        <div class="crawl-container" id="crawl-container">
+          <div class="crawl-text">
+            <div class="crawl-title">IDEAS DE REGALOS</div>
+            <p>Si quieres traer algo, aquí van algunas pistas de lo que le gusta a Iñaki...</p>
+            <p>Le encantan los Legos. Cualquier set lo hace feliz, pero si es de Star Wars, mejor todavía.</p>
+            <p>En general, cualquier cosa de Star Wars es un acierto seguro. Naves, figuras, lo que sea.</p>
+            <p>También le gustan los autos, aviones y lanchas militares de juguete. De esos que resisten batallas.</p>
+            <p>Binoculares, para explorar el mundo como un verdadero Mandalorian.</p>
+            <p>Y libros. De aventuras, de ciencia, de lo que sea. Le gusta que le lean antes de dormir.</p>
+            <p>Pero lo más importante es que vengas a pasarla bien.</p>
+          </div>
+        </div>
+      </div>
+      <div class="crawl-hint">Toca para cerrar</div>
+    </div>
+
+    <div class="footer">THIS IS THE WAY</div>
+
+  </div>
+
+  <script>
+    // ============================================
+    // HYPERSPACE JUMP ON LOAD
+    // ============================================
+    (function() {
+      const canvas = document.getElementById('hyperspace');
+      const ctx = canvas.getContext('2d');
+      let stars = [];
+      let phase = 'idle'; // idle -> stretch -> flash -> done
+      let timer = 0;
+      const STRETCH_DURATION = 60;  // frames
+      const FLASH_DURATION = 15;
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      function init() {
+        resize();
+        stars = [];
+        const cx = canvas.width / 2;
+        const cy = canvas.height / 2;
+        for (let i = 0; i < 400; i++) {
+          const angle = Math.random() * Math.PI * 2;
+          const dist = Math.random() * Math.max(canvas.width, canvas.height) * 0.6;
+          stars.push({
+            x: cx + Math.cos(angle) * dist,
+            y: cy + Math.sin(angle) * dist,
+            z: Math.random() * 1500 + 200,
+            size: Math.random() * 1.5 + 0.5,
+            color: Math.random() > 0.8 ? '#4fc3f7' : (Math.random() > 0.5 ? '#ffd700' : '#fff')
+          });
+        }
+        phase = 'stretch';
+        timer = 0;
+        draw();
+      }
+
+      function draw() {
+        ctx.fillStyle = '#000';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        const cx = canvas.width / 2;
+        const cy = canvas.height / 2;
+
+        if (phase === 'stretch') {
+          timer++;
+          const progress = timer / STRETCH_DURATION;
+          const streakLength = progress * progress * 200; // accelerating
+
+          stars.forEach(s => {
+            const dx = s.x - cx;
+            const dy = s.y - cy;
+            const angle = Math.atan2(dy, dx);
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            // Star point
+            const sx = cx + dx;
+            const sy = cy + dy;
+            // Streak end (stretches outward from center)
+            const ex = sx + Math.cos(angle) * streakLength * (dist / 400);
+            const ey = sy + Math.sin(angle) * streakLength * (dist / 400);
+
+            const gradient = ctx.createLinearGradient(sx, sy, ex, ey);
+            gradient.addColorStop(0, 'rgba(255,255,255,0)');
+            gradient.addColorStop(1, s.color);
+
+            ctx.beginPath();
+            ctx.moveTo(sx, sy);
+            ctx.lineTo(ex, ey);
+            ctx.strokeStyle = gradient;
+            ctx.lineWidth = s.size * (1 + progress);
+            ctx.globalAlpha = 0.4 + progress * 0.6;
+            ctx.stroke();
+          });
+
+          if (timer >= STRETCH_DURATION) {
+            phase = 'flash';
+            timer = 0;
+          }
+          requestAnimationFrame(draw);
+
+        } else if (phase === 'flash') {
+          timer++;
+          const progress = timer / FLASH_DURATION;
+          ctx.fillStyle = `rgba(255, 255, 255, ${1 - progress})`;
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+          if (timer >= FLASH_DURATION) {
+            phase = 'done';
+            canvas.classList.add('done');
+            document.getElementById('page').classList.add('revealed');
+            setTimeout(() => { canvas.style.display = 'none'; }, 800);
+            return;
+          }
+          requestAnimationFrame(draw);
+        }
+
+        ctx.globalAlpha = 1;
+      }
+
+      window.addEventListener('resize', resize);
+      init();
+    })();
+
+    // ============================================
+    // ANIMATED STAR FIELD
+    // ============================================
+    (function() {
+      const canvas = document.getElementById('starfield');
+      const ctx = canvas.getContext('2d');
+      let stars = [];
+      let shootingStars = [];
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      function createStars() {
+        stars = [];
+        const count = Math.floor((canvas.width * canvas.height) / 3000);
+        for (let i = 0; i < count; i++) {
+          stars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            size: Math.random() * 1.8 + 0.2,
+            speed: Math.random() * 0.15 + 0.02,
+            twinkleSpeed: Math.random() * 0.02 + 0.005,
+            twinkleOffset: Math.random() * Math.PI * 2,
+            color: Math.random() > 0.85 ? (Math.random() > 0.5 ? '#ffd700' : '#4fc3f7') : '#ffffff'
+          });
+        }
+      }
+
+      function maybeAddShootingStar() {
+        if (Math.random() < 0.003 && shootingStars.length < 2) {
+          shootingStars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height * 0.5,
+            length: Math.random() * 80 + 40,
+            speed: Math.random() * 8 + 6,
+            angle: Math.PI / 4 + (Math.random() - 0.5) * 0.3,
+            opacity: 1,
+            decay: Math.random() * 0.02 + 0.015
+          });
+        }
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const time = Date.now() * 0.001;
+
+        stars.forEach(star => {
+          const twinkle = Math.sin(time * star.twinkleSpeed * 60 + star.twinkleOffset) * 0.5 + 0.5;
+          const alpha = 0.3 + twinkle * 0.7;
+
+          ctx.beginPath();
+          ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
+          ctx.fillStyle = star.color;
+          ctx.globalAlpha = alpha;
+          ctx.fill();
+
+          if (star.size > 1.2) {
+            ctx.beginPath();
+            ctx.arc(star.x, star.y, star.size * 2.5, 0, Math.PI * 2);
+            ctx.fillStyle = star.color;
+            ctx.globalAlpha = alpha * 0.15;
+            ctx.fill();
+          }
+
+          star.y -= star.speed;
+          if (star.y < -5) {
+            star.y = canvas.height + 5;
+            star.x = Math.random() * canvas.width;
+          }
+        });
+
+        ctx.globalAlpha = 1;
+        shootingStars.forEach((ss, i) => {
+          const endX = ss.x + Math.cos(ss.angle) * ss.length;
+          const endY = ss.y + Math.sin(ss.angle) * ss.length;
+          const gradient = ctx.createLinearGradient(ss.x, ss.y, endX, endY);
+          gradient.addColorStop(0, `rgba(255, 255, 255, 0)`);
+          gradient.addColorStop(1, `rgba(255, 255, 255, ${ss.opacity})`);
+          ctx.beginPath();
+          ctx.moveTo(ss.x, ss.y);
+          ctx.lineTo(endX, endY);
+          ctx.strokeStyle = gradient;
+          ctx.lineWidth = 1.5;
+          ctx.stroke();
+          ss.x += Math.cos(ss.angle) * ss.speed;
+          ss.y += Math.sin(ss.angle) * ss.speed;
+          ss.opacity -= ss.decay;
+          if (ss.opacity <= 0 || ss.x > canvas.width + 100 || ss.y > canvas.height + 100) {
+            shootingStars.splice(i, 1);
+          }
+        });
+
+        maybeAddShootingStar();
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener('resize', () => { resize(); createStars(); });
+      resize();
+      createStars();
+      draw();
+    })();
+
+    // ============================================
+    // LIGHTSABER CURSOR TRAIL
+    // ============================================
+    (function() {
+      const canvas = document.getElementById('cursor-trail');
+      const ctx = canvas.getContext('2d');
+      let trail = [];
+      const MAX_TRAIL = 20;
+      let mouseX = -100, mouseY = -100;
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      function onMove(x, y) {
+        mouseX = x;
+        mouseY = y;
+        trail.push({ x, y, life: 1.0 });
+        if (trail.length > MAX_TRAIL) trail.shift();
+      }
+
+      window.addEventListener('mousemove', e => onMove(e.clientX, e.clientY));
+      window.addEventListener('touchmove', e => {
+        const t = e.touches[0];
+        onMove(t.clientX, t.clientY);
+      }, { passive: true });
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Decay
+        trail.forEach(p => { p.life -= 0.045; });
+        trail = trail.filter(p => p.life > 0);
+
+        if (trail.length > 1) {
+          for (let i = 1; i < trail.length; i++) {
+            const prev = trail[i - 1];
+            const curr = trail[i];
+            const alpha = curr.life * 0.6;
+            const width = curr.life * 3;
+
+            ctx.beginPath();
+            ctx.moveTo(prev.x, prev.y);
+            ctx.lineTo(curr.x, curr.y);
+            ctx.strokeStyle = `rgba(79, 195, 247, ${alpha})`;
+            ctx.lineWidth = width;
+            ctx.lineCap = 'round';
+            ctx.stroke();
+
+            // Glow
+            ctx.beginPath();
+            ctx.moveTo(prev.x, prev.y);
+            ctx.lineTo(curr.x, curr.y);
+            ctx.strokeStyle = `rgba(79, 195, 247, ${alpha * 0.3})`;
+            ctx.lineWidth = width * 4;
+            ctx.stroke();
+          }
+
+          // Bright tip
+          const tip = trail[trail.length - 1];
+          if (tip.life > 0.5) {
+            ctx.beginPath();
+            ctx.arc(tip.x, tip.y, 3, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(255, 255, 255, ${tip.life * 0.8})`;
+            ctx.fill();
+          }
+        }
+
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener('resize', resize);
+      resize();
+      draw();
+    })();
+
+    // ============================================
+    // FLOATING PARTICLES
+    // ============================================
+    (function() {
+      const container = document.getElementById('particles');
+      function createParticle() {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.animationDuration = (Math.random() * 8 + 6) + 's';
+        p.style.animationDelay = Math.random() * 4 + 's';
+        p.style.width = p.style.height = (Math.random() * 3 + 1) + 'px';
+        const colors = ['#ffd700', '#4fc3f7', '#fff'];
+        p.style.background = colors[Math.floor(Math.random() * colors.length)];
+        container.appendChild(p);
+        p.addEventListener('animationend', () => { p.remove(); createParticle(); });
+      }
+      for (let i = 0; i < 12; i++) createParticle();
+    })();
+
+    // ============================================
+    // SCROLL REVEAL
+    // ============================================
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // ============================================
+    // GOOGLE SHEETS
+    // ============================================
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxtxDVl_ncrjvmgXgtZXwaQeAtUBb1_WCm-wiX3d_eET3mOT0joVmaDuWcfPxpMqpJQ/exec';
+
+    // ============================================
+    // GIFTS STAR WARS CRAWL
+    // ============================================
+    function openGiftsModal() {
+      const overlay = document.getElementById('gifts-crawl');
+      const container = document.getElementById('crawl-container');
+      // Reset animation by cloning
+      const clone = container.cloneNode(true);
+      container.parentNode.replaceChild(clone, container);
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeGiftsCrawl(e) {
+      if (e && e.target && e.target.closest('.crawl-close')) {
+        // Close button clicked
+      } else if (e && e.target !== e.currentTarget) {
+        return;
+      }
+      document.getElementById('gifts-crawl').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeGiftsCrawl(); });
+
+    // ============================================
+    // RSVP FORM
+    // ============================================
+    function toggleForm() {
+      const container = document.getElementById('form-container');
+      const button = document.getElementById('rsvp-toggle');
+      if (container.classList.contains('open')) {
+        container.classList.remove('open');
+        button.textContent = 'Confirmar Asistencia';
+      } else {
+        container.classList.add('open');
+        button.textContent = 'Cerrar';
+        setTimeout(() => document.getElementById('nombre').focus(), 400);
+      }
+    }
+
+    async function submitForm(e) {
+      e.preventDefault();
+      const submitBtn = document.getElementById('submit-btn');
+      const errorMsg = document.getElementById('error-msg');
+      const successMsg = document.getElementById('success-msg');
+      const formContainer = document.getElementById('form-container');
+      const rsvpToggle = document.getElementById('rsvp-toggle');
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Enviando...';
+      errorMsg.classList.remove('show');
+
+      const data = {
+        nombre: document.getElementById('nombre').value,
+        adultos: document.getElementById('adultos').value,
+        ninos: document.getElementById('ninos').value,
+        notas: document.getElementById('notas').value,
+        timestamp: new Date().toLocaleString('es-AR')
+      };
+
+      try {
+        // Use URL params — most reliable method for Google Apps Script cross-origin
+        const params = new URLSearchParams(data);
+        await fetch(GOOGLE_SCRIPT_URL + '?' + params.toString(), {
+          method: 'GET',
+          mode: 'no-cors'
+        });
+        formContainer.classList.remove('open');
+        rsvpToggle.style.display = 'none';
+        successMsg.classList.add('show');
+      } catch (err) {
+        console.error('Error:', err);
+        errorMsg.classList.add('show');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Enviar';
+      }
+    }
+  </script>
+
+</body>
+</html>
