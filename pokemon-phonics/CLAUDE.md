@@ -12,6 +12,21 @@ A Pokemon-themed phonics learning game for a 5-year-old, teaching reading throug
 - **Storage:** localStorage (game progress), public/audio/ (cached audio files)
 - **Deployment:** Vercel
 
+## Deployment
+
+- **Production URL:** https://pokemon-phonics.vercel.app
+- **Admin panel:** https://pokemon-phonics.vercel.app/admin
+- **Vercel project:** `pokemon-phonics` (Skillvee's Projects org)
+- Deploy with `npx vercel --prod` from the project root
+
+## Audio Status
+
+Audio files in `public/audio/` are **not yet generated**. The game currently falls back to the browser's Web Speech API (robotic voice). To get Gemini TTS voices:
+1. Go to `/admin` → TTS Narration tab → "Generate All Missing"
+2. Go to `/admin` → Word Audio tab → "Generate All Missing"
+3. Go to `/admin` → Phoneme Recorder → record each phoneme
+Requires `GEMINI_API_KEY` in `.env.local` (or Vercel env vars for production).
+
 ## Running Locally
 
 ```bash

@@ -75,4 +75,5 @@ For static HTML projects, no config needed — Vercel auto-detects them.
 | `april-roadtrip/` | RV road trip planning (Yosemite, Sequoia) | Markdown |
 | `inaki-birthday/` | Star Wars themed birthday invitation site | HTML/CSS/JS, Google Apps Script, Vercel |
 | `usa-trip/` | Family trip comparison tool (Seattle vs Yellowstone vs Banff) | HTML/CSS/JS, Vercel |
+| `pokemon-phonics/` | Pokemon-themed phonics learning game for kids | Next.js, Gemini TTS, Vercel |
 | `voter-chart-chile/` | Chile voter demographics analysis chart | Python (pandas, matplotlib) |
