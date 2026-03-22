@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leap Atlas | Public-Info Baby Leap App</title>
+  <meta
+    name="description"
+    content="A functional Wonder Weeks-inspired baby leap app prototype built from public Wonder Weeks information only."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="mesh"></div>
+
+  <div class="shell">
+    <header class="meta-bar">
+      <div>
+        <p class="meta-label">Leap Atlas</p>
+        <h1>Actual app prototype, not a landing page.</h1>
+      </div>
+      <p class="meta-note">
+        Built from official public Wonder Weeks pages and store listings checked on March 7, 2026. Original UI, public facts only.
+      </p>
+    </header>
+
+    <section class="app-frame">
+      <header class="app-topbar">
+        <button class="profile-trigger" id="open-profile" type="button">
+          <span class="profile-avatar" id="profile-avatar">BA</span>
+          <span class="profile-copy">
+            <strong id="profile-name-display">Baby Atlas</strong>
+            <small id="profile-age-display">17.0 weeks from due date</small>
+          </span>
+        </button>
+
+        <div class="topbar-actions">
+          <button class="ghost-button" id="jump-today" type="button">Today</button>
+          <button class="ghost-button" id="open-profile-secondary" type="button">Edit</button>
+        </div>
+      </header>
+
+      <section class="status-banner">
+        <div>
+          <span class="status-pill" id="status-pill">Likely skills window</span>
+          <p id="status-banner-copy">
+            Public range mode: exact day-by-day bars are not public, so this app estimates state from official leap anchors and FAQ timing guidance.
+          </p>
+        </div>
+        <div class="status-meta">
+          <span class="status-meta-label">View date</span>
+          <strong id="status-view-date">March 7, 2026</strong>
+        </div>
+      </section>
+
+      <main class="app-main">
+        <section class="view is-active" data-view="today">
+          <div class="view-grid view-grid-home">
+            <article class="card current-card">
+              <div class="card-heading card-heading-tight">
+                <div>
+                  <p class="kicker">Current leap</p>
+                  <h2 id="today-leap-title">Leap 4: Events</h2>
+                </div>
+                <span class="phase-chip" id="today-phase-chip">Skills</span>
+              </div>
+
+              <p class="lead-copy" id="today-leap-summary">
+                Short series of changes begin to connect into small events and repeated patterns.
+              </p>
+
+              <div class="metric-grid">
+                <article class="metric-card">
+                  <span>Timeline point</span>
+                  <strong id="metric-weeks">17.0 weeks</strong>
+                  <p>Measured from the due date because that is what Wonder Weeks publicly says to use.</p>
+                </article>
+                <article class="metric-card">
+                  <span>Current phase</span>
+                  <strong id="metric-phase">Likely skills phase</strong>
+                  <p id="metric-phase-copy">The skills phase starts when the fussy stretch eases and new abilities begin to show.</p>
+                </article>
+                <article class="metric-card">
+                  <span>Next anchor</span>
+                  <strong id="metric-next">Leap 5 on Apr 10</strong>
+                  <p id="metric-next-copy">Next public anchor based on the due date you entered.</p>
+                </article>
+                <article class="metric-card">
+                  <span>Due date</span>
+                  <strong id="metric-due-date">Nov 8, 2025</strong>
+                  <p>This app stores your due date locally in the browser.</p>
+                </article>
+              </div>
+
+              <div class="phase-track-panel">
+                <div class="track-header">
+                  <div>
+                    <p class="kicker kicker-soft">Current leap map</p>
+                    <h3 id="today-track-title">Leap 4 timeline</h3>
+                  </div>
+                  <button class="text-button" id="open-timeline" type="button">Open full timeline</button>
+                </div>
+                <div class="phase-track" id="today-phase-track"></div>
+                <div class="track-legend">
+                  <span><i class="swatch swatch-fussy"></i>Public fussy window</span>
+                  <span><i class="swatch swatch-skills"></i>Public skills window</span>
+                  <span><i class="swatch swatch-easy"></i>Likely easy spell</span>
+                </div>
+              </div>
+            </article>
+
+            <div class="stack-column">
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">All leaps</p>
+                    <h2>Jump anywhere</h2>
+                  </div>
+                  <button class="text-button" id="focus-current-leap" type="button">Use current</button>
+                </div>
+                <div class="mini-leap-strip" id="mini-leap-strip"></div>
+              </article>
+
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Signals</p>
+                    <h2>What to watch</h2>
+                  </div>
+                </div>
+                <div class="signal-chip-row" id="today-signal-chips"></div>
+                <p class="body-copy" id="today-signal-copy">
+                  Wonder Weeks' public leap materials repeatedly describe the fussy phase through crying, clinginess, and crankiness.
+                </p>
+              </article>
+
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Coming next</p>
+                    <h2>Upcoming anchors</h2>
+                  </div>
+                </div>
+                <div class="up-next-list" id="up-next-list"></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" data-view="timeline">
+          <div class="view-grid view-grid-timeline">
+            <article class="card timeline-card">
+              <div class="card-heading">
+                <div>
+                  <p class="kicker">Timeline</p>
+                  <h2>Leap chart</h2>
+                </div>
+                <button class="ghost-button" id="timeline-edit-profile" type="button">Edit profile</button>
+              </div>
+
+              <div class="toolbar-row">
+                <label class="input-stack" for="timeline-view-date">
+                  <span>View as of date</span>
+                  <input type="date" id="timeline-view-date">
+                </label>
+                <article class="toolbar-card">
+                  <span>Current week</span>
+                  <strong id="timeline-current-week">17.0</strong>
+                  <p>Relative to the due date, not the birth date.</p>
+                </article>
+                <article class="toolbar-card">
+                  <span>Focused leap</span>
+                  <strong id="timeline-focused-leap">Leap 4</strong>
+                  <p id="timeline-focused-copy">Events</p>
+                </article>
+              </div>
+
+              <div class="timeline-utility-row">
+                <p class="timeline-hint">Continuous 3-week rows. Leap labels appear where a leap starts.</p>
+                <button class="text-button" id="timeline-label-toggle" type="button">Show dates</button>
+              </div>
+
+              <div class="timeline-mode-cards">
+                <article class="mode-card mode-card-signal">
+                  <span class="mode-card-icon">Sg</span>
+                  <div>
+                    <strong>Signals</strong>
+                    <p>Public fussy-window weeks</p>
+                  </div>
+                </article>
+                <article class="mode-card mode-card-skills">
+                  <span class="mode-card-icon">Sk</span>
+                  <div>
+                    <strong>Skills</strong>
+                    <p>Public skills-side weeks</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="weekly-chart" id="timeline-week-blocks"></div>
+            </article>
+
+            <article class="card focus-card" id="timeline-focus-card">
+              <div class="card-heading card-heading-tight">
+                <div>
+                  <p class="kicker">Focus</p>
+                  <h2 id="focus-card-title">Leap 4: Events</h2>
+                </div>
+                <button class="text-button" id="open-leap-detail" type="button">Open detail</button>
+              </div>
+              <p class="lead-copy" id="focus-card-summary">
+                Leap 4 starts from week 14, with public pages saying the first signals can show between weeks 14 and 20 after the due date.
+              </p>
+              <div class="focus-stats" id="focus-stats"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="view" data-view="leap">
+          <div class="view-grid view-grid-leap">
+            <article class="card leap-detail-card">
+              <div class="card-heading">
+                <div>
+                  <p class="kicker">Leap detail</p>
+                  <h2 id="detail-title">Leap 4: Events</h2>
+                </div>
+                <span class="detail-pill" id="detail-status-pill">Current leap</span>
+              </div>
+
+              <p class="lead-copy" id="detail-summary">
+                Before this leap, your baby may notice only one changing thing at a time. After leap 4, short sequences and events begin to connect.
+              </p>
+
+              <div class="detail-stat-grid">
+                <article class="metric-card">
+                  <span>Public anchor</span>
+                  <strong id="detail-anchor">Week 14</strong>
+                  <p id="detail-anchor-copy">Anchor week from the public Wonder Weeks leap chart.</p>
+                </article>
+                <article class="metric-card">
+                  <span>Signal window</span>
+                  <strong id="detail-window">Weeks 14 to 20</strong>
+                  <p id="detail-window-copy">Public window for the first signals of this leap.</p>
+                </article>
+                <article class="metric-card">
+                  <span>Skills from</span>
+                  <strong id="detail-skills-from">Around week 20</strong>
+                  <p id="detail-skills-copy">Public skills-phase timing when available.</p>
+                </article>
+                <article class="metric-card">
+                  <span>Where you are</span>
+                  <strong id="detail-relation">Likely in this leap</strong>
+                  <p id="detail-relation-copy">Calculated from your due date and the view date.</p>
+                </article>
+              </div>
+
+              <div class="detail-copy-grid">
+                <article class="detail-copy-card">
+                  <span class="section-tag">Fussy phase</span>
+                  <p id="detail-fussy-copy">
+                    Wonder Weeks publicly describes the fussy phase as the period where crying, clinginess, and crankiness are most visible.
+                  </p>
+                </article>
+                <article class="detail-copy-card">
+                  <span class="section-tag">Skills phase</span>
+                  <p id="detail-skills-phase-copy">
+                    Wonder Weeks publicly describes the skills phase as the period after the fussy stretch, when the new world begins to make sense.
+                  </p>
+                </article>
+              </div>
+            </article>
+
+            <div class="stack-column">
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Public signals</p>
+                    <h2>Common cues</h2>
+                  </div>
+                </div>
+                <div class="signal-chip-row" id="detail-signal-chips"></div>
+                <p class="body-copy" id="detail-signal-note">
+                  The exact in-app checklist is not public, so these chips stay limited to what the public pages and FAQs describe.
+                </p>
+              </article>
+
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Public examples</p>
+                    <h2>Theme notes</h2>
+                  </div>
+                </div>
+                <ul class="detail-example-list" id="detail-example-list"></ul>
+              </article>
+
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Method</p>
+                    <h2>Accuracy boundary</h2>
+                  </div>
+                </div>
+                <p class="body-copy" id="detail-boundary-copy">
+                  This screen uses public leap pages for anchor weeks and paraphrased descriptions. It does not reproduce private app text or exact day bars.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" data-view="diary">
+          <div class="view-grid view-grid-diary">
+            <article class="card diary-form-card">
+              <div class="card-heading">
+                <div>
+                  <p class="kicker">Diary</p>
+                  <h2>Track what happened</h2>
+                </div>
+                <span class="detail-pill">Local only</span>
+              </div>
+
+              <form class="diary-form" id="diary-form">
+                <label class="input-stack" for="entry-title">
+                  <span>Title</span>
+                  <input type="text" id="entry-title" name="entry-title" maxlength="80" placeholder="First big laugh" required>
+                </label>
+
+                <div class="toolbar-row toolbar-row-compact">
+                  <label class="input-stack" for="entry-date">
+                    <span>Date</span>
+                    <input type="date" id="entry-date" name="entry-date" required>
+                  </label>
+                  <label class="input-stack" for="entry-tag">
+                    <span>Type</span>
+                    <select id="entry-tag" name="entry-tag">
+                      <option value="skill">Skill</option>
+                      <option value="signal">Signal</option>
+                      <option value="note">Note</option>
+                    </select>
+                  </label>
+                </div>
+
+                <label class="input-stack" for="entry-note">
+                  <span>Note</span>
+                  <textarea id="entry-note" name="entry-note" rows="5" placeholder="What did you notice, and how did your baby react?" required></textarea>
+                </label>
+
+                <button class="primary-button" type="submit">Save entry</button>
+              </form>
+            </article>
+
+            <div class="stack-column">
+              <article class="card compact-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Current context</p>
+                    <h2 id="diary-context-title">Leap 4: Events</h2>
+                  </div>
+                </div>
+                <p class="body-copy" id="diary-context-copy">
+                  If you save an entry today, it will be tagged to the leap that best matches your current due-date timeline.
+                </p>
+              </article>
+
+              <article class="card compact-card diary-list-card">
+                <div class="card-heading card-heading-tight">
+                  <div>
+                    <p class="kicker">Entries</p>
+                    <h2>Your notes</h2>
+                  </div>
+                </div>
+                <div class="diary-empty" id="diary-empty">
+                  No entries yet. Add a note to make this feel like an actual tracker instead of a demo screen.
+                </div>
+                <div class="diary-list" id="diary-list"></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" data-view="more">
+          <div class="view-grid view-grid-more">
+            <article class="card compact-card">
+              <div class="card-heading card-heading-tight">
+                <div>
+                  <p class="kicker">Verified feature map</p>
+                  <h2>Public Wonder Weeks features</h2>
+                </div>
+              </div>
+              <div class="feature-list" id="feature-list"></div>
+            </article>
+
+            <article class="card compact-card">
+              <div class="card-heading card-heading-tight">
+                <div>
+                  <p class="kicker">Sources</p>
+                  <h2>Exact pages used</h2>
+                </div>
+              </div>
+              <ul class="source-list">
+                <li><a href="https://apps.apple.com/us/app/the-wonder-weeks/id529815782" target="_blank" rel="noreferrer">App Store listing</a></li>
+                <li><a href="https://play.google.com/store/apps/details?hl=en_US&id=org.twisevictory.apps.ex" target="_blank" rel="noreferrer">Google Play listing</a></li>
+                <li><a href="https://thewonderweeks.com/the-wonder-weeks-app/" target="_blank" rel="noreferrer">Official app page</a></li>
+                <li><a href="https://thewonderweeks.com/leaps/" target="_blank" rel="noreferrer">Official leap chart</a></li>
+                <li><a href="https://thewonderweeks.com/efaq/which-date-do-i-use-to-calculate-the-leaps/" target="_blank" rel="noreferrer">Due-date FAQ</a></li>
+                <li><a href="https://thewonderweeks.com/efaq/what-do-the-symbols-on-the-calendar-mean/" target="_blank" rel="noreferrer">Leap-chart colors FAQ</a></li>
+                <li><a href="https://thewonderweeks.com/efaq/can-i-share-the-app/" target="_blank" rel="noreferrer">Partner sharing FAQ</a></li>
+                <li><a href="https://thewonderweeks.com/efaq/what-is-the-range-of-the-baby-monitor/" target="_blank" rel="noreferrer">Baby monitor FAQ</a></li>
+              </ul>
+            </article>
+
+            <article class="card compact-card">
+              <div class="card-heading card-heading-tight">
+                <div>
+                  <p class="kicker">Limits</p>
+                  <h2>What this app does not claim</h2>
+                </div>
+              </div>
+              <ul class="limit-list">
+                <li>It does not reproduce private day-level timing or paid in-app copy.</li>
+                <li>It uses public leap windows and skills starts to estimate where the baby is.</li>
+                <li>It is not medical advice, matching Wonder Weeks' own public disclaimer boundary.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <nav class="tabbar" aria-label="Primary">
+        <button class="tab is-active" data-view-target="today" type="button">Today</button>
+        <button class="tab" data-view-target="timeline" type="button">Timeline</button>
+        <button class="tab" data-view-target="leap" type="button">Leap</button>
+        <button class="tab" data-view-target="diary" type="button">Diary</button>
+        <button class="tab" data-view-target="more" type="button">More</button>
+      </nav>
+    </section>
+  </div>
+
+  <div class="sheet-backdrop is-hidden" id="sheet-backdrop"></div>
+  <section class="profile-sheet is-hidden" id="profile-sheet" aria-hidden="true">
+    <div class="sheet-handle"></div>
+    <div class="card-heading card-heading-tight">
+      <div>
+        <p class="kicker">Profile</p>
+        <h2>Set the dates that drive the app</h2>
+      </div>
+      <button class="ghost-button" id="close-profile" type="button">Close</button>
+    </div>
+
+    <form class="profile-form" id="profile-form">
+      <label class="input-stack" for="profile-name">
+        <span>Baby name</span>
+        <input type="text" id="profile-name" name="profile-name" maxlength="40" placeholder="Baby Atlas" required>
+      </label>
+
+      <label class="input-stack" for="profile-due-date">
+        <span>Due date</span>
+        <input type="date" id="profile-due-date" name="profile-due-date" required>
+      </label>
+
+      <label class="input-stack" for="profile-view-date">
+        <span>View as of date</span>
+        <input type="date" id="profile-view-date" name="profile-view-date" required>
+      </label>
+
+      <p class="sheet-note">
+        Wonder Weeks publicly says the due date should be used to calculate leaps, because the timeline is tied to development from conception rather than birth.
+      </p>
+
+      <div class="sheet-actions">
+        <button class="ghost-button" id="profile-use-today" type="button">Use today</button>
+        <button class="primary-button" type="submit">Save profile</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

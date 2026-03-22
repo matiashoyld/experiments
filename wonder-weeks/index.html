@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Luken's Leaps</title>
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👶</text></svg>">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Luken's Leaps">
+<meta name="theme-color" content="#FF5301">
+<style>
+  :root {
+    --orange: #FF5301;
+    --orange-light: #FF7A33;
+    --yellow: #FFAB00;
+    --yellow-bg: #FFF8E1;
+    --green: #43A047;
+    --green-bg: #E8F5E9;
+    --pink: #D81B60;
+    --pink-bg: #FCE4EC;
+    --bg: #F5F5F7;
+    --card: #FFFFFF;
+    --text: #1A1A1A;
+    --text-mid: #555555;
+    --text-light: #888888;
+    --border: #E8E8E8;
+    --shadow: 0 1px 4px rgba(0,0,0,0.06), 0 2px 12px rgba(0,0,0,0.04);
+    --radius: 20px;
+    --radius-sm: 14px;
+    --nav-h: 72px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* ─────── App Shell ─────── */
+  .app { display: none; }
+  .app.active { display: block; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, var(--orange), var(--orange-light));
+    color: white;
+    padding: 16px 20px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-top { display: flex; justify-content: space-between; align-items: center; }
+  .header h1 { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; }
+  .header-age { font-size: 13px; opacity: 0.85; margin-top: 1px; }
+  .header-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    display: grid; place-items: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Tab Nav */
+  .tab-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    z-index: 100;
+    padding: 6px 0 calc(6px + env(safe-area-inset-bottom, 0));
+  }
+  .tab-nav button {
+    flex: 1;
+    background: none; border: none;
+    padding: 6px 0;
+    font-size: 10px;
+    color: var(--text-light);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-weight: 600;
+    -webkit-tap-highlight-color: transparent;
+    transition: color 0.15s;
+  }
+  .tab-nav button .ti { font-size: 22px; line-height: 1; }
+  .tab-nav button.active { color: var(--orange); }
+
+  .tab-content { display: none; padding-bottom: var(--nav-h); }
+  .tab-content.active { display: block; }
+
+  /* ─────── Home: Status Card ─────── */
+  .status-card {
+    margin: 16px 16px 0;
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .status-emoji { font-size: 44px; line-height: 1; }
+  .status-body { flex: 1; min-width: 0; }
+  .status-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-light); }
+  .status-title { font-size: 20px; font-weight: 800; margin: 2px 0; letter-spacing: -0.3px; }
+  .status-desc { font-size: 13px; color: var(--text-mid); line-height: 1.45; }
+
+  /* Progress bar */
+  .progress-wrap { margin: 16px 16px 0; }
+  .progress-meta {
+    display: flex; justify-content: space-between;
+    font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.6px; color: var(--text-light); margin-bottom: 8px;
+  }
+  .progress-track {
+    height: 8px; background: var(--border); border-radius: 4px; overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--orange), var(--orange-light));
+    border-radius: 4px;
+    transition: width 0.5s ease;
+  }
+
+  /* ─────── Home: Leap Bar Chart ─────── */
+  .timeline-section { padding: 20px 16px 0; }
+  .section-title {
+    font-size: 12px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 1px; color: var(--text-light); margin-bottom: 14px;
+  }
+
+  .chart-timeline {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px 16px 10px;
+    box-shadow: var(--shadow);
+  }
+
+  /* Each row = 3 consecutive weeks */
+  .ct-row {
+    margin-bottom: 16px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .ct-row:last-child { margin-bottom: 8px; }
+  .ct-row.clickable { cursor: pointer; }
+
+  .ct-label-row {
+    display: flex;
+    margin-bottom: 6px;
+  }
+  .ct-label-spacer { flex: 1; }
+  .ct-label {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.2px;
+    color: var(--text);
+  }
+
+  /* The bar = 3 equal segments side by side */
+  .ct-bar {
+    display: flex;
+    height: 38px;
+    border-radius: 10px;
+    overflow: visible;
+    position: relative;
+  }
+  .ct-seg {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    transition: opacity 0.15s;
+  }
+  /* Rounded ends on first/last segment */
+  .ct-seg:first-child { border-radius: 10px 0 0 10px; }
+  .ct-seg:last-child { border-radius: 0 10px 10px 0; }
+  .ct-seg:only-child { border-radius: 10px; }
+
+  /* Phase colors */
+  .ct-seg.fussy { background: #F5E6C4; }
+  .ct-seg.sunny { background: #D5DDD2; }
+  .ct-seg.grey-seg { background: #F0D0DA; }
+
+  /* Icons */
+  .ct-seg svg { width: 22px; height: 22px; opacity: 0.45; }
+
+  /* Active highlight: orange border grouped across adjacent segments */
+  .ct-seg.active-seg {
+    border-top: 2.5px solid #E8A230;
+    border-bottom: 2.5px solid #E8A230;
+    z-index: 2;
+  }
+  .ct-seg.active-start {
+    border-left: 2.5px solid #E8A230;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .ct-seg.active-end {
+    border-right: 2.5px solid #E8A230;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  /* Date labels below bar */
+  .ct-dates {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    position: relative;
+  }
+  .ct-date {
+    flex: 1;
+    font-size: 12px;
+    color: var(--text-light);
+    font-weight: 500;
+  }
+  .ct-date:nth-child(2) { text-align: center; }
+  .ct-date:nth-child(3) { text-align: right; }
+
+  /* Today marker */
+  .ct-today-wrap {
+    position: absolute;
+    top: -5px; bottom: -5px;
+    pointer-events: none;
+    z-index: 10;
+  }
+  .ct-today-line {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 2px;
+    background: #444;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: dashed;
+  }
+  .ct-today-label {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .ct-row.has-today { margin-bottom: 28px; }
+
+  /* Completed rows dimmed */
+  .ct-row.ct-done { opacity: 0.45; }
+  .ct-row.ct-done:hover { opacity: 0.65; }
+
+  /* ─────── Leaps Tab ─────── */
+  .leaps-tab-content { padding: 16px; }
+
+  .leap-full-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.15s;
+  }
+  .leap-full-card:active { transform: scale(0.98); }
+  .leap-full-card .lfc-top {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 10px;
+  }
+  .lfc-num {
+    font-size: 11px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.5px; color: var(--orange);
+    background: #FFF3E0; padding: 3px 10px; border-radius: 20px;
+  }
+  .lfc-dates { font-size: 12px; color: var(--text-light); font-weight: 600; }
+  .lfc-name { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; margin-bottom: 6px; }
+  .lfc-desc { font-size: 14px; color: var(--text-mid); line-height: 1.5; margin-bottom: 12px; }
+
+  .lfc-meta {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    padding-top: 12px;
+    border-top: 1px solid #F0F0F0;
+  }
+  .lfc-chip {
+    font-size: 12px; font-weight: 600;
+    padding: 5px 12px; border-radius: 20px;
+    display: inline-flex; align-items: center; gap: 4px;
+  }
+  .lfc-chip.fussy { background: var(--yellow-bg); color: #BF360C; }
+  .lfc-chip.skills { background: var(--green-bg); color: #1B5E20; }
+  .lfc-chip.peak { background: #F3E5F5; color: #6A1B9A; }
+
+  /* ─────── Modal (Full-screen on mobile) ─────── */
+  .modal-overlay {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 200;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  }
+  .modal-overlay.active { display: block; }
+
+  .modal {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--bg);
+    border-radius: 24px 24px 0 0;
+    max-height: 92dvh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 201;
+    animation: modalUp 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  @keyframes modalUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  .modal-drag {
+    width: 40px; height: 4px; background: #D0D0D0; border-radius: 2px;
+    margin: 10px auto 0;
+  }
+  .modal-head {
+    padding: 14px 20px 14px;
+    position: sticky; top: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    z-index: 5;
+  }
+  .modal-head .mh-num {
+    font-size: 11px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.5px; color: var(--orange);
+  }
+  .modal-head h2 { font-size: 24px; font-weight: 800; letter-spacing: -0.4px; margin-top: 2px; }
+  .modal-head .mh-dates { font-size: 13px; color: var(--text-mid); margin-top: 4px; line-height: 1.4; }
+  .modal-x {
+    position: absolute; top: 14px; right: 16px;
+    width: 34px; height: 34px; border-radius: 50%;
+    background: #E8E8E8; border: none; font-size: 18px;
+    cursor: pointer; display: grid; place-items: center;
+    color: var(--text-mid);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .modal-body { padding: 4px 20px 40px; }
+
+  .msection { margin-top: 24px; }
+  .msection-title {
+    font-size: 13px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 0.7px; color: var(--text-light); margin-bottom: 10px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .msection p { font-size: 15px; line-height: 1.6; color: var(--text); }
+
+  .checklist { list-style: none; }
+  .checklist li {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #F0F0F0;
+    font-size: 15px; line-height: 1.4; color: var(--text);
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist input[type="checkbox"] {
+    width: 22px; height: 22px; min-width: 22px;
+    margin-top: 1px;
+    accent-color: var(--orange);
+    cursor: pointer;
+  }
+
+  /* ─────── Learn Tab ─────── */
+  .learn-content { padding: 16px; }
+  .learn-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+  }
+  .learn-card h3 {
+    font-size: 17px; font-weight: 700; margin-bottom: 8px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .learn-card p { font-size: 14px; line-height: 1.6; color: var(--text-mid); }
+  .learn-card ul {
+    margin: 10px 0 0 0; padding-left: 20px;
+    font-size: 14px; line-height: 1.8; color: var(--text-mid);
+  }
+
+  /* ─────── Desktop ─────── */
+  @media (min-width: 500px) {
+    .modal { max-width: 480px; left: 50%; transform: translateX(-50%); border-radius: 24px 24px 0 0; }
+    @keyframes modalUp {
+      from { transform: translateX(-50%) translateY(100%); }
+      to { transform: translateX(-50%) translateY(0); }
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ─── App ─── -->
+<div id="app" class="app active">
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <h1>Luken's Leaps</h1>
+        <div class="header-age" id="headerAge"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Home -->
+  <div id="tab-home" class="tab-content active">
+    <div id="statusCard" class="status-card"></div>
+    <div id="progressBar" class="progress-wrap"></div>
+    <div class="timeline-section">
+      <div class="section-title">Leap Chart</div>
+      <div class="chart-timeline" id="chartTimeline"></div>
+    </div>
+  </div>
+
+  <!-- Leaps -->
+  <div id="tab-leaps" class="tab-content">
+    <div class="leaps-tab-content" id="leapsList"></div>
+  </div>
+
+  <!-- Learn -->
+  <div id="tab-info" class="tab-content">
+    <div class="learn-content">
+      <div class="learn-card">
+        <h3>🧠 What are leaps?</h3>
+        <p>During his first 20 months, Luken will go through 10 predictable mental developmental leaps. Each leap changes how he perceives the world, unlocking new abilities and understanding.</p>
+      </div>
+      <div class="learn-card">
+        <h3>⛈️ Fussy phases</h3>
+        <p>Before each leap, Luken may become fussy, clingy, and cranky — the "3 C's." His brain is developing rapidly and the world suddenly feels different.</p>
+        <ul>
+          <li><strong>Crying</strong> — more than usual, harder to soothe</li>
+          <li><strong>Clinginess</strong> — wants to be held constantly</li>
+          <li><strong>Crankiness</strong> — generally irritable</li>
+        </ul>
+      </div>
+      <div class="learn-card">
+        <h3>☀️ Sunny phases</h3>
+        <p>After the fussy phase, Luken has adjusted to his new world. He'll be happy, curious, and eager to practice exciting new abilities!</p>
+      </div>
+      <div class="learn-card">
+        <h3>📅 Why due date matters</h3>
+        <p>All timing is calculated from Luken's <strong>due date (Nov 24, 2025)</strong>, not his birth date. The brain develops on a schedule set from conception.</p>
+      </div>
+      <div class="learn-card">
+        <h3>🩶 The grey period</h3>
+        <p>Around weeks 29–30, there's a fussy phase that isn't a leap. Luken will be processing the concept of distance — realizing someone can walk away. It typically lasts about one week.</p>
+      </div>
+    </div>
+  </div>
+
+  <nav class="tab-nav">
+    <button class="active" onclick="switchTab('home')"><span class="ti">📊</span>Home</button>
+    <button onclick="switchTab('leaps')"><span class="ti">🧠</span>Leaps</button>
+    <button onclick="switchTab('info')"><span class="ti">💡</span>Learn</button>
+  </nav>
+</div>
+
+<!-- ─── Modal ─── -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
+<div class="modal" id="modal" style="display:none">
+  <div class="modal-drag"></div>
+  <div class="modal-head">
+    <span class="mh-num" id="mhNum"></span>
+    <h2 id="mhTitle"></h2>
+    <div class="mh-dates" id="mhDates"></div>
+    <button class="modal-x" onclick="closeModal()">✕</button>
+  </div>
+  <div class="modal-body" id="modalBody"></div>
+</div>
+
+<script>
+// ─── Leap Data ───
+const LEAPS = [
+  {
+    num: 1, name: "Sensations", peakWeek: 5, fussyStart: 4, fussyEnd: 6,
+    description: "Luken's senses become sharper. He can now see further, produce real tears, and may start to smile. The world of previously blurred sensations comes into focus.",
+    signs: ["Cries more and is harder to soothe","Wants to be held more often","Sleeps less or wakes more frequently","Loses appetite or feeds irregularly","Is more alert and attentive"],
+    skills: ["Smiles for the first time","Follows objects with eyes more smoothly","Shows interest in patterns and colors","Produces tears when crying","Stays awake longer","Reacts to touch with more expression"]
+  },
+  {
+    num: 2, name: "Patterns", peakWeek: 8, fussyStart: 7, fussyEnd: 10,
+    description: "Luken discovers patterns. He realizes his hands belong to him and starts to discover his own voice. Recurring shapes and sounds become recognizable.",
+    signs: ["Clings and doesn't want to be put down","Is shy with strangers","Cries more often","Wants to nurse more frequently","Sucks thumb or fingers more"],
+    skills: ["Discovers their own hands and feet","Starts to bat at objects","Makes more varied sounds and coos","Holds head up more steadily","Recognizes familiar faces","Begins to show personality","Watches their own hand movements"]
+  },
+  {
+    num: 3, name: "Smooth Transitions", peakWeek: 12, fussyStart: 11, fussyEnd: 12,
+    description: "Luken can now perceive smooth transitions — gentle changes in light, sound, movement, and taste. His movements become less jerky and more fluid.",
+    signs: ["Cries and is fussy","Sleeps poorly","Loses appetite","Wants more physical closeness","Is unusually quiet or withdrawn"],
+    skills: ["Movements become smoother","Follows moving objects smoothly","Plays with sounds — squealing, blowing bubbles","Reaches for and grabs objects","Rolls from back to side","Head control improves significantly"]
+  },
+  {
+    num: 4, name: "Events", peakWeek: 19, fussyStart: 14, fussyEnd: 20,
+    description: "Luken perceives events — short sequences where things flow together. He understands that shaking a rattle makes sound. Cause and effect clicks.",
+    signs: ["Cries more and is grumpier","Wants more attention","Sleeps poorly, wakes more at night","Clings more","Appetite may change","Mood swings"],
+    skills: ["Understands cause and effect","Follows activities with interest","Starts rolling back to belly","Grabs toys with both hands","Puts everything in mouth","Turns toward sounds deliberately","Shows toy preferences","May start teething"]
+  },
+  {
+    num: 5, name: "Relationships", peakWeek: 26, fussyStart: 22, fussyEnd: 27,
+    description: "Luken understands relationships between things. A block can be inside, behind, or on top of a box. He grasps distance — and realizes you can walk away.",
+    signs: ["Separation anxiety — cries when you leave","Clingy and wants constant attention","Sleeps worse at night","May act shy or fearful","Mood swings","Protests when you walk away"],
+    skills: ["Understands spatial relationships","Starts to sit independently","Examines small details on toys","Begins to understand distance","Says first consonant sounds","Starts understanding familiar words","Coordinates two hands together","Begins creeping or army crawling"]
+  },
+  {
+    num: 6, name: "Categories", peakWeek: 37, fussyStart: 33, fussyEnd: 38,
+    description: "Luken can categorize the world. He understands that dogs come in different shapes but they're all 'dogs.' First words may appear.",
+    signs: ["Extra clingy and moody","Separation anxiety intensifies","Trouble sleeping","May seem to 'go backwards'","Demanding and impatient","Wants comfort objects"],
+    skills: ["Understands categories","Starts saying first real words","Points at things","Crawling becomes fast","Pulls up to standing","Starts cruising along furniture","Understands more words than they say","Imitates sounds and gestures"]
+  },
+  {
+    num: 7, name: "Sequences", peakWeek: 46, fussyStart: 41, fussyEnd: 47,
+    description: "Luken understands sequences — that eating involves grabbing the spoon, scooping food, bringing it to mouth, and chewing. He anticipates routines.",
+    signs: ["Whiny and restless","Clings to you like glue","Sleep disruptions","May throw tantrums","Acts jealous","Wants constant entertainment"],
+    skills: ["Understands order of events","Can stack and unstack blocks","Tries to dress themselves","Attempts using a spoon","Points and gestures to communicate","Vocabulary growing faster","First steps — starts walking!","Problem-solving becomes visible"]
+  },
+  {
+    num: 8, name: "Programs", peakWeek: 55, fussyStart: 51, fussyEnd: 56,
+    description: "The baby-to-toddler transition. Luken sees sequences as complete programs — 'doing laundry' is a whole concept, not separate actions.",
+    signs: ["Tantrums and meltdowns increase","Tests boundaries repeatedly","Mood swings — sweet then defiant","Clings then pushes away","Sleep disrupted again","Extra sensitive and emotional"],
+    skills: ["Understands complex routines","Pretend play begins","Walking becomes confident","Tries to do things 'by myself'","Uses 2–3 word sentences","Shows empathy","Follows simple instructions","Knows what objects are used for"]
+  },
+  {
+    num: 9, name: "Principles", peakWeek: 64, fussyStart: 59, fussyEnd: 65,
+    description: "Luken understands principles — flexible rules across situations. He can adapt, negotiate, plan ahead, and consider consequences.",
+    signs: ["More frequent intense tantrums","Extra clingy and insecure","Sleeps poorly, may have nightmares","Acts aggressive","Says 'no' to everything","Very possessive"],
+    skills: ["Thinks ahead and plans","Negotiates and bargains","Understands 'mine' vs 'yours'","Uses strategy","Applies rules flexibly to new situations","Vocabulary explodes","Understands others' feelings","Begins showing humor"]
+  },
+  {
+    num: 10, name: "Systems", peakWeek: 75, fussyStart: 70, fussyEnd: 76,
+    description: "Luken understands systems — complex networks of relationships, rules, and roles. He sees himself as part of a family and a world.",
+    signs: ["Extreme mood swings","Boundary testing peaks","Night terrors may occur","Clingy then fiercely independent","Frustration tantrums","May regress in toilet training"],
+    skills: ["Sees themselves as an individual in a group","Understands actions affect others","Developing a conscience","Plays cooperatively","Uses 'I', 'me', 'you' correctly","Tells simple stories","Shows awareness of social rules","Creative and imaginative play flourishes"]
+  }
+];
+const GREY = { start: 29, end: 30 };
+
+// ─── Luken's data ───
+const DUE_DATE = '2025-11-24';
+let state = loadState();
+function loadState() {
+  try { const s = JSON.parse(localStorage.getItem('lukenLeaps')); if (s) return s; } catch(e) {}
+  return { checkedSkills: {}, checkedSigns: {} };
+}
+function save() { localStorage.setItem('lukenLeaps', JSON.stringify(state)); }
+
+function weeksAge() {
+  return (Date.now() - new Date(DUE_DATE).getTime()) / 604800000;
+}
+function weekToDate(wk) {
+  const d = new Date(new Date(DUE_DATE).getTime() + wk * 604800000);
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+function currentLeap(w) { return LEAPS.find(l => w >= l.fussyStart && w <= l.fussyEnd); }
+function nextLeap(w) { return LEAPS.find(l => w < l.fussyStart); }
+function completedLeaps(w) { return LEAPS.filter(l => w > l.fussyEnd).length; }
+
+// ─── Init ───
+function init() {
+  const w = weeksAge();
+  const aw = Math.max(0, Math.floor(w));
+  const am = Math.floor(aw / 4.33);
+  document.getElementById('headerAge').textContent = `${aw} weeks old · ${am} month${am !== 1 ? 's' : ''}`;
+
+  renderStatus(w);
+  renderProgress(w);
+  renderTimeline(w);
+  renderLeapsList(w);
+}
+
+function renderStatus(w) {
+  const el = document.getElementById('statusCard');
+  const cl = currentLeap(w);
+  const inGrey = w >= GREY.start && w <= GREY.end;
+
+  if (cl) {
+    const pct = Math.min(100, Math.max(0, ((w - cl.fussyStart) / (cl.fussyEnd - cl.fussyStart) * 100))).toFixed(0);
+    el.innerHTML = `<div class="status-emoji">⛈️</div><div class="status-body">
+      <div class="status-label">Fussy phase</div>
+      <div class="status-title">Leap ${cl.num}: ${cl.name}</div>
+      <div class="status-desc">Week ${Math.floor(w)} of ${cl.fussyStart}–${cl.fussyEnd} · ${pct}% through</div></div>`;
+  } else if (inGrey) {
+    el.innerHTML = `<div class="status-emoji">🩶</div><div class="status-body">
+      <div class="status-label">Grey period</div>
+      <div class="status-title">Processing distance</div>
+      <div class="status-desc">A short fussy phase where Luken realizes someone can walk away. Hang in there!</div></div>`;
+  } else {
+    const nl = nextLeap(w);
+    if (nl) {
+      const wu = Math.ceil(nl.fussyStart - w);
+      el.innerHTML = `<div class="status-emoji">☀️</div><div class="status-body">
+        <div class="status-label">Sunny period</div>
+        <div class="status-title">Enjoy the calm!</div>
+        <div class="status-desc">Next: Leap ${nl.num} (${nl.name}) in ${wu} week${wu !== 1 ? 's' : ''} · ${weekToDate(nl.fussyStart)}</div></div>`;
+    } else {
+      el.innerHTML = `<div class="status-emoji">🎉</div><div class="status-body">
+        <div class="status-label">All done!</div>
+        <div class="status-title">10 leaps complete</div>
+        <div class="status-desc">What an incredible journey!</div></div>`;
+    }
+  }
+}
+
+function renderProgress(w) {
+  const done = completedLeaps(w);
+  const pct = (done / 10 * 100).toFixed(0);
+  document.getElementById('progressBar').innerHTML = `
+    <div class="progress-meta"><span>${done} of 10 leaps</span><span>${pct}%</span></div>
+    <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>`;
+}
+
+function renderTimeline(w) {
+  const el = document.getElementById('chartTimeline');
+
+  // SVG icons (minimal line-art)
+  const stormSvg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"/><polyline points="13 11 9 17 15 17 11 23"/></svg>`;
+  const sunSvg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/></svg>`;
+
+  // Week phase: fussy (cream), grey (pink), or sunny/gap (sage)
+  function phase(wk) {
+    if (wk >= GREY.start && wk <= GREY.end) return { t: 'grey', n: 0 };
+    for (const l of LEAPS) {
+      if (wk >= l.fussyStart && wk <= l.fussyEnd) return { t: 'fussy', n: l.num };
+    }
+    return { t: 'sunny', n: 0 }; // everything else is "sunny" (sage)
+  }
+
+  // Icon placement: storm at the midpoint of each fussy range, sun right after fussy ends
+  const stormAt = {};
+  LEAPS.forEach(l => { stormAt[Math.round((l.fussyStart + l.fussyEnd) / 2)] = l.num; });
+  stormAt[29] = -1; // grey period storm
+  const sunAt = {};
+  LEAPS.forEach(l => { sunAt[l.fussyEnd + 1] = l.num; });
+
+  // Leap labels: show above the row containing each leap's fussyStart
+  const leapLabelAt = {};
+  LEAPS.forEach(l => { leapLabelAt[l.fussyStart] = `Leap ${l.num}`; });
+  leapLabelAt[GREY.start] = 'Grey Period';
+
+  // Build rows: 3 weeks each, starting from week 4
+  const START = 4, END = 78;
+  let html = '';
+
+  for (let rs = START; rs < END; rs += 3) {
+    const wks = [rs, rs + 1, rs + 2];
+    const ph = wks.map(phase);
+
+    // Label for this row? And which segment (0,1,2) does it start on?
+    let label = null;
+    let labelSeg = 0;
+    for (let si = 0; si < wks.length; si++) {
+      if (leapLabelAt[wks[si]]) { label = leapLabelAt[wks[si]]; labelSeg = si; break; }
+    }
+
+    // Today in this row?
+    const todayInRow = w >= rs && w < rs + 3;
+    const todayPct = todayInRow ? ((w - rs) / 3 * 100) : -1;
+    const todaySeg = todayInRow ? Math.min(2, Math.floor(w - rs)) : -1;
+    const todayPhase = todayInRow ? ph[todaySeg] : null;
+
+    // Is entire row completed?
+    const rowDone = w > rs + 3;
+
+    // Row class
+    let rowCls = 'ct-row';
+    if (rowDone) rowCls += ' ct-done';
+    if (todayInRow) rowCls += ' has-today';
+
+    // Which leap does this row primarily belong to? (for click)
+    let rowLeap = -1;
+    for (const p of ph) {
+      if (p.t === 'fussy' && p.n > 0) { rowLeap = p.n - 1; break; }
+    }
+    const onclick = rowLeap >= 0 ? `onclick="openModal(${rowLeap})"` : '';
+    if (rowLeap >= 0) rowCls += ' clickable';
+
+    html += `<div class="${rowCls}" ${onclick}>`;
+
+    if (label) {
+      html += `<div class="ct-label-row">`;
+      for (let s = 0; s < labelSeg; s++) html += `<div class="ct-label-spacer"></div>`;
+      html += `<div class="ct-label">${label}</div>`;
+      for (let s = labelSeg + 1; s < 3; s++) html += `<div class="ct-label-spacer"></div>`;
+      html += `</div>`;
+    }
+
+    // Build active set: segments connected to today's segment with same phase
+    const activeSet = new Set();
+    if (todaySeg >= 0) {
+      activeSet.add(todaySeg);
+      const tp = ph[todaySeg];
+      for (let j = todaySeg - 1; j >= 0; j--) {
+        if (ph[j].t === tp.t && (tp.t !== 'fussy' || ph[j].n === tp.n)) activeSet.add(j); else break;
+      }
+      for (let j = todaySeg + 1; j < 3; j++) {
+        if (ph[j].t === tp.t && (tp.t !== 'fussy' || ph[j].n === tp.n)) activeSet.add(j); else break;
+      }
+    }
+
+    html += `<div class="ct-bar">`;
+
+    wks.forEach((wk, i) => {
+      const p = ph[i];
+      let cls = 'ct-seg';
+      if (p.t === 'fussy') cls += ' fussy';
+      else if (p.t === 'grey') cls += ' grey-seg';
+      else cls += ' sunny';
+
+      // Active highlight: only segments connected to today's segment
+      if (activeSet.has(i)) {
+        cls += ' active-seg';
+        if (!activeSet.has(i - 1)) cls += ' active-start';
+        if (!activeSet.has(i + 1)) cls += ' active-end';
+      }
+
+      // Icon
+      let icon = '';
+      if (stormAt[wk] !== undefined && (p.t === 'fussy' || p.t === 'grey')) icon = stormSvg;
+      else if (sunAt[wk] !== undefined && p.t === 'sunny') icon = sunSvg;
+
+      html += `<div class="${cls}">${icon}</div>`;
+    });
+
+    // Today marker
+    if (todayInRow) {
+      html += `<div class="ct-today-wrap" style="left:${todayPct.toFixed(1)}%">
+        <div class="ct-today-line"></div>
+        <div class="ct-today-label">Today</div>
+      </div>`;
+    }
+
+    html += `</div>`; // ct-bar
+
+    // Date labels (hide the one under Today to avoid overlap)
+    html += `<div class="ct-dates">`;
+    wks.forEach((wk, i) => {
+      if (todayInRow && i === todaySeg) {
+        html += `<span class="ct-date" style="visibility:hidden">${weekToDate(wk)}</span>`;
+      } else {
+        html += `<span class="ct-date">${weekToDate(wk)}</span>`;
+      }
+    });
+    html += `</div>`;
+
+    html += `</div>`; // ct-row
+  }
+
+  el.innerHTML = html;
+}
+
+function renderLeapsList(w) {
+  const el = document.getElementById('leapsList');
+  let html = '';
+  LEAPS.forEach((leap, i) => {
+    html += `
+      <div class="leap-full-card" onclick="openModal(${i})">
+        <div class="lfc-top">
+          <span class="lfc-num">Leap ${leap.num}</span>
+          <span class="lfc-dates">${weekToDate(leap.fussyStart)} – ${weekToDate(leap.fussyEnd)}</span>
+        </div>
+        <div class="lfc-name">${leap.name}</div>
+        <div class="lfc-desc">${leap.description}</div>
+        <div class="lfc-meta">
+          <span class="lfc-chip fussy">⛈️ Wk ${leap.fussyStart}–${leap.fussyEnd}</span>
+          <span class="lfc-chip peak">⭐ Peak wk ${leap.peakWeek}</span>
+          <span class="lfc-chip skills">☀️ ${leap.skills.length} skills</span>
+        </div>
+      </div>`;
+  });
+  el.innerHTML = html;
+}
+
+// ─── Modal ───
+function openModal(idx) {
+  const leap = LEAPS[idx];
+  document.getElementById('mhNum').textContent = `Leap ${leap.num} of 10`;
+  document.getElementById('mhTitle').textContent = leap.name;
+  document.getElementById('mhDates').innerHTML =
+    `Peak: week ${leap.peakWeek} · Fussy: weeks ${leap.fussyStart}–${leap.fussyEnd}<br>${weekToDate(leap.fussyStart)} – ${weekToDate(leap.fussyEnd)}`;
+
+  let b = `<div class="msection"><div class="msection-title">🧠 What's happening</div><p>${leap.description}</p></div>`;
+
+  b += `<div class="msection"><div class="msection-title">⛈️ Fussy phase signs</div><ul class="checklist">`;
+  leap.signs.forEach((s, si) => {
+    const k = `sign-${leap.num}-${si}`, c = state.checkedSigns[k] ? 'checked' : '';
+    b += `<li><input type="checkbox" ${c} onchange="toggleSign('${k}',this.checked)"><span>${s}</span></li>`;
+  });
+  b += '</ul></div>';
+
+  b += `<div class="msection"><div class="msection-title">☀️ New skills to watch for</div><ul class="checklist">`;
+  leap.skills.forEach((s, si) => {
+    const k = `skill-${leap.num}-${si}`, c = state.checkedSkills[k] ? 'checked' : '';
+    b += `<li><input type="checkbox" ${c} onchange="toggleSkill('${k}',this.checked)"><span>${s}</span></li>`;
+  });
+  b += '</ul></div>';
+
+  document.getElementById('modalBody').innerHTML = b;
+  document.getElementById('modal').style.display = '';
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+  document.getElementById('modalOverlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function toggleSkill(k, v) { v ? state.checkedSkills[k] = true : delete state.checkedSkills[k]; save(); }
+function toggleSign(k, v) { v ? state.checkedSigns[k] = true : delete state.checkedSigns[k]; save(); }
+
+// ─── Tabs ───
+function switchTab(t) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(`tab-${t}`).classList.add('active');
+  const labels = { home: 'Home', leaps: 'Leaps', info: 'Learn' };
+  document.querySelectorAll('.tab-nav button').forEach(b => {
+    if (b.textContent.trim() === labels[t]) b.classList.add('active');
+  });
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+init();
+</script>
+</body>
+</html>
