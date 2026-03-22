@@ -48,6 +48,16 @@ Keep it short. Include:
 - Don't track large binary files (mp3, mp4, pptx). They're in `.gitignore`.
 - Generated output (PDFs, PNGs from scripts) can be tracked if small and useful.
 
+### Visual testing
+
+Use `agent-browser` CLI (globally installed) to preview and screenshot web projects:
+```bash
+agent-browser open "file:///Users/matiashoyl/Proyectos/experiments/my-project/index.html"
+agent-browser screenshot /tmp/screenshot.png          # viewport only
+agent-browser screenshot --full /tmp/screenshot.png   # full page
+agent-browser screenshot --annotate /tmp/screenshot.png  # numbered interactive elements
+```
+
 ### Deployment
 
 Web projects use Vercel. To deploy a new project:
