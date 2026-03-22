@@ -1,0 +1,17 @@
+{
+  "name": "Pokemon Phonics Adventure",
+  "short_name": "PokPhonics",
+  "description": "Learn to read with Pokemon!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#87CEEB",
+  "theme_color": "#3B4CCA",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+/* === Reset & Base === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Fredoka', 'Baloo 2', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(180deg, #87CEEB 0%, #98E4A6 60%, #78C850 100%);
+  min-height: 100dvh;
+  color: #212121;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* === CSS Variables === */
+:root {
+  --pokemon-red: #FF1C1C;
+  --pokemon-blue: #3B4CCA;
+  --pokemon-yellow: #FFD700;
+  --pokemon-green: #78C850;
+  --bg-grass: #E8F5E9;
+  --bg-sky: #BBDEFB;
+  --text-dark: #212121;
+  --text-light: #FAFAFA;
+  --success: #4CAF50;
+  --danger: #F44336;
+  --shadow: 0 4px 12px rgba(0,0,0,0.15);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.2);
+  --radius: 16px;
+  --radius-sm: 8px;
+}
+
+/* === Typography === */
+h1 { font-size: 2.5rem; font-weight: 700; }
+h2 { font-size: 1.8rem; font-weight: 600; }
+h3 { font-size: 1.4rem; font-weight: 600; }
+
+/* === Buttons === */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+  box-shadow: var(--shadow);
+  min-width: 64px;
+  min-height: 64px;
+  touch-action: manipulation;
+}
+
+.btn:active {
+  transform: scale(0.95) translateY(2px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+  background: var(--pokemon-red);
+  color: white;
+}
+
+.btn-secondary {
+  background: var(--pokemon-blue);
+  color: white;
+}
+
+.btn-success {
+  background: var(--success);
+  color: white;
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: var(--text-dark);
+}
+
+/* Pulsing animation for CTA buttons */
+.btn-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* === Letter Cards === */
+.letter-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 4px solid var(--pokemon-blue);
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--text-dark);
+  cursor: pointer;
+  transition: transform 0.1s, border-color 0.2s, background-color 0.2s;
+  box-shadow: var(--shadow);
+  touch-action: manipulation;
+  text-transform: lowercase;
+}
+
+.letter-card:active {
+  transform: scale(0.95);
+}
+
+.letter-card-small { width: 56px; height: 56px; font-size: 1.5rem; }
+.letter-card-medium { width: 80px; height: 80px; font-size: 2.5rem; }
+.letter-card-large { width: 120px; height: 120px; font-size: 4rem; }
+
+.letter-card-selected {
+  border-color: var(--pokemon-yellow);
+  background: #FFF8E1;
+}
+
+.letter-card-correct {
+  border-color: var(--success);
+  background: #E8F5E9;
+  animation: correctBounce 0.4s ease;
+}
+
+.letter-card-wrong {
+  border-color: var(--danger);
+  background: #FFEBEE;
+  animation: wrongShake 0.4s ease;
+}
+
+@keyframes correctBounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes wrongShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+
+/* === Progress Bar === */
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.progress-bar-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.progress-bar-track {
+  flex: 1;
+  background: rgba(0,0,0,0.1);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  border-radius: 999px;
+}
+
+.progress-bar-percentage {
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 36px;
+  text-align: right;
+}
+
+/* === Pokemon Sprite === */
+.pokemon-sprite {
+  pointer-events: none;
+}
+
+.pokemon-sprite.silhouette {
+  filter: brightness(0) !important;
+  opacity: 0.6;
+}
+
+/* === Screen Layout === */
+.screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  position: relative;
+}
+
+/* === Animations === */
+.bounce-in {
+  animation: bounceIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-up {
+  animation: slideUp 0.4s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Stars / confetti */
+.stars {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: var(--pokemon-yellow);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: starFall 1s ease-out forwards;
+}
+
+@keyframes starFall {
+  0% { transform: translateY(-20px) rotate(0deg) scale(1); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg) scale(0.3); opacity: 0; }
+}

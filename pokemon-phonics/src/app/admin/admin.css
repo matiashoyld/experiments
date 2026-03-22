@@ -1,0 +1,681 @@
+/* === Admin Panel === */
+.admin-screen {
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+}
+
+.admin-header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.admin-header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* === Tabs === */
+.admin-tabs {
+  display: flex;
+  background: white;
+  border-bottom: 2px solid #e0e0e0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.admin-tab {
+  padding: 12px 20px;
+  border: none;
+  background: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.admin-tab:hover {
+  color: #333;
+  background: #f5f5f5;
+}
+
+.admin-tab.active {
+  color: var(--pokemon-blue, #3B4CCA);
+  border-bottom-color: var(--pokemon-blue, #3B4CCA);
+}
+
+/* === Content Area === */
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* === Section Headers === */
+.admin-section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.admin-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.admin-section h3 {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 16px 0 8px;
+}
+
+.admin-section p.desc {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+/* === Phoneme Recorder Grid === */
+.phoneme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.phoneme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+  position: relative;
+}
+
+.phoneme-card.recorded {
+  border-color: #4CAF50;
+  background: #f1f8f1;
+}
+
+.phoneme-card .grapheme {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.phoneme-card .sound-desc {
+  font-size: 0.7rem;
+  color: #888;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.phoneme-card .status-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.status-dot.recorded {
+  background: #4CAF50;
+}
+
+.status-dot.missing {
+  background: #F44336;
+}
+
+.phoneme-card-actions {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+/* === Buttons === */
+.btn-admin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+  background: white;
+  color: #333;
+}
+
+.btn-admin:hover {
+  background: #f0f0f0;
+}
+
+.btn-admin:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-admin.primary {
+  background: var(--pokemon-blue, #3B4CCA);
+  color: white;
+  border-color: var(--pokemon-blue, #3B4CCA);
+}
+
+.btn-admin.primary:hover {
+  opacity: 0.9;
+}
+
+.btn-admin.danger {
+  background: #F44336;
+  color: white;
+  border-color: #F44336;
+}
+
+.btn-admin.success {
+  background: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+}
+
+.btn-admin.record {
+  background: #F44336;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.btn-admin.record.recording {
+  animation: recordPulse 1s infinite;
+}
+
+@keyframes recordPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(244, 67, 54, 0); }
+}
+
+/* === Recording Modal === */
+.recording-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.recording-modal {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.recording-modal h3 {
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.recording-modal .grapheme-large {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--pokemon-blue, #3B4CCA);
+  margin: 16px 0;
+}
+
+.recording-modal .recording-status {
+  font-size: 1rem;
+  color: #F44336;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.recording-modal .countdown {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--pokemon-red, #FF1C1C);
+  animation: countdownPulse 0.8s ease;
+}
+
+@keyframes countdownPulse {
+  0% { transform: scale(1.5); opacity: 0; }
+  50% { transform: scale(1); opacity: 1; }
+}
+
+.recording-modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+/* === Narration List === */
+.narration-category {
+  margin-bottom: 12px;
+}
+
+.narration-category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  color: #333;
+}
+
+.narration-category-header:hover {
+  background: #e8e8e8;
+}
+
+.narration-category-header .count {
+  font-size: 0.75rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.narration-list {
+  border: 1px solid #e0e0e0;
+  border-radius: 0 0 6px 6px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.narration-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.8rem;
+}
+
+.narration-item:last-child {
+  border-bottom: none;
+}
+
+.narration-item .key {
+  font-family: monospace;
+  font-size: 0.7rem;
+  color: #888;
+  min-width: 180px;
+}
+
+.narration-item .text {
+  flex: 1;
+  color: #333;
+}
+
+.narration-item .voice {
+  font-size: 0.7rem;
+  color: #888;
+  padding: 2px 6px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.narration-item .status-icon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-icon.cached {
+  background: #4CAF50;
+}
+
+.status-icon.missing {
+  background: #ccc;
+}
+
+.status-icon.generating {
+  background: #FF9800;
+  animation: genPulse 1s infinite;
+}
+
+.status-icon.error {
+  background: #F44336;
+}
+
+@keyframes genPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* === Batch Progress === */
+.batch-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #FFF8E1;
+  border: 1px solid #FFE082;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.batch-bar .progress-track {
+  flex: 1;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.batch-bar .progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  border-radius: 999px;
+  transition: width 0.3s;
+}
+
+.batch-bar .progress-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
+
+.batch-bar .time-est {
+  font-size: 0.75rem;
+  color: #888;
+  white-space: nowrap;
+}
+
+/* === Words List === */
+.word-set-group {
+  margin-bottom: 12px;
+}
+
+.word-set-group h4 {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.word-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.word-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: white;
+}
+
+.word-chip.cached {
+  border-color: #4CAF50;
+  background: #f1f8f1;
+}
+
+.word-chip .status-dot-small {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+/* === Progress Dashboard === */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.dash-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dash-card h3 {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.dash-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.dash-stat .value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.dash-stat .label {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.mastery-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.mastery-bar-row .phoneme-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  width: 30px;
+  text-align: center;
+}
+
+.mastery-bar-row .bar-track {
+  flex: 1;
+  height: 14px;
+  background: #f0f0f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.mastery-bar-row .bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s;
+}
+
+.mastery-bar-row .bar-fill.low { background: #F44336; }
+.mastery-bar-row .bar-fill.mid { background: #FF9800; }
+.mastery-bar-row .bar-fill.high { background: #4CAF50; }
+
+.mastery-bar-row .pct {
+  font-size: 0.7rem;
+  color: #888;
+  width: 35px;
+  text-align: right;
+}
+
+/* === Pokemon Grid (small) === */
+.pokemon-mini-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.pokemon-mini {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid #e0e0e0;
+}
+
+.pokemon-mini.caught {
+  border-color: #4CAF50;
+}
+
+.pokemon-mini.shiny {
+  border-color: #FFD700;
+}
+
+.pokemon-mini img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* === Badge Row === */
+.badge-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge-display {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.badge-display.empty {
+  background: #e0e0e0;
+  color: #bbb;
+}
+
+/* === Mapping Table === */
+.mapping-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.mapping-table th {
+  text-align: left;
+  padding: 8px 10px;
+  background: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+.mapping-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+
+.mapping-table tr:hover td {
+  background: #fafafa;
+}
+
+.mapping-sprite {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.mapping-evo-line {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mapping-evo-line img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.mapping-evo-line .arrow {
+  color: #ccc;
+  font-size: 0.7rem;
+}
+
+/* === Reset Confirmation === */
+.reset-confirm {
+  margin-top: 16px;
+  padding: 16px;
+  background: #FFF3F3;
+  border: 1px solid #FFCDD2;
+  border-radius: 8px;
+}
+
+.reset-confirm input {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .admin-content {
+    padding: 12px;
+  }
+  .phoneme-grid {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  }
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  .narration-item .key {
+    display: none;
+  }
+}

@@ -1,0 +1,493 @@
+/* === Encounter Screen === */
+.encounter-screen {
+  background: linear-gradient(180deg, #87CEEB 0%, #98E4A6 60%, #78C850 100%);
+  padding: 16px;
+  justify-content: flex-start;
+  gap: 0;
+  overflow: hidden;
+}
+
+.encounter-loading {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* === Walking Phase === */
+.encounter-walking {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.walking-scene {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #87CEEB 0%, #7BC67B 50%, #5BA05B 100%);
+}
+
+.grass-field {
+  position: absolute;
+  inset: 0;
+}
+
+.grass-tuft {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(0deg, #3B7A3B, #5CB85C);
+  border-radius: 50% 50% 0 0;
+  animation: grassSway 1.5s ease-in-out infinite alternate;
+}
+
+.grass-tuft::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  bottom: 0;
+  width: 30px;
+  height: 25px;
+  background: linear-gradient(0deg, #4A8A4A, #6CC86C);
+  border-radius: 50% 50% 0 0;
+  transform: rotate(-15deg);
+}
+
+.grass-tuft::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 30px;
+  height: 25px;
+  background: linear-gradient(0deg, #4A8A4A, #6CC86C);
+  border-radius: 50% 50% 0 0;
+  transform: rotate(15deg);
+}
+
+@keyframes grassSway {
+  from { transform: rotate(-3deg); }
+  to { transform: rotate(3deg); }
+}
+
+.trainer-sprite {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  animation: trainerWalk 2.5s linear forwards;
+}
+
+.trainer-body {
+  width: 40px;
+  height: 60px;
+  background: linear-gradient(180deg, #FF1C1C 0% 40%, #3B4CCA 40% 100%);
+  border-radius: 50% 50% 10% 10%;
+  position: relative;
+}
+
+.trainer-body::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background: #FFD4A3;
+  border-radius: 50%;
+}
+
+.trainer-body::after {
+  content: '';
+  position: absolute;
+  top: -28px;
+  left: 2px;
+  width: 36px;
+  height: 16px;
+  background: #FF1C1C;
+  border-radius: 50% 50% 0 0;
+}
+
+@keyframes trainerWalk {
+  0% { left: 10%; }
+  100% { left: 75%; }
+}
+
+.encounter-region-name {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* === Flash Transition === */
+.encounter-flash {
+  position: fixed;
+  inset: 0;
+  background: white;
+  z-index: 50;
+  animation: flashAnim 0.5s ease-out forwards;
+}
+
+@keyframes flashAnim {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* === Pokemon Appeared === */
+.encounter-appeared {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  flex: 1;
+}
+
+.appeared-pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appeared-text h2 {
+  color: white;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+/* === Challenge Phase === */
+.encounter-challenge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.challenge-pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.pokemon-name-label {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.challenge-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 16px;
+}
+
+.challenge-prompt {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.2);
+  padding: 12px 24px;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.challenge-grapheme-display {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.challenge-word-display {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.challenge-hint-text {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.challenge-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.challenge-options-letters {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Sound option buttons */
+.btn-sound-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 24px;
+  min-width: 100px;
+  min-height: 64px;
+  background: white;
+  color: var(--text-dark);
+  border: 4px solid var(--pokemon-blue);
+  border-radius: var(--radius);
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.1s, border-color 0.2s, background 0.2s;
+  box-shadow: var(--shadow);
+  touch-action: manipulation;
+}
+
+.btn-sound-option:active {
+  transform: scale(0.95);
+}
+
+.btn-sound-option.btn-correct {
+  background: #E8F5E9;
+  border-color: var(--success);
+  animation: correctBounce 0.4s ease;
+}
+
+.btn-sound-option.btn-wrong {
+  background: #FFEBEE;
+  border-color: var(--danger);
+  animation: wrongShake 0.4s ease;
+}
+
+.sound-icon {
+  font-size: 1.2rem;
+}
+
+.sound-label {
+  text-transform: lowercase;
+}
+
+.replay-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  min-height: 48px;
+}
+
+/* === Pokeball Animation === */
+.encounter-pokeball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.pokeball-scene {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokeball,
+.pokeball-ground {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #333;
+}
+
+.pokeball {
+  animation: pokeballThrow 0.8s ease-out forwards;
+}
+
+.pokeball-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: #FF1C1C;
+}
+
+.pokeball-band {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #333;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokeball-button {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3px solid #333;
+  border-radius: 50%;
+}
+
+.pokeball-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: white;
+}
+
+@keyframes pokeballThrow {
+  0% { transform: translate(0, 100px) scale(0.5); opacity: 0; }
+  40% { transform: translate(0, -40px) scale(1) rotate(-30deg); opacity: 1; }
+  70% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  100% { transform: translate(0, 0) scale(0); opacity: 0; }
+}
+
+.pokeball-ground {
+  position: absolute;
+}
+
+.pokeball-shake-1 {
+  animation: pokeballShake 0.5s ease-in-out;
+}
+
+.pokeball-shake-2 {
+  animation: pokeballShake 0.5s ease-in-out;
+}
+
+.pokeball-shake-3 {
+  animation: pokeballShake 0.5s ease-in-out, pokeballClick 0.3s ease 0.5s forwards;
+}
+
+@keyframes pokeballShake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-20deg); }
+  75% { transform: rotate(20deg); }
+}
+
+@keyframes pokeballClick {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+/* === Caught Phase === */
+.encounter-caught {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.caught-text {
+  color: var(--pokemon-yellow);
+  font-size: 2.2rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.caught-subtext {
+  color: white;
+  font-size: 1.1rem;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* === Failure Phase === */
+.encounter-failure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.pokemon-flee {
+  animation: pokemonFlee 1s ease-in forwards;
+}
+
+@keyframes pokemonFlee {
+  0% { transform: translateX(0) scale(1); opacity: 1; }
+  30% { transform: translateX(-20px) scale(1.1); }
+  100% { transform: translateX(300px) scale(0.5); opacity: 0; }
+}
+
+.failure-text {
+  color: white;
+  font-size: 1.6rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.failure-subtext {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* === Scaffold Phase === */
+.encounter-scaffold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.scaffold-text {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.scaffold-answer {
+  margin: 8px 0;
+}
+
+.scaffold-hint {
+  color: var(--pokemon-yellow);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.scaffold-back {
+  color: rgba(255,255,255,0.8);
+  font-size: 1rem;
+  font-style: italic;
+}

@@ -1,0 +1,68 @@
+'use client';
+
+import { useCallback, useRef } from 'react';
+
+export function useAudio() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const stop = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+  }, []);
+
+  const play = useCallback((path: string): Promise<void> => {
+    return new Promise((resolve, reject) => {
+      stop();
+      const audio = new Audio(path);
+      audioRef.current = audio;
+      audio.onended = () => resolve();
+      audio.onerror = () => reject(new Error(`Failed to play: ${path}`));
+      audio.play().catch(reject);
+    });
+  }, [stop]);
+
+  const playPhoneme = useCallback((phonemeId: string): Promise<void> => {
+    return play(`/audio/phonemes/${phonemeId}.wav`);
+  }, [play]);
+
+  const playNarration = useCallback((key: string): Promise<void> => {
+    return play(`/audio/tts/${key}.wav`);
+  }, [play]);
+
+  const playWord = useCallback((word: string): Promise<void> => {
+    // Try pre-generated audio first, fall back to Web Speech API
+    return play(`/audio/words/${word}.wav`).catch(() => {
+      return new Promise<void>((resolve) => {
+        if ('speechSynthesis' in window) {
+          const utterance = new SpeechSynthesisUtterance(word);
+          utterance.rate = 0.85;
+          utterance.pitch = 1.1;
+          utterance.onend = () => resolve();
+          utterance.onerror = () => resolve();
+          speechSynthesis.speak(utterance);
+        } else {
+          resolve();
+        }
+      });
+    });
+  }, [play]);
+
+  const speak = useCallback((text: string): Promise<void> => {
+    return new Promise<void>((resolve) => {
+      if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = 0.85;
+        utterance.pitch = 1.1;
+        utterance.onend = () => resolve();
+        utterance.onerror = () => resolve();
+        speechSynthesis.speak(utterance);
+      } else {
+        resolve();
+      }
+    });
+  }, []);
+
+  return { play, playPhoneme, playNarration, playWord, speak, stop };
+}
