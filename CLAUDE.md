@@ -70,10 +70,12 @@ For static HTML projects, no config needed — Vercel auto-detects them.
 
 ## Current projects
 
-| Folder | What it is | Tech |
-|--------|-----------|------|
-| `april-roadtrip/` | RV road trip planning (Yosemite, Sequoia) | Markdown |
-| `inaki-birthday/` | Star Wars themed birthday invitation site | HTML/CSS/JS, Google Apps Script, Vercel |
-| `usa-trip/` | Family trip comparison tool (Seattle vs Yellowstone vs Banff) | HTML/CSS/JS, Vercel |
-| `pokemon-phonics/` | Pokemon-themed phonics learning game for kids | Next.js, Gemini TTS, Vercel |
-| `voter-chart-chile/` | Chile voter demographics analysis chart | Python (pandas, matplotlib) |
+| Folder | What it is | Tech | URL |
+|--------|-----------|------|-----|
+| `april-roadtrip/` | RV road trip planning (Yosemite, Sequoia) | Markdown | — |
+| `inaki-birthday/` | Star Wars themed birthday invitation site | HTML/CSS/JS, Google Apps Script | https://inaki-birthday.vercel.app |
+| `openclaw/` | Legal clause analysis app | Next.js | — |
+| `pokemon-phonics/` | Pokemon-themed phonics learning game for kids | Next.js, Gemini TTS | https://pokemon-phonics.vercel.app |
+| `usa-trip/` | Family trip comparison tool (Seattle vs Yellowstone vs Banff) | HTML/CSS/JS | https://usa-trip.vercel.app |
+| `voter-chart-chile/` | Chile voter demographics analysis chart | Python (pandas, matplotlib) | — |
+| `wonder-weeks/` | Baby development tracker | Next.js | https://wonder-weeks.vercel.app |
