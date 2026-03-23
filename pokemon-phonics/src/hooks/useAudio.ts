@@ -2,6 +2,7 @@
 
 import { useCallback, useRef, useMemo, useEffect } from 'react';
 import { createNarration } from '@/lib/narrate';
+import { getChiptuneEngine } from '@/lib/chiptune';
 
 /**
  * Find the best English voice available on this device.
@@ -9,7 +10,6 @@ import { createNarration } from '@/lib/narrate';
  * Returns null if no English voice found (will fall back to lang attribute).
  */
 function findEnglishVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
-  // Priority: en-US voices first, prefer non-compact/enhanced voices
   const enUS = voices.filter(v => v.lang === 'en-US');
   const preferred = enUS.find(v => /samantha|karen|daniel|premium|enhanced/i.test(v.name));
   if (preferred) return preferred;
@@ -22,6 +22,17 @@ function findEnglishVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice 
   if (anyEn) return anyEn;
 
   return null;
+}
+
+/**
+ * Duck music volume while narration/speech plays, then restore.
+ * iOS Safari shares a single audio session — music + speech fight.
+ */
+function duckMusic() {
+  const engine = getChiptuneEngine();
+  const prevVolume = engine.volume;
+  engine.volume = prevVolume * 0.15; // duck to 15%
+  return () => { engine.volume = prevVolume; };
 }
 
 export function useAudio() {
@@ -41,7 +52,19 @@ export function useAudio() {
 
     loadVoices();
     speechSynthesis.addEventListener('voiceschanged', loadVoices);
-    return () => speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+
+    // iOS Safari workaround: periodically ping speechSynthesis to prevent freeze.
+    const keepAlive = setInterval(() => {
+      if (speechSynthesis.speaking) {
+        speechSynthesis.pause();
+        speechSynthesis.resume();
+      }
+    }, 5000);
+
+    return () => {
+      speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+      clearInterval(keepAlive);
+    };
   }, []);
 
   const stop = useCallback(() => {
@@ -49,16 +72,20 @@ export function useAudio() {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      speechSynthesis.cancel();
+    }
   }, []);
 
   const play = useCallback((path: string): Promise<void> => {
     return new Promise((resolve, reject) => {
       stop();
+      const unduck = duckMusic();
       const audio = new Audio(path);
       audioRef.current = audio;
-      audio.onended = () => resolve();
-      audio.onerror = () => reject(new Error(`Failed to play: ${path}`));
-      audio.play().catch(reject);
+      audio.onended = () => { unduck(); resolve(); };
+      audio.onerror = () => { unduck(); reject(new Error(`Failed to play: ${path}`)); };
+      audio.play().catch((err) => { unduck(); reject(err); });
     });
   }, [stop]);
 
@@ -72,25 +99,39 @@ export function useAudio() {
 
   const speakWithVoice = useCallback((text: string): Promise<void> => {
     return new Promise<void>((resolve) => {
-      if ('speechSynthesis' in window) {
+      if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+        resolve();
+        return;
+      }
+
+      // iOS Safari fix: cancel any stuck queue before speaking
+      speechSynthesis.cancel();
+
+      const unduck = duckMusic();
+      let resolved = false;
+      const done = () => {
+        if (!resolved) {
+          resolved = true;
+          unduck();
+          resolve();
+        }
+      };
+
+      // Small delay after cancel — iOS needs a tick to process it
+      setTimeout(() => {
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'en-US';
         utterance.rate = 0.85;
         utterance.pitch = 1.1;
-        // Explicitly set English voice if available (critical for iOS/Safari)
         if (englishVoiceRef.current) {
           utterance.voice = englishVoiceRef.current;
         }
-        let resolved = false;
-        const done = () => { if (!resolved) { resolved = true; resolve(); } };
         utterance.onend = done;
         utterance.onerror = done;
         // Safety timeout — iOS sometimes never fires onend
         setTimeout(done, 5000);
         speechSynthesis.speak(utterance);
-      } else {
-        resolve();
-      }
+      }, 50);
     });
   }, []);
 

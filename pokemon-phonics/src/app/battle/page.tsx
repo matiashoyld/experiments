@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useRef, Suspense } from 'react';
 import { useGameState } from '@/hooks/useGameState';
 import { useAudio } from '@/hooks/useAudio';
 import { useMusic } from '@/hooks/useMusic';
-import { getPhonemesBySet } from '@/data/phonemes';
+import { getPhonemesBySet, getPhonemeById } from '@/data/phonemes';
 import { getRegionById } from '@/data/regions';
 import { getGymLeader } from '@/data/gym-leaders';
 import { generateBattleWords, BattleWord } from '@/lib/battle-gen';
@@ -194,7 +194,10 @@ function BattleContent() {
   }, [selectedAnswer, battleWords, currentWordIndex, addAttempt, narrate, consecutiveWrong]);
 
   const handlePlaySound = useCallback((phonemeId: string) => {
-    playPhoneme(phonemeId).catch(() => speak(phonemeId));
+    playPhoneme(phonemeId).catch(() => {
+      const phoneme = getPhonemeById(phonemeId);
+      speak(phoneme ? phoneme.displayGrapheme : phonemeId);
+    });
   }, [playPhoneme, speak]);
 
   const handlePlayWord = useCallback((word: string) => {
