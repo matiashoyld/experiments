@@ -52,9 +52,9 @@ export const PHASE_1_PHONEMES: PhonemeData[] = [
   {
     id: 'p', grapheme: 'p', displayGrapheme: 'p', sound: '/p/', description: 'the p sound, a little puff',
     phase: 1, set: 1,
-    pokemon: { id: 25, name: 'Pikachu', evolutionLine: { stage1: { id: 172, name: 'Pichu' }, stage2: { id: 25, name: 'Pikachu' }, stage3: { id: 26, name: 'Raichu' } } },
+    pokemon: { id: 172, name: 'Pichu', evolutionLine: { stage1: { id: 172, name: 'Pichu' }, stage2: { id: 25, name: 'Pikachu' }, stage3: { id: 26, name: 'Raichu' } } },
     exampleWords: { cvc: ['pat', 'pin', 'pot', 'pan', 'peg', 'pig', 'pup', 'pen'] },
-    mnemonicPhrase: 'P is for Pikachu! P-p-p!',
+    mnemonicPhrase: 'P is for Pichu! P-p-p!',
   },
   // Set 2: i, n, m, d
   {
