@@ -439,6 +439,8 @@ function ChallengeA({
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
+  const [previewId, setPreviewId] = useState<string | null>(null);
+
   return (
     <>
       <p className="challenge-prompt">What sound does this letter make?</p>
@@ -450,18 +452,25 @@ function ChallengeA({
           <button
             key={opt.phonemeId}
             className={`btn btn-sound-option ${
+              previewId === opt.phonemeId ? 'btn-previewing' : ''
+            } ${
               answerCorrectness[opt.phonemeId] === true ? 'btn-correct' :
               answerCorrectness[opt.phonemeId] === false ? 'btn-wrong' : ''
             }`}
             disabled={selectedAnswer !== null}
             onClick={() => {
-              onPlaySound(opt.phonemeId);
-              setTimeout(() => {
+              if (previewId === opt.phonemeId) {
+                // Second tap — confirm answer
                 onAnswer(opt.phonemeId, opt.phonemeId === challenge.correctPhonemeId);
-              }, 600);
+              } else {
+                // First tap — preview sound
+                setPreviewId(opt.phonemeId);
+                onPlaySound(opt.phonemeId);
+              }
             }}
           >
             <span className="sound-icon">&#x1F50A;</span>
+            {previewId === opt.phonemeId && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
       </div>
@@ -554,6 +563,8 @@ function ChallengeD({
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
+  const [previewWord, setPreviewWord] = useState<string | null>(null);
+
   return (
     <>
       <p className="challenge-prompt">Can you read this word?</p>
@@ -573,19 +584,26 @@ function ChallengeD({
           <button
             key={opt.word}
             className={`btn btn-sound-option ${
+              previewWord === opt.word ? 'btn-previewing' : ''
+            } ${
               answerCorrectness[opt.word] === true ? 'btn-correct' :
               answerCorrectness[opt.word] === false ? 'btn-wrong' : ''
             }`}
             disabled={selectedAnswer !== null}
             onClick={() => {
-              onPlayWord(opt.word);
-              setTimeout(() => {
+              if (previewWord === opt.word) {
+                // Second tap — confirm answer
                 onAnswer(opt.word, opt.word === challenge.correctWord);
-              }, 800);
+              } else {
+                // First tap — preview sound
+                setPreviewWord(opt.word);
+                onPlayWord(opt.word);
+              }
             }}
           >
             <span className="sound-icon">&#x1F50A;</span>
             <span className="sound-label">{opt.word}</span>
+            {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
       </div>

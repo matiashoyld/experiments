@@ -93,7 +93,7 @@ export default function WorldMap() {
             <span className="map-streak">🔥 {state.session.streak}</span>
           )}
           {state.badges.length > 0 && (
-            <span className="map-badge-count">{state.badges.length} badges</span>
+            <span className="map-badge-count">{state.badges.length} {state.badges.length === 1 ? 'badge' : 'badges'}</span>
           )}
         </div>
       </div>
