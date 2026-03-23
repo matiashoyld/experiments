@@ -93,7 +93,7 @@ agent-browser open "http://localhost:3000/admin"
 ```
 
 **Every session must:**
-1. Read this CLAUDE.md and SPEC.md to understand what's been built and what to build next
+1. Read this CLAUDE.md and docs/SPEC.md + docs/SPEC-2.md to understand what's been built and what to build next
 2. Check the current build status below to know which phase to work on
 3. Build the next phase
 4. Run `npm run dev` and use `agent-browser` to screenshot every screen built
@@ -110,6 +110,7 @@ agent-browser open "http://localhost:3000/admin"
 | **D: Battles** | Gym Battle screen, badge system, region unlocking, gym leader dialogue | COMPLETE |
 | **E: Admin Panel** | Phoneme recorder, TTS narration generator, word audio generator, progress dashboard, mapping editor | COMPLETE |
 | **F: Polish** | Session timer, daily engagement, streak tracking, PWA, sound effects, Phase 2 content | PARTIAL (core done) |
+| **G: Explorable Maps** | 2D tile-based explorable maps per region, tap-to-move, tall grass encounters, Canvas renderer | COMPLETE |
 
 ### Session Handoff
 
@@ -117,7 +118,7 @@ When finishing a session, update the status table above and add notes about:
 - What was built
 - What works / what's broken
 - What the next session should start with
-- Any deviations from SPEC.md
+- Any deviations from docs/SPEC.md or docs/SPEC-2.md
 
 ### Current Notes
 
@@ -222,9 +223,42 @@ When finishing a session, update the status table above and add notes about:
 
 **What's remaining for Phase F:** Sound effects (button press sounds, background music), Phase 2 content (additional word lists for Sets 8-11).
 
+**Phase G completed.** What was built:
+- **Tile type system** (`src/data/maps/tile-types.ts`): 13 tile types (grass short/tall, path, tree, water, rock, cave floor/wall, flower, sand, ledge, spawn, gym entrance) with walkability, encounter trigger, and fallback color properties.
+- **Tile engine** (`src/lib/tile-engine.ts`): Map loading, collision detection, A* pathfinding for tap-to-move, spawn point detection, direction calculation.
+- **Canvas tile renderer** (`src/components/TileMap.tsx`): Full Canvas 2D rendering pipeline with:
+  - Procedural pixel-art tile drawing (no sprite sheets needed — trees with canopy/trunk, flowers with petals, water with waves, rocks with highlights, cave walls)
+  - Trainer sprite drawing (red hat, blue shirt, walking animation with 4 directions and leg/arm movement)
+  - Camera system (follows player, clamps at edges)
+  - Responsive tile sizing (fits 14 tiles across viewport)
+  - Device pixel ratio support for retina displays
+  - Region name banner with fade animation
+  - Encounter flash overlay
+  - SessionStorage position persistence (survives encounter round-trips)
+- **7 region maps** (`src/data/maps/region-{1-7}.ts`): 40x40 tile grids with distinct visual themes:
+  - Pallet Meadow: sunny grassland with pond and flower patches
+  - Viridian Woods: dense forest with narrow winding paths
+  - Pewter Mountains: rocky terrain with cave entrance areas
+  - Cerulean Caves: underground cave system with water pools
+  - Vermilion Coast: beach with sand-to-ocean gradient
+  - Lavender Fields: flower meadows with tall grass clusters
+  - Saffron City: urban grid layout with path "streets" and grass "yards"
+- **Explore page** (`src/app/explore/page.tsx`): Full explore screen with Back button, region loading, encounter/gym navigation.
+- **Map integration**: Tapping a region on the World Map now navigates to `/explore?region=X` instead of `/encounter?region=X`.
+- **Encounter return flow**: Encounters launched from explore include `from=explore` param; encounter page returns to `/explore?region=X` instead of `/map`.
+- **Tap-to-move**: Tap anywhere on the map, A* pathfinding calculates route, trainer walks step-by-step with animation.
+- **Random encounters**: Walking on tall grass/cave floor tiles accumulates encounter chance (starts at 10%, +5% per step, max 50%). Encounter triggers white flash → navigate to encounter screen.
+- **Gym entrance tiles**: Red pokeball-marked tiles navigate to `/battle?gym=X` when stepped on.
+
+**What works:** All 7 maps render with distinct visual themes. Trainer sprite walks with 4-direction animation. Canvas renders at 60fps with only visible tiles drawn. Camera follows player smoothly. Position persists in sessionStorage for encounter round-trips. Map → Explore → Encounter → Explore flow connected. Build passes cleanly.
+
+**What could be improved:** Tile art is procedurally drawn (no sprite sheet) — looks good but could be replaced with proper pixel art tilesets later. Cave spawn area renders as green (SPAWN tile always green) — minor visual issue. No walking sound effects yet.
+
 ## Full Specification
 
-See [SPEC.md](./SPEC.md) for the complete game design document including phonics pedagogy, Pokemon-to-phoneme mappings, game mechanics, data models, admin panel features, and screen-by-screen breakdown.
+See [docs/SPEC.md](./docs/SPEC.md) for the original game design document (phonics pedagogy, Pokemon-to-phoneme mappings, game mechanics, data models, admin panel, screen-by-screen breakdown).
+
+See [docs/SPEC-2.md](./docs/SPEC-2.md) for the explorable tile map specification (Phase G).
 
 ## Admin Panel
 

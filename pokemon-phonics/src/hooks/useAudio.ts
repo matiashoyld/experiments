@@ -37,6 +37,7 @@ export function useAudio() {
       return new Promise<void>((resolve) => {
         if ('speechSynthesis' in window) {
           const utterance = new SpeechSynthesisUtterance(word);
+          utterance.lang = 'en-US';
           utterance.rate = 0.85;
           utterance.pitch = 1.1;
           utterance.onend = () => resolve();
@@ -53,6 +54,7 @@ export function useAudio() {
     return new Promise<void>((resolve) => {
       if ('speechSynthesis' in window) {
         const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
         utterance.rate = 0.85;
         utterance.pitch = 1.1;
         utterance.onend = () => resolve();
