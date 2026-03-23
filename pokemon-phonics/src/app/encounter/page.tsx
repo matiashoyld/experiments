@@ -28,6 +28,8 @@ function EncounterContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const regionId = parseInt(searchParams.get('region') || '1');
+  const fromExplore = searchParams.get('from') === 'explore';
+  const returnPath = fromExplore ? `/explore?region=${regionId}` : '/map';
   const { state, loaded, catchPokemon, addAttempt, updateState } = useGameState();
   const { speak, playPhoneme, playWord, stop } = useAudio();
   useMusic('encounter');
@@ -147,7 +149,7 @@ function EncounterContent() {
   useEffect(() => {
     if (phase === 'scaffold') {
       const timer = setTimeout(() => {
-        router.push('/map');
+        router.push(returnPath);
       }, 3000);
       return () => clearTimeout(timer);
     }
@@ -354,7 +356,7 @@ function EncounterContent() {
           <button
             className="btn btn-success btn-pulse"
             style={{ marginTop: 24 }}
-            onClick={() => router.push('/map')}
+            onClick={() => router.push(returnPath)}
           >
             Continue
           </button>

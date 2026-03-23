@@ -35,7 +35,7 @@ export default function WorldMap() {
       return;
     }
     await speak(`Let's explore ${region.name}!`);
-    router.push(`/encounter?region=${region.id}`);
+    router.push(`/explore?region=${region.id}`);
   };
 
   // Count caught Pokemon per region
