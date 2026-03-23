@@ -42,6 +42,7 @@ function BattleContent() {
   const [attackResult, setAttackResult] = useState<'hit' | 'miss' | null>(null);
   const [consecutiveWrong, setConsecutiveWrong] = useState(0);
   const [showBadge, setShowBadge] = useState(false);
+  const [previewWord, setPreviewWord] = useState<string | null>(null);
   const challengeStartTime = useRef<number>(0);
 
   // Initialize battle
@@ -78,9 +79,9 @@ function BattleContent() {
   // Auto-narrate each battle word
   useEffect(() => {
     if (phase === 'battle' && battleWords[currentWordIndex]) {
-      const word = battleWords[currentWordIndex];
+      setPreviewWord(null);
       setTimeout(() => {
-        narrate.battle.attack(word.correctWord);
+        narrate.challenge.readWord();
       }, 300);
     }
   }, [phase, currentWordIndex]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -272,7 +273,7 @@ function BattleContent() {
           {/* Word Challenge */}
           <div className="battle-word-area">
             <p className="battle-prompt">
-              {leader.name} used <strong>{currentWord.correctWord.toUpperCase()}</strong> attack!
+              {leader.name} used a word attack! Can you read it?
             </p>
 
             <div className="battle-word-display">
@@ -293,19 +294,25 @@ function BattleContent() {
                 <button
                   key={opt.word}
                   className={`btn btn-battle-option ${
+                    previewWord === opt.word ? 'btn-previewing' : ''
+                  } ${
                     answerCorrectness[opt.word] === true ? 'btn-correct' :
                     answerCorrectness[opt.word] === false ? 'btn-wrong' : ''
                   }`}
                   disabled={selectedAnswer !== null}
                   onClick={() => {
-                    handlePlayWord(opt.word);
-                    setTimeout(() => {
+                    if (previewWord === opt.word) {
+                      // Second tap — confirm answer
                       handleAnswer(opt.word, opt.word === currentWord.correctWord);
-                    }, 800);
+                    } else {
+                      // First tap — preview sound
+                      setPreviewWord(opt.word);
+                      handlePlayWord(opt.word);
+                    }
                   }}
                 >
                   <span className="sound-icon">&#x1F50A;</span>
-                  <span>{opt.word}</span>
+                  {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
                 </button>
               ))}
             </div>
