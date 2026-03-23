@@ -14,7 +14,7 @@ import SessionLock from '@/components/SessionLock';
 export default function WorldMap() {
   const router = useRouter();
   const { state, loaded, endSession, updateState } = useGameState();
-  const { speak, narrate } = useAudio();
+  const { narrate } = useAudio();
   const { toggle: toggleMusic } = useMusic('map', state?.settings?.soundEnabled !== false);
 
   const sessionTimer = useSessionTimer({
@@ -31,10 +31,10 @@ export default function WorldMap() {
   const handleRegionTap = async (region: typeof REGIONS[0]) => {
     const isUnlocked = region.set <= state.currentSet;
     if (!isUnlocked) {
-      await speak(`${region.name} is locked. Keep training to unlock it!`);
+      await narrate.ui.locked(region.name);
       return;
     }
-    await speak(`Let's explore ${region.name}!`);
+    await narrate.ui.explore(region.name);
     router.push(`/explore?region=${region.id}`);
   };
 

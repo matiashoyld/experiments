@@ -60,7 +60,7 @@ function TrainContent() {
       const stage = pokemonState?.stage || 1;
       const evoLine = selectedPhoneme.pokemon.evolutionLine;
       const currentPokemon = stage === 3 ? evoLine.stage3 : stage === 2 ? evoLine.stage2 : evoLine.stage1;
-      speak(`Let's train ${currentPokemon.name}!`).then(() => {
+      narrate.training.intro(currentPokemon.name).then(() => {
         setTimeout(() => {
           setPhase('exercise');
           challengeStartTime.current = Date.now();
@@ -129,7 +129,7 @@ function TrainContent() {
   // Shiny animation
   useEffect(() => {
     if (phase === 'shiny' && selectedPhoneme) {
-      speak(`Amazing! ${selectedPhoneme.pokemon.name} is sparkling! It became a shiny Pokemon!`).then(() => {
+      narrate.training.shiny(selectedPhoneme.pokemon.name).then(() => {
         updateState(prev => {
           const pokemon = { ...prev.pokemon };
           const current = pokemon[selectedPhoneme.id];

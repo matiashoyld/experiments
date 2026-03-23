@@ -94,25 +94,25 @@ function EncounterContent() {
 
     const narrateChallenge = async () => {
       if (challenge.type === 'A') {
-        await speak('What sound does this letter make?');
+        await narrate.challenge.whatSound();
       } else if (challenge.type === 'B') {
-        await speak('Which letter makes this sound?');
+        await narrate.challenge.whichLetter();
         await new Promise(r => setTimeout(r, 300));
         await playPhoneme(challenge.correctPhonemeId).catch(() => {
           speak(challenge.correctGrapheme);
         });
       } else if (challenge.type === 'C') {
-        await speak(challenge.prompt);
+        await narrate.challenge.firstSound(challenge.word);
         await new Promise(r => setTimeout(r, 300));
-        await playWord(challenge.word).catch(() => speak(challenge.word));
+        await playWord(challenge.word);
       } else if (challenge.type === 'D') {
-        await speak('Can you read this word?');
+        await narrate.challenge.readWord();
       }
     };
 
     const timer = setTimeout(narrateChallenge, 500);
     return () => clearTimeout(timer);
-  }, [phase, challenge, playPhoneme, playWord, speak]);
+  }, [phase, challenge, playPhoneme, playWord, speak, narrate]);
 
   // Pokeball animation sequence
   useEffect(() => {
@@ -181,7 +181,7 @@ function EncounterContent() {
 
     if (isCorrect) {
       // Play success sound/narration
-      speak('Yes!').then(() => {
+      narrate.challenge.success().then(() => {
         setTimeout(() => setPhase('pokeball'), 300);
       });
     } else {

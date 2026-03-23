@@ -80,7 +80,7 @@ function BattleContent() {
     if (phase === 'battle' && battleWords[currentWordIndex]) {
       const word = battleWords[currentWordIndex];
       setTimeout(() => {
-        speak(`The gym leader used ${word.correctWord} attack! Can you read it?`);
+        narrate.battle.attack(word.correctWord);
       }, 300);
     }
   }, [phase, currentWordIndex]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -125,7 +125,7 @@ function BattleContent() {
         narrate.badge.earned(region.id, region.badgeName).then(() => {
           const nextRegion = getRegionById(gymId + 1);
           if (nextRegion) {
-            speak(`A new area has been discovered! ${nextRegion.name} is now open!`);
+            narrate.battle.newArea(nextRegion.name);
           }
         });
       }, 1500);
