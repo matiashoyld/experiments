@@ -73,8 +73,6 @@ export function useAudio() {
   const speakWithVoice = useCallback((text: string): Promise<void> => {
     return new Promise<void>((resolve) => {
       if ('speechSynthesis' in window) {
-        // Cancel any queued utterances to prevent stacking
-        speechSynthesis.cancel();
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'en-US';
         utterance.rate = 0.85;
