@@ -38,5 +38,8 @@ venv/
 *.pptx
 *.ppt
 
+# Exception: pokemon-phonics pre-generated TTS audio (small MP3s, ~10MB total)
+!pokemon-phonics/public/audio/**/*.mp3
+
 # Generated output (keep tracked ones, ignore new)
 *.pdf

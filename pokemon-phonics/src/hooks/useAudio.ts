@@ -24,16 +24,16 @@ export function useAudio() {
   }, [stop]);
 
   const playPhoneme = useCallback((phonemeId: string): Promise<void> => {
-    return play(`/audio/phonemes/${phonemeId}.wav`);
+    return play(`/audio/phonemes/${phonemeId}.mp3`);
   }, [play]);
 
   const playNarration = useCallback((key: string): Promise<void> => {
-    return play(`/audio/tts/${key}.wav`);
+    return play(`/audio/tts/${key}.mp3`);
   }, [play]);
 
   const playWord = useCallback((word: string): Promise<void> => {
     // Try pre-generated audio first, fall back to Web Speech API
-    return play(`/audio/words/${word}.wav`).catch(() => {
+    return play(`/audio/words/${word}.mp3`).catch(() => {
       return new Promise<void>((resolve) => {
         if ('speechSynthesis' in window) {
           const utterance = new SpeechSynthesisUtterance(word);
