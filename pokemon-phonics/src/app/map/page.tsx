@@ -28,13 +28,13 @@ export default function WorldMap() {
     return <div className="screen"><p>Loading...</p></div>;
   }
 
-  const handleRegionTap = async (region: typeof REGIONS[0]) => {
+  const handleRegionTap = (region: typeof REGIONS[0]) => {
     const isUnlocked = region.set <= state.currentSet;
     if (!isUnlocked) {
-      await narrate.ui.locked(region.name);
+      narrate.ui.locked(region.name);
       return;
     }
-    await narrate.ui.explore(region.name);
+    narrate.ui.explore(region.name);
     router.push(`/explore?region=${region.id}`);
   };
 

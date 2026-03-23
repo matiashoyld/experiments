@@ -83,8 +83,12 @@ export function useAudio() {
         if (englishVoiceRef.current) {
           utterance.voice = englishVoiceRef.current;
         }
-        utterance.onend = () => resolve();
-        utterance.onerror = () => resolve();
+        let resolved = false;
+        const done = () => { if (!resolved) { resolved = true; resolve(); } };
+        utterance.onend = done;
+        utterance.onerror = done;
+        // Safety timeout — iOS sometimes never fires onend
+        setTimeout(done, 5000);
         speechSynthesis.speak(utterance);
       } else {
         resolve();
