@@ -46,6 +46,7 @@ function generateNarrationEntries(): NarrationEntry[] {
     { key: 'challenge/first-sound', text: 'What is the first sound in this word?' },
     { key: 'challenge/read-word', text: 'Can you read this word?' },
     { key: 'challenge/blend', text: 'Blend the sounds together!' },
+    { key: 'challenge/success', text: 'Yes!' },
   ];
   for (const line of challengeLines) {
     entries.push({
@@ -70,6 +71,7 @@ function generateNarrationEntries(): NarrationEntry[] {
     { key: 'training/correct-8', text: 'Fantastic!' },
     { key: 'training/almost', text: 'Almost! Listen again...' },
     { key: 'training/try-again', text: "Let's try that one more time." },
+    { key: 'training/shiny', text: 'Amazing! It became a shiny Pokemon!' },
   ];
   for (const line of trainingLines) {
     entries.push({
@@ -161,6 +163,8 @@ function generateNarrationEntries(): NarrationEntry[] {
     { key: 'battle/miss-2', text: "It didn't quite land." },
     { key: 'battle/miss-3', text: "So close!" },
     { key: 'battle/encourage', text: "Don't worry, you're doing great!" },
+    { key: 'battle/attack', text: 'The gym leader used an attack! Can you read it?' },
+    { key: 'battle/new-area', text: 'A new area has been discovered!' },
   ];
   for (const line of battleFeedback) {
     entries.push({
@@ -190,6 +194,8 @@ function generateNarrationEntries(): NarrationEntry[] {
     { key: 'ui/where-go', text: 'Where shall we go today?' },
     { key: 'ui/good-job', text: 'Great job today, trainer!' },
     { key: 'ui/tired', text: 'Your Pokemon are getting tired! Time for a rest?' },
+    { key: 'ui/explore', text: "Let's explore!" },
+    { key: 'ui/locked', text: 'This area is locked. Keep training to unlock it!' },
   ];
   for (const line of uiLines) {
     entries.push({
