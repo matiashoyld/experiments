@@ -3,6 +3,15 @@
 import React, { useRef, useEffect, useCallback, useState } from 'react';
 import { TileType, TILE_PROPERTIES } from '@/data/maps/tile-types';
 import { TileMap as TileMapData, Point, findPath, getDirection, Direction, isWalkable, isEncounterTile, getTile } from '@/lib/tile-engine';
+import { getOfficialArtwork } from '@/data/pokemon';
+
+export interface VisiblePokemon {
+  phonemeId: string;
+  tileX: number;
+  tileY: number;
+  pokedexId: number;
+  pokemonName: string;
+}
 
 const BASE_TILE_SIZE = 16;
 
@@ -385,13 +394,15 @@ function drawTrainer(
 
 interface TileMapProps {
   map: TileMapData;
-  onEncounter: () => void;
+  onEncounter: (pokemonId?: string) => void;
   onGymEntrance: () => void;
   regionName: string;
   regionId: number;
+  visiblePokemon: VisiblePokemon[];
+  onPokemonRemoved: (phonemeId: string) => void;
 }
 
-export default function TileMapComponent({ map, onEncounter, onGymEntrance, regionName, regionId }: TileMapProps) {
+export default function TileMapComponent({ map, onEncounter, onGymEntrance, regionName, regionId, visiblePokemon, onPokemonRemoved }: TileMapProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -420,6 +431,20 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
   const [showBanner, setShowBanner] = useState(true);
   const encounterTriggered = useRef(false);
   const tileSizeRef = useRef(32);
+  const pokemonImagesRef = useRef<Record<number, HTMLImageElement>>({});
+  const targetedPokemonRef = useRef<string | null>(null);
+
+  // Load Pokemon sprite images
+  useEffect(() => {
+    visiblePokemon.forEach(vp => {
+      if (!pokemonImagesRef.current[vp.pokedexId]) {
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.src = getOfficialArtwork(vp.pokedexId);
+        pokemonImagesRef.current[vp.pokedexId] = img;
+      }
+    });
+  }, [visiblePokemon]);
 
   const calculateTileSize = useCallback(() => {
     const container = containerRef.current;
@@ -458,6 +483,25 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
       return;
     }
 
+    // Check if we walked onto a visible Pokemon tile
+    const pokemonOnTile = visiblePokemon.find(vp => vp.tileX === next.x && vp.tileY === next.y);
+    if (pokemonOnTile) {
+      pathRef.current = [];
+      walkingRef.current = false;
+      walkFrame.current = 0;
+      encounterTriggered.current = true;
+      encounterSteps.current = 0;
+      encounterChance.current = 0.1;
+      targetedPokemonRef.current = pokemonOnTile.phonemeId;
+      onPokemonRemoved(pokemonOnTile.phonemeId);
+      setShowFlash(true);
+      setTimeout(() => {
+        setShowFlash(false);
+        onEncounter(pokemonOnTile.phonemeId);
+      }, 400);
+      return;
+    }
+
     if (isEncounterTile(map, next.x, next.y)) {
       encounterSteps.current++;
       if (Math.random() < encounterChance.current) {
@@ -481,7 +525,7 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     }
 
     setTimeout(walkStep, 200);
-  }, [map, onEncounter, onGymEntrance, regionId]);
+  }, [map, onEncounter, onGymEntrance, regionId, visiblePokemon, onPokemonRemoved]);
 
   const handleTap = useCallback((e: React.MouseEvent<HTMLCanvasElement>) => {
     if (encounterTriggered.current) return;
@@ -571,6 +615,33 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
         }
       }
 
+      // Draw visible Pokemon on tall grass tiles
+      for (const vp of visiblePokemon) {
+        if (vp.tileX < startTileX || vp.tileX >= endTileX || vp.tileY < startTileY || vp.tileY >= endTileY) continue;
+        const img = pokemonImagesRef.current[vp.pokedexId];
+        if (!img || !img.complete || img.naturalWidth === 0) continue;
+
+        const pScreenX = vp.tileX * tileSize - clampedCamX;
+        const pScreenY = vp.tileY * tileSize - clampedCamY;
+
+        // Bob animation
+        const bobOffset = Math.sin(time * 0.003 + vp.tileX * 7 + vp.tileY * 13) * (tileSize * 0.08);
+
+        // Draw Pokemon sprite peeking out of grass — larger sprite, top ~50% visible
+        const spriteSize = tileSize * 1.3;
+        const spriteX = pScreenX + (tileSize - spriteSize) / 2;
+        const spriteY = pScreenY - tileSize * 0.15 + bobOffset;
+
+        ctx.save();
+        // Clip to show only the top portion of the sprite (above the grass line)
+        ctx.beginPath();
+        ctx.rect(pScreenX - tileSize * 0.2, pScreenY - tileSize * 0.3, tileSize * 1.4, tileSize * 0.85);
+        ctx.clip();
+
+        ctx.drawImage(img, spriteX, spriteY, spriteSize, spriteSize);
+        ctx.restore();
+      }
+
       const playerScreenX = playerPos.current.x * tileSize - clampedCamX;
       const playerScreenY = playerPos.current.y * tileSize - clampedCamY;
       drawTrainer(ctx, playerScreenX, playerScreenY, tileSize, playerDir.current, walkFrame.current);
@@ -583,7 +654,7 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     return () => {
       cancelAnimationFrame(animFrameRef.current);
     };
-  }, [map, calculateTileSize]);
+  }, [map, calculateTileSize, visiblePokemon]);
 
   useEffect(() => {
     const timer = setTimeout(() => setShowBanner(false), 2500);

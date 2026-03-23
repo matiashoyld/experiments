@@ -45,7 +45,7 @@ export default function Pokedex() {
                 name={displayPokemon.name}
                 size={64}
                 silhouette={!caught}
-                variant={pokemonState?.isShiny ? 'shiny' : 'official'}
+                variant={pokemonState?.isShiny ? 'shiny' : 'animated'}
               />
               <span className="pokedex-entry-name">
                 {caught ? displayPokemon.name : '???'}

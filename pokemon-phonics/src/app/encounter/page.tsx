@@ -5,12 +5,14 @@ import { useState, useEffect, useCallback, useRef, Suspense } from 'react';
 import { useGameState } from '@/hooks/useGameState';
 import { useAudio } from '@/hooks/useAudio';
 import { useMusic } from '@/hooks/useMusic';
-import { PhonemeData, getPhonemesBySet } from '@/data/phonemes';
+import { PhonemeData, getPhonemesBySet, getPhonemeById } from '@/data/phonemes';
 import { getRegionById } from '@/data/regions';
 import { selectEncounterPhoneme, selectChallengeType } from '@/lib/phoneme-select';
 import { generateChallenge, Challenge } from '@/lib/challenge-gen';
 import PokemonSprite from '@/components/PokemonSprite';
 import LetterCard from '@/components/LetterCard';
+import Confetti from '@/components/Confetti';
+import { useHaptics } from '@/hooks/useHaptics';
 import './encounter.css';
 
 type EncounterPhase =
@@ -29,10 +31,12 @@ function EncounterContent() {
   const searchParams = useSearchParams();
   const regionId = parseInt(searchParams.get('region') || '1');
   const fromExplore = searchParams.get('from') === 'explore';
+  const targetPokemonId = searchParams.get('pokemonId');
   const returnPath = fromExplore ? `/explore?region=${regionId}` : '/map';
   const { state, loaded, catchPokemon, addAttempt, updateState } = useGameState();
   const { speak, playPhoneme, playWord, stop, narrate } = useAudio();
   useMusic('encounter');
+  const haptics = useHaptics();
 
   const [phase, setPhase] = useState<EncounterPhase>('walking');
   const [targetPhoneme, setTargetPhoneme] = useState<PhonemeData | null>(null);
@@ -40,6 +44,7 @@ function EncounterContent() {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [answerCorrectness, setAnswerCorrectness] = useState<Record<string, boolean | null>>({});
   const [showStars, setShowStars] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
   const [pokeballShakes, setPokeballShakes] = useState(0);
   const challengeStartTime = useRef<number>(0);
 
@@ -49,11 +54,18 @@ function EncounterContent() {
   useEffect(() => {
     if (!loaded || !state) return;
 
-    const phoneme = selectEncounterPhoneme(
-      region?.set || 1,
-      state.currentSet,
-      state.pokemon,
-    );
+    // Use specific Pokemon if provided (from visible Pokemon on map), otherwise random
+    let phoneme: PhonemeData | undefined;
+    if (targetPokemonId) {
+      phoneme = getPhonemeById(targetPokemonId);
+    }
+    if (!phoneme) {
+      phoneme = selectEncounterPhoneme(
+        region?.set || 1,
+        state.currentSet,
+        state.pokemon,
+      );
+    }
     setTargetPhoneme(phoneme);
 
     const challengeType = selectChallengeType(
@@ -121,8 +133,10 @@ function EncounterContent() {
       const interval = setInterval(() => {
         shakeCount++;
         setPokeballShakes(shakeCount);
+        haptics.pokeballShake();
         if (shakeCount >= 3) {
           clearInterval(interval);
+          haptics.pokeballCatch();
           setTimeout(() => setPhase('caught'), 500);
         }
       }, 600);
@@ -134,6 +148,7 @@ function EncounterContent() {
   useEffect(() => {
     if (phase === 'caught' && targetPhoneme && state) {
       setShowStars(true);
+      setShowConfetti(true);
       const alreadyCaught = state.pokemon[targetPhoneme.id]?.caught;
 
       if (!alreadyCaught) {
@@ -180,15 +195,16 @@ function EncounterContent() {
     });
 
     if (isCorrect) {
-      // Play success sound/narration
+      haptics.correctAnswer();
       narrate.challenge.success().then(() => {
         setTimeout(() => setPhase('pokeball'), 300);
       });
     } else {
-      // Failure
+      haptics.wrongAnswer();
       narrate.encounter.fled(targetPhoneme.id, targetPhoneme.pokemon.name).then(() => {
         setTimeout(() => {
           setPhase('failure');
+          haptics.pokemonFled();
           setTimeout(() => {
             setPhase('scaffold');
           }, 1500);
@@ -219,6 +235,7 @@ function EncounterContent() {
 
   return (
     <div className="screen encounter-screen">
+      <Confetti trigger={showConfetti} intensity="high" />
       {/* Walking Phase */}
       {phase === 'walking' && (
         <div className="encounter-walking">
@@ -253,7 +270,7 @@ function EncounterContent() {
               pokedexId={pokemonId}
               name={pokemonName}
               size={180}
-              variant="official"
+              bounce
             />
           </div>
           <div className="appeared-text slide-up">
@@ -271,7 +288,7 @@ function EncounterContent() {
               pokedexId={pokemonId}
               name={pokemonName}
               size={140}
-              variant="official"
+              bounce
             />
             <p className="pokemon-name-label">{pokemonName}</p>
           </div>
@@ -351,7 +368,7 @@ function EncounterContent() {
               pokedexId={pokemonId}
               name={pokemonName}
               size={180}
-              variant="official"
+              bounce
             />
           </div>
           <h2 className="caught-text slide-up">Gotcha!</h2>
@@ -378,7 +395,7 @@ function EncounterContent() {
               pokedexId={pokemonId}
               name={pokemonName}
               size={140}
-              variant="official"
+              bounce
             />
           </div>
           <h2 className="failure-text">Oh no, {pokemonName} fled!</h2>

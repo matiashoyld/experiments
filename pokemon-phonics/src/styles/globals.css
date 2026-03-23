@@ -194,6 +194,15 @@ h3 { font-size: 1.4rem; font-weight: 600; }
   opacity: 0.6;
 }
 
+.pokemon-bounce {
+  animation: pokemonIdleBounce 2s ease-in-out infinite;
+}
+
+@keyframes pokemonIdleBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
 /* === Screen Layout === */
 .screen {
   min-height: 100dvh;
@@ -204,6 +213,52 @@ h3 { font-size: 1.4rem; font-weight: 600; }
   padding: 24px;
   position: relative;
 }
+
+/* === View Transitions === */
+::view-transition-old(root) {
+  animation: vt-fade-out 0.3s ease;
+}
+::view-transition-new(root) {
+  animation: vt-fade-in 0.3s ease;
+}
+
+[data-transition="slide-right"] ::view-transition-old(root) {
+  animation: vt-slide-out-left 0.3s ease;
+}
+[data-transition="slide-right"] ::view-transition-new(root) {
+  animation: vt-slide-in-right 0.3s ease;
+}
+
+[data-transition="slide-left"] ::view-transition-old(root) {
+  animation: vt-slide-out-right 0.3s ease;
+}
+[data-transition="slide-left"] ::view-transition-new(root) {
+  animation: vt-slide-in-left 0.3s ease;
+}
+
+[data-transition="slide-up"] ::view-transition-old(root) {
+  animation: vt-fade-out 0.2s ease;
+}
+[data-transition="slide-up"] ::view-transition-new(root) {
+  animation: vt-slide-in-up 0.3s ease;
+}
+
+[data-transition="zoom"] ::view-transition-old(root) {
+  animation: vt-zoom-out 0.4s ease;
+}
+[data-transition="zoom"] ::view-transition-new(root) {
+  animation: vt-zoom-in 0.4s ease;
+}
+
+@keyframes vt-fade-out { to { opacity: 0; } }
+@keyframes vt-fade-in { from { opacity: 0; } }
+@keyframes vt-slide-in-right { from { transform: translateX(100%); } }
+@keyframes vt-slide-out-left { to { transform: translateX(-30%); opacity: 0.5; } }
+@keyframes vt-slide-in-left { from { transform: translateX(-100%); } }
+@keyframes vt-slide-out-right { to { transform: translateX(30%); opacity: 0.5; } }
+@keyframes vt-slide-in-up { from { transform: translateY(100%); } }
+@keyframes vt-zoom-in { from { transform: scale(1.5); opacity: 0; } }
+@keyframes vt-zoom-out { to { transform: scale(0.8); opacity: 0; } }
 
 /* === Animations === */
 .bounce-in {

@@ -353,7 +353,7 @@ function TrainContent() {
                       pokedexId={pDisplay.id}
                       name={pDisplay.name}
                       size={72}
-                      variant={pState?.isShiny ? 'shiny' : 'official'}
+                      variant={pState?.isShiny ? 'shiny' : 'animated'}
                     />
                     <span className="train-pokemon-name">{pDisplay.name}</span>
                     <span className="train-pokemon-sound">{phoneme.displayGrapheme}</span>
@@ -381,7 +381,7 @@ function TrainContent() {
               pokedexId={currentDisplay.id}
               name={currentDisplay.name}
               size={180}
-              variant={pokemonState?.isShiny ? 'shiny' : 'official'}
+              variant={pokemonState?.isShiny ? 'shiny' : 'animated'}
             />
           </div>
           <h2 className="train-intro-text slide-up">
@@ -408,7 +408,7 @@ function TrainContent() {
                 pokedexId={currentDisplay.id}
                 name={currentDisplay.name}
                 size={80}
-                variant={pokemonState?.isShiny ? 'shiny' : 'official'}
+                variant={pokemonState?.isShiny ? 'shiny' : 'animated'}
               />
             </div>
             <div className="train-exercise-progress">
@@ -486,7 +486,7 @@ function TrainContent() {
                 pokedexId={pendingEvolution.from}
                 name={pendingEvolution.fromName}
                 size={180}
-                variant="official"
+                variant="animated"
                 className="evolving-sprite-from"
               />
             </div>
@@ -495,7 +495,7 @@ function TrainContent() {
                 pokedexId={pendingEvolution.to}
                 name={pendingEvolution.toName}
                 size={200}
-                variant="official"
+                variant="animated"
                 className="evolving-sprite-to"
               />
             </div>
@@ -544,7 +544,7 @@ function TrainContent() {
               pokedexId={currentDisplay.id}
               name={currentDisplay.name}
               size={160}
-              variant={pokemonState?.isShiny ? 'shiny' : 'official'}
+              variant={pokemonState?.isShiny ? 'shiny' : 'animated'}
             />
           </div>
           <h2 className="summary-title slide-up">Great training session!</h2>

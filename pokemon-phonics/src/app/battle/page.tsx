@@ -11,6 +11,9 @@ import { getGymLeader } from '@/data/gym-leaders';
 import { generateBattleWords, BattleWord } from '@/lib/battle-gen';
 import PokemonSprite from '@/components/PokemonSprite';
 import LetterCard from '@/components/LetterCard';
+import GymBuilding from '@/components/GymBuilding';
+import Confetti from '@/components/Confetti';
+import { useHaptics } from '@/hooks/useHaptics';
 import './battle.css';
 
 type BattlePhase =
@@ -32,6 +35,7 @@ function BattleContent() {
   const region = getRegionById(gymId);
   const leader = getGymLeader(gymId);
 
+  const haptics = useHaptics();
   const [phase, setPhase] = useState<BattlePhase>('entrance');
   const [battleWords, setBattleWords] = useState<BattleWord[]>([]);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -42,6 +46,7 @@ function BattleContent() {
   const [attackResult, setAttackResult] = useState<'hit' | 'miss' | null>(null);
   const [consecutiveWrong, setConsecutiveWrong] = useState(0);
   const [showBadge, setShowBadge] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
   const [previewWord, setPreviewWord] = useState<string | null>(null);
   const challengeStartTime = useRef<number>(0);
 
@@ -119,6 +124,8 @@ function BattleContent() {
           }
           setPhase('badge');
           setShowBadge(true);
+          setShowConfetti(true);
+          haptics.badgeEarned();
         }, 500);
       });
     }
@@ -162,6 +169,7 @@ function BattleContent() {
       setConsecutiveWrong(0);
       setLeaderHp(prev => prev - 1);
       setAttackResult('hit');
+      haptics.battleHit();
       narrate.battle.hit().then(() => {
         setPhase('attack-result');
       });
@@ -169,6 +177,7 @@ function BattleContent() {
       const newConsecutiveWrong = consecutiveWrong + 1;
       setConsecutiveWrong(newConsecutiveWrong);
       setAttackResult('miss');
+      haptics.wrongAnswer();
       if (newConsecutiveWrong >= 3) {
         // After 3 wrong in a row, reduce leader HP anyway to prevent frustration
         setConsecutiveWrong(0);
@@ -205,7 +214,7 @@ function BattleContent() {
     return (
       <div className="screen battle-screen">
         <div className="battle-locked fade-in">
-          <PokemonSprite pokedexId={leader.pokemonId} name={leader.pokemonName} size={120} />
+          <PokemonSprite pokedexId={leader.pokemonId} name={leader.pokemonName} size={120} bounce />
           <h2>Gym locked!</h2>
           <p>Catch all {regionPhonemes.length} Pokemon in {region.name} to challenge the gym!</p>
           <p className="battle-locked-progress">
@@ -223,16 +232,11 @@ function BattleContent() {
 
   return (
     <div className="screen battle-screen">
+      <Confetti trigger={showConfetti} intensity="high" />
       {/* Gym Entrance */}
       {phase === 'entrance' && (
         <div className="battle-entrance fade-in">
-          <div className="gym-building bounce-in">
-            <div className="gym-roof" style={{ borderBottomColor: region.badgeColor }} />
-            <div className="gym-body">
-              <div className="gym-door" />
-            </div>
-            <div className="gym-sign">{region.name} Gym</div>
-          </div>
+          <GymBuilding regionId={gymId} regionName={region.name} />
         </div>
       )}
 

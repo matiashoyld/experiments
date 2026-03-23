@@ -5,6 +5,7 @@ import { useGameState } from '@/hooks/useGameState';
 import { useAudio } from '@/hooks/useAudio';
 import { useMusic } from '@/hooks/useMusic';
 import { useSessionTimer } from '@/hooks/useSessionTimer';
+import { navigateWithTransition } from '@/lib/navigate';
 import { REGIONS } from '@/data/regions';
 import { getPhonemesBySet, ALL_PHONEMES } from '@/data/phonemes';
 import PokemonSprite from '@/components/PokemonSprite';
@@ -35,7 +36,7 @@ export default function WorldMap() {
       return;
     }
     narrate.ui.explore(region.name);
-    router.push(`/explore?region=${region.id}`);
+    navigateWithTransition(router, `/explore?region=${region.id}`, 'zoom');
   };
 
   // Count caught Pokemon per region
@@ -113,7 +114,7 @@ export default function WorldMap() {
             <button
               key={region.id}
               className={`map-region ${isUnlocked ? 'unlocked' : 'locked'} ${isCurrent ? 'current' : ''} ${isCompleted ? 'completed' : ''} ${gymReady ? 'gym-ready' : ''}`}
-              onClick={() => gymReady ? router.push(`/battle?gym=${region.id}`) : handleRegionTap(region)}
+              onClick={() => gymReady ? navigateWithTransition(router, `/battle?gym=${region.id}`, 'zoom') : handleRegionTap(region)}
               disabled={!isUnlocked}
               aria-label={`${region.name}${isUnlocked ? '' : ' (locked)'}`}
             >
@@ -202,13 +203,13 @@ export default function WorldMap() {
 
       {/* Bottom nav */}
       <div className="map-nav">
-        <button className="btn btn-secondary" onClick={() => router.push('/pokedex')}>
+        <button className="btn btn-secondary" onClick={() => navigateWithTransition(router, '/pokedex', 'slide-up')}>
           Pokedex
         </button>
-        <button className="btn btn-success" onClick={() => router.push('/train')}>
+        <button className="btn btn-success" onClick={() => navigateWithTransition(router, '/train', 'slide-right')}>
           Train
         </button>
-        <button className="btn btn-gold" onClick={() => router.push('/')}>
+        <button className="btn btn-gold" onClick={() => navigateWithTransition(router, '/', 'fade')}>
           Home
         </button>
       </div>
