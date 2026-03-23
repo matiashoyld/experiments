@@ -93,16 +93,21 @@ function BattleContent() {
       if (leaderHp <= 0) {
         setPhase('victory');
       } else {
+        const hpDropped = attackResult === 'hit' || (attackResult === 'miss' && consecutiveWrong >= 3);
         setSelectedAnswer(null);
         setAnswerCorrectness({});
         setAttackResult(null);
-        setCurrentWordIndex(prev => prev + 1);
+        setPreviewWord(null);
+        // Only advance to next word when HP dropped; otherwise retry same word
+        if (hpDropped) {
+          setCurrentWordIndex(prev => prev + 1);
+        }
         setPhase('battle');
         challengeStartTime.current = Date.now();
       }
     }, 2000);
     return () => clearTimeout(timer);
-  }, [phase, leaderHp]);
+  }, [phase, leaderHp, attackResult, consecutiveWrong]);
 
   // Victory
   useEffect(() => {
@@ -161,11 +166,13 @@ function BattleContent() {
         setPhase('attack-result');
       });
     } else {
-      setConsecutiveWrong(prev => prev + 1);
+      const newConsecutiveWrong = consecutiveWrong + 1;
+      setConsecutiveWrong(newConsecutiveWrong);
       setAttackResult('miss');
-      if (consecutiveWrong >= 2) {
-        narrate.battle.miss().then(() => {
-          // After 3 wrong in a row, reduce leader HP anyway to prevent frustration
+      if (newConsecutiveWrong >= 3) {
+        // After 3 wrong in a row, reduce leader HP anyway to prevent frustration
+        setConsecutiveWrong(0);
+        narrate.battle.encourage().then(() => {
           setLeaderHp(prev => prev - 1);
           setPhase('attack-result');
         });
