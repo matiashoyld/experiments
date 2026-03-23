@@ -31,7 +31,7 @@ function EncounterContent() {
   const fromExplore = searchParams.get('from') === 'explore';
   const returnPath = fromExplore ? `/explore?region=${regionId}` : '/map';
   const { state, loaded, catchPokemon, addAttempt, updateState } = useGameState();
-  const { speak, playPhoneme, playWord, stop } = useAudio();
+  const { speak, playPhoneme, playWord, stop, narrate } = useAudio();
   useMusic('encounter');
 
   const [phase, setPhase] = useState<EncounterPhase>('walking');
@@ -79,30 +79,39 @@ function EncounterContent() {
   // Appeared narration → challenge
   useEffect(() => {
     if (phase === 'appeared' && targetPhoneme) {
-      const pokeName = targetPhoneme.pokemon.name;
-      speak(`A wild ${pokeName} appeared!`).then(() => {
+      narrate.encounter.appeared(targetPhoneme.id, targetPhoneme.pokemon.name).then(() => {
         setTimeout(() => {
           setPhase('challenge');
           challengeStartTime.current = Date.now();
         }, 800);
       });
     }
-  }, [phase, targetPhoneme, speak]);
+  }, [phase, targetPhoneme, narrate]);
 
-  // Auto-play sound for Type B challenges
+  // Narrate challenge instruction and auto-play sounds
   useEffect(() => {
-    if (phase === 'challenge' && challenge?.type === 'B') {
-      setTimeout(() => {
-        playPhoneme(challenge.correctPhonemeId).catch(() => {
+    if (phase !== 'challenge' || !challenge) return;
+
+    const narrateChallenge = async () => {
+      if (challenge.type === 'A') {
+        await speak('What sound does this letter make?');
+      } else if (challenge.type === 'B') {
+        await speak('Which letter makes this sound?');
+        await new Promise(r => setTimeout(r, 300));
+        await playPhoneme(challenge.correctPhonemeId).catch(() => {
           speak(challenge.correctGrapheme);
         });
-      }, 500);
-    }
-    if (phase === 'challenge' && challenge?.type === 'C') {
-      setTimeout(() => {
-        playWord(challenge.word).catch(() => speak(challenge.word));
-      }, 500);
-    }
+      } else if (challenge.type === 'C') {
+        await speak(challenge.prompt);
+        await new Promise(r => setTimeout(r, 300));
+        await playWord(challenge.word).catch(() => speak(challenge.word));
+      } else if (challenge.type === 'D') {
+        await speak('Can you read this word?');
+      }
+    };
+
+    const timer = setTimeout(narrateChallenge, 500);
+    return () => clearTimeout(timer);
   }, [phase, challenge, playPhoneme, playWord, speak]);
 
   // Pokeball animation sequence
@@ -129,10 +138,8 @@ function EncounterContent() {
 
       if (!alreadyCaught) {
         catchPokemon(targetPhoneme.id);
-        speak(`Gotcha! ${targetPhoneme.pokemon.name} was caught! ${targetPhoneme.pokemon.name} was added to your Pokedex!`);
-      } else {
-        speak(`Gotcha! ${targetPhoneme.pokemon.name} was caught! ${targetPhoneme.pokemon.name} gained experience!`);
       }
+      narrate.encounter.caught(targetPhoneme.id, targetPhoneme.pokemon.name);
 
       // Increment encounters
       updateState(prev => ({
@@ -179,7 +186,7 @@ function EncounterContent() {
       });
     } else {
       // Failure
-      speak(`Oh no, ${targetPhoneme.pokemon.name} fled!`).then(() => {
+      narrate.encounter.fled(targetPhoneme.id, targetPhoneme.pokemon.name).then(() => {
         setTimeout(() => {
           setPhase('failure');
           setTimeout(() => {
@@ -188,7 +195,7 @@ function EncounterContent() {
         }, 500);
       });
     }
-  }, [selectedAnswer, targetPhoneme, challenge, addAttempt, speak]);
+  }, [selectedAnswer, targetPhoneme, challenge, addAttempt, speak, narrate]);
 
   const handlePlaySound = useCallback((phonemeId: string) => {
     playPhoneme(phonemeId).catch(() => {
@@ -455,7 +462,6 @@ function ChallengeA({
             }}
           >
             <span className="sound-icon">&#x1F50A;</span>
-            <span className="sound-label">{opt.grapheme}</span>
           </button>
         ))}
       </div>

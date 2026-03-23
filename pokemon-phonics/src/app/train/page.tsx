@@ -20,7 +20,7 @@ function TrainContent() {
   const searchParams = useSearchParams();
   const pokemonParam = searchParams.get('pokemon');
   const { state, loaded, addAttempt, evolvePokemon, updateState } = useGameState();
-  const { speak, playPhoneme, playWord, stop } = useAudio();
+  const { speak, playPhoneme, playWord, stop, narrate } = useAudio();
   useMusic('training');
 
   const [phase, setPhase] = useState<TrainPhase>(pokemonParam ? 'intro' : 'select');
@@ -105,11 +105,13 @@ function TrainContent() {
   // Evolution animation
   useEffect(() => {
     if (phase === 'evolving' && pendingEvolution && selectedPhoneme) {
-      speak(`What? ${pendingEvolution.fromName} is evolving!`).then(() => {
+      const currentStage = state?.pokemon[selectedPhoneme.id]?.stage || 1;
+      const evoStartFn = currentStage === 1 ? narrate.evolution.start : narrate.evolution.start2;
+      evoStartFn(selectedPhoneme.id, pendingEvolution.fromName).then(() => {
         setTimeout(() => {
           const newStage = getEvolutionStage(state?.pokemon[selectedPhoneme.id]?.xp || 0);
           evolvePokemon(selectedPhoneme.id, newStage);
-          speak(`Congratulations! ${pendingEvolution.fromName} evolved into ${pendingEvolution.toName}!`).then(() => {
+          narrate.evolution.complete(selectedPhoneme.id, newStage, pendingEvolution.fromName, pendingEvolution.toName).then(() => {
             setTimeout(() => {
               setPendingEvolution(null);
               if (pendingShiny) {
@@ -198,7 +200,7 @@ function TrainContent() {
       const attempts = [...(pokemonState?.attempts || []), { correct: true, timestamp: Date.now(), responseTimeMs, challengeType: '' }];
       const shinyNow = !pokemonState?.isShiny && isShinyEligible(attempts);
 
-      speak('Great job!').then(() => {
+      narrate.training.correct().then(() => {
         setTimeout(() => {
           if (newStage > currentStage) {
             const evoLine = selectedPhoneme.pokemon.evolutionLine;
@@ -216,7 +218,7 @@ function TrainContent() {
         }, 500);
       });
     } else {
-      speak('Almost! Try again next time!').then(() => {
+      narrate.training.almost().then(() => {
         setTimeout(() => advanceOrEnd(), 800);
       });
     }

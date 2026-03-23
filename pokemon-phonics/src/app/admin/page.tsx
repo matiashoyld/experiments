@@ -545,7 +545,7 @@ function PhonemeRecorder({
   };
 
   const playExisting = (phonemeId: string) => {
-    const audio = new Audio(`/audio/phonemes/${phonemeId}.wav`);
+    const audio = new Audio(`/audio/phonemes/${phonemeId}.mp3`);
     audio.play().catch(() => {});
   };
 
@@ -793,7 +793,7 @@ function NarrationGenerator({
   };
 
   const playNarration = (key: string) => {
-    const audio = new Audio(`/audio/tts/${key}.wav`);
+    const audio = new Audio(`/audio/tts/${key}.mp3`);
     audio.play().catch(() => {});
   };
 
@@ -981,7 +981,7 @@ function WordGenerator({
   };
 
   const playWord = (word: string) => {
-    const audio = new Audio(`/audio/words/${word}.wav`);
+    const audio = new Audio(`/audio/words/${word}.mp3`);
     audio.play().catch(() => {});
   };
 

@@ -26,7 +26,7 @@ function BattleContent() {
   const searchParams = useSearchParams();
   const gymId = parseInt(searchParams.get('gym') || '1');
   const { state, loaded, earnBadge, addAttempt } = useGameState();
-  const { speak, playPhoneme, playWord } = useAudio();
+  const { speak, playPhoneme, playWord, narrate } = useAudio();
   useMusic('battle');
 
   const region = getRegionById(gymId);
@@ -55,7 +55,7 @@ function BattleContent() {
   // Entrance animation
   useEffect(() => {
     if (phase === 'entrance' && region) {
-      speak(`Welcome to ${region.name} Gym!`).then(() => {
+      narrate.battle.intro(region.id, region.name).then(() => {
         setTimeout(() => setPhase('intro'), 500);
       });
     }
@@ -65,7 +65,7 @@ function BattleContent() {
   useEffect(() => {
     if (phase === 'intro' && leader) {
       setTimeout(() => {
-        speak(leader.greeting).then(() => {
+        narrate.battle.greeting(gymId, leader.greeting).then(() => {
           setTimeout(() => {
             setPhase('battle');
             challengeStartTime.current = Date.now();
@@ -106,7 +106,7 @@ function BattleContent() {
   // Victory
   useEffect(() => {
     if (phase === 'victory' && leader && state) {
-      speak(leader.defeat).then(() => {
+      narrate.battle.defeat(gymId, leader.defeat).then(() => {
         setTimeout(() => {
           if (!state.badges.includes(`gym-${gymId}`)) {
             earnBadge(`gym-${gymId}`);
@@ -122,7 +122,7 @@ function BattleContent() {
   useEffect(() => {
     if (phase === 'badge' && region && state) {
       setTimeout(() => {
-        speak(`${state.playerName || 'Trainer'} earned the ${region.badgeName}!`).then(() => {
+        narrate.badge.earned(region.id, region.badgeName).then(() => {
           const nextRegion = getRegionById(gymId + 1);
           if (nextRegion) {
             speak(`A new area has been discovered! ${nextRegion.name} is now open!`);
@@ -156,25 +156,25 @@ function BattleContent() {
       setConsecutiveWrong(0);
       setLeaderHp(prev => prev - 1);
       setAttackResult('hit');
-      speak("It's super effective!").then(() => {
+      narrate.battle.hit().then(() => {
         setPhase('attack-result');
       });
     } else {
       setConsecutiveWrong(prev => prev + 1);
       setAttackResult('miss');
       if (consecutiveWrong >= 2) {
-        speak("The attack missed! But you're doing great! Let's try the next one.").then(() => {
+        narrate.battle.miss().then(() => {
           // After 3 wrong in a row, reduce leader HP anyway to prevent frustration
           setLeaderHp(prev => prev - 1);
           setPhase('attack-result');
         });
       } else {
-        speak('The attack missed!').then(() => {
+        narrate.battle.miss().then(() => {
           setPhase('attack-result');
         });
       }
     }
-  }, [selectedAnswer, battleWords, currentWordIndex, addAttempt, speak, consecutiveWrong]);
+  }, [selectedAnswer, battleWords, currentWordIndex, addAttempt, narrate, consecutiveWrong]);
 
   const handlePlaySound = useCallback((phonemeId: string) => {
     playPhoneme(phonemeId).catch(() => speak(phonemeId));

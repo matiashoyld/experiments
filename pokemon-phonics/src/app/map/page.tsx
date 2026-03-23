@@ -14,14 +14,14 @@ import SessionLock from '@/components/SessionLock';
 export default function WorldMap() {
   const router = useRouter();
   const { state, loaded, endSession, updateState } = useGameState();
-  const { speak } = useAudio();
+  const { speak, narrate } = useAudio();
   const { toggle: toggleMusic } = useMusic('map', state?.settings?.soundEnabled !== false);
 
   const sessionTimer = useSessionTimer({
     warningMinutes: state?.settings.sessionLengthMinutes ?? 8,
     lockMinutes: (state?.settings.sessionLengthMinutes ?? 8) + 2,
     startTime: state?.session.startTime ?? null,
-    onWarning: () => speak('Your Pokemon are getting tired! Time for a rest?'),
+    onWarning: () => narrate.ui.tired(),
   });
 
   if (!loaded || !state) {

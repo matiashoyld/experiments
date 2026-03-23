@@ -12,7 +12,7 @@ import { ALL_PHONEMES } from '@/data/phonemes';
 export default function TitleScreen() {
   const router = useRouter();
   const { state, loaded, setPlayerName, startSession } = useGameState();
-  const { speak } = useAudio();
+  const { speak, narrate } = useAudio();
   useMusic('title', loaded && state?.settings?.soundEnabled !== false);
   const [showTeaser, setShowTeaser] = useState(false);
   const [nameInput, setNameInput] = useState('');
@@ -41,7 +41,7 @@ export default function TitleScreen() {
       setPlayerName(nameInput.trim());
       setShowNameEntry(false);
       startSession();
-      await speak(`Welcome, ${nameInput.trim()}! Let's catch some Pokemon!`);
+      await narrate.ui.welcomeFirst();
       router.push('/map');
     } else if (state?.playerName) {
       // Check if this is a new day for the daily teaser
@@ -53,7 +53,7 @@ export default function TitleScreen() {
         return; // Show teaser before navigating
       }
       startSession();
-      await speak(`Welcome back, ${state.playerName}! Your Pokemon are waiting!`);
+      await narrate.ui.welcome();
       router.push('/map');
     }
   };

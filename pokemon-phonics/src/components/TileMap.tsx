@@ -6,155 +6,275 @@ import { TileMap as TileMapData, Point, findPath, getDirection, Direction, isWal
 
 const BASE_TILE_SIZE = 16;
 
-// Tile rendering with pixel-art detail
+// Helper function to draw a bushy grass tuft (used in tall grass)
+function drawGrassTuft(ctx: CanvasRenderingContext2D, x: number, y: number, size: number, windOffset: number) {
+  const h = size * 0.8;
+  const w = size * 0.6;
+
+  // Shadow at the base
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.15)';
+  ctx.beginPath();
+  ctx.ellipse(x, y, w * 0.8, w * 0.3, 0, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Back dark leaves
+  ctx.fillStyle = '#2A6D26';
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.lineTo(x - w + windOffset * 0.5, y - h * 0.6);
+  ctx.lineTo(x - w * 0.3 + windOffset, y - h * 0.2);
+  ctx.lineTo(x + windOffset * 1.5, y - h);
+  ctx.lineTo(x + w * 0.3 + windOffset, y - h * 0.2);
+  ctx.lineTo(x + w + windOffset * 0.5, y - h * 0.6);
+  ctx.closePath();
+  ctx.fill();
+
+  // Mid leaves
+  ctx.fillStyle = '#43A03B';
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.lineTo(x - w * 0.7 + windOffset * 0.8, y - h * 0.4);
+  ctx.lineTo(x - w * 0.2 + windOffset, y - h * 0.1);
+  ctx.lineTo(x + windOffset * 1.2, y - h * 0.7);
+  ctx.lineTo(x + w * 0.2 + windOffset, y - h * 0.1);
+  ctx.lineTo(x + w * 0.7 + windOffset * 0.8, y - h * 0.4);
+  ctx.closePath();
+  ctx.fill();
+
+  // Front bright leaves (Highlight)
+  ctx.fillStyle = '#6CD05E';
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.lineTo(x - w * 0.4 + windOffset * 0.5, y - h * 0.2);
+  ctx.lineTo(x + windOffset * 0.8, y - h * 0.4);
+  ctx.lineTo(x + w * 0.4 + windOffset * 0.5, y - h * 0.2);
+  ctx.closePath();
+  ctx.fill();
+}
+
+// Highly detailed tile rendering
 function drawTile(
   ctx: CanvasRenderingContext2D,
   tileType: TileType,
   screenX: number,
   screenY: number,
-  tileSize: number
+  tileSize: number,
+  time: number
 ) {
   const props = TILE_PROPERTIES[tileType];
-  if (!props) return;
+  // Base background (fallback)
+  if (props) {
+    ctx.fillStyle = props.color;
+    ctx.fillRect(screenX, screenY, tileSize, tileSize);
+  }
 
-  ctx.fillStyle = props.color;
-  ctx.fillRect(screenX, screenY, tileSize, tileSize);
-
-  // Add pixel-art detail per tile type
+  // Adding detailed art based on tile type
   switch (tileType) {
-    case TileType.GRASS_SHORT: {
-      // Small grass blades
-      ctx.fillStyle = '#6ab840';
-      const bladeW = Math.max(1, tileSize / 8);
-      ctx.fillRect(screenX + tileSize * 0.2, screenY + tileSize * 0.5, bladeW, tileSize * 0.2);
-      ctx.fillRect(screenX + tileSize * 0.6, screenY + tileSize * 0.3, bladeW, tileSize * 0.2);
-      ctx.fillRect(screenX + tileSize * 0.4, screenY + tileSize * 0.7, bladeW, tileSize * 0.15);
-      break;
-    }
-    case TileType.GRASS_TALL: {
-      // Darker tall grass tufts
-      ctx.fillStyle = '#3a7a1e';
-      const bw = Math.max(1, tileSize / 6);
-      ctx.fillRect(screenX + tileSize * 0.15, screenY + tileSize * 0.1, bw, tileSize * 0.5);
-      ctx.fillRect(screenX + tileSize * 0.35, screenY + tileSize * 0.05, bw, tileSize * 0.55);
-      ctx.fillRect(screenX + tileSize * 0.55, screenY + tileSize * 0.15, bw, tileSize * 0.45);
-      ctx.fillRect(screenX + tileSize * 0.75, screenY + tileSize * 0.08, bw, tileSize * 0.5);
-      // Lighter tips
-      ctx.fillStyle = '#5aaa30';
-      ctx.fillRect(screenX + tileSize * 0.15, screenY + tileSize * 0.1, bw, bw);
-      ctx.fillRect(screenX + tileSize * 0.35, screenY + tileSize * 0.05, bw, bw);
-      ctx.fillRect(screenX + tileSize * 0.55, screenY + tileSize * 0.15, bw, bw);
-      ctx.fillRect(screenX + tileSize * 0.75, screenY + tileSize * 0.08, bw, bw);
-      break;
-    }
-    case TileType.PATH: {
-      // Sandy path with speckles
-      ctx.fillStyle = '#c8a878';
-      const dot = Math.max(1, tileSize / 8);
-      ctx.fillRect(screenX + tileSize * 0.2, screenY + tileSize * 0.3, dot, dot);
-      ctx.fillRect(screenX + tileSize * 0.7, screenY + tileSize * 0.6, dot, dot);
-      ctx.fillRect(screenX + tileSize * 0.5, screenY + tileSize * 0.8, dot, dot);
-      break;
-    }
-    case TileType.TREE: {
-      // Tree trunk + canopy
-      ctx.fillStyle = '#7a5a30'; // trunk
-      const trunkW = tileSize * 0.25;
-      const trunkH = tileSize * 0.4;
-      ctx.fillRect(screenX + (tileSize - trunkW) / 2, screenY + tileSize * 0.6, trunkW, trunkH);
-      ctx.fillStyle = '#1a4a10'; // dark canopy
-      ctx.beginPath();
-      ctx.arc(screenX + tileSize / 2, screenY + tileSize * 0.4, tileSize * 0.4, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = '#2d6a1e'; // light canopy highlight
-      ctx.beginPath();
-      ctx.arc(screenX + tileSize * 0.4, screenY + tileSize * 0.35, tileSize * 0.2, 0, Math.PI * 2);
-      ctx.fill();
-      break;
-    }
-    case TileType.WATER: {
-      // Water with wave lines
-      ctx.fillStyle = '#68b8f8';
-      const ww = tileSize * 0.6;
-      const wh = Math.max(1, tileSize / 8);
-      ctx.fillRect(screenX + (tileSize - ww) / 2, screenY + tileSize * 0.3, ww, wh);
-      ctx.fillRect(screenX + (tileSize - ww) / 2 + tileSize * 0.1, screenY + tileSize * 0.6, ww * 0.8, wh);
-      break;
-    }
-    case TileType.ROCK: {
-      // Rocky boulder
-      ctx.fillStyle = '#999999';
-      ctx.beginPath();
-      ctx.arc(screenX + tileSize / 2, screenY + tileSize * 0.55, tileSize * 0.35, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.fillStyle = '#aaaaaa';
-      ctx.beginPath();
-      ctx.arc(screenX + tileSize * 0.4, screenY + tileSize * 0.45, tileSize * 0.15, 0, Math.PI * 2);
-      ctx.fill();
-      break;
-    }
-    case TileType.FLOWER: {
-      // Grass base + flowers
-      ctx.fillStyle = '#7ec850';
+    case TileType.GRASS_SHORT:
+    case TileType.SPAWN: {
+      // Base vibrant grass
+      ctx.fillStyle = '#74C365';
       ctx.fillRect(screenX, screenY, tileSize, tileSize);
-      const petalR = Math.max(1, tileSize / 8);
-      const colors = ['#ff6b8a', '#ffcc00', '#ff8855', '#cc66ff'];
+      
+      // Checkerboard/Texture pattern
+      ctx.fillStyle = '#6CB545';
+      ctx.fillRect(screenX, screenY, tileSize * 0.5, tileSize * 0.5);
+      ctx.fillRect(screenX + tileSize * 0.5, screenY + tileSize * 0.5, tileSize * 0.5, tileSize * 0.5);
+
+      // Small scattered grass blades
+      ctx.fillStyle = '#43A03B';
+      const bladeW = Math.max(1, tileSize * 0.08);
+      ctx.fillRect(screenX + tileSize * 0.2, screenY + tileSize * 0.4, bladeW, tileSize * 0.15);
+      ctx.fillRect(screenX + tileSize * 0.7, screenY + tileSize * 0.3, bladeW, tileSize * 0.1);
+      ctx.fillRect(screenX + tileSize * 0.5, screenY + tileSize * 0.8, bladeW, tileSize * 0.2);
+      break;
+    }
+    
+    case TileType.GRASS_TALL: {
+      // Base ground for tall grass
+      ctx.fillStyle = '#6CB545';
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+      
+      // Wind animation (sine wave based on time and position)
+      const windOffset = Math.sin(time / 500 + (screenX + screenY) / tileSize) * (tileSize * 0.05);
+
+      // Draw 4 tufts creating a dense, wild encounter patch
+      const tuftSize = tileSize * 0.55;
+      drawGrassTuft(ctx, screenX + tileSize * 0.25, screenY + tileSize * 0.45, tuftSize, windOffset);
+      drawGrassTuft(ctx, screenX + tileSize * 0.75, screenY + tileSize * 0.45, tuftSize, windOffset);
+      drawGrassTuft(ctx, screenX + tileSize * 0.25, screenY + tileSize * 0.95, tuftSize, windOffset);
+      drawGrassTuft(ctx, screenX + tileSize * 0.75, screenY + tileSize * 0.95, tuftSize, windOffset);
+      break;
+    }
+    
+    case TileType.PATH: {
+      ctx.fillStyle = '#D4B886';
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+      
+      // Dirt speckles
+      ctx.fillStyle = '#C2A36F';
+      const dot = Math.max(1, tileSize * 0.1);
+      ctx.fillRect(screenX + tileSize * 0.2, screenY + tileSize * 0.2, dot, dot * 2);
+      ctx.fillRect(screenX + tileSize * 0.8, screenY + tileSize * 0.5, dot * 1.5, dot);
+      ctx.fillRect(screenX + tileSize * 0.4, screenY + tileSize * 0.8, dot, dot);
+      ctx.fillRect(screenX + tileSize * 0.6, screenY + tileSize * 0.1, dot, dot);
+      break;
+    }
+    
+    case TileType.TREE: {
+      ctx.fillStyle = '#74C365'; // grass underneath
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+      
+      // Tree shadow
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
+      ctx.beginPath();
+      ctx.ellipse(screenX + tileSize * 0.5, screenY + tileSize * 0.85, tileSize * 0.4, tileSize * 0.15, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Trunk
+      ctx.fillStyle = '#6E4A2A'; 
+      ctx.fillRect(screenX + tileSize * 0.4, screenY + tileSize * 0.5, tileSize * 0.2, tileSize * 0.4);
+      ctx.fillStyle = '#4A3018'; // Trunk shade
+      ctx.fillRect(screenX + tileSize * 0.4, screenY + tileSize * 0.5, tileSize * 0.05, tileSize * 0.4);
+
+      // Fluffy overlapping canopy circles
+      const drawCanopy = (cx: number, cy: number, r: number) => {
+        ctx.fillStyle = '#1A4A10'; // outline/shadow
+        ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = '#2A7A1E'; // base green
+        ctx.beginPath(); ctx.arc(cx, cy - r*0.1, r * 0.9, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = '#43A03B'; // highlight
+        ctx.beginPath(); ctx.arc(cx - r*0.2, cy - r*0.2, r * 0.5, 0, Math.PI * 2); ctx.fill();
+      };
+
+      drawCanopy(screenX + tileSize * 0.3, screenY + tileSize * 0.4, tileSize * 0.25);
+      drawCanopy(screenX + tileSize * 0.7, screenY + tileSize * 0.4, tileSize * 0.25);
+      drawCanopy(screenX + tileSize * 0.5, screenY + tileSize * 0.25, tileSize * 0.3);
+      break;
+    }
+    
+    case TileType.WATER: {
+      ctx.fillStyle = '#2B82CB'; // Deep water base
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+      
+      // Flowing water animation
+      const flow = (time / 800 + screenY / tileSize) % Math.PI * 2;
+      const waveX1 = Math.sin(flow) * (tileSize * 0.1);
+      const waveX2 = Math.cos(flow * 1.5) * (tileSize * 0.1);
+
+      // Light animated ripples
+      ctx.fillStyle = '#5EB2FA';
+      const wh = Math.max(1, tileSize * 0.06);
+      ctx.fillRect(screenX + tileSize * 0.2 + waveX1, screenY + tileSize * 0.2, tileSize * 0.5, wh);
+      ctx.fillRect(screenX + tileSize * 0.4 + waveX2, screenY + tileSize * 0.6, tileSize * 0.4, wh);
+      
+      // Deep spots
+      ctx.fillStyle = '#1C63A1';
+      ctx.fillRect(screenX + tileSize * 0.1 + waveX2, screenY + tileSize * 0.8, tileSize * 0.3, wh);
+      break;
+    }
+    
+    case TileType.ROCK: {
+      ctx.fillStyle = '#74C365'; // grass underneath
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+
+      // Shadow
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+      ctx.beginPath();
+      ctx.ellipse(screenX + tileSize * 0.5, screenY + tileSize * 0.8, tileSize * 0.4, tileSize * 0.15, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Main rocky body (Polygon)
+      ctx.fillStyle = '#787878';
+      ctx.beginPath();
+      ctx.moveTo(screenX + tileSize * 0.2, screenY + tileSize * 0.8);
+      ctx.lineTo(screenX + tileSize * 0.15, screenY + tileSize * 0.5);
+      ctx.lineTo(screenX + tileSize * 0.4, screenY + tileSize * 0.2);
+      ctx.lineTo(screenX + tileSize * 0.7, screenY + tileSize * 0.25);
+      ctx.lineTo(screenX + tileSize * 0.85, screenY + tileSize * 0.6);
+      ctx.lineTo(screenX + tileSize * 0.7, screenY + tileSize * 0.85);
+      ctx.closePath();
+      ctx.fill();
+
+      // Rock Highlight
+      ctx.fillStyle = '#9A9A9A';
+      ctx.beginPath();
+      ctx.moveTo(screenX + tileSize * 0.2, screenY + tileSize * 0.7);
+      ctx.lineTo(screenX + tileSize * 0.18, screenY + tileSize * 0.5);
+      ctx.lineTo(screenX + tileSize * 0.4, screenY + tileSize * 0.25);
+      ctx.lineTo(screenX + tileSize * 0.55, screenY + tileSize * 0.4);
+      ctx.closePath();
+      ctx.fill();
+
+      // Rock Shade
+      ctx.fillStyle = '#555555';
+      ctx.beginPath();
+      ctx.moveTo(screenX + tileSize * 0.7, screenY + tileSize * 0.85);
+      ctx.lineTo(screenX + tileSize * 0.85, screenY + tileSize * 0.6);
+      ctx.lineTo(screenX + tileSize * 0.6, screenY + tileSize * 0.5);
+      ctx.closePath();
+      ctx.fill();
+      break;
+    }
+    
+    case TileType.FLOWER: {
+      ctx.fillStyle = '#74C365';
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+      
+      // Gentle flower bobbing
+      const bob = Math.sin(time / 400 + (screenX)) * (tileSize * 0.05);
+      
+      const petalR = Math.max(2, tileSize * 0.12);
+      const colors = ['#FF6B8A', '#FFCC00', '#5CE6E6'];
+      
       for (let i = 0; i < 3; i++) {
+        const fx = screenX + tileSize * (0.25 + i * 0.25);
+        const fy = screenY + tileSize * (0.3 + (i % 2) * 0.4) + bob;
+        
+        // Base shadow
+        ctx.fillStyle = 'rgba(0,0,0,0.15)';
+        ctx.beginPath(); ctx.arc(fx, fy + petalR, petalR * 1.2, 0, Math.PI * 2); ctx.fill();
+        
+        // Flower Petals
         ctx.fillStyle = colors[i % colors.length];
-        const fx = screenX + tileSize * (0.2 + i * 0.3);
-        const fy = screenY + tileSize * (0.3 + (i % 2) * 0.3);
         ctx.beginPath();
-        ctx.arc(fx, fy, petalR * 1.5, 0, Math.PI * 2);
+        ctx.arc(fx - petalR*0.5, fy - petalR*0.5, petalR, 0, Math.PI * 2);
+        ctx.arc(fx + petalR*0.5, fy - petalR*0.5, petalR, 0, Math.PI * 2);
+        ctx.arc(fx - petalR*0.5, fy + petalR*0.5, petalR, 0, Math.PI * 2);
+        ctx.arc(fx + petalR*0.5, fy + petalR*0.5, petalR, 0, Math.PI * 2);
         ctx.fill();
-        ctx.fillStyle = '#ffff88';
-        ctx.beginPath();
-        ctx.arc(fx, fy, petalR * 0.7, 0, Math.PI * 2);
-        ctx.fill();
+        
+        // Center
+        ctx.fillStyle = '#FFFFFF';
+        ctx.beginPath(); ctx.arc(fx, fy, petalR * 0.7, 0, Math.PI * 2); ctx.fill();
       }
       break;
     }
-    case TileType.SAND: {
-      ctx.fillStyle = '#e8d090';
-      const sdot = Math.max(1, tileSize / 10);
-      ctx.fillRect(screenX + tileSize * 0.3, screenY + tileSize * 0.4, sdot, sdot);
-      ctx.fillRect(screenX + tileSize * 0.7, screenY + tileSize * 0.7, sdot, sdot);
-      break;
-    }
-    case TileType.CAVE_FLOOR: {
-      ctx.fillStyle = '#5a4a3e';
-      const cdot = Math.max(1, tileSize / 8);
-      ctx.fillRect(screenX + tileSize * 0.2, screenY + tileSize * 0.5, cdot, cdot);
-      ctx.fillRect(screenX + tileSize * 0.6, screenY + tileSize * 0.3, cdot, cdot);
-      break;
-    }
-    case TileType.CAVE_WALL: {
-      ctx.fillStyle = '#4a3828';
-      ctx.fillRect(screenX, screenY + tileSize * 0.8, tileSize, tileSize * 0.2);
-      ctx.fillStyle = '#5a4838';
-      ctx.fillRect(screenX + tileSize * 0.1, screenY + tileSize * 0.1, tileSize * 0.3, tileSize * 0.3);
-      break;
-    }
-    case TileType.SPAWN: {
-      // Looks like short grass
-      ctx.fillStyle = '#7ec850';
-      ctx.fillRect(screenX, screenY, tileSize, tileSize);
-      ctx.fillStyle = '#6ab840';
-      const sb = Math.max(1, tileSize / 8);
-      ctx.fillRect(screenX + tileSize * 0.3, screenY + tileSize * 0.5, sb, tileSize * 0.2);
-      ctx.fillRect(screenX + tileSize * 0.7, screenY + tileSize * 0.4, sb, tileSize * 0.15);
-      break;
-    }
+    
     case TileType.GYM_ENTRANCE: {
-      // Red gym door tiles
-      ctx.fillStyle = '#e03028';
-      ctx.fillRect(screenX + tileSize * 0.1, screenY + tileSize * 0.1, tileSize * 0.8, tileSize * 0.8);
-      ctx.fillStyle = '#ff5048';
-      ctx.fillRect(screenX + tileSize * 0.2, screenY + tileSize * 0.15, tileSize * 0.6, tileSize * 0.3);
-      // Pokeball symbol
-      ctx.fillStyle = '#ffffff';
+      ctx.fillStyle = '#D32F2F'; // Rich red
+      ctx.fillRect(screenX, screenY, tileSize, tileSize);
+      
+      // Pillars / Sides
+      ctx.fillStyle = '#B71C1C';
+      ctx.fillRect(screenX, screenY, tileSize * 0.15, tileSize);
+      ctx.fillRect(screenX + tileSize * 0.85, screenY, tileSize * 0.15, tileSize);
+      
+      // Doorway
+      ctx.fillStyle = '#111111';
+      ctx.fillRect(screenX + tileSize * 0.25, screenY + tileSize * 0.3, tileSize * 0.5, tileSize * 0.7);
+      
+      // Pokeball symbol on top
+      ctx.fillStyle = '#FFFFFF';
       ctx.beginPath();
-      ctx.arc(screenX + tileSize / 2, screenY + tileSize / 2, tileSize * 0.15, 0, Math.PI * 2);
+      ctx.arc(screenX + tileSize / 2, screenY + tileSize * 0.2, tileSize * 0.15, 0, Math.PI * 2);
       ctx.fill();
+      ctx.fillStyle = '#D32F2F';
+      ctx.beginPath();
+      ctx.arc(screenX + tileSize / 2, screenY + tileSize * 0.2, tileSize * 0.15, Math.PI, 0);
+      ctx.fill();
+      ctx.fillStyle = '#111111';
+      ctx.fillRect(screenX + tileSize * 0.35, screenY + tileSize * 0.18, tileSize * 0.3, tileSize * 0.04);
       break;
     }
   }
@@ -162,12 +282,12 @@ function drawTile(
 
 // Trainer sprite drawing
 const TRAINER_COLORS = {
-  hat: '#c03028',
-  hair: '#2a2a2a',
-  skin: '#f8c090',
-  shirt: '#3888f8',
+  hat: '#C03028',
+  hair: '#2A2A2A',
+  skin: '#F8C090',
+  shirt: '#3888F8',
   pants: '#385898',
-  shoes: '#2a2a2a',
+  shoes: '#2A2A2A',
 };
 
 function drawTrainer(
@@ -176,27 +296,24 @@ function drawTrainer(
   screenY: number,
   tileSize: number,
   direction: Direction,
-  walkFrame: number // 0=stand, 1=left, 2=right
+  walkFrame: number
 ) {
   const cx = screenX + tileSize / 2;
   const px = (frac: number) => Math.max(1, Math.round(tileSize * frac));
 
-  // Slight bob on walk frames
-  const bobY = walkFrame === 0 ? 0 : -px(0.03);
-
-  // Shadow
-  ctx.fillStyle = 'rgba(0,0,0,0.2)';
-  ctx.beginPath();
-  ctx.ellipse(cx, screenY + tileSize * 0.92, px(0.3), px(0.08), 0, 0, Math.PI * 2);
-  ctx.fill();
-
+  const bobY = walkFrame === 0 ? 0 : -px(0.04);
   const facingDown = direction === 'down';
   const facingUp = direction === 'up';
   const facingLeft = direction === 'left';
   const facingRight = direction === 'right';
 
-  // Leg offset for walk animation
-  const legOffset = walkFrame === 1 ? px(0.06) : walkFrame === 2 ? -px(0.06) : 0;
+  // Trainer Shadow
+  ctx.fillStyle = 'rgba(0,0,0,0.25)';
+  ctx.beginPath();
+  ctx.ellipse(cx, screenY + tileSize * 0.9, px(0.35), px(0.12), 0, 0, Math.PI * 2);
+  ctx.fill();
+
+  const legOffset = walkFrame === 1 ? px(0.08) : walkFrame === 2 ? -px(0.08) : 0;
 
   // Body (shirt)
   ctx.fillStyle = TRAINER_COLORS.shirt;
@@ -206,70 +323,63 @@ function drawTrainer(
   ctx.fillStyle = TRAINER_COLORS.pants;
   const legW = px(0.15);
   const legH = px(0.2);
-  // Left leg
   ctx.fillRect(cx - px(0.18) + legOffset, screenY + px(0.6) + bobY, legW, legH);
-  // Right leg
   ctx.fillRect(cx + px(0.03) - legOffset, screenY + px(0.6) + bobY, legW, legH);
 
   // Shoes
   ctx.fillStyle = TRAINER_COLORS.shoes;
-  ctx.fillRect(cx - px(0.18) + legOffset, screenY + px(0.78) + bobY, legW, px(0.06));
-  ctx.fillRect(cx + px(0.03) - legOffset, screenY + px(0.78) + bobY, legW, px(0.06));
+  ctx.fillRect(cx - px(0.18) + legOffset, screenY + px(0.78) + bobY, legW, px(0.08));
+  ctx.fillRect(cx + px(0.03) - legOffset, screenY + px(0.78) + bobY, legW, px(0.08));
 
   // Arms
   ctx.fillStyle = TRAINER_COLORS.shirt;
   if (facingDown || facingUp) {
-    // Arms at sides
-    const armSwing = walkFrame === 1 ? px(0.03) : walkFrame === 2 ? -px(0.03) : 0;
+    const armSwing = walkFrame === 1 ? px(0.04) : walkFrame === 2 ? -px(0.04) : 0;
     ctx.fillRect(cx - px(0.28), screenY + px(0.38) + bobY + armSwing, px(0.08), px(0.2));
     ctx.fillRect(cx + px(0.2), screenY + px(0.38) + bobY - armSwing, px(0.08), px(0.2));
   } else {
-    // One arm visible
     const armX = facingLeft ? cx + px(0.15) : cx - px(0.23);
-    ctx.fillRect(armX, screenY + px(0.38) + bobY, px(0.08), px(0.22));
+    ctx.fillRect(armX, screenY + px(0.38) + bobY, px(0.1), px(0.22));
   }
 
   // Head
   ctx.fillStyle = TRAINER_COLORS.skin;
-  ctx.fillRect(cx - px(0.15), screenY + px(0.12) + bobY, px(0.3), px(0.25));
+  ctx.fillRect(cx - px(0.18), screenY + px(0.12) + bobY, px(0.36), px(0.28));
 
   // Hat
   ctx.fillStyle = TRAINER_COLORS.hat;
   if (facingDown) {
-    ctx.fillRect(cx - px(0.2), screenY + px(0.06) + bobY, px(0.4), px(0.12));
-    // Hat brim
-    ctx.fillRect(cx - px(0.22), screenY + px(0.15) + bobY, px(0.44), px(0.04));
+    ctx.fillRect(cx - px(0.22), screenY + px(0.04) + bobY, px(0.44), px(0.14));
+    ctx.fillRect(cx - px(0.25), screenY + px(0.14) + bobY, px(0.5), px(0.05));
   } else if (facingUp) {
-    ctx.fillRect(cx - px(0.2), screenY + px(0.06) + bobY, px(0.4), px(0.14));
+    ctx.fillRect(cx - px(0.22), screenY + px(0.04) + bobY, px(0.44), px(0.16));
   } else {
-    // Side view hat
     const hatX = facingLeft ? cx - px(0.25) : cx - px(0.15);
-    ctx.fillRect(hatX, screenY + px(0.06) + bobY, px(0.4), px(0.12));
-    // Brim
-    const brimX = facingLeft ? cx - px(0.3) : cx - px(0.1);
-    ctx.fillRect(brimX, screenY + px(0.15) + bobY, px(0.4), px(0.04));
+    ctx.fillRect(hatX, screenY + px(0.04) + bobY, px(0.4), px(0.14));
+    const brimX = facingLeft ? cx - px(0.35) : cx - px(0.1);
+    ctx.fillRect(brimX, screenY + px(0.14) + bobY, px(0.45), px(0.05));
   }
 
   // Hair
   ctx.fillStyle = TRAINER_COLORS.hair;
   if (facingDown) {
-    ctx.fillRect(cx - px(0.15), screenY + px(0.15) + bobY, px(0.3), px(0.05));
+    ctx.fillRect(cx - px(0.18), screenY + px(0.18) + bobY, px(0.36), px(0.06));
   } else if (facingUp) {
-    ctx.fillRect(cx - px(0.15), screenY + px(0.18) + bobY, px(0.3), px(0.12));
+    ctx.fillRect(cx - px(0.18), screenY + px(0.2) + bobY, px(0.36), px(0.12));
   } else {
     const hairX = facingLeft ? cx + px(0.05) : cx - px(0.2);
-    ctx.fillRect(hairX, screenY + px(0.15) + bobY, px(0.15), px(0.12));
+    ctx.fillRect(hairX, screenY + px(0.18) + bobY, px(0.15), px(0.12));
   }
 
-  // Eyes (only when facing down or sides)
+  // Eyes
   if (facingDown) {
-    ctx.fillStyle = '#2a2a2a';
-    ctx.fillRect(cx - px(0.08), screenY + px(0.22) + bobY, px(0.04), px(0.04));
-    ctx.fillRect(cx + px(0.05), screenY + px(0.22) + bobY, px(0.04), px(0.04));
+    ctx.fillStyle = '#111';
+    ctx.fillRect(cx - px(0.1), screenY + px(0.24) + bobY, px(0.05), px(0.05));
+    ctx.fillRect(cx + px(0.05), screenY + px(0.24) + bobY, px(0.05), px(0.05));
   } else if (facingLeft || facingRight) {
-    ctx.fillStyle = '#2a2a2a';
-    const eyeX = facingLeft ? cx - px(0.08) : cx + px(0.05);
-    ctx.fillRect(eyeX, screenY + px(0.22) + bobY, px(0.04), px(0.04));
+    ctx.fillStyle = '#111';
+    const eyeX = facingLeft ? cx - px(0.1) : cx + px(0.05);
+    ctx.fillRect(eyeX, screenY + px(0.24) + bobY, px(0.05), px(0.05));
   }
 }
 
@@ -285,7 +395,6 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Restore player position from sessionStorage (survives encounter round-trips)
   const getSavedPosition = (): Point => {
     try {
       const saved = sessionStorage.getItem(`explore-pos-${regionId}`);
@@ -299,7 +408,6 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     return { ...map.spawn };
   };
 
-  // Game state refs (avoid re-renders)
   const playerPos = useRef<Point>(getSavedPosition());
   const playerDir = useRef<Direction>('down');
   const walkFrame = useRef(0);
@@ -313,19 +421,16 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
   const encounterTriggered = useRef(false);
   const tileSizeRef = useRef(32);
 
-  // Calculate tile size to fit viewport — zoomed in to show ~8 tiles across
   const calculateTileSize = useCallback(() => {
     const container = containerRef.current;
     if (!container) return 48;
     const vw = container.clientWidth;
     const dpr = window.devicePixelRatio || 1;
-    // Show about 8 tiles across the viewport for a zoomed-in feel
     const tilesAcross = 8;
     const size = Math.floor((vw * dpr) / tilesAcross);
     return Math.max(32, Math.min(96, size));
   }, []);
 
-  // Walk one step along the path
   const walkStep = useCallback(() => {
     if (pathRef.current.length === 0) {
       walkingRef.current = false;
@@ -340,12 +445,10 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     playerPos.current = { ...next };
     walkFrame.current = walkFrame.current === 1 ? 2 : 1;
 
-    // Save position for encounter round-trips
     try {
       sessionStorage.setItem(`explore-pos-${regionId}`, JSON.stringify(next));
     } catch { /* ignore */ }
 
-    // Check for gym entrance
     const tile = getTile(map, next.x, next.y);
     if (tile === TileType.GYM_ENTRANCE) {
       pathRef.current = [];
@@ -355,11 +458,9 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
       return;
     }
 
-    // Check for encounter
     if (isEncounterTile(map, next.x, next.y)) {
       encounterSteps.current++;
       if (Math.random() < encounterChance.current) {
-        // Trigger encounter!
         pathRef.current = [];
         walkingRef.current = false;
         walkFrame.current = 0;
@@ -373,19 +474,15 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
         }, 400);
         return;
       }
-      // Increase chance with each step on encounter tile
       encounterChance.current = Math.min(0.5, encounterChance.current + 0.05);
     } else {
-      // Reset encounter chance when not on encounter tile
       encounterSteps.current = 0;
       encounterChance.current = 0.1;
     }
 
-    // Schedule next step
     setTimeout(walkStep, 200);
   }, [map, onEncounter, onGymEntrance, regionId]);
 
-  // Handle tap on canvas
   const handleTap = useCallback((e: React.MouseEvent<HTMLCanvasElement>) => {
     if (encounterTriggered.current) return;
 
@@ -396,11 +493,9 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     const dpr = window.devicePixelRatio || 1;
     const tileSize = tileSizeRef.current;
 
-    // Screen coordinates relative to canvas (in canvas pixel space)
     const screenX = (e.clientX - rect.left) * dpr;
     const screenY = (e.clientY - rect.top) * dpr;
 
-    // Camera offset (must match the clamped camera in the render loop)
     const camX = playerPos.current.x * tileSize - canvas.width / 2 + tileSize / 2;
     const camY = playerPos.current.y * tileSize - canvas.height / 2 + tileSize / 2;
     const maxCamX = map.width * tileSize - canvas.width;
@@ -408,11 +503,9 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     const clampedCamX = Math.max(0, Math.min(maxCamX, camX));
     const clampedCamY = Math.max(0, Math.min(maxCamY, camY));
 
-    // Convert to tile coordinates
     const tileX = Math.floor((screenX + clampedCamX) / tileSize);
     const tileY = Math.floor((screenY + clampedCamY) / tileSize);
 
-    // Find path
     const path = findPath(map, playerPos.current, { x: tileX, y: tileY });
     if (path.length > 0) {
       pathRef.current = path;
@@ -422,27 +515,25 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     }
   }, [map, walkStep]);
 
-  // Render loop
   useEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
     if (!canvas || !container) return;
 
     const ctx = canvas.getContext('2d')!;
-
     let lastW = 0;
     let lastH = 0;
 
-    const render = () => {
+    const render = (time: number) => {
       const dpr = window.devicePixelRatio || 1;
       const tileSize = calculateTileSize();
       tileSizeRef.current = tileSize;
 
-      // Size canvas to container (only when size changes to avoid flicker)
       const w = container.clientWidth;
       const h = container.clientHeight;
       const canvasW = Math.floor(w * dpr);
       const canvasH = Math.floor(h * dpr);
+      
       if (canvasW !== lastW || canvasH !== lastH) {
         canvas.width = canvasW;
         canvas.height = canvasH;
@@ -452,40 +543,34 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
         lastH = canvasH;
       }
 
-      // Disable image smoothing for pixel art
       ctx.imageSmoothingEnabled = false;
 
-      // Camera (centered on player)
       const camX = playerPos.current.x * tileSize - canvas.width / 2 + tileSize / 2;
       const camY = playerPos.current.y * tileSize - canvas.height / 2 + tileSize / 2;
 
-      // Clamp camera
       const maxCamX = map.width * tileSize - canvas.width;
       const maxCamY = map.height * tileSize - canvas.height;
       const clampedCamX = Math.max(0, Math.min(maxCamX, camX));
       const clampedCamY = Math.max(0, Math.min(maxCamY, camY));
 
-      // Clear
-      ctx.fillStyle = '#1a1a2e';
+      ctx.fillStyle = '#1A1A2E';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      // Calculate visible tile range
       const startTileX = Math.max(0, Math.floor(clampedCamX / tileSize));
       const startTileY = Math.max(0, Math.floor(clampedCamY / tileSize));
       const endTileX = Math.min(map.width, Math.ceil((clampedCamX + canvas.width) / tileSize) + 1);
       const endTileY = Math.min(map.height, Math.ceil((clampedCamY + canvas.height) / tileSize) + 1);
 
-      // Draw tiles
+      // We pass `time` to drawTile so elements can be animated!
       for (let y = startTileY; y < endTileY; y++) {
         for (let x = startTileX; x < endTileX; x++) {
           const tileType = getTile(map, x, y) as TileType;
           const screenX = x * tileSize - clampedCamX;
           const screenY = y * tileSize - clampedCamY;
-          drawTile(ctx, tileType, screenX, screenY, tileSize);
+          drawTile(ctx, tileType, screenX, screenY, tileSize, time);
         }
       }
 
-      // Draw player
       const playerScreenX = playerPos.current.x * tileSize - clampedCamX;
       const playerScreenY = playerPos.current.y * tileSize - clampedCamY;
       drawTrainer(ctx, playerScreenX, playerScreenY, tileSize, playerDir.current, walkFrame.current);
@@ -500,7 +585,6 @@ export default function TileMapComponent({ map, onEncounter, onGymEntrance, regi
     };
   }, [map, calculateTileSize]);
 
-  // Hide banner after 2 seconds
   useEffect(() => {
     const timer = setTimeout(() => setShowBanner(false), 2500);
     return () => clearTimeout(timer);

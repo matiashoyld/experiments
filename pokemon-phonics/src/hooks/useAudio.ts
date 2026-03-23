@@ -1,6 +1,7 @@
 'use client';
 
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef, useMemo } from 'react';
+import { createNarration } from '@/lib/narrate';
 
 export function useAudio() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -66,5 +67,8 @@ export function useAudio() {
     });
   }, []);
 
-  return { play, playPhoneme, playNarration, playWord, speak, stop };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const narrate = useMemo(() => createNarration(playNarration, speak), [playNarration, speak]);
+
+  return { play, playPhoneme, playNarration, playWord, speak, stop, narrate };
 }
