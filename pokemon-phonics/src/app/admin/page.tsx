@@ -178,6 +178,7 @@ function ProgressDashboard() {
   const handleReset = () => {
     if (resetInput === 'RESET') {
       localStorage.removeItem('pokemon-phonics-game-state');
+      fetch('/api/game-state', { method: 'DELETE' }).catch(() => {});
       setGameState(null);
       setResetStep(0);
       setResetInput('');

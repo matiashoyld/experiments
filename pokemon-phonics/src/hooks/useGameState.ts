@@ -79,26 +79,54 @@ function createDefaultState(): GameState {
   };
 }
 
+// Debounced sync to Redis — batches rapid updates into one request
+let syncTimeout: ReturnType<typeof setTimeout> | null = null;
+function syncToRedis(state: GameState) {
+  if (syncTimeout) clearTimeout(syncTimeout);
+  syncTimeout = setTimeout(() => {
+    fetch('/api/game-state', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(state),
+    }).catch(() => {}); // silent fail — localStorage is the fallback
+  }, 2000);
+}
+
 export function useGameState() {
   const [state, setState] = useState<GameState | null>(null);
   const [loaded, setLoaded] = useState(false);
 
-  // Load from localStorage on mount
+  // Load: localStorage first (instant), then try Redis for fresher data
   useEffect(() => {
+    let localState: GameState | null = null;
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        setState(JSON.parse(saved));
-      } else {
-        setState(createDefaultState());
-      }
-    } catch {
+      if (saved) localState = JSON.parse(saved);
+    } catch {}
+
+    if (localState) {
+      setState(localState);
+      setLoaded(true);
+    } else {
       setState(createDefaultState());
+      setLoaded(true);
     }
-    setLoaded(true);
+
+    // Try Redis for potentially newer data (e.g. played on another device)
+    fetch('/api/game-state')
+      .then(res => res.ok ? res.json() : null)
+      .then(remote => {
+        if (!remote) return;
+        // Use whichever is newer
+        if (!localState || remote.updatedAt > localState.updatedAt) {
+          setState(remote);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(remote));
+        }
+      })
+      .catch(() => {}); // offline or Redis not configured — that's fine
   }, []);
 
-  // Save to localStorage on change
+  // Save to localStorage + queue Redis sync
   const save = useCallback((newState: GameState) => {
     const updated = { ...newState, updatedAt: new Date().toISOString() };
     setState(updated);
@@ -107,6 +135,7 @@ export function useGameState() {
     } catch (e) {
       console.error('Failed to save game state:', e);
     }
+    syncToRedis(updated);
   }, []);
 
   const updateState = useCallback((updater: (prev: GameState) => GameState) => {
@@ -119,6 +148,7 @@ export function useGameState() {
       } catch (e) {
         console.error('Failed to save game state:', e);
       }
+      syncToRedis(updated);
       return updated;
     });
   }, []);
