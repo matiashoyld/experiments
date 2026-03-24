@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/compare", "destination": "/index.html" },
+    { "source": "/seattle", "destination": "/index.html" },
+    { "source": "/yellowstone", "destination": "/index.html" },
+    { "source": "/banff", "destination": "/index.html" },
+    { "source": "/alaska", "destination": "/index.html" }
+  ]
+}

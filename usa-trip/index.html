@@ -12,6 +12,8 @@
             --yellowstone-light: #fef3c7;
             --banff: #059669;
             --banff-light: #d1fae5;
+            --alaska: #0891b2;
+            --alaska-light: #cffafe;
             --bg: #f8fafc;
             --card: #ffffff;
             --text: #1e293b;
@@ -35,6 +37,7 @@
         .nav-tab.active-seattle { border-color: var(--seattle); background: var(--seattle-light); color: var(--seattle); }
         .nav-tab.active-yellowstone { border-color: var(--yellowstone); background: var(--yellowstone-light); color: var(--yellowstone); }
         .nav-tab.active-banff { border-color: var(--banff); background: var(--banff-light); color: var(--banff); }
+        .nav-tab.active-alaska { border-color: var(--alaska); background: var(--alaska-light); color: var(--alaska); }
         .nav-tab.active-compare { border-color: #7c3aed; background: #ede9fe; color: #7c3aed; }
         .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
         .section { display: none; }
@@ -48,6 +51,7 @@
         .price-badge.seattle { background: var(--seattle-light); color: var(--seattle); }
         .price-badge.yellowstone { background: var(--yellowstone-light); color: var(--yellowstone); }
         .price-badge.banff { background: var(--banff-light); color: var(--banff); }
+        .price-badge.alaska { background: var(--alaska-light); color: var(--alaska); }
         .price-sub { font-size: 0.85rem; font-weight: 400; opacity: 0.7; }
         .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; margin-bottom: 40px; }
         .card { background: white; border-radius: 16px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); border: 1px solid var(--border); }
@@ -56,6 +60,7 @@
         .card-icon.seattle { background: var(--seattle-light); }
         .card-icon.yellowstone { background: var(--yellowstone-light); }
         .card-icon.banff { background: var(--banff-light); }
+        .card-icon.alaska { background: var(--alaska-light); }
         .card table { width: 100%; border-collapse: collapse; }
         .card th, .card td { padding: 8px 0; text-align: left; font-size: 0.9rem; }
         .card th { color: var(--text-muted); font-weight: 500; border-bottom: 1px solid var(--border); }
@@ -74,6 +79,7 @@
         .day-num.seattle { background: var(--seattle-light); color: var(--seattle); }
         .day-num.yellowstone { background: var(--yellowstone-light); color: var(--yellowstone); }
         .day-num.banff { background: var(--banff-light); color: var(--banff); }
+        .day-num.alaska { background: var(--alaska-light); color: var(--alaska); }
         .day-content h4 { font-size: 0.95rem; margin-bottom: 4px; }
         .day-content p { font-size: 0.85rem; color: var(--text-muted); }
         .compare-table { width: 100%; border-collapse: separate; border-spacing: 0; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 40px; }
@@ -82,6 +88,7 @@
         .compare-table thead th:nth-child(2) { background: var(--seattle); }
         .compare-table thead th:nth-child(3) { background: #b45309; }
         .compare-table thead th:nth-child(4) { background: var(--banff); }
+        .compare-table thead th:nth-child(5) { background: var(--alaska); }
         .compare-table td { font-size: 0.9rem; }
         .compare-table td:first-child { font-weight: 600; color: var(--text-muted); }
         .compare-table tr:last-child td { border-bottom: none; font-weight: 700; font-size: 1.05rem; }
@@ -95,6 +102,7 @@
         .tag-seattle { background: var(--seattle-light); color: var(--seattle); }
         .tag-yellowstone { background: var(--yellowstone-light); color: var(--yellowstone); }
         .tag-banff { background: var(--banff-light); color: var(--banff); }
+        .tag-alaska { background: var(--alaska-light); color: var(--alaska); }
         .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px; }
         .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 12px; transition: transform 0.3s; }
         .gallery img:hover { transform: scale(1.03); }
@@ -223,9 +231,9 @@
 <div class="hero">
     <div class="hero-content">
         <h1>Zabala's Trip 2026</h1>
-        <p class="subtitle">Eligiendo nuestra aventura: Seattle vs Yellowstone vs Banff</p>
+        <p class="subtitle">Eligiendo nuestra aventura familiar</p>
         <div class="details">
-            <span>3-13 Agosto, 2026</span>
+            <span>Julio 31 - Agosto 15, 2026</span>
             <span>9 Adultos + 3 Ninos</span>
             <span>10 Noches</span>
             <span>Desde SFO</span>
@@ -238,6 +246,7 @@
     <button class="nav-tab" data-tab="seattle" onclick="showTab('seattle')">Seattle + Parques NW</button>
     <button class="nav-tab" data-tab="yellowstone" onclick="showTab('yellowstone')">Yellowstone</button>
     <button class="nav-tab" data-tab="banff" onclick="showTab('banff')">Banff</button>
+    <button class="nav-tab" data-tab="alaska" onclick="showTab('alaska')">Crucero Alaska</button>
 </div>
 
 <div class="container">
@@ -255,28 +264,31 @@
                 <th>Seattle + Parques NW</th>
                 <th>Yellowstone</th>
                 <th>Banff (Canada)</th>
+                <th>Crucero Alaska</th>
             </tr>
         </thead>
         <tbody>
-            <tr><td>Vuelos (SFO ida y vuelta)</td><td class="winner">$2,000</td><td>$3,500</td><td>$2,850</td></tr>
-            <tr><td>2 SUVs Arriendo (10 dias)</td><td>$4,000</td><td>$6,500</td><td class="winner">$2,700</td></tr>
-            <tr><td>Bencina</td><td>$390</td><td class="winner">$350</td><td>$365</td></tr>
-            <tr><td>Alojamiento</td><td>$3,900</td><td>$6,500</td><td class="winner">$3,550</td></tr>
-            <tr><td>Entrada a parques</td><td>$160</td><td>$160</td><td class="winner">$0 (GRATIS!)</td></tr>
-            <tr><td>Comida (10 dias)</td><td>$3,000</td><td class="winner">$1,650</td><td>$4,088</td></tr>
-            <tr><td>Actividades</td><td>$1,490</td><td class="winner">$900</td><td>$2,400</td></tr>
-            <tr><td>Varios</td><td>$600</td><td class="winner">$400</td><td>$550</td></tr>
+            <tr><td>Vuelos (SFO ida y vuelta)</td><td>$2,000</td><td>$3,500</td><td>$2,850</td><td class="winner">$2,000</td></tr>
+            <tr><td>Crucero / Arriendo Autos</td><td>$4,000</td><td>$6,500</td><td>$2,700</td><td>$11,000</td></tr>
+            <tr><td>Bencina / Transporte</td><td>$390</td><td>$350</td><td>$365</td><td class="winner">$0</td></tr>
+            <tr><td>Alojamiento (fuera crucero)</td><td>$3,900</td><td>$6,500</td><td>$3,550</td><td class="winner">$2,500</td></tr>
+            <tr><td>Entrada a parques</td><td>$160</td><td>$160</td><td class="winner">$0 (GRATIS!)</td><td>$0</td></tr>
+            <tr><td>Comida (fuera crucero)</td><td>$3,000</td><td>$1,650</td><td>$4,088</td><td class="winner">$2,000</td></tr>
+            <tr><td>Excursiones / Actividades</td><td>$1,490</td><td>$900</td><td>$2,400</td><td>$2,000</td></tr>
+            <tr><td>Varios</td><td>$600</td><td>$400</td><td>$550</td><td>$500</td></tr>
             <tr>
                 <td>TOTAL GENERAL</td>
                 <td style="color: var(--seattle); font-size:1.1rem;">$15,540</td>
                 <td style="color: var(--yellowstone); font-size:1.1rem;">$19,960</td>
                 <td style="color: var(--banff); font-size:1.1rem;">$16,503</td>
+                <td style="color: var(--alaska); font-size:1.1rem;">$20,000</td>
             </tr>
             <tr>
                 <td>Por Adulto (dividido en 9)</td>
                 <td style="color: var(--seattle);">$1,727</td>
                 <td style="color: var(--yellowstone);">$2,218</td>
                 <td style="color: var(--banff);">$1,834</td>
+                <td style="color: var(--alaska);">$2,222</td>
             </tr>
         </tbody>
     </table>
@@ -296,6 +308,9 @@
         <div class="best-for-item"><span class="label">Sin Problema de Pasaporte</span><span class="winner-tag tag-seattle">Seattle / Yellowstone</span></div>
         <div class="best-for-item"><span class="label">Paisajes "Wow"</span><span class="winner-tag tag-banff">Banff</span></div>
         <div class="best-for-item"><span class="label">Geisers y Termas Unicas</span><span class="winner-tag tag-yellowstone">Yellowstone</span></div>
+        <div class="best-for-item"><span class="label">Glaciares + Vida Marina</span><span class="winner-tag tag-alaska">Crucero Alaska</span></div>
+        <div class="best-for-item"><span class="label">Todo incluido (comida+alojamiento)</span><span class="winner-tag tag-alaska">Crucero Alaska</span></div>
+        <div class="best-for-item"><span class="label">Menos logistica (sin auto)</span><span class="winner-tag tag-alaska">Crucero Alaska</span></div>
     </div>
 
     <div class="cards-grid">
@@ -339,6 +354,20 @@
                 <li class="con">Precios canadienses 15-25% mas altos</li>
                 <li class="con">Shuttle a Moraine Lake se agota rapido</li>
                 <li class="con">Roaming de celular (~$10/dia)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon alaska">&#128674;</span> Crucero por Alaska</h3>
+            <ul>
+                <li class="pro">Glaciares, fiordos, ballenas, vida marina espectacular</li>
+                <li class="pro">Todo incluido: comida + alojamiento en el barco</li>
+                <li class="pro">Cero logistica: sin auto, sin hacer/deshacer maletas</li>
+                <li class="pro">Actividades a bordo para ninos (toboganes, go-karts)</li>
+                <li class="pro">Desde $708/pp (MSC) o $1,079 (Princess, barco nuevo)</li>
+                <li class="pro">Combina con dias en SF y Seattle</li>
+                <li class="con">Mas caro en total (~$20-22K vs $15-16K Seattle/Banff)</li>
+                <li class="con">Excursiones en puertos cuestan extra</li>
+                <li class="con">Necesitan pasaporte (parada en Victoria, Canada)</li>
             </ul>
         </div>
     </div>
@@ -731,10 +760,611 @@
     </div>
 </div>
 
+<!-- ==================== CRUCERO ALASKA ==================== -->
+<div id="alaska" class="section">
+    <div class="dest-header">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80" alt="Alaska Glacier">
+        <div class="dest-header-info">
+            <h2>Crucero por Alaska desde Seattle</h2>
+            <p class="tagline">7-9 noches navegando glaciares, fiordos y pueblos de Alaska + dias en SF y Seattle</p>
+            <span class="price-badge alaska">Desde $708/persona <span class="price-sub">(crucero, inside cabin)</span></span>
+        </div>
+    </div>
+
+    <div class="itinerary" style="margin-bottom: 32px;">
+        <h3>Timeline del Viaje (con crucero Aug 2-9)</h3>
+        <div class="day-row"><span class="day-num alaska">Jul 31</span><div class="day-content"><h4>Llegan a SF desde Chile</h4><p>Descansar del vuelo largo. Primera noche en SF.</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 1</span><div class="day-content"><h4>Dia en San Francisco</h4><p>Pasear por SF. Prepararse para el crucero.</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 2</span><div class="day-content"><h4>Vuelo SFO a Seattle + Embarque</h4><p>Vuelo temprano (1h15). Embarcar crucero por la tarde (~4pm).</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 2-9</span><div class="day-content"><h4>CRUCERO 7 NOCHES POR ALASKA</h4><p>Juneau, Skagway, Glacier Bay, Ketchikan, Victoria. Comida y alojamiento incluidos.</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 9-11</span><div class="day-content"><h4>Seattle (2-3 noches)</h4><p>Pike Place Market, Space Needle, Chihuly Garden, paseo por la ciudad.</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 12</span><div class="day-content"><h4>Vuelo Seattle a SF</h4><p>Vuelo corto de vuelta a San Francisco.</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 12-14</span><div class="day-content"><h4>San Francisco (3 noches)</h4><p>Golden Gate, Fisherman's Wharf, Chinatown, paseos.</p></div></div>
+        <div class="day-row"><span class="day-num alaska">Aug 15</span><div class="day-content"><h4>Vuelo SF a Chile</h4><p>De vuelta a casa.</p></div></div>
+    </div>
+
+    <!-- ===== MEGA COMPARISON TABLE ===== -->
+    <h2 style="text-align:center; margin-bottom: 8px; font-size: 1.5rem;">Comparacion Completa de Cruceros</h2>
+    <p style="text-align:center; color: var(--text-muted); margin-bottom: 24px; font-size: 0.8rem;">El mas barato de cada linea. Precios pp, doble ocupacion, impuestos incluidos. (Mar 24, 2026)</p>
+
+    <!-- QUICK OVERVIEW -->
+    <div class="table-scroll" style="margin-bottom:32px;">
+    <table class="compare-table" style="min-width:900px;">
+        <thead>
+            <tr>
+                <th style="background:#0f172a;min-width:130px;"></th>
+                <th style="background:#1a6b4a;">MSC Poesia</th>
+                <th style="background:#1a4d8f;">Voyager of the Seas</th>
+                <th style="background:#b91c1c;">Carnival Spirit</th>
+                <th style="background:#1e3a5f;">Noordam</th>
+                <th style="background:#0f4c5c;">Star Princess</th>
+                <th style="background:#0d3b66;">Norwegian Joy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- IDENTITY -->
+            <tr>
+                <td>Linea</td>
+                <td>MSC Cruises</td>
+                <td>Royal Caribbean</td>
+                <td>Carnival</td>
+                <td>Holland America</td>
+                <td>Princess Cruises</td>
+                <td>Norwegian</td>
+            </tr>
+            <tr>
+                <td>Fecha</td>
+                <td>Aug 3-10</td>
+                <td>Aug 7-14</td>
+                <td>Aug 4-11</td>
+                <td>Aug 2-9</td>
+                <td>Aug 2-9</td>
+                <td>Aug 5-14</td>
+            </tr>
+            <tr>
+                <td>Noches</td>
+                <td>7</td>
+                <td>7</td>
+                <td>7</td>
+                <td>7</td>
+                <td>7</td>
+                <td style="font-weight:700;color:var(--alaska);">9</td>
+            </tr>
+
+            <!-- PRICES -->
+            <tr style="background:#f0fdfa;">
+                <td style="font-weight:700;color:#0f766e;">PRECIOS</td>
+                <td colspan="6" style="font-size:0.75rem;color:var(--text-muted);text-align:center;">Por persona, doble ocupacion, impuestos incluidos</td>
+            </tr>
+            <tr>
+                <td>Inside</td>
+                <td class="winner" style="color:#16a34a;font-weight:700;">$708</td>
+                <td style="font-weight:600;">$711</td>
+                <td style="font-weight:600;">$930</td>
+                <td>$1,029</td>
+                <td>$1,079</td>
+                <td>$1,299</td>
+            </tr>
+            <tr>
+                <td>Ocean View</td>
+                <td class="winner" style="color:#16a34a;font-weight:700;">$878</td>
+                <td>$1,619</td>
+                <td>$1,297</td>
+                <td>$1,279</td>
+                <td>$1,899</td>
+                <td>~$1,700</td>
+            </tr>
+            <tr>
+                <td>Balcony</td>
+                <td style="font-weight:600;">$1,493</td>
+                <td>$1,604</td>
+                <td class="winner" style="color:#16a34a;font-weight:700;">$1,469</td>
+                <td>$1,909</td>
+                <td>$2,574</td>
+                <td>~$2,200</td>
+            </tr>
+            <tr>
+                <td>Suite</td>
+                <td>$4,544</td>
+                <td>$3,424</td>
+                <td class="winner" style="color:#16a34a;font-weight:700;">$2,572</td>
+                <td>$3,579</td>
+                <td>$2,999</td>
+                <td>~$2,400</td>
+            </tr>
+            <tr>
+                <td>Precio/noche (inside)</td>
+                <td class="winner" style="color:#16a34a;font-weight:700;">$101</td>
+                <td>$102</td>
+                <td>$133</td>
+                <td>$147</td>
+                <td>$154</td>
+                <td>$144</td>
+            </tr>
+            <tr>
+                <td>Grupo est. (inside, 5 cab.)</td>
+                <td style="color:#16a34a;font-weight:600;">~$7,100</td>
+                <td>~$7,100</td>
+                <td>~$9,500</td>
+                <td>~$10,500</td>
+                <td>~$11,000</td>
+                <td>~$13,500</td>
+            </tr>
+
+            <!-- SHIP -->
+            <tr style="background:#f0f4ff;">
+                <td style="font-weight:700;color:#1e40af;">EL BARCO</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Construido</td>
+                <td>2008</td>
+                <td>1999</td>
+                <td>2001</td>
+                <td>2006</td>
+                <td style="color:#16a34a;font-weight:700;">2025 (NUEVO!)</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Renovado</td>
+                <td style="font-weight:600;">Feb 2026</td>
+                <td>2019 ($97M)</td>
+                <td>2025</td>
+                <td>2024</td>
+                <td>—</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Tonelaje</td>
+                <td>92,627</td>
+                <td>137,276</td>
+                <td>88,500</td>
+                <td>82,318</td>
+                <td style="font-weight:600;">177,882</td>
+                <td>167,725</td>
+            </tr>
+            <tr>
+                <td>Pasajeros</td>
+                <td>2,550</td>
+                <td>3,286</td>
+                <td>2,610</td>
+                <td style="color:#16a34a;font-weight:600;">1,916</td>
+                <td>4,300</td>
+                <td>3,804</td>
+            </tr>
+            <tr>
+                <td>Condicion</td>
+                <td>Recien renovado</td>
+                <td style="color:#dc2626;">Mostrando edad</td>
+                <td>OK, renovado 2025</td>
+                <td style="color:#dc2626;">Algo cansado</td>
+                <td style="color:#16a34a;font-weight:600;">Pristino, nuevo</td>
+                <td>Muy bien post-refit</td>
+            </tr>
+
+            <!-- ITINERARY -->
+            <tr style="background:#fef9f0;">
+                <td style="font-weight:700;color:#92400e;">PUERTOS</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Glaciar</td>
+                <td>Tracy Arm (30 min)</td>
+                <td style="font-weight:600;">Dawes Glacier (5 hrs)</td>
+                <td>Tracy Arm (cruising)</td>
+                <td>Dawes Glacier</td>
+                <td>Dawes Glacier</td>
+                <td style="font-weight:700;color:#16a34a;">Glacier Bay (todo el dia!)</td>
+            </tr>
+            <tr>
+                <td>Juneau</td>
+                <td>8 hrs</td>
+                <td>9 hrs</td>
+                <td>8 hrs</td>
+                <td style="font-weight:600;">10 hrs</td>
+                <td>8.5 hrs</td>
+                <td>9 hrs</td>
+            </tr>
+            <tr>
+                <td>Ketchikan</td>
+                <td>10 hrs</td>
+                <td style="color:#dc2626;">No</td>
+                <td>6 hrs</td>
+                <td>6 hrs</td>
+                <td>8.5 hrs</td>
+                <td>9 hrs</td>
+            </tr>
+            <tr>
+                <td>Skagway</td>
+                <td style="color:#dc2626;">No</td>
+                <td>12 hrs</td>
+                <td style="font-weight:600;">13 hrs</td>
+                <td style="color:#dc2626;">No</td>
+                <td>11 hrs</td>
+                <td style="color:#dc2626;">No</td>
+            </tr>
+            <tr>
+                <td>Sitka</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td>8.5 hrs</td>
+                <td style="color:#dc2626;">No</td>
+                <td>9 hrs</td>
+            </tr>
+            <tr>
+                <td>Icy Strait Point</td>
+                <td>9 hrs</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td>9 hrs</td>
+            </tr>
+            <tr>
+                <td>Victoria, BC</td>
+                <td>4 hrs (noche)</td>
+                <td style="font-weight:600;">8 hrs (dia!)</td>
+                <td>4 hrs (noche)</td>
+                <td>4 hrs (noche)</td>
+                <td>5 hrs</td>
+                <td style="font-weight:600;">11 hrs</td>
+            </tr>
+            <tr>
+                <td>Total puertos</td>
+                <td>4 + scenic</td>
+                <td style="color:#dc2626;">3 + scenic</td>
+                <td>4 + scenic</td>
+                <td>4 + scenic</td>
+                <td style="font-weight:600;">5 + scenic</td>
+                <td style="color:#16a34a;font-weight:700;">5 + Glacier Bay</td>
+            </tr>
+
+            <!-- KIDS & FAMILY -->
+            <tr style="background:#fdf2f8;">
+                <td style="font-weight:700;color:#9d174d;">NINOS Y FAMILIA</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Kids club (5 anos)</td>
+                <td>Mini Club (3-6) gratis</td>
+                <td>Aquanauts (3-5) gratis</td>
+                <td>Camp Ocean (2+) gratis</td>
+                <td>Club HAL (3+) gratis</td>
+                <td>Camp Discovery (3+) gratis</td>
+                <td>Splash Academy (3+) gratis</td>
+            </tr>
+            <tr>
+                <td>Programa bebes</td>
+                <td style="color:#16a34a;font-weight:700;">Baby Care GRATIS (1-3)</td>
+                <td style="color:#dc2626;">Nursery $9-12/hr</td>
+                <td style="color:#dc2626;">Night Owls $7.50/hr (3+)</td>
+                <td style="color:#dc2626;">No formal</td>
+                <td>Parent play (6mo+)</td>
+                <td>Guppies (parent stays)</td>
+            </tr>
+            <tr>
+                <td>Toboganes de agua</td>
+                <td>Area de agua basica</td>
+                <td style="font-weight:600;">3 pisos! + FlowRider</td>
+                <td style="font-weight:600;">WaterWorks (4 slides!)</td>
+                <td style="color:#dc2626;">No</td>
+                <td>Si, splash pad</td>
+                <td>Ocean Loops (sobre el mar!)</td>
+            </tr>
+            <tr>
+                <td>Actividades estrella</td>
+                <td>Cine al aire libre</td>
+                <td style="font-weight:600;">FlowRider, pista de hielo, laser tag, escalada</td>
+                <td>Green Thunder (65km/h!), Dr. Seuss, mini golf</td>
+                <td>Live music, pickleball</td>
+                <td>The Dome 360, ropes course, MedallionClass</td>
+                <td style="font-weight:600;">Go-karts, Galaxy Pavilion VR, toboganes</td>
+            </tr>
+            <tr>
+                <td>Piscinas</td>
+                <td>3 + 9 jacuzzis</td>
+                <td>2 + Solarium (adultos)</td>
+                <td>2 + Serenity (adultos)</td>
+                <td>2 (1 techo retractil!)</td>
+                <td style="font-weight:600;">5 + 14 jacuzzis</td>
+                <td>2 + jacuzzis</td>
+            </tr>
+            <tr>
+                <td>Kids sail free?</td>
+                <td style="color:#16a34a;font-weight:700;">Si!</td>
+                <td style="color:#dc2626;">No (Alaska excluido)</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+            </tr>
+            <tr>
+                <td>Nivel para ninos</td>
+                <td>Basico</td>
+                <td style="color:#16a34a;font-weight:700;">Excelente</td>
+                <td style="font-weight:600;">Muy bueno</td>
+                <td style="color:#dc2626;">Limitado (adultos)</td>
+                <td>Bueno</td>
+                <td style="color:#16a34a;font-weight:700;">Excelente</td>
+            </tr>
+
+            <!-- INCLUDED -->
+            <tr style="background:#f0fdf4;">
+                <td style="font-weight:700;color:#166534;">QUE ESTA INCLUIDO</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Comida incluida</td>
+                <td>Buffet + 1 dining room</td>
+                <td>Buffet + dining room + pizza</td>
+                <td style="font-weight:600;">Buffet + dining + Guy's Burgers + BlueIguana + Pizza (6 gratis!)</td>
+                <td>Buffet + dining + pizza + Dive-In</td>
+                <td style="font-weight:600;">Buffet + dining + pizza + diner + cafe 24/7 (30 venues!)</td>
+                <td>Buffet + 3 dining rooms + The Local 24/7</td>
+            </tr>
+            <tr>
+                <td>Bebidas incluidas</td>
+                <td>Agua, te, cafe basico</td>
+                <td>Agua, te, cafe, jugo</td>
+                <td>Agua, te, cafe, jugo</td>
+                <td>Agua, te, cafe, jugo</td>
+                <td>Agua, te, cafe, jugo</td>
+                <td style="color:#16a34a;font-weight:700;">Free at Sea: open bar, Starbucks (21+)</td>
+            </tr>
+            <tr>
+                <td>WiFi incluido</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td style="color:#dc2626;">No</td>
+                <td>Con Have It All ($60/dia)</td>
+                <td>Con Princess Plus ($70/dia)</td>
+                <td style="color:#16a34a;font-weight:600;">150 min gratis (Free at Sea)</td>
+            </tr>
+            <tr>
+                <td>Entertainment</td>
+                <td>Shows cortos (~20 min)</td>
+                <td style="font-weight:600;">Broadway shows + ice skating</td>
+                <td>Punchliner Comedy + shows</td>
+                <td style="font-weight:600;">Rolling Stone Lounge (7-piece band!)</td>
+                <td>Princess Arena + Magic Castle</td>
+                <td>Broadway shows + live music</td>
+            </tr>
+
+            <!-- EXTRAS -->
+            <tr style="background:#fef2f2;">
+                <td style="font-weight:700;color:#991b1b;">COSTOS EXTRA</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Propinas/dia pp</td>
+                <td style="color:#16a34a;font-weight:600;">$16 (ninos $8)</td>
+                <td>$16-18.50</td>
+                <td>$17-18</td>
+                <td>$17-18</td>
+                <td>$17-18</td>
+                <td style="color:#dc2626;font-weight:600;">$20</td>
+            </tr>
+            <tr>
+                <td>Propinas grupo (7-9 noches)</td>
+                <td style="color:#16a34a;font-weight:600;">~$1,064</td>
+                <td>~$1,200</td>
+                <td>~$1,200</td>
+                <td>~$1,200</td>
+                <td>~$1,200</td>
+                <td style="color:#dc2626;">~$1,980</td>
+            </tr>
+            <tr>
+                <td>Paquete bebidas</td>
+                <td>~$26-56/dia</td>
+                <td>$56-120/dia</td>
+                <td>$84/dia (Cheers!)</td>
+                <td>$61-66/dia</td>
+                <td>$70/dia (Princess Plus)</td>
+                <td style="color:#16a34a;">Incluido (Free at Sea)</td>
+            </tr>
+            <tr>
+                <td>Specialty dining</td>
+                <td>$25-50/pp</td>
+                <td>$23-110/pp</td>
+                <td>$38-55/pp</td>
+                <td>$39-59/pp</td>
+                <td>$15+/pp</td>
+                <td>$40-60/pp (3-4 gratis con FaS)</td>
+            </tr>
+
+            <!-- OPINIONS -->
+            <tr style="background:#f5f3ff;">
+                <td style="font-weight:700;color:#5b21b6;">OPINIONES</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Comida</td>
+                <td>Europea, porciones chicas</td>
+                <td style="color:#dc2626;">Inconsistente</td>
+                <td>Inconsistente pero variada</td>
+                <td>Sobre promedio</td>
+                <td style="font-weight:600;">Buena, 30 opciones</td>
+                <td style="color:#dc2626;">Mediocre (estilo Chili's)</td>
+            </tr>
+            <tr>
+                <td>Servicio</td>
+                <td>Europeo, mas lento</td>
+                <td>OK</td>
+                <td>Casual, rapido</td>
+                <td style="font-weight:600;">Superior, atento</td>
+                <td>Bueno, MedallionClass</td>
+                <td>Bueno</td>
+            </tr>
+            <tr>
+                <td>Ambiente</td>
+                <td>Internacional/europeo</td>
+                <td>Familiar, divertido</td>
+                <td style="font-weight:600;">Fiesta, casual, alta energia</td>
+                <td>Refinado, adultos</td>
+                <td>Moderno, premium</td>
+                <td>Casual, libre (Freestyle)</td>
+            </tr>
+
+            <!-- LOGISTICS -->
+            <tr style="background:#fffbeb;">
+                <td style="font-weight:700;color:#92400e;">LOGISTICA</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Vuelve a Seattle</td>
+                <td>Aug 10 (7am)</td>
+                <td style="color:#dc2626;font-weight:600;">Aug 14 (6am) APRETADO!</td>
+                <td>Aug 11 (7am)</td>
+                <td>Aug 9 (7am)</td>
+                <td>Aug 9 (7am)</td>
+                <td style="color:#dc2626;font-weight:600;">Aug 14 (7am) APRETADO!</td>
+            </tr>
+            <tr>
+                <td>Dias en Seattle post</td>
+                <td>3-4 dias</td>
+                <td style="color:#dc2626;">0 (vuelan ese dia)</td>
+                <td>3 dias</td>
+                <td style="color:#16a34a;font-weight:600;">5 dias</td>
+                <td style="color:#16a34a;font-weight:600;">5 dias</td>
+                <td style="color:#dc2626;">0 (vuelan ese dia)</td>
+            </tr>
+            <tr>
+                <td>Dias en SF post</td>
+                <td>3 dias</td>
+                <td style="color:#dc2626;">1 noche</td>
+                <td>2-3 dias</td>
+                <td>3 dias</td>
+                <td>3 dias</td>
+                <td style="color:#dc2626;">1 noche</td>
+            </tr>
+
+            <!-- WARNINGS -->
+            <tr style="background:#fef2f2;">
+                <td style="font-weight:700;color:#dc2626;">OJO CON...</td>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <td>Riesgo principal</td>
+                <td style="color:#dc2626;">1ra vez de MSC en Alaska — sin experiencia</td>
+                <td style="color:#dc2626;">Pelea con Juneau — podrian cancelar el puerto!</td>
+                <td>Barco antiguo (2001), atmosfera fiestera</td>
+                <td style="color:#dc2626;">Poco para ninos, orientado a adultos mayores</td>
+                <td>Buffet chico para 4,300 pasajeros</td>
+                <td>Vuelve Aug 14 = sin Seattle, apretado para vuelo</td>
+            </tr>
+            <tr>
+                <td>Otro</td>
+                <td>Tracy Arm solo 30 min, shows cortos</td>
+                <td>Solo 3 puertos, nursery cara ($500-670 por 2 bebes/semana)</td>
+                <td>Crowded, guest services malo</td>
+                <td>Sin toboganes, barco cansado</td>
+                <td>Layout confuso, Medallion lento</td>
+                <td>Propinas $20/dia, comida mediocre, sin laser tag (removido 2024)</td>
+            </tr>
+
+            <!-- VERDICT -->
+            <tr style="background:linear-gradient(135deg,#0f172a,#1e3a5f);color:white;">
+                <td style="font-weight:700;color:white;">VEREDICTO</td>
+                <td style="color:#a5f3fc;font-weight:600;font-size:0.85rem;">Mas barato. Bueno para bebes (baby care gratis). Riesgo: 1ra vez MSC.</td>
+                <td style="color:#a5f3fc;font-weight:600;font-size:0.85rem;">Casi igual de barato. Mega entretencion para ninos. Pero fecha apretada y pocos puertos.</td>
+                <td style="color:#a5f3fc;font-weight:600;font-size:0.85rem;">Buen precio, kids 2+, toboganes. Casual/fiestera. Barco viejo.</td>
+                <td style="color:#a5f3fc;font-weight:600;font-size:0.85rem;">Refinado, poca gente. Pero NO para familias con ninos chicos.</td>
+                <td style="color:#a5f3fc;font-weight:600;font-size:0.85rem;">Barco nuevo, mejor balance precio/calidad/fecha. 5 puertos. Recomendado.</td>
+                <td style="color:#a5f3fc;font-weight:600;font-size:0.85rem;">Mas puertos (6!), Glacier Bay, go-karts, bebidas incluidas. El mas completo pero caro y fecha apretada.</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <!-- TOP PICKS -->
+    <h3 style="text-align:center; margin: 8px 0 20px; font-size: 1.3rem;">Nuestras 3 Mejores Opciones</h3>
+
+    <div class="cards-grid">
+        <div class="card" style="border: 2px solid var(--alaska);">
+            <h3><span class="card-icon alaska">&#127946;</span> Star Princess (Aug 2-9)</h3>
+            <div style="display:inline-block;padding:4px 12px;background:var(--alaska-light);color:var(--alaska);border-radius:20px;font-weight:700;font-size:0.85rem;margin-bottom:12px;">$1,079/pp | MEJOR BALANCE</div>
+            <ul>
+                <li class="pro">Barco NUEVO (2025), The Dome 360 para glaciares</li>
+                <li class="pro">5 puertos + Dawes Glacier. 30 opciones de comida.</li>
+                <li class="pro">Fecha perfecta: 5 dias Seattle + 3 dias SF post-crucero</li>
+                <li class="pro">Promo: hasta 50% off + deposito $99</li>
+                <li class="con">Buffet chico, layout confuso</li>
+                <li class="tip">Sweet spot entre precio, calidad, fecha y puertos</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon alaska">&#128674;</span> MSC Poesia (Aug 3-10)</h3>
+            <div style="display:inline-block;padding:4px 12px;background:#dcfce7;color:#16a34a;border-radius:20px;font-weight:700;font-size:0.85rem;margin-bottom:12px;">$708/pp | MAS BARATO</div>
+            <ul>
+                <li class="pro">El mas barato por lejos (~40% menos que Princess)</li>
+                <li class="pro">Baby care GRATIS + Kids sail free</li>
+                <li class="pro">4 puertos incluyendo Icy Strait Point</li>
+                <li class="pro">Recien renovado Feb 2026 (barco "nuevo")</li>
+                <li class="con">1ra vez de MSC en Alaska, menos entretencion para ninos</li>
+                <li class="con">Tracy Arm solo 30 min (vs 5 hrs en otros)</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon alaska">&#127754;</span> Norwegian Joy (Aug 5-14)</h3>
+            <div style="display:inline-block;padding:4px 12px;background:var(--alaska-light);color:var(--alaska);border-radius:20px;font-weight:700;font-size:0.85rem;margin-bottom:12px;">$1,299/pp 9 noches | MAS COMPLETO</div>
+            <ul>
+                <li class="pro">9 noches, 5 puertos + GLACIER BAY (el unico que lo tiene!)</li>
+                <li class="pro">Go-karts, Galaxy Pavilion VR, toboganes sobre el mar</li>
+                <li class="pro">Free at Sea: open bar + WiFi + excursiones + dining incluidos</li>
+                <li class="pro">Splash Academy gratis + Guppies para bebes</li>
+                <li class="con">Vuelve Aug 14 = 0 dias Seattle, apretado para vuelo</li>
+                <li class="con">Comida mediocre, propinas $20/dia (~$2,000 grupo)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PORT INFO + COSTS -->
+    <div class="cards-grid">
+        <div class="card">
+            <h3><span class="card-icon alaska">&#9875;</span> Puertos que visitan</h3>
+            <ul>
+                <li class="pro"><strong>Juneau</strong> — Capital de Alaska. Mendenhall Glacier, whale watching, dog sledding.</li>
+                <li class="pro"><strong>Skagway</strong> — Pueblo historico. White Pass Railroad ($140/adulto), Gold Rush NP.</li>
+                <li class="pro"><strong>Glacier Bay</strong> — Dia completo entre glaciares. Rangers a bordo. Solo Norwegian Joy!</li>
+                <li class="pro"><strong>Ketchikan</strong> — Capital del salmon. Totems, Creek Street, Misty Fjords en hidroavion.</li>
+                <li class="pro"><strong>Sitka</strong> — Herencia rusa. Totem Trail, Raptor Center, avistamiento de osos.</li>
+                <li class="pro"><strong>Icy Strait Point</strong> — Zipline mas largo del mundo! Osos y ballenas.</li>
+                <li class="pro"><strong>Victoria, BC</strong> — Butchart Gardens (gratis bajo 5), Inner Harbour. Necesitan pasaporte!</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3><span class="card-icon alaska">&#128176;</span> Costo total estimado (grupo)</h3>
+            <table>
+                <tr><th>Concepto</th><th>MSC ($708)</th><th>Princess ($1,079)</th></tr>
+                <tr><td>Crucero (Inside, 5 cab.)</td><td>~$7,100</td><td>~$11,000</td></tr>
+                <tr><td>Propinas</td><td>~$1,064</td><td>~$1,200</td></tr>
+                <tr><td>Vuelos SFO-SEA (10 RT)</td><td>~$2,000</td><td>~$2,000</td></tr>
+                <tr><td>Hotel SF + Seattle</td><td>~$4,300</td><td>~$4,300</td></tr>
+                <tr><td>Excursiones</td><td>~$2,000</td><td>~$2,000</td></tr>
+                <tr><td>Comida en tierra</td><td>~$2,000</td><td>~$2,000</td></tr>
+                <tr><td>Transporte</td><td>~$500</td><td>~$500</td></tr>
+                <tr><td>TOTAL</td><td style="color:#16a34a;font-weight:700;">~$19,000</td><td style="color:var(--alaska);font-weight:700;">~$23,000</td></tr>
+                <tr><td>Por adulto (/9)</td><td style="color:#16a34a;font-weight:700;">~$2,111</td><td style="color:var(--alaska);">~$2,556</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="action-items">
+        <h3>Cosas importantes</h3>
+        <div class="action-item"><span class="action-when">PASAPORTE</span><span class="action-what">Todos (incluyendo guaguas!) necesitan pasaporte vigente — el crucero para en Victoria, Canada.</span></div>
+        <div class="action-item"><span class="action-when">RESERVAR YA</span><span class="action-what">Los cruceros de agosto se llenan rapido. Depositos desde $99 (Princess) o $250 (NCL).</span></div>
+        <div class="action-item"><span class="action-when">GRUPO</span><span class="action-what">Para 5+ cabinas la mayoria de lineas dan cotizacion grupal con descuento. Llamar al 1-800-201-6937 (AlaskaCruises.com).</span></div>
+        <div class="action-item"><span class="action-when">BEBES</span><span class="action-what">Menores de 2 gratis o ~$100-200. MSC ofrece baby care gratis; NCL tiene Guppies (parent stays); RC cobra $9-12/hr por nursery.</span></div>
+        <div class="action-item"><span class="action-when">PROPINAS</span><span class="action-what">Se agregan automaticamente: $16-20/pp/dia. Para 10 personas por 7 noches = $1,064-$1,400 extra. NCL Free at Sea Plus ($50/dia) las cubre.</span></div>
+        <div class="action-item"><span class="action-when">CLIMA</span><span class="action-what">Alaska en agosto: 13-18C en puertos, mas frio en glaciares. Llevar capas y chaqueta impermeable.</span></div>
+    </div>
+</div>
+
 </div>
 
 <div class="footer">
-    <p>Zabala's Trip - Preparado el 16 de Febrero, 2026</p>
+    <p>Zabala's Trip - Actualizado el 24 de Marzo, 2026</p>
     <p>Todos los precios son estimaciones basadas en datos actuales. Confirmar precios mas cerca de la fecha del viaje.</p>
 </div>
 
@@ -746,8 +1376,30 @@
             t.className = 'nav-tab';
             if (t.dataset.tab === tabName) t.classList.add('active-' + tabName);
         });
+        try { history.pushState(null, '', '/' + tabName); } catch(e) {}
         window.scrollTo({ top: document.querySelector('.nav-tabs').offsetTop - 10, behavior: 'smooth' });
     }
+
+    // Open tab from URL path on load
+    (function() {
+        var path = location.pathname.replace('/', '');
+        if (path && document.getElementById(path)) {
+            showTab(path);
+        }
+    })();
+
+    // Handle browser back/forward
+    window.addEventListener('popstate', function() {
+        var path = location.pathname.replace('/', '');
+        if (path && document.getElementById(path)) {
+            document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });
+            document.getElementById(path).classList.add('active');
+            document.querySelectorAll('.nav-tab').forEach(function(t) {
+                t.className = 'nav-tab';
+                if (t.dataset.tab === path) t.classList.add('active-' + path);
+            });
+        }
+    });
 </script>
 
 </body>
