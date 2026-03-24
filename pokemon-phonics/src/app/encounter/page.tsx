@@ -16,8 +16,7 @@ import { useHaptics } from '@/hooks/useHaptics';
 import './encounter.css';
 
 type EncounterPhase =
-  | 'walking'
-  | 'flash'
+  | 'transition'
   | 'appeared'
   | 'challenge'
   | 'success'
@@ -25,6 +24,13 @@ type EncounterPhase =
   | 'caught'
   | 'failure'
   | 'scaffold';
+
+type TransitionEffect = 'blinds' | 'mosaic' | 'vortex';
+
+function pickTransitionEffect(): TransitionEffect {
+  const effects: TransitionEffect[] = ['blinds', 'mosaic', 'vortex'];
+  return effects[Math.floor(Math.random() * effects.length)];
+}
 
 function EncounterContent() {
   const router = useRouter();
@@ -38,7 +44,8 @@ function EncounterContent() {
   useMusic('encounter');
   const haptics = useHaptics();
 
-  const [phase, setPhase] = useState<EncounterPhase>('walking');
+  const [phase, setPhase] = useState<EncounterPhase>('transition');
+  const [transitionEffect] = useState<TransitionEffect>(pickTransitionEffect);
   const [targetPhoneme, setTargetPhoneme] = useState<PhonemeData | null>(null);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -75,18 +82,11 @@ function EncounterContent() {
     );
     setChallenge(generateChallenge(challengeType, phoneme, state.currentSet));
 
-    // Walking phase auto-advance
-    const walkTimer = setTimeout(() => setPhase('flash'), 2500);
-    return () => clearTimeout(walkTimer);
+    // Transition phase: flash + wipe effect → appeared
+    // Total duration: ~1.6s (matches CSS animation)
+    const transitionTimer = setTimeout(() => setPhase('appeared'), 1600);
+    return () => clearTimeout(transitionTimer);
   }, [loaded, state?.currentSet]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  // Flash → appeared transition
-  useEffect(() => {
-    if (phase === 'flash') {
-      const timer = setTimeout(() => setPhase('appeared'), 500);
-      return () => clearTimeout(timer);
-    }
-  }, [phase]);
 
   // Appeared narration → challenge
   useEffect(() => {
@@ -236,30 +236,28 @@ function EncounterContent() {
   return (
     <div className="screen encounter-screen">
       <Confetti trigger={showConfetti} intensity="high" />
-      {/* Walking Phase */}
-      {phase === 'walking' && (
-        <div className="encounter-walking">
-          <div className="walking-scene">
-            <div className="grass-field">
-              {Array.from({ length: 12 }).map((_, i) => (
-                <div key={i} className="grass-tuft" style={{
-                  left: `${(i % 4) * 25 + Math.random() * 10}%`,
-                  top: `${Math.floor(i / 4) * 30 + 20 + Math.random() * 10}%`,
-                  animationDelay: `${i * 0.15}s`,
+      {/* GBA-style Transition */}
+      {phase === 'transition' && (
+        <div className="encounter-transition">
+          <div className="transition-flash" />
+          <div className={`transition-wipe transition-${transitionEffect}`}>
+            {transitionEffect === 'blinds' && (
+              Array.from({ length: 8 }).map((_, i) => (
+                <div key={i} className="blind-band" style={{
+                  animationDelay: `${0.4 + i * 0.03}s`,
+                  top: `${i * 12.5}%`,
                 }} />
-              ))}
-            </div>
-            <div className="trainer-sprite">
-              <div className="trainer-body" />
-            </div>
+              ))
+            )}
+            {transitionEffect === 'mosaic' && (
+              <div className="mosaic-overlay" />
+            )}
+            {transitionEffect === 'vortex' && (
+              <div className="vortex-screen" />
+            )}
           </div>
-          <p className="encounter-region-name">{region?.name || 'Tall Grass'}</p>
+          <div className="transition-blackout" />
         </div>
-      )}
-
-      {/* Flash Transition */}
-      {phase === 'flash' && (
-        <div className="encounter-flash" />
       )}
 
       {/* Pokemon Appeared */}

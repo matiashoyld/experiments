@@ -13,132 +13,143 @@
   font-weight: 600;
 }
 
-/* === Walking Phase === */
-.encounter-walking {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.walking-scene {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 16px;
-  background: linear-gradient(180deg, #87CEEB 0%, #7BC67B 50%, #5BA05B 100%);
-}
-
-.grass-field {
-  position: absolute;
-  inset: 0;
-}
-
-.grass-tuft {
-  position: absolute;
-  width: 40px;
-  height: 30px;
-  background: linear-gradient(0deg, #3B7A3B, #5CB85C);
-  border-radius: 50% 50% 0 0;
-  animation: grassSway 1.5s ease-in-out infinite alternate;
-}
-
-.grass-tuft::before {
-  content: '';
-  position: absolute;
-  left: -10px;
-  bottom: 0;
-  width: 30px;
-  height: 25px;
-  background: linear-gradient(0deg, #4A8A4A, #6CC86C);
-  border-radius: 50% 50% 0 0;
-  transform: rotate(-15deg);
-}
-
-.grass-tuft::after {
-  content: '';
-  position: absolute;
-  right: -10px;
-  bottom: 0;
-  width: 30px;
-  height: 25px;
-  background: linear-gradient(0deg, #4A8A4A, #6CC86C);
-  border-radius: 50% 50% 0 0;
-  transform: rotate(15deg);
-}
-
-@keyframes grassSway {
-  from { transform: rotate(-3deg); }
-  to { transform: rotate(3deg); }
-}
-
-.trainer-sprite {
-  position: absolute;
-  bottom: 40%;
-  left: 10%;
-  animation: trainerWalk 2.5s linear forwards;
-}
-
-.trainer-body {
-  width: 40px;
-  height: 60px;
-  background: linear-gradient(180deg, #FF1C1C 0% 40%, #3B4CCA 40% 100%);
-  border-radius: 50% 50% 10% 10%;
-  position: relative;
-}
-
-.trainer-body::before {
-  content: '';
-  position: absolute;
-  top: -20px;
-  left: 5px;
-  width: 30px;
-  height: 30px;
-  background: #FFD4A3;
-  border-radius: 50%;
-}
-
-.trainer-body::after {
-  content: '';
-  position: absolute;
-  top: -28px;
-  left: 2px;
-  width: 36px;
-  height: 16px;
-  background: #FF1C1C;
-  border-radius: 50% 50% 0 0;
-}
-
-@keyframes trainerWalk {
-  0% { left: 10%; }
-  100% { left: 75%; }
-}
-
-.encounter-region-name {
-  color: white;
-  font-size: 1.4rem;
-  font-weight: 600;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-}
-
-/* === Flash Transition === */
-.encounter-flash {
+/* === GBA-style Encounter Transition === */
+.encounter-transition {
   position: fixed;
   inset: 0;
-  background: white;
   z-index: 50;
-  animation: flashAnim 0.5s ease-out forwards;
+  background: transparent;
 }
 
-@keyframes flashAnim {
-  0% { opacity: 0; }
-  30% { opacity: 1; }
+/* Rapid white flashes (like Gen III) */
+.transition-flash {
+  position: absolute;
+  inset: 0;
+  background: white;
+  animation: gbaFlash 0.4s steps(1) forwards;
+  z-index: 3;
+}
+
+@keyframes gbaFlash {
+  0%   { opacity: 1; }
+  12%  { opacity: 0; }
+  24%  { opacity: 1; }
+  36%  { opacity: 0; }
+  48%  { opacity: 1; }
+  60%  { opacity: 0; }
   100% { opacity: 0; }
+}
+
+/* Wipe effect container */
+.transition-wipe {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Final blackout before "appeared" */
+.transition-blackout {
+  position: absolute;
+  inset: 0;
+  background: black;
+  z-index: 1;
+  opacity: 0;
+  animation: blackoutFade 0.3s ease 1.2s forwards;
+}
+
+@keyframes blackoutFade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* === Effect 1: Horizontal Blinds === */
+.blind-band {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 12.5%;
+  background: black;
+  transform: scaleX(0);
+  animation: blindSlide 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.blind-band:nth-child(odd) {
+  transform-origin: left center;
+}
+
+.blind-band:nth-child(even) {
+  transform-origin: right center;
+}
+
+@keyframes blindSlide {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
+}
+
+/* === Effect 2: Mosaic Pixelation === */
+.mosaic-overlay {
+  position: absolute;
+  inset: 0;
+  background: black;
+  animation: mosaicReveal 0.9s cubic-bezier(0.4, 0, 0.2, 1) 0.4s forwards;
+  opacity: 0;
+  /* Use backdrop-filter for a pixelation-like effect, then cover with black */
+}
+
+@keyframes mosaicReveal {
+  0% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+  }
+  20% {
+    opacity: 0.3;
+    backdrop-filter: blur(4px);
+  }
+  40% {
+    opacity: 0.5;
+    backdrop-filter: blur(10px);
+  }
+  60% {
+    opacity: 0.7;
+    backdrop-filter: blur(20px);
+  }
+  80% {
+    opacity: 0.9;
+    backdrop-filter: blur(40px);
+  }
+  100% {
+    opacity: 1;
+    backdrop-filter: blur(40px);
+  }
+}
+
+/* === Effect 3: Spinning Vortex === */
+.vortex-screen {
+  position: absolute;
+  inset: -50%;
+  width: 200%;
+  height: 200%;
+  background: black;
+  border-radius: 0;
+  animation: vortexSpin 0.9s cubic-bezier(0.4, 0, 0.2, 1) 0.35s forwards;
+  transform: rotate(-180deg) scale(0);
+  transform-origin: center center;
+}
+
+@keyframes vortexSpin {
+  0% {
+    transform: rotate(-180deg) scale(0);
+    border-radius: 50%;
+  }
+  60% {
+    transform: rotate(-30deg) scale(0.8);
+    border-radius: 30%;
+  }
+  100% {
+    transform: rotate(0deg) scale(1.5);
+    border-radius: 0%;
+  }
 }
 
 /* === Pokemon Appeared === */
