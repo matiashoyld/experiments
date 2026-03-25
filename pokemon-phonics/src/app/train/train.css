@@ -277,6 +277,15 @@
   100% { transform: scale(1); }
 }
 
+/* === Replay Instruction Button === */
+.replay-instruction-btn {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  min-height: 40px;
+  align-self: center;
+  opacity: 0.8;
+}
+
 /* === Blending Exercise (F) === */
 .blend-sounds {
   display: flex;

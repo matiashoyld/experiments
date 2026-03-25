@@ -81,28 +81,40 @@ function TrainContent() {
     }
   }, [phase, currentExIndex, exercises]);
 
-  // Auto-play sounds for exercise types
+  // Narrate exercise prompt + auto-play sounds
+  const narrateRef = useRef(narrate);
+  narrateRef.current = narrate;
+
   useEffect(() => {
     if (phase !== 'exercise' || !exercises[currentExIndex]) return;
     const ex = exercises[currentExIndex];
-    if (ex.type === 'A') {
-      // Play the phoneme sound
-      setTimeout(() => {
+    const n = narrateRef.current;
+
+    const narrateAndPlay = async () => {
+      // First: narrate the instruction so a non-reader knows what to do
+      if (ex.type === 'A') {
+        await n.challenge.whatSound();
+        await new Promise(r => setTimeout(r, 300));
         playPhoneme(ex.correctPhonemeId).catch(() => speak(ex.correctGrapheme));
-      }, 400);
-    }
-    if (ex.type === 'C') {
-      // Speak the target word
-      setTimeout(() => {
+      } else if (ex.type === 'B') {
+        await n.challenge.whatSound();
+      } else if (ex.type === 'C') {
+        await speak('Build this word!');
+        await new Promise(r => setTimeout(r, 300));
         playWord(ex.targetWord).catch(() => speak(ex.targetWord));
-      }, 400);
-    }
-    if (ex.type === 'E') {
-      // Speak the target word for matching
-      setTimeout(() => {
+      } else if (ex.type === 'D') {
+        await n.challenge.readWord();
+      } else if (ex.type === 'E') {
+        await speak('Which word matches?');
+        await new Promise(r => setTimeout(r, 300));
         playWord(ex.targetWord).catch(() => speak(ex.targetWord));
-      }, 400);
-    }
+      } else if (ex.type === 'F') {
+        await n.challenge.blend();
+      }
+    };
+
+    const timer = setTimeout(narrateAndPlay, 400);
+    return () => clearTimeout(timer);
   }, [phase, currentExIndex, exercises]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Evolution animation
@@ -239,6 +251,32 @@ function TrainContent() {
   const handlePlayWord = useCallback((word: string) => {
     playWord(word).catch(() => speak(word));
   }, [playWord, speak]);
+
+  // Replay current exercise instruction for non-readers
+  const handleReplayInstruction = useCallback(() => {
+    if (!exercises[currentExIndex]) return;
+    const ex = exercises[currentExIndex];
+    const n = narrateRef.current;
+    if (ex.type === 'A') {
+      n.challenge.whatSound().then(() => {
+        setTimeout(() => playPhoneme(ex.correctPhonemeId).catch(() => speak(ex.correctGrapheme)), 300);
+      });
+    } else if (ex.type === 'B') {
+      n.challenge.whatSound();
+    } else if (ex.type === 'C') {
+      speak('Build this word!').then(() => {
+        setTimeout(() => playWord(ex.targetWord).catch(() => speak(ex.targetWord)), 300);
+      });
+    } else if (ex.type === 'D') {
+      n.challenge.readWord();
+    } else if (ex.type === 'E') {
+      speak('Which word matches?').then(() => {
+        setTimeout(() => playWord(ex.targetWord).catch(() => speak(ex.targetWord)), 300);
+      });
+    } else if (ex.type === 'F') {
+      n.challenge.blend();
+    }
+  }, [exercises, currentExIndex, playPhoneme, playWord, speak]);
 
   // Exercise C: tap letter to place in slot
   const handleBuildLetter = useCallback((letterIndex: number) => {
@@ -427,6 +465,15 @@ function TrainContent() {
               />
             </div>
           </div>
+
+          {/* Replay instruction button — always visible for non-readers */}
+          <button
+            className="btn btn-secondary replay-instruction-btn"
+            onClick={handleReplayInstruction}
+            aria-label="Hear instructions again"
+          >
+            <span className="sound-icon">&#x1F50A;</span> Hear instructions
+          </button>
 
           <div className="train-exercise-content">
             {exercises[currentExIndex].type === 'A' && (
