@@ -5,6 +5,7 @@ import { useGameState } from '@/hooks/useGameState';
 import { useLetterCase } from '@/hooks/useLetterCase';
 import { ALL_PHONEMES } from '@/data/phonemes';
 import PokemonSprite from '@/components/PokemonSprite';
+import { ArrowLeft } from 'lucide-react';
 
 export default function Pokedex() {
   const router = useRouter();
@@ -21,7 +22,7 @@ export default function Pokedex() {
     <div className="screen pokedex-screen">
       <div className="pokedex-header">
         <button className="btn btn-secondary" onClick={() => router.push('/map')}>
-          ← Map
+          <ArrowLeft size={16} strokeWidth={3} /> Map
         </button>
         <h2>Pokedex</h2>
         <span className="pokedex-count">{caughtCount}/{ALL_PHONEMES.length}</span>

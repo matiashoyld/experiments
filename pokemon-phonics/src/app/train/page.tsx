@@ -13,6 +13,7 @@ import ProgressBar from '@/components/ProgressBar';
 import { EVOLUTION_XP, getEvolutionStage, isShinyEligible } from '@/lib/mastery';
 import { generateTrainingSession, TrainingExercise } from '@/lib/training-gen';
 import { sfxCorrect, sfxWrong, sfxXP } from '@/lib/sfx';
+import { Volume2, RotateCcw, Play, Music, ArrowLeft, Undo2, Map, RefreshCw, Compass } from 'lucide-react';
 import './train.css';
 
 type TrainPhase = 'select' | 'intro' | 'exercise' | 'result' | 'evolving' | 'shiny' | 'summary';
@@ -362,7 +363,7 @@ function TrainContent() {
         <div className="train-select fade-in">
           <div className="train-header">
             <button className="btn btn-secondary" onClick={() => router.push('/map')}>
-              ← Map
+              <ArrowLeft size={16} strokeWidth={3} /> Map
             </button>
             <h2>Choose a Pokemon to train!</h2>
           </div>
@@ -371,7 +372,7 @@ function TrainContent() {
             <div className="train-empty">
               <p>You haven&apos;t caught any Pokemon yet!</p>
               <button className="btn btn-primary" onClick={() => router.push('/map')}>
-                Go explore!
+                <Compass size={16} strokeWidth={2.5} /> Go explore!
               </button>
             </div>
           ) : (
@@ -642,10 +643,10 @@ function TrainContent() {
               setXpGained(0);
               setCorrectCount(0);
             }}>
-              Train another
+              <RefreshCw size={16} strokeWidth={2.5} /> Train another
             </button>
             <button className="btn btn-secondary" onClick={() => router.push('/map')}>
-              Back to map
+              <Map size={16} strokeWidth={2.5} /> Back to map
             </button>
           </div>
         </div>
@@ -661,7 +662,7 @@ function ExercisePrompt({ text, onReplay }: { text: string; onReplay: () => void
     <div className="exercise-prompt-row">
       <p className="exercise-prompt">{text}</p>
       <button className="replay-icon-btn" onClick={onReplay} aria-label="Hear instructions again">
-        &#x1F50A;
+        <RotateCcw size={18} strokeWidth={3} />
       </button>
     </div>
   );
@@ -686,7 +687,7 @@ function ExerciseA({
     <>
       <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <button className="btn btn-secondary replay-btn" onClick={onReplaySound}>
-        <span className="sound-icon">&#x1F50A;</span> Hear the sound
+        <Volume2 size={20} strokeWidth={2.5} /> Hear the sound
       </button>
       <div className="exercise-options-letters">
         {exercise.options.map(opt => (
@@ -749,7 +750,7 @@ function ExerciseB({
               }
             }}
           >
-            <span className="sound-icon">&#x1F50A;</span>
+            <Play size={24} strokeWidth={2.5} fill="currentColor" />
             {previewId === opt.phonemeId && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
@@ -785,7 +786,7 @@ function ExerciseC({
     <>
       <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <button className="btn btn-secondary replay-btn" onClick={onReplayWord}>
-        <span className="sound-icon">&#x1F50A;</span> Hear the word
+        <Volume2 size={20} strokeWidth={2.5} /> Hear the word
       </button>
 
       {/* Build slots */}
@@ -813,7 +814,7 @@ function ExerciseC({
 
       {buildSlots.some(s => s !== null) && !isComplete && (
         <button className="btn btn-secondary" onClick={onUndo} style={{ marginTop: 8 }}>
-          Undo
+          <Undo2 size={16} strokeWidth={2.5} /> Undo
         </button>
       )}
     </>
@@ -875,7 +876,7 @@ function ExerciseD({
               }
             }}
           >
-            <span className="sound-icon">&#x1F50A;</span>
+            <Play size={24} strokeWidth={2.5} fill="currentColor" />
             {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
@@ -903,7 +904,7 @@ function ExerciseE({
     <>
       <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <button className="btn btn-secondary replay-btn" onClick={onReplayWord}>
-        <span className="sound-icon">&#x1F50A;</span> Hear the word
+        <Volume2 size={20} strokeWidth={2.5} /> Hear the word
       </button>
       <div className="exercise-options">
         {exercise.options.map(opt => (
@@ -971,13 +972,13 @@ function ExerciseF({
             key={i}
             className={`blend-bubble ${playingIndex === i ? 'blend-active' : ''}`}
           >
-            <span className="sound-icon">&#x1F50A;</span>
+            <Music size={24} strokeWidth={2.5} />
           </div>
         ))}
       </div>
 
       <button className="btn btn-secondary replay-btn" onClick={playBlend}>
-        <span className="sound-icon">&#x1F50A;</span> Hear sounds again
+        <Volume2 size={20} strokeWidth={2.5} /> Hear sounds again
       </button>
 
       <div className="exercise-options">

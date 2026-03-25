@@ -14,6 +14,7 @@ import LetterCard from '@/components/LetterCard';
 import Confetti from '@/components/Confetti';
 import { useHaptics } from '@/hooks/useHaptics';
 import { sfxCorrect, sfxWrong, sfxThrow, sfxShake, sfxCatch, sfxFled, sfxEncounter } from '@/lib/sfx';
+import { Volume2, Play, ArrowRight } from 'lucide-react';
 import './encounter.css';
 
 type EncounterPhase =
@@ -403,7 +404,7 @@ function EncounterContent() {
             style={{ marginTop: 24 }}
             onClick={() => router.push(returnPath)}
           >
-            Continue
+            Continue <ArrowRight size={16} strokeWidth={2.5} />
           </button>
         </div>
       )}
@@ -515,7 +516,7 @@ function ChallengeA({
               }
             }}
           >
-            <span className="sound-icon">&#x1F50A;</span>
+            <Play size={24} strokeWidth={2.5} fill="currentColor" />
             {previewId === opt.phonemeId && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
@@ -541,7 +542,7 @@ function ChallengeB({
     <>
       <p className="challenge-prompt">Which letter makes this sound?</p>
       <button className="btn btn-secondary replay-btn" onClick={onReplaySound}>
-        <span className="sound-icon">&#x1F50A;</span> Hear again
+        <Volume2 size={20} strokeWidth={2.5} /> Hear again
       </button>
       <div className="challenge-options-letters">
         {challenge.options.map(opt => (
@@ -576,7 +577,7 @@ function ChallengeC({
     <>
       <p className="challenge-prompt">{challenge.prompt}</p>
       <button className="btn btn-secondary replay-btn" onClick={onReplayWord}>
-        <span className="sound-icon">&#x1F50A;</span> Hear &ldquo;{challenge.word}&rdquo; again
+        <Volume2 size={20} strokeWidth={2.5} /> Hear &ldquo;{challenge.word}&rdquo; again
       </button>
       <div className="challenge-options-letters">
         {challenge.options.map(opt => (
@@ -647,7 +648,7 @@ function ChallengeD({
               }
             }}
           >
-            <span className="sound-icon">&#x1F50A;</span>
+            <Play size={24} strokeWidth={2.5} fill="currentColor" />
             {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}

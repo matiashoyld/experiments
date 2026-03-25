@@ -11,6 +11,7 @@ import { getPhonemesBySet, ALL_PHONEMES } from '@/data/phonemes';
 import PokemonSprite from '@/components/PokemonSprite';
 import SessionWarning from '@/components/SessionWarning';
 import SessionLock from '@/components/SessionLock';
+import { Volume2, VolumeX, BookOpen, Dumbbell, Home } from 'lucide-react';
 
 export default function WorldMap() {
   const router = useRouter();
@@ -86,7 +87,7 @@ export default function WorldMap() {
         <div className="map-header-row">
           <h2 className="map-title">Pokemon Phonics World</h2>
           <button className="map-music-toggle" onClick={toggleMusic} title="Toggle music">
-            {state.settings.soundEnabled !== false ? '🔊' : '🔇'}
+            {state.settings.soundEnabled !== false ? <Volume2 size={20} strokeWidth={2.5} /> : <VolumeX size={20} strokeWidth={2.5} />}
           </button>
         </div>
         <div className="map-badges">
@@ -204,13 +205,13 @@ export default function WorldMap() {
       {/* Bottom nav */}
       <div className="map-nav">
         <button className="btn btn-secondary" onClick={() => navigateWithTransition(router, '/pokedex', 'slide-up')}>
-          Pokedex
+          <BookOpen size={16} strokeWidth={2.5} /> Pokedex
         </button>
         <button className="btn btn-success" onClick={() => navigateWithTransition(router, '/train', 'slide-right')}>
-          Train
+          <Dumbbell size={16} strokeWidth={2.5} /> Train
         </button>
         <button className="btn btn-gold" onClick={() => navigateWithTransition(router, '/', 'fade')}>
-          Home
+          <Home size={16} strokeWidth={2.5} /> Home
         </button>
       </div>
 

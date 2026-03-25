@@ -7,6 +7,7 @@ import { ALL_NARRATION, getNarrationByCategory } from '@/data/narration';
 import { REGIONS } from '@/data/regions';
 import { getOfficialArtwork } from '@/data/pokemon';
 import { calculateMastery } from '@/lib/mastery';
+import { Play } from 'lucide-react';
 import './admin.css';
 
 type Tab = 'phonemes' | 'narration' | 'words' | 'progress' | 'mapping';
@@ -587,7 +588,7 @@ function PhonemeRecorder({
                           onClick={() => playExisting(p.id)}
                           title="Play"
                         >
-                          &#x1F50A;
+                          <Play size={14} />
                         </button>
                       )}
                     </div>
@@ -874,7 +875,7 @@ function NarrationGenerator({
                     <span className="voice">{entry.voiceName}</span>
                     {isCached(entry.key) ? (
                       <button className="btn-admin" onClick={() => playNarration(entry.key)}>
-                        &#x1F50A;
+                        <Play size={14} />
                       </button>
                     ) : (
                       <button

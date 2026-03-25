@@ -14,6 +14,7 @@ import LetterCard from '@/components/LetterCard';
 import GymBuilding from '@/components/GymBuilding';
 import Confetti from '@/components/Confetti';
 import { useHaptics } from '@/hooks/useHaptics';
+import { Play, Map, ArrowLeft } from 'lucide-react';
 import './battle.css';
 
 type BattlePhase =
@@ -224,7 +225,7 @@ function BattleContent() {
             {regionPhonemes.filter(p => state.pokemon[p.id]?.caught).length} / {regionPhonemes.length} caught
           </p>
           <button className="btn btn-secondary" onClick={() => router.push('/map')}>
-            Back to map
+            <ArrowLeft size={16} strokeWidth={3} /> Back to map
           </button>
         </div>
       </div>
@@ -325,7 +326,7 @@ function BattleContent() {
                     }
                   }}
                 >
-                  <span className="sound-icon">&#x1F50A;</span>
+                  <Play size={24} strokeWidth={2.5} fill="currentColor" />
                   {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
                 </button>
               ))}
@@ -405,7 +406,7 @@ function BattleContent() {
 
           <div className="badge-buttons">
             <button className="btn btn-primary" onClick={() => router.push('/map')}>
-              Back to map
+              <Map size={16} strokeWidth={2.5} /> Back to map
             </button>
           </div>
         </div>

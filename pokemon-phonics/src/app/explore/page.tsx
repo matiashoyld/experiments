@@ -8,6 +8,7 @@ import { TileType } from '@/data/maps/tile-types';
 import { REGIONS } from '@/data/regions';
 import { getPhonemesBySet } from '@/data/phonemes';
 import { useGameState } from '@/hooks/useGameState';
+import { ArrowLeft } from 'lucide-react';
 import { PALLET_MEADOW } from '@/data/maps/region-1';
 import { VIRIDIAN_WOODS } from '@/data/maps/region-2';
 import { PEWTER_MOUNTAINS } from '@/data/maps/region-3';
@@ -168,7 +169,7 @@ function ExploreContent() {
         onPokemonRemoved={handlePokemonRemoved}
       />
       <button className="explore-back-btn" onClick={handleBack}>
-        &larr; Map
+        <ArrowLeft size={16} strokeWidth={3} /> Map
       </button>
     </div>
   );
