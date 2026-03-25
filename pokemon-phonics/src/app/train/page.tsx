@@ -477,6 +477,15 @@ function TrainContent() {
                 answerCorrectness={answerCorrectness}
               />
             )}
+            {exercises[currentExIndex].type === 'F' && (
+              <ExerciseF
+                exercise={exercises[currentExIndex] as TrainingExercise & { type: 'F' }}
+                onAnswer={handleAnswer}
+                onPlaySound={handlePlaySound}
+                selectedAnswer={selectedAnswer}
+                answerCorrectness={answerCorrectness}
+              />
+            )}
           </div>
         </div>
       )}
@@ -823,6 +832,79 @@ function ExerciseE({
       <button className="btn btn-secondary replay-btn" onClick={onReplayWord}>
         <span className="sound-icon">&#x1F50A;</span> Hear the word
       </button>
+      <div className="exercise-options">
+        {exercise.options.map(opt => (
+          <button
+            key={opt.word}
+            className={`btn btn-sound-option exercise-word-option ${
+              answerCorrectness[opt.word] === true ? 'btn-correct' :
+              answerCorrectness[opt.word] === false ? 'btn-wrong' : ''
+            }`}
+            disabled={selectedAnswer !== null}
+            onClick={() => onAnswer(opt.word, opt.word === exercise.targetWord)}
+          >
+            <span className="sound-label">{opt.word}</span>
+          </button>
+        ))}
+      </div>
+    </>
+  );
+}
+
+function ExerciseF({
+  exercise,
+  onAnswer,
+  onPlaySound,
+  selectedAnswer,
+  answerCorrectness,
+}: {
+  exercise: TrainingExercise & { type: 'F' };
+  onAnswer: (id: string, correct: boolean) => void;
+  onPlaySound: (id: string) => void;
+  selectedAnswer: string | null;
+  answerCorrectness: Record<string, boolean | null>;
+}) {
+  const [playingIndex, setPlayingIndex] = useState(-1);
+
+  const playBlend = useCallback(() => {
+    // Play each phoneme sound in sequence with gaps
+    exercise.phonemeSounds.forEach((phonemeId, i) => {
+      setTimeout(() => {
+        setPlayingIndex(i);
+        onPlaySound(phonemeId);
+        // Clear highlight after a beat
+        setTimeout(() => setPlayingIndex(-1), 400);
+      }, i * 600);
+    });
+  }, [exercise.phonemeSounds, onPlaySound]);
+
+  // Auto-play on mount
+  useEffect(() => {
+    const timer = setTimeout(playBlend, 500);
+    return () => clearTimeout(timer);
+  }, [playBlend]);
+
+  return (
+    <>
+      <p className="exercise-prompt">{exercise.prompt}</p>
+      <p className="exercise-hint-text">Listen to each sound, then blend them together!</p>
+
+      {/* Phoneme sound bubbles */}
+      <div className="blend-sounds">
+        {exercise.phonemeSounds.map((_, i) => (
+          <div
+            key={i}
+            className={`blend-bubble ${playingIndex === i ? 'blend-active' : ''}`}
+          >
+            <span className="sound-icon">&#x1F50A;</span>
+          </div>
+        ))}
+      </div>
+
+      <button className="btn btn-secondary replay-btn" onClick={playBlend}>
+        <span className="sound-icon">&#x1F50A;</span> Hear sounds again
+      </button>
+
       <div className="exercise-options">
         {exercise.options.map(opt => (
           <button

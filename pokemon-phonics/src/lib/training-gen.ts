@@ -44,7 +44,15 @@ export interface TrainingExE {
   options: { word: string }[];
 }
 
-export type TrainingExercise = TrainingExA | TrainingExB | TrainingExC | TrainingExD | TrainingExE;
+export interface TrainingExF {
+  type: 'F';
+  prompt: 'Blend the sounds!';
+  targetWord: string;
+  phonemeSounds: string[]; // phoneme IDs to play in sequence
+  options: { word: string }[];
+}
+
+export type TrainingExercise = TrainingExA | TrainingExB | TrainingExC | TrainingExD | TrainingExE | TrainingExF;
 
 function shuffleArray<T>(arr: T[]): T[] {
   const copy = [...arr];
@@ -60,19 +68,15 @@ export function generateTrainingExercise(
   stage: 1 | 2 | 3,
   currentSet: number,
 ): TrainingExercise {
-  // All stages get all exercise types — word building (C), reading (D), matching (E)
-  // are introduced from the start alongside letter recognition (A, B).
-  // Stage determines the probability weighting.
-  let types: ('A' | 'B' | 'C' | 'D' | 'E')[];
+  // All stages get all exercise types — word building (C), reading (D), matching (E),
+  // blending (F) are introduced from the start alongside letter recognition (A, B).
+  let types: ('A' | 'B' | 'C' | 'D' | 'E' | 'F')[];
   if (stage === 1) {
-    // Stage 1: heavy on A/B (letter recognition), but include C/D/E for early exposure
-    types = ['A', 'A', 'B', 'B', 'C', 'D', 'E'];
+    types = ['A', 'A', 'B', 'B', 'C', 'D', 'E', 'F'];
   } else if (stage === 2) {
-    // Stage 2: more word-level work
-    types = ['A', 'B', 'C', 'D', 'D', 'E', 'E'];
+    types = ['A', 'B', 'C', 'D', 'D', 'E', 'E', 'F'];
   } else {
-    // Stage 3: maintenance — balanced mix
-    types = ['A', 'B', 'C', 'D', 'D', 'E', 'E'];
+    types = ['A', 'B', 'C', 'D', 'D', 'E', 'E', 'F'];
   }
 
   const type = types[Math.floor(Math.random() * types.length)];
@@ -82,6 +86,7 @@ export function generateTrainingExercise(
     case 'C': return generateExC(phoneme, currentSet);
     case 'D': return generateExD(phoneme, currentSet);
     case 'E': return generateExE(phoneme, currentSet);
+    case 'F': return generateExF(phoneme, currentSet);
   }
 }
 
@@ -221,6 +226,46 @@ function generateExE(phoneme: PhonemeData, currentSet: number): TrainingExE {
   };
 }
 
+function generateExF(phoneme: PhonemeData, currentSet: number): TrainingExF {
+  const masteredSets = Array.from({ length: currentSet }, (_, i) => i + 1);
+  let words = getWordsForPhoneme(phoneme.id, masteredSets);
+
+  if (words.length === 0) {
+    words = getWordsForSets(masteredSets);
+  }
+
+  if (words.length === 0) {
+    // Fallback
+    return {
+      type: 'F',
+      prompt: 'Blend the sounds!',
+      targetWord: phoneme.exampleWords.cvc[0] || 'sat',
+      phonemeSounds: (phoneme.exampleWords.cvc[0] || 'sat').split(''),
+      options: shuffleArray([
+        { word: phoneme.exampleWords.cvc[0] || 'sat' },
+        { word: 'tap' },
+        { word: 'pin' },
+      ]),
+    };
+  }
+
+  const targetWord = words[Math.floor(Math.random() * words.length)];
+  const allWords = getWordsForSets(masteredSets);
+  const otherWords = allWords.filter(w => w.word !== targetWord.word);
+  const distractorWords = shuffleArray(otherWords).slice(0, 2);
+
+  return {
+    type: 'F',
+    prompt: 'Blend the sounds!',
+    targetWord: targetWord.word,
+    phonemeSounds: targetWord.phonemes,
+    options: shuffleArray([
+      { word: targetWord.word },
+      ...distractorWords.map(w => ({ word: w.word })),
+    ]),
+  };
+}
+
 /**
  * Generate a full training session (5-8 exercises) for a phoneme.
  * Ensures type variety and mixes in other phonemes from the region for exposure.
@@ -232,8 +277,8 @@ export function generateTrainingSession(
 ): TrainingExercise[] {
   const exercises: TrainingExercise[] = [];
 
-  // All exercise types available at all stages
-  const availableTypes: ('A' | 'B' | 'C' | 'D' | 'E')[] = ['A', 'B', 'C', 'D', 'E'];
+  // All exercise types available at all stages (including F: blending)
+  const availableTypes: ('A' | 'B' | 'C' | 'D' | 'E' | 'F')[] = ['A', 'B', 'C', 'D', 'E', 'F'];
 
   // First: one of each type (guarantees variety)
   const shuffledTypes = shuffleArray([...availableTypes]);
@@ -244,6 +289,7 @@ export function generateTrainingSession(
       case 'C': exercises.push(generateExC(phoneme, currentSet)); break;
       case 'D': exercises.push(generateExD(phoneme, currentSet)); break;
       case 'E': exercises.push(generateExE(phoneme, currentSet)); break;
+      case 'F': exercises.push(generateExF(phoneme, currentSet)); break;
     }
   }
 

@@ -277,6 +277,34 @@
   100% { transform: scale(1); }
 }
 
+/* === Blending Exercise (F) === */
+.blend-sounds {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 12px 0;
+}
+
+.blend-bubble {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--pokemon-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.blend-bubble.blend-active {
+  background: #E3F2FD;
+  border-color: #1976D2;
+  transform: scale(1.2);
+  box-shadow: 0 0 16px rgba(25, 118, 210, 0.5);
+}
+
 .build-letters {
   display: flex;
   justify-content: center;

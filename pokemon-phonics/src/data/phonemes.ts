@@ -56,17 +56,17 @@ export const PHASE_1_PHONEMES: PhonemeData[] = [
     exampleWords: { cvc: ['pat', 'pin', 'pot', 'pan', 'peg', 'pig', 'pup', 'pen'] },
     mnemonicPhrase: 'P is for Pichu! P-p-p!',
   },
-  // Set 2: i, n, m, d
+  // i and n moved to Set 1 for more Pokemon in Pallet Meadow
   {
     id: 'i', grapheme: 'i', displayGrapheme: 'i', sound: '/ɪ/', description: 'the i sound, like in sit',
-    phase: 1, set: 2,
+    phase: 1, set: 1,
     pokemon: { id: 174, name: 'Igglybuff', evolutionLine: { stage1: { id: 174, name: 'Igglybuff' }, stage2: { id: 39, name: 'Jigglypuff' }, stage3: { id: 40, name: 'Wigglytuff' } } },
     exampleWords: { cvc: ['in', 'it', 'is', 'sit', 'tip', 'pin', 'pit', 'dim'] },
     mnemonicPhrase: 'I is for Igglybuff! Ih-ih-ih!',
   },
   {
     id: 'n', grapheme: 'n', displayGrapheme: 'n', sound: '/n/', description: 'the n sound, like nnn',
-    phase: 1, set: 2,
+    phase: 1, set: 1,
     pokemon: { id: 32, name: 'Nidoran', evolutionLine: { stage1: { id: 32, name: 'Nidoran♂' }, stage2: { id: 33, name: 'Nidorino' }, stage3: { id: 34, name: 'Nidoking' } } },
     exampleWords: { cvc: ['nap', 'net', 'not', 'nip', 'nod', 'nut', 'nag', 'nib'] },
     mnemonicPhrase: 'N is for Nidoran! Nnn!',
@@ -85,17 +85,17 @@ export const PHASE_1_PHONEMES: PhonemeData[] = [
     exampleWords: { cvc: ['dig', 'dog', 'dip', 'dim', 'dam', 'din', 'dot', 'dug'] },
     mnemonicPhrase: 'D is for Deino! D-d-d!',
   },
-  // Set 3: g, o, c, k
+  // g and o moved to Set 2 for more Pokemon in Viridian Woods
   {
     id: 'g', grapheme: 'g', displayGrapheme: 'g', sound: '/ɡ/', description: 'the g sound, like guh',
-    phase: 1, set: 3,
+    phase: 1, set: 2,
     pokemon: { id: 810, name: 'Grookey', evolutionLine: { stage1: { id: 810, name: 'Grookey' }, stage2: { id: 811, name: 'Thwackey' }, stage3: { id: 812, name: 'Rillaboom' } } },
     exampleWords: { cvc: ['got', 'gas', 'gap', 'gum', 'gig', 'gag', 'gob', 'gut'] },
     mnemonicPhrase: 'G is for Grookey! G-g-g!',
   },
   {
     id: 'o', grapheme: 'o', displayGrapheme: 'o', sound: '/ɒ/', description: 'the o sound, like in hot',
-    phase: 1, set: 3,
+    phase: 1, set: 2,
     pokemon: { id: 501, name: 'Oshawott', evolutionLine: { stage1: { id: 501, name: 'Oshawott' }, stage2: { id: 502, name: 'Dewott' }, stage3: { id: 503, name: 'Samurott' } } },
     exampleWords: { cvc: ['on', 'off', 'hot', 'pot', 'cot', 'dog', 'log', 'mop'] },
     mnemonicPhrase: 'O is for Oshawott! Ooo!',
@@ -114,17 +114,17 @@ export const PHASE_1_PHONEMES: PhonemeData[] = [
     exampleWords: { cvc: ['kit', 'kid', 'keg', 'ken', 'kin'] },
     mnemonicPhrase: 'K is for Krabby! K-k-k!',
   },
-  // Set 4: ck, e, u, r
+  // ck and e moved to Set 3
   {
     id: 'ck', grapheme: 'ck', displayGrapheme: 'ck', sound: '/k/', description: 'the ck sound at the end of words',
-    phase: 1, set: 4,
+    phase: 1, set: 3,
     pokemon: { id: 155, name: 'Cyndaquil', evolutionLine: { stage1: { id: 155, name: 'Cyndaquil' }, stage2: { id: 156, name: 'Quilava' }, stage3: { id: 157, name: 'Typhlosion' } } },
     exampleWords: { cvc: ['duck', 'sock', 'neck', 'kick', 'pick', 'tick', 'dock', 'lock'] },
     mnemonicPhrase: 'CK is for Cyndaquil! Quick!',
   },
   {
     id: 'e', grapheme: 'e', displayGrapheme: 'e', sound: '/ɛ/', description: 'the e sound, like in pet',
-    phase: 1, set: 4,
+    phase: 1, set: 3,
     pokemon: { id: 133, name: 'Eevee', evolutionLine: { stage1: { id: 133, name: 'Eevee' }, stage2: { id: 136, name: 'Flareon' }, stage3: { id: 134, name: 'Vaporeon' } } },
     exampleWords: { cvc: ['egg', 'end', 'red', 'pet', 'bed', 'ten', 'pen', 'hen'] },
     mnemonicPhrase: 'E is for Eevee! Eh-eh-eh!',
@@ -143,17 +143,17 @@ export const PHASE_1_PHONEMES: PhonemeData[] = [
     exampleWords: { cvc: ['run', 'red', 'rat', 'rip', 'rug', 'rim', 'rot', 'ram'] },
     mnemonicPhrase: 'R is for Rowlet! Rrr!',
   },
-  // Set 5: h, b, f, ff, l, ll, ss
+  // h and b moved to Set 4
   {
     id: 'h', grapheme: 'h', displayGrapheme: 'h', sound: '/h/', description: 'the h sound, like a breath',
-    phase: 1, set: 5,
+    phase: 1, set: 4,
     pokemon: { id: 187, name: 'Hoppip', evolutionLine: { stage1: { id: 187, name: 'Hoppip' }, stage2: { id: 188, name: 'Skiploom' }, stage3: { id: 189, name: 'Jumpluff' } } },
     exampleWords: { cvc: ['hat', 'hot', 'hit', 'hug', 'hen', 'him', 'hop', 'hum'] },
     mnemonicPhrase: 'H is for Hoppip! Hhh!',
   },
   {
     id: 'b', grapheme: 'b', displayGrapheme: 'b', sound: '/b/', description: 'the b sound, a little burst',
-    phase: 1, set: 5,
+    phase: 1, set: 4,
     pokemon: { id: 1, name: 'Bulbasaur', evolutionLine: { stage1: { id: 1, name: 'Bulbasaur' }, stage2: { id: 2, name: 'Ivysaur' }, stage3: { id: 3, name: 'Venusaur' } } },
     exampleWords: { cvc: ['bat', 'bed', 'big', 'bus', 'but', 'beg', 'bit', 'bun'] },
     mnemonicPhrase: 'B is for Bulbasaur! B-b-b!',
