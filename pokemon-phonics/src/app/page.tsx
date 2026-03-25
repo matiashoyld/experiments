@@ -1,35 +1,35 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { useGameState } from '@/hooks/useGameState';
 import { useAudio } from '@/hooks/useAudio';
 import { useMusic } from '@/hooks/useMusic';
-import PokemonSprite from '@/components/PokemonSprite';
 import DailyTeaser from '@/components/DailyTeaser';
-import { ALL_PHONEMES } from '@/data/phonemes';
+import Image from 'next/image';
+
+const PLAYER_NAME = 'Iñaki';
 
 export default function TitleScreen() {
   const router = useRouter();
   const { state, loaded, setPlayerName, startSession } = useGameState();
-  const { speak, narrate } = useAudio();
+  const { narrate } = useAudio();
   useMusic('title', loaded && state?.settings?.soundEnabled !== false);
   const [showTeaser, setShowTeaser] = useState(false);
-  const [nameInput, setNameInput] = useState('');
-  const [showNameEntry, setShowNameEntry] = useState(false);
   const [audioInit, setAudioInit] = useState(false);
+  const nameSet = useRef(false);
 
+  // Auto-set player name on first load
   useEffect(() => {
-    if (loaded && state && !state.playerName) {
-      setShowNameEntry(true);
+    if (loaded && state && !state.playerName && !nameSet.current) {
+      nameSet.current = true;
+      setPlayerName(PLAYER_NAME);
     }
-  }, [loaded, state]);
+  }, [loaded, state, setPlayerName]);
 
   const handleStart = async () => {
-    // Initialize audio context on first tap (iOS requirement)
     if (!audioInit) {
       setAudioInit(true);
-      // Create and resume an AudioContext to unblock audio on iOS
       try {
         const ctx = new AudioContext();
         await ctx.resume();
@@ -37,40 +37,28 @@ export default function TitleScreen() {
       } catch {}
     }
 
-    if (showNameEntry && nameInput.trim()) {
-      setPlayerName(nameInput.trim());
-      setShowNameEntry(false);
-      startSession();
-      await narrate.ui.welcomeFirst();
-      router.push('/map');
-    } else if (state?.playerName) {
-      // Check if this is a new day for the daily teaser
+    // Ensure name is set
+    if (state && !state.playerName) {
+      setPlayerName(PLAYER_NAME);
+    }
+
+    if (state) {
       const today = new Date().toISOString().slice(0, 10);
       const isNewDay = state.session.lastSessionDate !== today;
       if (isNewDay && state.stats.totalCatches > 0) {
         startSession();
         setShowTeaser(true);
-        return; // Show teaser before navigating
+        return;
       }
       startSession();
-      await narrate.ui.welcome();
+      if (state.stats.totalCatches > 0) {
+        await narrate.ui.welcome();
+      } else {
+        await narrate.ui.welcomeFirst();
+      }
       router.push('/map');
     }
   };
-
-  // Get top 3 caught Pokemon for display
-  const caughtPokemon = loaded && state
-    ? ALL_PHONEMES.filter(p => state.pokemon[p.id]?.caught).slice(0, 3)
-    : [];
-
-  // Starter Pokemon to show if none caught
-  const starterPokemon = [
-    ALL_PHONEMES.find(p => p.id === 'p')!, // Pikachu
-    ALL_PHONEMES.find(p => p.id === 's')!, // Squirtle
-    ALL_PHONEMES.find(p => p.id === 'b')!, // Bulbasaur
-  ].filter(Boolean);
-
-  const displayPokemon = caughtPokemon.length > 0 ? caughtPokemon : starterPokemon;
 
   if (!loaded) {
     return (
@@ -82,7 +70,6 @@ export default function TitleScreen() {
 
   return (
     <div className="screen title-screen">
-      {/* Daily teaser modal */}
       {showTeaser && state && (
         <DailyTeaser
           gameState={state}
@@ -93,157 +80,106 @@ export default function TitleScreen() {
         />
       )}
 
-      {/* Background decoration */}
-      <div className="title-pokeball-bg" />
-
-      {/* Pokemon sprites orbiting */}
-      <div className="title-pokemon-row">
-        {displayPokemon.map((p, i) => (
-          <div key={p.id} className="title-pokemon-float" style={{ animationDelay: `${i * 0.5}s` }}>
-            <PokemonSprite
-              pokedexId={p.pokemon.id}
-              name={p.pokemon.name}
-              size={120}
-              silhouette={!caughtPokemon.find(c => c.id === p.id)}
-            />
-          </div>
-        ))}
+      {/* Hero cover image */}
+      <div className="title-hero">
+        <Image
+          src="/inaki-cover.png"
+          alt="Iñaki with Pokemon"
+          width={320}
+          height={320}
+          priority
+          className="title-hero-img"
+        />
       </div>
 
       {/* Title */}
       <h1 className="title-text">
-        <span className="title-pokemon">Pokemon</span>
+        <span className="title-player-name">{PLAYER_NAME}&apos;s</span>
         <br />
-        <span className="title-phonics">Phonics Adventure</span>
+        <span className="title-pokemon">Pokemon</span>
+        {' '}
+        <span className="title-phonics">Phonics</span>
       </h1>
 
-      {/* Name entry or welcome back */}
-      {showNameEntry ? (
-        <div className="title-name-entry slide-up">
-          <p className="title-prompt">What&apos;s your name, trainer?</p>
-          <input
-            type="text"
-            value={nameInput}
-            onChange={(e) => setNameInput(e.target.value.slice(0, 12))}
-            placeholder="Your name"
-            className="title-name-input"
-            autoFocus
-            maxLength={12}
-            onKeyDown={(e) => e.key === 'Enter' && handleStart()}
-          />
-          <button
-            className="btn btn-primary btn-pulse"
-            onClick={handleStart}
-            disabled={!nameInput.trim()}
-          >
-            Start Adventure!
-          </button>
-        </div>
-      ) : (
-        <div className="title-welcome slide-up">
-          {state?.playerName && (
-            <p className="title-trainer-name">Trainer {state.playerName}</p>
-          )}
-          <button className="btn btn-primary btn-pulse" onClick={handleStart}>
-            Tap to Start!
-          </button>
-          {state && state.stats.totalCatches > 0 && (
-            <p className="title-stats">
-              {state.stats.totalCatches} Pokemon caught
-              {state.session.streak >= 3 && (
-                <span className="title-streak"> 🔥 {state.session.streak}-day streak</span>
-              )}
-            </p>
-          )}
-        </div>
-      )}
+      {/* Start button area */}
+      <div className="title-welcome slide-up">
+        <button className="btn btn-primary btn-pulse title-start-btn" onClick={handleStart}>
+          Tap to Start!
+        </button>
+        {state && state.stats.totalCatches > 0 && (
+          <p className="title-stats">
+            {state.stats.totalCatches} Pokemon caught
+            {state.session.streak >= 3 && (
+              <span className="title-streak"> 🔥 {state.session.streak}-day streak</span>
+            )}
+          </p>
+        )}
+      </div>
 
       <style jsx>{`
         .title-screen {
-          background: linear-gradient(180deg, #87CEEB 0%, #B3E5FC 30%, #98E4A6 70%, #78C850 100%);
-          gap: 24px;
+          background: linear-gradient(180deg, #1a1a2e 0%, #16213e 40%, #0f3460 70%, #533483 100%);
+          gap: 16px;
           text-align: center;
+          justify-content: center;
+          padding: 24px 16px;
+          overflow: hidden;
+          position: relative;
         }
 
-        .title-pokeball-bg {
+        .title-screen::before {
+          content: '';
           position: absolute;
-          width: 400px;
-          height: 400px;
-          border-radius: 50%;
-          background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          top: -50%;
+          left: -50%;
+          width: 200%;
+          height: 200%;
+          background: radial-gradient(circle at 30% 20%, rgba(255,215,0,0.08) 0%, transparent 50%),
+                      radial-gradient(circle at 70% 80%, rgba(83,52,131,0.15) 0%, transparent 50%);
           pointer-events: none;
         }
 
-        .title-pokemon-row {
-          display: flex;
-          gap: 16px;
-          justify-content: center;
+        .title-hero {
           z-index: 1;
+          display: flex;
+          justify-content: center;
+          animation: heroFloat 4s ease-in-out infinite;
+          filter: drop-shadow(0 8px 32px rgba(255,215,0,0.3));
         }
 
-        .title-pokemon-float {
-          animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
+        @keyframes heroFloat {
           0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-15px); }
+          50% { transform: translateY(-10px); }
         }
 
         .title-text {
           z-index: 1;
-          text-shadow: 3px 3px 0 rgba(0,0,0,0.1);
-          line-height: 1.1;
+          line-height: 1.2;
+          margin: 0;
+        }
+
+        .title-player-name {
+          color: white;
+          font-size: 1.6rem;
+          font-weight: 700;
+          text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+          letter-spacing: 0.5px;
         }
 
         .title-pokemon {
           color: var(--pokemon-yellow);
-          font-size: 3rem;
+          font-size: 2.4rem;
           -webkit-text-stroke: 2px var(--pokemon-blue);
           paint-order: stroke fill;
+          text-shadow: 0 3px 12px rgba(255,215,0,0.4);
         }
 
         .title-phonics {
-          color: white;
-          font-size: 2rem;
-          -webkit-text-stroke: 1px var(--pokemon-blue);
+          color: #7dd3fc;
+          font-size: 2.4rem;
+          -webkit-text-stroke: 1px rgba(125,211,252,0.3);
           paint-order: stroke fill;
-        }
-
-        .title-name-entry {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 16px;
-          z-index: 1;
-        }
-
-        .title-prompt {
-          font-size: 1.3rem;
-          font-weight: 600;
-          color: white;
-          text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
-        }
-
-        .title-name-input {
-          padding: 16px 24px;
-          font-size: 1.5rem;
-          font-family: inherit;
-          font-weight: 600;
-          border: 4px solid var(--pokemon-blue);
-          border-radius: var(--radius);
-          text-align: center;
-          width: 250px;
-          outline: none;
-          background: white;
-        }
-
-        .title-name-input:focus {
-          border-color: var(--pokemon-yellow);
-          box-shadow: 0 0 0 4px rgba(255,215,0,0.3);
+          text-shadow: 0 2px 8px rgba(125,211,252,0.3);
         }
 
         .title-welcome {
@@ -252,18 +188,12 @@ export default function TitleScreen() {
           align-items: center;
           gap: 12px;
           z-index: 1;
-        }
-
-        .title-trainer-name {
-          font-size: 1.4rem;
-          font-weight: 600;
-          color: white;
-          text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+          margin-top: 8px;
         }
 
         .title-stats {
-          font-size: 1rem;
-          color: rgba(255,255,255,0.9);
+          font-size: 0.95rem;
+          color: rgba(255,255,255,0.75);
           font-weight: 500;
         }
       `}</style>
