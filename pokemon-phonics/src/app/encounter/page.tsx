@@ -648,7 +648,6 @@ function ChallengeD({
             }}
           >
             <span className="sound-icon">&#x1F50A;</span>
-            <span className="sound-label">{opt.word}</span>
             {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}

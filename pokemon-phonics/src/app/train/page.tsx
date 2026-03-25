@@ -774,6 +774,8 @@ function ExerciseD({
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
+  const [previewWord, setPreviewWord] = useState<string | null>(null);
+
   return (
     <>
       <p className="exercise-prompt">{exercise.prompt}</p>
@@ -793,19 +795,25 @@ function ExerciseD({
           <button
             key={opt.word}
             className={`btn btn-sound-option ${
+              previewWord === opt.word ? 'btn-previewing' : ''
+            } ${
               answerCorrectness[opt.word] === true ? 'btn-correct' :
               answerCorrectness[opt.word] === false ? 'btn-wrong' : ''
             }`}
             disabled={selectedAnswer !== null}
             onClick={() => {
-              onPlayWord(opt.word);
-              setTimeout(() => {
+              if (previewWord === opt.word) {
+                // Second tap — confirm answer
                 onAnswer(opt.word, opt.word === exercise.correctWord);
-              }, 800);
+              } else {
+                // First tap — preview sound
+                setPreviewWord(opt.word);
+                onPlayWord(opt.word);
+              }
             }}
           >
             <span className="sound-icon">&#x1F50A;</span>
-            <span className="sound-label">{opt.word}</span>
+            {previewWord === opt.word && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
       </div>
