@@ -247,7 +247,6 @@
   color: var(--text-dark);
   border-radius: var(--radius-sm);
   transition: all 0.2s;
-  text-transform: lowercase;
 }
 
 .build-slot.empty {

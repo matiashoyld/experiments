@@ -2,12 +2,14 @@
 
 import { useRouter } from 'next/navigation';
 import { useGameState } from '@/hooks/useGameState';
+import { useLetterCase } from '@/hooks/useLetterCase';
 import { ALL_PHONEMES } from '@/data/phonemes';
 import PokemonSprite from '@/components/PokemonSprite';
 
 export default function Pokedex() {
   const router = useRouter();
   const { state, loaded } = useGameState();
+  const letterCase = useLetterCase();
 
   if (!loaded || !state) {
     return <div className="screen"><p>Loading...</p></div>;
@@ -51,7 +53,7 @@ export default function Pokedex() {
                 {caught ? displayPokemon.name : '???'}
               </span>
               {caught && (
-                <span className="pokedex-entry-sound">{phoneme.grapheme}</span>
+                <span className="pokedex-entry-sound">{letterCase === 'upper' ? phoneme.grapheme.toUpperCase() : phoneme.grapheme}</span>
               )}
             </div>
           );

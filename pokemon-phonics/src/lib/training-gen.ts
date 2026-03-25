@@ -60,32 +60,26 @@ export function generateTrainingExercise(
   stage: 1 | 2 | 3,
   currentSet: number,
 ): TrainingExercise {
+  // All stages get all exercise types — word building (C), reading (D), matching (E)
+  // are introduced from the start alongside letter recognition (A, B).
+  // Stage determines the probability weighting.
+  let types: ('A' | 'B' | 'C' | 'D' | 'E')[];
   if (stage === 1) {
-    // Stage 1: exercises A, B, C
-    const types: ('A' | 'B' | 'C')[] = ['A', 'B', 'C'];
-    const type = types[Math.floor(Math.random() * types.length)];
-    switch (type) {
-      case 'A': return generateExA(phoneme, currentSet);
-      case 'B': return generateExB(phoneme, currentSet);
-      case 'C': return generateExC(phoneme, currentSet);
-    }
+    // Stage 1: heavy on A/B (letter recognition), but include C/D/E for early exposure
+    types = ['A', 'A', 'B', 'B', 'C', 'D', 'E'];
   } else if (stage === 2) {
-    // Stage 2: exercises D, E (plus some A/B for review)
-    const types: ('A' | 'B' | 'D' | 'E')[] = ['D', 'D', 'E', 'A', 'B'];
-    const type = types[Math.floor(Math.random() * types.length)];
-    switch (type) {
-      case 'A': return generateExA(phoneme, currentSet);
-      case 'B': return generateExB(phoneme, currentSet);
-      case 'D': return generateExD(phoneme, currentSet);
-      case 'E': return generateExE(phoneme, currentSet);
-    }
+    // Stage 2: more word-level work
+    types = ['A', 'B', 'C', 'D', 'D', 'E', 'E'];
+  } else {
+    // Stage 3: maintenance — balanced mix
+    types = ['A', 'B', 'C', 'D', 'D', 'E', 'E'];
   }
-  // Stage 3: maintenance — mix of all
-  const types: ('A' | 'B' | 'D' | 'E')[] = ['D', 'E', 'A', 'B'];
+
   const type = types[Math.floor(Math.random() * types.length)];
   switch (type) {
     case 'A': return generateExA(phoneme, currentSet);
     case 'B': return generateExB(phoneme, currentSet);
+    case 'C': return generateExC(phoneme, currentSet);
     case 'D': return generateExD(phoneme, currentSet);
     case 'E': return generateExE(phoneme, currentSet);
   }
@@ -229,16 +223,47 @@ function generateExE(phoneme: PhonemeData, currentSet: number): TrainingExE {
 
 /**
  * Generate a full training session (5-8 exercises) for a phoneme.
+ * Ensures type variety and mixes in other phonemes from the region for exposure.
  */
 export function generateTrainingSession(
   phoneme: PhonemeData,
   stage: 1 | 2 | 3,
   currentSet: number,
 ): TrainingExercise[] {
-  const count = 5 + Math.floor(Math.random() * 4); // 5-8
   const exercises: TrainingExercise[] = [];
-  for (let i = 0; i < count; i++) {
-    exercises.push(generateTrainingExercise(phoneme, stage, currentSet));
+
+  // All exercise types available at all stages
+  const availableTypes: ('A' | 'B' | 'C' | 'D' | 'E')[] = ['A', 'B', 'C', 'D', 'E'];
+
+  // First: one of each type (guarantees variety)
+  const shuffledTypes = shuffleArray([...availableTypes]);
+  for (const type of shuffledTypes) {
+    switch (type) {
+      case 'A': exercises.push(generateExA(phoneme, currentSet)); break;
+      case 'B': exercises.push(generateExB(phoneme, currentSet)); break;
+      case 'C': exercises.push(generateExC(phoneme, currentSet)); break;
+      case 'D': exercises.push(generateExD(phoneme, currentSet)); break;
+      case 'E': exercises.push(generateExE(phoneme, currentSet)); break;
+    }
   }
-  return exercises;
+
+  // Then: mix in 1-2 "bonus" exercises using other phonemes from the same region
+  // This gives exposure to letters the child hasn't caught yet
+  const regionPhonemes = getPhonemesBySet(phoneme.set).filter(p => p.id !== phoneme.id);
+  if (regionPhonemes.length > 0) {
+    const bonusCount = Math.min(2, regionPhonemes.length);
+    const bonusPhonemes = shuffleArray(regionPhonemes).slice(0, bonusCount);
+    for (const bonus of bonusPhonemes) {
+      // Only simple exercises (A or B) for non-primary phonemes
+      const bonusType = Math.random() < 0.5 ? 'A' : 'B';
+      if (bonusType === 'A') {
+        exercises.push(generateExA(bonus, currentSet));
+      } else {
+        exercises.push(generateExB(bonus, currentSet));
+      }
+    }
+  }
+
+  // Shuffle the full session so bonus exercises aren't always at the end
+  return shuffleArray(exercises);
 }

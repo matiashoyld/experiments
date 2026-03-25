@@ -12,7 +12,7 @@ const PLAYER_NAME = 'Iñaki';
 
 export default function TitleScreen() {
   const router = useRouter();
-  const { state, loaded, setPlayerName, startSession } = useGameState();
+  const { state, loaded, setPlayerName, startSession, updateState } = useGameState();
   const { narrate } = useAudio();
   useMusic('title', loaded && state?.settings?.soundEnabled !== false);
   const [showTeaser, setShowTeaser] = useState(false);
@@ -114,6 +114,24 @@ export default function TitleScreen() {
             )}
           </p>
         )}
+
+        {/* Letter case toggle */}
+        {state && (
+          <button
+            className="letter-case-toggle"
+            onClick={() => {
+              const current = state.settings?.letterCase || 'upper';
+              updateState(prev => ({
+                ...prev,
+                settings: { ...prev.settings, letterCase: current === 'upper' ? 'lower' : 'upper' },
+              }));
+            }}
+          >
+            <span className={`case-option ${(state.settings?.letterCase || 'upper') === 'upper' ? 'case-active' : ''}`}>ABC</span>
+            <span className="case-divider">/</span>
+            <span className={`case-option ${(state.settings?.letterCase || 'upper') === 'lower' ? 'case-active' : ''}`}>abc</span>
+          </button>
+        )}
       </div>
 
       <style jsx>{`
@@ -195,6 +213,39 @@ export default function TitleScreen() {
           font-size: 0.95rem;
           color: rgba(255,255,255,0.75);
           font-weight: 500;
+        }
+
+        .letter-case-toggle {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          background: rgba(255,255,255,0.1);
+          border: 2px solid rgba(255,255,255,0.2);
+          border-radius: 24px;
+          padding: 8px 20px;
+          cursor: pointer;
+          font-family: inherit;
+          font-size: 1.1rem;
+          font-weight: 700;
+          transition: background 0.2s;
+        }
+
+        .letter-case-toggle:active {
+          background: rgba(255,255,255,0.2);
+        }
+
+        .case-option {
+          color: rgba(255,255,255,0.4);
+          transition: color 0.2s;
+        }
+
+        .case-option.case-active {
+          color: var(--pokemon-yellow);
+          text-shadow: 0 0 8px rgba(255,215,0,0.5);
+        }
+
+        .case-divider {
+          color: rgba(255,255,255,0.3);
         }
       `}</style>
     </div>

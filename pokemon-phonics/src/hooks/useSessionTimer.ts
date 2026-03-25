@@ -41,6 +41,11 @@ export function useSessionTimer({
   const [isLocked, setIsLocked] = useState(false);
   const warningFiredRef = useRef(false);
   const lockFiredRef = useRef(false);
+  // Use refs for callbacks to avoid re-triggering the interval effect
+  const onWarningRef = useRef(onWarning);
+  const onLockRef = useRef(onLock);
+  onWarningRef.current = onWarning;
+  onLockRef.current = onLock;
 
   // Update elapsed time every 15 seconds
   useEffect(() => {
@@ -53,20 +58,20 @@ export function useSessionTimer({
       if (elapsed >= warningMinutes && !warningFiredRef.current) {
         warningFiredRef.current = true;
         setWarningShown(true);
-        onWarning?.();
+        onWarningRef.current?.();
       }
 
       if (elapsed >= lockMinutes && !lockFiredRef.current) {
         lockFiredRef.current = true;
         setIsLocked(true);
-        onLock?.();
+        onLockRef.current?.();
       }
     };
 
     update();
     const interval = setInterval(update, 15000);
     return () => clearInterval(interval);
-  }, [startTime, warningMinutes, lockMinutes, onWarning, onLock]);
+  }, [startTime, warningMinutes, lockMinutes]);
 
   const startSession = useCallback(() => {
     const now = Date.now();

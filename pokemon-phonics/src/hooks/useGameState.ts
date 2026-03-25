@@ -40,6 +40,7 @@ export interface GameState {
     voiceName: string;
     sessionLengthMinutes: number;
     soundEnabled: boolean;
+    letterCase: 'lower' | 'upper';
   };
   createdAt: string;
   updatedAt: string;
@@ -73,6 +74,7 @@ function createDefaultState(): GameState {
       voiceName: 'Puck',
       sessionLengthMinutes: 8,
       soundEnabled: true,
+      letterCase: 'upper',
     },
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),

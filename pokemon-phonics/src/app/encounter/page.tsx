@@ -13,11 +13,12 @@ import PokemonSprite from '@/components/PokemonSprite';
 import LetterCard from '@/components/LetterCard';
 import Confetti from '@/components/Confetti';
 import { useHaptics } from '@/hooks/useHaptics';
+import { sfxCorrect, sfxWrong, sfxThrow, sfxShake, sfxCatch, sfxFled, sfxEncounter } from '@/lib/sfx';
 import './encounter.css';
 
 type EncounterPhase =
   | 'walking'
-  | 'flash'
+  | 'transition'
   | 'appeared'
   | 'challenge'
   | 'success'
@@ -38,13 +39,14 @@ function EncounterContent() {
   useMusic('encounter');
   const haptics = useHaptics();
 
-  const [phase, setPhase] = useState<EncounterPhase>('walking');
+  const [phase, setPhase] = useState<EncounterPhase>('transition');
   const [targetPhoneme, setTargetPhoneme] = useState<PhonemeData | null>(null);
   const [challenge, setChallenge] = useState<Challenge | null>(null);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [answerCorrectness, setAnswerCorrectness] = useState<Record<string, boolean | null>>({});
   const [showStars, setShowStars] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
+  const [showCorrectFlash, setShowCorrectFlash] = useState(false);
   const [pokeballShakes, setPokeballShakes] = useState(0);
   const challengeStartTime = useRef<number>(0);
 
@@ -75,30 +77,33 @@ function EncounterContent() {
     );
     setChallenge(generateChallenge(challengeType, phoneme, state.currentSet));
 
-    // Walking phase auto-advance
-    const walkTimer = setTimeout(() => setPhase('flash'), 2500);
-    return () => clearTimeout(walkTimer);
+    // Start transition immediately (no walking phase)
+    setPhase('transition');
   }, [loaded, state?.currentSet]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Flash → appeared transition
+  // Classic Pokemon transition → appeared
   useEffect(() => {
-    if (phase === 'flash') {
-      const timer = setTimeout(() => setPhase('appeared'), 500);
+    if (phase === 'transition') {
+      sfxEncounter();
+      const timer = setTimeout(() => setPhase('appeared'), 1800);
       return () => clearTimeout(timer);
     }
   }, [phase]);
 
   // Appeared narration → challenge
+  const narrateRef = useRef(narrate);
+  narrateRef.current = narrate;
+
   useEffect(() => {
     if (phase === 'appeared' && targetPhoneme) {
-      narrate.encounter.appeared(targetPhoneme.id, targetPhoneme.pokemon.name).then(() => {
+      narrateRef.current.encounter.appeared(targetPhoneme.id, targetPhoneme.pokemon.name).then(() => {
         setTimeout(() => {
           setPhase('challenge');
           challengeStartTime.current = Date.now();
         }, 800);
       });
     }
-  }, [phase, targetPhoneme, narrate]);
+  }, [phase, targetPhoneme]);
 
   // Narrate challenge instruction and auto-play sounds
   useEffect(() => {
@@ -129,14 +134,17 @@ function EncounterContent() {
   // Pokeball animation sequence
   useEffect(() => {
     if (phase === 'pokeball') {
+      sfxThrow();
       let shakeCount = 0;
       const interval = setInterval(() => {
         shakeCount++;
         setPokeballShakes(shakeCount);
         haptics.pokeballShake();
+        sfxShake();
         if (shakeCount >= 3) {
           clearInterval(interval);
           haptics.pokeballCatch();
+          sfxCatch();
           setTimeout(() => setPhase('caught'), 500);
         }
       }, 600);
@@ -196,15 +204,20 @@ function EncounterContent() {
 
     if (isCorrect) {
       haptics.correctAnswer();
+      sfxCorrect();
+      setShowCorrectFlash(true);
+      setTimeout(() => setShowCorrectFlash(false), 600);
       narrate.challenge.success().then(() => {
         setTimeout(() => setPhase('pokeball'), 300);
       });
     } else {
       haptics.wrongAnswer();
+      sfxWrong();
       narrate.encounter.fled(targetPhoneme.id, targetPhoneme.pokemon.name).then(() => {
         setTimeout(() => {
           setPhase('failure');
           haptics.pokemonFled();
+          sfxFled();
           setTimeout(() => {
             setPhase('scaffold');
           }, 1500);
@@ -257,9 +270,17 @@ function EncounterContent() {
         </div>
       )}
 
-      {/* Flash Transition */}
-      {phase === 'flash' && (
-        <div className="encounter-flash" />
+      {/* Classic Pokemon Battle Transition */}
+      {phase === 'transition' && (
+        <div className="encounter-transition">
+          <div className="transition-flash" />
+          <div className="transition-stripes">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div key={i} className="transition-stripe" style={{ animationDelay: `${0.4 + i * 0.06}s` }} />
+            ))}
+          </div>
+          <div className="transition-fade-to-black" />
+        </div>
       )}
 
       {/* Pokemon Appeared */}
@@ -419,6 +440,14 @@ function EncounterContent() {
           <p className="scaffold-hint">{targetPhoneme.mnemonicPhrase}</p>
           <p className="scaffold-back">You&apos;ll find {pokemonName} again soon!</p>
         </div>
+      )}
+
+      {/* Correct answer flash */}
+      {showCorrectFlash && (
+        <>
+          <div className="correct-flash" />
+          <div className="floating-xp">+1 XP</div>
+        </>
       )}
 
       {/* Star confetti */}

@@ -1,5 +1,7 @@
 'use client';
 
+import { useLetterCase } from '@/hooks/useLetterCase';
+
 interface LetterCardProps {
   grapheme: string;
   onClick?: () => void;
@@ -17,6 +19,8 @@ export default function LetterCard({
   size = 'medium',
   disabled = false,
 }: LetterCardProps) {
+  const letterCase = useLetterCase();
+
   const sizeClass = {
     small: 'letter-card-small',
     medium: 'letter-card-medium',
@@ -31,6 +35,8 @@ export default function LetterCard({
     ? 'letter-card-selected'
     : '';
 
+  const displayGrapheme = letterCase === 'upper' ? grapheme.toUpperCase() : grapheme.toLowerCase();
+
   return (
     <button
       className={`letter-card ${sizeClass} ${stateClass}`}
@@ -38,7 +44,7 @@ export default function LetterCard({
       disabled={disabled}
       aria-label={`Letter ${grapheme}`}
     >
-      {grapheme}
+      {displayGrapheme}
     </button>
   );
 }

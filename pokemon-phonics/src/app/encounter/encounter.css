@@ -126,18 +126,80 @@
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-/* === Flash Transition === */
-.encounter-flash {
+/* === Classic Pokemon Battle Transition === */
+.encounter-transition {
   position: fixed;
   inset: 0;
-  background: white;
   z-index: 50;
-  animation: flashAnim 0.5s ease-out forwards;
+  overflow: hidden;
 }
 
-@keyframes flashAnim {
-  0% { opacity: 0; }
-  30% { opacity: 1; }
+/* Rapid black/white flashes — like the GBA games */
+.transition-flash {
+  position: absolute;
+  inset: 0;
+  background: black;
+  animation: battleFlash 0.5s steps(1) forwards;
+  z-index: 1;
+}
+
+@keyframes battleFlash {
+  0%   { opacity: 0; }
+  8%   { opacity: 1; }
+  16%  { opacity: 0; }
+  24%  { opacity: 1; }
+  32%  { opacity: 0; }
+  40%  { opacity: 1; }
+  50%  { opacity: 0; }
+  60%  { opacity: 1; }
+  70%  { opacity: 0; }
+  80%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+/* Diagonal stripes that slide across */
+.transition-stripes {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.transition-stripe {
+  position: absolute;
+  width: 200%;
+  height: 14vh;
+  background: black;
+  transform: translateX(-100%) skewX(-20deg);
+  animation: stripeSlideIn 0.3s ease-out forwards;
+}
+
+.transition-stripe:nth-child(1) { top: 0; }
+.transition-stripe:nth-child(2) { top: 12.5%; }
+.transition-stripe:nth-child(3) { top: 25%; }
+.transition-stripe:nth-child(4) { top: 37.5%; }
+.transition-stripe:nth-child(5) { top: 50%; }
+.transition-stripe:nth-child(6) { top: 62.5%; }
+.transition-stripe:nth-child(7) { top: 75%; }
+.transition-stripe:nth-child(8) { top: 87.5%; }
+
+@keyframes stripeSlideIn {
+  0%   { transform: translateX(-100%) skewX(-20deg); }
+  100% { transform: translateX(0%) skewX(-20deg); }
+}
+
+/* Final fade — stripes cover screen, then fade out to reveal battle scene */
+.transition-fade-to-black {
+  position: absolute;
+  inset: 0;
+  background: black;
+  z-index: 3;
+  opacity: 0;
+  animation: fadeToReveal 0.6s ease-in-out 1.2s forwards;
+}
+
+@keyframes fadeToReveal {
+  0%   { opacity: 0; }
+  40%  { opacity: 1; }
   100% { opacity: 0; }
 }
 
@@ -304,7 +366,6 @@
 }
 
 .sound-label {
-  text-transform: lowercase;
 }
 
 .replay-btn {

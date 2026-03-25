@@ -6,11 +6,13 @@ import { useGameState, PokemonState } from '@/hooks/useGameState';
 import { useAudio } from '@/hooks/useAudio';
 import { useMusic } from '@/hooks/useMusic';
 import { PhonemeData, ALL_PHONEMES, getPhonemeById } from '@/data/phonemes';
+import { useLetterCase } from '@/hooks/useLetterCase';
 import PokemonSprite from '@/components/PokemonSprite';
 import LetterCard from '@/components/LetterCard';
 import ProgressBar from '@/components/ProgressBar';
 import { EVOLUTION_XP, getEvolutionStage, isShinyEligible } from '@/lib/mastery';
 import { generateTrainingSession, TrainingExercise } from '@/lib/training-gen';
+import { sfxCorrect, sfxWrong, sfxXP } from '@/lib/sfx';
 import './train.css';
 
 type TrainPhase = 'select' | 'intro' | 'exercise' | 'result' | 'evolving' | 'shiny' | 'summary';
@@ -22,6 +24,7 @@ function TrainContent() {
   const { state, loaded, addAttempt, evolvePokemon, updateState } = useGameState();
   const { speak, playPhoneme, playWord, stop, narrate } = useAudio();
   useMusic('training');
+  const letterCase = useLetterCase();
 
   const [phase, setPhase] = useState<TrainPhase>(pokemonParam ? 'intro' : 'select');
   const [selectedPhoneme, setSelectedPhoneme] = useState<PhonemeData | null>(null);
@@ -187,6 +190,7 @@ function TrainContent() {
     });
 
     if (isCorrect) {
+      sfxCorrect();
       setXpGained(prev => prev + 1);
       setCorrectCount(prev => prev + 1);
 
@@ -218,6 +222,7 @@ function TrainContent() {
         }, 500);
       });
     } else {
+      sfxWrong();
       narrate.training.almost().then(() => {
         setTimeout(() => advanceOrEnd(), 800);
       });
@@ -356,7 +361,7 @@ function TrainContent() {
                       variant={pState?.isShiny ? 'shiny' : 'animated'}
                     />
                     <span className="train-pokemon-name">{pDisplay.name}</span>
-                    <span className="train-pokemon-sound">{phoneme.displayGrapheme}</span>
+                    <span className="train-pokemon-sound">{letterCase === 'upper' ? phoneme.displayGrapheme.toUpperCase() : phoneme.displayGrapheme}</span>
                     <div className="train-pokemon-xp">
                       <ProgressBar
                         value={pProgress}
@@ -646,6 +651,8 @@ function ExerciseB({
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
+  const [previewId, setPreviewId] = useState<string | null>(null);
+
   return (
     <>
       <p className="exercise-prompt">{exercise.prompt}</p>
@@ -657,19 +664,25 @@ function ExerciseB({
           <button
             key={opt.phonemeId}
             className={`btn btn-sound-option ${
+              previewId === opt.phonemeId ? 'btn-previewing' : ''
+            } ${
               answerCorrectness[opt.phonemeId] === true ? 'btn-correct' :
               answerCorrectness[opt.phonemeId] === false ? 'btn-wrong' : ''
             }`}
             disabled={selectedAnswer !== null}
             onClick={() => {
-              onPlaySound(opt.phonemeId);
-              setTimeout(() => {
+              if (previewId === opt.phonemeId) {
+                // Second tap — confirm answer
                 onAnswer(opt.phonemeId, opt.phonemeId === exercise.correctPhonemeId);
-              }, 600);
+              } else {
+                // First tap — play sound and preview
+                setPreviewId(opt.phonemeId);
+                onPlaySound(opt.phonemeId);
+              }
             }}
           >
             <span className="sound-icon">&#x1F50A;</span>
-            <span className="sound-label">{opt.grapheme}</span>
+            {previewId === opt.phonemeId && <span className="confirm-label">Tap to choose</span>}
           </button>
         ))}
       </div>
