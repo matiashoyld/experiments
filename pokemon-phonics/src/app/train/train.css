@@ -277,13 +277,38 @@
   100% { transform: scale(1); }
 }
 
-/* === Replay Instruction Button === */
-.replay-instruction-btn {
-  padding: 8px 16px;
-  font-size: 0.85rem;
-  min-height: 40px;
-  align-self: center;
-  opacity: 0.8;
+/* === Prompt with Replay Icon === */
+.exercise-prompt-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+.exercise-prompt-row .exercise-prompt {
+  margin: 0;
+}
+
+.replay-icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, transform 0.1s;
+  touch-action: manipulation;
+}
+
+.replay-icon-btn:active {
+  transform: scale(0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* === Blending Exercise (F) === */

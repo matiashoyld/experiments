@@ -466,21 +466,13 @@ function TrainContent() {
             </div>
           </div>
 
-          {/* Replay instruction button — always visible for non-readers */}
-          <button
-            className="btn btn-secondary replay-instruction-btn"
-            onClick={handleReplayInstruction}
-            aria-label="Hear instructions again"
-          >
-            <span className="sound-icon">&#x1F50A;</span> Hear instructions
-          </button>
-
           <div className="train-exercise-content">
             {exercises[currentExIndex].type === 'A' && (
               <ExerciseA
                 exercise={exercises[currentExIndex] as TrainingExercise & { type: 'A' }}
                 onAnswer={handleAnswer}
                 onReplaySound={() => handlePlaySound((exercises[currentExIndex] as TrainingExercise & { type: 'A' }).correctPhonemeId)}
+                onReplayInstruction={handleReplayInstruction}
                 selectedAnswer={selectedAnswer}
                 answerCorrectness={answerCorrectness}
               />
@@ -490,6 +482,7 @@ function TrainContent() {
                 exercise={exercises[currentExIndex] as TrainingExercise & { type: 'B' }}
                 onAnswer={handleAnswer}
                 onPlaySound={handlePlaySound}
+                onReplayInstruction={handleReplayInstruction}
                 selectedAnswer={selectedAnswer}
                 answerCorrectness={answerCorrectness}
               />
@@ -502,6 +495,7 @@ function TrainContent() {
                 onTapLetter={handleBuildLetter}
                 onUndo={handleUndoBuild}
                 onReplayWord={() => handlePlayWord((exercises[currentExIndex] as TrainingExercise & { type: 'C' }).targetWord)}
+                onReplayInstruction={handleReplayInstruction}
                 selectedAnswer={selectedAnswer}
               />
             )}
@@ -511,6 +505,7 @@ function TrainContent() {
                 onAnswer={handleAnswer}
                 onPlaySound={handlePlaySound}
                 onPlayWord={handlePlayWord}
+                onReplayInstruction={handleReplayInstruction}
                 selectedAnswer={selectedAnswer}
                 answerCorrectness={answerCorrectness}
               />
@@ -520,6 +515,7 @@ function TrainContent() {
                 exercise={exercises[currentExIndex] as TrainingExercise & { type: 'E' }}
                 onAnswer={handleAnswer}
                 onReplayWord={() => handlePlayWord((exercises[currentExIndex] as TrainingExercise & { type: 'E' }).targetWord)}
+                onReplayInstruction={handleReplayInstruction}
                 selectedAnswer={selectedAnswer}
                 answerCorrectness={answerCorrectness}
               />
@@ -529,6 +525,7 @@ function TrainContent() {
                 exercise={exercises[currentExIndex] as TrainingExercise & { type: 'F' }}
                 onAnswer={handleAnswer}
                 onPlaySound={handlePlaySound}
+                onReplayInstruction={handleReplayInstruction}
                 selectedAnswer={selectedAnswer}
                 answerCorrectness={answerCorrectness}
               />
@@ -659,22 +656,35 @@ function TrainContent() {
 
 // === Exercise Components ===
 
+function ExercisePrompt({ text, onReplay }: { text: string; onReplay: () => void }) {
+  return (
+    <div className="exercise-prompt-row">
+      <p className="exercise-prompt">{text}</p>
+      <button className="replay-icon-btn" onClick={onReplay} aria-label="Hear instructions again">
+        &#x1F50A;
+      </button>
+    </div>
+  );
+}
+
 function ExerciseA({
   exercise,
   onAnswer,
   onReplaySound,
+  onReplayInstruction,
   selectedAnswer,
   answerCorrectness,
 }: {
   exercise: TrainingExercise & { type: 'A' };
   onAnswer: (id: string, correct: boolean) => void;
   onReplaySound: () => void;
+  onReplayInstruction: () => void;
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
   return (
     <>
-      <p className="exercise-prompt">{exercise.prompt}</p>
+      <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <button className="btn btn-secondary replay-btn" onClick={onReplaySound}>
         <span className="sound-icon">&#x1F50A;</span> Hear the sound
       </button>
@@ -698,12 +708,14 @@ function ExerciseB({
   exercise,
   onAnswer,
   onPlaySound,
+  onReplayInstruction,
   selectedAnswer,
   answerCorrectness,
 }: {
   exercise: TrainingExercise & { type: 'B' };
   onAnswer: (id: string, correct: boolean) => void;
   onPlaySound: (id: string) => void;
+  onReplayInstruction: () => void;
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
@@ -711,7 +723,7 @@ function ExerciseB({
 
   return (
     <>
-      <p className="exercise-prompt">{exercise.prompt}</p>
+      <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <div className="exercise-grapheme-display">
         <LetterCard grapheme={exercise.grapheme} size="large" />
       </div>
@@ -753,6 +765,7 @@ function ExerciseC({
   onTapLetter,
   onUndo,
   onReplayWord,
+  onReplayInstruction,
   selectedAnswer,
 }: {
   exercise: TrainingExercise & { type: 'C' };
@@ -761,6 +774,7 @@ function ExerciseC({
   onTapLetter: (index: number) => void;
   onUndo: () => void;
   onReplayWord: () => void;
+  onReplayInstruction: () => void;
   selectedAnswer: string | null;
 }) {
   const isComplete = buildSlots.every(s => s !== null);
@@ -769,7 +783,7 @@ function ExerciseC({
 
   return (
     <>
-      <p className="exercise-prompt">{exercise.prompt}</p>
+      <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <button className="btn btn-secondary replay-btn" onClick={onReplayWord}>
         <span className="sound-icon">&#x1F50A;</span> Hear the word
       </button>
@@ -811,6 +825,7 @@ function ExerciseD({
   onAnswer,
   onPlaySound,
   onPlayWord,
+  onReplayInstruction,
   selectedAnswer,
   answerCorrectness,
 }: {
@@ -818,6 +833,7 @@ function ExerciseD({
   onAnswer: (id: string, correct: boolean) => void;
   onPlaySound: (id: string) => void;
   onPlayWord: (word: string) => void;
+  onReplayInstruction: () => void;
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
@@ -825,7 +841,7 @@ function ExerciseD({
 
   return (
     <>
-      <p className="exercise-prompt">{exercise.prompt}</p>
+      <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <div className="exercise-word-display">
         {exercise.letters.map((letter, i) => (
           <LetterCard
@@ -872,18 +888,20 @@ function ExerciseE({
   exercise,
   onAnswer,
   onReplayWord,
+  onReplayInstruction,
   selectedAnswer,
   answerCorrectness,
 }: {
   exercise: TrainingExercise & { type: 'E' };
   onAnswer: (id: string, correct: boolean) => void;
   onReplayWord: () => void;
+  onReplayInstruction: () => void;
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
   return (
     <>
-      <p className="exercise-prompt">{exercise.prompt}</p>
+      <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <button className="btn btn-secondary replay-btn" onClick={onReplayWord}>
         <span className="sound-icon">&#x1F50A;</span> Hear the word
       </button>
@@ -910,12 +928,14 @@ function ExerciseF({
   exercise,
   onAnswer,
   onPlaySound,
+  onReplayInstruction,
   selectedAnswer,
   answerCorrectness,
 }: {
   exercise: TrainingExercise & { type: 'F' };
   onAnswer: (id: string, correct: boolean) => void;
   onPlaySound: (id: string) => void;
+  onReplayInstruction: () => void;
   selectedAnswer: string | null;
   answerCorrectness: Record<string, boolean | null>;
 }) {
@@ -941,7 +961,7 @@ function ExerciseF({
 
   return (
     <>
-      <p className="exercise-prompt">{exercise.prompt}</p>
+      <ExercisePrompt text={exercise.prompt} onReplay={onReplayInstruction} />
       <p className="exercise-hint-text">Listen to each sound, then blend them together!</p>
 
       {/* Phoneme sound bubbles */}
