@@ -1,11 +1,11 @@
-# April RV Road Trip - Yosemite, Sequoia & Santa Cruz
+# April RV Road Trip - Yosemite, Sequoia, Big Sur & Coast
 
 ## Trip Overview
 - **Dates:** April 4-11, 2026 (8 days / 7 nights)
 - **Starting point:** San Francisco
 - **Group:** 2 families — 4 adults, 4 kids (5yo, 3yo, 1yo, 4mo)
 - **Vehicles:** 2 RVs (21ft each), rented — **Roadsurfer Liberty Lodge** (Class B, almost certainly 30 amp shore power)
-- **Route:** SF → Yosemite → Sequoia → [Monterey OR Fresno TBD] → Santa Cruz → SF
+- **Route:** SF → Yosemite → Sequoia → Morro Bay/Cambria → Big Sur (Hwy 1 drive) → Monterey or Santa Cruz → SF
 
 ## Critical Constraints
 
@@ -35,17 +35,35 @@ Neither Yosemite nor Sequoia have any electric/water/sewer hookups at campground
 | 1 | Apr 4 (Sat) | SF → Yosemite via Hwy 140 (~3-4 hrs). Afternoon in the valley. | **TBD — see Yosemite options** |
 | 2 | Apr 5 (Sun) | Yosemite — Yosemite Falls, Bridalveil Fall, meadows | Same |
 | 3 | Apr 6 (Mon) | Yosemite — Mirror Lake, Junior Ranger, valley hikes | Same |
-| 4 | Apr 7 (Tue) | Yosemite → Sequoia via Hwy 41 → Fresno → Hwy 198 (~4-5 hrs) | Three Rivers Hideaway (email sent) |
+| 4 | Apr 7 (Tue) | Yosemite → Sequoia via Hwy 41 → Fresno → Hwy 198 (~4-5 hrs) | Three Rivers Hideaway (confirmed) |
 | 5 | Apr 8 (Wed) | Sequoia — General Sherman, Giant Forest, Moro Rock | Same |
-| 6 | Apr 9 (Thu) | Kings Canyon — General Grant Grove, Big Trees Trail. Drive to overnight stop. | **TBD — Monterey OR Fresno (see below)** |
-| 7 | Apr 10 (Fri) | Drive to Santa Cruz or continue if already there | **TBD — see Santa Cruz options** |
-| 8 | Apr 11 (Sat) | Santa Cruz morning → SF via Hwy 17 → I-280 (~1.5 hrs). Return RVs. | — |
+| 6 | Apr 9 (Thu) | Sequoia → **Morro Bay or Cambria** (~4-4.5 hrs) via Hwy 198 → 101 → coast | **TBD — Morro Bay or Cambria (see below)** |
+| 7 | Apr 10 (Fri) | **Big Sur Hwy 1 drive** → **Monterey or Santa Cruz** (see stops below) | **TBD — Monterey or Santa Cruz (see below)** |
+| 8 | Apr 11 (Sat) | Monterey/Santa Cruz → SF (~1.5-2 hrs). Return RVs. | — |
 
-**Total driving: ~13-15 hrs**
+**Total driving: ~15-17 hrs**
+
+### Apr 10: Big Sur Hwy 1 Drive — Stops & Timing
+
+The highlight of the trip. Drive north from Morro Bay/Cambria on Hwy 1 through the entire Big Sur coast. Your 21ft RVs are perfect for this road (recommended under 24ft).
+
+| Stop | Drive from previous | What to do |
+|------|-------------------|------------|
+| Depart Morro Bay/Cambria ~9am | — | — |
+| Elephant Seal Rookery (San Simeon) | 15 min from Cambria | Free, hundreds of seals, kids love it |
+| **McWay Falls** (Julia Pfeiffer Burns SP) | ~1 hr | 5-min toddler-friendly walk to iconic waterfall-on-beach |
+| **Nepenthe Restaurant** | ~15 min | Lunch with stunning cliffside ocean views. Family-friendly. 48510 Hwy 1, Big Sur. (831) 667-2345 / nepenthe.com |
+| **Pfeiffer Beach** | ~10 min | Sandy cove, rock arches, wading creek for kids |
+| **Bixby Bridge** | ~30 min | Iconic photo stop, pull-off on north side |
+| **Point Lobos** (Carmel) | ~30 min | Easy hikes, sea otters, tide pools — great for kids |
+| **Monterey** | ~15 min | Monterey Bay Aquarium if doing Monterey overnight |
+| **Santa Cruz** | ~45 min from Monterey | Boardwalk, beach if doing Santa Cruz overnight |
+
+**Total driving time Morro Bay → Monterey: ~3 hrs** (without stops). Budget a full day with stops.
 
 ---
 
-## Campsite Booking Status (Updated March 15, 2026)
+## Campsite Booking Status (Updated March 28, 2026)
 
 ### ✅ YOSEMITE (Nights of Apr 4-6, 3 nights) — BOOKED
 
@@ -92,56 +110,70 @@ Neither Yosemite nor Sequoia have any electric/water/sewer hookups at campground
 
 ---
 
-### ❓ NIGHT OF APR 9 — FRESNO vs MONTEREY (UNDECIDED)
+### ❓ NIGHT OF APR 9 — MORRO BAY vs CAMBRIA (UNDECIDED)
 
-**The decision:** Split the Sequoia→Santa Cruz drive OR go straight through.
+**The plan:** Drive from Sequoia to the coast (~4-4.5 hrs), sleep, then drive Hwy 1 through Big Sur the next morning.
 
-#### Option A: Monterey overnight ⭐ RECOMMENDED
-Kings Canyon → Monterey ~3.5hrs. Monterey → Santa Cruz next morning ~45min.
-**Bonus:** Monterey Aquarium (world-class, great for 3yo/5yo). Wakes up in a beautiful coastal city.
+> **Why not camp IN Big Sur?** We checked availability on March 28, 2026:
+> - Pfeiffer Big Sur SP: **SOLD OUT** (ReserveCalifornia confirmed 0 sites)
+> - Big Sur Campground & Cabins: **SOLD OUT** (0/24 sites on webrez calendar)
+> - Fernwood Resort: **1 unit available** but requires login — likely tent, not RV. Call (831) 667-2422 to check.
+> - Riverside Campground: couldn't check online. Call (831) 667-2414.
+> - All nearby state parks (Andrew Molera, Julia Pfeiffer Burns, Limekiln): SOLD OUT.
+>
+> Instead, we sleep south of Big Sur and drive THROUGH it on Apr 10 — you see everything (McWay Falls, Pfeiffer Beach, Bixby Bridge, Nepenthe lunch) without needing to camp there.
+
+#### Option A: Morro Bay ⭐ RECOMMENDED FOR KIDS
+Sequoia → Morro Bay ~4 hrs via Hwy 198 → 101 → Hwy 1.
+**Highlights:** Morro Rock (iconic), sea otters in harbor, flat waterfront strolls, kayaking.
+
+| Park | Price | Hookups | Notes |
+|------|-------|---------|-------|
+| **Morro Bay SP** | ~$50/night | Electric | 140+ sites, 35ft max RV. Book at reservecalifornia.com or (800) 444-7275 |
+| **Morro Strand SB** | ~$35/night | None | 4 sites available as of Mar 28. On the beach. reservecalifornia.com |
+| **Morro Dunes RV Park** (private) | call | Full 30/50amp | morrodunes.com |
+| **Morro Strand RV Park** (private) | call | Full | morrostrandrvpark.com |
+
+#### Option B: Cambria
+Sequoia → Cambria ~4.5 hrs. Charming artsy village, Moonstone Beach, galleries, restaurants.
+More of an adult/couples vibe — less exciting for kids than Morro Bay.
+
+| Park | Price | Hookups | Notes |
+|------|-------|---------|-------|
+| **Hearst San Simeon SP** | ~$50/night | Water + electric | **20 sites available** as of Mar 28. 2mi from Cambria. reservecalifornia.com |
+| **San Simeon Creek Campground** | ~$50/night | Some electric | Part of Hearst San Simeon SP complex |
+| Private RV parks in Cambria | call | Full | Check hipcamp.com/cambria for options |
+
+**Nearby bonus:** Elephant Seal Rookery at Piedras Blancas (free, right off Hwy 1, 15 min north of Cambria). Hundreds of seals — kids go nuts.
+
+---
+
+### ❓ NIGHT OF APR 10 — MONTEREY vs SANTA CRUZ (UNDECIDED)
+
+**The decision:** After driving Hwy 1 through Big Sur, sleep in Monterey or continue to Santa Cruz.
+
+#### Option A: Monterey ⭐ RECOMMENDED
+You'll pass right through after Big Sur. **Monterey Bay Aquarium** is world-class for the 3yo/5yo.
+Next morning: easy 2hr drive to SF via Hwy 1 or 101.
 
 | Park | Price | Distance to Aquarium | Hookups | Notes |
 |------|-------|---------------------|---------|-------|
 | **Monterey County Fairgrounds** | $73-140/night | 3 miles | Full 30/50amp | ⭐ Best location. (831) 717-7167 / montereycountyfair.com |
-| **Laguna Seca Recreation Area** | $50-60/night | ~8 miles | Full 30amp | Budget pick, 93 sites, famous racetrack. (888) 588-2267 |
-| **Saddle Mountain RV (Carmel)** | call | ~10 miles | Full 30/50amp | 89-acre forest, stunning. (831) 624-1617 |
-| **Moss Landing KOA Express** | from $73/night | ~20 miles | Full 20/30/50amp | Coastal, fishing village, back-in only. (831) 633-6800 |
-| **Carmel by the River RV Resort** | call | ~7 miles | Full 30/50amp | Quiet, 35 sites only. (831) 624-9329 |
-| **Marina Dunes RV Park** | $130-180/night | 10-15 min | Full 20/30/50amp | Pricey. Pool, playground, beach access. (831) 384-6914 |
-| **Yanks RV Resort (Greenfield)** | ~$80/night | ~20 miles south | Full 30/50amp | 110 sites, pool, hot tub. (831) 740-8007 |
+| **Laguna Seca Recreation Area** | $50-60/night | ~8 miles | Full 30amp | Budget pick, 93 sites. (888) 588-2267 |
+| **Saddle Mountain RV (Carmel)** | call | ~10 miles | Full 30/50amp | 89-acre forest. (831) 624-1617 |
+| **Carmel by the River RV Resort** | call | ~7 miles | Full 30/50amp | Quiet, 35 sites. (831) 624-9329 |
+| **Marina Dunes RV Park** | $130-180/night | 10-15 min | Full 20/30/50amp | Pool, playground, beach. (831) 384-6914 |
 
-#### Option B: Fresno/Kingsburg overnight
-Kings Canyon → Kingsburg ~1.25hrs. Kingsburg → Santa Cruz next morning ~2.5hrs.
-Tere's original idea — breaks the drive into two easy legs.
-
-| Park | Price | Hookups | Notes |
-|------|-------|---------|-------|
-| **Kings River RV Resort (Kingsburg)** ⭐ | $80-95/night | Full 30/50amp | River, pool, playground. Perfect Hwy 99 routing. (559) 897-0351 |
-| **Millerton Lake SRA (Friant)** | ~$40/site | Partial | Lake views, hookup area is a parking lot row. reserve.california.gov |
-| ~~Riverbend RV Park (Sanger)~~ | — | — | **DO NOT BOOK** — flooding/evacuation risk in April. |
-
-#### Option C: Skip overnight, drive straight to Santa Cruz
-Kings Canyon → Santa Cruz direct ~3.5hrs. Arrive Apr 9 afternoon.
-**Benefit:** 2 nights at Santa Cruz beach instead of 1. Saves $160-190.
-
-#### Option D: Big Sur — NOT RECOMMENDED
-- Hwy 1 narrow/stressful for RVs
-- No hookups at main campgrounds (Pfeiffer Big Sur)
-- Fills up 6 months in advance
-- Wrong direction (south of Santa Cruz, adds 2hrs backtracking)
-
----
-
-### 🏖️ SANTA CRUZ (Night of Apr 10, 1 night — or Apr 9-10 if skipping Fresno/Monterey)
+#### Option B: Santa Cruz
+Continue 45 min past Monterey. **Boardwalk + beach** for the kids.
+Next morning: easy 1.5hr drive to SF via Hwy 17.
 
 | Park | Distance to Boardwalk | Price | Hookups | Notes |
 |------|----------------------|-------|---------|-------|
-| **New Brighton State Beach (Capitola)** ⭐ | 15 min | $50/night | Water + electric | ⚠️ Only 9 hookup sites — check NOW. Try sites 46-56. reserve.california.gov or (800) 444-7275 |
-| **Santa Cruz Harbor RV Park** | 8 min | $75/night | Full 30/50amp | Right by the harbor. Great value. (831) 475-3279 / santacruzharbor.org |
-| **Beach RV Pleasure Point (Capitola)** | 10 min | $90-110/night | Full 20/30/50amp | Steps to beach/surf. beachrv.sc |
-| **Santa Cruz Ranch RV Resort (Scotts Valley)** | 20 min | call | Full | 8 acres, 200 trees, playground. santacruzranchrv.com |
-| **Santa Cruz Redwoods RV Resort** | 25 min | call | Full | Redwoods + river + playground. Magical for kids. santacruzredwoodsrvresort.com |
-| **Santa Cruz KOA (Watsonville)** | 25 min | $94-150+/night | Full 30/50amp | Over budget. Pool, playground. (831) 722-0551 |
+| **New Brighton State Beach (Capitola)** ⭐ | 15 min | $50/night | Water + electric | ⚠️ Only 9 hookup sites. reserve.california.gov or (800) 444-7275 |
+| **Santa Cruz Harbor RV Park** | 8 min | $75/night | Full 30/50amp | Right by the harbor. (831) 475-3279 |
+| **Beach RV Pleasure Point (Capitola)** | 10 min | $90-110/night | Full 20/30/50amp | Steps to beach. beachrv.sc |
+| **Santa Cruz Redwoods RV Resort** | 25 min | call | Full | Redwoods + river + playground. santacruzredwoodsrvresort.com |
 | ~~Seacliff State Beach~~ | — | — | CLOSED since Jan 2023 storm damage. Skip. |
 
 ---
@@ -152,14 +184,17 @@ Kings Canyon → Santa Cruz direct ~3.5hrs. Arrive Apr 9 afternoon.
 - ~~**Yosemite Pines RV Resort** — BOOKED~~ (Conf #R00000002163, Apr 4-7, $514.04)
 - ~~**Three Rivers Hideaway** — BOOKED~~ (Confirmed by Melissa, Apr 7-9, pay on arrival)
 
-### APR 9 STOP — DECISION NEEDED
-1. **Decide: Monterey vs Fresno vs Drive Straight to Santa Cruz**
-   - Monterey Fairgrounds: call (831) 717-7167
-   - Kings River RV Resort: call (559) 897-0351
+### APR 9 STOP (MORRO BAY / CAMBRIA) — NOT BOOKED
+1. **Decide: Morro Bay vs Cambria** — Morro Bay better for kids (otters, Morro Rock)
+   - Check Morro Bay SP at reservecalifornia.com or (800) 444-7275
+   - Check Hearst San Simeon SP (Cambria) — **20 sites available** as of Mar 28
+   - Private backup: Morro Dunes RV Park (morrodunes.com)
 
-### SANTA CRUZ — NOT BOOKED
-2. **Check New Brighton State Beach** at reserve.california.gov — only 9 hookup sites, check NOW for Apr 10-11
-3. **Fallback:** Santa Cruz Harbor RV Park (831) 475-3279 — $75/night, 8min from Boardwalk
+### APR 10 STOP (MONTEREY / SANTA CRUZ) — NOT BOOKED
+2. **Decide: Monterey vs Santa Cruz** for last night
+   - Monterey Fairgrounds: call (831) 717-7167
+   - Santa Cruz Harbor RV Park: call (831) 475-3279 — $75/night
+   - Check New Brighton State Beach at reservecalifornia.com — only 9 hookup sites
 
 ### CONFIRM
 4. **CALL (209) 372-8502** — confirm Upper Pines FCFS status Apr 4-9 (possible bonus night in-park)
@@ -181,7 +216,13 @@ Kings Canyon → Santa Cruz direct ~3.5hrs. Arrive Apr 9 afternoon.
 | Lemon Cove Village RV Park | (559) 370-4152 |
 | Sequoia Park Info | (559) 565-4357 |
 | Sequoia Road Conditions | (559) 565-3341 |
-| Kings River RV Resort (Kingsburg) | (559) 897-0351 |
+| Morro Bay SP (reservations) | (800) 444-7275 |
+| Morro Dunes RV Park | morrodunes.com |
+| Hearst San Simeon SP | (800) 444-7275 |
+| Nepenthe Restaurant (Big Sur) | (831) 667-2345 |
+| Fernwood Resort (Big Sur) | (831) 667-2422 |
+| Riverside Campground (Big Sur) | (831) 667-2414 |
+| Big Sur Campground & Cabins | (831) 667-2322 |
 | Monterey County Fairgrounds RV | (831) 717-7167 |
 | Laguna Seca Recreation Area | (888) 588-2267 |
 | Saddle Mountain RV (Carmel) | (831) 624-1617 |
@@ -206,8 +247,10 @@ Kings Canyon → Santa Cruz direct ~3.5hrs. Arrive Apr 9 afternoon.
 ## Kid-Friendly Activities
 - **Yosemite:** Yosemite Falls viewpoint (short walk), Mirror Lake (flat, stroller-friendly), Swinging Bridge meadow, Junior Ranger program, Bridalveil Fall (short paved path)
 - **Sequoia:** Walk among giant sequoias (General Sherman trail is paved), Big Trees Trail (flat loop, stroller-OK), Grant Grove, Moro Rock (older kids — steep stairs)
+- **Morro Bay:** Morro Rock (iconic volcanic rock on water), sea otters in harbor, flat waterfront walks, kayaking
+- **Big Sur drive (Apr 10):** Elephant Seal Rookery (free, hundreds of seals), McWay Falls (5-min walk), Pfeiffer Beach (wading creek), Nepenthe lunch (views), Point Lobos (tide pools, otters)
 - **Monterey (if stopping):** Monterey Bay Aquarium — world-class, excellent for 3yo/5yo
-- **Santa Cruz:** Boardwalk, beach, Capitola Village (stroller-friendly)
+- **Santa Cruz (if stopping):** Boardwalk, beach, Capitola Village (stroller-friendly)
 
 ## Essential Packing
 - Tire chains for both RVs
