@@ -68,6 +68,13 @@ npx vercel
 
 For static HTML projects, no config needed — Vercel auto-detects them.
 
+### Quick preview without deploying
+
+For single-file HTML projects already on GitHub, use htmlpreview to get an instant shareable link (no setup needed):
+```
+https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/main/<project>/index.html
+```
+
 ## Current projects
 
 | Folder | What it is | Tech | URL |
@@ -78,4 +85,5 @@ For static HTML projects, no config needed — Vercel auto-detects them.
 | `pokemon-phonics/` | Pokemon-themed phonics learning game for kids | Next.js, Gemini TTS | https://pokemon-phonics.vercel.app |
 | `usa-trip/` | Family trip comparison tool (Seattle vs Yellowstone vs Banff) | HTML/CSS/JS | https://usa-trip.vercel.app |
 | `voter-chart-chile/` | Chile voter demographics analysis chart | Python (pandas, matplotlib) | — |
+| `costco-checklist/` | Costco shopping checklist for kids | HTML/CSS/JS | [htmlpreview](https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/main/costco-checklist/index.html) |
 | `wonder-weeks/` | Baby development tracker | Next.js | https://wonder-weeks.vercel.app |

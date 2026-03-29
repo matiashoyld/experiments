@@ -9,4 +9,5 @@ Simple mobile-friendly shopping checklist for Costco trips.
 Open `index.html` in a browser.
 
 ## Deployment
-Deployed on Vercel.
+Hosted via htmlpreview.github.io (no config needed):
+https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/main/costco-checklist/index.html
