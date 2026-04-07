@@ -37,7 +37,7 @@ Neither Yosemite nor Sequoia have any electric/water/sewer hookups at campground
 | 3 | Apr 6 (Mon) | Yosemite — Mirror Lake, Junior Ranger, valley hikes | Same |
 | 4 | Apr 7 (Tue) | Yosemite → Sequoia via Hwy 41 → Fresno → Hwy 198 (~4-5 hrs) | Three Rivers Hideaway (confirmed) |
 | 5 | Apr 8 (Wed) | Sequoia — General Sherman, Giant Forest, Moro Rock | Same |
-| 6 | Apr 9 (Thu) | Sequoia → **Morro Bay or Cambria** (~4-4.5 hrs) via Hwy 198 → 101 → coast | **TBD — Morro Bay or Cambria (see below)** |
+| 6 | Apr 9 (Thu) | Sequoia → **Morro Bay** (~4 hrs) via Hwy 198 → 101 → Hwy 1 | Morro Dunes RV Park (confirmed) |
 | 7 | Apr 10 (Fri) | **Big Sur Hwy 1 drive** → **Monterey or Santa Cruz** (see stops below) | **TBD — Monterey or Santa Cruz (see below)** |
 | 8 | Apr 11 (Sat) | Monterey/Santa Cruz → SF (~1.5-2 hrs). Return RVs. | — |
 
@@ -110,41 +110,21 @@ The highlight of the trip. Drive north from Morro Bay/Cambria on Hwy 1 through t
 
 ---
 
-### ❓ NIGHT OF APR 9 — MORRO BAY vs CAMBRIA (UNDECIDED)
+### ✅ MORRO BAY (Night of Apr 9, 1 night) — BOOKED
 
-**The plan:** Drive from Sequoia to the coast (~4-4.5 hrs), sleep, then drive Hwy 1 through Big Sur the next morning.
+**Booked: Morro Dunes RV Park**
+- 2 x Full Hookup RV sites, Apr 9–10 (1 night)
+- $83/night per site + $5.50/extra person (above 2 per site)
+- Full hookups: electricity, water, sewer, cable TV — 30/50 amp available
+- 170 total sites (139 full hookup)
+- Free Wi-Fi
+- Check-in 12pm, check-out 11:30am
+- Address: 1700 Embarcadero, Morro Bay, CA 93442
+- Phone: (805) 772-2722 / morrodunes.com
+- Booked Apr 7, 2026
 
-> **Why not camp IN Big Sur?** We checked availability on March 28, 2026:
-> - Pfeiffer Big Sur SP: **SOLD OUT** (ReserveCalifornia confirmed 0 sites)
-> - Big Sur Campground & Cabins: **SOLD OUT** (0/24 sites on webrez calendar)
-> - Fernwood Resort: **1 unit available** but requires login — likely tent, not RV. Call (831) 667-2422 to check.
-> - Riverside Campground: couldn't check online. Call (831) 667-2414.
-> - All nearby state parks (Andrew Molera, Julia Pfeiffer Burns, Limekiln): SOLD OUT.
->
-> Instead, we sleep south of Big Sur and drive THROUGH it on Apr 10 — you see everything (McWay Falls, Pfeiffer Beach, Bixby Bridge, Nepenthe lunch) without needing to camp there.
-
-#### Option A: Morro Bay ⭐ RECOMMENDED FOR KIDS
-Sequoia → Morro Bay ~4 hrs via Hwy 198 → 101 → Hwy 1.
 **Highlights:** Morro Rock (iconic), sea otters in harbor, flat waterfront strolls, kayaking.
-
-| Park | Price | Hookups | Notes |
-|------|-------|---------|-------|
-| **Morro Bay SP** | ~$50/night | Electric | 140+ sites, 35ft max RV. Book at reservecalifornia.com or (800) 444-7275 |
-| **Morro Strand SB** | ~$35/night | None | 4 sites available as of Mar 28. On the beach. reservecalifornia.com |
-| **Morro Dunes RV Park** (private) | call | Full 30/50amp | morrodunes.com |
-| **Morro Strand RV Park** (private) | call | Full | morrostrandrvpark.com |
-
-#### Option B: Cambria
-Sequoia → Cambria ~4.5 hrs. Charming artsy village, Moonstone Beach, galleries, restaurants.
-More of an adult/couples vibe — less exciting for kids than Morro Bay.
-
-| Park | Price | Hookups | Notes |
-|------|-------|---------|-------|
-| **Hearst San Simeon SP** | ~$50/night | Water + electric | **20 sites available** as of Mar 28. 2mi from Cambria. reservecalifornia.com |
-| **San Simeon Creek Campground** | ~$50/night | Some electric | Part of Hearst San Simeon SP complex |
-| Private RV parks in Cambria | call | Full | Check hipcamp.com/cambria for options |
-
-**Nearby bonus:** Elephant Seal Rookery at Piedras Blancas (free, right off Hwy 1, 15 min north of Cambria). Hundreds of seals — kids go nuts.
+**Nearby:** Elephant Seal Rookery at Piedras Blancas (free, right off Hwy 1, 15 min north). Hundreds of seals — kids go nuts.
 
 ---
 
@@ -183,12 +163,10 @@ Next morning: easy 1.5hr drive to SF via Hwy 17.
 ### ✅ DONE
 - ~~**Yosemite Pines RV Resort** — BOOKED~~ (Conf #R00000002163, Apr 4-7, $514.04)
 - ~~**Three Rivers Hideaway** — BOOKED~~ (Confirmed by Melissa, Apr 7-9, pay on arrival)
+- ~~**Morro Dunes RV Park** — BOOKED~~ (Apr 9-10, $83/night per site, full hookup)
 
-### APR 9 STOP (MORRO BAY / CAMBRIA) — NOT BOOKED
-1. **Decide: Morro Bay vs Cambria** — Morro Bay better for kids (otters, Morro Rock)
-   - Check Morro Bay SP at reservecalifornia.com or (800) 444-7275
-   - Check Hearst San Simeon SP (Cambria) — **20 sites available** as of Mar 28
-   - Private backup: Morro Dunes RV Park (morrodunes.com)
+### ✅ APR 9 STOP — BOOKED
+- ~~**Morro Dunes RV Park** — BOOKED~~ (Apr 9-10, $83/night per site, full hookup)
 
 ### APR 10 STOP (MONTEREY / SANTA CRUZ) — NOT BOOKED
 2. **Decide: Monterey vs Santa Cruz** for last night
@@ -217,7 +195,7 @@ Next morning: easy 1.5hr drive to SF via Hwy 17.
 | Sequoia Park Info | (559) 565-4357 |
 | Sequoia Road Conditions | (559) 565-3341 |
 | Morro Bay SP (reservations) | (800) 444-7275 |
-| Morro Dunes RV Park | morrodunes.com |
+| Morro Dunes RV Park | (805) 772-2722 |
 | Hearst San Simeon SP | (800) 444-7275 |
 | Nepenthe Restaurant (Big Sur) | (831) 667-2345 |
 | Fernwood Resort (Big Sur) | (831) 667-2422 |
