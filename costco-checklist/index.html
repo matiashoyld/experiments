@@ -282,13 +282,16 @@ const categories = [
       { name: "Creatina", img: "https://images.unsplash.com/photo-1693996045435-af7c48b9cafb?w=300", emoji: "💪" },
       { name: "Pistachos", img: "https://images.unsplash.com/photo-1551238875-13b9d38454db?w=300", emoji: "🥜" },
       { name: "Nueces", img: "https://images.unsplash.com/photo-1524593000379-d4729b2c4f99?w=300", emoji: "🥜" },
+      { name: "Sal", img: "https://images.unsplash.com/photo-1646722670581-974d084e0ec0?w=300", emoji: "🧂" },
+      { name: "Proteína Orgain", img: "https://images.unsplash.com/photo-1693996045300-521e9d08cabc?w=300", emoji: "💪" },
+      { name: "Agave", img: "https://images.unsplash.com/photo-1769970630990-6f91e24db758?w=300", emoji: "🍯" },
     ]
   },
 ];
 
 // Flatten for indexing
 const allItems = categories.flatMap(c => c.items);
-const STORAGE_KEY = "costco-checked-v4";
+const STORAGE_KEY = "costco-checked-v5";
 
 function loadChecked() {
   try {
