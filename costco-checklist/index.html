@@ -155,7 +155,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 2rem;
+      font-size: 2.5rem;
       transition: opacity .25s ease;
     }
 
@@ -232,17 +232,17 @@ const categories = [
     icon: "🍼",
     items: [
       { name: "Barritas Iñaki (Nature Valley)", img: "https://images.unsplash.com/photo-1633360821154-1935fb5671e6?w=300", emoji: "🍫" },
-      { name: "Compotas", img: "https://images.unsplash.com/photo-1589985270826-4b7bb135bc0d?w=300", emoji: "🍎" },
-      { name: "Wipes bebé", img: "https://images.unsplash.com/photo-1724682620071-d67d489ec160?w=300", emoji: "🧻" },
+      { name: "Compotas", emoji: "🍎" },
+      { name: "Wipes bebé", emoji: "🧻" },
       { name: "Juguito en caja", img: "https://images.unsplash.com/photo-1590012040529-c5e12f37b5d8?w=300", emoji: "🧃" },
-      { name: "Capri Sun", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Capri_Sun_pouch_standing.jpg/300px-Capri_Sun_pouch_standing.jpg", emoji: "🧃" },
+      { name: "Capri Sun", emoji: "🧃" },
     ]
   },
   {
     name: "Panadería",
     icon: "🥖",
     items: [
-      { name: "Pan Iñaki", img: "https://images.unsplash.com/photo-1554933054-0b679a7982ca?w=300", emoji: "🍞" },
+      { name: "Pan Iñaki", emoji: "🍞" },
     ]
   },
   {
@@ -330,10 +330,13 @@ function render() {
       const isChecked = checked.includes(idx);
       const div = document.createElement("div");
       div.className = "item" + (isChecked ? " checked" : "");
+      const imgHtml = item.img
+        ? `<img class="item-img" src="${item.img}" alt="${item.name}" loading="lazy"
+            onerror="this.outerHTML='<div class=\\'item-img-fallback\\'>${item.emoji}</div>'">`
+        : `<div class="item-img-fallback">${item.emoji}</div>`;
       div.innerHTML = `
         <div class="checkbox">${isChecked ? "✓" : ""}</div>
-        <img class="item-img" src="${item.img}" alt="${item.name}" loading="lazy"
-          onerror="this.outerHTML='<div class=\\'item-img-fallback\\'>${item.emoji}</div>'">
+        ${imgHtml}
         <span class="item-text">${item.name}</span>
       `;
       div.addEventListener("click", () => toggle(idx));
