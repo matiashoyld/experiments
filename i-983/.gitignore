@@ -1,0 +1,8 @@
+# Personal data and filled forms must NOT be committed (this repo is public).
+data.json
+*_filled.pdf
+*_filled.PDF
+
+# Local render/preview artifacts
+*.png
+renders/

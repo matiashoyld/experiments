@@ -87,3 +87,4 @@ https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/m
 | `voter-chart-chile/` | Chile voter demographics analysis chart | Python (pandas, matplotlib) | — |
 | `costco-checklist/` | Costco shopping checklist for kids | HTML/CSS/JS | [htmlpreview](https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/main/costco-checklist/index.html) |
 | `wonder-weeks/` | Baby development tracker | Next.js | https://wonder-weeks.vercel.app |
+| `i-983/` | Fills the official ICE I-983 STEM OPT training plan PDF (auto-fits text, no overflow) | Python (PyMuPDF) | — |
