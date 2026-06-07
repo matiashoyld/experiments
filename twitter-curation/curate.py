@@ -269,13 +269,23 @@ def main():
     print(dict(Counter(e["kind"] for e in entries)))
     candidates = [e for e in entries if e["kind"] != "short"]
 
-    # 4. score
-    keepers, scored = [], {}
+    # 4. score, then pick keepers (score floor + per-source cap)
+    keepers, scored, ranked = [], {}, []
     if candidates:
         scored = score_with_gemini(candidates, cfg)
         ranked = sorted((c for c in candidates if c["tweet_id"] in scored),
                         key=lambda c: -scored[c["tweet_id"]]["score"])
-        keepers = [c for c in ranked if scored[c["tweet_id"]]["score"] >= cfg["min_score"]][: cfg["keep_count"]]
+        per_source = {}
+        for c in ranked:
+            if scored[c["tweet_id"]]["score"] < cfg["min_score"]:
+                break
+            src = c["retweeted_by"] or c["author"]
+            if per_source.get(src, 0) >= cfg.get("source_cap", 99):
+                continue
+            keepers.append(c)
+            per_source[src] = per_source.get(src, 0) + 1
+            if len(keepers) >= cfg["keep_count"]:
+                break
 
     print(f"\n=== KEEPERS ({len(keepers)}) ===")
     for k in keepers:
@@ -294,12 +304,23 @@ def main():
         s = scored[k["tweet_id"]]
         http("POST", f"{READER_API}/save/", token=token, body={
             "url": save_target(k),
-            "location": "new",
+            "location": cfg.get("keeper_location", "feed"),
             "tags": cfg["keeper_tags"] + [s["topic"]],
             "saved_using": "twitter-curation",
         })
         state["saved_tweets"].append(k["tweet_id"])
         time.sleep(1.3)  # save: 50 req/min
+
+    # full ranking log for "what almost made it" reviews
+    keeper_ids = {k["tweet_id"] for k in keepers}
+    STATE_PATH.parent.mkdir(exist_ok=True)
+    (STATE_PATH.parent / "last-scores.json").write_text(json.dumps([
+        {"rank": i, "kept": c["tweet_id"] in keeper_ids,
+         "score": scored[c["tweet_id"]]["score"], "topic": scored[c["tweet_id"]]["topic"],
+         "author": c["author"], "via": c["retweeted_by"],
+         "text": c["text"][:140], "why": scored[c["tweet_id"]]["why"]}
+        for i, c in enumerate(ranked, 1)
+    ], indent=1, ensure_ascii=False))
 
     # 6. archive the digests themselves
     if cfg["archive_digest"]:
