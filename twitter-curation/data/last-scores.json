@@ -2,51 +2,261 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Last one for a while: registerspill.thorstenball.com/p/joy-and-curi… Posted Jun 7, 2026 at 8:07AM",
-  "why": "Thorsten Ball on joy and curiosity in software engineering perfectly hits your builder-craft and agency intersections."
+  "score": 9,
+  "topic": "econ-progress",
+  "author": "Handre",
+  "via": "tobi",
+  "text": "Milton Friedman's greatest regret. The federal government discovered the perfect crime in 1943: make employers collect taxes before workers ",
+  "why": "Fascinating historical and psychological analysis of taxation; high density of insight on how abstraction changes behavior."
  },
  {
   "rank": 2,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "I don’t know whether to take these specific details like this seriously, but something like this will inevitably happen, sooner or later — a",
+  "why": "High-signal applied AI engineering: open-source tools drastically reducing compute and memory needs for vector search."
+ },
+ {
+  "rank": 3,
+  "kept": true,
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "carlquintanilla",
+  "via": "GaryMarcus",
+  "text": "“.. So now Google and Anthropic pay rent on the hardware Grok couldn't use, and that rent is the AI revenue story SpaceX takes public on Thu",
+  "why": "Excellent substantive skepticism: uses real financial numbers and supply chain analysis to critique AI compute deals."
+ },
+ {
+  "rank": 4,
+  "kept": false,
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Take that, @geoffreyhinton . “If LLMS have human-like attributes, then so does Age of Empires II”. Also, score another point for @Pontifex !",
+  "why": "Perfect intersection of AI and philosophy; uses a clever analogy to push back on LLM anthropomorphism."
+ },
+ {
+  "rank": 5,
+  "kept": true,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "mrbcyber",
+  "via": "Noahpinion",
+  "text": "Democracies need to wake up to the reality that they are under attack from an authoritarian axis. While Russia overtly invades Ukraine, Chin",
+  "why": "Solid geopolitical and economic analysis on manufacturing vulnerabilities and supply chain defense."
+ },
+ {
+  "rank": 6,
+  "kept": true,
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "AlexJQuigley",
+  "via": "C_Hendrick",
+  "text": "🚨 NEW POST 🚨 ‘Improving reading with the R.E.A.D.S Framework’ “It is not a rigid sequence to follow step by step, but a flexible repertoire.",
+  "why": "Highly relevant to your ed-tech and learning science interests; actionable framework for reading comprehension."
+ },
+ {
+  "rank": 7,
   "kept": true,
   "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "“If you can fall in love again and again… if you can forgive as well as forget, if you can keep from growing sour, surly, bitter and cynical",
-  "why": "Excellent contemplative essay on aging, intentional living, and avoiding bitterness from The Marginalian."
+  "text": "Ursula K. Le Guin on the meaning of life themarginalian.org/2026/06/06/le-… Posted Jun 7, 2026 at 3:04AM",
+  "why": "Classic Ursula K. Le Guin essay on meaning; hits your taste for deep, intentional living philosophy."
  },
  {
-  "rank": 3,
+  "rank": 8,
+  "kept": true,
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "learningandtheb",
+  "via": "C_Hendrick",
+  "text": "“Teach big words to little kids, and do it interestingly.” @C_Hendrick explores this fascinating advice: bit.ly/42JAYex (Shoutout to @NateJo",
+  "why": "Perfect intersection of parenting and learning science; actionable advice on vocabulary acquisition for kids."
+ },
+ {
+  "rank": 9,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "circular finance, with numbers, a worked example. Posted Jun 6, 2026 at 10:05PM",
+  "why": "Strong mathematical breakdown of the costs behind hyperscaler AI deals; great anti-hype counterweight."
+ },
+ {
+  "rank": 10,
+  "kept": false,
+  "score": 7,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "it’s a bad day when @scaling01 goes all Gary Marcus on the media 🤣 Posted Jun 6, 2026 at 9:47PM",
+  "why": "Great specific example of how media distorts AI capabilities; a highly rational anti-hype breakdown."
+ },
+ {
+  "rank": 11,
+  "kept": true,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "natolambert",
+  "via": null,
+  "text": "Something to show people that don't get AI safety at least a little bit. We have so much we don't know and don't currently control in the mo",
+  "why": "Fascinating edge-case in model behavior and evals, showing how models hallucinate when forced to restore non-existent data."
+ },
+ {
+  "rank": 12,
+  "kept": true,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Ford was right Posted Jun 6, 2026 at 11:02PM",
+  "why": "A neat historical artifact contrasting Gandhi and Ford on mass production; good context for economic progress."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "anyone who wants to put money into OpenAI’s IPO should think again. the talent is voting with its feet, and has been for several years. Post",
+  "why": "Interesting signal on frontier lab talent dynamics and the state of custom AI chip programs."
+ },
+ {
+  "rank": 14,
   "kept": true,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Remembering Henry Miller, who returned his borrowed stardust on this day in 1980, with his immortal wisdom on the secret to growth in art an",
-  "why": "Maria Popova's curation on Henry Miller's philosophy of growth in art and life fits your contemplative interests."
+  "text": "Archives of Joy – wonderful meditation on animals and the nature of being themarginalian.org/2023/06/25/arc… Posted Jun 6, 2026 at 9:32PM",
+  "why": "A solid contemplative meditation on the nature of being and animals."
  },
  {
-  "rank": 4,
+  "rank": 15,
   "kept": false,
   "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
   "text": "\"The gun will wait. The lake will wait. The tall gall in the small seductive vial will wait will wait\" On Gwendolyn Brooks's birthday, her l",
-  "why": "A beautiful poetic reflection from The Marginalian, though slightly less aligned with your core builder/agency focus."
+  "why": "A beautiful contemplative poem, but lacks the density of insight needed for a top daily read."
  },
  {
-  "rank": 5,
+  "rank": 16,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The human age is dying, the machine age is struggling to be born Posted Jun 6, 2026 at 11:56PM",
+  "why": "Standard demographic news on fertility rates; the commentary is a bit too doomer/hype-adjacent."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "JohnDSailer",
+  "via": "Noahpinion",
+  "text": "NEW: a report from Vanderbilt and WashU just dropped, taking on the \"state of scholarship in the humanities and social sciences,\" a big topi",
+  "why": "Academic report on the humanities; borders on culture-war topics but maintains an educational focus."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "MittRomney",
+  "via": "davideoks",
+  "text": "Our highest and most urgent national priority should be AI safeguards. The risks of AI weapons, pathogens, mass unemployment, surveillance, ",
+  "why": "Standard political statement on AI safety; lacks the technical or philosophical depth you usually look for."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How flamingos got their pink themarginalian.org/2026/03/30/fla… Posted Jun 6, 2026 at 10:20PM",
+  "why": "A nice piece of natural history, but not quite the high-density insight needed for today's top reads."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "At the link, the best of The Marginalian this week in one place – the necessary qualifications of a great storyteller, the only three distin",
+  "why": "A newsletter roundup link rather than a standalone essay; better to read the individual pieces."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Anti-Indian content in Singapore was found to be astroturfed by China. Wonder about anti-Indian content in the U.S... 🤔 Posted Jun 6, 2026 a",
+  "why": "Interesting note on disinformation, but falls outside your core focus areas of AI, econ, and education."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "JEyal_RUSI",
+  "via": "Noahpinion",
+  "text": "Excellent podcast, exposing - perhaps unwittingly - the relative poverty and cliche-ridden world of the West's China experts. @jessicacweiss",
+  "why": "Mostly punditry complaining about other pundits; lacks the substantive progress/econ analysis you prefer."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "hedgedguy",
+  "via": "GaryMarcus",
+  "text": "Elon Musk has promised that fully self driving Teslas are one year away, every single year, for almost a decade. 2016, a coast to coast auto",
+  "why": "Valid critique of FSD promises, but it's a well-worn topic without new data or novel analysis."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "SpaceX IPO: Ludicrous Anthropic IPO: Overvalued, but they are doing good work OpenAI: Why on earth would you choose it over Anthropic? Regis",
+  "why": "Skepticism without rigorous numbers; mostly just punditry and speculation about valuations."
+ },
+ {
+  "rank": 25,
   "kept": false,
   "score": 2,
   "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
   "text": "Imaginary conversations that might actually have happened Act I Sam: We missed all our metrics, Anthropic and Google have gained on us. Give",
-  "why": "Pure cynical dunking on OpenAI without substantive analysis or real numbers; violates the anti-hype rule."
+  "why": "Pure snark without substance or real numbers; violates the anti-hype rule requiring rigorous analysis."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "trevin",
+  "via": "danshipper",
+  "text": "We just hit 20K stars for the Compound Engineering repo! github.com/EveryInc/compo… Posted Jun 6, 2026 at 10:19PM",
+  "why": "Pure milestone announcement with no substantive insight or technical depth."
  }
 ]

@@ -187,8 +187,10 @@ def score_with_gemini(candidates, cfg):
                 "score": {"type": "NUMBER"},
                 "why": {"type": "STRING"},
                 "topic": {"type": "STRING", "enum": cfg["topics"]},
+                "value_in": {"type": "STRING", "enum": ["content", "link"]},
+                "link_url": {"type": "STRING"},
             },
-            "required": ["id", "score", "why", "topic"],
+            "required": ["id", "score", "why", "topic", "value_in"],
         },
     }
     body = {
@@ -215,14 +217,58 @@ def score_with_gemini(candidates, cfg):
     return {s["id"]: s for s in json.loads(text)}
 
 
+# ---------- amplification ledger ----------
+
+AMPLIFIED_PATH = HERE / "data" / "amplified.jsonl"
+
+
+def log_amplifications(entries, scored, list_members):
+    """Append-only record of non-list accounts that list members amplified
+    (retweeted or quote-tweeted). Over months this becomes the candidate
+    pool for list expansion — see report_amplified.py.
+
+    retweet: amplified = original author, via = the member who RT'd it.
+    quote:   amplified = the quoted account, via = the member who quoted it.
+    """
+    members = {h.lower() for h in list_members}
+    rows = []
+    for e in entries:
+        pairs = []
+        if e["retweeted_by"] and e["author"]:
+            pairs.append(("retweet", e["author"], e["retweeted_by"]))
+        if e["quoted_author"] and e["author"]:
+            pairs.append(("quote", e["quoted_author"], e["author"]))
+        for relation, amplified, via in pairs:
+            if not amplified or amplified.lower() in members or amplified.lower() == via.lower():
+                continue
+            s = scored.get(e["tweet_id"], {})
+            rows.append({
+                "tweet_id": e["tweet_id"], "date": e.get("_date"), "edition": e.get("_edition"),
+                "amplified": amplified, "via": via, "relation": relation,
+                "kind": e["kind"], "score": s.get("score"),
+                "text": (e["quoted_text"] if relation == "quote" else e["text"])[:200],
+            })
+    if rows:
+        AMPLIFIED_PATH.parent.mkdir(exist_ok=True)
+        with open(AMPLIFIED_PATH, "a") as f:
+            for r in rows:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    return len(rows)
+
+
 # ---------- readwise actions ----------
 
-def save_target(entry):
-    """What URL to save for a keeper: the article itself when the tweet is
-    just a pointer; otherwise the tweet (threads auto-unroll on save)."""
-    clean_links = [l for l in entry["links"] if not l.startswith("https://t.co")]
-    if entry["kind"] == "link" and entry["words"] < 60 and len(clean_links) == 1:
-        return clean_links[0]
+def save_target(entry, score):
+    """What URL to save for a keeper. The LLM decides where the value lives:
+    value_in == "link" -> save the linked article directly (Readwise fetches +
+    renders it clean); otherwise save the tweet (threads auto-unroll on save).
+    Falls back to the tweet if the LLM's chosen URL isn't actually present."""
+    links = entry["links"]  # already excludes tweet domains + t.co wrappers
+    if score.get("value_in") == "link" and links:
+        chosen = score.get("link_url") or ""
+        if chosen in links:
+            return chosen
+        return links[0]  # LLM judged the link is the substance; echo mismatched -> first real link
     return f"https://twitter.com/{entry['author']}/status/{entry['tweet_id']}"
 
 
@@ -254,6 +300,10 @@ def main():
     entries, seen_ids = [], set(state["saved_tweets"])
     for d in digests:
         parsed = parse_digest(d.get("html_content") or "")
+        edition = "PM" if "PM Edition" in (d.get("title") or "") else "AM"
+        date = (d.get("saved_at") or "")[:10]
+        for e in parsed:
+            e["_edition"], e["_date"] = edition, date
         print(f"  {d['title']}: {len(parsed)} entries")
         entries += parsed
     uniq = {}
@@ -291,8 +341,10 @@ def main():
     for k in keepers:
         s = scored[k["tweet_id"]]
         via = f" (via @{k['retweeted_by']})" if k["retweeted_by"] else ""
+        tgt = save_target(k, s)
+        kind = "🔗 article" if tgt.startswith("http") and "/status/" not in tgt else "🐦 tweet"
         print(f"  [{s['score']:.0f}] {s['topic']:20} @{k['author']}{via}: {k['text'][:70]}")
-        print(f"        -> {save_target(k)}")
+        print(f"        -> [{kind}] {tgt}")
         print(f"        {s['why']}")
 
     if args.dry_run:
@@ -303,7 +355,7 @@ def main():
     for k in keepers:
         s = scored[k["tweet_id"]]
         http("POST", f"{READER_API}/save/", token=token, body={
-            "url": save_target(k),
+            "url": save_target(k, s),
             "location": cfg.get("keeper_location", "feed"),
             "tags": cfg["keeper_tags"] + [s["topic"]],
             "saved_using": "twitter-curation",
@@ -322,7 +374,12 @@ def main():
         for i, c in enumerate(ranked, 1)
     ], indent=1, ensure_ascii=False))
 
-    # 6. archive the digests themselves
+    # 6. record amplifications (non-list accounts that members RT'd/QT'd) for future list expansion
+    list_members = (HERE / "list-members.txt").read_text().split()
+    n_amp = log_amplifications(entries, scored, list_members)
+    print(f"logged {n_amp} amplification events")
+
+    # 7. archive the digests themselves
     if cfg["archive_digest"]:
         for d in digests:
             http("PATCH", f"{READER_API}/update/{d['id']}/", token=token, body={"location": "archive"})

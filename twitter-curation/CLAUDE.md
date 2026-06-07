@@ -9,10 +9,19 @@ keeps only the best 5–10 per day.
 (`category=rss`, ~80-120 embedded tweets). The job parses the digest into entries
 (incl. RTs/quote-tweets by members — amplification is signal) → prefilter (threads,
 link-tweets, long posts ≥100 words; short posts dropped) → Gemini scores 0–10 via
-`prompt.md` → top `keep_count` saved **individually** via `POST /save/` with the tweet
-URL (Readwise renders clean + auto-unrolls threads; bare link-tweets save the article
-URL instead), tagged `shortlist`+`curated`+topic into Inbox → digest doc archived.
-State in `data/seen.json` (committed back by CI).
+`prompt.md` → top `keep_count` (score floor `min_score`, max `source_cap` per
+author/RTer) saved **individually** via `POST /save/`, tagged `shortlist`+`curated`+topic
+into `keeper_location` → digest doc archived. State in `data/seen.json` (committed by CI).
+
+**What gets saved (`value_in`)**: the LLM judges per item whether the value is in the
+tweet/thread itself (`value_in: content` → save the tweet, threads auto-unroll) or in a
+linked article (`value_in: link` → save that URL so Readwise fetches it as a clean
+article). Handles the "great RT/QT of someone's link" case — the article lands, not the stub.
+
+**Amplification ledger**: every run appends to `data/amplified.jsonl` the non-list accounts
+that list members RT'd/quote-tweeted (amplified handle, which member, relation, score).
+`python report_amplified.py` ranks them by # of distinct amplifiers — the organic
+candidate pool for expanding the list. Run it every month or two.
 
 ## Stack & files
 
