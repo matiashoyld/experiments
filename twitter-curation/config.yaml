@@ -6,7 +6,7 @@ list_url_match: "i/lists/2063490581108830659"
 
 # How many items survive each run (cron runs 2x/day -> ~2x this per day)
 keep_count: 10         # hard cap per run
-min_score: 6           # don't keep anything below this even if under cap
+min_score: 5           # don't keep anything below this even if under cap
 source_cap: 2          # max keepers per author-or-retweeter per run (stops firehose RTers dominating)
 
 # Where keepers land: 'feed' (skim with other subscriptions) or 'new' (Inbox)

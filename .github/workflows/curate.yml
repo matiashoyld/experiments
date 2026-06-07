@@ -2,8 +2,11 @@ name: twitter-curation
 
 on:
   schedule:
-    # ~09:30 and 21:30 Pacific (16:30 / 04:30 UTC during PDT) — after Reader's AM/PM digests
-    - cron: "30 4,16 * * *"
+    # After Reader's AM/PM digests (UTC). Multiple catch-up slots per window because
+    # GitHub delays scheduled jobs 30-90min; extra runs are no-ops (digest already processed).
+    # AM window (~05:00-06:00 UTC digest): 05:30, 07:00, 08:30
+    # PM window (~16:00-17:00 UTC digest): 16:30, 18:00, 19:30
+    - cron: "30 5,7,8,16,18,19 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

@@ -3,70 +3,50 @@
   "rank": 1,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "danwilliamsphil",
-  "via": "random_walker",
-  "text": "Yes, although it's not just the pace of change. The nature of change is very different. The main things bottlenecking human change are rarel",
-  "why": "Brilliant critique: human progress is bottlenecked by institutions and incentives, not raw intelligence. Top-tier substantive skepticism."
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Last one for a while: registerspill.thorstenball.com/p/joy-and-curi… Posted Jun 7, 2026 at 8:07AM",
+  "why": "Thorsten Ball on joy and curiosity in software engineering perfectly hits your builder-craft and agency intersections."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 7,
-  "topic": "rationality",
-  "author": "asmartbear",
-  "via": null,
-  "text": "When you know the probability distribution of something, you can make rational bets. Like Poker. Some say like some financial markets. When ",
-  "why": "Jason Cohen on navigating true uncertainty vs risk by increasing your shots on goal. Great applied rationality for builders."
- },
- {
-  "rank": 3,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Last one for a while: registerspill.thorstenball.com/p/joy-and-curi… Posted Jun 7, 2026 at 8:07AM",
-  "why": "Thorsten Ball writes great essays on software craft, but this is a bare link with zero context to judge the underlying piece."
- },
- {
-  "rank": 4,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Remembering Henry Miller, who returned his borrowed stardust on this day in 1980, with his immortal wisdom on the secret to growth in art an",
-  "why": "Classic Marginalian curation on Henry Miller's philosophy of artistic growth, but a bit light on deep original synthesis for today."
- },
- {
-  "rank": 5,
-  "kept": false,
-  "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
   "text": "“If you can fall in love again and again… if you can forgive as well as forget, if you can keep from growing sour, surly, bitter and cynical",
-  "why": "A nice contemplative quote on aging well, but it's just a short excerpt and link without the density of insight you prefer."
+  "why": "Excellent contemplative essay on aging, intentional living, and avoiding bitterness from The Marginalian."
  },
  {
-  "rank": 6,
+  "rank": 3,
+  "kept": true,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Remembering Henry Miller, who returned his borrowed stardust on this day in 1980, with his immortal wisdom on the secret to growth in art an",
+  "why": "Maria Popova's curation on Henry Miller's philosophy of growth in art and life fits your contemplative interests."
+ },
+ {
+  "rank": 4,
   "kept": false,
-  "score": 3,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
   "text": "\"The gun will wait. The lake will wait. The tall gall in the small seductive vial will wait will wait\" On Gwendolyn Brooks's birthday, her l",
-  "why": "A beautiful poem, but lacks the analytical depth or long-form insight you usually look for in your daily reading."
+  "why": "A beautiful poetic reflection from The Marginalian, though slightly less aligned with your core builder/agency focus."
  },
  {
-  "rank": 7,
+  "rank": 5,
   "kept": false,
   "score": 2,
-  "topic": "ai-essays",
+  "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
   "text": "Imaginary conversations that might actually have happened Act I Sam: We missed all our metrics, Anthropic and Google have gained on us. Give",
-  "why": "Pure anti-hype dunking without substantive analysis or real numbers. Violates the rule that skepticism must carry substance."
+  "why": "Pure cynical dunking on OpenAI without substantive analysis or real numbers; violates the anti-hype rule."
  }
 ]
