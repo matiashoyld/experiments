@@ -1,0 +1,46 @@
+name: twitter-curation
+
+on:
+  schedule:
+    # ~09:30 and 21:30 Pacific (16:30 / 04:30 UTC during PDT) — after Reader's AM/PM digests
+    - cron: "30 4,16 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no writes to Readwise)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: twitter-curation
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r twitter-curation/requirements.txt
+
+      - name: Curate
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python twitter-curation/curate.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add twitter-curation/data/seen.json
+          git diff --cached --quiet || git commit -m "twitter-curation: update seen state [skip ci]"
+          git push

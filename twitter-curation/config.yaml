@@ -1,0 +1,37 @@
+# Twitter → Readwise Reader curation pipeline
+# See CLAUDE.md for how this works.
+
+# How many items survive each run
+keep_count: 8          # hard cap per run
+min_score: 6           # don't keep anything below this even if under cap
+
+# Prefilter: what competes for scoring at all
+min_word_count: 100    # single posts shorter than this (and not threads/link-tweets) auto-archive
+
+# How far back to look on each run (hours). Seen-ID state dedupes overlap.
+lookback_hours: 26
+
+# What happens to non-keepers: archive (true) or leave in Feed (false)
+archive_nonkeepers: true
+
+# Tags applied to keepers. 'shortlist' feeds Reader's built-in Shortlist view.
+keeper_tags:
+  - shortlist
+  - curated
+
+# Topic tags the scorer can assign (one per item)
+topics:
+  - ai-engineering
+  - frontier-ai
+  - ai-essays
+  - rationality
+  - agency
+  - contemplative
+  - tools-for-thought
+  - parenting-education
+  - econ-progress
+  - builders-craft
+  - spanish-ai
+
+# Gemini model for scoring
+model: gemini-3.1-pro-preview

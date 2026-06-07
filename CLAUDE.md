@@ -87,3 +87,4 @@ https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/m
 | `voter-chart-chile/` | Chile voter demographics analysis chart | Python (pandas, matplotlib) | — |
 | `costco-checklist/` | Costco shopping checklist for kids | HTML/CSS/JS | [htmlpreview](https://htmlpreview.github.io/?https://github.com/matiashoyld/experiments/blob/main/costco-checklist/index.html) |
 | `wonder-weeks/` | Baby development tracker | Next.js | https://wonder-weeks.vercel.app |
+| `twitter-curation/` | Daily LLM curation of X list "Signal" into Readwise Reader Shortlist | Python, Gemini, GitHub Actions cron | — |
