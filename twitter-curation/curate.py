@@ -140,6 +140,7 @@ def score_with_gemini(candidates, cfg):
             "responseMimeType": "application/json",
             "responseSchema": schema,
             "temperature": 0.1,
+            "thinkingConfig": {"thinkingLevel": cfg.get("thinking_level", "high")},
         },
     }
     url = (
