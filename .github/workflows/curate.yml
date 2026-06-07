@@ -39,8 +39,10 @@ jobs:
 
       - name: Commit state
         run: |
+          [ -f twitter-curation/data/seen.json ] || exit 0
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add twitter-curation/data/seen.json
-          git diff --cached --quiet || git commit -m "twitter-curation: update seen state [skip ci]"
+          git diff --cached --quiet && exit 0
+          git commit -m "twitter-curation: update seen state [skip ci]"
           git push
