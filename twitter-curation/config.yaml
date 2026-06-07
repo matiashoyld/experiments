@@ -1,18 +1,21 @@
 # Twitter → Readwise Reader curation pipeline
 # See CLAUDE.md for how this works.
 
-# How many items survive each run
-keep_count: 8          # hard cap per run
+# The X List digest to process (matched against doc source_url)
+list_url_match: "i/lists/2063490581108830659"
+
+# How many items survive each run (cron runs 2x/day -> ~2x this per day)
+keep_count: 5          # hard cap per run
 min_score: 6           # don't keep anything below this even if under cap
 
-# Prefilter: what competes for scoring at all
-min_word_count: 100    # single posts shorter than this (and not threads/link-tweets) auto-archive
+# Prefilter: entries shorter than this (and not threads/link-tweets) are dropped unscored
+min_word_count: 100
 
-# How far back to look on each run (hours). Seen-ID state dedupes overlap.
+# How far back to look for digest docs (hours). Processed-digest state dedupes overlap.
 lookback_hours: 26
 
-# What happens to non-keepers: archive (true) or leave in Feed (false)
-archive_nonkeepers: true
+# Archive the digest doc after processing (so the firehose never hits the eyes)
+archive_digest: true
 
 # Tags applied to keepers. 'shortlist' feeds Reader's built-in Shortlist view.
 keeper_tags:

@@ -5,10 +5,14 @@ ingests the public X List ["Signal"](https://x.com/i/lists/2063490581108830659) 
 accounts) into the Reader Feed; this job scores each new item against Matias's taste and
 keeps only the best 5–10 per day.
 
-**Pipeline**: Reader Feed (`location=feed`, `category=tweet`) → prefilter (only unrolled
-threads, link-tweets, and long posts ≥100 words; short standalone posts auto-archive) →
-Gemini scores 0–10 via `prompt.md` → top `keep_count` get tags `shortlist`+`curated`+topic
-and move to Inbox → rest archived. Seen-IDs state in `data/seen.json` (committed back by CI).
+**Pipeline**: Readwise delivers the list as ONE digest doc per AM/PM edition
+(`category=rss`, ~80-120 embedded tweets). The job parses the digest into entries
+(incl. RTs/quote-tweets by members — amplification is signal) → prefilter (threads,
+link-tweets, long posts ≥100 words; short posts dropped) → Gemini scores 0–10 via
+`prompt.md` → top `keep_count` saved **individually** via `POST /save/` with the tweet
+URL (Readwise renders clean + auto-unrolls threads; bare link-tweets save the article
+URL instead), tagged `shortlist`+`curated`+topic into Inbox → digest doc archived.
+State in `data/seen.json` (committed back by CI).
 
 ## Stack & files
 
@@ -29,8 +33,11 @@ CI secrets `READWISE_TOKEN` + `GEMINI_API_KEY` are set on the repo.
 
 ## Notes
 
-- IMPORTANT: only touches `category=tweet` in the Feed — Matias's newsletter feeds
-  (category=email) share the same Feed location and must never be archived by this job.
-- Reader API: list/bulk = 20 req/min, update = 50 req/min; `withHtmlContent=true` for body.
+- IMPORTANT: only touches docs whose `source_url` matches `list_url_match` (the Signal
+  list digest) — Matias's newsletter/RSS feeds share the Feed location and must never
+  be archived by this job.
+- Saving a tweet URL auto-unrolls threads (verified: 1-tweet save → 2,510-word doc).
+  Re-saving the same URL dedupes to the same doc (safe).
+- Reader API: list/bulk = 20 req/min, save/update = 50 req/min; `withHtmlContent=true` for body.
 - `data-saved-tweets.json` (gitignored) = his 116 manually saved tweets; taste calibration data.
 - Full project context lives in the brain: `~/brain/personal/01_projects/05_twitter_curation/`.
