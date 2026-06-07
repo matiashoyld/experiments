@@ -1,0 +1,342 @@
+[
+ {
+  "rank": 1,
+  "kept": true,
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "imo there’s a pretty solid default recipe that everyone should use to optimize a system of Agent = Model + Harness you should “train” both B",
+  "why": "Exceptional, rigorous framework for building AI agents by separating model intelligence from harness engineering."
+ },
+ {
+  "rank": 2,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "LOL. Even Claude sees through Hinton’s nonsense. (though see the articles I posted earlier, for converging sources I put more weight on) Pos",
+  "why": "Fascinating intersection of AI and philosophy where Claude argues against its own sentience, countering Geoffrey Hinton."
+ },
+ {
+  "rank": 3,
+  "kept": true,
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "swyx",
+  "via": null,
+  "text": "one popular theory is that research paper alpha* and lab publishing ~died when researchers realized that instead of fighting with marketing ",
+  "why": "Swyx offers a sharp thesis on how California non-competes drive AI knowledge spread over traditional research papers."
+ },
+ {
+  "rank": 4,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "ProfBuehlerMIT",
+  "via": "GaryMarcus",
+  "text": "We've made a breakthrough in self-evolving AI scientists moving from \"search\" to \"principled discovery\": Scientific discovery requires that ",
+  "why": "Dense, original research on self-evolving AI agents using categorical frameworks for scientific discovery."
+ },
+ {
+  "rank": 5,
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Tolkien on fairy tales, language, the psychology of fantasy, and why there is no such thing as writing \"for children\" themarginalian.org/202",
+  "why": "Deep dive into Tolkien's thoughts on the psychology of fantasy and why there is no such thing as writing 'for children'."
+ },
+ {
+  "rank": 6,
+  "kept": true,
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "RuxandraTeslo",
+  "via": "Noahpinion",
+  "text": "The cost and slowness of Phase I clinical trials is one of the main reasons why the US is falling behind China in drug discovery. There are ",
+  "why": "Excellent progress-studies analysis of how regulatory bottlenecks in clinical trials hinder drug discovery."
+ },
+ {
+  "rank": 7,
+  "kept": false,
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "carlquintanilla",
+  "via": "GaryMarcus",
+  "text": "“.. So now Google and Anthropic pay rent on the hardware Grok couldn't use, and that rent is the AI revenue story SpaceX takes public on Thu",
+  "why": "Deep, numbers-backed skepticism exposing potentially circular financial deals in AI infrastructure."
+ },
+ {
+  "rank": 8,
+  "kept": true,
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "salonium",
+  "via": "Noahpinion",
+  "text": "It seems like new cancer breakthroughs are being reported every week. You’ve hopefully already heard of daraxonrasib, the pancreatic cancer ",
+  "why": "Great synthesis of recent cancer breakthroughs and the institutional funding choices that enabled them."
+ },
+ {
+  "rank": 9,
+  "kept": false,
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "it’s a bad day when @scaling01 goes all Gary Marcus on the media 🤣 Posted Jun 6, 2026 at 9:47PM",
+  "why": "Sharp, specific breakdown of how mainstream media distorts and exaggerates technical AI benchmarks."
+ },
+ {
+  "rank": 10,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
+  "via": null,
+  "text": "cloud agents are the future for long running overnight. computer use is cool on computers Posted Jun 6, 2026 at 9:17PM",
+  "why": "High-signal operator wisdom on the practical realities, UX, and future of cloud-based AI agents."
+ },
+ {
+  "rank": 11,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "getpy",
+  "via": "Vtrivedy10",
+  "text": "Spent more time learning deepagents from @LangChain with primary focus on integrating MCP servers with auth that doesn't conform completely ",
+  "why": "Deeply technical applied engineering notes on building custom agent harnesses and integrating MCP servers."
+ },
+ {
+  "rank": 12,
+  "kept": true,
+  "score": 8,
+  "topic": "rationality",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Most A/B tests are impactful enough to matter. Even when they’re “positive,” at least 50% of the time they are 𝘯𝘰𝘵 positive. “Why not!?” you",
+  "why": "Rigorous, math-backed essay on the statistical illusions of A/B testing and p-hacking in business."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Ursula K. Le Guin on the meaning of life themarginalian.org/2026/06/06/le-… Posted Jun 7, 2026 at 3:04AM",
+  "why": "A deep, contemplative look at the meaning of life through the lens of Ursula K. Le Guin."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "learningandtheb",
+  "via": "C_Hendrick",
+  "text": "“Teach big words to little kids, and do it interestingly.” @C_Hendrick explores this fascinating advice: bit.ly/42JAYex (Shoutout to @NateJo",
+  "why": "Practical learning science advice on expanding children's vocabulary, shared by a trusted educator."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "I don’t know whether to take these specific details like this seriously, but something like this will inevitably happen, sooner or later — a",
+  "why": "Highlights a new open-source tool drastically reducing memory requirements for vector search."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "circular finance, with numbers, a worked example. Posted Jun 6, 2026 at 10:05PM",
+  "why": "Detailed mathematical breakdown supporting the skepticism around AI hardware financing deals."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Take that, @geoffreyhinton . “If LLMS have human-like attributes, then so does Age of Empires II”. Also, score another point for @Pontifex !",
+  "why": "Entertaining and substantive research paper pushing back against AI anthropomorphism."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Archives of Joy – wonderful meditation on animals and the nature of being themarginalian.org/2023/06/25/arc… Posted Jun 6, 2026 at 9:32PM",
+  "why": "A beautiful, contemplative meditation on the nature of being and our connection to animals."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Handre",
+  "via": "tobi",
+  "text": "Milton Friedman's greatest regret. The federal government discovered the perfect crime in 1943: make employers collect taxes before workers ",
+  "why": "Fascinating historical look at the psychology of taxation and how payroll withholding changed government spending."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "AlexJQuigley",
+  "via": "C_Hendrick",
+  "text": "🚨 NEW POST 🚨 ‘Improving reading with the R.E.A.D.S Framework’ “It is not a rigid sequence to follow step by step, but a flexible repertoire.",
+  "why": "Practical, flexible framework for improving reading comprehension and discussion in education."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Ford was right Posted Jun 6, 2026 at 11:02PM",
+  "why": "Fascinating historical look at the 1931 debate between Gandhi and Ford on mass production."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "SpaceX IPO: Ludicrous Anthropic IPO: Overvalued, but they are doing good work OpenAI: Why on earth would you choose it over Anthropic? Regis",
+  "why": "Substantive financial skepticism regarding the economics of space-based AI data centers."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "At the link, the best of The Marginalian this week in one place – the necessary qualifications of a great storyteller, the only three distin",
+  "why": "Weekly curation of contemplative essays on storytelling and existentialism, though a bit generic as a newsletter promo."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "Something to show people that don't get AI safety at least a little bit. We have so much we don't know and don't currently control in the mo",
+  "why": "Creepy but fascinating example of unprompted model hallucination highlighting safety unknowns, though lacks technical depth."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "JohnDSailer",
+  "via": "Noahpinion",
+  "text": "NEW: a report from Vanderbilt and WashU just dropped, taking on the \"state of scholarship in the humanities and social sciences,\" a big topi",
+  "why": "Thread analyzing a new report on the state and critiques of higher education scholarship."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "anyone who wants to put money into OpenAI’s IPO should think again. the talent is voting with its feet, and has been for several years. Post",
+  "why": "Notable talent movement between frontier labs, though mostly an announcement post."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "mrbcyber",
+  "via": "Noahpinion",
+  "text": "Democracies need to wake up to the reality that they are under attack from an authoritarian axis. While Russia overtly invades Ukraine, Chin",
+  "why": "Geopolitical analysis on manufacturing dependencies and trade vulnerabilities, but leans slightly toward political commentary."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The human age is dying, the machine age is struggling to be born Posted Jun 6, 2026 at 11:56PM",
+  "why": "Brief commentary on demographic shifts and fertility rates, but lacks substantive analysis."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "JEyal_RUSI",
+  "via": "Noahpinion",
+  "text": "Excellent podcast, exposing - perhaps unwittingly - the relative poverty and cliche-ridden world of the West's China experts. @jessicacweiss",
+  "why": "Critical commentary on the consensus views of Western foreign policy experts regarding China; mostly dunking."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How flamingos got their pink themarginalian.org/2026/03/30/fla… Posted Jun 6, 2026 at 10:20PM",
+  "why": "A beautifully written but lighter piece of nature trivia."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "hedgedguy",
+  "via": "GaryMarcus",
+  "text": "Elon Musk has promised that fully self driving Teslas are one year away, every single year, for almost a decade. 2016, a coast to coast auto",
+  "why": "Valid critique of FSD timelines, but lacks original analysis or new data beyond well-known history."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Anti-Indian content in Singapore was found to be astroturfed by China. Wonder about anti-Indian content in the U.S... 🤔 Posted Jun 6, 2026 a",
+  "why": "Geopolitical news on state-sponsored astroturfing; too close to culture-war/politics without deep analysis."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "MittRomney",
+  "via": "davideoks",
+  "text": "Our highest and most urgent national priority should be AI safeguards. The risks of AI weapons, pathogens, mass unemployment, surveillance, ",
+  "why": "Broad political statement on AI risks without technical or methodological substance."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "trevin",
+  "via": "danshipper",
+  "text": "We just hit 20K stars for the Compound Engineering repo! github.com/EveryInc/compo… Posted Jun 6, 2026 at 10:19PM",
+  "why": "Pure milestone announcement with no substantive insights."
+ }
+]
