@@ -2,341 +2,451 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "tools-for-thought",
-  "author": "geoffreylitt",
-  "via": null,
-  "text": "How I made an agent that buys our groceries, runs the family budget, and is planning a move: Posted Jun 8, 2026 at 1:14AM",
-  "why": "Brilliant intersection of AI agents, personal knowledge management, and family logistics."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": "eugeneyan",
+  "text": "It's finally out!!! @METR_Evals found that more than half of SWEBench results is unmergeable slop.  FrontierCode represents over 1000+ hours",
+  "why": "Swyx synthesizes the saturation of coding evals and the shift toward measuring maintainable code. High-signal evals discipline."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 10,
-  "topic": "tools-for-thought",
-  "author": "geoffreylitt",
-  "via": null,
-  "text": "I've always struggled with \"life admin\" work. And becoming a parent made it harder: more random stuff, less free time. In theory, the answer",
-  "why": "Brilliant intersection of AI agents, personal knowledge management, and family logistics."
+  "score": 9,
+  "topic": "agency",
+  "author": "itsreallyvivek",
+  "via": "jackclarkSF",
+  "text": "the anthropic co-founder jack clark advice that stuck with me: read the primary material. not the summary. not what the ai said about it. th",
+  "why": "Profound advice on preserving human agency, original thought, and intentional living in the age of AI."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "bcherny",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips for running Opus autonomously for hours/days: ",
-  "why": "Highly practical, dense tips for running long-horizon autonomous AI agents."
+  "text": "So unsurprisingly, Pi throwing up an approval prompt once per project is somewhat controversial. After all, we famously prompt approval-free",
+  "why": "Armin Ronacher details the security trade-offs and prompt injection risks in autonomous coding agents. High-signal builder craft."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "petergyang",
+  "author": "trevin",
   "via": "kieranklaassen",
-  "text": "I’m trying to become a better AI builder and have been lucky enough to interview 5 of the best: @kieranklaassen built the Compound Engineeri",
-  "why": "Great curation of practical workflows and system prompts from top AI builders."
+  "text": "It's been over a month since I published a longer form release announcement for Compound Engineering .  The last one was May 1, and with so ",
+  "why": "Deep dive into agentic system architecture, focusing on shared repo vocabulary and better planning loops."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "arjunkhemani",
-  "via": "naval",
-  "text": "In the long run, civilizations are built by people who create new knowledge. Zcash keeps attracting them. Over the past decade the project h",
-  "why": "Excellent deep-dive into the world-class cryptography builders behind Zcash and ZK proofs."
+  "topic": "ai-engineering",
+  "author": "trevin",
+  "via": "kieranklaassen",
+  "text": "Lots of talk about self improving loops (and “/loop”). In case it’s helpful, here’s a real world example. For complex workflows, I’ll have t",
+  "why": "Practical, high-signal example of self-improving agent loops using interim artifacts and reflection."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "frontier-ai",
+  "author": "natolambert",
   "via": null,
-  "text": "really like this take imo Continual Learning & long-horizon agent improvement is in large part a Data Mining problem this is a purposefully ",
-  "why": "Strong thesis on how agent improvement is fundamentally a data mining and trace analysis problem."
+  "text": "I feel like the obsession with continual learning / sample efficiency leads the field in the wrong direction. It's the bad career strategy o",
+  "why": "Strong counter-argument on AI research directions, advocating for scaling over sample efficiency. Great frontier AI debate."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "parenting-education",
-  "author": "RuthJoy96960173",
-  "via": "C_Hendrick",
-  "text": "Two of us in my education department required a lot of writing in our courses and considered it part of our job to teach the students - - es",
-  "why": "Great pedagogical insight applying the 'science of reading' framework to explicit writing instruction."
+  "author": "DKThomp",
+  "via": "Noahpinion",
+  "text": "Earlier this year, I was very skeptical of the claim that smartphones reduced birthrates, because fertility declined so, so long before the ",
+  "why": "Derek Thompson synthesizes the emerging consensus on smartphones driving the fertility collapse."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "We hear a lot about the science of reading but is there a science of writing? There are a lot of bad ideas in this space but one idea that w",
-  "why": "Great pedagogical insight applying the 'science of reading' framework to explicit writing instruction."
+  "topic": "econ-progress",
+  "author": "JesusFerna7026",
+  "via": "Noahpinion",
+  "text": "Thailand has one of the lowest total fertility rates (TFR) in the world. In 2025, the TFR was 0.87, and the preliminary numbers for the firs",
+  "why": "Excellent demographic analysis of Thailand as a case study for modernity without high income leading to fertility collapse."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "4 hours of \"how to think about VC\" books/blogs/videos condensed into a single tweet - recommended reading Posted Jun 7, 2026 at 9:56PM",
-  "why": "Excellent, clear-eyed breakdown of the structural incentives driving VC behavior."
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "alexolegimas",
+  "via": "Noahpinion",
+  "text": "This highlights a few under-appreciated aspects of AI and growth. 1) an increase from 2 to 2.5% growth has HUGE economic implications (and I",
+  "why": "Clear articulation of why small bumps in AI-driven growth compound into massive societal value."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "topic": "builders-craft",
+  "author": "dylan522p",
   "via": null,
-  "text": "Pakistan is crushing it on solar power 🇵🇰🇵🇰🇵🇰 Posted Jun 7, 2026 at 10:40PM",
-  "why": "Fascinating un-planned progress story about solar energy adoption in Pakistan."
+  "text": "Qualcomm is a piece of shit supplier to anyone trying to innovate on the edge, especially startups. My client is trying to buying ~500,000 o",
+  "why": "Ground-truth builder perspective on the hardware supply chain and edge AI chip market."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "marcosagusstinn",
+  "topic": "parenting-education",
+  "author": "CharlesFLehman",
   "via": "Noahpinion",
-  "text": "The idea that China’s industrial success has been built on free-market competition is false. In 2024 alone, China accounted for 52% of the $",
-  "why": "Substantive critique of free-market assumptions regarding China's industrial dominance."
+  "text": "Lots of people posting about this one. I want to draw your attention to one part of the paper: the argument that among other channels, the i",
+  "why": "Highlights the specific mechanism of pornography substitution in the smartphone-fertility debate."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Which programming language / framework should you use? Whatever you know best, so that you move as quickly as possible. If you don't know an",
-  "why": "Solid, pragmatic builder advice from a consistently high-signal author."
+  "topic": "econ-progress",
+  "author": "delong",
+  "via": "Noahpinion",
+  "text": "Replying to @delong ...more software artifacts and software-created information streams no one particularly needs… \"AI\" Is Eating Platform M",
+  "why": "Brad DeLong explores how AI might erode platform monopolist margins rather than eating the world."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "robkhenderson",
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "mmpiatkowski",
   "via": "Noahpinion",
-  "text": "\"Men with two children had an estimated brain age that was 0.6 years younger than their childless peers had, and for men with three children",
-  "why": "Fascinating finding on the neurological benefits of fatherhood, fitting your interest in parenting science."
+  "text": "A surprising finding: why is South Korea's 🇰🇷 labor productivity growth so low👇, below 1% per year, despite more than 5.1% of GDP spending o",
+  "why": "Fascinating economic puzzle regarding South Korea's low productivity despite massive AI and R&D investment."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 6,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "“Wherever life can grow, it will. It will sprout out, and do the best it can.” On Gwendolyn Brooks's birthday, her abiding wisdom on vulnera",
-  "why": "Timeless wisdom on the craft of writing and vulnerability."
+  "topic": "econ-progress",
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": ". @mattyglesias points to the problem of boring methodological debates, and argues \"high-quality descriptive work is pretty under-rated\" slo",
+  "why": "A defense of boring, rigorous methodological work in economic debates."
  },
  {
   "rank": 15,
-  "kept": false,
+  "kept": true,
   "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "At the link, the best of The Marginalian this week in one place — the only three distinctions between people, the necessary qualifications o",
-  "why": "A solid weekly roundup of contemplative essays, though the tweet itself is just a pointer."
+  "text": "Stipulating what you’re NOT going to do, is just as important as saying what you ARE going to do. Creates clarity, focus, and communicates t",
+  "why": "Solid operator wisdom on the strategic importance of explicitly defining what you won't do."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On Gauguin's birthday, his stirring first-hand account of what actually happened the  night his best friend Vincent van Gogh cut off his own",
-  "why": "A fascinating historical glimpse into the lives of two great artists."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "elidourado",
+  "via": "packyM",
+  "text": "Eli-bait article. Shame on Packy and @tsungxu for blatantly targeting me in this way. So excited for MOSAIC, autonomy, and new classes of ai",
+  "why": "Optimistic deep-dive into the regulatory and technological readiness for flying cars."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"You do not know What wars are going on Down there, where the spirit meets the bone\" Lucinda Williams (and her poet dad) on compassion thema",
-  "why": "A gentle contemplative reminder on compassion, though light on deep analysis."
+  "topic": "parenting-education",
+  "author": "TPCarney",
+  "via": "Noahpinion",
+  "text": "It's the phones. It's the phones for a hundred reasons. Here are a few: 1) Male consumption of porn reduces marriage (for like 10 reasons) 2",
+  "why": "Commentary on the phone/fertility debate, but leans a bit ranty compared to deeper analyses of the same paper."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 5,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Yes, attraction is highly subjective and individualized. A lot of people scream and kick and fight like hell against this basic truth, but t",
-  "why": "Interesting psychological data point, but lacks deep systemic analysis."
+  "topic": "econ-progress",
+  "author": "tbpn",
+  "via": "DKThomp",
+  "text": "The recent breakthrough in pancreatic cancer therapy isn't a cure. But it may be a pathway to one. Pancreatic cancer has miserable survival ",
+  "why": "Interesting medical progress update, but outside core focus areas."
  },
  {
   "rank": 19,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I do think monopoly power rose in the U.S., but there's a lot of evidence that the rise wasn't as big as initially believed, and some or all",
+  "why": "Brief commentary on monopoly power and network effects."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "simonw",
+  "via": null,
+  "text": "That's both OpenAI and Anthropic with confidential S-1s filed with the SEC - Anthropic filed theirs on June 1st Posted Jun 8, 2026 at 9:17PM",
+  "why": "News observation about AI lab S-1 filings; good to know but not a deep essay."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Ursula K. Le Guin on anger themarginalian.org/2017/12/05/urs… Posted Jun 8, 2026 at 9:09PM",
+  "why": "Contemplative link to Le Guin on anger, but lacks framing."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Pausing until we had a much firmer idea of how to make AI safe—and well-aligned with human values—might well be a good idea. but I trust nei",
+  "why": "AI skepticism and punditry regarding lab motives, but lacks substantive analysis or new data."
+ },
+ {
+  "rank": 23,
   "kept": false,
   "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The beginning and the end of war, in an Italian artist's stunning watercolor reckoning with humanity themarginalian.org/2025/10/29/ale… Post",
-  "why": "Beautiful art curation, but lacks the density of insight you usually look for."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "I wrote this almost exactly one year ago: lucumr.pocoo.org/2025/6/4/chang… Posted Jun 7, 2026 at 10:43PM",
-  "why": "Good author, but the tweet lacks enough context to justify a top spot today."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "In medieval times, within the arms race of ever more demonic torture devices, some sadistic genius came up with the idea of the Little Ease.",
-  "why": "Important cause and a favorite author, but falls outside your core focus areas."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "maxwellfarrens",
-  "via": "Noahpinion",
-  "text": "This is the most important week in the history of animal welfare: if the Save Our Bacon Act passes, not only will it kill the most impactful",
-  "why": "Important EA cause, but falls outside your core focus areas of AI, education, and progress."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "BiankaB12",
-  "via": "GaryMarcus",
-  "text": "The reason why a Danish pension fund banned its investors from buying any SpaceX shares is not just the appalling S-1 filings, where the ONL",
-  "why": "Mostly dunking on Musk rather than substantive economic or engineering analysis."
+  "text": "Robert Louis Stevenson on falling in love and loving beyond the fall themarginalian.org/2026/06/08/rob… Posted Jun 9, 2026 at 1:18AM",
+  "why": "A nice contemplative link, but just a pointer without original synthesis in the tweet."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
+  "score": 4,
   "topic": "contemplative",
-  "author": "CelestAI_",
-  "via": "Noahpinion",
-  "text": "\"an animal should at least have sufficient freedom of movement to be able without difficulty to turn round, groom itself, get up, lie down a",
-  "why": "Animal welfare is important but outside your core focus areas."
+  "author": "themarginalian",
+  "via": null,
+  "text": "The Dictionary of Obscure Sorrows – uncommonly lovely invented words (using real etymologies, from Latin to Japanese) for things we feel but",
+  "why": "Interesting contemplative link, but lacks substantive framing in the tweet itself."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "allgarbled",
-  "via": "Noahpinion",
-  "text": "This year I’m hosting an alternative vibe camp called gabecamp which will be an exclusive mastermind group featuring classes from my mutuals",
-  "why": "Rationalist/Twitter in-jokes with no substantive insight."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "China is producing a ton of stuff, but Chinese people aren't getting the stuff Posted Jun 9, 2026 at 12:15AM",
+  "why": "Brief economic observation on Chinese manufacturing and domestic consumption."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "🤣 I have to think that anyone who buys the SpaceX IPO just isn’t that good at math. Or history. Posted Jun 8, 2026 at 1:58AM",
-  "why": "Low-effort skepticism without original numbers or deep analysis."
+  "author": "mrbcyber",
+  "via": "Noahpinion",
+  "text": "China is running an intentional campaign to de-industrialize democracies Europe’s chemical industry is the latest target.  Once the CCP has ",
+  "why": "Geopolitical news link without deep economic synthesis."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 2,
+  "score": 4,
   "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "The idea of 'adult supremacy' is something you won't believe is actually a thing. Another classic brought to you by some faculty of educatio",
-  "why": "Education culture-war dunking rather than learning science."
+  "author": "joshgans",
+  "via": "Noahpinion",
+  "text": "The iPhone diffusion explains possibly half of the fertility decline amongst women! I mean, that is quite something, especially taking into ",
+  "why": "Points to the smartphone/fertility paper, but lacks the synthesis found in other shares of the same study."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "JoanneLeeJacobs",
-  "via": "C_Hendrick",
-  "text": "\"Adultist\" teachers are oppressing students, say \"equity\" boosters. tinyurl.com/2dtnt9hp Posted Jun 7, 2026 at 7:37PM",
-  "why": "Education culture-war dunking."
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "TheCriticMag",
+  "via": "GaryMarcus",
+  "text": "What if AI turns out to be a lot less profitable than we have been told? @kirtlenus explores the economic risks thecritic.co.uk/the-global-r",
+  "why": "AI skepticism link without original numbers or synthesis in the tweet."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "jimstewartson",
-  "via": "GaryMarcus",
-  "text": "🚨This is how you turn a crash into a great depression. This is a public bailout of the worst bubble in history. “It’s a concept out there th",
-  "why": "Unsubstantiated anti-AI rage-bait lacking technical or economic rigor."
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "On #WorldOceansDay, what it’s like to touch the bottom of the world themarginalian.org/2026/01/27/mar… Posted Jun 8, 2026 at 6:06PM",
+  "why": "Contemplative link drop without synthesis."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "skaushik100",
-  "via": "Noahpinion",
-  "text": "Center left candidates basically swept the San Francisco races in Tuesday’s primary, the latest glaring sign that San Francisco’s politics a",
-  "why": "Local SF politics is outside your core focus areas."
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "A #birddivination (the first I ever made) for anyone in love. As always, find it as a solo print and part of the deck of 100, along with the",
+  "why": "Short promotional post for an art print; lacks the depth required for the contemplative tag."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "AdamKinzinger",
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "business",
   "via": "Noahpinion",
-  "text": "This is absolutely insane.  Trumps love of Russia is stunting the US military’s ability to modernize. thehill.com/policy/defense… Posted Jun",
-  "why": "Pure political rage-bait, explicitly against your anti-taste rules."
+  "text": "China’s car sales fell 22.1% in May bloomberg.com/news/articles/… Posted Jun 8, 2026 at 9:32AM",
+  "why": "Brief news headline about car sales without deeper economic analysis."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "ManDaveJobGood",
-  "via": "naval",
-  "text": "The reason why Raman got the ballots over Bass is that activists go to homeless shelters and slums and walk out with hundreds of ballots eac",
-  "why": "Pure political culture-war content."
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "I have said exactly this before and still believe it to be true Posted Jun 9, 2026 at 1:32AM",
+  "why": "Cynical take on AI lab economic models without real numbers or deep insight."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "GaryMarcus",
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Historic: when the President of the United States can’t provide a single bit of specific concrete evidence to back up his serious charges, a",
-  "why": "Pure political dunking."
+  "text": "Reminder: All NATO militaries are now obsolete. This will remain true until NATO pours enormous resources into catching up in drones. Posted",
+  "why": "Military/geopolitics commentary; outside core focus areas."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "sfstandard",
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "i would love to see OpenAI take steps around this. how about starting by compensating artists and writers for their work and allowing them c",
+  "why": "Repetitive AI skepticism regarding copyright without new analysis."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Ali_Lev",
+  "via": "DKThomp",
+  "text": "YouTube has surpassed Netflix in viewership 👀 via @Lucas_Shaw in Screentime bloomberg.com/news/newslette… Posted Jun 8, 2026 at 8:35PM",
+  "why": "Short media statistic without deeper economic context."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Oh my God! @METR_Evals ’s coding benchmarks are saturated! 🤯 Mythos broke the METR graph 🤯 4 weeks later, out comes a new coding task, this ",
+  "why": "Gloating punditry about AI benchmarks; Swyx's post on the same topic is much higher signal."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "mattyglesias",
   "via": "Noahpinion",
-  "text": "After going undefeated Tuesday, the mayor has an unequivocal mandate — and the makings of a new political machine. 📝: Adam Lashinsky sfstand",
-  "why": "Local SF politics is outside your core focus areas."
+  "text": "Piketty should read \"Capital and Ideology\" about the rise of the Brahmin Left and how it's abandonment of rich country working class voters'",
+  "why": "Political dunking on Piketty; lacks deep economic substance."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 3,
+  "topic": "tools-for-thought",
+  "author": "jxnlco",
+  "via": null,
+  "text": "If you use poke check out my autmation to keep track of codex launch’s. Maybe you’ll see @interaction mentioned in one of these one day. pok",
+  "why": "Self-promotional tool link without broader insight."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "adamhfry",
+  "via": "jxnlco",
+  "text": "I've recently been spending time with the ChatGPT team on shipping new experiences in ChatGPT!  Our team's goal is simple – bring the incred",
+  "why": "Pure product announcement and feature listicle for ChatGPT."
+ },
+ {
+  "rank": 40,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "dromanocpm",
+  "via": "GaryMarcus",
+  "text": "More people need to listen to what Gary is saying here. Many, MANY of these talking heads who suck the oxygen out of the room with just thei",
+  "why": "Meta-punditry and dunking on AI experts; low signal."
+ },
+ {
+  "rank": 41,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "Pi got mentioned in a WWDC talk and that makes me happy :) developer.apple.com/videos/play/ww… Posted Jun 8, 2026 at 10:04PM",
+  "why": "Pure hype/announcement about a WWDC mention."
+ },
+ {
+  "rank": 42,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "charles_irl",
+  "via": "sh_reya",
+  "text": "look at the data Posted Jun 8, 2026 at 8:34PM",
+  "why": "Just a quote tweet of Swyx's essay without adding new substance."
+ },
+ {
+  "rank": 43,
+  "kept": false,
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes it's the phones Posted Jun 8, 2026 at 9:03PM",
+  "why": "Too short; just a four-word agreement with a linked paper."
+ },
+ {
+  "rank": 44,
+  "kept": false,
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "HenryBushnell",
+  "via": "C_Hendrick",
+  "text": "Gianni Infantino, 2025: \"It’s important to clarify this. There is a lot of misconception out there. Everyone will be welcome in Canada, Mexi",
+  "why": "Sports and immigration politics; outside core topics."
+ },
+ {
+  "rank": 45,
+  "kept": false,
+  "score": 1,
+  "topic": "contemplative",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yeah pretty much Posted Jun 9, 2026 at 12:37AM",
+  "why": "Culture war rage-bait regarding dating apps and social norms."
  }
 ]
