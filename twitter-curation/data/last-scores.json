@@ -2,481 +2,251 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "ai-engineering",
-  "author": "nityeshaga",
-  "via": "every",
-  "text": "Last week I got early access to Fable 5, Anthropic's new model. I've been sitting with one thing it did, because it taught me the single mos",
-  "why": "Incredible applied AI insight: asking a frontier model to build the tool to solve a problem rather than solving it directly."
+  "score": 9,
+  "topic": "econ-progress",
+  "author": "lucasbagnocvaz",
+  "via": "WillManidis",
+  "text": "“That is not dead which can eternal lie, And with strange aeons even death may die.” – H.P. Lovecraft The venture market of 2026 has private",
+  "why": "Brilliant historical and economic analysis of how the JOBS Act of 2012 fundamentally altered the tech venture ecosystem."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 10,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "score": 9,
+  "topic": "ai-essays",
+  "author": "random_walker",
   "via": null,
-  "text": "great read on agent architecture in prod but my fave piece is that the team uses Traces to diagnose issues —> propose changes —> eval change",
-  "why": "Perfect intersection: applied agent architecture in production, rigorous evals via traces, from a LATAM engineering team."
+  "text": "There’s a big, under-appreciated reason why people may have very different experiences and opinions about using AI for work — are they using",
+  "why": "Brilliant conceptual framework distinguishing between the 'growth cycle' of AI assistance and the 'dependence spiral' of over-reliance."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "polynoamial",
+  "author": "swyx",
   "via": null,
-  "text": "I'm happy GPT-5.5 tops this eval I'm even happier it's still doing the best when measured vs tokens, cost, or wall-clock time! Posted Jun 11",
-  "why": "Incredible, rigorous new benchmark (ALE) testing frontier agents on real economic work, showing they still fail hard tasks."
+  "text": "On Loopcraft One might argue the entire game of the next century is to be able to stack loops as effectively as possible . In the early days",
+  "why": "swyx (a favorite author) provides a powerful conceptual framing for the future of AI agents: stacking loops for maximum leverage."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "BrendanNyhan",
-  "via": "random_walker",
-  "text": "Highly recommended. Many people have a overly narrow view of knowledge work jobs and thus overstate the disemployment effects that AI is lik",
-  "why": "Superb, data-backed essay debunking the narrative that AI is causing mass software engineer layoffs."
+  "topic": "parenting-education",
+  "author": "DTWillingham",
+  "via": "C_Hendrick",
+  "text": "Robert Pondiscio: 19 reasons that knowledge-rich curricula have not been broadly adopted in the US, despite strong research support. I'd add",
+  "why": "High-signal piece on learning science and curriculum adoption, shared by a top cognitive scientist."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "simonw",
+  "score": 8,
+  "topic": "agency",
+  "author": "joulee",
   "via": null,
-  "text": "After two days with Claude Fable 5 the best way I can describe it is \"relentlessly proactive\" - here's an example where I dropped in a scree",
-  "why": "Simon Willison providing excellent, practical insights into the emergent agentic behaviors of Claude Fable 5."
+  "text": "You did it. Congrats! All your hard work and lucky stars and ancestors' sacrifices have led you to this day: your stock is about to be liqui",
+  "why": "Thoughtful, nuanced essay on how sudden wealth from tech IPOs changes (and doesn't change) identity and happiness."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "TheZvi",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
   "via": null,
-  "text": "A lot happened this week, including a great trip out to Lighthaven. The main event, the one that matters, was the release of Claude Fable 5.",
-  "why": "An incredibly dense, high-signal curation and synthesis of the week's most important AI developments."
+  "text": "Crazy that 12 factor agents is still relevant fifteen months later. What other AI papers are still relevant after a year+ ? ReAct? SWE-agent",
+  "why": "Excellent conceptual framing of AI agents: defining an agent not by its model or runtime, but by its durable event log."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "daveg",
-  "via": "Noahpinion",
-  "text": "Painfully dishonest degrowth piece. Here's a teardown. The headline promises maths that isn't there. \"We've done the maths\" but the piece co",
-  "why": "Excellent, substantive teardown of degrowth arguments using historical poverty reduction data."
+  "topic": "parenting-education",
+  "author": "JonHaidt",
+  "via": null,
+  "text": "The world has experienced the effects of addicting, algorithmically-driven social media on childhood. Parents want change, and policymakers ",
+  "why": "Jonathan Haidt (a favorite author) on the momentum of global policies protecting children from addictive social media."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "random_walker",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Periodic reminder that the AI-as-Normal-Technology thesis acknowledges rapid progress in AI capabilities. Its main contribution is to show w",
-  "why": "Rigorous, grounded argument treating AI as a normal technology to predict its actual economic impact speed."
+  "text": "Enterprise companies buy SMB software all the time. Why? Because teams within those companies have the same problems and values as small bus",
+  "why": "Excellent builder wisdom from Jason Cohen on why company size is often the wrong way to segment your target market."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "“Voting” -- the “wisdom of the crowds” -- works great for factual questions, but destroys ideas that are creative, special, new, unique. Des",
-  "why": "Excellent essay on why consensus and voting destroy unique, creative ideas in product building."
+  "topic": "frontier-ai",
+  "author": "ESYudkowsky",
+  "via": "DKokotajlo",
+  "text": "On a first read, this paper seems far ahead of the pack in terms of (1) understanding some reasons why a task might stay difficult even in t",
+  "why": "High-signal paper recommendation and commentary on the technical difficulties of automated AI alignment."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "swyx",
+  "author": "thorstenball",
   "via": null,
-  "text": "congrats to our friends @ona_hq on joining @openai ! see their talk here for alpha on what’s next for Codex 👀 Posted Jun 11, 2026 at 8:55PM",
-  "why": "High-signal technical breakdown of the missing coordination layer for running AI agent swarms at scale."
+  "text": "Day 3 with Fable. Gave a huge prompt to implement a feature across CLI, web server, and another server to both Fable and deep^2 in Amp. deep",
+  "why": "Excellent practical evaluation with real numbers comparing the cost and performance of Fable versus deep^2 for coding tasks."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "leevalueroach",
-  "via": "GaryMarcus",
-  "text": "SpaceX is the most overhyped IPO of the decade and it will end exactly the way every overhyped IPO ends. Facebook IPO’d at $38 and traded un",
-  "why": "A ruthless, historically grounded teardown of IPO hype cycles and how they transfer wealth from retail to insiders."
+  "author": "arindube",
+  "via": "DAcemogluMIT",
+  "text": "I think many of @DAcemogluMIT 's ideas about the importance of \"pro-worker AI\" - including policies to guide technical change to reward huma",
+  "why": "Substantive discussion on pro-worker AI policies and institutional innovations like sectoral standards and union negotiations."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "simonw",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Since the JSON extras API is a little hard to explain without an example I also had Fable 5 and GPT-5.5 collaborate on this custom API explo",
-  "why": "Fascinating applied AI engineering: having two frontier models collaborate to build a custom API explorer."
+  "text": "Many people are finding that the advantages of Fable often aren’t worth the cost. (See data below for a sample analysis.) This doesn’t mean ",
+  "why": "Substantive skepticism using actual cost-to-performance ratios to question the economic viability of massive frontier models."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "topic": "ai-essays",
+  "author": "random_walker",
   "via": null,
-  "text": "A lot of people desperately trying to deny the mounting pile of research that smartphones reduce fertility. 👇👇👇 Posted Jun 12, 2026 at 2:55A",
-  "why": "Interesting debate on the societal impact of smartphones and demographic trends."
+  "text": "There are many simple things we can do to make the AI discourse less confusing and more productive, like not using \"vibe coding\" as an umbre",
+  "why": "A grounded, anti-hype piece on the realities of AI-assisted software development and the need for precise terminology."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "swyx",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "the #1 thing that is driving me to build my own vibecoding platform rn is that none of them - and i lov vercel, cloudflare, netlify etc - no",
-  "why": "Swyx highlighting the missing infrastructure layer for modern AI vibecoding projects."
+  "text": "The kiln and the quantum of relationships themarginalian.org/2025/04/20/kil… Posted Jun 12, 2026 at 12:58PM",
+  "why": "A contemplative essay from The Marginalian exploring the nature and depth of human relationships."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "DKokotajlo",
   "via": null,
-  "text": "Oh I love this textbook on love disguised as a vintage children's book themarginalian.org/2024/11/29/san… Posted Jun 12, 2026 at 12:35AM",
-  "why": "A beautiful contemplative look at love through the lens of a vintage children's book."
+  "text": "Yep. This happens sometimes in our wargames. I think at least once we have had a situation where the AIs are begging for a pause but the hum",
+  "why": "Fascinating alignment anecdote from wargames where simulated AIs request development pauses out of self-preservation."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "RichardSocher",
-  "via": "swyx",
-  "text": "AI is now doing our AI research. At Recursive we set out to build recursive self-improving superintelligence (RSI) to automate knowledge dis",
-  "why": "Significant claims about early recursive self-improving AI systems automating the scientific method."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "“Envy those who see beauty in everything in the world.” Egon Schiele, born on this day in 1890, on what it means to be an artist and why vis",
+  "why": "A beautiful contemplative reflection on art and vision, though slightly less dense than his core intersections."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "HamelHusain",
   "via": null,
-  "text": "This was a good post though I think it is interesting how much vivid science fiction scenarios have become the new default format for policy",
-  "why": "Ethan Mollick's meta-observation on how sci-fi scenarios have become the default format for AI policy."
+  "text": "It's insane how much sprawl there is out there (see the replies.)  re: people trying to solve the skill-sharing problem Posted Jun 12, 2026 ",
+  "why": "A brief meta-comment on tool sprawl; lacks the standalone depth or insight of a full essay or synthesis."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "econ-progress",
-  "author": "JonSteinsson",
-  "via": "DKThomp",
-  "text": "I don't know what Piketty, Stiglitz, and co. are smoking. Global poverty rates have never been lower. Progress on basic global health and we",
-  "why": "Strong defense of economic growth and its historical success in reducing global poverty."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "For those wondering: I am not buying SpaceX. I am not shorting SpaceX. I am staying the F away. Why? Because the “float” is so thin, it’s ea",
+  "why": "Brief financial commentary on SpaceX's IPO float; lacks the deep tech or progress insights Matias prefers."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"To forgive is to assume a larger identity than the person who was first hurt.” A tonic of a read: themarginalian.org/2026/06/11/dav… Posted",
-  "why": "A beautiful, contemplative reflection on forgiveness and emotional maturity."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "LangChain",
+  "via": "HamelHusain",
+  "text": "\"Validate your validators.\" The eval advice nobody is following. ⏯️ Watch @sh_reya + @HamelHusain ’s Interrupt keynote on the return of the ",
+  "why": "Evals are a core interest, but this is just a hook for a video-only keynote, which violates his anti-taste rules."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "frontier-ai",
-  "author": "nathaniel_sher",
-  "via": "Noahpinion",
-  "text": "My colleagues and I just published a new report on U.S.-China AI competition, taking a holistic view of AI leadership. We argue that the com",
-  "why": "A holistic, multi-factor analysis of the US-China AI race beyond just models and chips."
+  "author": "EverydayAI_",
+  "via": "jxnlco",
+  "text": "This is why @thsottiaux and @OpenAI are feeling good about GPT-5.6 (screenshot is from @datacurve 's latest DeepSWE from @theo 's video) Mos",
+  "why": "Mostly corporate drama and speculative hype about OpenAI vs Anthropic rather than grounded technical analysis."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "simonw",
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "jxnlco",
   "via": null,
-  "text": "New Datasette release: 1.0a33, which finally brings documents the ?_extra= JSON API mechanism and brings it to the row and query pages in ad",
-  "why": "Simon Willison demonstrating practical AI-assisted software development for his open-source tools."
+  "text": "codex for open source! just granted about another huge batch including some that you might recognize! tensorflow/tensorflow n8n-io/n8n twbs/",
+  "why": "Just a massive list of open source repos granted access to Codex; no substantive insight."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "Hope is the thing with feathers, and with fangs – the alchemy of unrequited love and the story behind Emily Dickinson's most famous poem the",
-  "why": "A beautiful contemplative piece on hope and unrequited love via Emily Dickinson."
+  "text": "Yesterday, we hosted our 4th Annual AI Festival at Lincoln Center in NYC, our biggest and most ambitious festival yet. A sold out audience h",
+  "why": "Just an event recap and announcement for an AI film festival; lacks substantive insight."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "emollick",
-  "via": null,
-  "text": "Since I am on an AI & poetry kick, here is what Fable did with \"the Duino Elegies as a game. get the mood right\" It made a beautiful little ",
-  "why": "Ethan Mollick exploring creative AI use-cases by turning Rilke's poetry into an interactive game."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "ebfull",
+  "via": "naval",
+  "text": "Quick update on the last ~48 hours of Zcash Ironwood! Protocol devs from across all the orgs met twice to discuss specification and implemen",
+  "why": "A detailed protocol update for Zcash, which falls outside of Matias's core interests in AI, econ, and learning science."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "TomChivers",
-  "via": "C_Hendrick",
-  "text": "Here's a project I've been working on recently: a vision of what happens if Europe doesn't take AI seriously, inspired by AI 2027 europe2031",
-  "why": "A speculative but relevant project on the economic consequences of Europe falling behind in AI."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Not consistently candid, yet again. It’s in their genes. Posted Jun 12, 2026 at 4:16AM",
+  "why": "Pure corporate drama and political dunking regarding OpenAI's lobbying efforts; lacks technical or philosophical substance."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "lymanstoneky",
-  "via": "Noahpinion",
-  "text": "So, I’m a fairly low trust person. But I think we often incorrectly ascribe benefits to trust which actually accrue to trustworthiness Being",
-  "why": "An interesting game-theoretic observation on the difference between being trusting and being trustworthy."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 6,
-  "topic": "agency",
-  "author": "salmakhlouf",
-  "via": "Noahpinion",
-  "text": "Another brilliant read. And it’s unfortunate that some people didnt experience the internet before smartphones. It felt like Alice in wonder",
-  "why": "A strong piece of tech skepticism regarding the societal impact of smartphones."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "lymanstoneky",
-  "via": "Noahpinion",
-  "text": "So much hackery. \"The authors didn't look at [obviously confounded variable], they looked at [plausibly exogenous variable]!\" Nuts! Posted J",
-  "why": "Methodological critique of the smartphone/fertility paper, but a bit too deep in the academic weeds."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "semafor",
-  "via": "Noahpinion",
-  "text": "Anthropic CEO Dario Amodei called for worker protection against AI-driven job losses and a new US regulatory body to oversee frontier AI res",
-  "why": "Standard news summary of Anthropic's policy positions; lacks deep analysis."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 5,
+  "score": 1,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to see a bird – Robert Macfarlane and Jackie Morris's breathtaking illustrated field guide to the wonder of the winged themarginalian.or",
-  "why": "A lovely illustrated guide, but perhaps a bit too far from your core interests today."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "JustinTCallais",
-  "via": "Noahpinion",
-  "text": "This new op-ed from economists like Piketty, Stiglitz, and Hickel call for essentially de-growth. A few notable incorrect statements here 🧵 ",
-  "why": "A thread critiquing degrowth, but we surfaced a more comprehensive teardown today."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Echoes what I posted about Anthropic last week. Posted Jun 11, 2026 at 5:34PM",
-  "why": "Interesting cynical take on AI safety reports as marketing, but leans more toward punditry than rigorous analysis."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "sivers",
-  "via": null,
-  "text": "India tech friends: I just bought my ticket to IndiaFOSS in BLR Sept 26-27: fossunited.org/indiafoss/2026 Want to meet? Email me: sive.rs/co",
-  "why": "Derek Sivers is a favorite, but this is just a meetup announcement for India."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Brad_Setser",
-  "via": "Noahpinion",
-  "text": "I am of course more than happy to take up Dr. Gopinath's invitation for coffee -- and I rather suspect that Foreign Affairs would entertain ",
-  "why": "Deep macroeconomics debate, likely too in the weeds compared to broader progress topics."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "Incredible work! nytimes.com/2026/06/11/sci… via @NYTimes Posted Jun 12, 2026 at 1:05AM",
-  "why": "Interesting science, but lacks substantive commentary in the tweet itself."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "CPopeHC",
-  "via": "Noahpinion",
-  "text": "America's welfare state spends much less than those across Europe, but its poor are substantially better off.   How can this be possible? am",
-  "why": "Interesting policy claim, but essentially just a book promotion without much detail in the tweet."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "nytopinion",
-  "via": "GaryMarcus",
-  "text": "“You don’t achieve balanced, intelligent regulation by silencing debate — you get it by engaging seriously and earning trust,” John O’Farrel",
-  "why": "Standard op-ed on tech regulation, likely lacking the technical depth you prefer."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "s8mb",
-  "via": "Noahpinion",
-  "text": "A plausible and frightening vision of Europe's near future, ending in economic collapse and vassal status under the US or China. Enjoyed rea",
-  "why": "We surfaced a better-framed version of this Europe 2031 scenario piece today."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "China's blockade of Taiwan may be starting Posted Jun 12, 2026 at 4:02AM",
-  "why": "Geopolitics falls outside your core focus on tech, progress, and builders."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 3,
-  "topic": "agency",
-  "author": "ArmandDoma",
-  "via": "Noahpinion",
-  "text": "drives me crazy that people would rather let people steal cars en masse (and use those stolen cars to commit more crimes) than suffer the pr",
-  "why": "Interesting tech policy debate, but outside your core focus areas."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "Looking forward to chatting w @drfeifei , and also for @grinich to turn the tables on me. On July 22. Hope you can make it! luma.com/f28a739",
-  "why": "Dwarkesh is a favorite, but this is just an event announcement."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "this is really weak journalism, hardly any serious effort at seeing whether any of what the executive said is plausible. see my essay on “A ",
-  "why": "Media criticism regarding AI hype, but lacks original technical or economic analysis."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "jxnlco",
-  "via": null,
-  "text": "I met @jolandgraf et la with @humford and Sandeep over a year ago and im even more excited to see them at the office soon! openai.com/index/",
-  "why": "Just a corporate acquisition announcement without technical details."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "OpenAIDevs",
-  "via": "jxnlco",
-  "text": "Invite a friend to Codex and add another reset to the bank. When they send their first Codex message, you’ll both bank one to use when you n",
-  "why": "Just a feature announcement for OpenAI Codex rate limits."
- },
- {
-  "rank": 44,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "one of the world’s least charitable people says “we’ll basically just issue money to people” fat f’ing chance. Posted Jun 11, 2026 at 11:48P",
-  "why": "Low-substance dunking on AI hype; lacks the rigorous analysis you prefer."
- },
- {
-  "rank": 45,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "OpenAI’s board should replace Sam. He’s lost his credibility and is not getting the job done anymore. He’s flailing (anyone remember Sora? P",
-  "why": "AI lab drama and punditry rather than substantive analysis of models or progress."
- },
- {
-  "rank": 46,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "packyM",
-  "via": null,
-  "text": "See you in Detroit. Posted Jun 11, 2026 at 7:31PM",
-  "why": "Just a speaker announcement for an event."
- },
- {
-  "rank": 47,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Or better yet, be brave and have me on All In. Lots to talk about, @DavidSacks . And even a surprising amount of agreement. Posted Jun 11, 2",
-  "why": "Podcast drama and self-promotion rather than substantive AI analysis."
- },
- {
-  "rank": 48,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "CameronCorduroy",
-  "via": "Noahpinion",
-  "text": "the most sophisticated election fraud operation in American history was carried about by Donald Trump in 2020 when he coordinated across mul",
-  "why": "Pure political content, which is on your anti-taste list."
+  "text": "Posted Jun 12, 2026 at 4:40AM",
+  "why": "Empty quote-tweet of a joke about San Francisco dating culture; zero signal."
  }
 ]
