@@ -3,250 +3,230 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "lucasbagnocvaz",
-  "via": "WillManidis",
-  "text": "“That is not dead which can eternal lie, And with strange aeons even death may die.” – H.P. Lovecraft The venture market of 2026 has private",
-  "why": "Brilliant historical and economic analysis of how the JOBS Act of 2012 fundamentally altered the tech venture ecosystem."
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "I wrote this a few months ago right after the Anthropic/DoW conflict & Citrini & Block: “But I think that single week is a good illustration",
+  "why": "Mollick is a favorite; excellent synthesis on the societal instability caused by AI."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "random_walker",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "There’s a big, under-appreciated reason why people may have very different experiences and opinions about using AI for work — are they using",
-  "why": "Brilliant conceptual framework distinguishing between the 'growth cycle' of AI assistance and the 'dependence spiral' of over-reliance."
+  "text": "This was, in hindsight, an unfortunately prescient call Posted Jun 13, 2026 at 1:08PM",
+  "why": "Deep, substantive analysis of frontier AI regulation and the consequences of safetyism."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "swyx",
-  "via": null,
-  "text": "On Loopcraft One might argue the entire game of the next century is to be able to stack loops as effectively as possible . In the early days",
-  "why": "swyx (a favorite author) provides a powerful conceptual framing for the future of AI agents: stacking loops for maximum leverage."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "tylercowen",
+  "via": "krishnanrohit",
+  "text": "A few thoughts on the recent Mythos brouhaha: marginalrevolution.com/marginalrevolu… Posted Jun 13, 2026 at 11:05AM",
+  "why": "Tyler Cowen's high-signal economic analysis of the Anthropic model ban."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "DTWillingham",
-  "via": "C_Hendrick",
-  "text": "Robert Pondiscio: 19 reasons that knowledge-rich curricula have not been broadly adopted in the US, despite strong research support. I'd add",
-  "why": "High-signal piece on learning science and curriculum adoption, shared by a top cognitive scientist."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "When I struggle to structure my thoughts about what's happening I turn to writing. Today about the recent US Anthropic ban news, what it say",
+  "why": "Substantive essay from a respected builder on the geopolitical fallout of the ban."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "agency",
-  "author": "joulee",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "You did it. Congrats! All your hard work and lucky stars and ancestors' sacrifices have led you to this day: your stock is about to be liqui",
-  "why": "Thoughtful, nuanced essay on how sudden wealth from tech IPOs changes (and doesn't change) identity and happiness."
+  "text": "Re: AI consultants In my decades of experience I have rarely encountered an organization that is well served when third parties implement AI",
+  "why": "Substantive operator wisdom critiquing AI consulting hype and misaligned incentives."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "waitbutwhy",
   "via": null,
-  "text": "Crazy that 12 factor agents is still relevant fifteen months later. What other AI papers are still relevant after a year+ ? ReAct? SWE-agent",
-  "why": "Excellent conceptual framing of AI agents: defining an agent not by its model or runtime, but by its durable event log."
+  "text": "A reminder of why SpaceX even exists in the first place: waitbutwhy.com/2015/08/how-an… Posted Jun 13, 2026 at 1:37PM",
+  "why": "Tim Urban is a favorite; a classic deep dive into space, progress, and abundance."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "JonHaidt",
+  "score": 7,
+  "topic": "rationality",
+  "author": "TheZvi",
   "via": null,
-  "text": "The world has experienced the effects of addicting, algorithmically-driven social media on childhood. Parents want change, and policymakers ",
-  "why": "Jonathan Haidt (a favorite author) on the momentum of global policies protecting children from addictive social media."
+  "text": "Yes, also: \"The practical alternative to getting put back into Opus 5% is not reducing that to 1%. The practical alternative is getting put ",
+  "why": "Nuanced rationalist take on frontier model refusal rates and safety tradeoffs."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Enterprise companies buy SMB software all the time. Why? Because teams within those companies have the same problems and values as small bus",
-  "why": "Excellent builder wisdom from Jason Cohen on why company size is often the wrong way to segment your target market."
+  "text": "In the 20th century, European leftists promised that their ideology would make regular people richer. That didn't happen. So in the 21st cen",
+  "why": "Strong critique of degrowth ideology, fitting the progress and abundance theme."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "ESYudkowsky",
-  "via": "DKokotajlo",
-  "text": "On a first read, this paper seems far ahead of the pack in terms of (1) understanding some reasons why a task might stay difficult even in t",
-  "why": "High-signal paper recommendation and commentary on the technical difficulties of automated AI alignment."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How not to waste your life themarginalian.org/2026/06/12/haw… Posted Jun 13, 2026 at 3:23AM",
+  "why": "Strong intentional living piece drawing on Hawthorne."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Day 3 with Fable. Gave a huge prompt to implement a feature across CLI, web server, and another server to both Fable and deep^2 in Amp. deep",
-  "why": "Excellent practical evaluation with real numbers comparing the cost and performance of Fable versus deep^2 for coding tasks."
+  "text": "\"Rage, rage against the dying of the light.\" The story behind one of the greatest poems ever written and a rare recording of the poet himsel",
+  "why": "Classic contemplative piece on mortality and intentional living."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "arindube",
-  "via": "DAcemogluMIT",
-  "text": "I think many of @DAcemogluMIT 's ideas about the importance of \"pro-worker AI\" - including policies to guide technical change to reward huma",
-  "why": "Substantive discussion on pro-worker AI policies and institutional innovations like sectoral standards and union negotiations."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "PeterSchorschFL",
+  "via": "DKThomp",
+  "text": "Why do the best leaders fail at the most important job? What do Marcus Aurelius, Bob Iger, Bill Belichick, and William Shawn have in common?",
+  "why": "Derek Thompson essay on leadership and succession; good builder/operator history."
  },
  {
   "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Many people are finding that the advantages of Fable often aren’t worth the cost. (See data below for a sample analysis.) This doesn’t mean ",
-  "why": "Substantive skepticism using actual cost-to-performance ratios to question the economic viability of massive frontier models."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "random_walker",
-  "via": null,
-  "text": "There are many simple things we can do to make the AI discourse less confusing and more productive, like not using \"vibe coding\" as an umbre",
-  "why": "A grounded, anti-hype piece on the realities of AI-assisted software development and the need for precise terminology."
- },
- {
-  "rank": 14,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The kiln and the quantum of relationships themarginalian.org/2025/04/20/kil… Posted Jun 12, 2026 at 12:58PM",
-  "why": "A contemplative essay from The Marginalian exploring the nature and depth of human relationships."
+  "text": "War, peace, and our possible futures – George Saunders on storytelling the world's fate and the antidote to media manipulation themarginalia",
+  "why": "George Saunders on media and storytelling; good philosophical read."
  },
  {
-  "rank": 15,
+  "rank": 13,
   "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "DKokotajlo",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Yep. This happens sometimes in our wargames. I think at least once we have had a situation where the AIs are begging for a pause but the hum",
-  "why": "Fascinating alignment anecdote from wargames where simulated AIs request development pauses out of self-preservation."
+  "text": "Wonderful read on riding the changing waves of relationships themarginalian.org/2024/02/11/ann… Posted Jun 13, 2026 at 4:13AM",
+  "why": "Beautiful contemplative piece on relationships and change."
  },
  {
-  "rank": 16,
+  "rank": 14,
   "kept": false,
   "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "“Envy those who see beauty in everything in the world.” Egon Schiele, born on this day in 1890, on what it means to be an artist and why vis",
-  "why": "A beautiful contemplative reflection on art and vision, though slightly less dense than his core intersections."
+  "text": "\"We can change, evolve, and transform our own conditioning. We can choose to move like water rather than be molded like clay.\" This: themarg",
+  "why": "Contemplative piece on conditioning and change."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Until tonight, I didn’t think either the US or China would “win” the GenAI race. I thought it would be a tie. Didn’t occur to me the Trump a",
+  "why": "Geopolitical hot take; longer essays on this topic provide much higher signal."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "For years, some Americans have sneered unfairly at \"Europoors\". Now, European degrowthers want to make \"Europoors\" into a reality. noahpinio",
+  "why": "Duplicate link to the Noahpinion degrowth piece."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 4,
-  "topic": "tools-for-thought",
-  "author": "HamelHusain",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "It's insane how much sprawl there is out there (see the replies.)  re: people trying to solve the skill-sharing problem Posted Jun 12, 2026 ",
-  "why": "A brief meta-comment on tool sprawl; lacks the standalone depth or insight of a full essay or synthesis."
+  "text": "The expected endgame came a bit earlier than expected. Posted Jun 13, 2026 at 9:02AM",
+  "why": "News announcement with thin commentary."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 3,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
+  "topic": "frontier-ai",
+  "author": "anuatluru",
   "via": null,
-  "text": "For those wondering: I am not buying SpaceX. I am not shorting SpaceX. I am staying the F away. Why? Because the “float” is so thin, it’s ea",
-  "why": "Brief financial commentary on SpaceX's IPO float; lacks the deep tech or progress insights Matias prefers."
+  "text": "the Mythos only grows Posted Jun 13, 2026 at 4:08AM",
+  "why": "Engagement-style 'aura' take on a serious regulatory event."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "ai-engineering",
-  "author": "LangChain",
-  "via": "HamelHusain",
-  "text": "\"Validate your validators.\" The eval advice nobody is following. ⏯️ Watch @sh_reya + @HamelHusain ’s Interrupt keynote on the return of the ",
-  "why": "Evals are a core interest, but this is just a hook for a video-only keynote, which violates his anti-taste rules."
+  "author": "OpenAIDevs",
+  "via": "jxnlco",
+  "text": "Ask our developer docs. They’ll show you the way The new docs agent on 🔗 developers.openai.com helps you find answers about OpenAI products ",
+  "why": "Pure product announcement and hype."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "frontier-ai",
-  "author": "EverydayAI_",
-  "via": "jxnlco",
-  "text": "This is why @thsottiaux and @OpenAI are feeling good about GPT-5.6 (screenshot is from @datacurve 's latest DeepSWE from @theo 's video) Mos",
-  "why": "Mostly corporate drama and speculative hype about OpenAI vs Anthropic rather than grounded technical analysis."
+  "author": "techczech",
+  "via": "krishnanrohit",
+  "text": "\"This is the backfire.\" Posted Jun 13, 2026 at 12:06PM",
+  "why": "Thin commentary; the underlying thread is scored separately."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
-  "via": null,
-  "text": "codex for open source! just granted about another huge batch including some that you might recognize! tensorflow/tensorflow n8n-io/n8n twbs/",
-  "why": "Just a massive list of open source repos granted access to Codex; no substantive insight."
+  "topic": "contemplative",
+  "author": "penguinpress",
+  "via": "michaelpollan",
+  "text": "Congratulations to @michaelpollan on his newest book, A World Appears, being chosen as a Best Book of the Year So Far by @amazonbooks . View",
+  "why": "Book promotion and announcement."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "c_valenzuelab",
-  "via": null,
-  "text": "Yesterday, we hosted our 4th Annual AI Festival at Lincoln Center in NYC, our biggest and most ambitious festival yet. A sold out audience h",
-  "why": "Just an event recap and announcement for an AI film festival; lacks substantive insight."
+  "score": 1,
+  "topic": "ai-engineering",
+  "author": "jerryjliu0",
+  "via": "swyx",
+  "text": "The Agent Open 🎾🏓 Everyone loves pickleball. We’re hosting a massive pickleball tournament during the AI Engineer World Fair. I’m so excited",
+  "why": "Pure event promotion and networking hype."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "ebfull",
-  "via": "naval",
-  "text": "Quick update on the last ~48 hours of Zcash Ironwood! Protocol devs from across all the orgs met twice to discuss specification and implemen",
-  "why": "A detailed protocol update for Zcash, which falls outside of Matias's core interests in AI, econ, and learning science."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Not consistently candid, yet again. It’s in their genes. Posted Jun 12, 2026 at 4:16AM",
-  "why": "Pure corporate drama and political dunking regarding OpenAI's lobbying efforts; lacks technical or philosophical substance."
- },
- {
-  "rank": 25,
-  "kept": false,
   "score": 1,
-  "topic": "contemplative",
-  "author": "Noahpinion",
+  "topic": "frontier-ai",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "Posted Jun 12, 2026 at 4:40AM",
-  "why": "Empty quote-tweet of a joke about San Francisco dating culture; zero signal."
+  "text": "Posted Jun 13, 2026 at 5:31AM",
+  "why": "Zero commentary on a news announcement."
  }
 ]
