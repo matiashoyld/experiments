@@ -3,230 +3,310 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "topic": "tools-for-thought",
+  "author": "andy_matuschak",
   "via": null,
-  "text": "I wrote this a few months ago right after the Anthropic/DoW conflict & Citrini & Block: “But I think that single week is a good illustration",
-  "why": "Mollick is a favorite; excellent synthesis on the societal instability caused by AI."
+  "text": "\"A “thinker” who doesn’t write, who skips the step of “merely” synthesizing their vague thoughts into prose, is not thinking.\" I think this ",
+  "why": "Andy Matuschak brilliantly dissects the metacognitive cost of using AI as a thinking partner vs the rigor of writing."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "This was, in hindsight, an unfortunately prescient call Posted Jun 13, 2026 at 1:08PM",
-  "why": "Deep, substantive analysis of frontier AI regulation and the consequences of safetyism."
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Some quick takes: (1) Wow things are getting real. (2) The government's order focusing on prohibiting transfer to foreign nationals (even e.",
+  "why": "Excellent, nuanced analysis of the Anthropic export control directive and the lack of fit-for-purpose regulatory structures."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "tylercowen",
-  "via": "krishnanrohit",
-  "text": "A few thoughts on the recent Mythos brouhaha: marginalrevolution.com/marginalrevolu… Posted Jun 13, 2026 at 11:05AM",
-  "why": "Tyler Cowen's high-signal economic analysis of the Anthropic model ban."
+  "topic": "ai-engineering",
+  "author": "joedevon",
+  "via": "jxnlco",
+  "text": "Replying to @jxnlco What I've had computer use do is absolutely insane. At client's request to do a PoC of our work with AI, asked codex cli",
+  "why": "Incredible applied AI engineering: goading an agent to use OSAScript to control VoiceOver for an accessibility audit."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "When I struggle to structure my thoughts about what's happening I turn to writing. Today about the recent US Anthropic ban news, what it say",
-  "why": "Substantive essay from a respected builder on the geopolitical fallout of the ban."
+  "topic": "econ-progress",
+  "author": "CJHandmer",
+  "via": "jasoncrawford",
+  "text": "The lesson I take from the SpaceX IPO is that the only thing stopping us from solving arbitrarily difficult problems is extreme creativity i",
+  "why": "Great progress-studies perspective on how extreme creativity in business models, not philanthropy, unlocked reusable rockets."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "simonw",
   "via": null,
-  "text": "Re: AI consultants In my decades of experience I have rarely encountered an organization that is well served when third parties implement AI",
-  "why": "Substantive operator wisdom critiquing AI consulting hype and misaligned incentives."
+  "text": "It's now possible to compile Python extensions (C, C++, Rust etc) to WebAssembly and distribute them through PyPI such that Pyodide can inst",
+  "why": "Simon Willison (a favorite) on a major technical capability: compiling Python extensions to WebAssembly."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "waitbutwhy",
-  "via": null,
-  "text": "A reminder of why SpaceX even exists in the first place: waitbutwhy.com/2015/08/how-an… Posted Jun 13, 2026 at 1:37PM",
-  "why": "Tim Urban is a favorite; a classic deep dive into space, progress, and abundance."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "p_kuperman",
+  "via": "C_Hendrick",
+  "text": "Alpha School's software is called TimeBack. That's because Alpha wants to give kids their time back. Even my wife, a professional teacher of",
+  "why": "A compelling builder's perspective on rethinking education to give kids their time back for passion projects."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "rationality",
-  "author": "TheZvi",
+  "score": 8,
+  "topic": "agency",
+  "author": "asmartbear",
   "via": null,
-  "text": "Yes, also: \"The practical alternative to getting put back into Opus 5% is not reducing that to 1%. The practical alternative is getting put ",
-  "why": "Nuanced rationalist take on frontier model refusal rates and safety tradeoffs."
+  "text": "Making complex decisions is hard, but I've found a simple framework: Separate upside from downside. Decide primarily based on upside potenti",
+  "why": "Jason Cohen (A Smart Bear) offers a highly practical, builder-operator framework for making complex decisions."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "In the 20th century, European leftists promised that their ideology would make regular people richer. That didn't happen. So in the 21st cen",
-  "why": "Strong critique of degrowth ideology, fitting the progress and abundance theme."
+  "text": "My question continues to be, if this is accurate, what exactly did Dario refuse to do? If it's 'fix this particular jailbreak' just even if ",
+  "why": "The Zvi applying rigorous rationalist analysis to the Anthropic jailbreak rumors and lab behavior."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How not to waste your life themarginalian.org/2026/06/12/haw… Posted Jun 13, 2026 at 3:23AM",
-  "why": "Strong intentional living piece drawing on Hawthorne."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "S_J_Foelsing",
+  "via": "Noahpinion",
+  "text": "\"growth is good for the poor. No matter how you measure poverty, there is no country that has escaped poverty without growth, and there is n",
+  "why": "Noahpinion's substantive critique of the degrowth movement; perfectly hits his economics and progress interests."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Rage, rage against the dying of the light.\" The story behind one of the greatest poems ever written and a rare recording of the poet himsel",
-  "why": "Classic contemplative piece on mortality and intentional living."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "maddiedreese",
+  "via": "jxnlco",
+  "text": "I've discovered a new Codex use case! Here’s the breakdown: • I needed to get my hair dyed at a specific salon • I also had a specific date ",
+  "why": "Fascinating real-world applied AI use case: using Codex with full CDP access to fix a broken booking site state."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "PeterSchorschFL",
-  "via": "DKThomp",
-  "text": "Why do the best leaders fail at the most important job? What do Marcus Aurelius, Bob Iger, Bill Belichick, and William Shawn have in common?",
-  "why": "Derek Thompson essay on leadership and succession; good builder/operator history."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The great Portuguese poet and philosopher Fernando Pessoa, born on this day in 1888, on how to be a good explorer in the lifelong expedition",
+  "why": "Classic Marginalian contemplative essay on Fernando Pessoa and the lifelong expedition to yourself."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "War, peace, and our possible futures – George Saunders on storytelling the world's fate and the antidote to media manipulation themarginalia",
-  "why": "George Saunders on media and storytelling; good philosophical read."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "sc_cath",
+  "via": "Noahpinion",
+  "text": "What happened to the Rockefeller, Carnegie and Astor by the way? According to the “law of capitalism” (r>g) their wealth should have grown i",
+  "why": "Sharp economic history critique of Piketty's r>g using the dilution of Gilded Age fortunes."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Wonderful read on riding the changing waves of relationships themarginalian.org/2024/02/11/ann… Posted Jun 13, 2026 at 4:13AM",
-  "why": "Beautiful contemplative piece on relationships and change."
+  "text": "Questions: - Will the public effectively be shut out from frontier models in the reasonable future? - If so, would there still be gated acce",
+  "why": "A strong set of strategic questions regarding the future of public access to frontier models."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"We can change, evolve, and transform our own conditioning. We can choose to move like water rather than be molded like clay.\" This: themarg",
-  "why": "Contemplative piece on conditioning and change."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "lugaricano",
+  "via": "Noahpinion",
+  "text": "I wish I had written this piece---a powerful manifesto for a Europe that grows by @Noahpinion Posted Jun 13, 2026 at 8:39PM",
+  "why": "Good pointer to Noah Smith's degrowth essay, but another tweet has the direct link and better framing."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Until tonight, I didn’t think either the US or China would “win” the GenAI race. I thought it would be a tie. Didn’t occur to me the Trump a",
-  "why": "Geopolitical hot take; longer essays on this topic provide much higher signal."
+  "text": "The underestimated genius Fernando Pessoa, born on this day in 1888, on sleep and the meaning of life themarginalian.org/2026/02/04/fer… Pos",
+  "why": "Good contemplative piece, but the other Pessoa essay from The Marginalian today is stronger."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "For years, some Americans have sneered unfairly at \"Europoors\". Now, European degrowthers want to make \"Europoors\" into a reality. noahpinio",
-  "why": "Duplicate link to the Noahpinion degrowth piece."
+  "text": "What it's like to be an owl themarginalian.org/2023/12/24/owl… Posted Jun 13, 2026 at 10:56PM",
+  "why": "Interesting, but lower density of insight compared to the top contemplative pieces today."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "The expected endgame came a bit earlier than expected. Posted Jun 13, 2026 at 9:02AM",
-  "why": "News announcement with thin commentary."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "JChengWSJ",
+  "via": "Noahpinion",
+  "text": "Everyone Loves Chinese Cars, Except the Chinese—Domestic market shrinks 20%, hitting carmakers’ profits and pushing them to export more @Ste",
+  "why": "Decent auto industry piece, but lacks the broader progress/abundance framing he prefers."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "anuatluru",
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "jxnlco",
   "via": null,
-  "text": "the Mythos only grows Posted Jun 13, 2026 at 4:08AM",
-  "why": "Engagement-style 'aura' take on a serious regulatory event."
+  "text": "added something new to my agents.md \"when i send you an app shot with no context try your best to figure out what you want me to do with it ",
+  "why": "A brief prompt snippet rather than a substantive long-form insight."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "OpenAIDevs",
-  "via": "jxnlco",
-  "text": "Ask our developer docs. They’ll show you the way The new docs agent on 🔗 developers.openai.com helps you find answers about OpenAI products ",
-  "why": "Pure product announcement and hype."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "catehall",
+  "via": null,
+  "text": "David Sacks: \"those trying to misdirect and tie this action to the prior DoW/Anthropic issues are wrong\" Pete Hegseth: hey you know what thi",
+  "why": "The underlying Sacks quote is interesting, but the wrapper is just political snark. The Zvi's take on this is much better."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "techczech",
-  "via": "krishnanrohit",
-  "text": "\"This is the backfire.\" Posted Jun 13, 2026 at 12:06PM",
-  "why": "Thin commentary; the underlying thread is scored separately."
+  "author": "AnthropicAI",
+  "via": "jasoncrawford",
+  "text": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos ",
+  "why": "Pure announcement of the Anthropic export control; Nathan Calvin's analysis is the better read for this news."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "penguinpress",
-  "via": "michaelpollan",
-  "text": "Congratulations to @michaelpollan on his newest book, A World Appears, being chosen as a Best Book of the Year So Far by @amazonbooks . View",
-  "why": "Book promotion and announcement."
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "sfmcguire79",
+  "via": "Noahpinion",
+  "text": "Another Berkeley professor told the author: “In my second-year engineering class, a student asked me to explain why 1/2 + 1/3 = 5/6…. The le",
+  "why": "A bit too close to culture-war complaining about math standards rather than constructive learning science."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 1,
-  "topic": "ai-engineering",
-  "author": "jerryjliu0",
-  "via": "swyx",
-  "text": "The Agent Open 🎾🏓 Everyone loves pickleball. We’re hosting a massive pickleball tournament during the AI Engineer World Fair. I’m so excited",
-  "why": "Pure event promotion and networking hype."
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "MrZachG",
+  "via": "C_Hendrick",
+  "text": "New development: I’ve now carved out a strand of the program for explicit writing instruction. This is going to be a really impactful week o",
+  "why": "Just an announcement for a summer teaching institute."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 1,
-  "topic": "frontier-ai",
-  "author": "C_Hendrick",
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Posted Jun 13, 2026 at 5:31AM",
-  "why": "Zero commentary on a news announcement."
+  "text": "At the link, the best of The Marginalian this week in a single place – how to see a bird, Robert Louis Stevenson on falling in love and lovi",
+  "why": "A newsletter roundup without standalone substance."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "So funny how so many people are rediscovering so many things I pointed out in late 2022. (In this case in my essay “AI’s Jurassic Park Momen",
+  "why": "Gary Marcus self-aggrandizing without offering new substantive analysis."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "BohuslavskaKate",
+  "via": "Noahpinion",
+  "text": "HODGES: I don't think Russia is bottomless pit of manpower. Many of the youngest ones are either dead or have fled the country. Year ago, I ",
+  "why": "Geopolitics and war analysis; outside of core focus areas."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": null,
+  "text": "Last chance to fill out the annual AI Engineering Survey this weekend and win great Vercel + Notion + AIE tix! link below we had @devinai an",
+  "why": "Just a promo for an AI engineering survey."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "GTavernetti",
+  "via": "C_Hendrick",
+  "text": "Sean Morrisey @smorrisey discusses the Word Mapping Project and vocabulary instruction. The conversation began expansive, then narrowed, and",
+  "why": "Just a podcast promo without standalone insights."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "ShaneGoldmacher",
+  "via": "Noahpinion",
+  "text": "“It’s working-class voters who are not happy with the Republican Party, and they may not come out and vote,” John McLaughlin, a Republican p",
+  "why": "Pure political polling analysis; falls into the anti-taste category."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Trump sucks Posted Jun 14, 2026 at 12:12AM",
+  "why": "Pure political rage-bait."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Good to see MAGA people admitting that Tulsi works for the Russians Posted Jun 13, 2026 at 11:21PM",
+  "why": "Pure political dunking."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "NathanJRobinson",
+  "via": "GaryMarcus",
+  "text": "Instead of discussing how Elon Musk is now the world's first trillionaire, we should talk about how he killed hundreds of thousands of peopl",
+  "why": "Pure political rage-bait and culture-war dunking."
  }
 ]
