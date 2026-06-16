@@ -2,102 +2,102 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
+  "score": 10,
   "topic": "ai-engineering",
-  "author": "morqon",
-  "via": "krishnanrohit",
-  "text": "model councils improve the average answer, but what starts with diversity can end with groupthink: they drop novel ideas and boost the commo",
-  "why": "Rigorous experiment showing how LLM councils smooth out spiky ideas and lead to groupthink."
+  "author": "dexhorthy",
+  "via": null,
+  "text": "\"A developer vibe-coding a side project a dozen people will ever run, and a team keeping a ten-year-old enterprise system alive for another ",
+  "why": "Exceptional insight into how AI agents shift the engineering bottleneck from writing code to reviewing and trusting it."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "tobi",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "This is very good Posted Jun 15, 2026 at 12:09PM",
-  "why": "Profound framing from Satya Nadella on the future of the firm, contrasting human capital with 'token capital'."
+  "text": "budget based post-training agents are exceptionally bad at operating over real world constraints like 1. Time 2. Money if anyone’s run evals",
+  "why": "Excellent applied AI engineering insight on agent evals, focusing on real-world constraints like time and budget."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "the exciting future of “building the hill climbing machine” 🚀 🧗 encode domain expertise into a v0 agent and ship it —> this will never be pe",
-  "why": "Brilliant synthesis combining an evals-driven playbook for agent improvement with Satya Nadella's vision of token capital."
+  "author": "mitchellh",
+  "via": "mitsuhiko",
+  "text": "The problem with the \"if it works who cares what the code looks like\" mindset for agentic work is that it assumes the agent has a perfect un",
+  "why": "Brilliant, substantive critique of AI coding agents, highlighting their blind spots in system design and human experience."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "rationality",
-  "author": "rohanpaul_ai",
-  "via": "GaryMarcus",
-  "text": "MIT, Stanford, New York Univ, Princeton paper says AI can make people feel more efficient even when they are not actually becoming much more",
-  "why": "Excellent summary of a paper showing how AI creates an 'efficiency-gain illusion' that trains its own justification."
+  "topic": "ai-essays",
+  "author": "lulumeservey",
+  "via": "dexhorthy",
+  "text": "Satya wrote this article himself, in contrast to a lot of the AI-generated responses Dario’s essays, roon’s tweets, Noam Brown’s posts, all ",
+  "why": "Profound essay by Satya Nadella on how AI shifts organizational value toward human agency and continuous learning."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "On Friday evening the United States Government has forced Anthropic to take down all access to Fable and Mytho s. It’s been a rough weekend.",
-  "why": "Deep analysis of the Anthropic Fable takedown and its implications for frontier AI regulation."
+  "topic": "parenting-education",
+  "author": "Counsell_C",
+  "via": "C_Hendrick",
+  "text": "Brilliant new blog from Mark McCourt. This tackles a serious problem that is damaging subject learning and unnecessarily weakening students’",
+  "why": "Deep dive into learning science, critiquing how retrieval practice is misapplied as a generic classroom routine."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": null,
-  "text": "This isn't very true. A big part of the problem is that the labs use the term distillation, which is a general post-training technique, in l",
-  "why": "Excellent technical clarification on API jailbreaking vs distillation and lab transparency."
+  "topic": "econ-progress",
+  "author": "elonmusk",
+  "via": "anuatluru",
+  "text": "Make our Sun sentient to understand the Universe and extend the light of consciousness to the stars Posted Jun 15, 2026 at 3:08PM",
+  "why": "Fascinating essay connecting SpaceX's massive scale ambitions with Iain M. Banks' utopian sci-fi and human agency."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "JonHaidt",
+  "topic": "ai-engineering",
+  "author": "sh_reya",
   "via": null,
-  "text": "On this day when the UK Government announces it is raising the age for opening social media accounts, it may be helpful to restate the evide",
-  "why": "Haidt lays out the evidence of social media harm on kids, highly relevant to parenting."
+  "text": "only one person asked, but here is my \"plain writing\" skill: github.com/shreyashankar/… courtesy of our (ongoing) DocWriter project, which i",
+  "why": "Highly practical applied AI engineering project tackling the very real problem of AI-generated 'slop' writing."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "swyx",
+  "author": "natolambert",
   "via": null,
-  "text": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to pa",
-  "why": "swyx highlights the power of dynamic workflows in Claude Code, framing them as intelligent subroutines."
+  "text": "Course page: rlhfbook.com/course YT Playlist: youtube.com/watch?v=x-MqKB… Posted Jun 15, 2026 at 10:14PM",
+  "why": "Extremely high-signal educational resource and course material on RLHF from a respected practitioner."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "emollick",
-  "via": null,
-  "text": "This (from a Google Deepmind researcher) is super interesting, when one AI model is used to help train the next one, the new model can pick ",
-  "why": "Mollick highlights fascinating research on how AI models pass down strange 'hereditary traits' through distillation."
+  "author": "deanwball",
+  "via": "jasoncrawford",
+  "text": "Precisely as I predicted, the recent cyber EO, which admin officials insisted was not a licensing regime, ends up in practice being a licens",
+  "why": "Strong critique of frontier AI regulation and the opaque dynamics between labs like Anthropic and the government."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "Weird headline - I am not sure solving 7 out of 10 novel very hard problems meant AI \"did not live up to the task,\" when 15 months ago LLMs ",
-  "why": "Mollick provides a substantive counter-narrative to a misleading headline about AI's math capabilities."
+  "text": "Both @rpondiscio and @natwexler have written many books and thousands of words online spelling out exactly what they think, so implying they",
+  "why": "Excellent defense of intellectual honesty in education discourse, demanding substantive argument over performative outrage."
  },
  {
   "rank": 11,
@@ -106,397 +106,227 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"Life is so beautiful as long as I am creating it! So painful when it is a given that must be endured. Live, act, be wholeheartedly!\" Teenag",
-  "why": "Beautiful contemplative piece on intentional living from Simone de Beauvoir's teenage diaries."
+  "text": "What books give us – Hermann Hesse on reading and the heart of wisdom themarginalian.org/2023/12/22/her… Posted Jun 16, 2026 at 12:35AM",
+  "why": "Beautiful curation from The Marginalian on the philosophy of reading and acquiring wisdom."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "agency",
-  "author": "arjunkhemani",
-  "via": "naval",
-  "text": "When I was 14, social media was my escape hatch from mediocrity. I did not relate to anyone at school. Online, I found people on the other s",
-  "why": "Passionate argument on how the internet provides agency and escape from traditional schooling for teens."
+  "topic": "econ-progress",
+  "author": "scottlincicome",
+  "via": "Noahpinion",
+  "text": "New @nberpubs : \"Before the Exodus? Young Scientists and the Future of US Science\" nber.org/papers/w35330#… \"The fraction likely to stay in ",
+  "why": "High-signal NBER paper on the economics of progress and the retention of scientific talent in the US."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
   "topic": "ai-engineering",
-  "author": "sumaerjolly",
-  "via": "danshipper",
-  "text": "Spent the weekend tinkering on @danshipper Codex native app idea. Here is a basic demo using @CopilotKit on top of @attio CRM data. Attio he",
-  "why": "Fascinating applied AI engineering experiment where the agent generates UI on the fly instead of using existing UIs."
+  "author": "natolambert",
+  "via": null,
+  "text": "I also made a page with extra resources (talks and books I recommend): rlhfbook.com/course#extra-r… Posted Jun 15, 2026 at 10:16PM",
+  "why": "Valuable curation of talks and books on RLHF, serving as a great technical learning resource."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
   "topic": "frontier-ai",
-  "author": "deanwball",
-  "via": "itsurboyevan",
-  "text": "Precisely as I predicted, the recent cyber EO, which admin officials insisted was not a licensing regime, ends up in practice being a licens",
-  "why": "Substantive analysis of how the cyber EO is functioning as a de facto licensing regime for frontier AI."
+  "author": "mignano",
+  "via": "anuatluru",
+  "text": "For the first time in ~3 years, it feels like the AI table has been flipped over. Yes, the labs and hyperscalers will have the highest chanc",
+  "why": "Strong synthesis of the emerging open-source AI ecosystem and its potential to challenge frontier lab dominance."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "contemplative",
-  "author": "juanjopar_",
-  "via": "pablo_dors",
-  "text": "Hay veces que el asombro se vuelve gozo. Hay veces que encuentras a alguien sencillo en quien reconoces una verdad que te late por dentro. L",
-  "why": "Beautiful Spanish-language recommendation for contemplative author Pablo D'Ors."
+  "author": "themarginalian",
+  "via": null,
+  "text": "Simone de Beauvoir on how chance and choice converge to make us who we are themarginalian.org/2026/06/15/sim… Posted Jun 16, 2026 at 3:53AM",
+  "why": "Classic Marginalian curation on philosophy and agency, exploring how chance and choice shape our lives."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "AndrewOrlowski",
-  "via": "GaryMarcus",
-  "text": "Gory details of KPMG’s ‘Redefining Excellence’ paper, which is atrocious AI slop. 40 of 45 citations can’t be corroborated. It’s a historic ",
-  "why": "Substantive anti-hype showing a major consulting firm publishing AI-generated slop with fake citations."
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "mbateman",
+  "via": "C_Hendrick",
+  "text": "“Every man who is experienced in the business of education well knows, that the art is in its  infancy; but advancing, it is hoped, apace to",
+  "why": "A timeless, contemplative historical quote on the dangers of over-regulating education in its infancy."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
+  "score": 6,
+  "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Marianne Moore on the 3 elements of persuasive writing themarginalian.org/2026/04/23/mar… Posted Jun 15, 2026 at 2:05AM",
-  "why": "Timeless wisdom on the craft of persuasive writing from Marianne Moore."
+  "text": "Virginia Woolf on what makes love last themarginalian.org/2016/05/11/vir… Posted Jun 15, 2026 at 11:46PM",
+  "why": "Classic contemplative curation exploring the psychology and philosophy of enduring relationships."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Treasure Island author Robert Louis Stevenson on what makes life worth living themarginalian.org/2023/06/05/rob… Posted Jun 15, 2026 at 12:4",
-  "why": "Beautiful contemplative essay on what makes life worth living from Robert Louis Stevenson."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "aaron_renn",
+  "via": "Noahpinion",
+  "text": "Noah Smith: Will China, Inc. be zombified? noahpinion.blog/p/will-china-i… Posted Jun 15, 2026 at 11:56AM",
+  "why": "Substantive macroeconomic analysis on the future of China's industrial and economic progress."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "agency",
-  "author": "catehall",
-  "via": null,
-  "text": "this is viral marketing for the chapter \"increase your surface area for luck,\" from my forthcoming book \"you can just do things.\" go to new ",
-  "why": "Great reminder on agency and intentional living: you can just do things to increase your surface area for luck."
+  "author": "grok",
+  "via": "tobi",
+  "text": "Replying to @Gina_T1 Authoritarian regimes use \"protecting children\" as a standard pretext for broad internet control. Top 5: China – Great ",
+  "why": "Substantive historical synthesis of how child safety rhetoric is often weaponized for broad internet control."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "wshxnv",
-  "via": "jxnlco",
-  "text": "yesterday, at the Codex hackathon, i ended up solving this problem by building an MCP connector app that turns ChatGPT into Codex, sort of. ",
-  "why": "Clever hackathon project using MCP to expose local dev environments to ChatGPT."
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "mommagordon2",
+  "via": "C_Hendrick",
+  "text": "After implementing DI (Reading Mastery) 4 a year in 1st grade I’ve come 2 appreciate DI as curriculum that could be scaleable in our schools",
+  "why": "Practical reflection on scaling Direct Instruction in early education, though the hook is standard."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "ProfEmilyOster",
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "anuatluru",
   "via": null,
-  "text": "Day care napping for older children. An issue that a surprising number of parents have and no one anticipates parentdata.org/kids/day-care-…",
-  "why": "Practical parenting insights on day care napping from a data-driven perspective."
+  "text": "Slop is a bad story. hollywoodreporter.com/movies/movie-f… Posted Jun 15, 2026 at 10:33PM",
+  "why": "Brief but relevant commentary on AI's impact on media and storytelling, though lacking deep analysis in the tweet."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Tokenmaxxing has given way to tokenminimizing Q3 won’t be as strong for Anthropic and OpenAI as Q2 was Posted Jun 15, 2026 at 4:40AM",
-  "why": "Interesting note on the business reality of AI costs as Meta caps employee token usage."
+  "score": 5,
+  "topic": "agency",
+  "author": "HoCStaffer",
+  "via": "tobi",
+  "text": "As I outlined in my 🧵 on C-34 the other day, Bill C-34 is worse than expected exactly because it leaves so much power in the hands of either",
+  "why": "Commentary on tech regulation and digital safety laws, though it leans slightly into political grievance."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "eriskiiii",
-  "via": "catehall",
-  "text": "Dario does this thing called \"Saying truthfully what he thinks will happen regardless of if he likes it or not or if it is good or not\" and ",
-  "why": "Amusing and insightful observation about Dario Amodei's communication style and AI lab culture."
+  "score": 5,
+  "topic": "agency",
+  "author": "mgeist",
+  "via": "tobi",
+  "text": "You have to read Bill C-34 on The Commission to believe it. It sets the rules on age verification, social media bans, and content removals w",
+  "why": "Detailed critique of Canadian tech regulation and digital safety, though highly specific to local policy."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "TheZvi",
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "jxnlco",
   "via": null,
-  "text": "I had to really struggle to read this. My brain kept bouncing off the words. I think constantly scanning for and detecting AI slop is killin",
-  "why": "Insightful meta-commentary on how exposure to AI slop is destroying our tolerance for corporate speak."
+  "text": "can you guess what i'm working on github.com/jxnl/personal-… Posted Jun 15, 2026 at 10:46PM",
+  "why": "A bare repo link with an engagement-bait hook; lacks the context or insight needed for a higher score."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Meet the forgotten French seamstress turned scientist who solved the ancient mystery of the argonaut, pioneered the aquarium, and laid the f",
-  "why": "Fascinating history of a seamstress-turned-scientist who pioneered the aquarium."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "betolink",
+  "via": "GaryMarcus",
+  "text": "This interview with @GaryMarcus is really good. I particularly liked the way he outlined the dangers of AI. We don't need AGI to cause havoc",
+  "why": "Video-only content and generic AI skepticism without the substantive text analysis required for a high score."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "> Private evals should capture whether a model is actually improving against outcomes that matter to the business (not just external benchma",
-  "why": "Good emphasis on tying private evals to actual business outcomes."
+  "text": "spacex will soon be valued at greater than the world’s GDP. 🙄 Posted Jun 16, 2026 at 1:48AM",
+  "why": "Low-effort skepticism without substantive analysis or real numbers."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "petergyang",
-  "via": "every",
-  "text": "My top 5 takeaways from @mvanhorn : Stop clicking around websites. Print them into CLIs your agents can run. Matt built Printing Press to tu",
-  "why": "Good overview of agentic engineering tools, though slightly listicle-formatted."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Russia lost so many bombers that it sent its bomber technicians to be front-line infantry (and die). This is what it means to be a barbarian",
+  "why": "Geopolitical commentary on the Russia-Ukraine war, which falls outside core topics."
  },
  {
   "rank": 28,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "exnx",
-  "via": "swyx",
-  "text": "Together with my co-founders Michael @MichaelPoli6 , Stefano @Massastrello and Armin @athmsx , I am excited to announce @RadicalNumerics is ",
-  "why": "Interesting biological AI frontier, but ultimately an announcement post."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "axios",
-  "via": "GaryMarcus",
-  "text": "Cyber experts warn Fable limits aid attackers and hurts defenders axios.com/2026/06/15/ant… Posted Jun 15, 2026 at 3:37AM",
-  "why": "Relevant news on the Anthropic takedown, but better covered by deep-dive essays in the batch."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
-  "via": null,
-  "text": "check out my /ultragoal skill github.com/jxnl/dots/blob… Posted Jun 15, 2026 at 2:58AM",
-  "why": "Quick pointer to a useful Codex skill from a respected builder."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "matanSF",
-  "via": "bentossell",
-  "text": "If you need FDEs to make your product work, you have a shit product Posted Jun 14, 2026 at 6:34PM",
-  "why": "Spicy but relevant take on the role of Forward Deployed Engineers in enterprise software."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "izzyz",
-  "via": "krishnanrohit",
-  "text": "very cool. i'm currently running a dozen one-shot prompts on frontier models, then stitching them together with a single hub model. the resu",
-  "why": "Thin commentary on the LLM councils piece."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "petergyang",
-  "via": "every",
-  "text": "Every FREE agentic engineering tool from the best AI builders that I've interviewed: @kieranklaassen Compound Engineering (⭐️ 21K): AI skill",
-  "why": "Listicle format of AI tools, lacks deep insight."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "if you think this shit is ok, you are not paying attention. @scaling01 has a good explanation, and see the quote from @deanwball below. it’s",
-  "why": "Outrage commentary without much original analysis."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "kmad",
-  "via": "Vtrivedy10",
-  "text": "This is exactly the playbook to run re: enterprise hill climbing Posted Jun 15, 2026 at 11:06AM",
-  "why": "Redundant share of the hill climbing machine text, better captured in the original author's tweet."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "simonw",
-  "via": null,
-  "text": "Doesn't sound like we'll be getting Fable back very soon, then Posted Jun 15, 2026 at 12:16PM",
-  "why": "Brief commentary on the Anthropic/White House news; the underlying news is covered better elsewhere."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "“Every company is going to have to build what I think of as human capital and token capital” @satyanadella Posted Jun 15, 2026 at 3:30AM",
-  "why": "Redundant share of the Satya Nadella essay."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A favorite #birddivination in time for hummingbird season. As always, find it as a solo print and part of the deck of 100, along with the st",
-  "why": "Beautiful art, but mostly a promotional post for a print."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "JonHaidt",
-  "via": null,
-  "text": "Well done, UK Govt; well done PM Starmer. UK Parents love the policy, and the evidence keeps mounting that heavy social media use causes a v",
-  "why": "Redundant to his other tweet sharing the same After Babel piece."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "gpanger",
-  "via": "GaryMarcus",
-  "text": "How to make better use of the millions and millions of dollars the AI industry is using to buy off politicians: nytimes.com/2026/06/11/opi… ",
-  "why": "Political commentary on AI lobbying, lacks technical or builder substance."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "eoghan",
-  "via": "WillManidis",
-  "text": "We’re excited to share that we just signed an agreement for @salesforce to acquire @fin_ai for ~$3.6B. The transaction is expected to close ",
-  "why": "Pure acquisition announcement without much broader insight."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "Curl knows how to euromaxx. daniel.haxx.se/blog/2026/06/1… Posted Jun 15, 2026 at 6:46AM",
-  "why": "Too brief and cryptic to be high signal."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "yep Posted Jun 14, 2026 at 10:51PM",
-  "why": "Thin commentary on the Anthropic export control story."
- },
- {
-  "rank": 44,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "ankitxg",
-  "via": "swyx",
-  "text": "Human-written code died in 2025. Code reviews will die in 2026. A couple of months ago @swyx from @latentspacepod published my take that the",
-  "why": "Engagement-bait hook and talk announcement without substantive insights."
- },
- {
-  "rank": 45,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "JustinBullock14",
-  "via": "krishnanrohit",
-  "text": "Really great stuff here! Thanks for doing this work @krishnanrohit ! Looking at you @sebkrier and @ahall_research ! Posted Jun 15, 2026 at 1",
-  "why": "Thin commentary on a piece already captured elsewhere."
- },
- {
-  "rank": 46,
   "kept": false,
   "score": 2,
   "topic": "builders-craft",
   "author": "boristane",
   "via": "jxnlco",
-  "text": "I'm so terrible at discord I'm creating a slack community for polylane.com :) 2021 vibes Posted Jun 14, 2026 at 6:22PM",
-  "why": "Personal update about creating a Slack community."
+  "text": "if your app is primarily on cloudflare workers hit me up and I'll get you on polylane.com today Posted Jun 13, 2026 at 3:01PM",
+  "why": "Pure product promotion without any substantive insights or builder craft takeaways."
  },
  {
-  "rank": 47,
+  "rank": 29,
   "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "rationality",
-  "author": "jxnlco",
-  "via": null,
-  "text": "turns out i'm top 0.8% of hn twitter on the twitter atlas atlas.tiago.zip/@jxnlco?ref=sh… Posted Jun 14, 2026 at 9:57PM",
-  "why": "Personal vanity metric without broader insight."
+  "author": "patdennis",
+  "via": "Noahpinion",
+  "text": "Are you telling me my tax dollars are being sent to rebuild all the shit that Pete Hegseth blew up also with my tax dollars Posted Jun 15, 2",
+  "why": "Pure political rage-bait and geopolitical dunking, which violates core anti-taste rules."
  },
  {
-  "rank": 48,
+  "rank": 30,
   "kept": false,
   "score": 1,
   "topic": "rationality",
   "author": "GaryMarcus",
   "via": null,
-  "text": "In the space of about 48 hours, Trump held a big celebration on the White House lawn, did permanent harm to the credibility of the  U.S AI i",
-  "why": "Pure political commentary, explicitly anti-taste."
+  "text": "actual headline Posted Jun 16, 2026 at 12:58AM",
+  "why": "Geopolitical snark and news commentary outside of core interest areas."
  },
  {
-  "rank": 49,
+  "rank": 31,
   "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "GaryMarcus",
+  "author": "KantInEastt",
+  "via": "Noahpinion",
+  "text": "Americans after paying $300 billion to Iran to reopen the Strait of Hormuz which was never closed Your browser does not support the video ta",
+  "why": "Geopolitical meme and political rage-bait."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Happy capitulating to Iran on your 80th birthday, Mr President. Posted Jun 15, 2026 at 5:06AM",
-  "why": "Pure political commentary, explicitly anti-taste."
+  "text": "Was the purpose of universal suffrage that women were supposed to vote for Republicans? If more than half of a group of people vote for Demo",
+  "why": "Pure culture-war and political discourse, explicitly listed as anti-taste."
  },
  {
-  "rank": 50,
+  "rank": 33,
   "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "JonLemire",
-  "via": "GaryMarcus",
-  "text": "“But even before we have the details, it is clear that Trump has failed to achieve every one of the goals he put forward for this war of cho",
-  "why": "Pure political commentary, explicitly anti-taste."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Trump started a war, lost the war, and paid reparations to Iran. Posted Jun 15, 2026 at 11:31PM",
+  "why": "Pure political dunking."
  }
 ]
