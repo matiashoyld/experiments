@@ -3,490 +3,230 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "rahulgs",
-  "via": "bentossell",
-  "text": "as a mental model it is more correct to think of fable+ class models as english -> code interpreters - converts your idea into code into \"co",
-  "why": "Excellent mental models for managing AI-generated code, risk, and the shifting economics of technical debt."
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "A lot of things are always happening. Only one story matters. Claude Fable 5 and Claude Mythos 5 were shut down, by the White House , via an",
+  "why": "Zvi's essential weekly synthesis of frontier AI developments, policy moves, and model capabilities."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "AlisonGopnik",
+  "score": 8,
+  "topic": "contemplative",
+  "author": "DKThomp",
   "via": null,
-  "text": "Two new preprints from the lab, First up, causal exploration in humans and LLM's. arxiv.org/abs/2606.06464 Posted Jun 17, 2026 at 10:07PM",
-  "why": "Perfect intersection of AI evaluation and cognitive science from a leading developmental psychologist."
+  "text": "Today’s essay—it's a big one, maybe my favorite thing I’ve written all year: AMERICA'S CULT OF SELF ENHANCEMENT I think we can all see it. S",
+  "why": "Superb critique of the tech elite's obsession with self-optimization; perfectly hits your productivity skepticism."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
+  "score": 8,
+  "topic": "rationality",
+  "author": "ByrneHobart",
   "via": null,
-  "text": "Dear followers, I would like to share this new working paper. economics.mit.edu/sites/default/… It’s a theoretical exploration of the politi",
-  "why": "Daron Acemoglu exploring the chilling macroeconomic and political feedback loops of pervasive AI automation."
+  "text": "astralcodexten.com/p/waiting-for-… Fun piece. By the Law of the Conservation of the Supernatural, Scott Alexander succeeded in debunking a m",
+  "why": "New Scott Alexander piece applying rationalist investigation to a purported miracle."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "sh_reya",
-  "via": null,
-  "text": "I feel like this table is misleading. (I) It is not that novices write underspecified tasks; their methodology classifies underspecified pro",
-  "why": "Brilliant critique of an Anthropic study, highlighting the massive gap between academic evals and real-world messy data."
+  "author": "dimitrikennedy",
+  "via": "jxnlco",
+  "text": "Codex writes nearly 100% of my code now. Most good engineers I know can learn, build, ship basically anything. No ceiling. Now we struggle t",
+  "why": "Practitioner thread detailing the actual bottlenecks and limits of using AI for 100% of coding tasks."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Finding sanity in sprezzatura – the lost 16th-century Italian art of living with fluency, serenity, and openness to wonder themarginalian.or",
-  "why": "A beautiful essay on intentional living and the 16th-century philosophy of serene, effortless grace."
+  "topic": "econ-progress",
+  "author": "0xkydo",
+  "via": "awilkinson",
+  "text": "🤯 Midjourney -- yes, the AI image company -- just shipped a brand new type of imaging machine. 🤯 100x faster than an MRI. 10x cheaper. Full ",
+  "why": "Incredible example of small-team engineering and progress: Midjourney building a revolutionary medical scanner."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "mitchellh",
-  "via": "jxnlco",
-  "text": "Creator of Sqlite on pull requests: \"You say, oh, it's free. No. It's not free. What you're doing is asking me ... to maintain it for you, t",
-  "why": "Timeless builder wisdom on the true, long-term cost of open-source maintenance and accepting pull requests."
+  "topic": "contemplative",
+  "author": "statto",
+  "via": "DKThomp",
+  "text": "Great piece by @DKThomp on the perils and opportunity cost of taking self-optimisation too far. What do we miss out on? In my view, the solu",
+  "why": "Superb critique of the tech elite's obsession with self-optimization; perfectly hits your productivity skepticism."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "lucyhargreaves4",
-  "via": "tobi",
-  "text": "Something is happening. Hidden in plain sight. Between March and June 2026, the Carney government introduced five interlocking digital bills",
-  "why": "A chilling, highly detailed breakdown of how interlocking digital bills quietly build state surveillance architecture."
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "In a learner controlled video setting, how long students watched and how often they clicked told us nothing about their cognitive load, wher",
+  "why": "Fascinating empirical finding in learning science about cognitive load and video playback speed."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "AlisonGopnik",
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "bentossell",
   "via": null,
-  "text": "Second preprint, with Elizabeth Bonawitz,  one of my favorite studies children search the hypothesis space more broadly and variably than ad",
-  "why": "Fascinating learning-science preprint on how children's hypothesis testing differs from adults."
+  "text": "one of the best places to learn how to feel and notice taste Posted Jun 18, 2026 at 2:20PM",
+  "why": "High-quality resource on the craft of interface design and developing aesthetic taste."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "vaibcode",
+  "author": "sariazout",
   "via": null,
-  "text": "code can be slop, writing cant Posted Jun 17, 2026 at 9:00PM",
-  "why": "Excellent reflection on how AI coding tools change the learning curve and code-review dynamics for junior engineers."
+  "text": "the name got everyone talking but what Taste Labs is doing is actually not very controversial - raising the floor on output quality through ",
+  "why": "Thoughtful commentary on the technical and philosophical challenge of codifying aesthetic taste in AI models."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "ByrneHobart",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Anathem, economist edition. Posted Jun 17, 2026 at 8:38PM",
-  "why": "A brilliant, entertaining thought experiment on how CPI calculations fail to capture true technological progress."
+  "text": "\"While wandering down the path of wonder, I briefly escape the world of separation and enter the world of unity.\" Nobel laureate Hermann Hes",
+  "why": "Beautiful contemplative reflection on the purpose of education and wonder by Hermann Hesse."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "benjaminsehl",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "build_canada",
   "via": "tobi",
-  "text": "Today we're previewing a new Hydrogen, redesigned from the core to be agent-first. It's simpler, smaller, and faster — and now both framewor",
-  "why": "Fascinating paradigm shift: redesigning a major web framework specifically so AI coding agents can use it better."
+  "text": "There's a feeling many Canadians have these days: No matter how hard I work, I can't seem to get ahead or or earn what I could somewhere els",
+  "why": "Bold economic policy proposal for Canadian tax reform; fits the progress and abundance theme."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "today's models largely lack \"Theory of Mind\" - this is really funny & obvious when you're writing code or riffing on a technical blog that S",
-  "why": "Sharp observation on why LLMs struggle with technical writing: they lack the 'Theory of Mind' to write for a fresh reader."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "PeterSchorschFL",
+  "via": "DKThomp",
+  "text": "Americans have never been healthier, or more alone. @DKThomp on why the healthiest generation is the loneliest open.substack.com/pub/derekth",
+  "why": "Link to Derek Thompson's essay, but another tweet provides better framing."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "look I love rahul and so much of this post is soooo good but i take issue that it opens with  \"models can basically compile english into cor",
-  "why": "Excellent, substantive pushback on AI coding hype, emphasizing the need for robust architecture over raw generation."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "jeffedelstein",
+  "via": "DKThomp",
+  "text": "TL;DR on this piece by @DKThomp (but you should definitely R) Eat, drink, and be merry. derekthompson.org/p/the-cult-of-… Posted Jun 18, 202",
+  "why": "Link to Derek Thompson's essay, but another tweet provides better framing."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "TheZvi",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Thus: The way to fix the 'jailbreak' (of 'fix this code')  is to weaken the classifiers so they never ban the parallel action in the first p",
-  "why": "Sharp insight on the tradeoff between false positives in AI safety classifiers and jailbreak vulnerabilities."
+  "text": "Meta fudged Llama 4 results while LeCun was still there; he tells us about it now. 🤔 Posted Jun 18, 2026 at 3:34PM",
+  "why": "AI drama and skepticism without deep technical analysis or original insight."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "nickgillespie",
-  "via": "tobi",
-  "text": "'Why is a flat-screen TV affordable and a college education not?...Because Congress has spent 60 years trying to make college affordable and",
-  "why": "Classic progress-studies analysis on why technological goods get cheaper while subsidized services skyrocket."
+  "score": 4,
+  "topic": "contemplative",
+  "author": "JeremyZegas82",
+  "via": "DKThomp",
+  "text": "This is thoughtful and excellent. The last paragraph is perfect. Posted Jun 18, 2026 at 2:54PM",
+  "why": "Quote tweet of a great essay, but the original tweet or direct link is better to save."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "Giordano Bruno was burned at the stake by the Inquisition in 1600. But it wasn't his first trial. They’d found his radical writings before, ",
-  "why": "A fascinating historical mental model from Dwarkesh on how Renaissance justice and patronage actually functioned."
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "New_Old_Paul",
+  "via": "C_Hendrick",
+  "text": "Nicely stated @C_Hendrick ; as usual. @rpondiscio and @natwexler have been advocating for good education for years and spelling it out expli",
+  "why": "Meta-commentary on education debates rather than substantive learning science insights."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "The quality of your Evals & Environments determine the quality of your agent Last year we standardized a lot of our Evals around Harbor for ",
-  "why": "Strong reinforcement of evals-as-discipline for agentic systems, even if slightly promotional."
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "laurapatranella",
+  "via": "C_Hendrick",
+  "text": "Replying to @laurapatranella Latest: open.substack.com/pub/itselement… Posted Jun 18, 2026 at 2:39AM",
+  "why": "Bare link drop to a Substack post with no context or framing provided."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Nothing but love today for the tragic, sudden passing of the great Joshua Baer. When I got the offer to sell Smart Bear, I asked anyone I co",
-  "why": "A touching tribute that doubles as profound wisdom on how to live intentionally and support the builder community."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "yonashav",
+  "via": "TheZvi",
+  "text": "Twitter community, I would like you to perform a public service. Please take a moment to calibrate how unhinged Dean’s posting has been. Now",
+  "why": "Meta-commentary on an AI policy hire; lacks substantive analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
   "via": null,
-  "text": "Dear followers, Please see this new article from @MITSloan on pro-worker AI, which draws from my recent paper with David Autor and Simon Joh",
-  "why": "Acemoglu's framework for steering AI toward augmenting workers rather than just automating them."
+  "text": "A faster and cheaper Librarian! Posted Jun 18, 2026 at 3:24PM",
+  "why": "Pure product announcement with no technical depth or postmortem insights."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "dwarkesh_sp",
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "danshipper",
   "via": null,
-  "text": "Machiavelli learned politics by trying to save his city from Cesare Borgia - a conqueror so terrifying and charismatic that people thought h",
-  "why": "Dwarkesh exploring the desperate, realpolitik origins of Machiavelli's philosophy."
+  "text": "we are hiring a managing editor @every ! if you are extremely meticulous, can keep the trains running on time, hate split infinitives, love ",
+  "why": "Job posting for a managing editor, not substantive reading material."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "An illustrated field guide to the science and wonder of the clouds themarginalian.org/2024/07/13/clo… Posted Jun 18, 2026 at 3:18AM",
-  "why": "A beautiful, contemplative exploration of nature and wonder to balance the tech feed."
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "nsachdeva2019",
+  "via": "C_Hendrick",
+  "text": "rEDTO26 Get your tickets soon! What a line-up, what an opportunity. Don't miss it. Tickets going away FAST ⚡️Link below! @researchEDCan @res",
+  "why": "Event promotion and ticket sales; lacks standalone insight."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "nicbstme",
-  "via": null,
-  "text": "That's why I'm excited to receive my Surface Laptop Ultra. It has a 20-core NVIDIA Grace CPU and an NVIDIA Blackwell RTX. I suspect a lot of",
-  "why": "Solid hardware/economics perspective on the tipping point for local AI inference and privacy."
+  "score": 2,
+  "topic": "contemplative",
+  "author": "G_Gutenberg",
+  "via": "pablo_dors",
+  "text": "¡Este próximo septiembre no te pierdas a @pablo_dors ,  Susan C. Stokes, Chantal Maillard, Sami Naïr y @ACConde_ en el @festdelasideas ! 👇 P",
+  "why": "Event promotion for a philosophy festival; lacks standalone reading value."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The science of tears and the art of crying – a delightful illustrated manifesto for reclaiming our deepest humanity themarginalian.org/2024/",
-  "why": "A beautiful, contemplative look at the biology and emotional resonance of crying."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 5,
+  "score": 1,
   "topic": "ai-engineering",
-  "author": "dexhorthy",
-  "via": "swyx",
-  "text": "At HumanLayer, we’re on a mission to solve the AI slop code problem. In 2025 we open-sourced our Research, Plan, Implement framework, now de",
-  "why": "Product launch for an agentic IDE; relevant but leans promotional."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
   "author": "GregKamradt",
   "via": null,
-  "text": "It can be difficult to get a oss model running for a kaggle We worked with Philip Vonderlind to get this up and running The competition's RT",
-  "why": "Update on open-source models for the ARC-AGI prize, but lacks deep technical breakdown."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "An absolutely wonderful read on \"poetic ecology\" and the biology of wonder: mailchi.mp/themarginalian… Posted Jun 17, 2026 at 7:07PM",
-  "why": "A nice contemplative piece, but just a newsletter routing link."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "This #birddivination has given me perhaps more peace than any other. As always, find it as a solo print and part of the deck of 100, along w",
-  "why": "Beautiful art, but mostly a product promotion rather than a deep essay."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "mgeist",
-  "via": "tobi",
-  "text": "In 2012, Liberals condemned Vic Toews for telling lawful access critics they could “stand with us or with the child pornographers.\" Now @gar",
-  "why": "Canadian tech policy critique, but leans heavily into local political dunking."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "DrMikeBrooks",
-  "via": "GaryMarcus",
-  "text": "@GaryMarcus is on point here. There are no guarantees that advanced AI models cannot be used for nefarious purposes. So, whatever rules appl",
-  "why": "Standard AI safety commentary without new technical or regulatory insight."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "China: accidentally awakens giant sea monster that eats Shanghai and Shenzhen Jostein Hauge: \"Despite being destroyed by a sea monster, Chin",
-  "why": "Amusing satire of geopolitical Twitter, but lacks the substantive insight needed for a top score."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Jordan Schneider: \"We interviewed the sea monster, and it actually knew a lot about the chip industry\" Bill Bishop: \"SEA MONSTER!!! (link be",
-  "why": "Amusing satire of geopolitical Twitter, but lacks the substantive insight needed for a top score."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "joulee",
-  "via": null,
-  "text": "Love @midjourney 's ambition here. I think we will see more and more of this in the AI era with smaller co's. As AI makes learning faster, i",
-  "why": "Pure announcement and hype without substantive analysis."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "ninklefitz",
-  "via": "thesephist",
-  "text": "I've started a new company called @tacitlabsco , an applied research lab at the intersection of AI and biology. 1/n Your browser does not su",
-  "why": "Bare announcement of a new company without technical substance."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "And for those who think that pervasive automation coupled with repression is too far-fetched, please look at the book and manifesto by Palan",
-  "why": "Bare link to a book without substantive commentary."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "mcfazeli",
-  "via": "tobi",
-  "text": "You don't want to miss this: we just dropped @Shopify 's  Spring ’26 Edition. 150+ updates! It's EVERYWHERE 😁 My faves are on 🧵 starting wit",
-  "why": "Standard product release announcements without deep technical takeaways."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "atleeclark",
-  "via": "tobi",
-  "text": "Obsessed with Pippin. Excited to see all the crazy things people build with catalog API and UCP shopify.com/editions/demos… Posted Jun 17, 2",
-  "why": "Standard product release announcements without deep technical takeaways."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "vlaurenlee",
-  "via": "tobi",
-  "text": "The Everywhere Edition is here: If you are on @Shopify , you are everywhere your customers are shopping. This Edition features some key upda",
-  "why": "Standard product release announcements without deep technical takeaways."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Thrilled to hear that @nataschaandsons – one of my oldest, dearest friends – has won the @KirkusReviews audiobook award for her heroic narra",
-  "why": "Personal announcement, lacks substantive insight."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "arxiv.org/pdf/2606.12683 Posted Jun 17, 2026 at 11:30PM",
-  "why": "Bare link with zero context or framing."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "mattpocockuk",
-  "via": "jxnlco",
-  "text": "Replying to @mattpocockuk Get the video about the changes here first: aihero.dev/s/cGicnb Posted Jun 17, 2026 at 2:54PM",
-  "why": "Video-only promo content."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "creatine_cycle",
-  "via": "Noahpinion",
-  "text": "here is the full list of our SF restaurant picks: chinese: Sichuan Tasty Restaurant steak: Brazen Head dumplings: Dumpling House (Castro) bu",
-  "why": "Local restaurant recommendations, lacks broader insight."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Replying to @GaryMarcus source: futurism.com/artificial-int… Posted Jun 17, 2026 at 9:51PM",
-  "why": "Bare link to a negative news story without analysis."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "even the republicans see what a disaster this is Posted Jun 18, 2026 at 2:16AM",
-  "why": "Pure political rage-bait and culture-war dunking."
- },
- {
-  "rank": 44,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "DavidAFrench",
-  "via": "GaryMarcus",
-  "text": "This is an astonishing document. Not a single war aim has been achieved, but Iran receives enormous financial incentives, and even Hezbollah",
-  "why": "Political commentary outside core interests."
- },
- {
-  "rank": 45,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "AmbassadorRice",
-  "via": "GaryMarcus",
-  "text": "This is a jaw-dropping, horrific surrender document complete with hundreds of billions in reparations. It is the predictable result of incom",
-  "why": "Political rage-bait."
- },
- {
-  "rank": 46,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "TrueSlazac",
-  "via": "Noahpinion",
-  "text": "So the $300B deal was real How will MAGA justify it this time Posted Jun 17, 2026 at 7:27PM",
-  "why": "Political rage-bait."
- },
- {
-  "rank": 47,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Among the best Community Notes of all time Posted Jun 17, 2026 at 10:37PM",
-  "why": "Culture-war dunking."
- },
- {
-  "rank": 48,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Silly Republicans. When Dear Leader loses a war, you're supposed to say he WON Posted Jun 17, 2026 at 10:12PM",
-  "why": "Political rage-bait."
- },
- {
-  "rank": 49,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Scott_Wiener",
-  "via": "Noahpinion",
-  "text": "When you start an illegal war, when you have no real strategy & when you fail to anticipate how things will actually play out, it’s a recipe",
-  "why": "Political rage-bait."
+  "text": "agnts.sh/greg Posted Jun 18, 2026 at 1:10PM",
+  "why": "Bare link drop with no context or insight provided."
  }
 ]
