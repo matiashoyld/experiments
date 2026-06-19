@@ -3,230 +3,270 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "ai-engineering",
+  "author": "emollick",
   "via": null,
-  "text": "A lot of things are always happening. Only one story matters. Claude Fable 5 and Claude Mythos 5 were shut down, by the White House , via an",
-  "why": "Zvi's essential weekly synthesis of frontier AI developments, policy moves, and model capabilities."
+  "text": "I have given AA a hard time about its previous agentic evaluation but this looks like a good and impressive benchmark for real world knowled",
+  "why": "Mollick highlights a rigorous new eval benchmark for long-horizon agentic knowledge work. Exactly the evals-as-discipline you value."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "DKThomp",
+  "topic": "ai-essays",
+  "author": "AlisonGopnik",
   "via": null,
-  "text": "Today’s essay—it's a big one, maybe my favorite thing I’ve written all year: AMERICA'S CULT OF SELF ENHANCEMENT I think we can all see it. S",
-  "why": "Superb critique of the tech elite's obsession with self-optimization; perfectly hits your productivity skepticism."
+  "text": "Really great interview with Michael Pollan on consciousness ( and whether it could be found in current AI) as part of Chris Hayes excellent ",
+  "why": "Hits the exact intersection of AI, consciousness, and philosophy via a Chris Hayes interview with Michael Pollan."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "astralcodexten.com/p/waiting-for-… Fun piece. By the Law of the Conservation of the Supernatural, Scott Alexander succeeded in debunking a m",
-  "why": "New Scott Alexander piece applying rationalist investigation to a purported miracle."
+  "topic": "ai-essays",
+  "author": "MandanaSamiei",
+  "via": "AlisonGopnik",
+  "text": "We recently investigated how humans and AI reason through causal rules: arxiv.org/abs/2606.06464 We gave adults and LLMs agency to actively ",
+  "why": "Fascinating paper comparing how humans and LLMs reason through causal rules using the classic Blicket developmental game."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "dimitrikennedy",
-  "via": "jxnlco",
-  "text": "Codex writes nearly 100% of my code now. Most good engineers I know can learn, build, ship basically anything. No ceiling. Now we struggle t",
-  "why": "Practitioner thread detailing the actual bottlenecks and limits of using AI for 100% of coding tasks."
+  "topic": "frontier-ai",
+  "author": "AnjneyMidha",
+  "via": "swyx",
+  "text": "there are very few people who are as thoughtful about their questions as @swyx it was fun to sit down to talk through the reality of frontie",
+  "why": "Swyx dives deep into frontier AI lab creation, compute grids, and why data center backlash is the next big bottleneck."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "0xkydo",
-  "via": "awilkinson",
-  "text": "🤯 Midjourney -- yes, the AI image company -- just shipped a brand new type of imaging machine. 🤯 100x faster than an MRI. 10x cheaper. Full ",
-  "why": "Incredible example of small-team engineering and progress: Midjourney building a revolutionary medical scanner."
+  "author": "SemiAnalysis_",
+  "via": "dylan522p",
+  "text": "Stop Saying Half of 2026 US Datacenter Capacity Is Canceled: Don't Believe The Vibecoded Estimates, Go Through Every Individual Filing Inste",
+  "why": "Rigorous, data-driven pushback on datacenter capacity rumors. High-signal analysis of the semiconductor and compute supply chain."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "statto",
-  "via": "DKThomp",
-  "text": "Great piece by @DKThomp on the perils and opportunity cost of taking self-optimisation too far. What do we miss out on? In my view, the solu",
-  "why": "Superb critique of the tech elite's obsession with self-optimization; perfectly hits your productivity skepticism."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "emollick",
+  "via": null,
+  "text": "There are papers that show training AI on \"evil\" data results in general misalignment, so it is nice to know the opposite is  true and that ",
+  "why": "Mollick highlights research showing beneficial RL data improves alignment across tasks, a positive counterintuitive finding."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "swyx",
   "via": null,
-  "text": "In a learner controlled video setting, how long students watched and how often they clicked told us nothing about their cognitive load, wher",
-  "why": "Fascinating empirical finding in learning science about cognitive load and video playback speed."
+  "text": "+55% in one day. i should start a fund (dm if you would actually help me run one, i have no idea how to run one) Posted Jun 19, 2026 at 12:2",
+  "why": "Swyx's front-row synthesis of Midjourney's medical launch, highlighting what 40-100x technological ambition looks like."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "bentossell",
-  "via": null,
-  "text": "one of the best places to learn how to feel and notice taste Posted Jun 18, 2026 at 2:20PM",
-  "why": "High-quality resource on the craft of interface design and developing aesthetic taste."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "kplikethebird",
+  "via": "kieranklaassen",
+  "text": "If you saw this and a corner of your mind whispered, \"but what are loops?\" have I got a Context Window edition for you: every.to/context-win",
+  "why": "A clear, non-coder explanation of loops in the context of LLM context windows and agentic workflows."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "sariazout",
-  "via": null,
-  "text": "the name got everyone talking but what Taste Labs is doing is actually not very controversial - raising the floor on output quality through ",
-  "why": "Thoughtful commentary on the technical and philosophical challenge of codifying aesthetic taste in AI models."
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "benzulauf2",
+  "via": "C_Hendrick",
+  "text": "I’ve said that we shouldn’t teach standards in isolation, so what might we teach instead? This post shows how I planned to teach a lesson I ",
+  "why": "Practical, in-the-weeds breakdown of standards-based instruction and lesson planning for a 5th-grade classroom."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 6,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"While wandering down the path of wonder, I briefly escape the world of separation and enter the world of unity.\" Nobel laureate Hermann Hes",
-  "why": "Beautiful contemplative reflection on the purpose of education and wonder by Hermann Hesse."
+  "text": "Book of Questions – Pablo Neruda's poetic reckoning with the magic and mystery of life, illustrated themarginalian.org/2022/08/26/boo… Poste",
+  "why": "Beautiful contemplative piece on Neruda, but falls just short of the ruthless daily cutoff."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "build_canada",
-  "via": "tobi",
-  "text": "There's a feeling many Canadians have these days: No matter how hard I work, I can't seem to get ahead or or earn what I could somewhere els",
-  "why": "Bold economic policy proposal for Canadian tax reform; fits the progress and abundance theme."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The messiah in the mountain – Darwin on wonder and the spirituality of nature themarginalian.org/2024/05/19/dar… Posted Jun 18, 2026 at 11:0",
+  "why": "Good contemplative piece on Darwin, but doesn't quite clear the bar for the top 5-10 today."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 5,
   "topic": "contemplative",
-  "author": "PeterSchorschFL",
-  "via": "DKThomp",
-  "text": "Americans have never been healthier, or more alone. @DKThomp on why the healthiest generation is the loneliest open.substack.com/pub/derekth",
-  "why": "Link to Derek Thompson's essay, but another tweet provides better framing."
+  "author": "themarginalian",
+  "via": null,
+  "text": "Oliver Sacks on how love changes what we see themarginalian.org/2025/02/09/oli… Posted Jun 18, 2026 at 9:32PM",
+  "why": "Oliver Sacks is great, but this is a shorter excerpt rather than a dense essay."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
+  "score": 4,
   "topic": "contemplative",
-  "author": "jeffedelstein",
-  "via": "DKThomp",
-  "text": "TL;DR on this piece by @DKThomp (but you should definitely R) Eat, drink, and be merry. derekthompson.org/p/the-cult-of-… Posted Jun 18, 202",
-  "why": "Link to Derek Thompson's essay, but another tweet provides better framing."
+  "author": "themarginalian",
+  "via": null,
+  "text": "Fox and Bear – a tender modern fable about reversing the Anthropocene, illustrated in absolutely magical dioramas themarginalian.org/2023/07",
+  "why": "A lovely illustrated fable, but lacks the density of insight required for today's top saves."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Meta fudged Llama 4 results while LeCun was still there; he tells us about it now. 🤔 Posted Jun 18, 2026 at 3:34PM",
-  "why": "AI drama and skepticism without deep technical analysis or original insight."
+  "text": "Antidote to fear of death from the great white heron. As always, find this #birddivination as a solo print and part of the deck of 100, alon",
+  "why": "Contemplative art piece, but lacks the long-form substance you usually save."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 4,
-  "topic": "contemplative",
-  "author": "JeremyZegas82",
-  "via": "DKThomp",
-  "text": "This is thoughtful and excellent. The last paragraph is perfect. Posted Jun 18, 2026 at 2:54PM",
-  "why": "Quote tweet of a great essay, but the original tweet or direct link is better to save."
+  "topic": "tools-for-thought",
+  "author": "BearNotesApp",
+  "via": "fortelabs",
+  "text": "Meet Lettera. A native, file-based Markdown editor for Mac. Now in Beta. lettera.md Posted Jun 18, 2026 at 12:52PM",
+  "why": "Announcement for a new markdown editor; lacks the deeper tools-for-thought philosophy."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "New_Old_Paul",
-  "via": "C_Hendrick",
-  "text": "Nicely stated @C_Hendrick ; as usual. @rpondiscio and @natwexler have been advocating for good education for years and spelling it out expli",
-  "why": "Meta-commentary on education debates rather than substantive learning science insights."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Homicides and overdoses are down too!! sf.gov/news-mayor-lur… Posted Jun 19, 2026 at 2:45AM",
+  "why": "Local SF crime statistics; outside core focus areas."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "laurapatranella",
-  "via": "C_Hendrick",
-  "text": "Replying to @laurapatranella Latest: open.substack.com/pub/itselement… Posted Jun 18, 2026 at 2:39AM",
-  "why": "Bare link drop to a Substack post with no context or framing provided."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Car break-ins are down 61% in San Francisco under Lurie! growsf.org/news/2025-04-0… Posted Jun 19, 2026 at 2:41AM",
+  "why": "Local SF crime statistics; outside core focus areas."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 2,
   "topic": "frontier-ai",
-  "author": "yonashav",
-  "via": "TheZvi",
-  "text": "Twitter community, I would like you to perform a public service. Please take a moment to calibrate how unhinged Dean’s posting has been. Now",
-  "why": "Meta-commentary on an AI policy hire; lacks substantive analysis."
+  "author": "TheZvi",
+  "via": null,
+  "text": "Eli is a pretty cool guy and this is an important election, so if you are unsure who you are voting for in NY-12  this is recommended. Poste",
+  "why": "Local political campaigning mixed with AI policy."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "A faster and cheaper Librarian! Posted Jun 18, 2026 at 3:24PM",
-  "why": "Pure product announcement with no technical depth or postmortem insights."
+  "text": "Up from ~45% to 74%. Someone thinks they know something. Posted Jun 19, 2026 at 12:27AM",
+  "why": "Pure prediction market hype regarding an AI model release."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "danshipper",
-  "via": null,
-  "text": "we are hiring a managing editor @every ! if you are extremely meticulous, can keep the trains running on time, hate split infinitives, love ",
-  "why": "Job posting for a managing editor, not substantive reading material."
+  "topic": "parenting-education",
+  "author": "rpondiscio",
+  "via": "C_Hendrick",
+  "text": "Fun fact: I started the @KnowledgeMatrs campaign a decade ago. But I never imagined it would someday be led by someone as smart, competent, ",
+  "why": "Organizational announcement for an education campaign."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 2,
-  "topic": "parenting-education",
-  "author": "nsachdeva2019",
-  "via": "C_Hendrick",
-  "text": "rEDTO26 Get your tickets soon! What a line-up, what an opportunity. Don't miss it. Tickets going away FAST ⚡️Link below! @researchEDCan @res",
-  "why": "Event promotion and ticket sales; lacks standalone insight."
+  "topic": "ai-engineering",
+  "author": "jxnlco",
+  "via": null,
+  "text": "most people don't know this but when codex can't answer a question about something at work I go to @dkundel this is your chance to get him t",
+  "why": "Engagement bait for audience growth."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 2,
-  "topic": "contemplative",
-  "author": "G_Gutenberg",
-  "via": "pablo_dors",
-  "text": "¡Este próximo septiembre no te pierdas a @pablo_dors ,  Susan C. Stokes, Chantal Maillard, Sami Naïr y @ACConde_ en el @festdelasideas ! 👇 P",
-  "why": "Event promotion for a philosophy festival; lacks standalone reading value."
+  "topic": "builders-craft",
+  "author": "_brianpotter",
+  "via": null,
+  "text": "Posted Jun 18, 2026 at 9:11PM",
+  "why": "Pop culture/entertainment industry news."
  },
  {
   "rank": 23,
   "kept": false,
   "score": 1,
-  "topic": "ai-engineering",
-  "author": "GregKamradt",
+  "topic": "builders-craft",
+  "author": "Noahpinion",
   "via": null,
-  "text": "agnts.sh/greg Posted Jun 18, 2026 at 1:10PM",
-  "why": "Bare link drop with no context or insight provided."
+  "text": "Tarragon Cafe is the best lunch place in SF, bar none. It's also an undiscovered gem. Also, to the people who criticized us for not includin",
+  "why": "Local restaurant recommendation."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "ArmandDoma",
+  "via": "Noahpinion",
+  "text": "people got mad when I said this, but it's just true that Democratic primary voters are treating Gaza as a cultural issue rather than a forei",
+  "why": "Political commentary and culture-war mapping."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "creatine_cycle",
+  "via": "Noahpinion",
+  "text": "i asked @koreanpeptides and @Noahpinion if SF food is actually good. \"i think for america yes\" - @koreanpeptides \"i would say that NYC beats",
+  "why": "Video content about local SF food."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Trump-supporting Iran hawks are the most pathetic people in American politics. Posted Jun 18, 2026 at 8:49PM",
+  "why": "Political rage-bait."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The way Vance will square this circle is to blame the war on the Israelis. This is at least partly true -- the Israelis DO shoulder some of ",
+  "why": "Political commentary."
  }
 ]
