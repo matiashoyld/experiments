@@ -3,270 +3,370 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "emollick",
-  "via": null,
-  "text": "I have given AA a hard time about its previous agentic evaluation but this looks like a good and impressive benchmark for real world knowled",
-  "why": "Mollick highlights a rigorous new eval benchmark for long-horizon agentic knowledge work. Exactly the evals-as-discipline you value."
+  "topic": "econ-progress",
+  "author": "rohanpaul_ai",
+  "via": "GaryMarcus",
+  "text": "dot-com bubble vs. a possible AI bubble. From the famous \"Dean of Valuation\", Professor Aswath Damodaran, of NYU Stern School of Business, “",
+  "why": "Substantive, numbers-backed skepticism from Aswath Damodaran comparing the AI CapEx boom to the dot-com bubble."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "AlisonGopnik",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Really great interview with Michael Pollan on consciousness ( and whether it could be found in current AI) as part of Chris Hayes excellent ",
-  "why": "Hits the exact intersection of AI, consciousness, and philosophy via a Chris Hayes interview with Michael Pollan."
+  "text": "harness (library) building is hard!  some notes from doing Harness Engineering since last year on our libraries + having a blast working wit",
+  "why": "Exceptional deep dive into 'harness engineering' for agents, emphasizing model-task fit, evals, and context management."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "MandanaSamiei",
-  "via": "AlisonGopnik",
-  "text": "We recently investigated how humans and AI reason through causal rules: arxiv.org/abs/2606.06464 We gave adults and LLMs agency to actively ",
-  "why": "Fascinating paper comparing how humans and LLMs reason through causal rules using the classic Blicket developmental game."
+  "topic": "contemplative",
+  "author": "MillieMarconnni",
+  "via": "michaelpollan",
+  "text": "A Japanese immunologist spent 20 years proving that the chemicals trees release into the air walk into your bloodstream, hunt down your stre",
+  "why": "Fascinating breakdown of the biological mechanisms behind forest bathing, backed by decades of Japanese clinical data."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "AnjneyMidha",
-  "via": "swyx",
-  "text": "there are very few people who are as thoughtful about their questions as @swyx it was fun to sit down to talk through the reality of frontie",
-  "why": "Swyx dives deep into frontier AI lab creation, compute grids, and why data center backlash is the next big bottleneck."
+  "topic": "econ-progress",
+  "author": "chr1sa",
+  "via": "krishnanrohit",
+  "text": "New from me in Sota Letters ( @sotalikesfuture ): \"Prompt to print: manufacturing in an AI age\" sotaletters.substack.com/p/prompt-to-pr… Pos",
+  "why": "Explores the intersection of AI and physical manufacturing; a high-signal look at how prompting might translate to atoms."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "SemiAnalysis_",
-  "via": "dylan522p",
-  "text": "Stop Saying Half of 2026 US Datacenter Capacity Is Canceled: Don't Believe The Vibecoded Estimates, Go Through Every Individual Filing Inste",
-  "why": "Rigorous, data-driven pushback on datacenter capacity rumors. High-signal analysis of the semiconductor and compute supply chain."
+  "topic": "ai-engineering",
+  "author": "0xMovez",
+  "via": "swyx",
+  "text": "Creator of Claude Code: \"At Anthropic, almost 100% of our engineers are running 100+ agents with self-improving loops self-improving loops h",
+  "why": "Translates Anthropic's agent-loop architecture into a practical framework for quant trading and continuous evaluation."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "emollick",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "andy_matuschak",
   "via": null,
-  "text": "There are papers that show training AI on \"evil\" data results in general misalignment, so it is nice to know the opposite is  true and that ",
-  "why": "Mollick highlights research showing beneficial RL data improves alignment across tasks, a positive counterintuitive finding."
+  "text": "Delightful interactive tour through dozens of tiny muscle-memory-and-flow-promoting interface details: aresluna.org/show-your-hand… Posted J",
+  "why": "Andy Matuschak shares a delightful interactive exploration of interface details that promote muscle memory and flow."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "swyx",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "joulee",
   "via": null,
-  "text": "+55% in one day. i should start a fund (dm if you would actually help me run one, i have no idea how to run one) Posted Jun 19, 2026 at 12:2",
-  "why": "Swyx's front-row synthesis of Midjourney's medical launch, highlighting what 40-100x technological ambition looks like."
+  "text": "The only way I know of to develop better intuition for your own product is to: Constantly use your product as a real customer would Constant",
+  "why": "Highly practical, time-boxed breakdown of how to build product intuition through direct customer and usage exposure."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 6,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "kplikethebird",
-  "via": "kieranklaassen",
-  "text": "If you saw this and a corner of your mind whispered, \"but what are loops?\" have I got a Context Window edition for you: every.to/context-win",
-  "why": "A clear, non-coder explanation of loops in the context of LLM context windows and agentic workflows."
+  "author": "ross_cefalu",
+  "via": "bentossell",
+  "text": "With all the talk of software factories, I wanted to share what I've seen having recently joined one Build the machine that builds the machi",
+  "why": "A firsthand look at how the developer role shifts to 'conductor' when codebases are optimized for agentic contributions."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "benzulauf2",
-  "via": "C_Hendrick",
-  "text": "I’ve said that we shouldn’t teach standards in isolation, so what might we teach instead? This post shows how I planned to teach a lesson I ",
-  "why": "Practical, in-the-weeds breakdown of standards-based instruction and lesson planning for a 5th-grade classroom."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "hayounggjung",
+  "via": "random_walker",
+  "text": "It’s hard to take this appeal to “rigorous evaluation” seriously when OpenEvidence makes independent evaluation so difficult. Their API is c",
+  "why": "Strong critique of closed-API medical AI systems that demand 'rigorous evaluation' while blocking independent researchers."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "natolambert",
   "via": null,
-  "text": "Book of Questions – Pablo Neruda's poetic reckoning with the magic and mystery of life, illustrated themarginalian.org/2022/08/26/boo… Poste",
-  "why": "Beautiful contemplative piece on Neruda, but falls just short of the ruthless daily cutoff."
+  "text": "Not enough people studying SFT methods. It’s a foundation of post training with limited literature that seems very serious in an empirical s",
+  "why": "Highlights a rigorous, systematic evaluation of SFT methods across models—a crucial but under-discussed area of post-training."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "JonHaidt",
   "via": null,
-  "text": "The messiah in the mountain – Darwin on wonder and the spirituality of nature themarginalian.org/2024/05/19/dar… Posted Jun 18, 2026 at 11:0",
-  "why": "Good contemplative piece on Darwin, but doesn't quite clear the bar for the top 5-10 today."
+  "text": "Congrats Malaysia, for joining Australia and Indonesia as countries currently enforcing age limits for having social media accounts, with Ca",
+  "why": "Jonathan Haidt highlights Malaysia's new age limits and design restrictions for social media to protect kids."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Oliver Sacks on how love changes what we see themarginalian.org/2025/02/09/oli… Posted Jun 18, 2026 at 9:32PM",
-  "why": "Oliver Sacks is great, but this is a shorter excerpt rather than a dense essay."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "Ross__Hendricks",
+  "via": "GaryMarcus",
+  "text": "It’s hard to overstate just how horrific the long-term economics of Americas largest tech companies will become after sinking trillions into",
+  "why": "Sharp economic analysis on the pricing power challenges US AI labs face against cheaper, highly efficient Chinese models."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 4,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Fox and Bear – a tender modern fable about reversing the Anthropocene, illustrated in absolutely magical dioramas themarginalian.org/2023/07",
-  "why": "A lovely illustrated fable, but lacks the density of insight required for today's top saves."
+  "text": "Living against time – Virginia Woolf on the art of presence and the \"moments of being\" that make you who you are themarginalian.org/2025/02/",
+  "why": "Virginia Woolf on the art of presence; a beautiful contemplative piece from The Marginalian."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Antidote to fear of death from the great white heron. As always, find this #birddivination as a solo print and part of the deck of 100, alon",
-  "why": "Contemplative art piece, but lacks the long-form substance you usually save."
+  "text": "Edward Abbey on how to live and how to die themarginalian.org/2025/02/19/edw… Posted Jun 20, 2026 at 12:35AM",
+  "why": "Edward Abbey on living and dying; classic contemplative curation from The Marginalian."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "tools-for-thought",
-  "author": "BearNotesApp",
-  "via": "fortelabs",
-  "text": "Meet Lettera. A native, file-based Markdown editor for Mac. Now in Beta. lettera.md Posted Jun 18, 2026 at 12:52PM",
-  "why": "Announcement for a new markdown editor; lacks the deeper tools-for-thought philosophy."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Insomnia and the secret life of ideas – Kafka on the relationship between sleeplessness and creativity themarginalian.org/2026/06/19/kaf… Po",
+  "why": "Kafka on insomnia and creativity; great contemplative curation."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Homicides and overdoses are down too!! sf.gov/news-mayor-lur… Posted Jun 19, 2026 at 2:45AM",
-  "why": "Local SF crime statistics; outside core focus areas."
+  "text": "Nick Cave on the two pillars of a meaningful life themarginalian.org/2026/06/13/nic… Posted Jun 19, 2026 at 9:32PM",
+  "why": "Nick Cave on humility and curiosity; excellent contemplative reading."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Car break-ins are down 61% in San Francisco under Lurie! growsf.org/news/2025-04-0… Posted Jun 19, 2026 at 2:41AM",
-  "why": "Local SF crime statistics; outside core focus areas."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "CPMou2022",
+  "via": "jxnlco",
+  "text": "Day 5 of #12daysofChatCodexStratfin on how OpenAI's finance team uses Codex. Amir Tavoli and Esau Torres use Codex to automate budget manage",
+  "why": "Good practical example of using Codex to automate complex financial reconciliation workflows."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 2,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "TheZvi",
+  "author": "natolambert",
   "via": null,
-  "text": "Eli is a pretty cool guy and this is an important election, so if you are unsure who you are voting for in NY-12  this is recommended. Poste",
-  "why": "Local political campaigning mixed with AI policy."
+  "text": "Well said. Posted Jun 19, 2026 at 7:32PM",
+  "why": "An interesting metaphorical breakdown of Anthropic's frontier AI strategy and worldview."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Up from ~45% to 74%. Someone thinks they know something. Posted Jun 19, 2026 at 12:27AM",
-  "why": "Pure prediction market hype regarding an AI model release."
+  "text": "This Loren Eiseley meditation on wonder, lensed through his encounter with a bouquet of warblers, is one my all-time favorite things to have",
+  "why": "Loren Eiseley on wonder; beautiful contemplative nature writing."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "Fun fact: I started the @KnowledgeMatrs campaign a decade ago. But I never imagined it would someday be led by someone as smart, competent, ",
-  "why": "Organizational announcement for an education campaign."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "Yesterday, we concluded our 2026 AI Festival in Los Angeles and New York. I often think of this festival as a way to capture the spirit and ",
+  "why": "Thoughtful essay from Runway's CEO on how AI changes who gets to tell stories."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
-  "via": null,
-  "text": "most people don't know this but when codex can't answer a question about something at work I go to @dkundel this is your chance to get him t",
-  "why": "Engagement bait for audience growth."
+  "score": 5,
+  "topic": "rationality",
+  "author": "SciPsychedelics",
+  "via": "michaelpollan",
+  "text": "37% U.S. voters say that psychedelics are safe to use…in a supervised setting. The latest UC Berkeley Psychedelics Survey tells us about the",
+  "why": "Survey data on psychedelic safety perceptions; interesting but a bit newsy."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "_brianpotter",
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "GregKamradt",
   "via": null,
-  "text": "Posted Jun 18, 2026 at 9:11PM",
-  "why": "Pop culture/entertainment industry news."
+  "text": "Interesting to see roles formalize around context and memories Posted Jun 19, 2026 at 9:16PM",
+  "why": "Brief observation on AI engineering roles formalizing around context and memory."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Tarragon Cafe is the best lunch place in SF, bar none. It's also an undiscovered gem. Also, to the people who criticized us for not includin",
-  "why": "Local restaurant recommendation."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "AndrewCurran_",
+  "via": "GaryMarcus",
+  "text": "President Trump on the Axios show this morning 'You know we have a situation with Anthropic. And we didn't like what they were doing. And so",
+  "why": "Newsy transcript of Trump discussing Anthropic and national security."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "ArmandDoma",
-  "via": "Noahpinion",
-  "text": "people got mad when I said this, but it's just true that Democratic primary voters are treating Gaza as a cultural issue rather than a forei",
-  "why": "Political commentary and culture-war mapping."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "charles_irl",
+  "via": "HamelHusain",
+  "text": "Speculation Is All You Need. In this blog post, we announce the co-release (w/ Z Lab) of six more state-of-the-art DFlash speculators for @A",
+  "why": "Model release announcement with impressive numbers, but lacks deeper architectural insights."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "creatine_cycle",
-  "via": "Noahpinion",
-  "text": "i asked @koreanpeptides and @Noahpinion if SF food is actually good. \"i think for america yes\" - @koreanpeptides \"i would say that NYC beats",
-  "why": "Video content about local SF food."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "randal_olson",
+  "via": "sh_reya",
+  "text": "I'm excited for this one. @HamelHusain , @sh_reya , and folks who build AI products for a living are teaming up to run a bunch of free live ",
+  "why": "Promo for a free lecture series on AI product engineering."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "swyx",
   "via": null,
-  "text": "Trump-supporting Iran hawks are the most pathetic people in American politics. Posted Jun 18, 2026 at 8:49PM",
-  "why": "Political rage-bait."
+  "text": "Anthropic is going to IPO at $2T Posted Jun 19, 2026 at 9:31PM",
+  "why": "Speculative hype tweet based on a personnel move."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "Yuchenj_UW",
+  "via": "GaryMarcus",
+  "text": "John Jumper is a Nobel laureate who won the 2024 Nobel Prize with Demis Hassabis. Now he’s leaving Google DeepMind too, right after Noam Sha",
+  "why": "Lab gossip regarding John Jumper leaving DeepMind."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "JoanneLeeJacobs",
+  "via": "C_Hendrick",
+  "text": "Safe schools set and enforce rules. Teachers aren't therapists. Students aren't victims. tinyurl.com/27by24p8 Posted Jun 19, 2026 at 10:33PM",
+  "why": "Culture-war adjacent commentary on school discipline."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "TheZachMueller",
+  "via": "HamelHusain",
+  "text": "Super excited to yap with a few of my favorite people. Come join! (Btw it’s free) Posted Jun 19, 2026 at 7:10PM",
+  "why": "Promo for an AI engineering lecture series."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "kitledru",
+  "via": "sh_reya",
+  "text": "these people are all amazing at what they do some of them have been invaluable in my leveling up. can't be grateful enough for all the amazi",
+  "why": "More promo for the AI engineering lecture series."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "Steplab_co",
+  "via": "C_Hendrick",
+  "text": "🎉 What a day! Steplab Conference 2026 brought together 850+ educators from 10 countries for a day of evidence-informed PD, practical insight",
+  "why": "Event recap and thank-you post for an education conference."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "The way Vance will square this circle is to blame the war on the Israelis. This is at least partly true -- the Israelis DO shoulder some of ",
-  "why": "Political commentary."
+  "text": "Wow! I want to own part of California's GDP too! 🤩 Posted Jun 20, 2026 at 3:37AM",
+  "why": "Pure political rage-bait regarding taxation and the donor class."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "jaysbookman",
+  "via": "Noahpinion",
+  "text": "The Texas screwworm story is a version of this. The Reflecting Pool fiasco is a version of this. The Iranian war is a very large and ongoing",
+  "why": "Political commentary on military vaccine policies."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "JeremiahDJohns",
+  "via": "Noahpinion",
+  "text": "This is Chotiner level embarrassment, the @nyeditboard is providing a massive public service Posted Jun 19, 2026 at 7:17PM",
+  "why": "Political/culture-war dunking on a prison abolitionist."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "vaibcode",
+  "via": null,
+  "text": "Someone really wants our promptfiddle.com api keys... here let me make your life easier. sk-ant-api03-oNqh_iklP7inAzqCGHPr-3ABXeeRvBXidObV00",
+  "why": "Low-signal dev frustration/joke about leaked API keys."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "creatine_cycle",
+  "via": "Noahpinion",
+  "text": ". @Noahpinion and @koreanpeptides dropped their recommendation for best high stakes date spot in SF and it is mijoté in the mission district",
+  "why": "Video-only content about food in SF; irrelevant to core interests."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "JessicaBRiedl",
+  "via": "Noahpinion",
+  "text": "Trump ran against the Biden record. Then he: – Raised gas prices – Launched foreign wars – Dangled $300B for Iran – Backdoor-forgave student",
+  "why": "Pure political dunking and rage-bait."
  }
 ]
