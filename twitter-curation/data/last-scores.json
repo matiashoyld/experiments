@@ -3,131 +3,131 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "sebkrier",
-  "via": "jasoncrawford",
-  "text": "I think the habit of modeling a complex system as one optimizer pursuing one objective predisposes people to a central planning mindset, and",
-  "why": "A profound philosophical essay contrasting the 'one true ring' monist view of AGI with classical liberal multiplicity."
+  "topic": "econ-progress",
+  "author": "russelljkaplan",
+  "via": "swyx",
+  "text": "In 1958 Ian Donald published what is now the foundational paper on medical ultrasound for obstetrics. He was so widely ridiculed by his coll",
+  "why": "A beautiful synthesis of technological history, skepticism, and a deeply personal parenting story."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ZyMazza",
-  "via": "naval",
-  "text": "An abliterated top-tier open weights model today can  tell you how to build a nuclear weapon. The challenge to building a nuclear weapon isn",
-  "why": "Excellent, substantive counterweight to AI bioterrorism hype focusing on real-world supply chain bottlenecks."
+  "topic": "econ-progress",
+  "author": "StevenGlinert",
+  "via": "Noahpinion",
+  "text": "I think the semiconductor industry will face a dilemma over the next 5-7 years over Taiwan. Many chip companies are currently hedging their ",
+  "why": "Detailed, math-backed analysis of semiconductor economics, TSMC vs Intel yields, and geopolitical risk."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "deedydas",
-  "via": "GaryMarcus",
-  "text": "Most software engineers are facing an identity crisis bordering on depression. As CTOs aggressively evangelize tokenmaxxing, a class divide ",
-  "why": "Deeply resonant critique of how AI coding tools are bifurcating engineers into 'the lazy' and exhausted craftsmen."
+  "topic": "ai-essays",
+  "author": "LinchZhang",
+  "via": "Noahpinion",
+  "text": "People seem so incredibly overconfident about AI consciousness. It’s directly linked with among the hardest problems in metaphysics, among t",
+  "why": "Substantive, philosophically grounded skepticism regarding the overconfidence around AI consciousness."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "rdd147",
-  "via": "GaryMarcus",
-  "text": "Doctors 25% more likely to miss a diagnosis on a patient within 3 months after Ai is implemented. The results indicate Ai has an immediate n",
-  "why": "Substantive skepticism with real numbers: a Nature study on AI's immediate negative effect on diagnostic skills."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to stop doing and start living themarginalian.org/2025/01/04/the… Posted Jun 20, 2026 at 9:32PM",
+  "why": "Deeply aligned with your interest in intentional living and substantive skepticism of productivity culture."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "simonsarris",
-  "via": null,
-  "text": "The UK will have their Renaissance when they realize they can restore Stonehenge instead of leaving it a ruin Posted Jun 20, 2026 at 1:44PM",
-  "why": "A beautiful reflection from the Long Now on how monuments requiring continuous maintenance create lasting communities."
+  "topic": "frontier-ai",
+  "author": "PodcastAlphaX",
+  "via": "swyx",
+  "text": "1.3 GW secured. 6 GW needed. The gap is the story. Anjney Midha @AnjneyMidha runs AMP, a grid operator that pools AI compute for frontier la",
+  "why": "Provides real numbers and structural analysis on the massive compute gap facing independent AI labs."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "thisguyknowsai",
-  "via": "C_Hendrick",
-  "text": "A woman who flunked her way through every math and science course in high school enlisted in the United States Army the day after graduation",
-  "why": "An inspiring, detailed biography of Barbara Oakley and the origins of the 'Learning How to Learn' course."
+  "topic": "builders-craft",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "love you all, this is hard work, there's still tons of unknowns, I'm trying to help you speed run to the frontier here. rant: i'm sorry but ",
+  "why": "Excellent operator wisdom on the dangers of AI-generated code and the importance of coaching junior engineers."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "AI is generally a weak fiction writer except for one particular kind of fiction (metaphor-rich, staccato sentences, short & plot light, etc.",
-  "why": "Mollick (a favorite) with a sharp observation on the specific stylistic quirks that make AI win literary contests."
+  "text": "At the link, the best of The Marginalian this week in one place – Ursula K. Le Guin on what it really takes to grow up, Alan Lightman on how",
+  "why": "Excellent curation of contemplative essays on maturity, the universe, and creativity."
  },
  {
   "rank": 8,
   "kept": false,
   "score": 7,
   "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Terrifying sentence from Goldman Sachs: “Hyperscalers will need financing from across markets, structures, and currencies as they potentiall",
-  "why": "The quoted Goldman Sachs summary provides excellent hard numbers on the $5.3T AI infrastructure bottleneck."
+  "author": "RANDCorporation",
+  "via": "Noahpinion",
+  "text": "New report examines how China's techno-industrial policy has evolved—and explores the implications for global economic competition and gover",
+  "why": "High-signal report on China's techno-industrial policy and its implications for global economic competition."
  },
  {
   "rank": 9,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "mikesmerklo",
-  "via": "DKThomp",
-  "text": "@DKThomp Yep!  Happy Father’s Day! derekthompson.org/p/why-do-riche… Posted Jun 20, 2026 at 1:39PM",
-  "why": "Derek Thompson diving into the economics and sociology of why richer fathers spend more time with their kids."
+  "topic": "econ-progress",
+  "author": "ForeignAffairs",
+  "via": "Noahpinion",
+  "text": "“China is not merely climbing the technological ladder; it is pulling up the ladder behind it.” @shoumitro_c and @arvindsubraman explain how",
+  "why": "Strong economic analysis on how China's technological rise impacts the development paths of poorer nations."
  },
  {
   "rank": 10,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "lit4pleasure",
-  "via": "C_Hendrick",
-  "text": "Replying to @C_Hendrick @C_Hendrick The Science Of Teaching Primary Writing 👇 writing4pleasure.com/the-science-of… Visualising The Science O",
-  "why": "High-signal resource on the learning science and evidence-based practices behind teaching primary writing."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "What happens when we die: themarginalian.org/2026/06/20/ala… Posted Jun 20, 2026 at 8:38PM",
+  "why": "A profound contemplative essay by Alan Lightman on death, consciousness, and philosophy."
  },
  {
   "rank": 11,
   "kept": true,
   "score": 6,
-  "topic": "ai-engineering",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "I’ve been thinking about how collectively inefficient agents are How many times have agents, in a silo, run into the same bug implementing a",
-  "why": "Solid builder insight on the missing incentive structures for collective agentic intelligence."
+  "topic": "builders-craft",
+  "author": "infoxiao",
+  "via": "dexhorthy",
+  "text": "I just open sourced my “lazy or craftsman?” simple test. Posted Jun 20, 2026 at 3:40PM",
+  "why": "Highlights the cultural shift in software engineering between AI-assisted 'lazy' coders and overwhelmed craftsmen."
  },
  {
   "rank": 12,
-  "kept": false,
+  "kept": true,
   "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "econ-progress",
+  "author": "ByrneHobart",
   "via": null,
-  "text": "E.B. White's beautiful, endlessly resuscitating letter to a man who had lost faith in humanity themarginalian.org/2014/05/06/e-b… Posted Jun",
-  "why": "A classic E.B. White letter on retaining faith in humanity; good intentional living material."
+  "text": "These guys really need to talk to people who work in other professions where consumers have suddenly gotten lots of additional information, ",
+  "why": "Interesting historical parallel on how professions adapt to consumers gaining access to new information."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "teacherhead",
-  "via": "C_Hendrick",
-  "text": "This book is brilliant ! Make sure you get yourself a copy amazon.co.uk/Engelmanns-Dir… Posted Jun 19, 2026 at 3:47PM",
-  "why": "A practical guide to applying Engelmann's Direct Instruction—a cornerstone of evidence-based learning science."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The Tree in Me – a tender painted poem about growing our capacity for joy, strength, and love themarginalian.org/2021/04/16/the… Posted Jun ",
+  "why": "A beautiful painted poem, but slightly light on the deep philosophical substance you usually save."
  },
  {
   "rank": 14,
@@ -136,117 +136,87 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Chance, presence, and the imperative of self-renewal – existential lessons from the geology of islands themarginalian.org/2025/01/21/isl… Po",
-  "why": "A bit too generic/poetic without the density of insight usually preferred."
+  "text": "You Can't Have It All – such a gorgeous poem themarginalian.org/2019/02/07/you… Posted Jun 20, 2026 at 11:03PM",
+  "why": "A gorgeous poem, but falls slightly below the threshold for long-form deep reading."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "michaelpollan",
   "via": null,
-  "text": "How do Japanese people think about the wave of immigrants that's coming in to relieve labor shortages in the country? They want them to obey",
-  "why": "Interesting demographics piece, but slightly tangential to core progress studies."
+  "text": "Is AI ALIVE? What AI is teaching us about consciousness with Michael Pollan and Chris Hayes - YouTube youtube.com/watch?v=Xgd_bQ… Posted Jun",
+  "why": "Video-only content, despite the interesting intersection of AI and consciousness."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "rationality",
+  "author": "ezraklein",
   "via": null,
-  "text": "In this post, acclaimed author Hiroko Yoda offers her thoughts about how Japan will think about its national identity in an age of mass immi",
-  "why": "Duplicate share of the Japan demographics article."
+  "text": "Enough people have asked me about the Peter Thiel-Dialog story that I think it's worth saying what it is, or at least what I saw it to be. S",
+  "why": "Media drama and conference gossip; lacks the systemic or philosophical depth you prefer."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 4,
+  "score": 2,
   "topic": "ai-engineering",
   "author": "swyx",
   "via": null,
-  "text": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev . it is very important that you",
-  "why": "Inside baseball engagement post, lacks substantive engineering insight."
+  "text": "btw this is what happens on July 4 if team usa wins this game Wednesday after next Posted Jun 21, 2026 at 1:45AM",
+  "why": "Pure event hype and sports betting promotion; lacks substantive insight."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "This week's #ReweavingTheRainbow divination (using text from a fascinating new study revealing that most people veer left when they walk!). ",
-  "why": "Newsletter hook with low density of insight."
+  "text": "Posted Jun 20, 2026 at 9:30PM",
+  "why": "Local news irony about car break-ins; irrelevant to your core interests."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "econ-progress",
-  "author": "fbermingham",
+  "author": "punishdunce",
   "via": "Noahpinion",
-  "text": "Germany hews EU’s tough China line with call for ‘Plaza Accord’ talks on yuan A wrap from me on everything that happened at this week's Euro",
-  "why": "Geopolitics news, outside core focus."
+  "text": "In some 20 years, commies will present Cuba as an example of \"successful socialism\" and totally ignore this thing Posted Jun 20, 2026 at 7:3",
+  "why": "Political dunking and culture-war framing; violates your anti-taste rules."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
+  "score": 2,
+  "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "There is no way the hyperscalers are going to make back their $5.3 trillion — unless they take it out of the taxpayers, via massive governme",
-  "why": "Redundant with the earlier Goldman Sachs quote, but adds unnecessary political rage-bait."
+  "text": "same. i want to know why Amazon is trying to bury it. Posted Jun 20, 2026 at 8:26PM",
+  "why": "Hollywood gossip regarding an AI-related movie; lacks technical or philosophical substance."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "pro tip: when someone starts a long song and dance with “the fact that X” and that claim X is not a fact but an as yet a controversial and u",
-  "why": "Dunking on a highly speculative, low-substance tech-libertarian hype tweet."
+  "score": 2,
+  "topic": "rationality",
+  "author": "lilbabygandhi",
+  "via": "Noahpinion",
+  "text": "Even though the war was a stupid, catastrophic mistake. Irans theocracy is an evil and vile regime and the entire world is better off when t",
+  "why": "Geopolitical rage-bait; violates your anti-taste rules against political dunking."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Reuters",
-  "via": "Noahpinion",
-  "text": "Cuban lawmakers unanimously approved sweeping reforms backed by the Communist Party and former leader Raul Castro that would privatize a vas",
-  "why": "General world news, not relevant to core progress/tech interests."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
+  "score": 1,
+  "topic": "frontier-ai",
   "author": "dexhorthy",
   "via": null,
-  "text": "Finally made the training cutoff Posted Jun 20, 2026 at 4:20AM",
-  "why": "Just a meme/joke about being in the training weights."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "dscheinm",
-  "via": "naval",
-  "text": "One idiot politician is trying to destroy California to run for President. Posted Jun 19, 2026 at 8:16PM",
-  "why": "Pure political rage-bait and culture war dunking."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "SethDillon",
-  "via": "naval",
-  "text": "Manufacturing a deadly virus only to turn around and play the hero who saves the world from it — that's what supervillains do in movies and ",
-  "why": "Culture war and political rage-bait regarding COVID origins."
+  "text": "mfw when a model is \"thinking\" youtube.com/watch?v=_X597L… Posted Jun 21, 2026 at 1:15AM",
+  "why": "Meme/video-only content with no substantive insight."
  }
 ]
