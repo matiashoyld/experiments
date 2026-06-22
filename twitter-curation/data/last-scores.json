@@ -3,360 +3,230 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "bswud",
-  "via": "Noahpinion",
-  "text": "The entire modern world, including capitalism and industrialisation, happened because we beat NIMBYism and vetocracy in 18th-century England",
-  "why": "Exceptional historical analysis of how 18th-century England defeated NIMBYism to spark the Industrial Revolution."
+  "topic": "ai-essays",
+  "author": "sebkrier",
+  "via": "nabeelqu",
+  "text": "I do sympathise with this take, even though I also think the utility of detecting AI text is really high and often prosocial. I basically se",
+  "why": "A highly nuanced, philosophical breakdown of why and when AI text detection actually matters, separating provenance from output."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "dawnsongtweets",
-  "via": "GaryMarcus",
-  "text": "Everyone says the latest AI agents will be \"job-ready\" soon, especially after the release of Fable 5 this week. But is that really the case?",
-  "why": "Incredible evals-as-discipline thread introducing a rigorous benchmark for AI agents on real labor tasks, showing 0% success on hard tiers."
+  "topic": "ai-essays",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "Technological revolutions rarely destroy industries. More often, they destroy the reason those industries used to exist. Photography did not",
+  "why": "Brilliant historical analogy from a Chilean AI builder on how generative AI will commoditize cinematic spectacle."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "Deshpacito661",
-  "via": "Noahpinion",
-  "text": "Another \"hidden\" area where the United States absolutely dominates the rest of the world, including Western Europe: wastewater/sewage treatm",
-  "why": "Brilliant, counter-intuitive take on economic progress: wastewater treatment as the true indicator of development over shiny skylines."
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "GLM-5.2 should be “DeepSeek moment” for agents. We enter a new world where the top end of agentic capabilities are available in open models.",
+  "why": "Nathan Lambert's technical breakdown of GLM-5.2, marking a critical threshold for open-weight agentic capabilities."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "author": "DTWillingham",
   "via": null,
-  "text": "The idea that “AI is not going to change that much in education” is clearly wrong but the opposite claim is also wrong. The focus is almost ",
-  "why": "Hits the AI x education intersection perfectly, focusing on the massive impact of reducing teacher marking load rather than robot teachers."
+  "text": "AI changes feedback on student writing when it knows student race, gender edweek.org/technology/ai-… Posted Jun 22, 2026 at 10:11AM",
+  "why": "Crucial intersection of AI and learning science from cognitive psychologist Daniel Willingham on bias in automated feedback."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"The greatest obstacle to living is expectancy, which hangs upon tomorrow and loses today.\" Seneca's classic on how to fill the shortness of",
-  "why": "Seneca on the shortness of life; a timeless contemplative piece on intentional living."
+  "topic": "econ-progress",
+  "author": "sebkrier",
+  "via": "davideoks",
+  "text": "Another @davideoks banger, really nice piece. open.substack.com/pub/davidoks/p… Posted Jun 22, 2026 at 12:17AM",
+  "why": "Deep economic history and progress studies piece exploring the divergent growth paths of China and India."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "ryandal",
-  "via": "C_Hendrick",
-  "text": "The edu AI dividing line will be those who see AI as a potentially beneficial tool for teachers like those example versus those who see it’s",
-  "why": "Sharp insight on the AI x Education intersection: the real value is AI as a teacher tool (reducing marking) rather than a student tool."
+  "topic": "ai-engineering",
+  "author": "hnshah",
+  "via": "HamelHusain",
+  "text": "Evals are how a company turns internal judgment into software with AI. Every company has decisions trapped in people’s heads. Employees know",
+  "why": "Fantastic framing on evals-as-discipline: turning trapped internal human judgment into durable, repeatable software."
  },
  {
   "rank": 7,
-  "kept": false,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "SciInTheMaking",
-  "via": "C_Hendrick",
-  "text": "When it comes to scaling AI adaptive learning platforms, there are many practical challenges we need to seriously consider. scientistsinthem",
-  "why": "Deep dive into the practical challenges of scaling AI adaptive learning platforms; highly relevant to your ed-tech work."
+  "kept": true,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "shashj",
+  "via": "jasoncrawford",
+  "text": "This now widely circulated claim is based on a line I wrote last week ( economist.com/briefing/2026/… ). I accurately quoted Mark Warner, vi",
+  "why": "Crucial context and anti-hype correction from the original author regarding a viral claim about AI hacking the NSA."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "I think this is a really good idea, to the level it should've been done regardless of AI. Posted Jun 21, 2026 at 5:52PM",
-  "why": "Rohit Krishnan highlighting a formal technical assessment framework for AI jailbreaks; great evals-as-discipline content."
+  "text": "Polyvagal theory and the neurobiology of connection – the science of rupture, repair, and reciprocity themarginalian.org/2026/06/22/pol… Pos",
+  "why": "Deep dive into the neurobiology of connection and psychology from The Marginalian; great contemplative reading."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 8,
+  "kept": true,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "JohnHemmings2",
-  "via": "Noahpinion",
-  "text": "The most consequential victims of the current China shock are not workers in Detroit or Stuttgart, but future workers in places such as Addi",
-  "why": "Excellent macro-economic analysis on how China's manufacturing dominance squeezes the industrialization paths of developing nations."
+  "author": "DAcemogluMIT",
+  "via": null,
+  "text": "This is a post about lessons from the World Cup for ethnic integration and patriotism. When the German footballer Deniz Undav, brought in as",
+  "why": "Thoughtful essay from Acemoglu using the World Cup to explore the economics and sociology of ethnic integration and national identity."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A forgotten Victorian woman's extraordinary letters to her physician about love, life, death, and courage, written as she was dying themargi",
-  "why": "Beautiful contemplative piece on life, death, and courage from a high-signal source."
+  "topic": "ai-engineering",
+  "author": "barrowjoseph",
+  "via": "HamelHusain",
+  "text": "New paper: every law in America is technically public. But not really, until now! With @DenisPeskoff at UC Berkeley, we built a corpus of ~e",
+  "why": "Massive, high-signal dataset release of 2.2 million local laws; highly relevant for applied AI and RAG builders."
  },
  {
   "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "rationality",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "I would like to understand this claim better. I am not that surprised to learn that for certain cancers, more screening has not yet reduced ",
-  "why": "Jason Crawford provides excellent, substantive pushback against pure skepticism regarding early cancer detection."
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "teortaxesTex",
+  "via": "dwarkesh_sp",
+  "text": "Dario's answer to Dwarkesh on why he won't buy $300B-1T of compute sure was incomplete. But I guess it would have been unwise to spell out \"",
+  "why": "Sharp commentary on frontier AI capex dynamics and the $1T compute race, shared by Dwarkesh."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The thing itself – C.S. Lewis on what we long for in our existential longing themarginalian.org/2022/09/03/c-s… Posted Jun 22, 2026 at 12:35",
-  "why": "C.S. Lewis on existential longing; perfectly aligns with your interest in philosophy and intentional living."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "robrhyne",
+  "via": "sh_reya",
+  "text": "If you are new to evals, you need to take @HamelHusain and @sh_reya ’s course on Maven. If you can’t do that… look at your data and create e",
+  "why": "Good synthesis on why evals are the critical bottleneck for enterprise AI ROI, though Hiten Shah's framing of the same quote is sharper."
  },
  {
   "rank": 13,
-  "kept": true,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "AlisonGopnik",
+  "kept": false,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "themarginalian",
   "via": null,
-  "text": "open.substack.com/pub/goodfather… Marvelous piece for all caregivers. Happy Fathers Day! Posted Jun 21, 2026 at 11:05PM",
-  "why": "Alison Gopnik sharing a thoughtful piece on parenting and whether having a baby 'ruins' your life."
+  "text": "On Octavia Butler's birthday, her immortal advice on writing themarginalian.org/2023/09/20/oct… Posted Jun 22, 2026 at 12:58PM",
+  "why": "Timeless craft and operator wisdom from Octavia Butler via The Marginalian."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "swyx",
   "via": null,
-  "text": "Is it a sign of disillusionment when technooptimist @BrianRoemmele sounds exactly like me:? Here he writes that we risk an AI winter from “O",
-  "why": "Substantive skepticism regarding AI hype cycles and the structural causes of 'AI winters'."
+  "text": "btw i've been shopping around for insurers for the New Media Lab we are setting up (basically the creative playground housing swyx inc) and ",
+  "why": "Swyx is a favorite, but this is a niche observation about SF tech scene networking rather than a substantive essay."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "leah_pierson",
-  "via": "GaryMarcus",
-  "text": "\"If curing cancer were the only result of building ever more powerful AI systems, I would cheer for their arrival. But the problem is that t",
-  "why": "Emma Pierson offers a nuanced, personal essay on the tension between AI's potential to cure cancer and its broader societal risks."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "LLMs can’t be trusted to follow rules. Which means they can’t be trusted, period. If we are going to solve alignment we must move on. Posted",
+  "why": "Interesting study on LLM persuasion, but Marcus's framing is his standard repetitive skepticism without new technical depth."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "shashj",
-  "via": "GaryMarcus",
-  "text": "This now widely circulated claim is based on a line I wrote last week ( economist.com/briefing/2026/… ). I accurately quoted Mark Warner, vi",
-  "why": "Important clarification and anti-hype counterweight regarding a viral claim about an AI jailbreaking classified NSA systems."
+  "author": "TheZvi",
+  "via": null,
+  "text": "GLM-5.2 arrived last week. It boasts excellent benchmarks and looks strong. Benchmarks here are a de facto ceiling of how good it is, not a ",
+  "why": "Contains good GLM-5.2 analysis, but is heavily bogged down by a local political endorsement which violates your anti-taste for politics."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "emollick",
-  "via": null,
-  "text": "Classic short term thinking. What about the heat death of the universe? This paper shows we could survive 100 billion years past the end of ",
-  "why": "Ethan Mollick sharing a fascinating paper on long-term progress and Dyson spheres; hits your interest in abundance and deep futures."
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": "This is a great post with a fun and clever hook that, to be honest, I just can’t picture AI coming up with open.substack.com/pub/noahpinion…",
+  "why": "A bit too light and fluffy compared to the denser economic progress pieces you prefer."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Artist and philosopher Rockwell Kent, born on this day in 1882, on our existential wanderlust themarginalian.org/2022/06/21/roc… Posted Jun ",
-  "why": "Solid contemplative piece on existential wanderlust from a trusted curation source."
+  "text": "fantastic talk from @Mappletons from @github on the need for alignment and the fact that \"one engineer running 12 claude terminals on their ",
+  "why": "Video-only content, which violates your reading preferences."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "simonw",
+  "score": 3,
+  "topic": "contemplative",
+  "author": "pablo_dors",
   "via": null,
-  "text": "I just released the first release candidate for sqlite-utils v4, adding a migrations system (previously released independently as sqlite-mig",
-  "why": "Simon Willison announcing a major update to sqlite-utils; high-signal tool update from a favorite builder."
+  "text": "Hablamos de por qué nos cuesta tanto escuchar, cómo encontrar la quietud, la diferencia entre reflexionar y meditar, el papel del silencio e",
+  "why": "Video-only content, skipping per your preferences."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
+  "score": 2,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On artist and philosopher Rockwell Kent's birthday, his moving wisdom on how not to be a victim of success themarginalian.org/2025/10/09/roc",
-  "why": "Rockwell Kent on avoiding the trap of success; fits your interest in intentional living."
+  "author": "rne",
+  "via": "pablo_dors",
+  "text": "Esta semana en 'Tras la tormenta', conducido por @CHermosoMendoza , aprendemos a establecer acuerdos con la pareja y hablamos con @pablo_dor",
+  "why": "Audio/radio content rather than the long-form reading you prefer."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "How to be more alive – artist and philosopher Rockwell Kent, born on this day in 1882, on breaking the trance of near-living themarginalian.",
-  "why": "Philosophical piece on breaking the trance of near-living."
+  "text": "I’m starting to feel like nobody knows how to make Brexit work. Posted Jun 22, 2026 at 11:07AM",
+  "why": "Pure political news and commentary, which falls into your anti-taste filters."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Life is a story that begins in the middle – Bayo Akomolafe on the rewilding power of obstacles themarginalian.org/2026/06/21/bay… Posted Jun",
-  "why": "Bayo Akomolafe on the rewilding power of obstacles; good contemplative reading."
+  "score": 2,
+  "topic": "rationality",
+  "author": "AustinJustice",
+  "via": "Noahpinion",
+  "text": "Oakland used to be the kind of place where you parked for a coffee and carried everything you owned inside with you. Now the window repair s",
+  "why": "Local crime and political discourse falls into your anti-taste for politics and culture-war topics."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "econ-progress",
-  "author": "bscholl",
-  "via": "jasoncrawford",
-  "text": "In the event of a major war, Boom will pivot immediately and make defense products. Wartime defense production should come primarily out of ",
-  "why": "Interesting thread start on commercial industrial bases pivoting for defense, but a bit niche compared to broader progress themes."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The best of The Marginalian this week in one place – Ursula K. Le Guin on what it really takes to grow up, Alan Lightman on how the universe",
-  "why": "A weekly newsletter roundup; good curation but better to save the individual essays when they appear."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Pizza wheels are bad, Japanese toilets are great noahpinion.blog/p/pizza-wheels… Posted Jun 21, 2026 at 11:53PM",
-  "why": "Casual blog post about pizza wheels and toilets; fun but lacks the density of insight you usually save."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "VanDammeEDU",
-  "via": "C_Hendrick",
-  "text": "\"Sociology might be running out of time to fix itself\". \"sociology’s reckoning has arrived, and the debt has come due. Let us resolve never ",
-  "why": "Critique of sociology's academic rigor, but leans a bit too close to culture-war grievances."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "This is great Posted Jun 21, 2026 at 4:41PM",
-  "why": "A nice sentiment about moving to India to build AI, but lacks the density of insight you usually look for."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "harari_yuval",
-  "via": null,
-  "text": "In the 21st century, good nationalists must also be globalists. Globalism doesn’t mean establishing a global government, abandoning all nati",
-  "why": "Yuval Noah Harari on globalism vs nationalism; a bit too generic and platitude-heavy compared to your preferred deep dives."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "ewasniecinska",
-  "via": "krishnanrohit",
-  "text": "Replying to @krishnanrohit @krishnanrohit I work on qaly.co , so I have direct insight into this. We have tons of users who got additional t",
-  "why": "Brief anecdote about doctors ignoring smartwatch ECGs; mildly interesting but not a must-read."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "smchatter1",
-  "via": "GaryMarcus",
-  "text": "Sober minded folks need to understand the cash out happening in this bubble peak. Watch the @WSJ discussion 👇 Posted Jun 22, 2026 at 12:27AM",
-  "why": "Video-only content sharing skepticism without deep original text analysis."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "sarthakgh",
-  "via": "DKThomp",
-  "text": "Enjoyed this @SeanFennessey <> @DKThomp conversation: pca.st/episode/9a88d8… Posted Jun 21, 2026 at 10:26PM",
-  "why": "Bare podcast link with no substantive commentary or summary."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "How big tech hides the true cost of AI @wsj youtu.be/YrJzjC4kKCY?si… Posted Jun 21, 2026 at 9:59PM",
-  "why": "Video-only link about the cost of AI; lacks readable substance."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "dkundel",
-  "via": "swyx",
-  "text": "Pre-pandemic JSConf EU was the conference that was a clear \"must not miss\" for me. Now it's AIEWF. Only things I'm missing are the late nigh",
-  "why": "Pure event hype and announcement for an AI conference; lacks substantive insight."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "anuatluru",
-  "via": null,
-  "text": "“The premise of Artificial feels far more Social Network in nature [than The Social Reckoning]. So yeah, someone is going to pick it up.” Ye",
-  "why": "Hollywood gossip about a Sam Altman drama movie; pure noise."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "Ashish_Soni08",
-  "via": "HamelHusain",
-  "text": "Great opportunity to learn :) maven.com/lls/21f487 @sh_reya @HamelHusain Posted Jun 21, 2026 at 3:10PM",
-  "why": "Pure course promotion link with no substantive content."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 1,
-  "topic": "frontier-ai",
-  "author": "jxnlco",
-  "via": null,
-  "text": "if you see me on the openai devs instagram, no you didnt instagram.com/openaidevs/ Posted Jun 22, 2026 at 12:54AM",
-  "why": "Low-signal joke tweet linking to an Instagram account."
+  "author": "HistoryBoomer",
+  "via": "Noahpinion",
+  "text": "People can argue capitalism sucks, but claims that indigenous peoples lived more prosperous, peaceful lives are nonsense. The Cherokee were ",
+  "why": "Culture-war dunking and political rage-bait, violating your core anti-taste rules."
  }
 ]
