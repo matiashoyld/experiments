@@ -3,330 +3,230 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "contemplative",
-  "author": "harari_yuval",
-  "via": null,
-  "text": "Yesterday I had the privilege of attending Marc Bloch's reburial ceremony at the Panthéon – Paris' monument to the most outstanding citizens",
-  "why": "A profound, contemplative reflection by Harari on historian Marc Bloch's uncompromising commitment to truth and resistance."
+  "topic": "ai-engineering",
+  "author": "_Mira___Mira_",
+  "via": "krishnanrohit",
+  "text": "I had a little AI org running, where everyone got their own container, email, chat profile, database, SSH, memory, issue tracker, etc. The i",
+  "why": "Fascinating, hilarious postmortem of running a multi-agent AI org and the emergent behaviors that followed."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "AgustinLebron3",
-  "via": "random_walker",
-  "text": "Are enterprises smart enough to recognize the Trojan Horse? Posted Jun 24, 2026 at 3:19PM",
-  "why": "Arvind Narayanan provides substantive, critical analysis on the enterprise risks of agentic lock-in and tacit knowledge capture."
+  "author": "swyx",
+  "via": null,
+  "text": "we are going to have to Rebuild So. Much. Infra. for the age of Software Factories Posted Jun 25, 2026 at 12:14AM",
+  "why": "Warp CEO's strategic memo on the shift from AI autocomplete to automated software factories."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "topic": "builders-craft",
+  "author": "swyx",
   "via": null,
-  "text": "Decisions about how to use AI in your organization are increasingly organizational design and strategy decisions, not IT choices: How do you",
-  "why": "Ethan Mollick frames Arvind's excellent breakdown of Claude Tag as a fundamental shift in organizational design and firm boundaries."
+  "text": "lots of folks prepping talks next week (congrats!). Some thoughts from RLing on thousands of hours of engineer- and researcher- focused talk",
+  "why": "Swyx's highly dense, actionable masterclass on giving technical talks and builder presentations."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "xdotli",
-  "via": "sh_reya",
-  "text": "sharing my personal library on evals 1/n i put together the highest quality blogs, podcasts, papers, and projects on evals. additions are we",
-  "why": "A highly relevant curated library of resources focused specifically on LLM evals, hitting a core intersection of interest."
+  "topic": "frontier-ai",
+  "author": "proceduralia",
+  "via": "FanaHOVA",
+  "text": "There is something I learned during my PhD. AI research is far from being the discipline in which the only thing that matters for a scientis",
+  "why": "Deep reflection on the hyper-competitive state of AI research and the necessity of 'founder-mode' science."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "this guy gets it Posted Jun 24, 2026 at 2:45PM",
-  "why": "Excellent, practical insight into prompt engineering rigor, identifying 'no-ops' that waste tokens and obscure agent evaluation."
+  "text": "A lot of people who say they never use AI are using AI, but secretly. papers.ssrn.com/sol3/papers.cf… Posted Jun 24, 2026 at 11:06PM",
+  "why": "Ethan Mollick shares a paper on the hidden, secret usage of AI in the workplace."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
+  "score": 6,
   "topic": "contemplative",
-  "author": "Michael_Easter",
-  "via": "DKThomp",
-  "text": "We’ve hit peak health neurosis. A 🧵on the new and growing obsession with health optimization and its downsides. Posted Jun 23, 2026 at 4:04P",
-  "why": "A substantive critique of health optimization culture, perfectly hitting his interest in intentional living and productivity skepticism."
+  "author": "lennysan",
+  "via": "fortelabs",
+  "text": "How to actually feel your emotions Posted Jun 24, 2026 at 9:32PM",
+  "why": "Joe Hudson on emotional clarity and the psychological traits of top performers at OpenAI."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "willpoffwebster",
-  "via": "_brianpotter",
-  "text": "This is the first national housing supply package to pass in my lifetime. Members and staff did an incredible job getting to yes on a combin",
-  "why": "Detailed breakdown of a historic national housing supply package, directly hitting his interest in economic progress and abundance."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Viktor Frankl on humor as a lifeline to sanity and survival themarginalian.org/2019/08/19/vik… Posted Jun 24, 2026 at 11:03PM",
+  "why": "Viktor Frankl on humor and survival; high-quality contemplative psychology."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "JubbaOnJeans",
-  "via": "random_walker",
-  "text": "A few thoughts after playing around with Tags for a day and reading Arvind's thoughts: 1. True breakthrough in the \"agentic identity\" paradi",
-  "why": "Smart operator-level breakdown of the access, attribution, and audit nightmares introduced by agentic identity in enterprise tools."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Epictetus on love and loss – the Stoic strategy for surviving heartbreak themarginalian.org/2018/08/26/epi… Posted Jun 25, 2026 at 12:35AM",
+  "why": "Stoic philosophy on navigating loss from The Marginalian."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "nanransohoff",
-  "via": "jasoncrawford",
-  "text": "Today we're launching Intercept: a $500M philanthropic initiative to make respiratory infections, like the common cold and flu, a thing of t",
-  "why": "Major progress initiative backed by Stripe/Anthropic to eradicate respiratory viruses; the linked essay details the thesis."
+  "author": "lost_nomad__",
+  "via": "Noahpinion",
+  "text": "Perhaps unsurprisingly, we are now seeing countries like Malaysia close in on the GDP of the UK, France, and Italy Singapore passed them dec",
+  "why": "Interesting historical quote on air conditioning as a driver of economic progress."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "AI isn't the only technological revolution happening in the world right now. Electric technology is a second revolution, and here China is k",
-  "why": "Noah Smith provides a macro-economic analysis of the physical technology revolution and the US-China tech race beyond AI."
+  "text": "When friends become lovers – H.G. Wells on navigating blurring boundaries themarginalian.org/2025/12/25/fri… Posted Jun 25, 2026 at 1:29AM",
+  "why": "Marginalian essay on H.G. Wells; a bit far from core contemplative interests."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "NataliaZarina",
-  "via": "danshipper",
-  "text": "Cool to see @AnthropicAI land on the same architecture we landed on & @nityeshaga built in January at @every . Our stack: Claude bode base >",
-  "why": "Practical builder notes on agent architecture and permissions, validating Anthropic's new approach with real-world implementation details."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes it can. You absolutely CAN air con your way out of a heatwave. If you couldn't, then Texas and Singapore wouldn't exist. Posted Jun 25, ",
+  "why": "Short take on air conditioning and progress; lacks deep analysis."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "Speaking of AI, this story is v interesting. A benefit of the Microsoft-OpenAI breakup! If Microsoft were serious about deviating from the c",
-  "why": "Acemoglu highlights the economic and productivity implications of the Microsoft-OpenAI split."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "kitledru",
+  "via": "HamelHusain",
+  "text": "Really good start today with @sh_reya 's first talk, or rather live demo of using the LLM to do error discovery (on writing in this case) an",
+  "why": "Promo for a talk on AI evals; the actual video and slides aren't included yet."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Diatoms and the meaning of life themarginalian.org/2026/06/24/dia… Posted Jun 24, 2026 at 12:58PM",
-  "why": "A classic Marginalian contemplative essay blending natural science with philosophical reflections on meaning."
+  "text": "How relationships refine our truths – Adrienne Rich on the responsibility of love themarginalian.org/2013/07/02/adr… Posted Jun 24, 2026 at ",
+  "why": "Marginalian essay on relationships."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "HZoete",
-  "via": "C_Hendrick",
-  "text": "Britain needs AI sovereignty. Not trying to own the entire AI stack but build vital parts that other countries need. Creating interdependenc",
-  "why": "Good macro analysis of AI hardware sovereignty and the strategic shift toward heterogeneous supercomputers to avoid vendor lock-in."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "petergyang",
+  "via": "trq212",
+  "text": "Ok, I am interviewing the legend @trq212 on Friday. I'm planning to ask him to show me: → His Claude Code setup and how he uses /goal and /l",
+  "why": "Teaser for an upcoming interview; lacks the actual substance or insights."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "patrickc",
-  "via": "nabeelqu",
-  "text": "New project: interceptfund.com . More: interceptfund.substack.com/p/ending-respi… . Posted Jun 24, 2026 at 12:41PM",
-  "why": "Just a link drop for the Intercept fund announcement; other posts provide better context."
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "major new copyright lawsuit Posted Jun 25, 2026 at 12:38AM",
+  "why": "News link about a copyright lawsuit with no original analysis."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Rilke on reimagining broken relationships themarginalian.org/2018/09/26/ril… Posted Jun 24, 2026 at 11:42AM",
-  "why": "A brief contemplative link, but less substantive than other daily options."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "nanransohoff",
+  "via": "random_walker",
+  "text": "interceptfund.substack.com/p/ending-respi… Posted Jun 24, 2026 at 12:29PM",
+  "why": "Bare link drop with no context."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Even if America retains a lead in AI, it could lose the overall tech race to China. America just does not yet understand the revolution in p",
-  "why": "Duplicate link to Noah Smith's piece; the other tweet provides better framing."
+  "score": 3,
+  "topic": "rationality",
+  "author": "Ike_Saul",
+  "via": "waitbutwhy",
+  "text": "Had the great pleasure of sitting down with @waitbutwhy on the Tangle podcast — someone whose writing I've always loved and whose understand",
+  "why": "Podcast/video link about politics, hitting two anti-taste filters."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 4,
+  "score": 2,
   "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "A worthy effort. Godspeed! Posted Jun 24, 2026 at 3:42PM",
-  "why": "A great progress initiative, but this is just the announcement text without the deeper essay."
+  "author": "feelsdesperate",
+  "via": "naval",
+  "text": "A fundamental problem with YIMBYism in NYC is that the city is not designed to be ‘affordable.’ It’s less a real estate supply and demand qu",
+  "why": "Culture-war rant about NYC politics and NGO workers; hits the anti-taste filter for rage-bait."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "arthurctellis",
-  "via": "random_walker",
-  "text": "Excellent analysis. The next few years are going to be very messy as enterprises make thousands of mistakes in information siloing/regulatin",
-  "why": "Thin commentary on a much better underlying thread about enterprise AI risks."
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "looking forward to the GenAI sequel everyoneislying.com Posted Jun 24, 2026 at 11:08PM",
+  "why": "Snarky link drop with no substance."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "Starts today at noon PST maven.com/lls/21f487 Recording / notes sent to everyone who registers Posted Jun 24, 2026 at 1:55PM",
-  "why": "Course announcement without standalone educational substance."
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "tr4777",
+  "via": "jxnlco",
+  "text": "1997 codex-billboard.vercel.app/images/2dd60e2… Posted Jun 24, 2026 at 11:47PM",
+  "why": "Bare link drop with no context or substance."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "nytimes",
-  "via": "DKThomp",
-  "text": "Breaking News: Congress overwhelmingly passed the most significant piece of housing legislation in 36 years, in a rare bipartisan feat. nyti",
-  "why": "Mainstream news link about housing; the detailed thread breakdown is much higher signal."
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "whosamberella",
+  "via": "jxnlco",
+  "text": "my codex billboard submission codex-billboard.vercel.app made by @itsjessyin Posted Jun 25, 2026 at 2:21AM",
+  "why": "Bare link drop."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "trixiedoyle",
-  "via": "random_walker",
-  "text": "\"drop-in replacement” for human workers, it should be understood not as a technical innovation but a business model innovation\" Posted Jun 2",
-  "why": "Thin pull-quote commentary that adds no original insight to the underlying thread."
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "jxnlco",
+  "via": null,
+  "text": "Marissaaaaaaaaaa Posted Jun 25, 2026 at 2:17AM",
+  "why": "Zero substance quote-tweet."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
+  "score": 1,
   "topic": "builders-craft",
-  "author": "DKThomp",
-  "via": null,
-  "text": "THE SUBSTACK TURNS 1! One year ago, I left The Atlantic to start a newsletter. Today: - how it's going - how the business is growing - what ",
-  "why": "Creator-economy and audience-growth content, which falls into anti-taste."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "Education_NI",
-  "via": "C_Hendrick",
-  "text": "📢 ANNOUNCEMENT | Education Minister Paul Givan has announced over 300 schools across 53 clusters in Northern Ireland will receive funding of",
-  "why": "Niche local education news rather than broad learning science insights."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "tombennett71",
-  "via": "C_Hendrick",
-  "text": "Very honoured to be asked to lead this review of behaviour policy in Northern Ireland. A lot of good work going on there, and a lot of good ",
-  "why": "Niche local education policy news."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "WillManidis",
-  "via": null,
-  "text": "you should keep your software company private forever so you can pay charlie petty to cure respiratory viruses Posted Jun 24, 2026 at 3:30PM",
-  "why": "Low-signal joke about a recent funding announcement."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "nickbaumann_",
+  "author": "meshtimes_",
   "via": "jxnlco",
-  "text": "Make your own a Codex billboard 👀 Posted Jun 23, 2026 at 5:20PM",
-  "why": "Low-signal engagement bait and toy project."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "berman66",
-  "via": "jxnlco",
-  "text": "Today, we’re announcing Runlayer has raised $30M from Felicis and Khosla Ventures to help companies go all in on AI. Runlayer is the golden ",
-  "why": "Pure funding announcement and hype without substantive engineering insights."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "visakanv",
-  "via": null,
-  "text": "kind of an odd naming choice. Is the chip Mexican? Is it spicy? Is it that OpenAI consumes a lot of burritos? Is it a joke about chips? Post",
-  "why": "Low-signal joke about an AI hardware announcement."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "packyM",
-  "via": null,
-  "text": "I have a cold right now. Colds suck way more than you remember once you get over the cold. Kill the cold. Posted Jun 24, 2026 at 1:00PM",
-  "why": "Low-signal commentary on the Intercept fund announcement."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "realMaalouf",
-  "via": "Noahpinion",
-  "text": "Please meet Darializa Avila Chevalier, the Mamdani-endorsed DSA candidate for Congress: A self-proclaimed communist born in Florida to Domin",
-  "why": "Culture-war and political rage-bait, which violates core anti-taste rules."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "sunnyright",
-  "via": "Noahpinion",
-  "text": "Every time I’m convinced Republicans are fucked, Democrats decide to triple-down on the most alienating, fringe psycho shit imaginable Poste",
-  "why": "Political rage-bait and culture-war dunking."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "trustfundterry",
-  "via": "Noahpinion",
-  "text": "\"I bet your fish head wife doesn't have cans like this.\" Posted Jun 24, 2026 at 12:40AM",
-  "why": "Culture-war rage-bait."
+  "text": "codex-billboard.vercel.app by @itsjessyin <3 Posted Jun 25, 2026 at 1:33AM",
+  "why": "Bare link drop."
  }
 ]
