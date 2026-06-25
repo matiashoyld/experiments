@@ -2,231 +2,251 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "_Mira___Mira_",
-  "via": "krishnanrohit",
-  "text": "I had a little AI org running, where everyone got their own container, email, chat profile, database, SSH, memory, issue tracker, etc. The i",
-  "why": "Fascinating, hilarious postmortem of running a multi-agent AI org and the emergent behaviors that followed."
+  "score": 10,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "\"But if you say 'you can teach fractions through baking', a lot of parents who don't themselves have any fluency or confidence with fraction",
+  "why": "Incredible, dense pedagogical breakdown of what actual scaffolding looks like when teaching math to kids. Masterful learning science."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "swyx",
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "we are going to have to Rebuild So. Much. Infra. for the age of Software Factories Posted Jun 25, 2026 at 12:14AM",
-  "why": "Warp CEO's strategic memo on the shift from AI autocomplete to automated software factories."
+  "text": "Fable remains in limbo , with renewed hope that we will get it back soon ( 45% by tomorrow, 69% by July 1 , nice.) The full capabilities pos",
+  "why": "Zvi's weekly AI synthesis is masterclass curation, covering capabilities, policy, and models with unmatched density."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "swyx",
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "lots of folks prepping talks next week (congrats!). Some thoughts from RLing on thousands of hours of engineer- and researcher- focused talk",
-  "why": "Swyx's highly dense, actionable masterclass on giving technical talks and builder presentations."
+  "text": "This is a fascinating and important set of data which shows us where things are going, using OpenAI as a canary in the coal mine. The chatbo",
+  "why": "Fascinating early data from an OpenAI econ researcher on the enterprise shift from chatbots to agentic systems."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "proceduralia",
-  "via": "FanaHOVA",
-  "text": "There is something I learned during my PhD. AI research is far from being the discipline in which the only thing that matters for a scientis",
-  "why": "Deep reflection on the hyper-competitive state of AI research and the necessity of 'founder-mode' science."
+  "topic": "ai-essays",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "\"AI is not conscious.\" \"AI is not morally neutral.\" Can you have both? Posted Jun 25, 2026 at 1:53PM",
+  "why": "Fascinating evals-as-discipline paper showing how RLHF bakes specific, sometimes contradictory, human moral judgments into LLMs."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "A lot of people who say they never use AI are using AI, but secretly. papers.ssrn.com/sol3/papers.cf… Posted Jun 24, 2026 at 11:06PM",
-  "why": "Ethan Mollick shares a paper on the hidden, secret usage of AI in the workplace."
+  "text": "This is really really cool. How the AI economy is actually composed. Excellent work, highly recommended! Posted Jun 25, 2026 at 1:11PM",
+  "why": "A rigorous, bottom-up attempt to quantify the actual revenue of the generative AI economy."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 6,
+  "score": 8,
   "topic": "contemplative",
-  "author": "lennysan",
-  "via": "fortelabs",
-  "text": "How to actually feel your emotions Posted Jun 24, 2026 at 9:32PM",
-  "why": "Joe Hudson on emotional clarity and the psychological traits of top performers at OpenAI."
+  "author": "Haoda_Song",
+  "via": "erikphoel",
+  "text": "\"They Came, They Observed, They Were Baffled\" “you gotta read this.” “read what?” “a story. It’s basically us parked above that planet where",
+  "why": "A brilliant, dark sci-fi reframing of sleep and consciousness from a neuroscientist; highly aligned with his philosophical tastes."
  },
  {
   "rank": 7,
-  "kept": true,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "kept": false,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "Viktor Frankl on humor as a lifeline to sanity and survival themarginalian.org/2019/08/19/vik… Posted Jun 24, 2026 at 11:03PM",
-  "why": "Viktor Frankl on humor and survival; high-quality contemplative psychology."
+  "text": "Off the shelf LLMs running on a single generic prompt agreed with qualified examiners at least as closely as the two examiners agreed with e",
+  "why": "Strong evals paper demonstrating that off-the-shelf LLMs can match human inter-rater reliability in grading."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "_brianpotter",
   "via": null,
-  "text": "Epictetus on love and loss – the Stoic strategy for surviving heartbreak themarginalian.org/2018/08/26/epi… Posted Jun 25, 2026 at 12:35AM",
-  "why": "Stoic philosophy on navigating loss from The Marginalian."
+  "text": "Don't say you love the anime if you haven't read the manga. construction-physics.com/p/more-on-us-p… Posted Jun 25, 2026 at 3:05PM",
+  "why": "Brian Potter's deep dive into the infrastructure and policy reasons behind the reversal in US pedestrian safety."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 5,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "lost_nomad__",
-  "via": "Noahpinion",
-  "text": "Perhaps unsurprisingly, we are now seeing countries like Malaysia close in on the GDP of the UK, France, and Italy Singapore passed them dec",
-  "why": "Interesting historical quote on air conditioning as a driver of economic progress."
+  "author": "_brianpotter",
+  "via": null,
+  "text": "This week on Construction Physics, a piece I wrote for IFP's Transit Abundance Playbook: US Subways Build Too Many Cross Passages. construct",
+  "why": "Excellent Construction Physics piece analyzing the specific engineering choices driving up US transit costs."
  },
  {
   "rank": 10,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "When friends become lovers – H.G. Wells on navigating blurring boundaries themarginalian.org/2025/12/25/fri… Posted Jun 25, 2026 at 1:29AM",
-  "why": "Marginalian essay on H.G. Wells; a bit far from core contemplative interests."
+  "text": "Revenge of the humanities: two years ago, the government wanted all kids to study Maths until 18. bbc.co.uk/news/uk-politi… Posted Jun 25, 2",
+  "why": "Interesting data point on the enduring economic value of philosophy degrees compared to computer science."
  },
  {
   "rank": 11,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "kept": true,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Yes it can. You absolutely CAN air con your way out of a heatwave. If you couldn't, then Texas and Singapore wouldn't exist. Posted Jun 25, ",
-  "why": "Short take on air conditioning and progress; lacks deep analysis."
+  "text": "Albert Camus on the will to live and the most important question of existence themarginalian.org/2016/11/07/cam… Posted Jun 25, 2026 at 12:5",
+  "why": "Timeless philosophical reflection on the will to live and the core questions of existence."
  },
  {
   "rank": 12,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "kitledru",
-  "via": "HamelHusain",
-  "text": "Really good start today with @sh_reya 's first talk, or rather live demo of using the LLM to do error discovery (on writing in this case) an",
-  "why": "Promo for a talk on AI evals; the actual video and slides aren't included yet."
+  "kept": true,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The difficult art of giving space in love – Rilke on freedom, togetherness, and the secret to a good marriage themarginalian.org/2018/09/03/",
+  "why": "Classic Marginalian curation on Rilke's philosophy of space and freedom in relationships."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "agency",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "How relationships refine our truths – Adrienne Rich on the responsibility of love themarginalian.org/2013/07/02/adr… Posted Jun 24, 2026 at ",
-  "why": "Marginalian essay on relationships."
+  "text": "Another round of grants from @cosmos_inst , for: “work that helps people keep exercising judgment rather than handing it to AI” “projects th",
+  "why": "Interesting funding opportunity for AI and human autonomy, but ultimately just an announcement."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "petergyang",
-  "via": "trq212",
-  "text": "Ok, I am interviewing the legend @trq212 on Friday. I'm planning to ask him to show me: → His Claude Code setup and how he uses /goal and /l",
-  "why": "Teaser for an upcoming interview; lacks the actual substance or insights."
+  "score": 5,
+  "topic": "agency",
+  "author": "cosmos_inst",
+  "via": "jasoncrawford",
+  "text": "Cosmos Grants are back! If you're building AI that strengthens human autonomy or truth-seeking, we want to fund your prototype. Inspired by ",
+  "why": "Interesting funding opportunity for AI and human autonomy, but ultimately just an announcement."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "major new copyright lawsuit Posted Jun 25, 2026 at 12:38AM",
-  "why": "News link about a copyright lawsuit with no original analysis."
+  "text": "How to break up like a poet – Edna St. Vincent Millay on the art of the kind, clean breakup themarginalian.org/2017/09/08/edn… Posted Jun 25",
+  "why": "A bit too generic on the poetry of breakups; lacks the specific intersectional insight he prefers."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "nanransohoff",
-  "via": "random_walker",
-  "text": "interceptfund.substack.com/p/ending-respi… Posted Jun 24, 2026 at 12:29PM",
-  "why": "Bare link drop with no context."
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "jselingo",
+  "via": null,
+  "text": "University of Michigan is still sticking with binding early-decision admission, despite a faculty resolution urging that it halt the practic",
+  "why": "Administrative higher-ed news rather than the deep learning science or pedagogical insight he values."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "Ike_Saul",
-  "via": "waitbutwhy",
-  "text": "Had the great pleasure of sitting down with @waitbutwhy on the Tangle podcast — someone whose writing I've always loved and whose understand",
-  "why": "Podcast/video link about politics, hitting two anti-taste filters."
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "State of the art in AI image generation less than 5 years ago. Posted Jun 25, 2026 at 5:47AM",
+  "why": "A fun retrospective on 2021 AI art, but lacks the depth or insight needed for a long-term save."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "feelsdesperate",
-  "via": "naval",
-  "text": "A fundamental problem with YIMBYism in NYC is that the city is not designed to be ‘affordable.’ It’s less a real estate supply and demand qu",
-  "why": "Culture-war rant about NYC politics and NGO workers; hits the anti-taste filter for rage-bait."
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "love that one of my readers made her own, explicit set of public predictions. 🙏 Posted Jun 25, 2026 at 2:42PM",
+  "why": "A laundry list of bearish AI predictions without the underlying analysis or data to make it a substantive counterweight."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "looking forward to the GenAI sequel everyoneislying.com Posted Jun 24, 2026 at 11:08PM",
-  "why": "Snarky link drop with no substance."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "gleonhard",
+  "via": "DKThomp",
+  "text": "The Iran war is over / everybody lost by @DKThomp open.substack.com/pub/derekthomp… “Trump lost the country. The U.S. lost a half-hearted wa",
+  "why": "Geopolitical analysis that falls outside his core focus areas of AI, education, and progress."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "tr4777",
-  "via": "jxnlco",
-  "text": "1997 codex-billboard.vercel.app/images/2dd60e2… Posted Jun 24, 2026 at 11:47PM",
-  "why": "Bare link drop with no context or substance."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "alexsakalis",
+  "via": "C_Hendrick",
+  "text": "Europeans finding out that Americans living in suburban Texas have multiple cars, space, AC, full restaurants, youth sports complexes and ma",
+  "why": "Engagement-bait comparing European and American lifestyles; leans too heavily into culture-war tropes."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "whosamberella",
-  "via": "jxnlco",
-  "text": "my codex billboard submission codex-billboard.vercel.app made by @itsjessyin Posted Jun 25, 2026 at 2:21AM",
-  "why": "Bare link drop."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I want superintelligence. I'm tired of talking to regular intelligence. Posted Jun 25, 2026 at 6:43AM",
+  "why": "A snarky quote-tweet dunking on an AI safety article rather than engaging with the arguments."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "jxnlco",
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Marissaaaaaaaaaa Posted Jun 25, 2026 at 2:17AM",
-  "why": "Zero substance quote-tweet."
+  "text": "Grok may not be the AGI that Elon promised, but it appears that the man has found his use case. Posted Jun 25, 2026 at 5:41AM",
+  "why": "Tech gossip about Grok's usage patterns; low signal for actual AI engineering or societal impact."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 1,
+  "score": 2,
   "topic": "builders-craft",
-  "author": "meshtimes_",
-  "via": "jxnlco",
-  "text": "codex-billboard.vercel.app by @itsjessyin <3 Posted Jun 25, 2026 at 1:33AM",
-  "why": "Bare link drop."
+  "author": "packyM",
+  "via": null,
+  "text": "Ramp used to have one of the best CEOs in tech. Now it has two of them! Posted Jun 25, 2026 at 1:53PM",
+  "why": "Pure corporate announcement and hype; lacks the density of insight required for a save."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": "C_Hendrick",
+  "text": "Yes it can. You absolutely CAN air con your way out of a heatwave. If you couldn't, then Texas and Singapore wouldn't exist. Posted Jun 25, ",
+  "why": "Culture-war dunking on a news headline; lacks substantive progress analysis."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "gnoble79",
+  "via": "GaryMarcus",
+  "text": "Big Tech's $1 trillion AI moat just got DESTROYED by a free Chinese download. Microsoft, Amazon, Google, and Meta are pouring fortunes into ",
+  "why": "Classic thread-boi engagement bait ('DESTROYED', 'THINK about this') masking a basic open-source model release."
  }
 ]
