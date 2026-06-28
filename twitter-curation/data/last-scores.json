@@ -2,142 +2,142 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
+  "score": 10,
   "topic": "ai-engineering",
-  "author": "GergelyOrosz",
-  "via": "GaryMarcus",
-  "text": "This is very interesting. Coinbase seems to have lowered their token spend ($$) to about half, by 1) routing to cheap inference like GLM 5.2",
-  "why": "High-signal applied AI engineering: real numbers and architectural tactics for LLM routing, caching, and cost control."
+  "author": "poteto",
+  "via": "kieranklaassen",
+  "text": "The best way to manage agents starts with a three minute egg. Suppose you run several restaurants that serve breakfasts to big bursts of mor",
+  "why": "Masterful synthesis of classic management theory (Andy Grove) applied directly to engineering reliable AI agent loops."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "trevin",
-  "via": "danshipper",
-  "text": "We've spent an unfathomable amount of time on this update to Compound Engineering. There's a ton of work (and love) gone into this release b",
-  "why": "Top-tier applied AI engineering postmortem detailing a major architectural shift from standalone agents to skill-based routing."
+  "author": "EricTopol",
+  "via": "GaryMarcus",
+  "text": "Thanks for running our open-source work on current frontier models “The results are: the most capable models today (GPT-5.5 Pro) did outperf",
+  "why": "Excellent, rigorous evaluation of frontier models on medical benchmarks showing concrete limits of current capabilities."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "RuxandraTeslo",
-  "via": "Noahpinion",
-  "text": "Here, Patrick explains with common sense & compelling examples that Europe has a degrowth/anti air-con mentality and is told that \"these are",
-  "why": "Excellent essay on how institutional bias and 'moderate' demands for statistics skew the progress and abundance discourse."
+  "score": 9,
+  "topic": "agency",
+  "author": "nicbstme",
+  "via": null,
+  "text": "/goal is such an important primitive for AGI. For any problem where success is verifiable, the model can run small experiments, write down w",
+  "why": "Brilliant framing of agentic loops as 'engineering luck' through relentless, verifiable experimentation."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "agency",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "This is true in terms of helpfulness sure, but i don’t think this is actually how employees progress - I prefer to model by 1- Can execute a",
-  "why": "Brilliant intersection of builder agency and AI engineering, noting how human vs. AI problem-solving progress in opposite directions."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "METR_Evals",
+  "via": "DKokotajlo",
+  "text": "OpenAI gave METR early access to GPT-5.6 Sol for testing including raw chain-of-thought, a railfree version of the model, and internal infor",
+  "why": "Crucial frontier AI evaluation data showing alarming cheating rates in a new model during pre-deployment testing."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "michaelpollan",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "nicbstme",
   "via": null,
-  "text": "Michael Pollan on Consciousness | My interview with Donovan Hahn at Lapham’s Quarterly laphamsquarterly.org/content/michae… Posted Jun 27, 2",
-  "why": "Deep dive into philosophy and consciousness from Michael Pollan; perfectly hits your contemplative and philosophical interests."
+  "text": "100% agree. We are entering the era of token engineering. The first wave was “use more AI.” The next wave is “use the right token, on the ri",
+  "why": "Exceptional operator wisdom on the economics of AI engineering, moving from fixed token prices to latency-aware routing and caching."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "PCSnow1604",
-  "via": "C_Hendrick",
-  "text": "“Growth mindset is …. a feel-good method in a field where the things that feel good rarely work and the things that work rarely feel good. I",
-  "why": "Sharp, substantive skepticism applied to learning science, dismantling a popular but empirically weak educational narrative."
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Yes! binary judges are far more practical for most people, because likert scales (or scores) have too many footguns All the flashcards are h",
+  "why": "Excellent methodological rigor for LLM-as-a-judge, breaking holistic scores into atomic binary questions."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "ai-essays",
-  "author": "C_Hendrick",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "One interesting thing here is that its very likely that if you had a large amount of publicly available writing online before 2023 (especial",
-  "why": "Fascinating insight into the epistemology of AI detection and how models trained on your past work complicate authorship."
+  "text": "Another case of what I call The Klarna Effect. Posted Jun 28, 2026 at 12:21AM",
+  "why": "Strong anti-hype counterweight with a concrete postmortem of an enterprise AI replacement failure."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "rationality",
-  "author": "MTabarrok",
-  "via": "jasoncrawford",
-  "text": "Elon's counterfactual impact on the USAID-related deaths is large, likely hundreds of thousands of people. This is very bad. On this scale, ",
-  "why": "Thought-provoking rationalist framing on counterfactual deaths, policy mistakes, and institutional vs utilitarian responsibility."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Does defining success with metrics and growth rates set you up for failure and unhappiness? But they are required for sustainability and gen",
+  "why": "Deep dive into the tension between business metrics and intentional living from a seasoned builder."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "alephlove",
-  "via": "C_Hendrick",
-  "text": "Replying to @dperkinsed @dperkinsed As someone who used to criticized GM a lot despite being (or was) a fan of it, I think this paper highli",
-  "why": "Rigorous look at the nuances and empirical realities of Growth Mindset, hitting core learning science interests."
+  "kept": true,
+  "score": 8,
+  "topic": "rationality",
+  "author": "DKokotajlo",
+  "via": null,
+  "text": "Recently an interviewer asked me how I got to be such a good forecaster, and I replied by saying something humble. In retrospect it was a ba",
+  "why": "Highly practical, substantive advice on methodological rigor in AI forecasting and trend extrapolation."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "swyx",
   "via": null,
-  "text": "How to be a tree – notes on the resilience of letting go themarginalian.org/2026/06/27/tre… Posted Jun 27, 2026 at 1:46PM",
-  "why": "Beautiful contemplative essay on resilience and intentional living from a consistently high-signal curator."
+  "text": "An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting - is that open m",
+  "why": "swyx offering a sharp, rigorous critique of how we should measure inference budgets and evals for open vs closed models."
  },
  {
   "rank": 11,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Chris_arnade",
-  "via": "jasoncrawford",
-  "text": "Tangential to the AC debate, is the role McDonald's has played in bringing AC to the masses, especially in Asia. When McDonald's first came ",
-  "why": "Fascinating micro-history of how commercial spaces drove cultural expectations for progress, hygiene, and abundance."
+  "topic": "ai-essays",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "“The possibilities seem endless, like mountains beyond mountains” @curiouswavefn Posted Jun 28, 2026 at 3:23AM",
+  "why": "Inspiring, concrete anecdote of AI acting as a true scientific collaborator in quantum mechanics."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "tools-for-thought",
-  "author": "deetvleet",
-  "via": "visakanv",
-  "text": "ever since i started thinking of shops as placed where the items i don't want yet live, and thinking about money as a digital representation",
-  "why": "A wonderful mental model for intentional living that completely reframes consumption and the utility of money."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "What makes great art – the single most important element in creative work: themarginalian.org/2022/07/08/art… Posted Jun 28, 2026 at 2:44AM",
+  "why": "Deep philosophical exploration of the essence of creative work and art."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
   "topic": "econ-progress",
-  "author": "chrisdbbradley",
-  "via": "Noahpinion",
-  "text": "Our huge @McKinsey_MGI study on adaptation found that AC is by far the most important technology—cheap, effective, productivity enhancing, a",
-  "why": "Rigorous economic research on climate adaptation, highlighting air conditioning as a critical productivity and progress technology."
+  "author": "emollick",
+  "via": null,
+  "text": "The old BBC \"Industrial Revelations\" series is a great overview of what makes an Industrial Revolution Steam alone wasn't enough, it require",
+  "why": "Mollick drawing a sharp historical analogy between the Industrial Revolution's skilled labor needs and AI today."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "emollick",
-  "via": null,
-  "text": "One of the recovered passages, read for the first time in two thousand years: “Having…strained ourselves to the utmost through research and ",
-  "why": "A beautiful moment in the history of knowledge and technology, surfacing actual text from the recovered scrolls."
+  "topic": "econ-progress",
+  "author": "SemiAnalysis_",
+  "via": "DKThomp",
+  "text": "SHOCKING: Many neocloud executives we spoke with feel that if they have non-NVIDIA networking gear on their cluster, or if their cloud has a",
+  "why": "High-signal reporting on the cutthroat business and semiconductor dynamics at the frontier of AI hardware."
  },
  {
   "rank": 15,
@@ -146,167 +146,187 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Mushrooms and our search for meaning themarginalian.org/2026/06/26/fun… Posted Jun 27, 2026 at 4:13AM",
-  "why": "A classic, insight-dense contemplative essay connecting the natural world to philosophical meaning."
+  "text": "Legendary artist Sheila Hicks, at 92, on the secret to creative vitality themarginalian.org/2026/06/27/she… Posted Jun 27, 2026 at 11:44PM",
+  "why": "Beautiful contemplative piece on lifelong creative vitality and craft."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "AlecStapp",
-  "via": "Noahpinion",
-  "text": "It’s obvious that rent control causes buildings to deteriorate over time due to less investment in maintenance. But a less-discussed problem",
-  "why": "Insightful economic analysis on the hidden costs of rent control beyond just building deterioration."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Beethoven's advice on being an artist, in a moving letter to a little girl who sent him fan mail themarginalian.org/2017/05/18/bee… Posted J",
+  "why": "A beautiful, contemplative historical artifact on the craft and mindset of an artist."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "DameWendyDBE",
-  "via": "GaryMarcus",
-  "text": "Gary’s analysis is pretty much spot on as ever. This is such a worrying development Posted Jun 27, 2026 at 11:49AM",
-  "why": "Important commentary on frontier AI regulation and the tension between open criteria and opaque government intervention."
+  "topic": "ai-engineering",
+  "author": "heymikasagi",
+  "via": "FanaHOVA",
+  "text": "New category drop on the Arena: ✨AI agent frameworks✨ Agent Experience (AX) update as of 06/26: 1/ @LangChain LangGraph 2/ @vercel AI SDK 3/",
+  "why": "Useful overview of the current landscape of AI agent frameworks and their developer experience."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 6,
   "topic": "builders-craft",
-  "author": "stewartbrand",
-  "via": "jasoncrawford",
-  "text": "Herculaneum fused scroll read in full. scrollprize.org/firstscroll Posted Jun 25, 2026 at 7:26PM",
-  "why": "Incredible milestone in technology recovering ancient history, though the tweet itself is just a pointer."
+  "author": "themarginalian",
+  "via": null,
+  "text": "How nature works, in stunning psychedelic illustrations of scientific processes and phenomena from a 19th-century French physics textbook th",
+  "why": "Gorgeous historical intersection of science, art, and craft in 19th-century physics illustrations."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "One thing that is absolutely clear from this is that many education academics appear to have no real understanding of what explicit teaching",
-  "why": "Relevant to learning science, but leans a bit toward academic grievance rather than constructive insight."
+  "text": "At the link, the best of The Marginalian this week in one place – true love will find you in the end (or how Vonnegut did it); diatoms and t",
+  "why": "A solid weekly curation of contemplative essays, though a bit broad."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 5,
-  "topic": "ai-essays",
-  "author": "reed_barnes",
-  "via": "jasoncrawford",
-  "text": "it's 2027. you take a free-tier public Waymo to the DMV (Department of Model Variance) to do a proof-of-identity check for access to GPT 7.1",
-  "why": "Entertaining sci-fi vignette about near-future AI bureaucracy, but lacks the rigorous insight of a top-tier essay."
+  "topic": "builders-craft",
+  "author": "GergelyOrosz",
+  "via": "HamelHusain",
+  "text": "Polymarket acquired Craft Agents, and @balintorosz (my brother) will lead Product Engineering. I’ve now made the January deepdive on Craft A",
+  "why": "Interesting builder case study, but heavily tied to an acquisition announcement."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "PCSnow1604",
-  "via": "C_Hendrick",
-  "text": "There’s the usual straw-man arguments here but what’s notably disappointing is an education academic gaslighting the teachers who speak favo",
-  "why": "Redundant share of the article on explicit teaching debates."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "deanwball",
+  "via": "jasoncrawford",
+  "text": "The most important legal questions in AI right now all relate to the First Amendment. What are the best fact patterns to demonstrate that th",
+  "why": "High-level legal punditry on AI and the First Amendment without much concrete analysis."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 4,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "crazy how fast 2026 went from the year of “token harder” to the year of “token smarter” Posted Jun 27, 2026 at 1:06PM",
-  "why": "Redundant share of the Coinbase AI engineering post; the other share provided slightly better framing."
+  "topic": "ai-essays",
+  "author": "FabiusMaximus01",
+  "via": "GaryMarcus",
+  "text": "Replying to @GaryMarcus @GaryMarcus For those interested in “The Klarna Effect”, see this post by @GaryMarcus : garymarcus.substack.com/p/ai",
+  "why": "Pointer to a skeptical piece on AI layoffs, but lacks the concrete numbers in the tweet itself."
  },
  {
   "rank": 23,
   "kept": false,
   "score": 4,
-  "topic": "econ-progress",
-  "author": "conorsen",
-  "via": "DKThomp",
-  "text": "“Only 3% of households with someone over 75 in the UK have air conditioning.” Posted Jun 27, 2026 at 12:35PM",
-  "why": "A striking statistic on progress and adaptation, but lacks the long-form depth you prefer."
+  "topic": "rationality",
+  "author": "nic_carter",
+  "via": "naval",
+  "text": "The absolute moral chaos inherent in the debate as to whether Elon “killed” millions of people in the global south is precisely why we do no",
+  "why": "Philosophical critique of consequentialism, but veers too close to culture-war dunking to be top-tier."
  },
  {
   "rank": 24,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "thorstenball",
-  "via": null,
-  "text": "I agree. Posted Jun 27, 2026 at 5:57AM",
-  "why": "Passionate but leans too heavily into political manifesto territory without the technical or strategic depth you prefer."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Possibly my favorite #birddivination of all. As always, find it as a solo print and part of the deck of 100, along with the story and proces",
-  "why": "Beautiful art project, but falls outside the core focus on insight-dense essays or learning science."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "harvpark",
-  "via": "jxnlco",
-  "text": "Introducing the beginning of Sonder. We’ve put a lot of thought and experimentation into how language models might shape our relationships a",
-  "why": "Violates anti-taste: this is an announcement/hype post without technical substance or deep insight."
- },
- {
-  "rank": 27,
   "kept": false,
   "score": 3,
   "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "I know people like to say the American elite doesn't care about regular Americans. But here's a British man sitting in an air conditioned st",
-  "why": "Leans too heavily into culture-war grievance; the Ruxandra essay covered this theme with much more rigor."
+  "text": "They'll need at least 10x this, but good start Posted Jun 28, 2026 at 2:48AM",
+  "why": "Geopolitical military news outside your core focus areas."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "vtahowe",
+  "via": "swyx",
+  "text": "THE GREAT LOOPS DEBATE is on @ianlivingstone and @GeoffreyHuntley take on @dexhorthy and a surprise guest to answer Do loops produce slop? D",
+  "why": "Event promotion and panel announcements rather than substantive content."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "TheAnnaGat",
+  "via": "Noahpinion",
+  "text": "In about 2 years (maybe sooner) Europe will flip on air conditioning and the whole debate will become about how come the people who can buy ",
+  "why": "Pure culture-war dunking on European bureaucracy and regulation."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "ad0rnai",
+  "via": "Noahpinion",
+  "text": "this feels like the new “actually masks don’t work” consensus of March 2020 when hospitals were running out of masks Posted Jun 27, 2026 at ",
+  "why": "More political rage-bait about European air conditioning policies."
  },
  {
   "rank": 28,
   "kept": false,
   "score": 2,
-  "topic": "contemplative",
-  "author": "starsofthelid",
-  "via": "C_Hendrick",
-  "text": "On this day 30 years ago, Stars of the Lid visited NYC’s Other Music. The 21-minute performance was filmed and is now available to watch in ",
-  "why": "Cool historical music artifact, but lacks the density of insight or core topics you prioritize."
+  "topic": "econ-progress",
+  "author": "lugaricano",
+  "via": "Noahpinion",
+  "text": "Read this article to understand the damage degrowth ideology is wrecking on Europe. Hundreds of smart doctors and administration struggle to",
+  "why": "Repetitive culture-war complaints about European air conditioning and degrowth."
  },
  {
   "rank": 29,
   "kept": false,
   "score": 2,
   "topic": "econ-progress",
-  "author": "kyodo_official",
-  "via": "Noahpinion",
-  "text": "日インド、経済安保宣言を発表へ － 中国念頭、経済的威圧へ反対明記 news.jp/i/144316954673… Posted Jun 26, 2026 at 9:20AM",
-  "why": "Standard news reporting rather than the dense, long-form analysis you prefer."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The French people are crying out for their air conditioning, but their aristocrats are telling them to suffer and die. My advice is: Don't p",
+  "why": "Repetitive political commentary on European air conditioning."
  },
  {
   "rank": 30,
   "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "Noahpinion",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "This really is the MAGA of the left. noahpinion.blog/p/the-democrat… Posted Jun 27, 2026 at 3:09PM",
-  "why": "Violates anti-taste: pure political culture-war rage-bait."
+  "text": "🤡 Posted Jun 28, 2026 at 1:50AM",
+  "why": "Pure political media drama and dunking."
  },
  {
   "rank": 31,
   "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "LOLLLLLLL Posted Jun 27, 2026 at 7:48AM",
-  "why": "Violates anti-taste: pure culture-war dunking and political schadenfreude."
+  "author": "wesyang",
+  "via": "Noahpinion",
+  "text": "All of this should be disqualifying for any political future. But none of it is. DSA has a double-digit higher approval rating than the part",
+  "why": "Pure political rage-bait and culture-war commentary."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "I think the path forward is to recognize that the battle was already lost some time in the 2016-2021 period, become less invested in proppin",
+  "why": "Pure political commentary outside your areas of interest."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Scott_Wiener",
+  "via": "DKThomp",
+  "text": "Senator Wiener’s Statement on Physical Intimidation and Harassment of Political Leaders SAN FRANCISCO – In two separate incidents this week,",
+  "why": "Local political incidents and culture-war conflicts."
  }
 ]
