@@ -3,240 +3,290 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "While we wait for a general release, the system card is the best hint as to what is going on with the new candidate for America’s Next Top M",
-  "why": "Exceptional, rigorous breakdown of the GPT-5.6 system card, highlighting agentic misalignment and eval methodologies."
+  "topic": "contemplative",
+  "author": "BillAckman",
+  "via": "waitbutwhy",
+  "text": "Important read on time and life. Posted Jun 28, 2026 at 4:52PM",
+  "why": "A powerful summary of Tim Urban's 'The Tail End'—a profound perspective shift on time, parenting, and intentional living."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "sayashk",
-  "via": null,
-  "text": "Many people have written about advanced AI being too restricted, but my fear is we haven’t planned enough for a world where advanced AI will",
-  "why": "Superb analysis arguing why AI non-proliferation will fail and why we must focus on defensive resilience instead."
+  "topic": "ai-engineering",
+  "author": "trevin",
+  "via": "kieranklaassen",
+  "text": "The version may not indicate it, but this is a big release for the plugin. The architecture is different now, the docs are shaped differentl",
+  "why": "Exceptional deep-dive into the architectural evolution of an AI coding tool, moving from fragile agents to robust, goal-oriented skills."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "gregtangmath",
-  "via": "C_Hendrick",
-  "text": "Important article about growth mindset . . . carlhendrick.substack.com/p/why-you-cann… Posted Jun 27, 2026 at 9:12PM",
-  "why": "Rigorous critique of growth mindset from a learning science perspective; exactly the kind of educational skepticism you value."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "bcherny",
+  "via": null,
+  "text": "As engineering, product, design, DS, etc. melt into a new kind of role, I was reflecting on what roles might look like in the future. For ex",
+  "why": "Excellent original framework for how AI is reshaping traditional engineering and product roles into new archetypes."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "tombennett71",
-  "via": "C_Hendrick",
-  "text": "Enthusiasm is not enough, if it inspires you to do the wrong things. When I was 14 I was determined to be great at school cross country runn",
-  "why": "Excellent synthesis of why growth mindset fails without explicit instruction and retrieval practice."
+  "topic": "frontier-ai",
+  "author": "novasarc01",
+  "via": "dwarkesh_sp",
+  "text": "i think dwarkesh’s strongest point here is that deployed agents are already collecting off-policy experience across thousands of real domain",
+  "why": "High-signal technical insight on the difficulty of turning off-policy agent experience into gradient signal."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Just published a new article! 👇🏾 RICE and other confidence-based frameworks are mostly noise. Here's how to make decisions without pretendin",
-  "why": "Jason Cohen dismantling false precision in product frameworks; essential reading for builders and operators."
+  "text": "/goal is now my default mode of working with agents. but I spend a ton of time preparing all of the context and rubric criteria before kicki",
+  "why": "Practical wisdom on agentic workflows, emphasizing the importance of verifiability and upfront spec design."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
-  "via": null,
-  "text": "You want Codex to do something later, or keep checking something until it changes. That sounds like one feature. It is actually two differen",
-  "why": "Highly practical AI engineering pattern for designing agentic loops and scheduled LLM tasks."
+  "topic": "econ-progress",
+  "author": "Brad_Setser",
+  "via": "Noahpinion",
+  "text": "Excellent essay.   No doubt one of the defining features of the China shock has been how it has reallocated the global surplus. The old expo",
+  "why": "High-signal macroeconomic analysis on the new 'China shock' and global surplus reallocation via Adam Tooze."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "curl_justin",
-  "via": "sayashk",
-  "text": "2 reminds me of @anubradford ’s work By altering market structure, regulation can lead companies to optimize for different metrics Export co",
-  "why": "Nuanced take on how export controls inadvertently drove Chinese labs to innovate in compute efficiency."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "danshipper",
+  "via": null,
+  "text": "self recommending Posted Jun 28, 2026 at 6:49PM",
+  "why": "High-signal breakdown on the product philosophy, design challenges, and internal usage of OpenAI's Codex app."
  },
  {
   "rank": 8,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "rationality",
-  "author": "sapinker",
-  "via": "C_Hendrick",
-  "text": "The Crisis in the Humanities Is Not About Money: \"Critical theory did not merely politicize scholarship. It made scholarship easier to produ",
-  "why": "Fascinating meta-academic insight: theories succeed when they generate easy, formulaic work for graduate students."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Kurt Vonnegut on the simplest, hardest secret of happiness themarginalian.org/2014/01/16/kur… Posted Jun 29, 2026 at 2:49AM",
+  "why": "Classic contemplative piece on intentional living and the concept of 'enough' by Kurt Vonnegut."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "perrymetzger",
-  "via": "naval",
-  "text": "In the 1960s through 1970s, huge numbers of buildings in New York City were abandoned, because their owners could not make enough money to c",
-  "why": "Striking historical example of the extreme second-order effects of rent control and misaligned incentives."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Legendary cellist Pablo Casals (Yo-Yo Ma's hero), at age 93, on creative vitality and how working with love prolongs your life themarginalia",
+  "why": "Beautiful contemplative reflection on lifelong craft, creative vitality, and working with love."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "jbarro",
-  "via": "DKThomp",
-  "text": "Bill de Blasio himself said last year that the 2019 rent reform law went too far and needs to be revised (to allow landlords to recoup more ",
-  "why": "Solid economic breakdown with real numbers on why rent freezes stress housing supply."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "reach_vb",
+  "via": "jxnlco",
+  "text": "Of course that’s your contention. You’re a first-week agentic coding enjoyer. You just watched a tasteful terminal demo - dark theme, three ",
+  "why": "Sharp, witty observation on the UX evolution of coding agents and the reality of software engineering."
  },
  {
   "rank": 11,
-  "kept": true,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "Good thread. Bottom line: “In light of the tightening of the regulatory system in recent years and the subsequent deterioration in the finan",
-  "why": "Good perspective on rent regulation, but a bit too niche into NYC politics compared to broader economic progress."
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "kjaved_",
+  "via": "dwarkesh_sp",
+  "text": "It's interesting that people who are less in the weeds, like Dwarkesh, see the argument for continual learning better than people at the fro",
+  "why": "Strong commentary on the necessity of continual learning for AI agents in complex environments."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "Why do education academics think explicit instruction and retrieval practice is only for passing tests? Posted Jun 28, 2026 at 3:44PM",
-  "why": "Brief commentary on education methods, but lacks the depth of a full essay or study."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "oneill_c",
+  "via": "dwarkesh_sp",
+  "text": "An interesting question to think about is whether the labs will continual learn one big LLM or have personalised ones. If you did try and up",
+  "why": "Good technical speculation on the serving economics and architecture of continual learning for future LLMs."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "NewYorker",
-  "via": "Noahpinion",
-  "text": "This week in Paris, the temperature soared to 113 degrees Fahrenheit. Hundreds of schools have shut their doors. The Louvre has closed early",
-  "why": "Interesting cultural piece on AC in Europe, but lacks the density of insight you prefer."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "JohnPhamous",
+  "via": "swyx",
+  "text": "an improving design loop vercel.com/blog/teaching-… Posted Jun 25, 2026 at 9:41PM",
+  "why": "Strong applied AI engineering piece from Vercel on building feedback loops for AI design agents."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
+  "score": 6,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Drones are sending a whole lot of Russian men to the afterlife Posted Jun 28, 2026 at 7:03AM",
-  "why": "Geopolitics and war statistics fall outside your core focus areas."
+  "author": "cremieuxrecueil",
+  "via": "Noahpinion",
+  "text": "You can see signs of 'peak youth' everywhere you look. For example, there are school consolidations and shutdowns happening across much of t",
+  "why": "Interesting demographic observation on the tangible societal impacts of an aging population."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "For #Pride, the story of how Whitman queered the language of love with the lexicon of phrenology themarginalian.org/2026/05/30/tra… Posted J",
-  "why": "Beautifully written, but falls outside your core focus areas of tech, education, and progress."
+  "text": "hard to see how anyone makes much money from all this in the long run. more like the airline industry; very small margins and big expenses p",
+  "why": "Skeptical take on AI business models, but lacks the deep numbers or rigorous analysis to score higher."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "rastokke",
-  "via": "C_Hendrick",
-  "text": "\"In the UK you have principals walking down corridors going, 'Are you up to slide 16 everyone?',\" she said. Strange.  I visited two of the h",
-  "why": "Too brief; just a quote and a disagreement without substantive analysis."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "neuroAnjiolina",
+  "via": "GaryMarcus",
+  "text": "Reading right now: How malicious AI swarms can threaten democracy | Science (Some of the authors @mariaressa , @GaryMarcus ,...) share.googl",
+  "why": "Important topic, but the tweet is just a title drop without summarizing the paper's core arguments or numbers."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "nsachdeva2019",
-  "via": "C_Hendrick",
-  "text": "New post on substack @JimHewittOISE open.substack.com/pub/scienceofl… Posted Jun 27, 2026 at 8:29PM",
-  "why": "Bare link with no context or framing provided to judge its quality."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Why you themarginalian.org/2026/06/28/why… Posted Jun 28, 2026 at 7:07PM",
+  "why": "Likely a beautiful essay, but the tweet provides zero context or framing to judge its specific value today."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "harari_yuval",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "The basic liberal story says that by cooperating we can build a world that is better for everyone. Is this vision of the world failing? And ",
-  "why": "Video-only content and podcast promo; skips your preference for text density."
+  "text": "The best of The Marginalian this week, in one place – diatoms and the meaning of life, the rewilding power of obstacles, true love will find",
+  "why": "A generic newsletter roundup link rather than a specific, focused essay."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "simonsarris",
   "via": null,
-  "text": "Walt Whitman's field guide to being yourself – the trial and triumph of \"Leaves of Grass,\" which could be considered the founding document o",
-  "why": "Beautifully written, but falls outside your core focus areas of tech, education, and progress."
+  "text": "They invented the 1965 Austin Mini Moke In my dream world this is the biggest car anyone drives so I get the appeal Posted Jun 28, 2026 at 9",
+  "why": "Fun observation on hardware design, but too light on substance for a long-form reading list."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "BrendanFoody",
-  "via": "naval",
-  "text": "This is the best way to end America's entrepreneurial culture. Most founders I know endure 100+ hours of work/week because they are obsessed",
-  "why": "Political grievance and tax policy rage-bait; lacks rigorous economic analysis."
+  "score": 4,
+  "topic": "rationality",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "(100) Definium releases LSD for depression Phase 3 results and Colorado activists fight recent bill’s amendments to sharing psychedelics the",
+  "why": "Interesting medical science news, but falls outside the core focus areas of AI, econ, and learning science."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 3,
-  "topic": "parenting-education",
-  "author": "Doug_Lemov",
-  "via": "C_Hendrick",
-  "text": "If you want to see examples I’ll be showing three or four good ones during my keynote at the Wellington College Festival of Education on Jul",
-  "why": "Pure event promotion for a keynote; lacks standalone educational substance."
+  "topic": "ai-engineering",
+  "author": "yoheinakajima",
+  "via": "swyx",
+  "text": "embedded the AI Engineer World Fair talks to be able to “find similar talks”, but then added a map & ability to bookmark a list and export i",
+  "why": "Just a feature announcement for a talk explorer; lacks the deep written substance or insight required for a save."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 3,
-  "topic": "econ-progress",
-  "author": "conorsen",
+  "topic": "rationality",
+  "author": "ArmandDoma",
   "via": "Noahpinion",
-  "text": "“Only 3% of households with someone over 75 in the UK have air conditioning.” Posted Jun 27, 2026 at 12:35PM",
-  "why": "A single statistic without broader analysis or context."
+  "text": "in my experience, the political movements that have had long term durable success, such as YIMBY, gay marriage, or marijuana legalization, w",
+  "why": "Political strategy commentary that is not aligned with core tech, philosophy, or econ interests."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "swyx",
-  "via": null,
-  "text": "any guesses what the AIEWF Stress Curve* looked like for this year lol *the gini coefficient over time from 0 to sold out Posted Jun 28, 202",
-  "why": "Pure event announcement and hype; lacks substantive engineering insights."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three ban",
+  "why": "Operational update about OpenAI Codex usage limits; lacks long-form insight."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 2,
+  "score": 3,
   "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "The 2026 World's Fair is completely sold out 🫡 ✅ The largest AI industry expo on earth ✅ Sold out on Leadership track for CTOs & VP AI's ✅ S",
-  "why": "Pure event announcement and hype; lacks substantive engineering insights."
+  "author": "dexhorthy",
+  "via": null,
+  "text": "sunday watching - criminally underviewed agentic coding advice from Segment cofounder and former OpenAI MTS on Codex @calvinfo youtube.com/w",
+  "why": "Video-only content, which falls into the anti-taste category for this reading feed."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "ByrneHobart",
+  "via": null,
+  "text": "Amazon tagged this as an \"Editor's Pick,\" but the author says he wrote it with AI: linkedin.com/posts/sacerdot… Posted Jun 28, 2026 at 8:58P",
+  "why": "Just a brief pointer to a LinkedIn post about AI-generated books; lacks deep analysis."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "As long as it's phrased in totally passive terms (\"structural polarization\") you can get pretty progressive people to acknowledge that Democ",
+  "why": "US political commentary on polarization falls outside core interests and into the anti-taste politics category."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "ArmandDoma",
+  "via": "Noahpinion",
+  "text": "Everyone nationally is reporting this as a story about Gaza and Israel, but if you listen to the actual recording, half or more of what they",
+  "why": "Pure political culture-war commentary."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "UtahFlatRanger",
+  "via": "Noahpinion",
+  "text": "\"You're hiding a unregistered AC Unit, are you not?\" Posted Jun 27, 2026 at 10:33AM",
+  "why": "Culture-war adjacent dunking on climate policies."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "OzKaterji",
+  "via": "Noahpinion",
+  "text": "What is shocking to me is that he is so passive, because if I was being confronted by a braying racist goon, I would not react this way. Wha",
+  "why": "Pure political culture-war commentary."
  }
 ]
