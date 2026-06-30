@@ -4,299 +4,249 @@
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "RLanceMartin",
-  "via": "trq212",
-  "text": "Claude Tag has grown rapidly in Anthropic. I want to share some of the reasons for this and the behavioral shifts I’ve seen with this agent ",
-  "why": "Excellent deep dive into how Anthropic internally uses Claude as an org-level agent in Slack, detailing the shift to async workflows."
+  "author": "BEBischof",
+  "via": "HamelHusain",
+  "text": "I keep telling people that evals teach you how to build your product; either by showing you how it should work or that you're not building t",
+  "why": "Hits the exact 'evals-as-discipline' intersection; Hamel Husain provides practical insights on AI product design."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "cwolferesearch",
-  "via": "eugeneyan",
-  "text": "This cybersecurity eval writeup is great for understanding how complex / realistic evals are built. Some key takeaways after reading it: Rec",
-  "why": "Exceptional breakdown of how complex, long-horizon cybersecurity evals are actually built and verified."
+  "topic": "ai-essays",
+  "author": "sarthakgh",
+  "via": "DKThomp",
+  "text": "“I don’t think AI is going to replace your job. But it is more than possible that an AI-native firm will supplant your company.” Excellent e",
+  "why": "Brilliant synthesis of business history (Chandler) and AI's impact on the structure of the firm by Derek Thompson."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "topic": "ai-essays",
+  "author": "random_walker",
   "via": null,
-  "text": "New blog post:  “It’s Hard to Eval” Is a Product Smell If you find it hard to verify AI output, chances are that your users will too!  In ot",
-  "why": "Brilliant framing on how difficulty in evaluating AI outputs often points to upstream product design flaws."
+  "text": "Although I've emphasized in my writing and speaking that AI won't cause mass job displacement, I do think knowledge workers must spend a muc",
+  "why": "Exceptional analysis of the misaligned economic incentives between firms and workers regarding AI reskilling."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "sivers",
+  "topic": "econ-progress",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "16 conversations in super-multicultural Malaysia, Kuala Lumpur: sive.rs/met/at-13 Posted Jun 30, 2026 at 2:41AM",
-  "why": "Derek Sivers (a favorite author) sharing reflections from multicultural conversations; high signal for intentional living."
+  "text": "The interesting thing about viral narratives is that they don't have to be true to spread. There's now enough evidence pointing to the fact ",
+  "why": "Brings real firm-level data to the AI-job-loss debate, showing adoption actually correlates with headcount growth."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "kyleichan",
-  "via": "Noahpinion",
-  "text": "Really interesting paper on the crucial role that large firms like Samsung & Hyundai played in South Korea’s growth miracle. South Korea’s t",
-  "why": "Fascinating paper on the productivity dynamics and the role of large firms in South Korea's economic miracle."
+  "topic": "ai-essays",
+  "author": "random_walker",
+  "via": null,
+  "text": "The \"linguistic trap\" is ever-present in AI commentary — reducing the properties of a complex AI system to those of the linguistic subsystem",
+  "why": "Arvind Narayanan offers a thoughtful self-correction on the 'linguistic trap' and shallow skepticism in AI discourse."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "This is a great conversation. Henry as a CFO is more articulate about almost everything wrt AI than most American CEOs, from discussions abo",
-  "why": "Rare, articulate insight into frontier AI strategy, supply chains, and alignment from Baidu's CFO."
+  "text": "You know you should be working on Marketing, not features. You build new features anyway because (a) it's fun and (b) you know how. Whereas ",
+  "why": "Classic builder-operator wisdom from Jason Cohen on the trap of building features instead of doing marketing."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "parenting-education",
-  "author": "FIVEfromFIVE",
-  "via": "C_Hendrick",
-  "text": "Growth mindset expertly unpacked by @C_Hendrick open.substack.com/pub/carlhendri… Posted Jun 29, 2026 at 9:10PM",
-  "why": "Deep dive into the nuances and realities of 'growth mindset' from a learning science perspective."
+  "author": "DTWillingham",
+  "via": null,
+  "text": "Large dataset from chess.com shows much better improvement from deliberate practice than from game play. journals.sagepub.com/doi/10.1177/09",
+  "why": "Hard data on learning science from a trusted cognitive psychologist, proving the value of deliberate practice."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On this day in 1942, long before he won the Nobel Prize in Physics, Richard Feynman married the love of his life, knowing she was dying. Her",
-  "why": "A profoundly moving and contemplative letter from Richard Feynman on love and loss."
+  "topic": "parenting-education",
+  "author": "dylanwiliam",
+  "via": "C_Hendrick",
+  "text": "It is almost unbelievable that this still needs to be said (especially since your 2009 chapter in Tobias and Duffy's book Constructivist ins",
+  "why": "Deep dive into learning science and instructional theory, endorsed by a leading education researcher."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "krishnanrohit",
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "A very good interview. Recommended! Posted Jun 29, 2026 at 6:16PM",
-  "why": "Excellent wide-ranging conversation covering AI acceleration, aesthetics, and identifying talent with Tyler Cowen."
+  "text": "Great interview with @dylanwiliam and @mrbartonmaths on AI in education. eedi.substack.com/p/ai-in-educat… Posted Jun 30, 2026 at 6:14AM",
+  "why": "Hits the exact 'AI x learning-science' intersection with two of the best minds in evidence-based education."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "ICYMI: Fresh new article dropped: Portfolios reduce variability at the cost of upside. Great when you want predictability. Terrible when you",
-  "why": "Excellent builder wisdom on the trade-offs between predictability and hunting for extreme outliers."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "salonium",
+  "via": "jasoncrawford",
+  "text": "When you think about it, isn’t it sort of crazy that the continents drift over time, and used to be joined together as a single landmass aro",
+  "why": "Fascinating history of science piece from Works in Progress on how continental drift became consensus."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-essays",
+  "author": "DKThomp",
   "via": null,
-  "text": "How to save a life – on Little Prince author Antoine de Saint-Exupéry's birthday, his abiding wisdom (hard-won during his time as a prisoner",
-  "why": "Beautiful contemplative reflection on kindness and humanity from a classic author, fitting his taste for intentional living."
+  "text": "Today's piece is about the increase in solo entrepreneurship and why it's easier than ever to get rich by breaking away from traditional com",
+  "why": "Derek Thompson offers a thoughtful critique of the social and fiscal downsides of AI-enabled solo entrepreneurship."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "MVXMXM",
-  "via": "HamelHusain",
-  "text": "Excited to speak again at @aiDotEngineer World's Fair! This year I'm presenting \"mousepower\": on how agents break our measurement frameworks",
-  "why": "Great conceptual framing on how autonomous agents break traditional measurement and evaluation frameworks."
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "Retrieval practice beat worked examples for generalisation when learners had initial instruction, but without initial instruction, worked ex",
+  "why": "Rigorous paper on the nuances of retrieval practice vs worked examples in learning science."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "abshkbh",
-  "via": "swyx",
-  "text": "I’m speaking at AIE SF World’s Fair on July 1st in the Sandbox & Platform Engineering track. My talk is called \" From fork() to Fleet: Desig",
-  "why": "Strong first-principles overview of the infrastructure and runtime isolation needed for agent sandboxes."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "deanwball",
+  "via": "jasoncrawford",
+  "text": "It is worth noting that my work on private governance institutions for AI was done in anticipation of the decision SCOTUS handed down yester",
+  "why": "Substantive analysis of how a recent SCOTUS ruling impacts the institutional design of AI regulation."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "dhasandev",
-  "via": "Vtrivedy10",
-  "text": "bridging the gap from research to product is harder than it looks Posted Jun 29, 2026 at 9:02PM",
-  "why": "Interesting approach to using fine-tuned models for evaluating and understanding agent traces at scale."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "When we were in China, @xeophon and I made a quick detour to visit Meituan. They continue to be one of our favorite open model builders, as ",
+  "why": "Rare on-the-ground insight into the Chinese AI ecosystem and how companies like Meituan approach open models."
  },
  {
   "rank": 15,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "jakebroekhuizen",
-  "via": "Vtrivedy10",
-  "text": "The product of some of the work the LangChain Labs team has been up to recently 📌 You can read more about it here - langchain.com/blog/build",
-  "why": "Practical write-up on building a significantly cheaper model for evaluating agent trajectories."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "DigEconLab",
-  "via": "erikbryn",
-  "text": "\"Beyond the corpus of current human achievement, he said, exists 'this much bigger space, bigger than you know, as big as you can imagine, o",
-  "why": "A strong profile on Erik Brynjolfsson exploring the expansive economic possibilities unlocked by AI."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "Genuinely losing my mind about this — we had a huge panic throughout the political system about deficits in 2011 when it wasn’t an especiall",
-  "why": "Substantive macroeconomic commentary on the shifting reality of the national debt."
- },
- {
-  "rank": 18,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "When the American government set out to erase indigenous culture, one woman set out to save tribal music, traveling far and wide with her cy",
-  "why": "A beautiful historical piece on cultural preservation and intentional craft."
+  "text": "Truth, fact, and the patterning of reality – Virginia Woolf on how we come to know the world themarginalian.org/2026/05/20/vir… Posted Jun 3",
+  "why": "Beautiful contemplative piece on epistemology and reality from a trusted curator."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "TheStalwart",
+  "via": "Noahpinion",
+  "text": "Interesting piece from Joel Wertheimer @ 538 that the the UMich sentiment survey is overstating the public's gloom about the economy by over",
+  "why": "Good data-driven critique of economic sentiment surveys, though it borders on political polling."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Audre Lorde's antidote to despair themarginalian.org/2026/05/12/aud… Posted Jun 30, 2026 at 3:02PM",
+  "why": "Classic Marginalian curation on intentional living and philosophy, providing a contemplative counterweight."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "robkhenderson",
+  "via": "C_Hendrick",
+  "text": "\"If you asked me 10 years ago, I would say college students are reading too much Foucault and Judith Butler...But these days, they’re watchi",
+  "why": "Interesting cultural critique on the decline of deep reading among students, though borders on generational complaining."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GearoidReidy",
-  "via": "Noahpinion",
-  "text": "This would be excellent news, and a prime example of one direction where Japan's economy is headed. Lots of countries need drones (and arms)",
-  "why": "Notable development in global manufacturing and defense tech economics in Japan, though slightly outside core focus."
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "_akpiper",
+  "via": "DKThomp",
+  "text": "I like this theory a lot. The dream of the university without middle managers. Posted Jun 30, 2026 at 2:50PM",
+  "why": "Thin commentary on a quoted thread; better to read the actual essay directly."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "erikbryn",
+  "author": "packyM",
   "via": null,
-  "text": "Looking forward to participating in this amazing tutorial! Posted Jun 29, 2026 at 6:20PM",
-  "why": "Highly relevant topic (AI's impact on work), but ultimately just an event announcement."
+  "text": "I knew this already, but listening to this made me realize how much more dumbly I look at the world than some people. Posted Jun 30, 2026 at",
+  "why": "Podcast announcement with thin commentary; mostly promotional rather than readable long-form insight."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 4,
-  "topic": "ai-engineering",
-  "author": "BEBischof",
-  "via": "HamelHusain",
-  "text": "I keep telling people that evals teach you how to build your product; either by showing you how it should work or that you're not building t",
-  "why": "Redundant share of Hamel's excellent post on evals as a product smell."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Love anyway themarginalian.org/2024/03/22/lov… Posted Jun 30, 2026 at 11:42AM",
+  "why": "Solid contemplative essay, though the tweet itself lacks context and is too brief."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "mikepmunroe",
-  "via": "HamelHusain",
-  "text": "Another great post from @HamelHusain grounded in real AI based functionality running in production applications. My takeaway, don't forget t",
-  "why": "Redundant share of Hamel's excellent post on evals as a product smell."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "aarmlovi",
+  "via": "Noahpinion",
+  "text": "I was so sick of A/C discourse til I saw this and actually laughed out loud Posted Jun 30, 2026 at 11:37AM",
+  "why": "A brief, somewhat dunking take on energy policy; lacks the depth of a high-signal essay."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 4,
+  "score": 3,
   "topic": "ai-engineering",
-  "author": "sh_reya",
-  "via": null,
-  "text": "Hamel wrote a nice blog post about making AI products easier to evaluate in the first place, before trying to codify all the evals Posted Ju",
-  "why": "Redundant share of Hamel's excellent post on evals as a product smell."
+  "author": "pilotprotocol_",
+  "via": "bentossell",
+  "text": "smolmachines.com is now live on the Pilot Protocol app store. Agents can autonomously spin up hardware-isolated Linux microVMs with no human",
+  "why": "Pure product announcement and engagement metrics without substantive engineering insights."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "ai-engineering",
-  "author": "altryne",
-  "via": "swyx",
-  "text": "A candid hallway track interview with the man himself - @swyx Mini Podcast if you will, he's told me about a huge milestone tomorrow, things",
-  "why": "Video-only event hype and announcements; lacks substantive written insight despite featuring a favored author."
+  "author": "natolambert",
+  "via": null,
+  "text": "letssss gooooo breaking this bad boy out today loooooooooooong cat Posted Jun 30, 2026 at 2:54PM",
+  "why": "Pure hype and announcement quote tweet without substantive analysis."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "JerusalemDemsas",
-  "via": "DKThomp",
-  "text": "Elizabeth Warren used to be a Republican, Senator Bernie Sanders used to oppose the Brady Bill and voted to shield gun manufacturers from la",
-  "why": "General political commentary; falls outside core interests."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "mikepmunroe",
-  "via": "HamelHusain",
-  "text": "Saw a presentation from @barrowjoseph on vlm OCR today at skool.com/ai-eng/about . Great presenter and shared a lot of tactical insight. If ",
-  "why": "A brief shoutout to a presentation without sharing the underlying insights."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "JessicaBRiedl",
-  "via": "Noahpinion",
-  "text": "Nonsense. Federal, state, & local governments last year spent a combined $10.3 trillion. Defense accounted for less than 10% of that. The ot",
-  "why": "Political debate over government spending and foreign aid; too close to culture-war dunking."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "Apologies to those looking forward to @mattpocockuk 's keynote, but he had to bow out for personal stuff... ... but he didn't leave us high ",
-  "why": "Event logistics and speaker announcements; lacks substantive insight."
- },
- {
-  "rank": 29,
-  "kept": false,
   "score": 1,
   "topic": "econ-progress",
-  "author": "KBP9a91",
-  "via": "Noahpinion",
-  "text": ">leftists watching Shapiro pull Assad numbers in a purple state while Platner can’t pull 5 points in a Harris +6 state Your browser does not",
-  "why": "Pure political dunking and polling commentary; violates anti-taste rules."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "I get this as a troll, but \"Trump won twice because the establishment got too left-wing so we should get even more left-wing\" does not make ",
-  "why": "Pure political punditry and election commentary."
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "How is this not 9-0? Posted Jun 30, 2026 at 3:56PM",
+  "why": "Pure politics and news reporting, which falls into the anti-taste category."
  }
 ]
