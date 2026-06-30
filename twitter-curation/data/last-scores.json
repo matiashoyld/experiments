@@ -3,240 +3,300 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "The Wall Street Journal printed an outright false headline and heavily misleading story claiming this, which of course was uncritically ampl",
-  "why": "Rigorous, detailed debunking of AI hype regarding Chinese models matching Anthropic in cybersecurity. Excellent evals-as-discipline."
+  "topic": "ai-engineering",
+  "author": "RLanceMartin",
+  "via": "trq212",
+  "text": "Claude Tag has grown rapidly in Anthropic. I want to share some of the reasons for this and the behavioral shifts I’ve seen with this agent ",
+  "why": "Excellent deep dive into how Anthropic internally uses Claude as an org-level agent in Slack, detailing the shift to async workflows."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "curiouswavefn",
-  "via": "jasoncrawford",
-  "text": "I think we need to appreciate how much the world has changed in the last few years. A sophisticated PhD can now plausibly do what used to re",
-  "why": "Brilliant synthesis of how LLMs, cheap equipment, and CROs are enabling a new era of solo biotech builders."
+  "topic": "ai-engineering",
+  "author": "cwolferesearch",
+  "via": "eugeneyan",
+  "text": "This cybersecurity eval writeup is great for understanding how complex / realistic evals are built. Some key takeaways after reading it: Rec",
+  "why": "Exceptional breakdown of how complex, long-horizon cybersecurity evals are actually built and verified."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "natolambert",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "Together AI processing 400T tokens a month. Posted Jun 29, 2026 at 3:38PM",
-  "why": "Fascinating historical parallel between the PC ecosystem's modularity and today's AI API layers driving explosive innovation."
+  "text": "New blog post:  “It’s Hard to Eval” Is a Product Smell If you find it hard to verify AI output, chances are that your users will too!  In ot",
+  "why": "Brilliant framing on how difficulty in evaluating AI outputs often points to upstream product design flaws."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "cowjuh",
-  "via": "jxnlco",
-  "text": "Posted Jun 29, 2026 at 7:59AM",
-  "why": "Excellent framework for the new archetypes of AI engineering and product roles, drawn directly from frontier lab experience."
+  "topic": "contemplative",
+  "author": "sivers",
+  "via": null,
+  "text": "16 conversations in super-multicultural Malaysia, Kuala Lumpur: sive.rs/met/at-13 Posted Jun 30, 2026 at 2:41AM",
+  "why": "Derek Sivers (a favorite author) sharing reflections from multicultural conversations; high signal for intentional living."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "If AI-driven verification of AI output proves consistently costly, then AI might drive companies to become really big and do everything in-h",
-  "why": "Counterintuitive economic take on why AI verification costs might drive companies to insource rather than outsource."
+  "author": "kyleichan",
+  "via": "Noahpinion",
+  "text": "Really interesting paper on the crucial role that large firms like Samsung & Hyundai played in South Korea’s growth miracle. South Korea’s t",
+  "why": "Fascinating paper on the productivity dynamics and the role of large firms in South Korea's economic miracle."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "emollick",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Even though I made this graph, it is also kind of wrong. Fable is guardrailed Mythos. If we use the Mythos date Posted Jun 29, 2026 at 5:02A",
-  "why": "Ethan Mollick highlighting new eval data on the rapidly closing gap between open and closed frontier models."
+  "text": "This is a great conversation. Henry as a CFO is more articulate about almost everything wrt AI than most American CEOs, from discussions abo",
+  "why": "Rare, articulate insight into frontier AI strategy, supply chains, and alignment from Baidu's CFO."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "So true, even of dashboards in general Posted Jun 29, 2026 at 3:48PM",
-  "why": "Great operator perspective on replacing static dashboards with dynamic, on-demand AI agents."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "FIVEfromFIVE",
+  "via": "C_Hendrick",
+  "text": "Growth mindset expertly unpacked by @C_Hendrick open.substack.com/pub/carlhendri… Posted Jun 29, 2026 at 9:10PM",
+  "why": "Deep dive into the nuances and realities of 'growth mindset' from a learning science perspective."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "deansforimpact",
-  "via": "C_Hendrick",
-  "text": "\"The science of learning is not another fad...\" @rpondiscio reflects on our updated report, The Science of Learning, 2nd Ed, on @educationga",
-  "why": "Important commentary on the challenge of institutionalizing the science of learning beyond just changing individual minds."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "On this day in 1942, long before he won the Nobel Prize in Physics, Richard Feynman married the love of his life, knowing she was dying. Her",
+  "why": "A profoundly moving and contemplative letter from Richard Feynman on love and loss."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
+  "score": 8,
   "topic": "contemplative",
-  "author": "themarginalian",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "“Little Prince” author Antoine de Saint-Exupéry, born on this day in 1900, on friendship themarginalian.org/2019/05/28/ant… Posted Jun 29, 2",
-  "why": "A beautiful, contemplative reflection on friendship from the author of The Little Prince, curated with taste."
+  "text": "A very good interview. Recommended! Posted Jun 29, 2026 at 6:16PM",
+  "why": "Excellent wide-ranging conversation covering AI acceleration, aesthetics, and identifying talent with Tyler Cowen."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Some people seem convinced that AI will reduce the headcount at companies. Here's why it might increase it instead. noahpinion.blog/p/will-a",
-  "why": "Another angle on Noahpinion's essay about AI increasing corporate headcount rather than reducing it."
+  "text": "ICYMI: Fresh new article dropped: Portfolios reduce variability at the cost of upside. Great when you want predictability. Terrible when you",
+  "why": "Excellent builder wisdom on the trade-offs between predictability and hunting for extreme outliers."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "rickhess99",
-  "via": "C_Hendrick",
-  "text": "What Is a Democratic Education, Anyway? Tocqueville understood that the fate of the republic rests on civic habits and democratic norms, not",
-  "why": "A solid exploration of democratic education and the importance of civic habits over pure politics."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to save a life – on Little Prince author Antoine de Saint-Exupéry's birthday, his abiding wisdom (hard-won during his time as a prisoner",
+  "why": "Beautiful contemplative reflection on kindness and humanity from a classic author, fitting his taste for intentional living."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "ProfEmilyOster",
-  "via": null,
-  "text": "State school test scores from spring 2026 are starting to trickle in. Tennessee today with some small gains from 2025. Read and subscribe fo",
-  "why": "Early data on 2026 state school test scores from Emily Oster, a highly trusted source on education metrics."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "MVXMXM",
+  "via": "HamelHusain",
+  "text": "Excited to speak again at @aiDotEngineer World's Fair! This year I'm presenting \"mousepower\": on how agents break our measurement frameworks",
+  "why": "Great conceptual framing on how autonomous agents break traditional measurement and evaluation frameworks."
  },
  {
   "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "abshkbh",
+  "via": "swyx",
+  "text": "I’m speaking at AIE SF World’s Fair on July 1st in the Sandbox & Platform Engineering track. My talk is called \" From fork() to Fleet: Desig",
+  "why": "Strong first-principles overview of the infrastructure and runtime isolation needed for agent sandboxes."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "dhasandev",
+  "via": "Vtrivedy10",
+  "text": "bridging the gap from research to product is harder than it looks Posted Jun 29, 2026 at 9:02PM",
+  "why": "Interesting approach to using fine-tuned models for evaluating and understanding agent traces at scale."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "jakebroekhuizen",
+  "via": "Vtrivedy10",
+  "text": "The product of some of the work the LangChain Labs team has been up to recently 📌 You can read more about it here - langchain.com/blog/build",
+  "why": "Practical write-up on building a significantly cheaper model for evaluating agent trajectories."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "DigEconLab",
+  "via": "erikbryn",
+  "text": "\"Beyond the corpus of current human achievement, he said, exists 'this much bigger space, bigger than you know, as big as you can imagine, o",
+  "why": "A strong profile on Erik Brynjolfsson exploring the expansive economic possibilities unlocked by AI."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "Genuinely losing my mind about this — we had a huge panic throughout the political system about deficits in 2011 when it wasn’t an especiall",
+  "why": "Substantive macroeconomic commentary on the shifting reality of the national debt."
+ },
+ {
+  "rank": 18,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"What is essential is invisible to the eye.\" On Antoine de Saint-Exupéry's birthday, his original watercolors for The Little Prince and the ",
-  "why": "A calming, contemplative look at the original watercolors and history behind The Little Prince."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "laurapatranella",
-  "via": "C_Hendrick",
-  "text": "The answer is none- none of these work better as a station. Stations scatter incorrect answers all over the room at different points in time",
-  "why": "A brief tactical critique of a specific classroom method; lacks the long-form depth he prefers for education science."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "The better way to read this thread is that it's a list of the reasons people sometimes prefer to buy rather than rent. But there are people ",
-  "why": "A brief economic observation on housing markets, but too short to provide substantial long-form value."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "|My interview with Donovan Hohn at Lapham’s Quarterly, plus an excerpt from A World Appears laphamsquarterly.org Posted Jun 29, 2026 at 3:08",
-  "why": "A bare link to an interview without enough framing or extracted insight to justify a higher score."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "ProfEmilyOster",
-  "via": null,
-  "text": "There have been two outbreak of botulism in infant formula.  Now, it seems like they are connected. parentdata.org/babies/infant-… Posted Ju",
-  "why": "Important parenting news alert, but lacks the long-form analytical depth he saves for reading."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 3,
-  "topic": "agency",
-  "author": "jacksondahl",
-  "via": "nabeelqu",
-  "text": "Dialectic ep. 50: Tyler Cowen & Nabeel Qureshi! You could talk to @tylercowen and @nabeelqu about anything and it would be interesting. Nabe",
-  "why": "An announcement for a podcast episode. Despite great guests, it's audio-only promo without a transcript or written substance."
+  "text": "When the American government set out to erase indigenous culture, one woman set out to save tribal music, traveling far and wide with her cy",
+  "why": "A beautiful historical piece on cultural preservation and intentional craft."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "RichardHanania",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "GearoidReidy",
   "via": "Noahpinion",
-  "text": "CNN has discovered that Darializa Avila Chevalier had a burner account from 2020 to 2022 where she praised communism and communists leaders.",
-  "why": "Pure political culture-war commentary, which falls squarely into his anti-taste."
+  "text": "This would be excellent news, and a prime example of one direction where Japan's economy is headed. Lots of countries need drones (and arms)",
+  "why": "Notable development in global manufacturing and defense tech economics in Japan, though slightly outside core focus."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "C_Hendrick",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "erikbryn",
   "via": null,
-  "text": "I really hope he is successful but something just doesn't feel right about someone who wasn't even an Member of Parliament 2 weeks ago simpl",
-  "why": "UK political commentary that falls outside his core interests and into the anti-taste bucket."
+  "text": "Looking forward to participating in this amazing tutorial! Posted Jun 29, 2026 at 6:20PM",
+  "why": "Highly relevant topic (AI's impact on work), but ultimately just an event announcement."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "msediewyatt",
-  "via": "C_Hendrick",
-  "text": "Wisdom from Hannah Arendt here. Total domination runs on two engines Terror - isolates people, preventing them from organising together Ideo",
-  "why": "Uses Hannah Arendt to pivot into culture-war grievances about immunology and gender. Anti-taste."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "BEBischof",
+  "via": "HamelHusain",
+  "text": "I keep telling people that evals teach you how to build your product; either by showing you how it should work or that you're not building t",
+  "why": "Redundant share of Hamel's excellent post on evals as a product smell."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "aadilpickle",
-  "via": "thesephist",
-  "text": "I spent a week with Rohan Kumar. In his own words, he's the \"Rick Rubin of brainrot\", responsible for: being the 30th employee at MrBeast, l",
-  "why": "Creator-economy and audience-growth content focused on MrBeast and TikTok virality. Explicit anti-taste."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "mikepmunroe",
+  "via": "HamelHusain",
+  "text": "Another great post from @HamelHusain grounded in real AI based functionality running in production applications. My takeaway, don't forget t",
+  "why": "Redundant share of Hamel's excellent post on evals as a product smell."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "ArmandDoma",
-  "via": "Noahpinion",
-  "text": "i don't know how much of a larger trend this is, but anecdotally i feel like starting with Hillary Clinton the center left candidates in the",
-  "why": "Pure political commentary on Democratic party dynamics. Anti-taste."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "sh_reya",
+  "via": null,
+  "text": "Hamel wrote a nice blog post about making AI products easier to evaluate in the first place, before trying to codify all the evals Posted Ju",
+  "why": "Redundant share of Hamel's excellent post on evals as a product smell."
  },
  {
   "rank": 24,
   "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "altryne",
+  "via": "swyx",
+  "text": "A candid hallway track interview with the man himself - @swyx Mini Podcast if you will, he's told me about a huge milestone tomorrow, things",
+  "why": "Video-only event hype and announcements; lacks substantive written insight despite featuring a favored author."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "JerusalemDemsas",
+  "via": "DKThomp",
+  "text": "Elizabeth Warren used to be a Republican, Senator Bernie Sanders used to oppose the Brady Bill and voted to shield gun manufacturers from la",
+  "why": "General political commentary; falls outside core interests."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "mikepmunroe",
+  "via": "HamelHusain",
+  "text": "Saw a presentation from @barrowjoseph on vlm OCR today at skool.com/ai-eng/about . Great presenter and shared a lot of tactical insight. If ",
+  "why": "A brief shoutout to a presentation without sharing the underlying insights."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "JessicaBRiedl",
+  "via": "Noahpinion",
+  "text": "Nonsense. Federal, state, & local governments last year spent a combined $10.3 trillion. Defense accounted for less than 10% of that. The ot",
+  "why": "Political debate over government spending and foreign aid; too close to culture-war dunking."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "aiDotEngineer",
+  "via": "swyx",
+  "text": "Apologies to those looking forward to @mattpocockuk 's keynote, but he had to bow out for personal stuff... ... but he didn't leave us high ",
+  "why": "Event logistics and speaker announcements; lacks substantive insight."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "KBP9a91",
+  "via": "Noahpinion",
+  "text": ">leftists watching Shapiro pull Assad numbers in a purple state while Platner can’t pull 5 points in a Harris +6 state Your browser does not",
+  "why": "Pure political dunking and polling commentary; violates anti-taste rules."
+ },
+ {
+  "rank": 30,
+  "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Nothing -- absolutely NOTHING -- is good enough to appease the leftists if you're not on their Team. This is because the modern American Lef",
-  "why": "Factional political rage-bait. Hard pass."
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "I get this as a troll, but \"Trump won twice because the establishment got too left-wing so we should get even more left-wing\" does not make ",
+  "why": "Pure political punditry and election commentary."
  }
 ]
