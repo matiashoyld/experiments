@@ -4,129 +4,219 @@
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "nityndg",
-  "via": "random_walker",
-  "text": "Replying to @nityndg When a benchmark’s accuracy saturates, the field usually replaces it with a harder one. We use CORE-Bench Hard, a bench",
-  "why": "High-signal methodological rigor applied to LLM evals and benchmark saturation."
+  "author": "steverab",
+  "via": "sayashk",
+  "text": "📣 I'll be in Seoul next week to present one main conference paper and four workshop papers at ICML! I'll also be on a panel at the FAR.AI al",
+  "why": "High-signal thread on AI agent reliability and evals-as-discipline with real methodological rigor."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "In celebration of Fable coming back, here is what it was able to do! Can you imagine such power. Posted Jul 1, 2026 at 12:47AM",
-  "why": "Excellent methodological look at LLM evals and procedural benchmark generation."
+  "topic": "frontier-ai",
+  "author": "danwilliamsphil",
+  "via": "random_walker",
+  "text": "To me, actually existing advanced AI systems seem extremely \"well-aligned\" and controllable. They're much nicer, more honest, more helpful, ",
+  "why": "Substantive, empirical counter-argument to prevailing AI alignment doom; great rationality piece."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "rationality",
+  "author": "DKThomp",
   "via": null,
-  "text": "Annie Dillard's exquisite reflection on how to live, lensed through her encounter with a weasel: themarginalian.org/2025/10/14/ann… Posted J",
-  "why": "Beautiful contemplative essay on intentional living from a consistently high-signal curator."
+  "text": "Brilliant experiment. Says something interesting about the rules of attention in algorithmic media that if you basically destroy the account",
+  "why": "Fascinating empirical observation on algorithmic media, attention rules, and engagement parasites."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "RuxandraTeslo",
-  "via": "random_walker",
-  "text": "I was surprised to learn that studies claiming low-dose radiation is harmful are of very poor quality and that, based on current evidence, l",
-  "why": "Substantive critique of academic rigor and ideological bias regarding nuclear energy and progress."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "We launched agents in orbs yesterday. I truly believe that what we think of as a development environment will change dramatically in the nex",
+  "why": "Insightful builder perspective on the future of agentic dev environments and ephemeral VMs."
  },
  {
   "rank": 5,
+  "kept": true,
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "CFGeek",
+  "via": "ajeya_cotra",
+  "text": "I think restricting access to AI systems has real drawbacks, particularly for risks from misalignment and RSI. For those, the visibility and",
+  "why": "Nuanced argument on how open-weight models can aid AI safety and interpretability."
+ },
+ {
+  "rank": 6,
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Born 380 years ago today, Leibniz gave us the logical foundation of the digital universe. Superb read on how his legacy shaped the relations",
+  "why": "Excellent historical synthesis of philosophy, computing, and the digital universe."
+ },
+ {
+  "rank": 7,
   "kept": true,
   "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Now Yourself – the elusive science of what the present moment is made of and how it makes you who you are themarginalian.org/2026/06/30/jo-…",
-  "why": "Deep dive into the science and philosophy of consciousness and the present moment."
+  "text": "Wonderful read on our search for meaning lensed through the paradoxes of time themarginalian.org/2024/01/30/tim… Posted Jul 1, 2026 at 3:02P",
+  "why": "Deep philosophical essay on time and meaning; great contemplative reading."
  },
  {
-  "rank": 6,
+  "rank": 8,
+  "kept": true,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "phineasb",
+  "via": "danshipper",
+  "text": "Investors need to get closer to the metal - @thegp we do this by having some of the best company builders on our team. @dpup is a proof poin",
+  "why": "Strong framework for AI strategy intersecting builder wisdom, engineering, and business impact."
+ },
+ {
+  "rank": 9,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to be a living unison – D.H. Lawrence on harmonizing the conflicting parts we live with themarginalian.org/2024/04/10/par… Posted Jul 1,",
+  "why": "Beautiful contemplative piece on harmonizing our internal conflicts."
+ },
+ {
+  "rank": 10,
+  "kept": true,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "In this week's roundup: 1. Maybe there's no vibecession 2. AI depolarizes people 3. AI killing humanity is bad 4. Millennials are getting ah",
+  "why": "High-quality curation and synthesis of economics, progress, and AI topics."
+ },
+ {
+  "rank": 11,
+  "kept": true,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "AnthropicAI",
+  "via": "C_Hendrick",
+  "text": "Claude Fable 5 will be available again globally tomorrow. After a series of productive conversations with the US government, we're redeployi",
+  "why": "Substantive update on frontier model safeguards, jailbreaks, and government evals."
+ },
+ {
+  "rank": 12,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How do you know that you (actually) love somebody? A classic litmus test from philosopher Martha Nussbaum with help from Proust: themarginal",
-  "why": "Philosophical exploration of love and knowledge by Martha Nussbaum."
- },
- {
-  "rank": 7,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "NotionDevs",
-  "via": "geoffreylitt",
-  "text": "\"Computa look at my calendar and book my usual spot to catch up with my friend for lunch this week. Send him a text when you complete it.\" T",
-  "why": "Product announcement and video demo without deep technical substance."
- },
- {
-  "rank": 8,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "addyosmani",
-  "via": "dexhorthy",
-  "text": "Replying to @dexhorthy @dexhorthy @ojusave @aiDotEngineer It was such a good talk! Livestream was youtube.com/live/htM02KMNZ… Posted Jul 1, ",
-  "why": "Video-only content with no written substance or summary."
- },
- {
-  "rank": 9,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "cremieuxrecueil",
-  "via": "tobi",
-  "text": "Reminder that there are two types of anti-data center activists: Supporters of the Chinese Communist Party Stooges of the Chinese Communist ",
-  "why": "Violates anti-taste rule against political rage-bait and culture-war dunking."
- },
- {
-  "rank": 10,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "julianweisser",
-  "via": "danshipper",
-  "text": "I’m hiring a CoS to continue building the future of how most startups will be started: solo. Most people still think solo founding is a bad ",
-  "why": "Job posting wrapped in solopreneur hype; lacks the density of insight required."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "skeptrune",
-  "via": "HamelHusain",
-  "text": "there's a new grad out there somewhere asking their boss if this means they can get rid of kubernetes Posted Jun 30, 2026 at 6:30PM",
-  "why": "Just a joke about a product announcement; lacks substantive insight."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "DavidAFrench",
-  "via": "Noahpinion",
-  "text": "An absolutely remarkable meltdown is underway on the MAGA right. We've had this policy for generation after generation, it's right in line w",
-  "why": "Pure political culture-war dunking."
+  "text": "Shame is one of the most common human experiences, yet one we are least likely to want to talk or even think about. Pioneering psychologist ",
+  "why": "Solid psychological exploration of shame and wholeness."
  },
  {
   "rank": 13,
   "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "Don't miss Farming 250 in Civil Eats civileats.com/farming-250/?u… Posted Jul 1, 2026 at 3:14PM",
+  "why": "Agriculture newsletter link; lacks the specific tech, econ, or progress intersections he prefers."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "That day when @elonmusk starts to sound a bit like my 2023 TED Talk, which called for “a global, nonprofit organization to regulate the tech",
+  "why": "Self-promotional AI hype and regulatory posturing without new substance."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes. After Trump's personality cult is gone, ideology will be the only thing holding MAGA together. Vance will be the leader and avatar of t",
+  "why": "Political commentary on MAGA and Vance; falls into the culture-war anti-taste category."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "trq212",
+  "via": "simonw",
+  "text": "@_catwu @simonw and I will be doing a fireside chat about \"This year in Claude\" from 12:30pm-1:30pm at AIE in Expo Stage 2. We'll be coverin",
+  "why": "Pure event announcement with no substantive insights or takeaways."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "derrickcchoi",
+  "via": "jxnlco",
+  "text": "It’s been great working with @HP on using Codex for their engineering work. Looking forward to deepening the partnership. openai.com/index/h",
+  "why": "Corporate partnership announcement with no technical depth or builder insights."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "Today, we’re announcing a partnership with Bertelsmann. Runway will be integrated across Bertelsmann’s global portfolio of businesses, inclu",
+  "why": "Corporate partnership announcement; pure PR without substance."
+ },
+ {
+  "rank": 19,
+  "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "HistoryBoomer",
+  "author": "TrueSlazac",
   "via": "Noahpinion",
-  "text": "When Irish fled to the US after the 1845-52 Famine, angry nativists formed the \"American Party\" to oppose Irish immigration. Many help-wante",
+  "text": "This man could have given his son the most valuable citizenship in the world but chose not to because he made up a law that didn't exist Pos",
+  "why": "Culture-war politics and immigration rage-bait; explicitly against his anti-taste rules."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes, the DSA is the Dems' MAGA. noahpinion.blog/p/the-democrat… Posted Jul 1, 2026 at 3:11PM",
   "why": "Political dunking and culture-war commentary."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Thanks for all the restaurant recommendations! Most of them are mid but I appreciate the effort, and there are a few new ones I'll make sure",
+  "why": "Personal noise about local restaurants; zero signal."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "How is it breaking the law to have a baby Posted Jul 1, 2026 at 4:09AM",
+  "why": "Political dunking; zero signal."
  }
 ]
