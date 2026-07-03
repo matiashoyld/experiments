@@ -2,301 +2,161 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "curl_justin",
-  "via": "sayashk",
-  "text": "Can agents answer real open research questions with a $3K compute budget? Such a cool experiment designed to eliminate contamination (models",
-  "why": "Perfect hit for evals-as-discipline: rigorous methodology for testing long-horizon AI research agents without contamination."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "WillManidis",
+  "via": null,
+  "text": "the reserve currency of the united states explained by its largest holder Posted Jul 3, 2026 at 1:39AM",
+  "why": "Will Manidis (a favorite) with a beautifully written reflection on the historical separation of state and commerce in England."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "sayashk",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Update on our long-horizon AI R&D evals: In April, we launched CRUX, a project to regularly run open-world evaluations. These long, messy, r",
-  "why": "Rigorous methodological approach to evaluating long-horizon AI research agents. A masterclass in evals-as-discipline."
+  "text": "Saving money is good but catalyzing growth is better. If this month you could save $1000 or gain $1000/mo in recurring revenue, obviously th",
+  "why": "Jason Cohen on product positioning: why selling growth is fundamentally stronger than selling cost-savings for builders."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "ashray_malhotra",
-  "via": "swyx",
-  "text": "Loved the chat between @trq212 @_catwu @simonw at AI Eng summit. My top 13 takeaways from their session -> 1. Engineers should become better",
-  "why": "Extremely high-signal, dense summary of applied AI engineering and system design from Anthropic."
+  "score": 8,
+  "topic": "agency",
+  "author": "xuanalogue",
+  "via": "random_walker",
+  "text": "Just had a senior academic suggest that I consider writing a book eventually about my research, and to think about papers in terms of what w",
+  "why": "Arvind Narayanan on shifting from deadline-driven to value-driven research—a profound heuristic for intentional, long-term work."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "TheZvi",
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
   "via": null,
-  "text": "Fable’s back. Back again. Fable’s back. Tell a friend. Use your free week to its fullest. This is excellent news. The blip only lasted a few",
-  "why": "Excellent high-signal curation and synthesis of the week's frontier AI developments from a trusted rationalist writer."
+  "text": "Yeah it’s great! Posted Jul 2, 2026 at 9:30PM",
+  "why": "Fascinating deep-dive into orchestrating multiple AI agents (Fable, Devin, Codex) into an automated software factory."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "joshua_saxe",
-  "via": "random_walker",
-  "text": "Restrictive AI cyber policy around both closed and open models makes us way less safe (summing up the argument in one place) New AI cyber ca",
-  "why": "Substantive, well-argued essay on frontier AI policy, open weights, and cybersecurity dynamics."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Nobel laureate Hermann Hesse, born on this day in 1877, on how to hear the wisdom of the inner voice themarginalian.org/2018/12/12/her… Post",
+  "why": "Hermann Hesse on cultivating the inner voice—a strong contemplative piece via The Marginalian's excellent curation."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "vkrakovna",
-  "via": "TheZvi",
-  "text": "Major update to the list of specification gaming examples in AI --we now have a total of 86 examples (including 13 recent examples from 2025",
-  "why": "Excellent rigorous resource tracking alignment failures and specification gaming in AI systems."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"7. Write to please just one person.\" Kurt Vonnegut's 8 tenets of storytelling themarginalian.org/2012/04/03/kur… Posted Jul 2, 2026 at 9:32",
+  "why": "Timeless craft advice from Kurt Vonnegut via The Marginalian—write to please just one person."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "ShreyaR",
-  "via": "swyx",
-  "text": "@swyx with the 🐐 takes on making a talk rejigged my whole talk around the thesis slide for AIE world fair Posted Jul 2, 2026 at 8:24AM",
-  "why": "Highly actionable builder/operator wisdom on the craft of delivering technical presentations."
+  "score": 6,
+  "topic": "rationality",
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": "Negative emotional contagion marginalrevolution.com/marginalrevolu… Posted Jul 2, 2026 at 7:25PM",
+  "why": "Tyler Cowen linking to Noah Smith on negative emotional contagion—good psychological and rationality insight."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "emollick",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "My one serious piece of advice having used Fable a bunch before release is that, unless you are careful it develops its own internal bizarre",
-  "why": "Fascinating behavioral observation on how frontier models develop internal dialects during long tasks."
+  "text": "You've heard of far-UVC light for sanitizing against airborne pathogens, but have you heard of glycol vapors? (TIL) blueprintbiosecurity.org",
+  "why": "Jason Crawford on the forgotten progress history of using glycol vapors for airborne pathogen sanitization."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "prediction: Auto-Research is going to look much more like Iterative Agentic Map Reduce ie. Auto-Research should have more breadth search + f",
-  "why": "Strong architectural insight on moving from depth-first to breadth-search plus fusion for AI research agents."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": "\"For the U.S., the main reason we make less stuff is that we want less stuff — at least, relative to how many 'experiences' we want to consu",
+  "why": "Noah Smith roundup touching on the shift from material goods to experience consumption in the US economy."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Every thought that has ever passed through your brain was made possible by plants.\" The new science of plant intelligence and the mystery o",
-  "why": "Beautiful exploration of consciousness and biology; fits his interest in philosophy of mind."
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "miramurati",
+  "via": "erikbryn",
+  "text": "Bridgewater used their unique financial knowledge and partnered with us on @tinkerapi to fine-tune a model that helps their analysts focus o",
+  "why": "Corporate PR announcement about a fine-tuned model for finance. Lacks the technical depth of a true engineering postmortem."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On Hermann Hesse's birthday, his abiding wisdom on finding the soul beneath the self and the key to finding peace themarginalian.org/2024/02",
-  "why": "Beautiful contemplative piece on intentional living and finding peace, a great counterweight to tech."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "abundanceinst",
+  "via": "packyM",
+  "text": "\"America should be the birthplace of superintelligence, the nuclear renaissance, the spacecraft that takes us to Mars, and the first people ",
+  "why": "A bit too much pure hype/manifesto without the substantive analysis or real numbers needed to anchor it."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "latentspacepod",
-  "via": "swyx",
-  "text": "Today at the AI Engineer World's Fair in San Francisco: the 'software factory' vision met resistance from speakers defending human understan",
-  "why": "Strong synthesis of the AI Engineer World's Fair, touching on the tension between automation and human craft."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "YIMBYLAND",
+  "via": "Noahpinion",
+  "text": "> San Francisco > TOD > 67 floors > 820 ft > 1,019 apartments > Ground floor retail THAT’S WHAT IM TALKING ABOUT BABY Posted Jul 2, 2026 at ",
+  "why": "Pure news/announcement about a building approval. Lacks the deep analytical substance required for a high score."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "frontier-ai",
-  "author": "SamLyman33",
-  "via": "Noahpinion",
-  "text": "NEW: BPI research reveals that a Marxist-Leninist group with documented ties to China has been a critical mobilizer in efforts that have blo",
-  "why": "Fascinating deep-dive into the geopolitical and activist forces impacting US AI infrastructure buildout."
+  "author": "StephenLCasper",
+  "via": "DKokotajlo",
+  "text": "@LennartFinke and I will release a paper on Monday about how some AI developers tend to make models that differentially downplay company con",
+  "why": "Teaser/announcement for an upcoming paper with a Google form. Better to wait for the actual paper to drop."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "builders-craft",
-  "author": "lulumeservey",
-  "via": "anuatluru",
-  "text": "There’s a window right now for an OAI narrative resurgence The best move  is to reposition themselves from “Pressured Incumbent” to “Underdo",
-  "why": "Sharp operator wisdom on corporate narrative strategy applied to a frontier AI lab."
+  "author": "sajel_shah",
+  "via": "HamelHusain",
+  "text": "nyc is buzzin and everyone’s doing lines introducing doinglines.nyc : the first live crowd-sourced heat map of nyc’s wait times you can now ",
+  "why": "Consumer app launch post. Lacks the long-form insight or technical depth desired."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Vtrivedy10",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "smarter models have better compact representations of the world and its problems which make them more efficient at inference time scaling “i",
-  "why": "Good technical insight on why smarter models do inference-time scaling more efficiently due to better internal representations."
+  "text": "Basically, rightists seem to think that if they just screech loudly enough and make dire enough threats, they can exercise veto power over t",
+  "why": "Political commentary on immigration that leans heavily into culture-war framing rather than economic progress analysis."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "ScottNolan",
-  "via": "packyM",
-  "text": "America's first 250 years took us from candlelight to satellites. America's next 250 will be even more incredible. Posted Jul 2, 2026 at 2:2",
-  "why": "Broad techno-optimist progress essay, though leans a bit toward hype over deep analysis."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "SierraPlatform",
-  "via": "swyx",
-  "text": "What is your definition of a forward deployed engineer? asks @latentspacepod . @natalie_meurer : \"That is really the point of my session: th",
-  "why": "Good operator insight into the evolving role of Forward Deployed Engineers in AI."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "waitbutwhy",
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "People think this is some kind of slam dunk on socialists, but I think that’s misunderstanding the psychology behind socialism. It values eq",
-  "why": "Leans too close to political dunking rather than the deep, rigorous progress analysis he prefers."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "Keshavatearth",
-  "via": "bentossell",
-  "text": "If you want to try it out: buy.polar.sh/polar_cl_kE84C… Keeping the price only $5 for the first 10 people. Local real-time transcription + l",
-  "why": "Product promotion without deeper engineering insights."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "A funny point per @JustinWolfers is that the idea that tariffs and whatever else would create Manly Man Real Jobs while eliminating Fake Gir",
-  "why": "Framed as political dunking rather than substantive economic progress analysis."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "abshkbh",
-  "via": "swyx",
-  "text": "Thank you @swyx - last year you gave me an opportunity when I was alone building in a corner and this year you backed me with a 45-min slot.",
-  "why": "Nice builder appreciation, but lacks standalone substance or insight to save."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "jnnsorg",
-  "via": "AlisonGopnik",
-  "text": "【NEURO2026】 特別公開プレナリーレクチャーとして、発達心理学・認知科学の第一人者 Alison Gopnik 博士（UC Berkeley）の講演をオンライン無料公開します。 日時：8月1日（土）10:50–11:50（日本時間） 形式：オンライン配信 登録：配信直前ま",
-  "why": "Just an event announcement in Japanese, not the actual insights from Gopnik."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "sfliberty",
-  "via": "tobi",
-  "text": "In 1825, a rich Welsh industrialist bought an entire American town to prove that socialism could work. He had the money, the buildings, the ",
-  "why": "Thread-boi hook format without delivering the substance upfront."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "AppliedInt",
-  "via": "swyx",
-  "text": "We're building physical AI for every moving machine. 🎧 Tune into the full @latentspacepod episode: youtube.com/watch?v=rv23_K… Your browser ",
-  "why": "Promotional hook for a podcast without summarizing the actual insights."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": null,
-  "text": "for what it's worth, i only invite double-length track keynotes when I'm very sure that both speaker and content deserve it. Today, @chrmann",
-  "why": "Event praise and hype without standalone technical or builder insights."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "We should teach kids to appreciate this country. slowboring.com/p/they-should-… Posted Jul 2, 2026 at 10:33AM",
-  "why": "Political/culture-war adjacent, lacks the deep learning science or progress focus he prefers."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "packyM",
-  "via": null,
-  "text": "This is real btw Posted Jul 2, 2026 at 3:03PM",
-  "why": "Just a joke/meme tweet without substantive commentary."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "olegkutkov",
-  "via": "mitsuhiko",
-  "text": "A very hard night in Kyiv. The city was targeted by a massive barrage of 74 ballistic and cruise missiles and 496 drones. Tragically, 17 dea",
-  "why": "Important real-world news, but falls outside his specific curated reading topics."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "RepDonBacon",
-  "via": "Noahpinion",
-  "text": "Ukraine is the EXPERT on drone warfare and we should learn from them and help them leverage this advantage over the Russian invaders. 13abc.",
-  "why": "Military and geopolitical news outside of his core curated topics."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "theshawwn",
-  "via": "swyx",
-  "text": "I’ll be actually-homeless soon (living out of my car) if I can’t land a job. Our house is being sold within two months if I don’t find work.",
-  "why": "Personal job search post, not the high-signal long-form insight he curates for reading."
+  "text": "LOL omg Posted Jul 3, 2026 at 1:22AM",
+  "why": "Culture-war dunking and political rage-bait. Explicitly violates core anti-taste rules."
  }
 ]
