@@ -3,380 +3,210 @@
   "rank": 1,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "ArchieHall",
-  "via": "Noahpinion",
-  "text": "IS THE ECONOMIST ALWAYS WRONG? Scandalously, in some circles @TheEconomist has a reputation as a contrarian indicator. This week we fessed u",
-  "why": "Fascinating use of LLMs to rigorously evaluate the historical predictive accuracy of 7,000 Economist articles."
+  "topic": "ai-essays",
+  "author": "sh_reya",
+  "via": null,
+  "text": "Really nice essay (written by an undergraduate!) reflecting on how math is changing thanks to AI. I resonate a lot with the discussion on pr",
+  "why": "Brilliant framing of AI's impact on math/CS: moving from generation to 'digestion' and the human pragmatics of understanding."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "swyx",
-  "via": null,
-  "text": "i often think about the irony of how \"tools for thought\" people spent like a decade making cool pretty demos with canvases and then got comp",
-  "why": "Swyx and Geoffrey Litt on how AI CLIs are replacing traditional canvas-based tools for thought with active workflows."
+  "topic": "rationality",
+  "author": "MattGlassman312",
+  "via": "Noahpinion",
+  "text": "A speculative theory: politics is making people increasingly miserable because typical political participation is now more national , more e",
+  "why": "Brilliant analytical framing on why modern political participation (passive, national) yields terrible happiness ROI."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "“screw worms are a policy choice” Posted Jul 4, 2026 at 1:33AM",
-  "why": "A striking historical example of technological progress and policy eradicating a horrific natural parasite."
+  "topic": "builders-craft",
+  "author": "hxiao",
+  "via": "swyx",
+  "text": "still many industry executives don't get the value of top-tier AI conf like ICML/ICLR/NeurIPS, they'd rather sit on some summit roundtable w",
+  "why": "Excellent builder-ethos reflection on the value of dense academic AI conferences over fluffy governance summits."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "CFGeek",
-  "via": "ajeya_cotra",
-  "text": "It’s odd how much disagreement there is over “How aligned are current AI systems?”. We’re all looking at the same evidence, right? Posted Ju",
-  "why": "A sharp philosophical challenge to AI alignment discourse, arguing we ignore the strong empirical alignment of current models."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The art of losing and the art of beckoning love back – the story behind one of the greatest poems ever written themarginalian.org/2026/07/03",
+  "why": "Beautiful contemplative piece from The Marginalian on love, loss, and poetry. Great change of pace from tech."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "Sarthakpattna1",
-  "via": "DKThomp",
-  "text": "Derek at his best. Brilliant essay. Also, I am picking up Freedom From Fear after I finish my current read (Age of Revolutions by Fareed Zak",
-  "why": "A fascinating, data-dense historical deep dive into the massive technological and economic shifts of 1926 America."
+  "author": "ssankar",
+  "via": "Noahpinion",
+  "text": "It is time for Operation Paperclip 2: repatriate the jewels of mittlestand to America. wsj.com/economy/china-… Posted Jul 4, 2026 at 7:20AM",
+  "why": "High-signal piece on the shifting global industrial landscape and the decline of the German Mittelstand."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": "Noahpinion",
-  "text": "Today's article is an absurdly deep dive into what life was like in America 100 years ago, in 1926, on America's 150th Some favorite factoid",
-  "why": "A fascinating, data-dense historical deep dive into the massive technological and economic shifts of 1926 America."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "ChaiWithJai",
+  "via": "sh_reya",
+  "text": "Replying to @leerob @leerob I’m finding @sh_reya ’s plain writing skill to be valuable: Skill: github.com/shreyashankar/… Posted Jul 4, 2026",
+  "why": "A practical, applied AI engineering artifact (plain writing skill/prompt) from a highly respected practitioner."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "packyM",
   "via": null,
-  "text": "This is true… but maybe less important than the fact that people don’t try ambitious things with these systems. Many models are excellent as",
-  "why": "Mollick on the growing gap between the public's experience of small models and the true impact of agentic frontier AI."
+  "text": "What the American Dollar is backed by. Posted Jul 4, 2026 at 2:47PM",
+  "why": "Packy McCormick's progress-studies lens on America's 250th, contrasting 1776's lack of tech with today's abundance."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "shloked",
-  "via": "swyx",
-  "text": "Some notes from @aiDotEngineer world fair: the energy was incredible. it's magical to have a large group of smart, hungry, technical, and dr",
-  "why": "High-signal synthesis of the AI Engineer World's Fair, highlighting the shift toward continual learning and agentic commerce."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "packyM",
+  "via": null,
+  "text": "By @ScottNolan for @notboringco Originally appeared in not boring To imagine what America might look like 250 years from now, a good place t",
+  "why": "Packy McCormick's progress-studies lens on America's 250th, contrasting 1776's lack of tech with today's abundance."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "emollick",
-  "via": null,
-  "text": "What if the model is the router? I think people underestimate the ability of frontier models now, but especially in the near future, to dele",
-  "why": "Mollick and SimonW on the future of LLM routing and letting frontier models delegate to cheaper subagents."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Ben_Reinhardt",
+  "via": "jasoncrawford",
+  "text": "I like the fact that being a written culture is built into America's DNA. Posted Jul 4, 2026 at 2:48PM",
+  "why": "Jason Crawford's reflection on the US founding as a philosophical and written achievement, though a bit generic for a top score."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "_can1357",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "Very original! Posted Jul 4, 2026 at 2:43AM",
-  "why": "A wild, hilarious AI engineering hack: cutting Claude costs by 60% by turning code into an image for OCR."
+  "text": "Every country has a national holiday. France celebrates the storming of the Bastille. Mexico celebrates the revolt that began their war for ",
+  "why": "Crawford's full reflection on the US founding as a philosophical achievement. Good progress context, but light on novel insight."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "CratoNuno",
-  "via": "DTWillingham",
-  "text": "Depois de saber decodificar, ler sem compreender é mais comum do que parece. Às vezes insistimos em treinar os jovens em estratégias de leit",
-  "why": "Willingham and Hirsch on learning science: why reading comprehension relies on background knowledge, not just strategy."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "It may last 1000 more years, or just 10, but America has already earned its place as the greatest country in history. noahpinion.blog/p/the-",
+  "why": "Noah Smith's July 4th essay on America's historical role. Solid progress-adjacent reading, but standard holiday fare."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "latentspacepod",
-  "via": "swyx",
-  "text": "In this interview at @aiDotEngineer World's Fair, @vercel chief of software @andrewqu explains why agents represent a new form of software, ",
-  "why": "Vercel's chief of software on the engineering realities of building and deploying AI agents in production."
+  "score": 4,
+  "topic": "contemplative",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "Happy Independence Day! Here's to 250 more years of America. 🇺🇸🦅🎇 Posted Jul 4, 2026 at 1:11PM",
+  "why": "Historical quote for July 4th. Nice, but not high-signal for his specific intersections."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "kieranklaassen",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "packyM",
   "via": null,
-  "text": "❤️ Posted Jul 3, 2026 at 7:27PM",
-  "why": "Essential wisdom for builders on treating psychological capital as finite and embracing rest as part of the work."
+  "text": "Happy 4th 🇺🇸 Here's to the next 250, and 250 250's after that. Posted Jul 4, 2026 at 12:43PM",
+  "why": "Duplicate of the Not Boring July 4th essay share."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "jxnlco",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "advice to young engineers: brother, I know you got that dog in you, but you have to rest too. In a world where you can do 10,000 things at t",
-  "why": "Essential wisdom for builders on treating psychological capital as finite and embracing rest as part of the work."
+  "text": "All men are created equal. noahpinion.blog/p/the-american… Posted Jul 4, 2026 at 9:32AM",
+  "why": "Another link to Noah Smith's July 4th essay."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "agency",
-  "author": "WillWorth",
-  "via": "visakanv",
-  "text": "Replying to @justalexoki @justalexoki In all seriousness, you should read this, one of my favourite pieces of writing, on being serious, by ",
-  "why": "A highly recommended essay by Visakanv on agency, intentionality, and what it actually means to be serious."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "EthanSutin",
+  "via": "swyx",
+  "text": "happy was able to see you! @aiDotEngineer means a lot to me too, and so many others. Not only the densest signal conference, but also the be",
+  "why": "Community praise for the AI Engineer conference; nice sentiment but lacks standalone insight to save."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "I don't understand this. If it is indeed that much cheaper and not just a mispricing, as the DS paper says it isn't, why aren't all the labs",
-  "why": "Questioning the economics of frontier labs: why don't they natively use image-OCR tricks to cut token costs?"
+  "score": 3,
+  "topic": "contemplative",
+  "author": "ConceptualJames",
+  "via": "naval",
+  "text": "You've probably heard this before, but it's always worth repeating. Something extremely cool about the \"Star-spangled Banner,\" the American ",
+  "why": "Patriotic reflection that leans a bit too close to culture-war rhetoric; lacks the analytical depth Matias prefers."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "gopikori",
-  "via": "swyx",
-  "text": "Individual AIE World's Fair SFO videos aren't out yet — so here's a timestamped index of all 3 days of main-stage. See all sessions summary ",
-  "why": "A comprehensive, timestamped index of all sessions from the AI Engineer World's Fair."
+  "score": 2,
+  "topic": "contemplative",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "This is happening on a daily now. x.com/ZelenskyyUa/st… Posted Jul 4, 2026 at 1:04PM",
+  "why": "Geopolitical news update; outside of Matias's core focus areas."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 6,
+  "score": 2,
   "topic": "rationality",
-  "author": "FranNunesEcon",
-  "via": "Noahpinion",
-  "text": "Many of us have seen the famous 1-page proof where Nash proved the existence of Nash equilibrium for finite mixed strategies games but, how ",
-  "why": "A deep dive into the mathematics and history behind John Nash's famous 1-page equilibrium proof."
+  "author": "MikeLevin",
+  "via": "GaryMarcus",
+  "text": "DOGE deletes itself on July 4th. It will be remembered as a hugely destructive failure. Musk promised $2 trillion in savings. What we got, b",
+  "why": "Political critique and rage-bait regarding government efficiency; violates the anti-politics rule."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "AlisonGopnik",
-  "via": null,
-  "text": "This is a really nice  piece in the NYT about the Yoto, favorite of my grandchildren and highly recommended. Its especially great as an audi",
-  "why": "Alison Gopnik recommends a piece on screen-free audio players for kids, a great intersection of tech and parenting."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "ScooterCasterNY",
+  "via": "Noahpinion",
+  "text": "WATCH: Eiffel Tower Blazes \"USA 250\" as Paris Kicks Off America's Semiquincentennial Tonight the Eiffel Tower is lighting up with a \"USA 250",
+  "why": "Pure news/event announcement; no analytical depth."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On Kafka's birthday, his remarkable letter to his father – a gasp of recognition for anyone who has survived growing up with a narcissistic ",
-  "why": "Kafka's profound letter to his father, exploring the deep psychological impact of an abusive parent."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "micsolana",
+  "via": "naval",
+  "text": "khanna's 'billionaire wealth tax,' which is not a tax but an asset seizure in which he tallies everything you own, then demands a percentage",
+  "why": "Political dunking and tax policy rage-bait; violates the anti-politics rule."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "emollick",
-  "via": null,
-  "text": "Hey, Fable: \"No like \"AAA\" in what everyone online thinks AAA is, you know what I mean.\" This was pretty funny, there are lootboxes, EULAs, ",
-  "why": "A humorous artifact of Claude's interpretation of 'AAA gaming' (lootboxes, EULAs, useless settings)."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "If there really were many people asking this question about economics there would've been a good book to recommend to them. Tells you all yo",
-  "why": "A brief but telling observation on why economics lacks a single definitive introductory text."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": null,
-  "text": "big highlight of aie is always catching up with @microsoft folks like @digitarald who deeply care about the responsibility of being the pred",
-  "why": "Swyx reflecting on the craft and responsibility of Microsoft's devtools teams operating at massive scale."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 5,
+  "score": 1,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "No one you love is ever dead – Hemingway on the meaning of life and how to live through the most devastating of losses themarginalian.org/20",
-  "why": "Hemingway's profound letter on grief, loss, and finding meaning after devastation."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "Keshavatearth",
-  "via": "bentossell",
-  "text": "What is AFK? Here's a quick demo -> Your browser does not support the video tag. Posted Jul 3, 2026 at 4:40PM",
-  "why": "A new local transcription CLI tool designed specifically for AI agents to use."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "I feel like the standard American conservative view of history really struggles to explain what exactly happened during the Reagan Revolutio",
-  "why": "Commentary on the history of American progress and the political narratives surrounding the 1970s and 80s."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "If you didn’t know, I maintain an RSS feed of all my articles, including a simplified Markdown version of the content, including images with",
-  "why": "A clever idea to provide a Markdown RSS feed specifically optimized for AI ingestion."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "AlisonGopnik",
-  "via": null,
-  "text": "A really great piece from Blake on his discursive theory of art - very clear and interesting - and especially so in the light of the new Duc",
-  "why": "Alison Gopnik recommends a piece on the discursive theory of art."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": null,
-  "text": "Factorio has broken containment Posted Jul 4, 2026 at 12:28AM",
-  "why": "A neat video of a 3D printing robot farm, but lacks long-form written substance."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "emollick",
-  "via": null,
-  "text": "I kept asking Claude Fable to make the game \"more AAA\" over and over again. The results are... interesting. In Claude's view, this meant upg",
-  "why": "Further experiments with Claude generating WebGL games, showing its interpretation of game mechanics."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "JeremiahDJohns",
-  "via": "Noahpinion",
-  "text": "I have no idea how the UK is ever going to get out of the mess they're in, because so many of the causes of their stagnation have supermajor",
-  "why": "Commentary on UK pension politics and economic stagnation."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "nivi",
-  "via": "naval",
-  "text": "Our goal is to capture how founders really talk when no one is watching. Posted Jul 4, 2026 at 12:00AM",
-  "why": "Podcast announcement and timestamps; lacks readable long-form substance."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Stunning century-old illustrations for French fairy tales by a terminally ill teenage girl themarginalian.org/2022/01/27/vir… Posted Jul 3, ",
-  "why": "Beautiful historical art, but outside core reading priorities."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "alexolegimas",
-  "via": "emollick",
-  "text": "Happy 4th of July everyone. I came here as a kid at 9 years old, not knowing a single word of english, lived on food stamps in section 8 hou",
-  "why": "A touching personal reflection on immigration and the American dream."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 3,
-  "topic": "tools-for-thought",
-  "author": "thesherlocker",
-  "via": "jxnlco",
-  "text": "yes it lacks the social features but here's a codex billboards site that you can use codex-billboard.lakebed.app :) Posted Jul 3, 2026 at 7:",
-  "why": "A brief link drop for a new codex billboard site."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "wilhelmscreamin",
-  "via": "visakanv",
-  "text": "Replying to @wilhelmscreamin @wilhelmscreamin i keep thinking about these closing paragraphs of Dickens' The Long Voyage (1853) short-storie",
-  "why": "A literary excerpt from Dickens; beautiful but outside core reading priorities."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "nicbstme",
-  "via": null,
-  "text": "It warms my heart to witness the honorable Frenchman continuing the tradition of great engineers like Bartholdi and Eiffel in constructing m",
-  "why": "Commentary on a new statue in Washington D.C."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Yes. You and your gang have been trying for over a decade to convince America that immigration is an invasion, bent on destroying the nation",
-  "why": "Political dunking on immigration policy, lacking long-form substance."
+  "author": "RoyalFamily",
+  "via": "jasoncrawford",
+  "text": "🇺🇸 A message from His Majesty The King to President Trump and the American people, as they mark 250 years of the United States Declaration o",
+  "why": "Pure news/announcement regarding the Royal Family; irrelevant to core interests."
  }
 ]
