@@ -3,270 +3,120 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "sedielem",
-  "via": "swyx",
-  "text": "Here's a cool piece of LLM lore: the original scaling laws were wrong due to a bug, which probably led to a lot of wasted compute on oversiz",
-  "why": "Fascinating, rigorous technical history explaining the bug in OpenAI's original scaling laws vs Chinchilla."
+  "topic": "parenting-education",
+  "author": "mackenzieprice",
+  "via": "C_Hendrick",
+  "text": "\"The case for TimeBack (the AI-powered EducationOS behind Alpha), was never that screens are good; it was that the cognitive work must remai",
+  "why": "Fascinating look at AI in education (Alpha School) used to compress screen time and maximize human interaction."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "yoheinakajima",
-  "via": "swyx",
-  "text": "spending the last week at @aidotengineer was awesome. too many great convos to cover them all, but jotted down some things that stood out: L",
-  "why": "Excellent, dense synthesis of current AI engineering trends (routing, local models, Fable) from a builder conference."
+  "score": 9,
+  "topic": "agency",
+  "author": "swyx",
+  "via": null,
+  "text": "Every time I have given up on America, it has been a mistake. And yet, America has never, ever given up on me. full blog at https://swyx.io/",
+  "why": "Swyx (a favorite writer) reflects on his journey, tech, and agency in a long-form essay for America's 250th."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "simonw",
-  "via": null,
-  "text": "Somewhat humbling to have Claude Fable do a final review of some software that you're about to release and have it then find (and fix) FIVE ",
-  "why": "Simon Willison sharing a practical, cost-quantified postmortem of using Claude Fable for code review."
+  "topic": "parenting-education",
+  "author": "teachthemx3",
+  "via": "C_Hendrick",
+  "text": "\"The scarce resource in education is not time, it’s attention. So much of a school day is lost to friction: the settling and re-settling, th",
+  "why": "Great insight on attention as the scarce resource in education, framing the case for AI-assisted schooling."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "“AI is now costing some companies more than the people it was supposed to replace.” Posted Jul 5, 2026 at 12:46AM",
-  "why": "Substantive anti-hype data points regarding the actual enterprise costs of AI coding assistants."
+  "text": "Being cheap isn't a strategy. It's a race to the bottom. “Cheap,” by itself. When lower prices result from business structure, cost advantag",
+  "why": "Jason Cohen (asmartbear) on why competing on price is a race to the bottom unless backed by structural advantages."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
+  "score": 8,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The pain in you and the god in you – Carl Jung on the relationship between psychological suffering and creativity themarginalian.org/2026/07",
-  "why": "Deep contemplative dive into Jungian psychology and the roots of creativity."
+  "text": "\"The truth is, most of us discover where we are headed when we arrive.\" On Calvin and Hobbes creator Bill Watterson's birthday, his magnific",
+  "why": "Bill Watterson's timeless Kenyon speech on creativity, intentional living, and the meaning of life."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "America has 18 years left to go before we've outlasted the Qing Dynasty, 26 years before we've outlasted the Ming Dynasty, and 39 years befo",
-  "why": "Interesting historical framing of American longevity, but mostly trivia rather than deep progress analysis."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "alex_chehimi",
+  "via": "tobi",
+  "text": "Just shipped 🚀: catalog-kit | catalogkit.dev After building a few demos on @Shopify 's Global Catalog, I wanted to make it easier to build m",
+  "why": "Practical applied AI engineering: an open-source, agent-ready starter kit for Shopify catalogs."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "America has been utterly exceptional for 250 years. It was the country that shepherded humanity in its climb up from near-animal poverty to ",
-  "why": "Broad historical essay on American exceptionalism; decent but lacks specific actionable insight."
+  "text": "The power of surrender and the paradox of self-transcendence – wisdom from the Moomins: themarginalian.org/2015/01/22/tov… Posted Jul 5, 202",
+  "why": "The Marginalian on the paradox of self-transcendence and surrender, fitting your interest in intentional living."
  },
  {
   "rank": 8,
   "kept": false,
-  "score": 4,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"She died    a famous woman    denying her wounds denying her wounds    came    from the same source as her power\" Remembering Marie Curie, ",
-  "why": "Beautiful tribute, but lacks the density of insight or long-form analysis you prefer."
+  "text": "I keep returning to this: The most important thing to remember about your mother themarginalian.org/2023/01/10/flo… Posted Jul 5, 2026 at 4:",
+  "why": "A sweet Marginalian piece on mothers, but perhaps a bit too generic for today's top reading."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 4,
+  "kept": true,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "rakeshkonfucius",
+  "author": "mileskimball",
   "via": "Noahpinion",
-  "text": "Happy 250th America, the most risk loving,  inventive, inspirational country on earth. Here  to the next 250 years🥂 Posted Jul 5, 2026 at 2:",
-  "why": "Patriotic cheerleading; the underlying post is interesting but mostly historical trivia."
+  "text": "I couldn't pass the 250th by. Here is my post: \"The Quarter-Millenial of the United States of America\" blog.supplysideliberal.com/post/2026/",
+  "why": "A post on America's 250th, but lacks the deep personal or analytical hook of top-tier essays."
  },
  {
   "rank": 10,
   "kept": false,
   "score": 4,
-  "topic": "parenting-education",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "It’s a great country and one of the civic purposes of our schools should be to teach young people to appreciate it and not adopt this mindse",
-  "why": "Education policy opinion piece, but leans a bit close to culture-war debates."
+  "topic": "rationality",
+  "author": "tobi",
+  "via": null,
+  "text": "Really interesting read academic.oup.com/evolut/advance… Posted Jul 5, 2026 at 2:30PM",
+  "why": "A bare link to an evolution paper with no context or synthesis provided."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "My favorite podcast (BBC's In Our Time – look for it wherever you listen) just did a fascinating episode on seashells, which reminded me of ",
-  "why": "A nice contemplative pointer, but lacks the deep original synthesis you prioritize."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "BoringBiz_",
+  "via": "Noahpinion",
+  "text": "Just 250 years ago, America didn’t exist. Let that sink in. Within three generations of people, this country has accomplished the impossible",
+  "why": "Engagement-bait listicle style ('Let that sink in') summarizing American achievements."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "TheAnnaGat",
-  "via": "Noahpinion",
-  "text": "Incredibly good piece Posted Jul 4, 2026 at 9:32PM",
-  "why": "Thin commentary on a historical essay; the underlying piece is okay but not top-tier signal."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 3,
-  "topic": "agency",
-  "author": "ProfKuang",
-  "via": "Noahpinion",
-  "text": "My first Independence Day as a US citizen. I came here 2005 an awkward non-English speaking teenager. I naturalized exactly 20 years later. ",
-  "why": "Heartwarming personal milestone, but lacks the analytical depth you look for."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 3,
-  "topic": "agency",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "Happy Birthday, America. The most important event in my life was coming to the US, age 3, dragged along by a mom getting her PhD and a dad s",
-  "why": "Patriotic reflection and personal story; low on actionable or analytical signal."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "petergostev",
-  "via": "karpathy",
-  "text": "I spent a LOT of time through the hardest 3D prompts at Fable, it is a 45 min video, but I have 60+ very cool demos for you. Also prompts in",
-  "why": "Video-only content; despite the effort, it lacks the readable long-form substance you prefer."
- },
- {
-  "rank": 16,
-  "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
+  "topic": "contemplative",
+  "author": "awilkinson",
   "via": null,
-  "text": "wow youtube.com/watch?v=GxZuq5… Posted Jul 5, 2026 at 3:04AM",
-  "why": "Video-only content with no substantive framing or context."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "KTmBoyle",
-  "via": "Noahpinion",
-  "text": "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with anoth",
-  "why": "Literal copy-paste of the Declaration of Independence; no original analysis."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "bryan_johnson",
-  "via": "Noahpinion",
-  "text": "I love America 🇺🇸 She is a magnificent aberration among the history of nations. A living defiance of the naysayers who said it couldn't be d",
-  "why": "High-level patriotic fluff mixed with vague AI hype; no substantive analysis."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "LoganDobson",
-  "via": "Noahpinion",
-  "text": "In honor of America 250 — quotes about America… from non-Americans 🧵 Posted Jul 4, 2026 at 9:49PM",
-  "why": "Thread of quotes; lacks original insight or analytical depth."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "donaldknewell",
-  "via": "GaryMarcus",
-  "text": "LLMs training is opaque to end users and responses can be personalized for industry, locality, individual. The Trump regime openly controls ",
-  "why": "Speculative political fear-mongering rather than rigorous AI policy analysis."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "jgebbia",
-  "via": "jasoncrawford",
-  "text": "Dear Founders, Happy 250th birthday to your great masterpiece, the United States of America. Thanks to your courage and ingenuity, you creat",
-  "why": "Patriotic letter to the Founding Fathers; lacks analytical substance."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "Let's commit to doing it again for the next 250. Posted Jul 4, 2026 at 9:05PM",
-  "why": "Zero-substance quote tweet of a historical essay."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "simeonGriggs",
-  "via": "swyx",
-  "text": "So, on fits... For AIEngineer, we had some outfits made, but had to pivot at the last minute. We were going for streetwear style. I got the ",
-  "why": "Fun personal anecdote about conference swag, but lacks substantive signal."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "erikbryn",
-  "via": null,
-  "text": "youtube.com/watch?v=uGO-Sl… Posted Jul 5, 2026 at 2:23AM",
-  "why": "Bare YouTube link with zero context or framing."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "vonderleyen",
-  "via": "Noahpinion",
-  "text": "Today, we join our American friends in celebrating 250 years of independence. The Declaration of Independence gave birth to a new nation fou",
-  "why": "Standard political PR message for July 4th; zero analytical signal."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "alexstubb",
-  "via": "Noahpinion",
-  "text": "I wish to extend our warm congratulations to the people of the United States on the 250th anniversary of the Declaration of Independence. As",
-  "why": "Standard political PR message; no signal."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "ZelenskyyUa",
-  "via": "Noahpinion",
-  "text": "Today marks the 250th anniversary of one of humanity's brightest, strongest, and most influential dreams – the American Dream of an independ",
-  "why": "Standard political PR message; no signal."
+  "text": "My friend Ben Wilson got diagnosed with Stage 4 cancer  and has 4 young children. He's fighting hard, and has an amazing attitude, but if an",
+  "why": "Personal fundraising for a friend's medical treatment; important but outside your curation focus."
  }
 ]
