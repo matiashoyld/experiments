@@ -3,120 +3,230 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "mackenzieprice",
-  "via": "C_Hendrick",
-  "text": "\"The case for TimeBack (the AI-powered EducationOS behind Alpha), was never that screens are good; it was that the cognitive work must remai",
-  "why": "Fascinating look at AI in education (Alpha School) used to compress screen time and maximize human interaction."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Is This Blue – an uncommonly revelatory meditation on love and how we know the world is true by the great Chilean philosophers Humberto Matu",
+  "why": "Hits the sweet spot of philosophy, consciousness, and Chilean thinkers via excellent curation."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "agency",
-  "author": "swyx",
-  "via": null,
-  "text": "Every time I have given up on America, it has been a mistake. And yet, America has never, ever given up on me. full blog at https://swyx.io/",
-  "why": "Swyx (a favorite writer) reflects on his journey, tech, and agency in a long-form essay for America's 250th."
+  "topic": "econ-progress",
+  "author": "AmeshAA",
+  "via": "jasoncrawford",
+  "text": "Civilizations do not lose their achievements all at once. They abandon them one decision at a time. There is a distinction worth making righ",
+  "why": "Masterful, sobering essay on the maintenance of civilizational progress and public health."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "teachthemx3",
-  "via": "C_Hendrick",
-  "text": "\"The scarce resource in education is not time, it’s attention. So much of a school day is lost to friction: the settling and re-settling, th",
-  "why": "Great insight on attention as the scarce resource in education, framing the case for AI-assisted schooling."
+  "topic": "ai-essays",
+  "author": "jxnlco",
+  "via": null,
+  "text": "I wrote the same damn thing 5 times. Made a video. I think a few more times and I’ll have stop thinking about taste. I still need to write d",
+  "why": "Excellent reflection on how AI shifts the bottleneck of creation from ability to taste and curation."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "frontier-ai",
+  "author": "emollick",
   "via": null,
-  "text": "Being cheap isn't a strategy. It's a race to the bottom. “Cheap,” by itself. When lower prices result from business structure, cost advantag",
-  "why": "Jason Cohen (asmartbear) on why competing on price is a race to the bottom unless backed by structural advantages."
+  "text": "When people discuss China vs. US competition over AI it would help if they specified the grounds of competition because there are divergent ",
+  "why": "Mollick provides a highly structured, substantive breakdown of the dimensions of AI geopolitics."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "builders-craft",
+  "author": "natolambert",
   "via": null,
-  "text": "\"The truth is, most of us discover where we are headed when we arrive.\" On Calvin and Hobbes creator Bill Watterson's birthday, his magnific",
-  "why": "Bill Watterson's timeless Kenyon speech on creativity, intentional living, and the meaning of life."
+  "text": "🫡🇺🇸 very happy you came back swyx Posted Jul 5, 2026 at 9:04PM",
+  "why": "Deeply personal and reflective essay on progress and agency from a favored builder (swyx)."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "alex_chehimi",
-  "via": "tobi",
-  "text": "Just shipped 🚀: catalog-kit | catalogkit.dev After building a few demos on @Shopify 's Global Catalog, I wanted to make it easier to build m",
-  "why": "Practical applied AI engineering: an open-source, agent-ready starter kit for Shopify catalogs."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "ajeya_cotra",
+  "text": "One of the consensus policies for improving AI safety is  adverse incident reporting - a tool that governments have successfully relied upon",
+  "why": "High-signal, substantive breakdown of AI safety policy and incident reporting nuances."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 6,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The power of surrender and the paradox of self-transcendence – wisdom from the Moomins: themarginalian.org/2015/01/22/tov… Posted Jul 5, 202",
-  "why": "The Marginalian on the paradox of self-transcendence and surrender, fitting your interest in intentional living."
+  "text": "Elizabeth Bishop on why everyone should experience at least one long period of solitude in life themarginalian.org/2016/02/08/eli… Posted Ju",
+  "why": "Beautiful contemplative piece on solitude and intentional living from a trusted curator."
  },
  {
   "rank": 8,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "I keep returning to this: The most important thing to remember about your mother themarginalian.org/2023/01/10/flo… Posted Jul 5, 2026 at 4:",
-  "why": "A sweet Marginalian piece on mothers, but perhaps a bit too generic for today's top reading."
+  "kept": true,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "srai009",
+  "via": "Vtrivedy10",
+  "text": "Replying to @mishig25 @mishig25 Everyone is converging towards that x.com/Vtrivedy10/sta… Posted Jul 5, 2026 at 10:52PM",
+  "why": "Good synthesis of where elite AI engineering teams are focusing (routing, evals, trace data)."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "mileskimball",
-  "via": "Noahpinion",
-  "text": "I couldn't pass the 250th by. Here is my post: \"The Quarter-Millenial of the United States of America\" blog.supplysideliberal.com/post/2026/",
-  "why": "A post on America's 250th, but lacks the deep personal or analytical hook of top-tier essays."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "vaibcode",
+  "via": null,
+  "text": "I spoke about this at @aiDotEngineer The only things that belong in .md files are invariants that won’t change for months. Posted Jul 5, 202",
+  "why": "Sharp, opinionated take on AI engineering practices and managing LLM context files."
  },
  {
   "rank": 10,
   "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "tobi",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Really interesting read academic.oup.com/evolut/advance… Posted Jul 5, 2026 at 2:30PM",
-  "why": "A bare link to an evolution paper with no context or synthesis provided."
+  "text": "Let this poem teach you how to live and how to die themarginalian.org/2020/02/03/emi… Posted Jul 5, 2026 at 7:56PM",
+  "why": "Beautiful contemplative curation on mortality and intentional living."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "BoringBiz_",
-  "via": "Noahpinion",
-  "text": "Just 250 years ago, America didn’t exist. Let that sink in. Within three generations of people, this country has accomplished the impossible",
-  "why": "Engagement-bait listicle style ('Let that sink in') summarizing American achievements."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to live fully while dying – the extraordinary diary of Alice James, William and Henry James's equally brilliant yet history-washed siste",
+  "why": "Strong contemplative piece on intentional living and mortality."
  },
  {
   "rank": 12,
+  "kept": true,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "fortelabs",
+  "via": null,
+  "text": "It’s no longer possible to live a decent, even middle class life in the US without being neurodivergent You’ve either gotta be an autist wit",
+  "why": "Provocative take on AI's impact on the labor market and the rising premium on outlier traits."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The human age as we knew it is ending. The United States of America was the essential nation of that age. It is thus not only the greatest c",
+  "why": "Grand historical narrative on the American age, but leans a bit toward punditry over deep progress analysis."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "America is still ok, but we can see big trouble brewing. Posted Jul 5, 2026 at 10:23PM",
+  "why": "Repetitive share of a macro-history piece that lacks deep progress or economic analysis."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "“This is what it looks like when a civilization decides that an achievement is not worth maintaining” @AmeshAA Posted Jul 5, 2026 at 8:45PM",
+  "why": "Duplicate quote-tweet of the substantive thread below."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "very cool!  Biology is of the most exciting frontiers for applying model intelligence to humanity’s most important problems im stoked that O",
+  "why": "Product announcement without methodological rigor or deep technical insight."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "“What has really happened is VC built the wrong AI, you’ll pay a high price for this error with your pension, and nobody will go to jail.” P",
+  "why": "Pure AI skepticism and dunking without substantive original analysis or real numbers."
+ },
+ {
+  "rank": 18,
   "kept": false,
   "score": 2,
-  "topic": "contemplative",
-  "author": "awilkinson",
+  "topic": "frontier-ai",
+  "author": "gdb",
+  "via": "HamelHusain",
+  "text": "GPT-5.6 Sol preview — it's a good model: Posted Jun 26, 2026 at 5:13PM",
+  "why": "Pure model announcement with no technical depth or evaluation substance."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "andrew__rea",
+  "via": "anuatluru",
+  "text": "Today we announce raising our Series A and $25M in total funding to do more of the work for the hundreds of companies that trust us with the",
+  "why": "Standard Series A funding announcement; lacks deep builder insights."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 2,
+  "topic": "agency",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "My friend Ben Wilson got diagnosed with Stage 4 cancer  and has 4 young children. He's fighting hard, and has an amazing attitude, but if an",
-  "why": "Personal fundraising for a friend's medical treatment; important but outside your curation focus."
+  "text": "one of the highest leverage career things someone can do today is to post high quality, technical content online writing blogs, tweets, doin",
+  "why": "Audience-growth and personal SEO advice falls directly into the creator-economy anti-taste."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "jxnlco",
+  "via": null,
+  "text": "I just call them cigarettes. Posted Jul 6, 2026 at 2:00AM",
+  "why": "Niche app announcement unrelated to core interests in AI, progress, or craft."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 1,
+  "topic": "tools-for-thought",
+  "author": "ChrisCillizza",
+  "via": "DKThomp",
+  "text": "Every Sunday I share my favorite things from past week with my subscribers. My #1 this week? This awesome @DKThomp podcast: open.spotify.com",
+  "why": "Pure engagement bait and newsletter promotion."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "nytimes",
+  "via": "DKThomp",
+  "text": "Breaking News: President Trump called the head of FIFA days before the suspension of Folarin Balogun, the U.S.’s top goal scorer in the Worl",
+  "why": "Pure political/sports news; irrelevant to core interests."
  }
 ]
