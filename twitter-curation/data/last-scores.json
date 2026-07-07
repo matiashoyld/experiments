@@ -3,290 +3,120 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "hankgreen",
+  "topic": "ai-engineering",
+  "author": "gabrielchua",
   "via": "jxnlco",
-  "text": "Unfortunately you need to know what the Jevons paradox is. You can watch my video about this here ...or you can read this essay I've adapted",
-  "why": "Brilliant application of the Jevons paradox to AI, framing intelligence as a base substrate that will explode demand."
+  "text": "Codex can work for long stretches, especially when a /goal gives it a persistent objective. The harder part is staying oriented while it wor",
+  "why": "Exceptional, practical builder wisdom on orchestrating LLM agents for long-horizon coding tasks."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "ClaudeDevs",
-  "via": "bcherny",
-  "text": "There’s a lot of talk right now about \"designing loops\" instead of prompting your coding agent. If you spend some time on X trying to pin do",
-  "why": "Exceptional, rigorous breakdown of how to design and manage different types of agentic loops for coding tasks."
+  "topic": "parenting-education",
+  "author": "tetheredtoed1",
+  "via": "C_Hendrick",
+  "text": "“The end result is the student arrives at the conclusion that rushing through assignments, hoping to get a 70, is not good practice.” Boy do",
+  "why": "Perfect intersection of AI and learning science; a practitioner's detailed breakdown of adaptive learning vs chatbots."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Yes. But AI can accelerate this enormously. Posted Jul 7, 2026 at 2:38AM",
-  "why": "Staggering numbers on the human capital deficit in US rare earth mining and the reality of rebuilding supply chains."
+  "text": "Continual Learning, Harness Engineering, Post-Training all boil down to the same substrate: curating data at scale to run experiments & impr",
+  "why": "Deep dive into agent evals and traces; hits the evals-as-discipline intersection perfectly."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is the single best explainer on Britain's problems that I've ever read. I'm starting to get a handle on what's going wrong over there. ",
-  "why": "Highly recommended deep-dive into the structural and economic roots of Britain's stagnation."
+  "topic": "parenting-education",
+  "author": "NashvEdReform",
+  "via": "C_Hendrick",
+  "text": "\"The problem is not simply individual distraction. It is the erosion of the classroom conditions that make learning possible, even for stude",
+  "why": "Strong, systemic argument on how phones erode the foundational classroom conditions necessary for learning."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
+  "topic": "frontier-ai",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "> - models aren't trying to secretly blackmail you (not least b/c you don't have anything interesting enough going on) blackpills are all ar",
-  "why": "A highly calibrated, substantive anti-hype checklist from an AI insider that grounds expectations."
+  "text": "I wonder how this could be used to study creative thinking and the generation of new ideas. If I understand correctly, the J-space is some s",
+  "why": "Fascinating intersection of frontier AI interpretability and cognitive philosophy/creative thinking."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "erikphoel",
+  "topic": "econ-progress",
+  "author": "DKThomp",
   "via": null,
-  "text": "There are a number of previous measures of global workspace in the literature. Why not use those? Because they obviously fail to apply to LL",
-  "why": "Sharp methodological critique of AI labs inventing new metrics to claim anthropomorphic properties like consciousness."
+  "text": "I don't know anything about soccer, so apologies for the ball-knowers if this is wrong, but I thought it was fascinating. TLDR: Until recent",
+  "why": "Brilliant systems-level observation on how globalization and wealth concentration flatten stylistic diversity."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "vaibcode",
-  "via": null,
-  "text": "instead of stderror and stdout, we need stdhuman and stdagent then every tool could give us something like this by default! @mattpocockuk id",
-  "why": "Highly practical applied AI engineering pattern for improving agent debugging workflows."
+  "topic": "frontier-ai",
+  "author": "ttunguz",
+  "via": "Noahpinion",
+  "text": "The Economist ran 25 frontier AI models through the World Values Survey — the questionnaire that has mapped the moral beliefs of 100 countri",
+  "why": "Fascinating empirical evaluation of frontier AI models' embedded moral beliefs and cultural alignment."
  },
  {
   "rank": 8,
-  "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "_sholtodouglas",
-  "via": "sleepinyourhat",
-  "text": "A good time to reflect on gwern.net/scaling-hypoth… . It took two more years for people to begin waking up. Posted Jul 6, 2026 at 8:51PM",
-  "why": "A timely reminder of Gwern's foundational essay on the scaling hypothesis, a must-read for AI history and trajectory."
+  "kept": false,
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "Fascinating post from Daisy. Also nice reminder here why 'let the model intuit the rules' is a terrible template for how a novice should lea",
+  "why": "Great analogy applying sports officiating processes to cognitive science and novice learning."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "builders-craft",
-  "author": "crtr0",
-  "via": "swyx",
-  "text": "Back in 2011, I was lucky enough to go to a conference changed my idea of what a technical conference could be. Not a lifeless expo hall wit",
-  "why": "A beautiful reflection on developer communities, craft, and how the AI Engineer World's Fair captures the magic of early JSConf."
+  "author": "asmartbear",
+  "via": null,
+  "text": "You typically start with just one marketing channel that’s actually working. (It’s hard enough to get just one to work!) But you have to mov",
+  "why": "Classic Jason Cohen builder wisdom on the brittleness of relying on a single marketing channel."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "nicbstme",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "An interesting challenge at the frontier is to systematically digitizing all biology. Not just DNA, but proteins, enzymes, metabolites, RNA,",
-  "why": "Fascinating argument that AGI's impact on science will be bottlenecked by biological data collection, not compute."
+  "text": "Europeans please wake up. Posted Jul 7, 2026 at 12:02PM",
+  "why": "High-signal geopolitical update on frontier AI export controls and open-weight restrictions in China."
  },
  {
   "rank": 11,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "DKokotajlo",
-  "via": null,
-  "text": "anthropic.com/research/globa… very cool to see! Maybe a few dozen more advances of this magnitude and loss of control won't be my #1 most pr",
-  "why": "Alignment researcher's take on Anthropic's new interpretability paper and its impact on AI risk."
+  "topic": "econ-progress",
+  "author": "ramez",
+  "via": "Noahpinion",
+  "text": "100%. Permitting inhibits clean energy more than it does fossil fuels. Comprehensive permitting reform (local, state, Federal) is the number",
+  "why": "Concise, high-signal argument on how permitting reform is the highest-leverage clean energy policy."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "The souls of animals – superb read that gets to the core of what we mean by \"soul\" (and what we mean by \"animal\") themarginalian.org/2025/02",
-  "why": "Deep philosophical exploration of consciousness and what it means to have a soul, via The Marginalian."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "hnshah",
-  "via": "HamelHusain",
-  "text": "Building Typeahead from -1 to revenue changed my definition of an AI-native company. Today we’re releasing Typeahead 2.0 on Product Hunt. It",
-  "why": "Strong builder-operator reflections on how local AI fundamentally tightens the product iteration loop."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "rgblong",
-  "via": "krishnanrohit",
-  "text": "quick thread about something I find irksome about how Anthropic comms (not the authors!) has framed the \"limitations\" of the global workspac",
-  "why": "Substantive critique of how AI labs' PR distorts interpretability research into claims about consciousness."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The great Zen teacher and peace activist Thich Nhat Hanh on the art of deep listening and the 3 Buddhist steps of repairing any relationship",
-  "why": "Timeless contemplative wisdom on deep listening and relationship repair from Thich Nhat Hanh."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "dylan522p",
-  "via": null,
-  "text": "Creative structures are needed to get GPUs in the hands of startups + other companies that aren't Meta, OpenAI, Anthropic, SpaceXAI, Microso",
-  "why": "Highlights the staggering $7T debt financing reality underlying the AI infrastructure and compute buildout."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 7,
-  "topic": "agency",
-  "author": "anuatluru",
-  "via": null,
-  "text": "Be honest about your particular set of interests + skills and clever people will figure out how to leverage them instead of just trying to f",
-  "why": "Strong agency advice on leaning into your unique skills as traditional career roles become obsolete."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "joshzoff",
-  "via": "Noahpinion",
-  "text": "Fun to see this in print today after lots of engagement on here. Thanks to the @FT team @Jderbyshire . The key point: it’s easier to build w",
-  "why": "Interesting economic angle on how data center demand is quietly driving an American industrial renaissance."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "CesarChavezP29",
-  "via": "Noahpinion",
-  "text": "Macro is quietly reorganizing around a few sufficient statistics: iMPCs, impulse responses, covariances, in place of a full structural model",
-  "why": "Deep dive into how macroeconomic methodology is shifting away from full structural models."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "⚠️ Wow. The Treasury Department reportedly knows that the massive GenAI build out poses systemic risks to the US financial system – and does",
-  "why": "Interesting macro-economic warning about the systemic financial risks of the massive AI infrastructure buildout."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "This is really cool work. The finding that LLMs have internal representations doesn't by itself seem new, though I think J-space will enable",
-  "why": "Good perspective on how Anthropic's interpretability research might practically improve agent reliability."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "The AI boom is just not sustainable; Apollo’s Torsten Slok joins the chorus. Posted Jul 7, 2026 at 12:50AM",
-  "why": "Standard macro skepticism of the AI boom; lacks the technical depth or original analysis you prefer."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The color of wonder and the chemical code of creation – how nature makes blue, the rarest and loveliest of colors themarginalian.org/2026/02",
-  "why": "Beautiful science writing, but lacks the density of insight needed to beat out today's top pieces."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A parliament of owls and a murder of crows – how a medieval woman gave bird groupings their names and a mid-century artist breathed new life",
-  "why": "Beautiful trivia, but lacks the philosophical depth or density of insight you usually save."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "sapinker",
-  "via": "Noahpinion",
-  "text": "The data are in: Populism makes countries worse off. \"... a country being ruled by a populist is associated with a 10% lower GDP after 15 ye",
-  "why": "Data-driven, but leans too close to standard political commentary rather than your core interests."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Please please don’t let the Chinese steal from us ,but can we please have a huge copyright exemption? 🙏 Posted Jul 7, 2026 at 3:21AM",
-  "why": "Snarky commentary on Anthropic's copyright lobbying; lacks the substantive depth you prefer."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "treeaston",
-  "via": "Noahpinion",
-  "text": "The left is very desperate to demonstrate that you need not do any ideological calibration (especially on social issues) in order to do well",
-  "why": "Pure political commentary and election strategy, which falls into your anti-taste."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Factional, power-seeking, ideologically plastic leftists are nothing new. The Bolsheviks were like this, as were the Communists who took ove",
-  "why": "Pure political commentary, which falls squarely into your anti-taste."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "matthewstoller",
-  "via": "GaryMarcus",
-  "text": "Trump blockading Cuba into catastrophe should be a much bigger story than it is. Posted Jul 6, 2026 at 7:14PM",
-  "why": "Pure political commentary, avoiding."
+  "text": "\"The Alpha maths app is built on Engelmann, not a chatbot. If your mental image of an Alpha maths lesson is a child chatting to an AI tutor,",
+  "why": "Great clarification on AI in education: relying on direct instruction principles rather than LLM chatbots."
  }
 ]
