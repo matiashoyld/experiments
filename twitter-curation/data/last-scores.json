@@ -3,270 +3,290 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "agency",
-  "author": "Felipe_Millon",
+  "topic": "econ-progress",
+  "author": "hankgreen",
   "via": "jxnlco",
-  "text": "Spent part of the holiday weekend talking with friends and family outside the AI bubble. A lot of the fear around AI comes down to agency. I",
-  "why": "Profound, deeply personal essay on AI and human agency. Hits the exact intersection of AI impact and intentional living."
+  "text": "Unfortunately you need to know what the Jevons paradox is. You can watch my video about this here ...or you can read this essay I've adapted",
+  "why": "Brilliant application of the Jevons paradox to AI, framing intelligence as a base substrate that will explode demand."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "LegitSeanSmith",
-  "via": "swyx",
-  "text": "We took a bet early on to give the LLM the power to run arbitrary  code. This post is about why we made that bet, and what it takes to run  ",
-  "why": "Superb technical deep-dive on LLM sandboxing, infrastructure choices, and moving from gVisor to Firecracker."
+  "author": "ClaudeDevs",
+  "via": "bcherny",
+  "text": "There’s a lot of talk right now about \"designing loops\" instead of prompting your coding agent. If you spend some time on X trying to pin do",
+  "why": "Exceptional, rigorous breakdown of how to design and manage different types of agentic loops for coding tasks."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "aakashgupta",
-  "via": "erikbryn",
-  "text": "Taiwan solved tax evasion in 1951 with a trick so cheap it should embarrass every tax authority on the planet. The problem was an all-cash e",
-  "why": "Fascinating historical case study on incentive design and economics: how Taiwan solved tax evasion."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes. But AI can accelerate this enormously. Posted Jul 7, 2026 at 2:38AM",
+  "why": "Staggering numbers on the human capital deficit in US rare earth mining and the reality of rebuilding supply chains."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "packyM",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Aaaaaaaaaaaaalo under the wire! 🇺🇸⚛️ Posted Jul 6, 2026 at 1:32PM",
-  "why": "Incredible hard-tech milestone: a detailed breakdown of achieving nuclear reactor criticality."
+  "text": "This is the single best explainer on Britain's problems that I've ever read. I'm starting to get a handle on what's going wrong over there. ",
+  "why": "Highly recommended deep-dive into the structural and economic roots of Britain's stagnation."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "DKThomp",
+  "topic": "ai-essays",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Two things about ultra-processed food 1) It's not a scientific category. UPF refer to category 4 foods, under the NOVA classification system",
-  "why": "Excellent, clear-eyed rationality breaking down the science and incentives behind ultra-processed food panic."
+  "text": "> - models aren't trying to secretly blackmail you (not least b/c you don't have anything interesting enough going on) blackpills are all ar",
+  "why": "A highly calibrated, substantive anti-hype checklist from an AI insider that grounds expectations."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "danshipper",
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "erikphoel",
   "via": null,
-  "text": "interestingly, this holds true for how you use models too should you use fable to take a big expensive swing? or play small ball to grind yo",
-  "why": "Great builder wisdom on tackling the hardest part of a project first, framed well for AI engineering."
+  "text": "There are a number of previous measures of global workspace in the literature. Why not use those? Because they obviously fail to apply to LL",
+  "why": "Sharp methodological critique of AI labs inventing new metrics to claim anthropomorphic properties like consciousness."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "levidiamode",
-  "via": "swyx",
-  "text": "183/365 of GPU Programming This 4.5 hour lesson on CUDA + ThunderKittens by @bfspector (TK co-author, Stanford PhD student) is one of the be",
-  "why": "High-signal curation of a deep technical resource for GPU programming and AI engineering."
+  "author": "vaibcode",
+  "via": null,
+  "text": "instead of stderror and stdout, we need stdhuman and stdagent then every tool could give us something like this by default! @mattpocockuk id",
+  "why": "Highly practical applied AI engineering pattern for improving agent debugging workflows."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "visakanv",
-  "via": null,
-  "text": "whatever setback you have embrace it and roll with it there are masters everywhere to learn from Your browser does not support the video tag",
-  "why": "Beautiful, contemplative anecdote about resilience, agency, and human nature in the face of adversity."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "_sholtodouglas",
+  "via": "sleepinyourhat",
+  "text": "A good time to reflect on gwern.net/scaling-hypoth… . It took two more years for people to begin waking up. Posted Jul 6, 2026 at 8:51PM",
+  "why": "A timely reminder of Gwern's foundational essay on the scaling hypothesis, a must-read for AI history and trajectory."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "ednewtonrex",
-  "via": "GaryMarcus",
-  "text": "Hugging Face has just been sued for alleged copyright infringement for hosting & distributing copyrighted images, used for AI training. It's",
-  "why": "Important AI news regarding copyright and frontier labs, but lacks deep structural insight."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "crtr0",
+  "via": "swyx",
+  "text": "Back in 2011, I was lucky enough to go to a conference changed my idea of what a technical conference could be. Not a lifeless expo hall wit",
+  "why": "A beautiful reflection on developer communities, craft, and how the AI Engineer World's Fair captures the magic of early JSConf."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "bscholl",
-  "via": "jasoncrawford",
-  "text": "It takes 400 companies >2 years to build a Patriot missile. Perhaps this is why USA suddenly gave up in Iran. Incompetent manufacturing will",
-  "why": "Interesting premise on manufacturing and defense tech, but mostly just a hook for a thread."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "nicbstme",
+  "via": null,
+  "text": "An interesting challenge at the frontier is to systematically digitizing all biology. Not just DNA, but proteins, enzymes, metabolites, RNA,",
+  "why": "Fascinating argument that AGI's impact on science will be bottlenecked by biological data collection, not compute."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "DKokotajlo",
   "via": null,
-  "text": "Chinamaxxers think China's economy didn't experience a recession after its property bubble burst. Well, it did. And it's experiencing a grad",
-  "why": "Standard macroeconomics blog post with a slightly combative framing."
+  "text": "anthropic.com/research/globa… very cool to see! Maybe a few dozen more advances of this magnitude and loss of control won't be my #1 most pr",
+  "why": "Alignment researcher's take on Anthropic's new interpretability paper and its impact on AI risk."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "jmhorp",
-  "via": "Noahpinion",
-  "text": "During the Gilded Age, real wages in manufacturing and textiles increased faster than GDP per capita (and \"unskilled\" labor increased at abo",
-  "why": "Decent economic history point, but buried in a Twitter argument about GDP."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The souls of animals – superb read that gets to the core of what we mean by \"soul\" (and what we mean by \"animal\") themarginalian.org/2025/02",
+  "why": "Deep philosophical exploration of consciousness and what it means to have a soul, via The Marginalian."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "Fungi in the forests of Yunnan: 5 Questions for filmmaker April Fan themicrodose.substack.com/p/magic-fungi-… Posted Jul 6, 2026 at 3:14PM",
-  "why": "Niche contemplative topic, but just a bare link drop with no real insight in the tweet itself."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "hnshah",
+  "via": "HamelHusain",
+  "text": "Building Typeahead from -1 to revenue changed my definition of an AI-native company. Today we’re releasing Typeahead 2.0 on Product Hunt. It",
+  "why": "Strong builder-operator reflections on how local AI fundamentally tightens the product iteration loop."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "bscholl",
-  "via": "jasoncrawford",
-  "text": "People are dying in Kyiv because it takes Lockheed more two years to make a Patriot missile. Missile parts are made in hundreds of baby fact",
-  "why": "Repetitive thread hook that leans heavily into political and war commentary."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "rgblong",
+  "via": "krishnanrohit",
+  "text": "quick thread about something I find irksome about how Anthropic comms (not the authors!) has framed the \"limitations\" of the global workspac",
+  "why": "Substantive critique of how AI labs' PR distorts interpretability research into claims about consciousness."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Some people think China avoided an economic crash after its property bubble burst. But it did not. noahpinion.blog/p/no-china-did… Posted Ju",
-  "why": "Duplicate link to the same macroeconomics blog post with less context."
+  "text": "The great Zen teacher and peace activist Thich Nhat Hanh on the art of deep listening and the 3 Buddhist steps of repairing any relationship",
+  "why": "Timeless contemplative wisdom on deep listening and relationship repair from Thich Nhat Hanh."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "mit_obe",
-  "via": "Noahpinion",
-  "text": "Shifting fortunes in East Asia: Taiwan's rising wealth contrasts with China's weak private economy. One sign? Taiwanese now account for near",
-  "why": "Standard economic news link without much original analysis."
+  "author": "dylan522p",
+  "via": null,
+  "text": "Creative structures are needed to get GPUs in the hands of startups + other companies that aren't Meta, OpenAI, Anthropic, SpaceXAI, Microso",
+  "why": "Highlights the staggering $7T debt financing reality underlying the AI infrastructure and compute buildout."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "curiouswavefn",
-  "via": "Noahpinion",
-  "text": "It’s perfectly fine to criticize your country because you want it to be better, but if that’s the only thing you’re doing it’s a problem. Am",
-  "why": "Culture-war adjacent commentary on patriotism and fatalism."
+  "score": 7,
+  "topic": "agency",
+  "author": "anuatluru",
+  "via": null,
+  "text": "Be honest about your particular set of interests + skills and clever people will figure out how to leverage them instead of just trying to f",
+  "why": "Strong agency advice on leaning into your unique skills as traditional career roles become obsolete."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "DTWillingham",
-  "via": null,
-  "text": "Mark Seidenberg and I, talking reading comprehension. youtube.com/watch?v=avn6Vz… Posted Jul 6, 2026 at 1:34PM",
-  "why": "Video-only content with no text summary or insight provided in the tweet."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "joshzoff",
+  "via": "Noahpinion",
+  "text": "Fun to see this in print today after lots of engagement on here. Thanks to the @FT team @Jderbyshire . The key point: it’s easier to build w",
+  "why": "Interesting economic angle on how data center demand is quietly driving an American industrial renaissance."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "If you are spinning with the not-knowingness of life, this #birddivination is for you. Find the original deck of 100, along with the story a",
-  "why": "Low density product link for a niche contemplative topic."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "CesarChavezP29",
+  "via": "Noahpinion",
+  "text": "Macro is quietly reorganizing around a few sufficient statistics: iMPCs, impulse responses, covariances, in place of a full structural model",
+  "why": "Deep dive into how macroeconomic methodology is shifting away from full structural models."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "ProfEmilyOster",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "ParentData's got something new: a Toolkit. Check it out. Make your parenting easier. parentdata.org/toolkit/ Posted Jul 6, 2026 at 2:01PM",
-  "why": "Pure announcement and marketing for a parenting toolkit."
+  "text": "⚠️ Wow. The Treasury Department reportedly knows that the massive GenAI build out poses systemic risks to the US financial system – and does",
+  "why": "Interesting macro-economic warning about the systemic financial risks of the massive AI infrastructure buildout."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
+  "score": 6,
   "topic": "frontier-ai",
-  "author": "c_valenzuelab",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Le Runway Posted Jul 6, 2026 at 12:52PM",
-  "why": "Pure announcement post about opening a new office."
+  "text": "This is really cool work. The finding that LLMs have internal representations doesn't by itself seem new, though I think J-space will enable",
+  "why": "Good perspective on how Anthropic's interpretability research might practically improve agent reliability."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "ModeledBehavior",
-  "via": "Noahpinion",
-  "text": "Signs of EV improvement wsj.com/business/autos… Posted Jul 5, 2026 at 3:09PM",
-  "why": "Bare link with no context or insight."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "The AI boom is just not sustainable; Apollo’s Torsten Slok joins the chorus. Posted Jul 7, 2026 at 12:50AM",
+  "why": "Standard macro skepticism of the AI boom; lacks the technical depth or original analysis you prefer."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "This should be uncontroversial. The idea that Americans should turn their children over to a basic government service that estranges their c",
-  "why": "Culture-war and political commentary on education."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The color of wonder and the chemical code of creation – how nature makes blue, the rarest and loveliest of colors themarginalian.org/2026/02",
+  "why": "Beautiful science writing, but lacks the density of insight needed to beat out today's top pieces."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "mattyglesias",
-  "via": "C_Hendrick",
-  "text": "It’s a great country and one of the civic purposes of our schools should be to teach young people to appreciate it and not adopt this mindse",
-  "why": "Culture-war and political commentary on education."
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "A parliament of owls and a murder of crows – how a medieval woman gave bird groupings their names and a mid-century artist breathed new life",
+  "why": "Beautiful trivia, but lacks the philosophical depth or density of insight you usually save."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 1,
-  "topic": "agency",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "My god this stinks. Posted Jul 6, 2026 at 7:47AM",
-  "why": "Pure politics and sports rage-bait."
+  "score": 4,
+  "topic": "rationality",
+  "author": "sapinker",
+  "via": "Noahpinion",
+  "text": "The data are in: Populism makes countries worse off. \"... a country being ruled by a populist is associated with a 10% lower GDP after 15 ye",
+  "why": "Data-driven, but leans too close to standard political commentary rather than your core interests."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
+  "score": 3,
+  "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "unconscionable, if these death numbers are even vaguely correct update: doge-impact.org suggests that the actual number is over 1M; the numb",
-  "why": "Pure politics rage-bait."
+  "text": "Please please don’t let the Chinese steal from us ,but can we please have a huge copyright exemption? 🙏 Posted Jul 7, 2026 at 3:21AM",
+  "why": "Snarky commentary on Anthropic's copyright lobbying; lacks the substantive depth you prefer."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
+  "score": 2,
   "topic": "rationality",
-  "author": "GaryMarcus",
+  "author": "treeaston",
+  "via": "Noahpinion",
+  "text": "The left is very desperate to demonstrate that you need not do any ideological calibration (especially on social issues) in order to do well",
+  "why": "Pure political commentary and election strategy, which falls into your anti-taste."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "over a million deaths attributable to DOGE and counting: doge-impact.org , with sources Posted Jul 6, 2026 at 5:47AM",
-  "why": "Pure politics rage-bait."
+  "text": "Factional, power-seeking, ideologically plastic leftists are nothing new. The Bolsheviks were like this, as were the Communists who took ove",
+  "why": "Pure political commentary, which falls squarely into your anti-taste."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "matthewstoller",
+  "via": "GaryMarcus",
+  "text": "Trump blockading Cuba into catastrophe should be a much bigger story than it is. Posted Jul 6, 2026 at 7:14PM",
+  "why": "Pure political commentary, avoiding."
  }
 ]
