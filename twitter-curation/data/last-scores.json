@@ -2,121 +2,291 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "gabrielchua",
-  "via": "jxnlco",
-  "text": "Codex can work for long stretches, especially when a /goal gives it a persistent objective. The harder part is staying oriented while it wor",
-  "why": "Exceptional, practical builder wisdom on orchestrating LLM agents for long-horizon coding tasks."
+  "score": 10,
+  "topic": "ai-essays",
+  "author": "tessera_antra",
+  "via": "TheZvi",
+  "text": "This is an exceptionally good piece of research. J-lens as a technique is simple and elegant; its use will eventually improve understanding,",
+  "why": "Brilliant philosophical critique of Anthropic's J-lens paper, exploring the 'subconscious' of LLMs beyond verbalizable workspace."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "tetheredtoed1",
-  "via": "C_Hendrick",
-  "text": "“The end result is the student arrives at the conclusion that rushing through assignments, hoping to get a 70, is not good practice.” Boy do",
-  "why": "Perfect intersection of AI and learning science; a practitioner's detailed breakdown of adaptive learning vs chatbots."
+  "topic": "frontier-ai",
+  "author": "ziv_ravid",
+  "via": "GaryMarcus",
+  "text": "The problem with Anthropic's consciousness paper My last post got more attention than I expected, and the question I keep getting is some ve",
+  "why": "Perfect anti-hype counterweight: a sharp critique of how frontier labs wrap standard interpretability math in neuroscience PR."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "Continual Learning, Harness Engineering, Post-Training all boil down to the same substrate: curating data at scale to run experiments & impr",
-  "why": "Deep dive into agent evals and traces; hits the evals-as-discipline intersection perfectly."
+  "text": "There is a new very cool Anthropic paper: Verbalizable Representations Form a Global Workspace in Language Models . You can read the blog po",
+  "why": "TheZvi's excellent, detailed synthesis of Anthropic's new J-space paper—great curation of frontier AI research."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "NashvEdReform",
-  "via": "C_Hendrick",
-  "text": "\"The problem is not simply individual distraction. It is the erosion of the classroom conditions that make learning possible, even for stude",
-  "why": "Strong, systemic argument on how phones erode the foundational classroom conditions necessary for learning."
+  "topic": "ai-essays",
+  "author": "fortelabs",
+  "via": null,
+  "text": "I’m starting to think that the critical factor in AI’s value is simply “how much you trust/believe in/are committed to” a given output as a ",
+  "why": "Fascinating philosophical take on how the zero-cost nature of LLM outputs destroys our psychological commitment to them."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "c_valenzuelab",
-  "via": null,
-  "text": "I wonder how this could be used to study creative thinking and the generation of new ideas. If I understand correctly, the J-space is some s",
-  "why": "Fascinating intersection of frontier AI interpretability and cognitive philosophy/creative thinking."
+  "topic": "ai-engineering",
+  "author": "nickhollon10",
+  "via": "Vtrivedy10",
+  "text": "@Vtrivedy10 with some straight fire! go check it out!! data mining is the future the future of agent engineering and will allow us to build ",
+  "why": "High-signal applied AI engineering: frames continual learning and agent improvement fundamentally as an observability problem."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "I don't know anything about soccer, so apologies for the ball-knowers if this is wrong, but I thought it was fascinating. TLDR: Until recent",
-  "why": "Brilliant systems-level observation on how globalization and wealth concentration flatten stylistic diversity."
+  "author": "edels0n",
+  "via": "GaryMarcus",
+  "text": "OpenAI just asked the US government to take a 5% stake in the company. The pitch: give every citizen a share in the profits of AI. The probl",
+  "why": "Substantive financial skepticism of the AI boom, breaking down OpenAI's massive unprofitability and the venture subsidy model."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "ttunguz",
-  "via": "Noahpinion",
-  "text": "The Economist ran 25 frontier AI models through the World Values Survey — the questionnaire that has mapped the moral beliefs of 100 countri",
-  "why": "Fascinating empirical evaluation of frontier AI models' embedded moral beliefs and cultural alignment."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "fortelabs",
+  "via": null,
+  "text": "I got an email from my retirement account provider this week that said “Congratulations, you can start withdrawing your retirement funds in ",
+  "why": "A sobering, contemplative reflection on the hidden costs of locking wealth in retirement accounts during prime parenting years."
  },
  {
   "rank": 8,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "Fascinating post from Daisy. Also nice reminder here why 'let the model intuit the rules' is a terrible template for how a novice should lea",
-  "why": "Great analogy applying sports officiating processes to cognitive science and novice learning."
+  "topic": "econ-progress",
+  "author": "CarnegieChina",
+  "via": "Noahpinion",
+  "text": "Understanding why the debate on \"China Shock 2.0\" has intensified starts at the source. That is, reckoning with what's driving the domestic ",
+  "why": "Data-dense economic analysis of Chinese industrial involution and capacity utilization driving global market externalities."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "You typically start with just one marketing channel that’s actually working. (It’s hard enough to get just one to work!) But you have to mov",
-  "why": "Classic Jason Cohen builder wisdom on the brittleness of relying on a single marketing channel."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "delong",
+  "via": "Noahpinion",
+  "text": "Why does a decade of real middle‑class gains feels like loss in our age of Instagram plutocracy, anyway? Median Personal Income Growth in th",
+  "why": "Brad DeLong explores the economic and psychological disconnect between real middle-class income gains and the feeling of falling behind."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "Europeans please wake up. Posted Jul 7, 2026 at 12:02PM",
-  "why": "High-signal geopolitical update on frontier AI export controls and open-weight restrictions in China."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "trueventures",
+  "via": "kieranklaassen",
+  "text": "The AI workflows with the biggest impact usually aren’t the fanciest — they’re the ones wrapped around the daily operating motions that keep",
+  "why": "Practical builder wisdom on enterprise AI adoption: the 'AI sandwich' and why the best workflows live in existing tools."
  },
  {
   "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "100%. Permitting inhibits clean energy more than it does fossil fuels. Comprehensive permitting reform (local, state, Federal) is the number",
-  "why": "Concise, high-signal argument on how permitting reform is the highest-leverage clean energy policy."
+  "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "agent behavior is a function of 1. the data (evals/envs) which transfer the behavior they seek to measure directly into your agent this can ",
+  "why": "A concise reminder for AI engineers that agent behavior ultimately reduces to the classic ML primitives of data, evals, and compute."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "\"The Alpha maths app is built on Engelmann, not a chatbot. If your mental image of an Alpha maths lesson is a child chatting to an AI tutor,",
-  "why": "Great clarification on AI in education: relying on direct instruction principles rather than LLM chatbots."
+  "text": "George Saunders on how to be an instrument of kindness in a harsh world and the 3 antidotes to your suffering themarginalian.org/2026/01/20/",
+  "why": "Good contemplative piece, but a bit generic compared to the higher-signal items today."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "scottlincicome",
+  "via": "jasoncrawford",
+  "text": "Superficially this is an article about a company (Driscoll's). But it's really about modern capitalist abundance, thanks to private innovati",
+  "why": "Interesting piece on agricultural abundance, but doesn't quite clear the bar for today."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"1. Live as well as you dare.\" 20 ways of surfacing from the blues – Sydney Smith's 200-year-old strategies for raising low spirits, in a le",
+  "why": "Standard Marginalian historical curation; pleasant but not essential reading."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "jmhorp",
+  "via": "Noahpinion",
+  "text": "The United States also pays entry-level cashiers at gas stations $20/hour, with three weeks paid vacation, and a 401(k) plan. Posted Jul 7, ",
+  "why": "Interesting policy comparison, but leans into standard political discourse."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Nature and creativity – the science of \"soft fascination\" and how nature resets the brain themarginalian.org/2022/07/01/def… Posted Jul 7, 2",
+  "why": "Standard piece on nature and creativity; lacks the unique insight of top contemplative items."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "emollick",
+  "via": null,
+  "text": "MAI-1 has no independent benchmarks yet, but the ones they released suggest it is worse than Sonnet 4.6. Not sure it is going to be great as",
+  "why": "Quick commentary on a news item; lacks the depth of Mollick's full essays."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "PrincetonCITP",
+  "via": "sayashk",
+  "text": "Is AI really the reason why companies are laying off workers? Recently, Sayash Kapoor ( @sayashk ) spoke to @NPR 's @NPR inskeep to give his",
+  "why": "Promo for an NPR interview; better to read the actual research than the media hit."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "anuatluru",
+  "via": null,
+  "text": "Gotta love an iconic opening. Re-read Anthony Bourdain's debut essay for The New Yorker \"Don't Eat Before Reading This” newyorker.com/magazi",
+  "why": "A classic essay, but falls outside your core focus areas for daily reading."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "patrick_oshag",
+  "via": "anuatluru",
+  "text": "My second conversation with @jeremygiffon . His first episode became one of the most popular we've ever done. Since then he's become a frien",
+  "why": "Podcast promo with generic tech/finance topics; lacks the density of a written essay."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "every",
+  "via": null,
+  "text": "How to use Fable make sharper decisions: every.to/context-window… Posted Jul 8, 2026 at 2:03AM",
+  "why": "Reads like a standard tool promo/listicle rather than a deep essay on tools-for-thought."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "one of my fave & somehow still underrated YouTube channels started a series on Optimization! today’s ai hype is on loops, automated evals/en",
+  "why": "Pointer to a YouTube series; you prefer reading dense written synthesis over video."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "matthewstoller",
+  "via": "GaryMarcus",
+  "text": "States are asking for a $1.4 trillion fine of Meta over addicting kids. Basically they are saying Facebook's business model is a result of c",
+  "why": "Tech politics and regulatory news with a rage-bait framing."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "evanreiser",
+  "via": "erikphoel",
+  "text": ". @AnthropicAI has filed a lawsuit against @Abnormal claiming we copied their brand to mislead security customers, and they are asking for “",
+  "why": "Corporate PR and trademark drama; not relevant to your core AI engineering interests."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Empire, emoji, and the ecology of love – the bittersweet story of the lost ancient plant that originated the 💛 symbol themarginalian.org/202",
+  "why": "Historical trivia about the heart symbol; outside your core focus areas."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "JD Vance's crusade against GDP is just more cargo cult thinking from the New Right. noahpinion.blog/p/jd-vances-cr… Posted Jul 8, 2026 at 3:",
+  "why": "Politics and culture-war dunking; violates the anti-taste rule."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Theory: The whole \"tradwife\" thing is appealing because the subtext is that the wife HAS SEX with her husband even though they have kids. Th",
+  "why": "Culture-war adjacent take on tradwives and fertility; low signal."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "OpenAINewsroom",
+  "via": "jxnlco",
+  "text": "You may remember the first image of a black hole that computational astrophysicist Chi-kwan Chan helped capture. Now he’s working toward som",
+  "why": "Video-only announcement content; violates the anti-taste rule."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "random_walker",
+  "via": "sayashk",
+  "text": "It's been an amazing six years. I'm thrilled that Sayash will be starting his own group and soaring to new heights. This is the part where I",
+  "why": "Purely an academic job announcement; no substantive content."
  }
 ]
