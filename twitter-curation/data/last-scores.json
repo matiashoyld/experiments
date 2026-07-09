@@ -2,351 +2,321 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "econ-progress",
-  "author": "patinthehat0",
-  "via": "WillManidis",
-  "text": "Reality has a surprising amount of detail. The only way to get the economically valuable, out-of-distribution data that is constantly dynami",
-  "why": "Incredible essay on the economics of AI data walls and why scaling laws will force a return to 1980s-style conglomerates."
+  "score": 9,
+  "topic": "rationality",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Enough things added up that this week is getting split into two parts. Then on Monday, if all goes as I expect, we’ll cover OpenAI’s Sol, ak",
+  "why": "Zvi's weekly AI synthesis is top-tier curation, covering GPT-5.6, Claude, and evals with rationalist rigor."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "nicbstme",
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "DKThomp",
   "via": null,
-  "text": "I remember when at my previous company Doctrine we rewrote our frontend from AngularJS 1.7 to React. It was a huge project and a big decisio",
-  "why": "Superb breakdown of an AI-assisted codebase rewrite with real numbers and insights on agent management."
+  "text": "There are more urgent matters in the world, but what frustrates me about the way that AI has contaminated certain conversations is that I th",
+  "why": "Brilliant philosophical counterweight: how AI's arrival forces academics into overconfident, defensive definitions of human consciousness."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "builders-craft",
-  "author": "dexhorthy",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "We let agents generate or descriptions but there’s an expectation that you also drop a short human authored message at the top, optionally w",
-  "why": "Superb, substantive pushback against AI-generated slop in engineering workflows; champions human intent."
+  "text": "really nice write up with a walk through lots of related work on the surfaces for harness engineering, different forms of recursive self imp",
+  "why": "Excellent applied AI engineering taxonomy breaking down self-evolving agents into models, harness, and artifacts."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "NotionDevs",
-  "via": "geoffreylitt",
-  "text": "\"When Alan Kay was working on the original personal computer an idea that he thought was very important, was [his] goal wasn’t to automate a",
-  "why": "Deeply resonant tools-for-thought philosophy connecting Alan Kay's vision to modern AI simulation."
+  "topic": "parenting-education",
+  "author": "tetheredtoed1",
+  "via": "C_Hendrick",
+  "text": "Ed schools, educator prep programs, which make even more money minting “leaders” with the same nonsense thinking that kids “shouldn’t have t",
+  "why": "Scathing, high-signal critique at the intersection of education, learning science, and how AI exposes systemic failures in reading prep."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "jarredsumner",
-  "via": "kieranklaassen",
-  "text": "Rewriting Bun in Rust bun.com/blog/bun-in-ru… Posted Jul 8, 2026 at 9:47PM",
-  "why": "The definitive post-mortem on using AI agents to rewrite a massive codebase in 11 days."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "“The meaning of life… clearly has to do with love — what and whom and how one can love.” Oliver Sacks, who would have been 93 today, on desp",
+  "why": "A beautiful, contemplative piece on Oliver Sacks' letters exploring despair and the meaning of life."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "emollick",
-  "via": null,
-  "text": "Added Grok 4.5 to the Harbor Town Playable gallery. Here is it's \"build me a procedurally generated 3D simulation showing the evolution of a",
-  "why": "Mollick's creative, rigorous approach to benchmarking model capabilities via complex procedural generation."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "craigjcalhoun",
+  "via": "DKThomp",
+  "text": "Terrific @DKThomp examination of the neglected 1926 classic Recent Social Trends in light of today's partially anticipated realities. derekt",
+  "why": "Derek Thompson exploring a 1926 classic on social trends, offering a great historical lens on progress and technological adoption."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "How to grow up (which we never stop doing) – Nick Cave's wonderful advice to a teenager themarginalian.org/2023/04/20/nic… Posted Jul 8, 202",
-  "why": "Beautiful, contemplative advice on growing up; perfect for the parenting and intentional living intersection."
+  "text": "Claude Code’s harness is bloated bc it’s a product for a massive amount of downstream consumers & use-cases so it adds A TON of stuff to cat",
+  "why": "Strong builder insight on 'Model-Harness-Task fit' and why you shouldn't blindly copy bloated agent harnesses from frontier labs."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "mitsuhiko",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "crmiller1",
   "via": null,
-  "text": "I really want to know much much the cost of solving a task is considered during RL. Are models punished for wasting tokens? Right now it loo",
-  "why": "Excellent technical question on RL penalty structures and the hidden costs of native model harnesses."
+  "text": "Fun podcast on the critical chemicals needed to make chips and the strategic ramifications of China's growing production of key chemicals--a",
+  "why": "Deep dive into the chemistry of semiconductors and the geopolitical realities of Western dependence on China for chip manufacturing."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 6,
   "topic": "frontier-ai",
-  "author": "mitchellh",
-  "via": "jxnlco",
-  "text": "I had early access to 5.6/Sol for ~month. Sol is my default. It is faster, plans/judges just as good as Fable, and I think produces better o",
-  "why": "Excellent, nuanced qualitative evaluation of frontier models with highly practical use-case distinctions."
+  "author": "dwarkesh_sp",
+  "via": "DKokotajlo",
+  "text": "Seems to suggest that if it stops being the case that there's 3 labs which are all roughly equally good, competing each others margins away,",
+  "why": "Dwarkesh Patel on the economic endgame for frontier AI labs and pricing power if one model achieves a decisive lead."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": null,
-  "text": "one detail i enjoyed about @theo 's keynote is in a world of claudeslopped thin color border \"professional\" looking slides, his went for the",
-  "why": "Swyx highlighting the value of human craft and parsimony over AI-generated slop in presentations."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "agupta",
+  "via": "Noahpinion",
+  "text": "Expect to see more of this as idiotic policies from the GOP and octogenarian absentee leadership from the Dems cede the next few decades of ",
+  "why": "A stark data point on scientific progress and talent migration, as a Nobel chemist leaves the US for an AI materials institute in China."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "akshat_b",
-  "via": "swyx",
-  "text": "Fun conversation with @swyx on our journey building the cloud for true elastic inference, sandboxes, and more. And of course, how we're evol",
-  "why": "Swyx podcast on Modal's infra for agents and elastic inference; high signal for AI engineering."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "Tired: requiring specific practices or techniques for safety Wired: requiring products to demonstrate safety and leting makers figure out th",
+  "why": "A brief but solid take on the economics of safety regulation and insurance for autonomous vehicles."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "jxnlco",
   "via": null,
-  "text": "I love the part of the bun rewrite that shows what’s possible and pushes people to ask their models for more I am concerned about the part w",
-  "why": "Nuanced, skeptical take on the limits of AI rewrites for poorly architected legacy codebases."
+  "text": "I honestly wish we could be this coordinated But the best we can do is to be transparent with this small group of people that have given us ",
+  "why": "A builder's reflection on OpenAI's release strategy and transparency, addressing skepticism with operator wisdom."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "thorstenball",
   "via": null,
-  "text": "3 kinds of loneliness and 4 kinds of forever themarginalian.org/2025/04/15/lon… Posted Jul 9, 2026 at 12:35AM",
-  "why": "High-quality contemplative curation on the human condition."
+  "text": "Happy to hear that. It's very simple to throw a CLI with JSON output into a sandbox somewhere. What's very hard and what we did is to build ",
+  "why": "A brief but solid builder's perspective on the architectural challenges of deploying remote AI agents reliably."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "dwarkesh_sp",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Seems to suggest that if it stops being the case that there's 3 labs which are all roughly equally good, competing each others margins away,",
-  "why": "Dwarkesh's sharp economic observation on frontier lab pricing power and competition."
+  "text": "The Blue Songbird – a tender illustrated parable about finding your voice and coming home to yourself themarginalian.org/2017/08/01/the… Pos",
+  "why": "An illustrated parable about finding your voice; a bit too light compared to the denser contemplative essays you prefer."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Microsoft just released TypeScript 7! It’s much faster.  Often 8x to 12x faster on full builds like VS Code went from 125s to ~10s (11x fast",
-  "why": "Great synthesis of the modern AI engineering stack and the evolving roles of Python vs TypeScript."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "EmilyZFeng",
+  "via": "Noahpinion",
+  "text": "\"...he said that the current state of US science is “not so encouraging because of the cutting back on grants” and because of a drop in the ",
+  "why": "A short quote about US science grants being cut back; lacks the depth of a full essay on scientific progress."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "sariazout",
-  "via": null,
-  "text": "sublime is this. multimedia. has MCP. insanely good search across images/articles/video/etc) integrates with kindle/readwise/x bookmarks/ins",
-  "why": "Great recommendation for AI-native personal knowledge management and context building."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Nature",
+  "via": "Noahpinion",
+  "text": "Nobel-prize-winning chemist Omar Yaghi has left the United States for a full-time position at Tsinghua University in Beijing, China, where h",
+  "why": "Duplicate news about Omar Yaghi moving to China; the earlier shared version had slightly more context."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "jayair",
-  "via": "jxnlco",
-  "text": "We've usually stayed away from model comparisons but 5.6 vs Fable is a unique situation We've never had a case where the team is so complete",
-  "why": "Valuable real-world qualitative evaluation and team consensus on frontier model performance."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "github.com/langchain-ai/d… Posted Jul 9, 2026 at 6:48AM",
+  "why": "A bare link to an open-source AI agent repo; useful, but lacks the long-form context you prefer to read."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "sh_reya",
-  "via": null,
-  "text": "One trend happening right now is that devs are only adding to harnesses (system prompt text, skills, tools). it’s not surprising that on the",
-  "why": "Sharp observation on the trend of harness bloat and its impact on cost and accuracy in LLM systems."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "ukdynamism",
+  "via": "jasoncrawford",
+  "text": "The UK can once again be the most dynamic country in the world. Today we launch the UK Dynamism Fund, a new philanthropic fund to support th",
+  "why": "Just an announcement for a new philanthropic fund in the UK; lacks substantive reading material."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "I reread this about once a month and every time it's the tonic I need: themarginalian.org/2022/10/17/hen… Posted Jul 8, 2026 at 9:32PM",
-  "why": "High-signal curation of classic literature applied to intentional living."
+  "author": "rne",
+  "via": "pablo_dors",
+  "text": "En 'Tras la Tormenta', con @CHermosoMendoza , vamos llegando al 'Final del jardín interior con @pablo_dors ' de esta tercera temporada. El c",
+  "why": "Audio/podcast content in Spanish about tradition; you prefer long-form written essays."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
+  "score": 3,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The visionary evolutionary biologist Lynn Margulis (who gave us the Gaia Hypothesis) on the spirituality of science and the interconnectedne",
-  "why": "Beautiful contemplative piece on the spirituality of science and interconnectedness."
+  "author": "rne",
+  "via": "pablo_dors",
+  "text": "Seguimos en 'Tras la tormenta', conducido por @CHermosoMendoza , con el camino de vuelta y la última “palabra-semilla” de este jardín interi",
+  "why": "More audio/podcast content from the same Spanish radio show; archived as it is not text."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "trq212",
-  "via": null,
-  "text": "this should be a huge update in your model of software engineering: rewrites can be good, cheap and fast of course most apps are not as test",
-  "why": "Solid mental model update on the changing economics of software rewrites via AI."
+  "score": 3,
+  "topic": "contemplative",
+  "author": "rne",
+  "via": "pablo_dors",
+  "text": "¿Por qué la muerte no existe? Para @pablo_dors \"no solo somos cuerpo, también somos conciencia\". El maestro de la meditación reflexiona sobr",
+  "why": "Audio/podcast content about death and consciousness; archived due to format."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Export controls work(ed) Posted Jul 9, 2026 at 1:14AM",
-  "why": "Brief update on semiconductor export controls, but lacks deep original analysis."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "jxnlco",
+  "via": "swyx",
+  "text": "the booth was a great investment Posted Jul 8, 2026 at 5:18AM",
+  "why": "Inside-baseball commentary on OpenAI's early access program; lacks deep technical or philosophical insight."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "harari_yuval",
   "via": null,
-  "text": "still crazy to me that @0xblacklight is mogging not just claude but also gemini on this page for \"how to write a good CLAUDE.md \" Posted Jul",
-  "why": "A bit too slang-heavy and thin on actual engineering insight."
+  "text": "Humanity's unique intelligence comes with unique delusions. We should keep this in mind when facing the rise of artificial intelligence. Wat",
+  "why": "Video-only content about AI and delusions; lacks the substantive long-form text you prefer to read."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Very interesting paper Posted Jul 9, 2026 at 12:58AM",
-  "why": "Leans too heavily into political culture-war topics rather than core psychology or rationality."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "rootsofprogress",
+  "via": "jasoncrawford",
+  "text": "We're hiring a Head of Communications and a Program Manager. Help us build a culture of progress and restore an ambitious vision for the fut",
+  "why": "Just a job posting for a communications role, not a substantive essay on progress."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "Haven't done a \"sex and relationships\" take in a while, so here's one: Social conservatism holds back men more than it holds back women in t",
-  "why": "Off-topic long-form musing on dating and social conservatism."
+  "text": "If you have any feature requests or things you want to see added to our dev platform, DMs are open! Posted Jul 9, 2026 at 3:26PM",
+  "why": "Pure product announcement and marketing hype for Runway Dev without technical depth."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "Very cool @davemorin @steipete and team Posted Jul 8, 2026 at 11:59PM",
-  "why": "Announcement-only post with no substantive analysis."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "I took a class on Canadian politics in college (to try to impress a girl) and it's finally paying off as I can explain what makes the Mark C",
+  "why": "Deep dive into Canadian center-left politics, which falls outside your core focus areas."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "mvanhorn",
-  "via": "kieranklaassen",
-  "text": "Introducing - @slashlast30days v3.11 - the biggest release yet. Last30Days - the agentic search engine with ⭐51K stars. v3.11: your agent no",
-  "why": "Pure product announcement and feature list without deeper engineering insight."
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I've long suspected that AAVE is quietly dying out, due to the internet. Here's the first report I've seen of an attempt at linguistic prese",
+  "why": "Culture-war adjacent commentary on linguistics in preschools; low signal for your core interests."
  },
  {
   "rank": 28,
   "kept": false,
   "score": 2,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Rightist plan for American success: Yell about GDP being a bad measure of national success Do stuff that reduces GDP ??? Restoration of comm",
-  "why": "Political dunking and culture-war framing, which violates the anti-taste rules."
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "With the center-left ailing globally it’s useful to take a look at the exception, Mark Carney’s Liberals who’ve made smart tactical position",
+  "why": "Another link to the piece on Canadian center-left politics; not relevant to your core topics."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "hanlonbt",
-  "via": "Noahpinion",
-  "text": "Young counter-cultural types who would have started bands in the 2000s started podcasts in the 2010s, and now youngish Millennials seek comm",
-  "why": "Pure political commentary and culture-war analysis."
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The idea here is that first Trump takes away your gas via a stupid war, then he hands a little bit back to you via government-run gas statio",
+  "why": "Political dunking and rage-bait regarding gas prices; entirely outside your core interests."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "econ-progress",
-  "author": "KClausing",
+  "author": "mattyglesias",
   "via": "Noahpinion",
-  "text": "Excellent piece from @Noahpinion .  GDP doesn't capture everything, of course, as economists know very well. But deliberately making America",
-  "why": "Political commentary violating the anti-taste rules."
+  "text": "Could not imagine a better data point to illustrate today’s column — this is just not a movement that thinks beating Republicans is interest",
+  "why": "Pure political inside-baseball regarding the Maine Democratic Party."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "bcherny",
-  "via": null,
-  "text": "This is pretty epic Posted Jul 8, 2026 at 11:23PM",
-  "why": "Zero-substance quote tweet."
+  "score": 1,
+  "topic": "rationality",
+  "author": "SwannMarcus89",
+  "via": "Noahpinion",
+  "text": "The biggest lesson from the Graham Platner debacle is that both parties have been taken over by the biggest subhuman fucking losers to ever ",
+  "why": "Angry political ranting and rage-bait; violates your anti-taste rules."
  },
  {
   "rank": 32,
   "kept": false,
   "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is true. Republicans have become pure amoral power-seekers, and no one on the right can hold them to account for it, because the right ",
-  "why": "Pure political rage-bait and partisan dunking."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "If Trump is a poor person's idea of a rich person, Platner is an educated person's idea of a working-class person. (And I just retardedly as",
-  "why": "Pure political commentary."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Damn, I spent 2.5 hours writing a blog post and he just...tweeted it out Posted Jul 8, 2026 at 11:24PM",
-  "why": "Meta-twitter complaining, no substance."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "kieranklaassen",
-  "via": null,
-  "text": "Full proposal thinkroom.kieranklaassen.com/d/LJiSTq3RRD Posted Jul 8, 2026 at 10:15PM",
-  "why": "Lacks any context or substance in the tweet itself."
+  "topic": "econ-progress",
+  "author": "mytestacco71149",
+  "via": "Noahpinion",
+  "text": "ヴァンスは若いのに過去への過大なノスタルジーがあるのはなんとも。日本の「江戸時代は現代より素晴らしかった。」という意見と似ている。 Posted Jul 9, 2026 at 5:19AM",
+  "why": "Political commentary on JD Vance and GDP; outside your core focus."
  }
 ]
