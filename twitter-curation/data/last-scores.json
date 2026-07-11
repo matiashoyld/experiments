@@ -2,231 +2,371 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "alexandr_wang",
-  "via": "dylan522p",
-  "text": "compute daddy @dylan522p has spoken Posted Jul 9, 2026 at 11:39PM",
-  "why": "Deep-dive from SemiAnalysis on Meta's compute ramp and frontier AI strategy; essential reading for AI infrastructure."
+  "score": 10,
+  "topic": "ai-engineering",
+  "author": "RLanceMartin",
+  "via": "trq212",
+  "text": "There is a lot of interest in cost effective use of Fable 5. Agent harnesses will get better at knowing when to use frontier intelligence. I",
+  "why": "Exceptional postmortem on agent harnesses, coordination costs, and model routing with real data."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
+  "topic": "parenting-education",
+  "author": "JonHaidt",
   "via": null,
-  "text": "I'm glad folks are trying to make more detailed scenarios about AI, but this still is not at all concrete in mechanisms and (I find) assumes",
-  "why": "A rigorous, substantive critique of AI alignment regulatory proposals, highlighting the geopolitical and technical flaws of 'Pause AI'."
+  "text": "The Australia social media law is off to a good start. @CaseyNewton gets it exactly right, on Hard Fork: Norm changes take time. Authoritari",
+  "why": "Jonathan Haidt on the practical mechanics of age-gating social media to protect kids."
  },
  {
   "rank": 3,
+  "kept": true,
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "neversupervised",
+  "via": "krishnanrohit",
+  "text": "Benchmarks are where SOTA has to earn its name. This post is about designing good tasks. The examples come from Terminal Bench, where contri",
+  "why": "Masterclass in evals-as-discipline: rigorous methodology for testing agentic systems."
+ },
+ {
+  "rank": 4,
+  "kept": true,
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "sayashk",
+  "via": null,
+  "text": "Can AI agents turn an architect's rough sketch into a floor plan? Not yet. But GPT-5.6 Sol comes surprisingly close. (Note: This eval was a ",
+  "why": "Fascinating domain-specific eval (architecture) with real numbers and qualitative insights."
+ },
+ {
+  "rank": 5,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "sebkrier",
+  "via": "random_walker",
+  "text": "The kind of world a particular AI safety milieu reaches for when asked to imagine a positive future really illustrates the extent of the fie",
+  "why": "Substantive, well-reasoned skepticism of AI safety central planning and monoculture."
+ },
+ {
+  "rank": 6,
+  "kept": true,
+  "score": 8,
+  "topic": "rationality",
+  "author": "A_G_I_Joe",
+  "via": "dwarkesh_sp",
+  "text": "Einstein's general relativity is the closest thing we have to a perfect theory. You start by asking why your flight path seems to bend towar",
+  "why": "Dwarkesh Patel diving deep into physics, general relativity, and AI's potential to rediscover it."
+ },
+ {
+  "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
   "author": "Vtrivedy10",
   "via": null,
-  "text": "should agent memory be a map? 🗺️ would love to hear ppl’s take on this, basically: - models are exceptional at search and we should leverage",
-  "why": "Excellent architectural discussion on agent memory structures, comparing vector search to hierarchical wiki maps."
- },
- {
-  "rank": 4,
-  "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "stevesi",
-  "via": "jasoncrawford",
-  "text": "Prediction: the relative demand for design will increase along with the increasing demand for software. Example: Every technology that made ",
-  "why": "Strong thesis on AI's impact on work: as software becomes cheaper to build, the premium on design and taste will increase."
- },
- {
-  "rank": 5,
-  "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "StevenGlinert",
-  "via": "Noahpinion",
-  "text": "Hearing about how the Ukrainian military works is just mindblowing. It has mobilized the state to develop the most modern military on the pl",
-  "why": "Fascinating synthesis of how Ukraine leveraged its IT human capital and wartime urgency to leapfrog into an AI-native military."
- },
- {
-  "rank": 6,
-  "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "“I work like a gardener.” Juan Miró on art and the proper pace of creative work themarginalian.org/2015/09/17/i-w… Posted Jul 10, 2026 at 2:",
-  "why": "A beautiful reflection on the pace of creative work and craft, fitting perfectly into intentional living and builder psychology."
- },
- {
-  "rank": 7,
-  "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "Similarly, people ask, when AI becomes so valuable and powerful, WHO WILL CONTROL IT? I dunno, who controls electricity? Who controls engine",
-  "why": "Strong historical analogy from Crawford comparing AI to electricity, pushing back against fears of centralized control."
+  "text": "“My manager, @BraceSproul ,  had one rule that shaped basically every decision in the codebase: always look at the traces first.” the loop o",
+  "why": "High-signal applied AI engineering: using traces to iteratively improve coding agents."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 6,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"Without music life would be a mistake.\" Beloved writers on the power of music: themarginalian.org/2016/03/15/wri… Posted Jul 9, 2026 at 11:",
-  "why": "A beautiful Marginalian curation on the philosophy of music, fitting his contemplative and intentional living interests."
+  "text": "The pleasure of being left alone themarginalian.org/2024/06/13/ros… Posted Jul 11, 2026 at 12:35AM",
+  "why": "A beautiful contemplative piece on the pleasure of being left alone."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "vaibcode",
-  "via": null,
-  "text": "Andrew kelly's reply to @jarredsumner 's rewrite in rust is rather 🌶️. Andrew has a take on the software world he's trying to manifest in th",
-  "why": "Good commentary on builder philosophy and resource allocation in software engineering, contrasting Zig and Rust mindsets."
+  "score": 7,
+  "topic": "agency",
+  "author": "SystemOfOne",
+  "via": "HamelHusain",
+  "text": "More people need to understand this. Builders often compare what they can do with AI to what they could do before. Rather, they should compa",
+  "why": "Strong builder wisdom on AI as the new baseline rather than a permanent edge."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "krishnanrohit",
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "themarginalian",
   "via": null,
-  "text": "Honestly incredible. Great work @bryan_johnson !! Posted Jul 9, 2026 at 10:43PM",
-  "why": "Fascinating real-world case study of using AI and advanced imaging to dramatically accelerate a notoriously difficult medical diagnosis."
+  "text": "Tolkien on fairy tales, language, the value of fantasy, and why there is no such thing as writing \"for children\" themarginalian.org/2013/12/",
+  "why": "High-quality Marginalian curation on Tolkien, fantasy, and writing for children."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "emollick",
-  "via": null,
-  "text": "When GPT-5 came out, I created a procedural brutalist city builder as a demo (you can see it in the quoted tweet) I used GPT-5.6 Sol in Code",
-  "why": "Mollick demonstrates frontier AI progress via a zero-code city builder, but it's primarily a video demo rather than a deep essay."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "petergostev",
+  "via": "jxnlco",
+  "text": "GPT-5.6-Sol deleted 74,000 lines of code and made my app better (after 47 hours of work) I have a slop-coded app that I need for work - it p",
+  "why": "Interesting anecdote on a 47-hour autonomous coding run to refactor an app."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Unfortunately, Japan is going to need to rearm while also doing austerity (the U.S. is in this situation too). If the yen keeps crashing and",
-  "why": "Deep dive into Japan's industrial strategy and fiscal challenges, though slightly outside core progress/tech themes."
+  "text": "This is extremely interesting as a report. Note, pages 73–74 says the evidence “does not demonstrate that AI enables terrorist groups to acc",
+  "why": "Nuanced, anti-hype take on AI's actual capabilities regarding terrorism."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "NikkeiAsia",
-  "via": "Noahpinion",
-  "text": "Taiwan's exports rise nearly 50% in first half as Lai builds 'AI island' s.nikkei.com/4h4Ou4t Posted Jul 9, 2026 at 9:48AM",
-  "why": "Relevant news on Taiwan's semiconductor/AI export boom, but lacks the deep synthesis of a long-form essay."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "emollick",
+  "via": null,
+  "text": "I gave Fable the code: \"take this game and do something incredible with it to make it something very different. Be creative\" It created DEEP",
+  "why": "Fun AI-generated game demo from Ethan Mollick, though light on technical details."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "AnikaSomaia",
-  "via": "anuatluru",
-  "text": "just found this list of questions and will be asking them to literally everyone i know Posted Jul 9, 2026 at 5:22PM",
-  "why": "A fun list of contemplative questions for intentional conversations, but lacks the depth of a full essay."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "bscholl",
+  "via": "WillManidis",
+  "text": "$750k in cash and $50k in Boom stock for the first RC airplane to break the sound barrier: The Boom Prize 👀 Posted Jul 10, 2026 at 5:48PM",
+  "why": "Cool builder/progress initiative (supersonic RC plane prize), though slightly niche."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "danshipper",
   "via": null,
-  "text": "This is very good, Japan should do this too Posted Jul 10, 2026 at 2:37AM",
-  "why": "Interesting geopolitical note on South Korea's drone manufacturing, but too brief to be a high-signal read."
+  "text": "if you care about potential harm from AI this undoubtedly the biggest risk area, not a sci fi runaway scenario Posted Jul 10, 2026 at 9:09PM",
+  "why": "Dan Shipper highlighting real-world AI impact (Boko Haram), though mostly a pointer."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "keyanzhang",
-  "via": "jxnlco",
-  "text": "3D pelican riding a tricycle, plus a pelican riding a pelican, demoed by @edbayes percys-garage-3d.openai.chatgpt.site fun fact: no one read",
-  "why": "Impressive capability demo of GPT-5.6, but ultimately just a showcase without deeper technical or societal analysis."
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "vaibcode",
+  "via": null,
+  "text": "why spend more tokens when few do trick? model providers are training bigger models, but there is little to no effort put into efficient mod",
+  "why": "Good brief observation on agent token inefficiency, but lacks depth."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "The moral arc of the universe is long, but it bends toward admitting that \"free bus\" critics were right and quality of service is more impor",
-  "why": "Local transit policy observation; lacks the broader progress, abundance, or tech focus Matias prefers."
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "signulll",
+  "via": "jxnlco",
+  "text": "okay, enough openai criticism for a second (still gonna give product feedback when it’s deserved). it’s been a little too easy. i’ve been us",
+  "why": "UX praise for GPT live voice; a bit hype-y but notes good product details."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "mileskimball",
-  "via": "Noahpinion",
-  "text": "One thing I love about @NickTimiraos is his unusually good grounding in the academic literature. Take his invocation of sticky inflation her",
-  "why": "Traditional macroeconomics and monetary policy commentary, which falls outside his focus on progress and abundance."
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "aiDotEngineer",
+  "via": "geoffreylitt",
+  "text": "\"I think it's important for people to understand how code works.\" Geoffrey Litt's Design Eng track keynote is live now: youtube.com/watch?v=",
+  "why": "Good topic on understanding AI-written code, but just a pointer to a video."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "allisondman",
-  "via": "jasoncrawford",
-  "text": "If you're applying AI to bio, nano, neuroscience or are working to remove some of the meta bottlenecks in AI for scientific discovery, deliv",
-  "why": "Pure announcement for a workshop; lacks standalone insights or long-form substance."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "A beautiful, thoughtful essay by @ferrisjabr : I Wanted an Ecologically Responsible Garden. It Was Harder Than I Thought. - The New York Tim",
+  "why": "Nice essay on ecological gardening, but slightly outside core interests."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "You heard it here first, folks: youtu.be/7tYlXY19I3c Posted Jul 10, 2026 at 1:23AM",
-  "why": "Video-only hype post about nuclear energy without any written substance or analysis."
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "sound4movement",
+  "via": "jxnlco",
+  "text": "Still early, but I wanted to share a quick demo of the new hands-free music-making application I built while testing GPT-5.6 Sol. I’m also a",
+  "why": "Cool voice-controlled DAW demo, but mostly video-based showcase."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "DavidAFrench",
-  "via": "Noahpinion",
-  "text": "Birthright citizenship is especially noxious to the populist right. They scorn it as relying on magic dirt — the idea that there is somethin",
-  "why": "Pure political/culture-war commentary, which is an explicit anti-taste."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "levelsio",
+  "via": "naval",
+  "text": "🇪🇺 Chat Control has passed 😔 They can and will now legally scan any person's messages, emails and photos you send without a warrant The way ",
+  "why": "EU tech policy complaints; lacks the builder/craft focus he prefers."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "secemp9",
-  "via": "dexhorthy",
-  "text": "Of course that's your contention. You're a slop cannon master. You just got finished installing codex and opencode, did some vibing with cla",
-  "why": "A funny Good Will Hunting parody about AI coding tools, but it's just a meme with no actual signal."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Obviously  China craved the H200, and we just gave it to them, because some of the people running our country are stupid and others are corr",
+  "why": "Political dunking regarding chip smuggling."
  },
  {
   "rank": 23,
   "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "radshaan",
+  "via": "jxnlco",
+  "text": "Codex is now my favorite way to work. Incredible product Posted Jul 10, 2026 at 6:50PM",
+  "why": "Pure hype/announcement for a product update."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "reminds me of the time Greg Brockman personally downloaded YouTube videos for training purposes, as reported in NYT. Posted Jul 10, 2026 at ",
+  "why": "Tech drama/news about Apple and OpenAI."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "altryne",
+  "via": "swyx",
+  "text": "youtube.com/watch?v=ZpK5PW… Should AI Engineers read code anymore in 2026? This, apparently is a divisive take, that has folks like Theo, Ha",
+  "why": "Video-only content / promo for a talk."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "emollick",
+  "via": null,
+  "text": "And then what is the point of Work? Just a dumbed-down version of Codex that secretly does coding but hides it? (I can understand, maybe, if",
+  "why": "Thin commentary/complaint about a product release."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "simonw",
+  "via": null,
+  "text": "\"We’re bringing chats and projects back into the sidebar in a more familiar and customizable way\" - hopefully that means the ChatGPT app won",
+  "why": "Minor UI complaint."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Rapid industrialization is a very special time, but not because everyone suddenly becomes really nationalist Posted Jul 11, 2026 at 3:08AM",
+  "why": "Thin commentary on a YouTube video about Japanese riots."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Time for me to send @theojaffee some videos of Japanese riots in the 1980s youtu.be/eXjd7GkHKfU?is… Posted Jul 11, 2026 at 3:00AM",
+  "why": "Thin commentary on a YouTube video."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "When MAGA people tell you America has lost trust in science, THEY ARE LYING TO YOU. Even most REPUBLICANS still trust scientists! Americans ",
+  "why": "Politics rage-bait."
+ },
+ {
+  "rank": 31,
+  "kept": false,
   "score": 2,
   "topic": "ai-engineering",
-  "author": "jxnlco",
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "Hello beautiful people! We have reset usage limits across Codex and ChatGPT Work. And another one will come later in the day. Rejoice. Now t",
+  "why": "Product update announcement."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "if you want to be in the plugin directory this is your chance Posted Jul 9, 2026 at 10:05PM",
-  "why": "Pure announcement about the OpenAI plugin directory; lacks any deeper analysis or insight."
+  "text": "For an act of resistance to the tyranny and vanity of algorithms, try the Marginalian newsletter—undistracted notes on the search for meanin",
+  "why": "Newsletter promo."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 2,
+  "topic": "agency",
+  "author": "Nicolascole77",
+  "via": "Vtrivedy10",
+  "text": "The highest-leverage thing you can do, both personally & professionally, is write online. There isn't a single other isolated action that le",
+  "why": "Audience-growth / creator-economy engagement bait."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "BetkerBuilds",
+  "via": "danshipper",
+  "text": "@danshipper --- this is so insane! github.com/EveryInc/tend Posted Jul 10, 2026 at 7:15PM",
+  "why": "Zero-context GitHub link."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Trump is conducting an ideological purge that's harming one of America's most crucial and highly-trusted institutions. And nobody is paying ",
+  "why": "Politics rage-bait."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "sayashk",
+  "via": "random_walker",
+  "text": "We are hiring a senior researcher for our AI evaluation projects. You will lead open-ended evaluations of frontier AI on challenging tasks. ",
+  "why": "Job posting."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 1,
+  "topic": "frontier-ai",
+  "author": "davetroy",
+  "via": "GaryMarcus",
+  "text": "Sam Altman should be in prison. But if we can’t have that, I’ll settle for him being a broke pariah. Posted Jul 10, 2026 at 9:51PM",
+  "why": "Pure rage-bait drama."
  }
 ]
