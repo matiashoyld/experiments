@@ -3,310 +3,230 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "zanehengsperger",
-  "via": "Noahpinion",
-  "text": "# Another industrial revolution is upon us. Shenzhen was a fishing village in 1980. Today it ships more electronics than the entire United S",
-  "why": "Phenomenal long-form analysis on rebuilding American manufacturing through builder culture, density, and energy abundance."
+  "topic": "rationality",
+  "author": "slatestarcodex",
+  "via": "DKokotajlo",
+  "text": "Replying to @AgustinLebron3 This reminds me of a comment by a DC insider who said one of the weirdest things about working with Silicon Vall",
+  "why": "Scott Alexander brilliantly reframes AI chip regulation by comparing it to mundane pharmaceutical tracking."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "jasoncrawford",
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "“A cadre of elites decides which research directions are permissible, caps global compute and robotics, and creates state-administered scarc",
-  "why": "Substantive, rigorous critique of the central planning mindset in AI safety, advocating for polycentric/d/acc alternatives."
+  "text": "This seems like a reasonable statement: it seems self-evident that we do not know the impact of AI on work & trying to understand that will ",
+  "why": "Ethan Mollick on the urgent need for data to understand AI's economic transformation."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "data is king because model behavior is a reflection of the Data/Evals/Environments they were fit on the whole point of an eval is to make it",
-  "why": "Excellent breakdown of evals-as-discipline and using agent trace mining to bootstrap better model behavior."
+  "topic": "frontier-ai",
+  "author": "GoodfireAI",
+  "via": "thesephist",
+  "text": "If models think in shapes, our tools should too. Our latest research: Block-Sparse Featurizers (BSFs), a new way to find concepts in model a",
+  "why": "Fascinating mechanistic interpretability research on how models represent concepts."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "Noahpinion",
+  "topic": "frontier-ai",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "🇺🇦🇺🇦🇺🇦🇺🇦🇺🇦 Posted Jul 12, 2026 at 11:49PM",
-  "why": "Deep dive into state capacity and the systemic reasons behind Ukraine's unexpected resilience."
+  "text": "Innovations are coming in AI that will be to today's LLM agents what the internal combustion engine was to the steam engine. I don't know if",
+  "why": "Richard Sutton's new lab roadmap for animal-like intelligence via continual learning."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "jasoncrawford",
+  "topic": "ai-essays",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "Rather than think of a single AI that has “superhuman persuasion,” think of AIs that are as good as the best humans as persuasion, but a lar",
-  "why": "A highly clarifying mental model: the real risk isn't singular superintelligence, but cheap, scalable, abundant intelligence."
+  "text": "be a gardener Posted Jul 13, 2026 at 1:45PM",
+  "why": "Runway's CEO on the shift from AI-generated media to dynamic 'worldforging'."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "stevekrouse",
-  "via": "geoffreylitt",
-  "text": "the problem with \"spec driven development\" is that most software can't be spec'd up front software is a creative act, where you figure out w",
-  "why": "Strong builder-operator wisdom on why spec-driven development fails for creative software."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Your browser does not support the video tag. Posted Jul 13, 2026 at 7:28AM",
+  "why": "Crucial data and analysis on the global rise of anxiety and ADHD in young adults."
  },
  {
   "rank": 7,
-  "kept": false,
+  "kept": true,
   "score": 7,
   "topic": "econ-progress",
-  "author": "CarterSkeel",
-  "via": "Noahpinion",
-  "text": "Two reasons US population projections are optimistic: Implausible immigration forecast Assumption that low fertility is temporary The rub: O",
-  "why": "Substantive demographic analysis on why US fertility and population projections are overly optimistic."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Wow Posted Jul 13, 2026 at 3:33PM",
+  "why": "Staggering data point on the real-world impact of China's demographic collapse."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "keyanzhang",
-  "via": "jxnlco",
-  "text": "some tips on 5.6 sol: remove old slop. try disabling certain community skills and plugins, especially bundles with 20+ skills. think of 5.6 ",
-  "why": "Practical, high-signal mental models for prompting frontier models by treating them like staff engineers."
+  "topic": "tools-for-thought",
+  "author": "strimblez",
+  "via": "swyx",
+  "text": "for people using codex to draft emails and slacks, try this simple 1x setup. it’s been a biggie for me: “read my sent emails and slacks from",
+  "why": "Excellent, highly practical prompt architecture for training an LLM on your personal voice."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "dilanesper",
-  "via": "Noahpinion",
-  "text": "there's this weird notion in America that you can't have commerce in a park. To me it is the absolute worst thing about Washington DC. but i",
-  "why": "Great urbanism observation on how small commercial concessions in parks create better third spaces and fund upkeep."
- },
- {
-  "rank": 10,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "mnolangray",
-  "via": "Noahpinion",
-  "text": "This always jumps out at me with US public spaces: no vendors, except maybe very cheap pushcarts. Is it because we inherited a weird Anglo h",
-  "why": "Great urbanism observation on how small commercial concessions in parks create better third spaces and fund upkeep."
- },
- {
-  "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": null,
-  "text": "Another insane own goal on AI research leadership from the U.S. It's like \"how do I remove myself from an international scientific network\" ",
-  "why": "Highlights a major US policy shift that could severely impact international AI research and scientific progress."
- },
- {
-  "rank": 12,
   "kept": true,
   "score": 7,
   "topic": "contemplative",
-  "author": "a__tomala",
-  "via": "dwarkesh_sp",
-  "text": "I highly recommend this video if you never formally studied general relativity. All of the informal explanations I've heard growing up (e.g.",
-  "why": "Dwarkesh's deep dive into the core intuition of general relativity; highly recommended for changing mental models of physics."
+  "author": "themarginalian",
+  "via": null,
+  "text": "Pythagoras on the purpose of life and the meaning of wisdom themarginalian.org/2026/07/12/pyt… Posted Jul 13, 2026 at 11:42AM",
+  "why": "Beautiful exploration of Pythagoras's philosophy on wisdom and the purpose of life."
+ },
+ {
+  "rank": 10,
+  "kept": true,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": null,
+  "text": "its been surreal to see @willccbb 's career take off after getting unleashed on the world. PI (esp @asharoraa and @vincentweisser and @jackm",
+  "why": "swyx on talent density and the vindication of RLaaS business models."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Seismic! “current deep learning methods are weak and inefficient, and need not more tweaks, but fundamentally new ideas and a thorough rewor",
+  "why": "Richard Sutton arguing that current deep learning needs a fundamental rework."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "America's suburbs get a lot of hate. But a lot of the critiques are just myths -- suburbs feature shorter, easier commutes, and equal or les",
+  "why": "Data-driven defense of American suburbs against common urbanist critiques."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "michaelpollan",
   "via": null,
-  "text": "Interesting Posted Jul 13, 2026 at 3:38AM",
-  "why": "Eric Schmidt's read on Chinese AI labs' conservative pacing vs Silicon Valley."
+  "text": "Do people hear voices when they take ayahuasca? 5 Questions with social anthropologist David Dupuis themicrodose.substack.com/p/do-people-he",
+  "why": "Interview on the phenomenology of ayahuasca, but perhaps too niche."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This would be one of the most important inventions in human history Posted Jul 13, 2026 at 1:32AM",
-  "why": "Highlights a massive potential leap in battery density, though currently just theoretical progress."
+  "author": "SanderTordoir",
+  "via": "Noahpinion",
+  "text": "China’s exports to Germany increased by 10 percent each year between 2023 and 2025, Chinese customs data shows. German exports to China have",
+  "why": "Macroeconomic data on China-Germany trade imbalances."
  },
  {
   "rank": 15,
-  "kept": true,
-  "score": 6,
+  "kept": false,
+  "score": 5,
   "topic": "contemplative",
-  "author": "themarginalian",
+  "author": "simonsarris",
   "via": null,
-  "text": "The 12 kinds of time and how to be more fully alive themarginalian.org/2026/07/12/chr… Posted Jul 13, 2026 at 12:57AM",
-  "why": "A contemplative exploration of time and intentional living."
+  "text": "Where the quiet-coloured end of evening smiles, Miles and miles On the solitary pastures where our sheep Half-asleep Tinkle homeward thro' t",
+  "why": "Poetic reflection on the past and present, but lacks the depth of a full essay."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Seems like dating apps kinda suck ass Posted Jul 12, 2026 at 11:41PM",
-  "why": "Interesting psychological breakdown of how choice abundance in dating apps creates a rejection mindset."
+  "text": "Not good: “There is less dry powder available to catch a selloff, relative to market size, than at almost any point in modern history.” Post",
+  "why": "Market analysis on low cash reserves, but leans towards doom-casting."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "I keep coming back to this Alan Lightman gem: What happens when we die themarginalian.org/2022/01/10/ala… Posted Jul 12, 2026 at 11:03PM",
-  "why": "A beautiful, contemplative essay by a physicist on mortality and the nature of existence."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "moultano",
+  "via": "Noahpinion",
+  "text": "We should elevate more federal land to national parks. You can actually make more of them. Yosemite Valley is beautiful but so is the whole ",
+  "why": "Brief opinion on expanding national parks; lacks depth for a top save."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Erich Fromm on love and how to get out of our own way to it themarginalian.org/2015/10/29/the… Posted Jul 13, 2026 at 2:44AM",
-  "why": "Classic contemplative essay on the psychology of love and intentionality."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "thorstenbenner",
+  "via": "Noahpinion",
+  "text": "No European decision-maker can such \"You are guilty of colonialism. Now accept deindustrialization and don't complain about it\" pontificatin",
+  "why": "Geopolitical commentary on European deindustrialization, but lacks deep analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GreenPlusAnE",
-  "via": "Noahpinion",
-  "text": "The private sector has become the largest funder of American R&D, by far. It funds over 1/3 of basic research, too. Posted Jul 12, 2026 at 4",
-  "why": "Interesting stat on R&D funding, but lacks the depth of a full essay or analysis."
+  "score": 4,
+  "topic": "spanish-ai",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "Brazil, here we come! 🇧🇷 Our LATAM presence is growing. We will have some more exciting updates on this front soon. If you are in Sao Paulo,",
+  "why": "LatAm AI builder presence, but just an event announcement."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
+  "score": 3,
   "topic": "ai-engineering",
-  "author": "jxnlco",
-  "via": null,
-  "text": "appshots! Posted Jul 13, 2026 at 2:37AM",
-  "why": "Product update on context windows and reasoning effort, but lacks deeper engineering insight."
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "Added a banked reset to 500k users of ChatGPT Work and Codex. What’s been happening: - Just released the ability to use a banked reset from ",
+  "why": "Routine infrastructure update and milestone announcement."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "John Lennon on creativity themarginalian.org/2022/02/16/joh… Posted Jul 13, 2026 at 12:35AM",
-  "why": "Standard quote curation, lacks the density of insight required for a top score."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "GreenPlusAnE",
+  "via": "Noahpinion",
+  "text": "“Americans have some of the shortest commutes in the developed world.” Posted Jul 13, 2026 at 12:49PM",
+  "why": "Thin quote tweet of an article better saved directly."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 4,
+  "score": 3,
   "topic": "contemplative",
-  "author": "dhh",
-  "via": "tobi",
-  "text": "\"The circle of the saeculum is both a prophecy and a roadmap. We're not supposed to live like this forever: weak, ineffectual. This too shal",
-  "why": "Generational theory musings that lack the rigorous insight he usually prefers."
+  "author": "hayfestival_esp",
+  "via": "pablo_dors",
+  "text": "Destacadas personalidades imprimirán su propia idea de belleza en la próxima edición de Hay Festival Segovia. En #HaySegovia26 se disfrutará",
+  "why": "Just an event announcement for a festival."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Janis Joplin on music, emotion, and the courage to be yourself themarginalian.org/2015/09/08/jan… Posted Jul 13, 2026 at 1:58AM",
-  "why": "A bit too generic for the daily high-signal filter."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Street library divinations – searching for the meaning of life in found books: themarginalian.org/2025/12/07/lit… Posted Jul 12, 2026 at 10:",
-  "why": "Too whimsical/fluff for his core reading list."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is insane Posted Jul 13, 2026 at 3:53AM",
-  "why": "California politics rage-bait falls into his anti-taste filters."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "In the 90s we had a movie about a young chud who wishes he could go back in time to a more homogeneous, traditional society youtube.com/watc",
-  "why": "Culture-war adjacent commentary with no substantive insight."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "America has lost lots of the social institutions that used to bind us together as a country. This is accelerating our transformation into a ",
-  "why": "Culture-war dunking and political rage-bait."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I owe the libertarians an apology. They were wrong about tons of stuff, but it turned out they were a bulwark against far stupider stuff noa",
-  "why": "Pure political commentary and culture-war adjacent."
- },
- {
-  "rank": 29,
-  "kept": false,
   "score": 2,
   "topic": "rationality",
-  "author": "milansingh03",
-  "via": "Noahpinion",
-  "text": "Wrote about what's driving the Democratic Tea Party for @TheArgumentMag . It really is about Israel. Democratic primary voters are now much ",
-  "why": "Pure political analysis, falls into the anti-taste filter."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "superrieu",
-  "via": "dwarkesh_sp",
-  "text": "Die ersten 30 Minuten 👇 Vorlesungsgesprächs zu Einsteins Relativitätstheorie sind didaktisch wirklich brillant und man kann sie nur jedem em",
-  "why": "Video-only content in German, hits the anti-taste filter."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 1,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
+  "author": "Noahpinion",
   "via": null,
-  "text": "should i merge github.com/567-labs/instr… Posted Jul 12, 2026 at 8:23PM",
-  "why": "Just a bare link to a GitHub PR with no context or insight."
+  "text": "LOLLLLLL \"muh stolen birthright\", this guy's ancestors fled to America from Belarus in 1905 Posted Jul 13, 2026 at 12:39PM",
+  "why": "Culture-war dunking, which violates the anti-taste rules."
  }
 ]
