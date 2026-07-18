@@ -3,240 +3,320 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "parenting-education",
+  "author": "JonHaidt",
   "via": null,
-  "text": "It’s all a massive scale data mining & taste problem the harness extends and steers natural model behavior to excel at tasks you care about ",
-  "why": "Hits your 'evals-as-discipline' interest perfectly, framing evals as training data and the core bottleneck for enterprise agents."
+  "text": "Australia's social media law is changing the game, making it easier for Australian parents to parent, and for other countries to follow. Cha",
+  "why": "Jonathan Haidt (a favorite author) on how Australia's social media laws are shifting norms for parents and teens."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "DAcemogluMIT",
+  "topic": "econ-progress",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "Dear followers, see this Substack from @MITshapingwork on my recent paper “AI, Human Cognition and Knowledge Collapse.” Will AI lead to the ",
-  "why": "Daron Acemoglu provides rigorous, substantive analysis on the systemic risks AI poses to human cognition and collective knowledge."
+  "text": "Will there even be jobs for our kids when they finish education? I've been looking into this a lot. I think the 50% claim is certainly overb",
+  "why": "Excellent intersection of AI's economic impact and education, citing real data on employment declines for recent grads."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "agency",
-  "author": "c_valenzuelab",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Creating new things requires you to go to unexpected places. Radical ideas that give birth to new technologies tend to come from high-risk, ",
-  "why": "A profound essay on the paradox of technological booms, exploration vs. exploitation, and how taxonomies kill out-of-distribution ideas."
+  "text": "Sound on 🔊 Chess Tutor -> Eval Tutor!  shoutout Fable, now my eval review agent can interactively speak & step through how agents succeed/fa",
+  "why": "Incredible applied AI engineering: building an interactive 'eval tutor' to step through agent trajectories and failures."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "contemplative",
-  "author": "michaelpollan",
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "erikphoel",
   "via": null,
-  "text": "Really enjoyed this one with my meditation teacher, Michael Taft:The Mystery of Consciousness with Michael Pollan - Deconstructing Yourself ",
-  "why": "A deep dive into the mystery of consciousness with Michael Pollan and Michael Taft. Perfectly hits your contemplative/philosophy interests."
+  "text": "Excellent article on how LLMs are stimulating consciousness research (and the future of Bicameral Labs). The 2020s have been the decade of i",
+  "why": "Hits your favorite intersection of AI, consciousness, and philosophy by exploring how LLMs stimulate consciousness research."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "sumukx",
-  "via": "naval",
-  "text": "every single person i know working at the frontier is incredibly talented and hardworking, and they're not wasting compute or capital, and n",
-  "why": "Exceptional, nuanced analysis of the structural and strategic differences between US and Chinese frontier AI labs."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "random_walker",
+  "via": null,
+  "text": "Here's a detailed analysis of whether and how AI labs can capture value normaltech.ai/p/up-the-stack… by me and @akashkapur . (In the Furthe",
+  "why": "Substantive analysis from a rigorous skeptic on AI value capture and the economics of frontier labs."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "SoLInTheWild",
-  "via": "C_Hendrick",
-  "text": "About that beloved and often-promoted concept of using relevance to spark interest and, in turn, enhance student motivation… “A common strat",
-  "why": "High-signal learning science from Daniel Willingham debunking the common pedagogical myth that 'relevance' drives student motivation."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "samoalfred",
+  "via": "Vtrivedy10",
+  "text": "Prompt Engineering →Context Engineering →Harness Engineering→ 🤔 Posted Jul 18, 2026 at 2:15PM",
+  "why": "Excellent conceptual framing for AI engineering: defining the 'harness' that turns a raw model into a useful agent."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "swyx",
-  "via": null,
-  "text": "it seems that the new metagame to boost your x articles is to quote tweet it with an aie video so that your article gets the 500k views from",
-  "why": "Swyx highlights a highly practical applied AI engineering stack for on-device fine-tuning of tiny models."
+  "topic": "parenting-education",
+  "author": "PCSnow1604",
+  "via": "C_Hendrick",
+  "text": "A paradox indeed 🔁 Posted Jul 18, 2026 at 8:37AM",
+  "why": "Deep pedagogical insight contrasting progressive education with explicit instruction regarding creativity and critical thinking."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "builders-craft",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Ursula K. Le Guin on suffering and getting to the other side of pain themarginalian.org/2018/11/19/urs… Posted Jul 17, 2026 at 3:02PM",
-  "why": "Beautiful contemplative curation from The Marginalian on Ursula K. Le Guin's philosophy of suffering and resilience."
+  "text": "it’s a shame nomad never took off I feel like i watched a hedge fund guy talk about this exact problem a decade ago and why nomad is 100x be",
+  "why": "Deep technical postmortem on scaling infrastructure for AI agents, hitting the sweet spot of builder craft and AI engineering."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "Pragmatic_Eng",
-  "via": "dexhorthy",
-  "text": "What is the “dark factory” that there’s so much talk about, in relation to software factories? @dexhorthy , founder of HumanLayer explains: ",
-  "why": "Excellent conceptual framing ('dark factories' and 'token smarter') for autonomous agent loops and maintaining architectural control."
+  "author": "margharithaa",
+  "via": "sh_reya",
+  "text": "im generally a skeptic. i didn't think this would work. but it did. it fixed my AI. i can still spot the claudeisms but it makes written con",
+  "why": "Practical applied AI engineering to combat LLM slopwords and improve writing outputs."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "As usual, part 2 of the weekly deals with speculative, regulatory, political and alignment questions. Xi gave an important speech yesterday,",
-  "why": "Zvi's consistently excellent synthesis of frontier AI developments, alignment research, and geopolitical AI posturing."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "gabridli",
+  "via": "erikphoel",
+  "text": "Excellent article Posted Jul 18, 2026 at 2:18PM",
+  "why": "Another pointer to the excellent Erik Hoel piece on AI and consciousness research."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"To love without knowing how to love wounds the person we love.\" A classic from one of the great teachers of our epoch themarginalian.org/20",
-  "why": "Timeless contemplative wisdom from Thich Nhat Hanh on the nature of love and attention, curated beautifully by The Marginalian."
+  "text": "\"Character — the willingness to accept responsibility for one’s own life — is the source from which self-respect springs.\" Joan Didion's cla",
+  "why": "Classic contemplative essay on self-respect and character by Joan Didion, curated by The Marginalian."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "I want @Alphaschool to succeed. That's why they should stop bashing traditional schools, tone down the marketing hype, and invite serious sc",
-  "why": "A substantive, critical look at the marketing and data behind Alpha School, providing a necessary counterweight to ed-tech hype."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "_brianpotter",
+  "via": null,
+  "text": "Claims about Saronic/California Forever Posted Jul 18, 2026 at 11:58AM",
+  "why": "Interesting behind-the-scenes look at the economics and labor politics of building hard tech infrastructure."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "agency",
-  "author": "asmartbear",
-  "via": null,
-  "text": "To improve, you often think: “Which weakness should I work on?\" Often, more effective is: \"Which natural strength should I lean into even mo",
-  "why": "Classic builder-operator wisdom from Jason Cohen on maximizing leverage by leaning into natural strengths rather than fixing weaknesses."
+  "topic": "parenting-education",
+  "author": "JinghanOng",
+  "via": "erikphoel",
+  "text": "Replying to @lulumeservey I think the current school system and modern society excessively rewards deep specialization. I have met really am",
+  "why": "Strong critique of modern education's over-specialization, advocating for the return of deep, discussion-based tutoring."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "thorstenball",
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "... aaaaand we're back! Probably the best summary of our current thinking on local development and where it's going. Posted Jul 17, 2026 at ",
-  "why": "Strong builder insights on how parallel cloud agents are reshaping development workflows and challenging the supremacy of local dev."
+  "text": "A paradox:  Minimally guided instruction sees creativity, curiosity and critical thinking as inputs , ie general skills to be cultivated dir",
+  "why": "Deep pedagogical insight contrasting progressive education with explicit instruction regarding creativity and critical thinking."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "ramez",
-  "via": "GaryMarcus",
-  "text": "Xi Jinping has now said more in support of democratization of AI and AI liberalization than any western politician I know of. Posted Jul 17,",
-  "why": "Interesting geopolitical context on China's AI strategy and rhetoric around open source and AI democratization."
+  "topic": "rationality",
+  "author": "JonGuze",
+  "via": "C_Hendrick",
+  "text": "Replying to @C_Hendrick @C_Hendrick I was pleased to see the reference to falsifiability. Few people are aware of it, and fewer still unders",
+  "why": "Solid philosophical dive into Popper's theory of knowledge and the practical importance of falsifiability in applied science."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "Replying to @aiDotEngineer 🆕 Research to Reality with Google DeepMind youtu.be/1P1hJ36rxM0 Way back in the ancient times of 2018, Google X s",
-  "why": "Insightful historical context and framing on how AI shifts developer roles from writing syntax to architecture and verification."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "PCSnow1604",
+  "via": "C_Hendrick",
+  "text": "The heart of current impasses on moving education forward so it can take its place alongside other, more highly esteemed professions: “…. so",
+  "why": "Strong defense of the science of learning and falsifiability against ideological capture in education academia."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "vaibcode",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "\"i'm going to bed. good night!\" will make sol never stop working full prompt: ok keep going! and really your job is to keep doing this patte",
-  "why": "A practical, raw look at an applied agentic workflow using adversarial checks and autonomous looping for coding tasks."
+  "text": "Hermann Hesse on how to hear the wisdom of the inner voice themarginalian.org/2018/12/12/her… Posted Jul 18, 2026 at 4:13AM",
+  "why": "Beautiful contemplative piece on intentional living and listening to one's inner voice, curated by The Marginalian."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "InezFeltscher",
-  "via": "naval",
-  "text": "Posted Jul 16, 2026 at 5:09PM",
-  "why": "An interesting data-driven debate on generational wealth, economic progress, and the narrative of millennial downward mobility."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Notable removals include: - Whistleblower protection language and the anonymous channel for reporting framework nonadherence. Posted Jul 16,",
+  "why": "High-signal tracking of frontier lab alignment policies, specifically xAI quietly removing whistleblower protections."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "We are pretty screwed with respect to China and LLMs, but it shouldn’t come as a surprise. I have been trying to warn everyone for a long ti",
-  "why": "Mostly self-congratulatory skepticism without new substantive analysis or data on the current state of frontier models."
+  "text": "Replying to @krishnanrohit Well put x.com/typewriters/st… Posted Jul 18, 2026 at 2:43AM",
+  "why": "Substantive, rigorous critique of AI regulation models, explaining why financial regulatory frameworks fail for frontier AI."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "visakanv",
   "via": null,
-  "text": "Our models update CI is now euromaxxing. Only updating the model catalogs during European business hours. github.com/earendil-works… Posted ",
-  "why": "A brief, mildly amusing engineering update, but lacks the depth or insight needed for a save."
+  "text": "I had something I’d kinda describe as a personal tragedy that happened about a year ago and it was by far the most liberating experience of ",
+  "why": "A raw, contemplative reflection on how personal tragedy and failure can unexpectedly lead to liberation."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "swyx",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "HOLY FUCKING SHIT the react avengers have assembled Posted Jul 17, 2026 at 6:32AM",
-  "why": "Just an industry hiring announcement. Lacks the substantive engineering or builder insights you look for."
+  "text": "Do scientists pray? Einstein answers a little girl's question about science vs. religion themarginalian.org/2013/07/11/do-… Posted Jul 18, 2",
+  "why": "A beautiful historical intersection of science and philosophy via Einstein's thoughts on religion."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "krishnanrohit",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "naval",
   "via": null,
-  "text": "This is one of the coolest things I've seen built! All from one small prompt. Just incredible! Posted Jul 17, 2026 at 5:57AM",
-  "why": "A 'look at this cool output' post without the underlying technical substance or methodology you prefer."
+  "text": "Regulatory capture by any other name tastes just as sour… Posted Jul 18, 2026 at 11:26AM",
+  "why": "High-stakes debate on frontier AI regulation, contrasting Hassabis's safety framing with Naval's regulatory capture critique."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "yes but Your browser does not support the video tag. Posted Jul 17, 2026 at 3:56PM",
-  "why": "Interesting sports stat, but falls outside your core focus areas of AI, education, and progress."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "TimSweeneyEpic",
+  "via": "naval",
+  "text": "This emerging industry is doing what software companies are supposed to do: compete and improve products rapidly. My view is, we should trea",
+  "why": "Good signal on Kimi-K3's coding capabilities via Arena evals, but mostly just an announcement and commentary."
  },
  {
   "rank": 24,
   "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Nonprofits have hollowed out our state capacity and corrupted the progressive project Posted Jul 18, 2026 at 3:35AM",
+  "why": "Touches on state capacity and progress, but leans a bit too close to political grievance rather than constructive analysis."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "awilkinson",
+  "via": null,
+  "text": "Most AI companies are going to zero. You can know the thing, and still lose all your money. For example, you could have the insight that \" c",
+  "why": "Touches on AI power constraints, but ultimately reads like a stock-picking thread rather than deep economic analysis."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "BrandonWarmke",
+  "via": "C_Hendrick",
+  "text": "When an academic says “everything is political” don’t ask what they mean. Just ask what follows from it, and to be specific. That’s when you",
+  "why": "Leans too heavily into academic culture-war grievances rather than substantive learning science or philosophy."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "simonw",
+  "via": null,
+  "text": "Huge relief, the Fablepocalypse has been permanently cancelled. If you were losing sleep over trying to use your Fable subscriber allowance ",
+  "why": "Despite being from Simon Willison, this is purely an announcement about Claude's pricing and limits."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "awilkinson",
+  "via": null,
+  "text": "In 2025, I invested millions into a Picasso. Now I'm buying a second one. PS: It's not a painting. x.com/awilkinson/sta… Posted Jul 18, 2026",
+  "why": "Another thread focused on stock-picking and financial speculation rather than substantive economic or technical analysis."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "awilkinson",
+  "via": null,
+  "text": "In January 2025, I called IREN a \" Picasso at a garage sale .” An AI data center company with insanely valuable assets trading dirt cheap be",
+  "why": "Another thread focused on stock-picking and financial speculation rather than substantive economic or technical analysis."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "levelsio",
+  "via": "awilkinson",
+  "text": "MacOS 27 in the browser created by Kimi K3 Your browser does not support the video tag. Posted Jul 17, 2026 at 11:44AM",
+  "why": "Falls into the anti-taste bucket of pure hype and video-only demo content without substantive engineering details."
+ },
+ {
+  "rank": 31,
+  "kept": false,
   "score": 2,
   "topic": "rationality",
-  "author": "C_Hendrick",
+  "author": "Noahpinion",
   "via": null,
-  "text": "\"You can’t make a culture. There is no real English way of playing. There is a Premier League way, kind of. But what is that? The league is ",
-  "why": "Sports commentary that falls outside your core focus areas of AI, education, and progress."
+  "text": "The U.S. basically has three live political movements: 1. Woke progressivism (now fading) 2. Socialist leftism 3. MAGA NONE of these movemen",
+  "why": "Pure political commentary, which falls into your anti-taste for culture-war and political punditry."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The Spanish Civil War isn't a perfect analogy for modern American politics, but it has lots of eerie parallels. noahpinion.blog/p/americas-p",
+  "why": "Political commentary and historical analogies for US politics, which falls into your anti-taste."
  }
 ]
