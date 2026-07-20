@@ -3,310 +3,100 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "Intelligence is what differentiates a lot of tech people from the people they grew up with, so they tend to fetishize it a bit. In reality i",
-  "why": "Brilliant philosophical essay on why AI takeoff is incremental, contrasting LLM reasoning with complex emergent systems."
+  "text": "Kimi K3 is a very good model with excellent benchmarks. Assuming its weights are released as planned it will become, purely in terms of raw ",
+  "why": "Rigorous, hype-free capability assessment of Kimi K3 and the reality of open vs closed model distillation."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "Ednever",
-  "via": "C_Hendrick",
-  "text": "This is still a gap at Alpha. Workshops try to teach things like “how to receive feedback” through different lens - instead of just teaching",
-  "why": "Profound insight into learning science, contrasting how different educational paradigms view creativity and critical thinking."
+  "topic": "econ-progress",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "tl;dr: Your $500K campaign costs $5K now We now have enough data to create a longitudinal study of Runway’s impact at some of the world’s la",
+  "why": "Incredible density of real-world business impact numbers from Runway's CEO showing a 2-3 order of magnitude collapse in costs."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Most system prompts and skills have a very short life expectancy. They are usually patches for the current model’s shortcomings. But those s",
-  "why": "Exceptional insight into AI engineering: as models improve, brittle prompt skills decay, making private context the only durable moat."
+  "topic": "econ-progress",
+  "author": "wolfejosh",
+  "via": "Noahpinion",
+  "text": "America Is About to Hand Its Best Founders to Its Rivals - * by Josh Wolfe (cofounder + partner, Lux Capital) + Deepak Hegde (Professor NYU ",
+  "why": "Data-rich, high-signal essay on how capping F-1 visas threatens America's structural advantage in retaining foreign STEM founders."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "emollick",
-  "via": null,
-  "text": "I feel like my timeline was right and now it is 3.5 months later. Assuming the Chinese government will still be okay with releasing open Myt",
-  "why": "Mollick tracking his own AI timeline predictions regarding open frontier models and enterprise readiness."
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
+  "via": "_brianpotter",
+  "text": "New tech does not change the world overnight. In 1806, the steam engine was over 90 years old and Watt's improved engine over 35 years old. ",
+  "why": "Excellent historical framing on tech diffusion timelines, providing a substantive counterweight to immediate AI transformation hype."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "This is one of my favorite econ papers, and part of why we are having Michael Kremer speak at Progress Conference this fall! Posted Jul 19, ",
-  "why": "High-signal pointer to a foundational economic progress paper on population growth and technological change."
+  "text": "Sleep and the meaning of life – the great Portuguese poet and philosopher Fernando Pessoa on the existential dimension of the horizontal hou",
+  "why": "A beautiful contemplative essay on sleep and existence from Fernando Pessoa to balance the tech-heavy feed."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "Borthwick",
-  "via": "GaryMarcus",
-  "text": "Agreed:    \"⁠There is a serious American argument for protecting industries that we can't afford to lose. But there has never been a serious",
-  "why": "Will Manidis (a favorite author) offers a sharp historical critique of using bureaucratic friction as stealth AI protectionism."
+  "topic": "ai-engineering",
+  "author": "Pragmatic_Eng",
+  "via": "dexhorthy",
+  "text": "What is “token harder” vs “token smarter”? @dexhorthy , founder of HumanLayer: “So, on token harder: I’m in a group chat called Hyper Engine",
+  "why": "Great operator wisdom on AI engineering: optimizing for stable architecture and value rather than mindlessly burning tokens."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
+  "topic": "ai-essays",
+  "author": "nicbstme",
   "via": null,
-  "text": "As the transcontinental railroad was being finished, one of the crews was laying track at the rate of 1 mph. “I never saw such organization ",
-  "why": "Striking historical data points on state capacity and construction speed, perfectly aligned with progress studies."
+  "text": "We’re entering a world of verifiability as a service. Anything cheap and fast to verify can be attacked by AI with absurd brut force. It can",
+  "why": "Fascinating mental model: AI will accelerate fastest in domains where verification is cheap and fast (math/code vs biology)."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "random_walker",
-  "via": null,
-  "text": "What should we do with the time savings enabled by AI? The default approach is to simply produce more output. In my ICML talk, I advocated t",
-  "why": "Thoughtful argument for reinvesting AI time-savings into long-term learning rather than just increasing short-term output."
+  "topic": "ai-essays",
+  "author": "toomasr",
+  "via": "random_walker",
+  "text": "A bit longer read (30 min), but besides great trivia (I'm a sucker for that), extremely well-argued points about AI's adoption and the futur",
+  "why": "Arvind Narayanan provides a highly substantive, skeptical breakdown of AI's actual adoption curve and impact on human work."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I kind of want AI Communism now Posted Jul 19, 2026 at 4:31PM",
-  "why": "Fascinating geopolitical and economic analysis of how open-weight models might lead to AI as a state-provided public good."
+  "author": "joshua_saxe",
+  "via": "sayashk",
+  "text": "From my reply to @TheZvi 's pro-xrisk take on AI 2027/2040 which called me (and others like @ramez , @sebkrier ) out on Substack: ... unlike",
+  "why": "Strong empirical pushback on AI x-risk timelines using natural experiments from current agent deployments."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "frankhellend",
-  "via": "every",
-  "text": "cool read by @lauraentis from @every : over-engineering your agent skills may lead to the (newer/better) model underperforming The Case Agai",
-  "why": "Substantive piece on AI engineering arguing that over-engineering agent skills degrades performance on newer models."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "emollick",
   "via": null,
-  "text": "From mitochondria to minds – the illustrated science of the psychedelic dream called life themarginalian.org/2026/07/19/the… Posted Jul 19, ",
-  "why": "Beautifully illustrated exploration of consciousness and biology, fitting your interest in philosophy and life sciences."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Guys, the world is so compute constrained. I honestly don’t understand how anyone can think otherwise. Almost nobody is seriously using AI t",
-  "why": "Sharp economic analysis on how severe compute constraints favor incumbents with massive non-AI cash flows to fund CapEx."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "curiouswavefn",
-  "via": "jasoncrawford",
-  "text": "Jefferson took time away on July 4, 1776, to take temperature measurements. He tried to devise a system of time measurements based on a simp",
-  "why": "Fascinating historical synthesis connecting the American founding directly to Enlightenment science and empirical skepticism."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "matthewstoller",
-  "via": "GaryMarcus",
-  "text": "I’d also add that OpenAI and big tech guys imagine that the only way to understand value is through high profit margins of monopolistic fron",
-  "why": "Strong economic argument on how open-source AI drives value to consumers by competing away the monopolistic margins of frontier labs."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Pioneering psychologist Carl R. Rogers on how to fix breakdowns in communication themarginalian.org/2025/11/11/car… Posted Jul 20, 2026 at 1",
-  "why": "Classic Marginalian deep-dive into psychology and intentional communication via Carl Rogers."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Cry, Heart, but Never Break – a moving Danish illustrated meditation on loss and life themarginalian.org/2016/03/08/cry… Posted Jul 19, 2026",
-  "why": "A beautiful, contemplative meditation on loss and life, offering a calm counterweight to the tech-heavy feed."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "idavidrein",
-  "via": "ajeya_cotra",
-  "text": "Commodities form when you can't innovate anymore, and it seems very unlikely we'll hit capability ceilings anytime soon, so I'd bet against ",
-  "why": "A sharp, concise counter-argument regarding the economic commoditization of AGI and capability ceilings."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "sdamico",
-  "via": "Noahpinion",
-  "text": "every plugged-in device will have a battery Posted Jul 20, 2026 at 12:45AM",
-  "why": "Detailed hardware teardown of the new Starlink Mini, but lacks broader progress synthesis."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "benjamin_horne",
-  "via": "GaryMarcus",
-  "text": "As @nic_carter said recently: “It’s not the government’s role to freeze the AI market in its current configuration.” I totally agree with th",
-  "why": "Opinionated take on AI market dynamics and lab profitability, but lacks deep technical or economic analysis."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "“The leading closed labs, already a duopoly in terms of AI model revenue, want the government to eliminate their open source competition.” G",
-  "why": "Valid critique of AI regulatory capture, but less rigorous than the Manidis essay on the exact same topic."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "petergyang",
-  "via": "trq212",
-  "text": "“We’ve got /loop, /goal, and workflows. They all get the agent to run for long periods of time.” Here’s my new episode with @trq212 from the",
-  "why": "Podcast promotion. The core engineering insights from this interview were better distilled in other shared threads."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Chance, choice, and the avocado – the fascinating evolutionary and creative history of Earth's most nutritious fruit themarginalian.org/2022",
-  "why": "Beautifully written history of the avocado, but slightly outside your core focus areas."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Short of government intervention, Anthropic and OpenAI are probably fucked. Personally, I hope the government will let capitalism run its co",
-  "why": "Skeptical punditry on AI lab profitability, but lacks the rigorous numbers or analysis you prefer."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "If you could use an inhale of wonder, consider the eye of the scallop: themarginalian.org/2023/06/21/sca… Posted Jul 19, 2026 at 7:23PM",
-  "why": "A brief moment of biological wonder, but lacks the deeper philosophical synthesis you usually save."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "At the link, the best of The Marginalian this week, in one place  – how to help someone change: the samurai guide to giving feedback; Nick C",
-  "why": "Weekly newsletter roundup rather than a standalone essay."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "ProfEmilyOster",
-  "via": null,
-  "text": "I got upset about having to do all the dinner planning in my household so I built something to help -- something simple but flexible.  Now i",
-  "why": "A product promotion for a dinner planning tool rather than substantive insights on parenting or learning science."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "trq212",
-  "via": null,
-  "text": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts Posted Jul 19, 2026 at ",
-  "why": "Just a teaser for an upcoming post; the actual insights are better captured in the quoted thread itself."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "zerohedge",
-  "via": "GaryMarcus",
-  "text": "\"Signs Of Panic\": Goldman Derivs Guru Warns AI Credit Blowout Spilling Over To Entire Market zerohedge.com/markets/signs-… Posted Jul 19, 20",
-  "why": "Financial doom-mongering and market hype without substantive technological analysis."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "🗽 AI Engineer returns to NYC! Oct 12-14, a beautiful time to visit. Tickets go on sale soon, but the Call for Speakers is now ope ai.enginee",
-  "why": "Pure event announcement and call for speakers, lacking substantive engineering insights."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "seandsweeney",
-  "via": "Noahpinion",
-  "text": "For what it’s worth, I’m mostly left leaning and usually vote Democrat, and so do most of my friends, but every single one of us thinks this",
-  "why": "Pure political rage-bait and culture-war dunking, which violates your anti-taste rules."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "JamieMetzl",
-  "via": "tobi",
-  "text": "I am a lifelong Democrat. I served on President Clinton’s National Security Council and in the State Department under Madeleine Albright. I ",
-  "why": "Pure political commentary and culture-war framing."
+  "text": "This is a good reaction to AI in academia. If we play it right, along with the inevitable chaos that is already hitting the journals, it wil",
+  "why": "Mollick highlights how AI shifts the premium in academia from computational complexity back to novel insights and mechanisms."
  }
 ]
