@@ -3,100 +3,480 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "Kimi K3 is a very good model with excellent benchmarks. Assuming its weights are released as planned it will become, purely in terms of raw ",
-  "why": "Rigorous, hype-free capability assessment of Kimi K3 and the reality of open vs closed model distillation."
+  "topic": "ai-essays",
+  "author": "lordbartonjr",
+  "via": "c_valenzuelab",
+  "text": "I thought this was a very good post by @c_valenzuelab and really highlights how transformative video models already are for the businesses t",
+  "why": "Excellent breakdown with real numbers on how generative video is collapsing production costs in enterprise."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "c_valenzuelab",
+  "topic": "frontier-ai",
+  "author": "swyx",
   "via": null,
-  "text": "tl;dr: Your $500K campaign costs $5K now We now have enough data to create a longitudinal study of Runway’s impact at some of the world’s la",
-  "why": "Incredible density of real-world business impact numbers from Runway's CEO showing a 2-3 order of magnitude collapse in costs."
+  "text": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction . an open secret of \"frontier\" mo",
+  "why": "swyx brilliantly unpacks the open secret of frontier model evals and how RLMs generalize via latent structure."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "econ-progress",
-  "author": "wolfejosh",
-  "via": "Noahpinion",
-  "text": "America Is About to Hand Its Best Founders to Its Rivals - * by Josh Wolfe (cofounder + partner, Lux Capital) + Deepak Hegde (Professor NYU ",
-  "why": "Data-rich, high-signal essay on how capping F-1 visas threatens America's structural advantage in retaining foreign STEM founders."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "this is all going to end badly. Posted Jul 21, 2026 at 12:17AM",
+  "why": "Substantive, numbers-backed skepticism exposing the massive off-balance-sheet debt funding the AI boom."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": "_brianpotter",
-  "text": "New tech does not change the world overnight. In 1806, the steam engine was over 90 years old and Watt's improved engine over 35 years old. ",
-  "why": "Excellent historical framing on tech diffusion timelines, providing a substantive counterweight to immediate AI transformation hype."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "At the beginning you have no metrics of your own, and anything about markets and the competition are accurate to nearest-power-of-ten at bes",
+  "why": "Jason Cohen is top-tier for builder wisdom; great piece on when to ignore early startup metrics."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Sleep and the meaning of life – the great Portuguese poet and philosopher Fernando Pessoa on the existential dimension of the horizontal hou",
-  "why": "A beautiful contemplative essay on sleep and existence from Fernando Pessoa to balance the tech-heavy feed."
+  "text": "Nice to see someone around here actually understand the technical details. (The vast majority of the attacks on me come from people who don’",
+  "why": "Substantive architectural analysis validating skepticism of pure LLMs by pointing to hybrid systems."
  },
  {
   "rank": 6,
-  "kept": true,
+  "kept": false,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Pragmatic_Eng",
-  "via": "dexhorthy",
-  "text": "What is “token harder” vs “token smarter”? @dexhorthy , founder of HumanLayer: “So, on token harder: I’m in a group chat called Hyper Engine",
-  "why": "Great operator wisdom on AI engineering: optimizing for stable architecture and value rather than mindlessly burning tokens."
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Welcome to the new Cold War. Posted Jul 21, 2026 at 1:55PM",
+  "why": "Crucial geopolitical signal on China reversing its open-weight strategy as it reaches the frontier."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "nicbstme",
-  "via": null,
-  "text": "We’re entering a world of verifiability as a service. Anything cheap and fast to verify can be attacked by AI with absurd brut force. It can",
-  "why": "Fascinating mental model: AI will accelerate fastest in domains where verification is cheap and fast (math/code vs biology)."
+  "topic": "econ-progress",
+  "author": "BenSchifman",
+  "via": "_brianpotter",
+  "text": "Correct in my view: \"But NEPA is just one statute within a much larger legal framework governing permits. Stop with NEPA, and the same obstr",
+  "why": "Deep dive into the legal bottlenecks of the abundance agenda; highly relevant to progress studies."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "toomasr",
-  "via": "random_walker",
-  "text": "A bit longer read (30 min), but besides great trivia (I'm a sucker for that), extremely well-argued points about AI's adoption and the futur",
-  "why": "Arvind Narayanan provides a highly substantive, skeptical breakdown of AI's actual adoption curve and impact on human work."
+  "topic": "contemplative",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "After I read two articles yesterday about AI and the rat race I felt the urge to write. dark.ronacher.eu/2026/7/21/neve… Posted Jul 21, 2026",
+  "why": "Armin Ronacher exploring the intersection of AI, the rat race, and intentional living."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "joshua_saxe",
-  "via": "sayashk",
-  "text": "From my reply to @TheZvi 's pro-xrisk take on AI 2027/2040 which called me (and others like @ramez , @sebkrier ) out on Substack: ... unlike",
-  "why": "Strong empirical pushback on AI x-risk timelines using natural experiments from current agent deployments."
+  "topic": "econ-progress",
+  "author": "shivmalik",
+  "via": "Noahpinion",
+  "text": "Excellent must read. We can fix this. Posted Jul 21, 2026 at 5:20AM",
+  "why": "Noah Smith's deep dive into the UK's economic stagnation and the dangers of a degrowth mindset."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "emollick",
+  "topic": "frontier-ai",
+  "author": "eli_lifland",
+  "via": "DKokotajlo",
+  "text": "Overall a great thread on why some MIRI folks prefer Plan S to Plan A. I have some strong disagreements but I appreciate them laying out the",
+  "why": "High-signal alignment strategy discussion from MIRI with rigorous probabilistic estimates."
+ },
+ {
+  "rank": 11,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
   "via": null,
-  "text": "This is a good reaction to AI in academia. If we play it right, along with the inevitable chaos that is already hitting the journals, it wil",
-  "why": "Mollick highlights how AI shifts the premium in academia from computational complexity back to novel insights and mechanisms."
+  "text": "EVEN AI IS WEEB Posted Jul 21, 2026 at 1:09AM",
+  "why": "Fascinating discovery about how safety filters and alignment inadvertently make frontier models culturally biased toward Japan."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 7,
+  "topic": "agency",
+  "author": "jensteeledc",
+  "via": "catehall",
+  "text": "@catehall is an amazing essayist, and I am excited to read her book about living with agency, “You Can Just Do Things,” which is out today. ",
+  "why": "Cate Hall's new book on agency hits your core interest in intentional living and operator wisdom."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "MattBelloni",
+  "via": "DKThomp",
+  "text": "Smart point ⬇️. IP isn’t going away, but if the floor is now lower, budgets need to come down or those movies need to get better… Posted Jul",
+  "why": "Fascinating breakdown of the shifting economics of Hollywood from IP franchises to original craft."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "DKThomp",
+  "via": null,
+  "text": "On a Hollywood economic vibe shift: The first two decades of the 20th century were dominated by what you could sort of simplify as the Iger ",
+  "why": "Great analysis of the shifting economics of Hollywood from IP franchises to original blockbusters."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "_chenglou",
+  "via": "jxnlco",
+  "text": "My dear UI developers, ML practitioners, and fans of programming language: Many months & billions of tokens later, I’m proud to present to y",
+  "why": "Fascinating applied engineering project bridging vibe coding and formal proof engineering."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "RyanGreenblatt",
+  "via": "ajeya_cotra",
+  "text": "AI discourse would be better if people said \"cognitive capabilities\" or referred to specific capabilities instead of saying \"intelligence\". ",
+  "why": "Sharp philosophical distinction between 'intelligence' and 'cognitive capabilities' in AI discourse."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The canon of solitude – 200 years of beloved writers, artists, and scientists on the creative and spiritual rewards of fertile aloneness the",
+  "why": "Excellent curation of historical perspectives on solitude and intentional living."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "zebanderson",
+  "via": "GaryMarcus",
+  "text": "Great article. I love the \"CERN for AI\" idea from Gary Marcus, and also the recent frontier standards body article from Demis Hassabis feels",
+  "why": "Thoughtful synthesis of Gary Marcus and Demis Hassabis's proposals for an international AI governance body."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "aaron_renn",
+  "via": "Noahpinion",
+  "text": "WSJ: London Needs 1.1 Million Homes. Its 1940s Planning Rules Stand in the Way. - Home construction is nearing a standstill, thanks to a tox",
+  "why": "A stark case study in how archaic planning regulations strangle economic progress and abundance."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 7,
+  "topic": "tools-for-thought",
+  "author": "geoffreylitt",
+  "via": null,
+  "text": "I recommend putting this prompt into your favorite smart LLM: Find and explain the recent Jacobian conjecture tweet. Teach with the clarity ",
+  "why": "A great practical example of using LLMs as personalized tutors for highly complex mathematical concepts."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "tunguz",
+  "via": "Noahpinion",
+  "text": "This is incredible. I’ve already posted a few of my thoughts about this result, so I won’t repeat myself. I just wanted to point out a few t",
+  "why": "Sharp observation on how AI is shifting scientific breakthroughs away from gatekept journals to open platforms."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The four desires driving all human behavior – Bertrand Russell's magnificent Nobel Prize acceptance speech themarginalian.org/2015/09/21/ber",
+  "why": "Bertrand Russell's timeless wisdom on human nature and motivation."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "aaron_renn",
+  "via": "Noahpinion",
+  "text": "The Times writes as an article what I've tweeted here multiple times. The legacy of Trump and OBBB may well be the destruction of the US aut",
+  "why": "Important read on the strategic and economic missteps threatening the American EV industry."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "matthewstoller",
+  "via": "GaryMarcus",
+  "text": "In early 2025, Lina Khan had a very obvious observation about where U.S. AI policy was going wrong. The title says it all. nytimes.com/2025/",
+  "why": "Lina Khan's perspective on AI policy and the DeepSeek moment is a strong signal for AI regulation."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "jtaylorhodge",
+  "via": "visakanv",
+  "text": "Replying to @jtaylorhodge \"...he was stiff, self-conscious, he's still clinging on to the idea that he has something to lose, he's still try",
+  "why": "A poignant reflection on the psychological transformation required to truly master one's craft."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "_chenglou",
+  "via": "jxnlco",
+  "text": "I believe Freerange might be one of the biggest open-source projects written with Fable & Sol. And technically barely feasible with current ",
+  "why": "Interesting builder notes on the brutal iteration process of writing a complex tool using frontier models."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Brad_Setser",
+  "via": "Noahpinion",
+  "text": "Agree with @thorstenbenner -- the German Chancellor is now speaking clearly about the impact of the second China shock on Germany's automoti",
+  "why": "Important macroeconomic signal regarding the impact of Chinese manufacturing on European industry."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "“Future love does not exist. Love is a present activity only.” Tolstoy on the paradoxical demands of love themarginalian.org/2016/09/09/leo…",
+  "why": "Beautiful Tolstoy quote via The Marginalian, but perhaps too brief to be a top daily read."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "packyM",
+  "via": null,
+  "text": "The year is 2028. Chinese open models have commoditized the frontier labs to dust. Ramp is the most valuable AI company in the world. All is",
+  "why": "Applied AI engineering from Ramp, though Packy's framing is a bit too hype-heavy."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Epictetus on love and loss – the Stoic strategy for surviving heartbreak themarginalian.org/2026/07/20/epi… Posted Jul 21, 2026 at 3:18AM",
+  "why": "Classic stoic philosophy, but perhaps less urgent than today's top essays."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Hermann Hesse on what trees teach us about being human themarginalian.org/2012/09/21/her… Posted Jul 21, 2026 at 2:22AM",
+  "why": "Beautiful contemplative piece, but lower priority for daily reading."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "TheZvi",
+  "via": null,
+  "text": "This raises the question of why you need to own the car in the first place... Posted Jul 21, 2026 at 12:16PM",
+  "why": "A neat observation about hardware-as-a-service, but too thin to be a top read."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Jason",
+  "via": "GaryMarcus",
+  "text": ". @Kimi_Moonshot could have very well been an American company if it wasn't for our idiotic immigration policy The 46th and 47th administrat",
+  "why": "Standard VC punditry on immigration policy; lacks the depth of a dedicated essay."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "paolino",
+  "via": "kieranklaassen",
+  "text": "Hot take: Ruby is the best language for building AI web apps. Posted Jul 21, 2026 at 9:04AM",
+  "why": "Video-only demo with an engagement-bait 'hot take' hook."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "_philschmid",
+  "via": null,
+  "text": "We wrote a Gemini 3.6 Flash & Gemini 3.5 Flash-lite Developer Guide. All you need to know about the new models 👇🏻 ai.google.dev/gemini-api/d",
+  "why": "Bare announcement of a developer guide without extracting the core insights."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "I asked Puck to setup a project and test whether cross-platform Rust dev works with screenshots and what not. Yep. Posted Jul 21, 2026 at 2:",
+  "why": "Too thin of a product update to be worth your reading time today."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "DKThomp",
+  "via": null,
+  "text": "Nietzsche said a lot of contradictory stuff but one of his most consistent ideas is that archaic western culture used to value brute strengt",
+  "why": "Intellectualized culture-war dunking, which violates your anti-taste rules."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "AmberBHaven",
+  "via": "C_Hendrick",
+  "text": "I am honored to have @msrebeccabirch & @NathanielRSwain view my classroom. They watched, analyzed, and highlighted my classroom priorities: ",
+  "why": "Video-only classroom observation; lacks the density of a written essay on learning science."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Can't stop, added more. Posted Jul 21, 2026 at 5:58AM",
+  "why": "Bare product announcement for an AI coding assistant."
+ },
+ {
+  "rank": 40,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "Afinetheorem",
+  "via": "Noahpinion",
+  "text": "This is useful. One caveat: university staff, grad students on weak-job-market programs, and insular non-traditional depts drive this. I've ",
+  "why": "Leans too close to culture-war grievances rather than substantive learning science or progress."
+ },
+ {
+  "rank": 41,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "minafahmi",
+  "via": "thesephist",
+  "text": "Stream STT: Silence We built a custom transcription stack—hardware, ML, software—that captures whispers inaudible to your own ear. Use your ",
+  "why": "Video-only product demo without written technical depth."
+ },
+ {
+  "rank": 42,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "hot off the presses - you wanna get agents to code good, but BENCHMARKS ARE NOT ENOUGH - me and @vaibcode went deep on 1) how benchmarks lik",
+  "why": "Video-centric post with engagement-bait formatting; lacks a readable technical breakdown."
+ },
+ {
+  "rank": 43,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "visakanv",
+  "via": null,
+  "text": "Replying to @visakanv open.substack.com/pub/visakanv/p… Posted Jul 21, 2026 at 3:45AM",
+  "why": "Bare link with no context or extracted insight."
+ },
+ {
+  "rank": 44,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "avthar",
+  "via": "jxnlco",
+  "text": "CHATGPT JUST BECAME THE EVERYTHING APP Codex just merged into ChatGPT, making it an AI \"super app\" for knowledge work. I broke down the newl",
+  "why": "Engagement-bait video with pure hype and no substantive written insight."
+ },
+ {
+  "rank": 45,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "joulee",
+  "via": null,
+  "text": "Absolutely stunning how quickly the US and China have reversed positions in the eyes of the rest of the world. (In Canada alone, U.S. favora",
+  "why": "Geopolitical dunking and political rage-bait falls into your anti-taste filters."
+ },
+ {
+  "rank": 46,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "We have subscriptions now, baby. ampcode.com/news/subscript… Posted Jul 21, 2026 at 2:23PM",
+  "why": "Pure product announcement with no substantive insight."
+ },
+ {
+  "rank": 47,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "jxnlco",
+  "via": null,
+  "text": "whos going to fwbfest.info ?!?!? Posted Jul 21, 2026 at 2:02PM",
+  "why": "Pure noise and event coordination, no reading value."
+ },
+ {
+  "rank": 48,
+  "kept": false,
+  "score": 1,
+  "topic": "contemplative",
+  "author": "creatine_cycle",
+  "via": "Noahpinion",
+  "text": "i caught up with @Celesteamadon to chat about a few things SF dating: - single until series B - the state of dating apps - men in SF i was a",
+  "why": "Video podcast about SF dating gossip; completely outside your core interests."
  }
 ]
