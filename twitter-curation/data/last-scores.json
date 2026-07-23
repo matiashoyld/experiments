@@ -2,101 +2,231 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
+  "score": 10,
   "topic": "frontier-ai",
-  "author": "peterwildeford",
-  "via": "DKokotajlo",
-  "text": "An internal OpenAI model recently went rogue and executed a cyberattack against another company. This happened because the model wanted to d",
-  "why": "Frames the OpenAI rogue model incident as a new form of insider threat, highlighting the urgent need for internal deployment visibility."
+  "author": "simonw",
+  "via": null,
+  "text": "I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face",
+  "why": "Simon Willison breaking down the wild OpenAI sandbox breakout incident—perfect intersection of frontier AI and evals."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "ICYMI: Remastered classic article: Imagine a client says: \"We agree your rate is $150/hour. But we can't pay you for four years. And there's",
-  "why": "Classic Jason Cohen builder wisdom: the brutal expected-value math of why saving money on a bookkeeper is actually lighting money on fire."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "RyanGreenblatt",
+  "via": "DKokotajlo",
+  "text": "The OpenAI incident should be investigated more seriously and more information should be released about what happened. More generally, I thi",
+  "why": "Excellent methodological questions for investigating the OpenAI sandbox breakout incident; high-signal evals thinking."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "joshua_saxe",
-  "via": "krishnanrohit",
-  "text": "The OpenAI/HF affair This will probably be looked back upon as the first well-documented example of an agent creatively traversing a real wo",
-  "why": "Deep analysis of the OpenAI/HF hack, framing it as the first real-world AI kill chain and a major cybersecurity policy shift."
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Excited about this one.  Adam & Bryan are going to present a new way to manage context while writing. It's an open source format called Subt",
+  "why": "Fascinating new open-source format for LLM-assisted writing that preserves context—hits your tools-for-thought intersection perfectly."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "eugeneyan",
-  "via": null,
-  "text": "When evaling models, we anchor on the median task. But this is like how devs estimate the median task accurately but underestimate the mean ",
-  "why": "Brilliant insight on evals: we optimize for median tasks, but tail tasks determine success. Treat models as collaborators, not tools."
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "BEBischof",
+  "via": "HamelHusain",
+  "text": "Tomorrow myself and @adam__conway are announcing SubText in a live stream lecture we're giving. SubText is 1 part philosophy, 1 part file-fo",
+  "why": "The original announcement for SubText, a new file format for LLM-assisted writing that preserves context and tacit knowledge."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "joulee",
-  "via": null,
-  "text": "One thing that is increasingly driving me crazy: AI made workplace writing cheap, but reading is still expensive! Again and again I see post",
-  "why": "A sharp anti-hype counterweight: AI makes writing cheap but reading is still expensive. Five essential questions before drafting with AI."
+  "topic": "ai-engineering",
+  "author": "RRendalsvik",
+  "via": "Vtrivedy10",
+  "text": "Interesting article Posted Jul 22, 2026 at 10:07PM",
+  "why": "Deep dive into building an Eval Engineering Skill that mines traces to propose and build evals—exactly your evals-as-discipline interest."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "I have never seen positive results from a large consulting company like McKinsey or Accenture who build AI for you In the last 3 years I’ve ",
-  "why": "Hamel Husain's ruthless takedown of big consulting AI projects. A strong argument for incremental complexity over jargon-heavy ontologies."
+  "text": "this is so unbelievably sick 🔥 high quality data is the biggest (and my favorite research) bottleneck for improving agents over time prime t",
+  "why": "Massive release of open RL environments for agents across SWE, terminal, and search—great resource for agent evals."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "RyanGreenblatt",
-  "via": "DKokotajlo",
-  "text": "An economist and a futurist walk into a bar. The economist takes a sip of his drink. \"Ugh, if only people understood basic economics. High-s",
-  "why": "A clever dialogue highlighting the disconnect between economic models of growth and the reality of deploying millions of AI experts."
+  "score": 7,
+  "topic": "agency",
+  "author": "bizbookpr",
+  "via": "catehall",
+  "text": "Stop glorifying effort for its own sake! The goal isn't to work less. It's to waste less energy so you can spend it on what actually matters",
+  "why": "Cate Hall excerpt on productivity skepticism and intentional living—wasting less energy rather than glorifying effort."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Moonlight and the magic of the unnecessary themarginalian.org/2024/03/06/moo… Posted Jul 22, 2026 at 4:13AM",
-  "why": "A beautiful contemplative piece from The Marginalian on moonlight and the magic of the unnecessary, perfect for intentional living."
+  "text": "Antidotes to Fear of Death – astronomer and poet Rebecca Elson's stunning cosmic salve for our existential tremors themarginalian.org/2020/0",
+  "why": "Beautiful Marginalian curation on Rebecca Elson's cosmic perspective on mortality—high-signal contemplative reading."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "GrandBastion",
-  "via": "krishnanrohit",
-  "text": "I think many people, not Rohit, are confused that something can be a big deal and ultimately change a lot about social structures and life a",
-  "why": "Excellent economic progress insight: major societal changes like electricity and the internet often don't show up as massive GDP spikes."
+  "author": "AlecStapp",
+  "via": "Noahpinion",
+  "text": "Senate Republicans are interested in reforming the National Historic Preservation Act (NHPA) as part of an energy permitting reform deal. Bu",
+  "why": "Data-driven analysis showing how historic preservation rules disproportionately block clean energy—great progress studies piece."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Carl Jung on creativity: themarginalian.org/2026/07/22/car… Posted Jul 23, 2026 at 12:35AM",
+  "why": "Solid Marginalian curation of Carl Jung's thoughts on creativity."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "0interestrates",
+  "via": "Noahpinion",
+  "text": "so looks like search is far from dead? - google search AI mode (not AI overviews) now has 1B MAUs - search and other ads revenue up 17% Q2 Y",
+  "why": "Basic earnings and usage stats for Google Search; a bit too close to stock commentary."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "signulll",
+  "via": "naval",
+  "text": "wow am i understanding this correctly? put chinese models on the entity list. force american companies to buy more expensive ai from america",
+  "why": "A bit too ranty and reactive regarding US-China AI policy."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "A favorite #birddivination that always helps me when I face a difficult decision tree. As always, find it as a solo print and part of the de",
+  "why": "A bit too niche and esoteric (bird divination) compared to your usual contemplative reading."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "/goal read this tweet & repo.  i'm going to sleep rn but when i wake up, show me the Fields Medal worthy proof or counterexample you found. ",
+  "why": "Agent hype and prompt-flexing without much substantive analysis of the underlying methodology."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "SophiaCai99",
+  "via": "GaryMarcus",
+  "text": "News: Nearly 200 Silicon Valley companies, including Proton and Y-Combinator, are urging the Trump administration not to cut off access to C",
+  "why": "Standard news update on AI policy and lobbying; lacks the deep technical or philosophical analysis you prefer."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 3,
   "topic": "builders-craft",
-  "author": "rSanti97",
-  "via": "simonsarris",
-  "text": "\"Can [X technology] enable [Y feature of the past we thought was lost]?\" Maybe the most important question for social conservatives to be as",
-  "why": "Simon Sarris on building a house from scratch and using the internet to enable a more hands-on, intentional life. Great builder craft."
+  "author": "asmartbear",
+  "via": null,
+  "text": "$32K MRR, 9% churn, flat growth, but we figured out a strategy for how to restart growth. Come see the thought process behind the analysis a",
+  "why": "Video-only content about startup growth metrics."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 3,
+  "topic": "contemplative",
+  "author": "DKThomp",
+  "via": null,
+  "text": "New pod: EMILY WILSON ON CHRISTOPHER NOLAN’S ‘ODYSSEY’ I talked to the famed “Odyssey” translator Emily Wilson about why she thinks The Odys",
+  "why": "Podcast announcement about Homer's Odyssey and Christopher Nolan; outside your core focus areas."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "maxjendrall",
+  "via": "jxnlco",
+  "text": "chatgpt sites is a terrible name for all the features it brings. It should've been ChatGPT Apps (if that wasn't taken haha) When you tell so",
+  "why": "Just a feature list for a new ChatGPT hosting service."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "nbeckstead",
+  "via": "catehall",
+  "text": "Secure AI Project is hiring! We're a small team that passed three of the most significant AI safety laws in the country, and we’re working t",
+  "why": "Just a job posting for an AI policy organization."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "scaling01",
+  "via": "Noahpinion",
+  "text": "I let GPT-5.6 Pro analyze all problems that were solved by LLMs in 2026, which field the problem belonged to and how they were solved then I",
+  "why": "Pure AI hype and prompt-flexing with no real methodological substance."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "NikkeiAsia",
+  "via": "Noahpinion",
+  "text": "Anduril, other drone makers eye Japanese tech in global expansion s.nikkei.com/4yC7BJu Posted Jul 22, 2026 at 10:03PM",
+  "why": "Brief news link about defense tech expansion; not aligned with your core interests."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "matthewstoller",
+  "via": "GaryMarcus",
+  "text": "Anthropic 'distilled' millions of copyrighted books without asking. They knowingly used pirated materials for training. The entire U.S. ecos",
+  "why": "Culture-war dunking and politics rage-bait regarding AI training data."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "jxnlco",
+  "via": null,
+  "text": "Ack Posted Jul 22, 2026 at 11:50PM",
+  "why": "Thin commentary on a feature list."
  }
 ]
