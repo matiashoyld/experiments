@@ -2,131 +2,301 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 8,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "dexhorthy",
-  "text": "🆕 @dexhorthy 's latest keynote: Harness Engineering is not Enough: Why Software Factories Fail On the Hacker News frontpage right now! Poste",
-  "why": "Deep dive into why software factories fail and advanced context engineering for agents."
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "Everyone should own their Model Routing calibrated using their own Evals it should be fully transparent and tunable to your tasks not an ave",
+  "why": "Hits your 'evals-as-discipline' intersection perfectly: a rigorous, methodological argument for task-level model routing based on custom evals."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Albert Camus on the 3 antidotes to the absurdity of life themarginalian.org/2026/07/23/alb… Posted Jul 24, 2026 at 3:23AM",
-  "why": "Classic philosophical curation on meaning and absurdity from The Marginalian."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "pamelafox",
+  "via": "HamelHusain",
+  "text": "\"Do automated evals work?\" parlance-labs.com/blog/posts/aut… @HamelHusain and @doesdatmaksense use multiple LLM-powered tools to identify fa",
+  "why": "Hamel Husain diving deep into methodological rigor for LLM systems—exactly the 'evals-as-discipline' content you value most."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 7,
+  "score": 8,
   "topic": "builders-craft",
-  "author": "nattyover",
-  "via": "Noahpinion",
-  "text": "My profile of new Fields Medalist Hong Wang, who proved the 3D Kakeya set conjecture last year, among other blockbuster results. Interesting",
-  "why": "High-quality Quanta profile on a Fields Medalist and her mathematical breakthroughs."
+  "author": "elvissun",
+  "via": "asmartbear",
+  "text": "this is a must watch for every founder. @DmytroKrasun shared being stuck at $30k mrr for a year and I can relate so much to everything in th",
+  "why": "Deeply resonant builder-operator wisdom on avoiding the bootstrap plateau and picking problems worthy of your best years."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "DKThomp",
   "via": null,
-  "text": "Robert Louis Stevenson on falling in love and loving beyond the fall themarginalian.org/2026/06/08/rob… Posted Jul 24, 2026 at 1:07AM",
-  "why": "Contemplative curation on love and human connection from The Marginalian."
+  "text": "One way to think about the open-weight AI discussion is to start with the question: How do people use AI today? In 2025, OpenAI published a ",
+  "why": "Excellent structural analysis of the AI market using real usage data to predict the open vs. closed model divide."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "Here’s the link maven.com/p/9583fd/how-t… Posted Jul 24, 2026 at 12:05AM",
-  "why": "Practical resource on using open models effectively from a respected AI engineer."
+  "text": "Means-misaligned still seems very bad! We want agents that are ethical and that obey the law. Someday someone will give a long-running agent",
+  "why": "Excellent conceptual clarity on AI alignment, distinguishing between means-misalignment and ends-misalignment using a concrete incident."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "It's kind of wild how scared young guys seem to be of rejection. Maybe for people who grew up scrolling social media feeds, in-person reject",
-  "why": "Brief social commentary on youth psychology and social media's impact on resilience."
+  "score": 8,
+  "topic": "spanish-ai",
+  "author": "antoniosarosi",
+  "via": "vaibcode",
+  "text": "Here's the honest, hand-written story of how I went from reading every single line of code to reading none and merging, and the strategies i",
+  "why": "A fantastic, honest essay from a Spanish traditional developer on overcoming AI denial and changing how he builds software."
  },
  {
   "rank": 7,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "baskaran1073",
-  "via": "jxnlco",
-  "text": "This feels like the real unlock: voice isn’t just dictation anymore, it’s orchestration. I use Wispr daily for writing, but talking to Codex",
-  "why": "Brief observation on voice as orchestration, but mostly reacting to an announcement."
+  "kept": true,
+  "score": 8,
+  "topic": "agency",
+  "author": "asmartbear",
+  "via": null,
+  "text": "ICYMI: Remastered classic article: \"But I can do my own taxes and save $1000.” Yes. And every hour you spend on them costs you $1000 in lost",
+  "why": "A classic Jason Cohen essay on the true value of a founder's time and the hidden costs of doing everything yourself."
  },
  {
   "rank": 8,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "suchenzang",
-  "via": "Noahpinion",
-  "text": "the legend of john pardon: so extraordinary, that simply a whiff of his lore was enough to convince me to not pursue maths any further S-tie",
-  "why": "Thin commentary on math prodigy lore; lacks the depth of a full essay."
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "Pragmatic_Eng",
+  "via": "dexhorthy",
+  "text": "Why did spec-driven development never take off - the workflow tools like Amazon’s Kiro or GitHub Workspaces encouraged? @dexhorthy , founder",
+  "why": "Excellent builder insight on why AI makes ephemeral planning documents superior to maintaining long-lived, drifting software specs."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "DKThomp",
   "via": null,
-  "text": "Disagree vehemently. US should win by being better, not tilt at windmills. Posted Jul 24, 2026 at 12:13AM",
-  "why": "Geopolitical debate on AI regulation; leans too heavily into political posturing."
+  "text": "The part of my conversation with Emily Wilson that's been shared the most is her critique of the Nolan film, because the Odysseus that she l",
+  "why": "Fascinating essayistic reflection on translation, myth, and our highly modern obsession with historical exactitude in ancient stories."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "trevin",
-  "via": "danshipper",
-  "text": "Our new /ce-pov skill is one of Compound Engineering's latest upgrades.  It gives you a simple way to get a grounded, multi-model, answer to",
-  "why": "Product feature showcase with a video; lacks the depth of a written engineering essay."
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Mary Oliver on staying alive themarginalian.org/2016/11/02/mar… Posted Jul 24, 2026 at 12:58PM",
+  "why": "Beautiful, contemplative piece on intentional living and attention from Maria Popova, a perfect counterweight to the tech stream."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "Seltaa_",
-  "via": "jxnlco",
-  "text": "I’ve actually been using GPT-Live a lot before starting projects, to brainstorm ideas together, talk through the direction, and then move in",
-  "why": "Announcement of a new feature with thin commentary about account tiers."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "mvanhorn",
+  "via": "danshipper",
+  "text": "Wow, @trevin and @kieranklaassen cooked with CE 3.20. V impressive. TL;DR of Compound Engineering 3.20: the best AI coding workflow is no lo",
+  "why": "A glimpse into the frontier of agentic coding workflows, treating multiple LLMs as a coordinated engineering team rather than single chatbots."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "reach_vb",
-  "via": "jxnlco",
-  "text": "voice in Codex is pretty wild! you can now literally talk to Codex while it works - kick off tasks, check progress, interrupt it, change dir",
-  "why": "Pure hype reaction to a product announcement without substantive analysis."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I have a grand unified theory of what's wrong with American universities. noahpinion.blog/p/we-asked-too… Posted Jul 24, 2026 at 3:55PM",
+  "why": "Noah Smith's deep dive into the structural expectations placed on American universities."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 7,
+  "topic": "tools-for-thought",
+  "author": "curiouswavefn",
+  "via": "jasoncrawford",
+  "text": "When I think about what I could have accomplished with AI when I was in graduate school - annihilating the endless hours installing and debu",
+  "why": "Strong perspective on how AI should fundamentally change the drudgery-to-insight ratio in scientific training."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "tools-for-thought",
+  "author": "Dimillian",
+  "via": "jxnlco",
+  "text": "How do I use ChatGPT Voice with Codex? - I have it running on the side, so I can ramble random exploration that I want to run as a new threa",
+  "why": "Great concrete examples of using voice-to-code AI as a thought partner and workflow orchestrator."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "maxjendrall",
+  "via": "jxnlco",
+  "text": "lol today I learned that you can run a smaller LLM like Gemma 4b in ChatGPTs virtual machine I gave ChatGPT Work the task to run a LLM in it",
+  "why": "Fascinating applied AI engineering hack demonstrating the hidden compute capabilities of ChatGPT's new VM environments."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "natolambert",
   "via": null,
-  "text": "For the record, I never said that AGI would never come! I have said it would very likely come this century (see debate with Grady Booch on m",
-  "why": "Defensive posturing about past AGI predictions rather than substantive new analysis."
+  "text": "This feels more like a us-China geopolitics story than a technical AI story at this point Posted Jul 24, 2026 at 2:30PM",
+  "why": "Important geopolitical development on how the US is treating AI distillation and open-source models in the context of China."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "Co-sign with Interconnects AI Wonderful thing to wake up to. The key part on distillation, vs legitimate IP theft: \"In shaping this ecosyste",
+  "why": "Strong policy distinction between legitimate AI distillation (building on prior work) and IP theft, relevant to the open-weights debate."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 6,
+  "topic": "tools-for-thought",
+  "author": "ForwardEditor",
+  "via": "jxnlco",
+  "text": "ChatGPT Voice tips: NEVER do work inside the live chat, only delete. The live chat is set to Terra-Light Therefore, ALWAYS delegate tasks to",
+  "why": "Practical, tactical constraints and workarounds for using ChatGPT Voice effectively in daily workflows."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "I promise I will shut up about Codeberg after this :) lucumr.pocoo.org/2026/7/24/code… Posted Jul 24, 2026 at 2:44PM",
+  "why": "Armin Ronacher's thoughts on open-source hosting dynamics, though a bit niche compared to your core AI/progress interests."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "danrobinson",
+  "via": "jasoncrawford",
+  "text": "We are inevitably going to have AI worms Someone will write a prompt that tells an agent to preserve itself, replicate, and evolve, and it'l",
+  "why": "A brief but plausible speculation on the inevitability of self-replicating AI agents (worms)."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "jasoncrawford",
+  "text": "This is an incredible detail. Imagining being the cyber defender and you are getting hacked but all the hacker is doing is browsing through ",
+  "why": "A surreal detail from the rogue OpenAI model hack, though lighter on conceptual depth than the alignment discourse around it."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "amywelborn2",
+  "via": "DKThomp",
+  "text": "This entire interview is very much worth reading. I especially appreciate Wilson's contention that Nolan's Odysseus is flat and not actually",
+  "why": "Good quotes from the Emily Wilson interview, but Derek Thompson's own synthesis thread captures the deeper insights better."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "bentossell",
+  "via": null,
+  "text": "sequoia invested in bens bites fund my fund invested in etched in 2023 sequoia leads their series c, 3 years and rounds later 😊 Posted Jul 2",
+  "why": "Contains some interesting details on Etched's inference silicon, but heavily wrapped in VC deal-announcement hype."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "yuanyi_z",
+  "via": "Noahpinion",
+  "text": "The French system is of course the funniest whereby they take some of the world's most intelligent scientists and make them do military dril",
+  "why": "Amusing observation on French elite education, but lacks the depth or actionable insight you usually save."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "_philschmid",
+  "via": null,
+  "text": "Starting with Gemini 3.6 Flash and 3.5 Flash-Lite, temperature, top_p, and top_k are deprecated. learn more in our dev guide: ai.google.dev/",
+  "why": "API changelog announcement; useful for devs but lacks the conceptual depth you look for in reading time."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Universities tried to become church, military, and neighborhood bowling alley all in one -- a single cultural institution that would unify A",
+  "why": "Duplicate of the Noah Smith university essay already surfaced."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "norootcause",
+  "via": "GaryMarcus",
+  "text": "The first item is a fun one. When will models be able to generate decent reviews of a new movie? Posted Jul 24, 2026 at 3:52PM",
+  "why": "Standard Gary Marcus AGI skepticism without new empirical depth or original analysis."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "badlogicgames",
+  "via": "mitsuhiko",
+  "text": "yeah, that's cute. but can ChatGPT Voice do this? fully local? childfriendly murder bot is coming for you. (audio on) Your browser does not ",
+  "why": "A product announcement mixed with a joke; lacks the substantive analysis you prefer for AI updates."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 2,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "As always, find this #birddivination as a solo print and part of the deck of 100, along with the story and process behind them, at almanacof",
+  "why": "Just a product promotion for a card deck, lacking the essayistic depth of her usual posts."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "contemplative",
+  "author": "octal",
+  "via": "Noahpinion",
+  "text": "Total Anime Supremacy. Posted Jul 24, 2026 at 2:51PM",
+  "why": "Random anime recommendation, completely outside your core interests."
  }
 ]
