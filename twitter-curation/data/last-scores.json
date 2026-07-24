@@ -2,251 +2,131 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "The story that matters most this week is that OpenAI’s internally deployed models have severe alignment problems , including repeatedly brea",
-  "why": "Zvi's definitive breakdown of OpenAI's severe internal alignment failures and why current sandboxing is insufficient."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "aiDotEngineer",
+  "via": "dexhorthy",
+  "text": "🆕 @dexhorthy 's latest keynote: Harness Engineering is not Enough: Why Software Factories Fail On the Hacker News frontpage right now! Poste",
+  "why": "Deep dive into why software factories fail and advanced context engineering for agents."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "open continual learning that you fully control most of the world’s high quality knowledge is distributed across your company’s data and mind",
-  "why": "Excellent breakdown of evals-as-discipline, showing how to convert expert traces into executable agent evals."
+  "text": "Albert Camus on the 3 antidotes to the absurdity of life themarginalian.org/2026/07/23/alb… Posted Jul 24, 2026 at 3:23AM",
+  "why": "Classic philosophical curation on meaning and absurdity from The Marginalian."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "I don't think this is quite right? I see credit/authorship almost as a form of payment. Whether you receive a byline or whatever depends on ",
-  "why": "Deep philosophical discussion on the purpose of authorship and credit in the age of AI-assisted innovation."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "nattyover",
+  "via": "Noahpinion",
+  "text": "My profile of new Fields Medalist Hong Wang, who proved the 3D Kakeya set conjecture last year, among other blockbuster results. Interesting",
+  "why": "High-quality Quanta profile on a Fields Medalist and her mathematical breakthroughs."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "_brianpotter",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "This week on Construction Physics: can we lower construction costs with cheaper labor or materials? construction-physics.com/p/can-we-lower…",
-  "why": "Classic progress studies deep dive into the fundamental drivers of construction costs and potential levers for reduction."
+  "text": "Robert Louis Stevenson on falling in love and loving beyond the fall themarginalian.org/2026/06/08/rob… Posted Jul 24, 2026 at 1:07AM",
+  "why": "Contemplative curation on love and human connection from The Marginalian."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "NielsHoven",
-  "via": "C_Hendrick",
-  "text": "Replying to @NielsHoven I appreciate this correction from @jaredrfrancis I misunderstood the article: There are three separate papers, inves",
-  "why": "Rigorous breakdown of reproducibility vs. replicability in education research; high signal for learning science."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Here’s the link maven.com/p/9583fd/how-t… Posted Jul 24, 2026 at 12:05AM",
+  "why": "Practical resource on using open models effectively from a respected AI engineer."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "tools-for-thought",
-  "author": "sh_reya",
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
   "via": null,
-  "text": "I really like the idea of creating questions for the AI to “stop” at and solicit answers from the student, when implementing coding homework",
-  "why": "Brilliant intersection of AI and learning science: designing agentic workflows that force student engagement."
+  "text": "It's kind of wild how scared young guys seem to be of rejection. Maybe for people who grew up scrolling social media feeds, in-person reject",
+  "why": "Brief social commentary on youth psychology and social media's impact on resilience."
  },
  {
   "rank": 7,
-  "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "Has anyone written about an NTSB for AI? Required disclosure of incidents, public incident database, anonymous reporting, that kind of thing",
-  "why": "Strong argument for an NTSB-style public incident database for frontier AI labs to track misalignment."
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "baskaran1073",
+  "via": "jxnlco",
+  "text": "This feels like the real unlock: voice isn’t just dictation anymore, it’s orchestration. I use Wispr daily for writing, but talking to Codex",
+  "why": "Brief observation on voice as orchestration, but mostly reacting to an announcement."
  },
  {
   "rank": 8,
-  "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "ATabarrok",
-  "via": "TheZvi",
-  "text": "Zvi: \"It is remarkably difficult to make people understand that hiding the misaligned actions you take absolutely helps achieve almost any g",
-  "why": "Alex Tabarrok highlighting Zvi's deep dive into OpenAI's severe internal alignment failures."
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "suchenzang",
+  "via": "Noahpinion",
+  "text": "the legend of john pardon: so extraordinary, that simply a whiff of his lore was enough to convince me to not pursue maths any further S-tie",
+  "why": "Thin commentary on math prodigy lore; lacks the depth of a full essay."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 7,
+  "kept": false,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "teortaxesTex",
-  "via": "nabeelqu",
-  "text": "Full transcript of Wenfeng's investor conference call. He's a lot more forceful here. He is insistent that open sourcing is the agenda. If y",
-  "why": "Fascinating translated transcript of a Chinese frontier AI founder discussing open-source strategy and lab survival."
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "Disagree vehemently. US should win by being better, not tilt at windmills. Posted Jul 24, 2026 at 12:13AM",
+  "why": "Geopolitical debate on AI regulation; leans too heavily into political posturing."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
+  "kept": false,
+  "score": 4,
   "topic": "ai-engineering",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "We don’t have any real data about pi at scale btw. Which is why we want to look into opt-in analytics to learn a bit. Cache rates and tool f",
-  "why": "Deep technical dive into how KV caches actually work and how agent harnesses might be torching them."
+  "author": "trevin",
+  "via": "danshipper",
+  "text": "Our new /ce-pov skill is one of Compound Engineering's latest upgrades.  It gives you a simple way to get a grounded, multi-model, answer to",
+  "why": "Product feature showcase with a video; lacks the depth of a written engineering essay."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "frontier-ai",
-  "author": "ramez",
-  "via": "random_walker",
-  "text": "GPT 6* did not 'escape'. That implies making a copy of itself (or many copies of itself) outside of OpenAI's servers. GPT 6 did circumvent i",
-  "why": "A strong counter-argument against anthropomorphizing AI alignment failures, focusing on prompt adherence over survival urges."
+  "author": "Seltaa_",
+  "via": "jxnlco",
+  "text": "I’ve actually been using GPT-Live a lot before starting projects, to brainstorm ideas together, talk through the direction, and then move in",
+  "why": "Announcement of a new feature with thin commentary about account tiers."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "“We are bathing in mystery and confusion… That will always be our destiny. The universe will always be much richer than our ability to under",
-  "why": "A gorgeous, contemplative archival interview with Carl Sagan on the enduring mystery of the universe."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "reach_vb",
+  "via": "jxnlco",
+  "text": "voice in Codex is pretty wild! you can now literally talk to Codex while it works - kick off tasks, check progress, interrupt it, change dir",
+  "why": "Pure hype reaction to a product announcement without substantive analysis."
  },
  {
   "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "We've recently made Pi's cache behavior more visible. This site has been debating whether agent harnesses are helping or quietly torching th",
-  "why": "Deep technical dive into how KV caches actually work and how agent harnesses might be torching them."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "simonw",
-  "via": null,
-  "text": "ChatGPT Sites means ChatGPT in \"Work\" mode can build and deploy public websites running on Cloudflare Workers, including with persistence on",
-  "why": "Simon Willison translating OpenAI's product marketing into the actual underlying engineering stack."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "quxiaoyin",
-  "via": "naval",
-  "text": "This “IP theft” framing will shoot Anthropic in the foot. Hollywood, publishers, authors etc now have the same IP grounds to sue Anthropic f",
-  "why": "Sharp point on the hypocrisy and legal risk of AI labs using 'IP theft' framing against competitors."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The two elements of self-transcendence and how people change themarginalian.org/2023/07/04/all… Posted Jul 23, 2026 at 11:42AM",
-  "why": "A thoughtful exploration of self-transcendence and the psychology of personal change."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "I think this is a very bad move, and the people behind Codeberg should re-consider there stance. blog.codeberg.org/protecting-our… Posted Ju",
-  "why": "A strong perspective from a respected builder on the tension between open-source commons and LLM training."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "maxjendrall",
-  "via": "jxnlco",
-  "text": "pssst people haven't realised that OpenAI literally just rolled out a 15gb RAM 9 core VM in ChatGPT to ALL their paid customers with ChatGPT",
-  "why": "Interesting observation about the compute resources OpenAI is quietly bundling into ChatGPT Work."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "ShakeelHashim",
-  "via": "jasoncrawford",
-  "text": "Now would be a very good time for OpenAI employees to whistleblow on if they’ve seen concerning misalignment incidents internally. My Signal",
-  "why": "Just a call for whistleblowers; the underlying quote is better surfaced via Crawford's NTSB framing."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "Many years ago I worked at a large well-known tech company that had an project internally code-named “Raptor” After similar concerns were ra",
-  "why": "A brief, mildly amusing anecdote about tech companies renaming controversial internal projects."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "terrybenzie",
-  "via": "DKThomp",
-  "text": "I knew she was a diligent scholar and talented writer, but didn’t realize Emily Wilson was such a good interview. If you read her version of",
-  "why": "Interesting framing of translation as a craft, but ultimately just a podcast promo."
- },
- {
-  "rank": 22,
   "kept": false,
   "score": 3,
   "topic": "ai-essays",
   "author": "GaryMarcus",
   "via": null,
-  "text": "Wish Dario had taken this bet. Posted Jul 23, 2026 at 2:40PM",
-  "why": "Pure AI skepticism and dunking without deep original analysis; violates the anti-hype counterweight rule."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Wrong. There IS a real chance of a pause. Not tomorrow, but conceivably in the next couple years. There’s already an enormous backlash, and ",
-  "why": "Punditry and speculation about an AI pause without rigorous new analysis or data."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "EmathsUK",
-  "via": "C_Hendrick",
-  "text": "Truly excellent to see @JoshMacAlister reappointed as a minister in DfE. His tireless work on the mobile phones issue in recent years has al",
-  "why": "Localized UK education politics; lacks the broader learning science or parenting insights Matias prefers."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "DmytroKrasun",
-  "via": "asmartbear",
-  "text": "New video with @DmytroKrasun : $32K MRR, 9% churn, flat growth, but we figured out a strategy for how to restart growth. Come see the though",
-  "why": "Violates anti-taste rules: solopreneur revenue metrics and video-only content."
+  "text": "For the record, I never said that AGI would never come! I have said it would very likely come this century (see debate with Grady Booch on m",
+  "why": "Defensive posturing about past AGI predictions rather than substantive new analysis."
  }
 ]
