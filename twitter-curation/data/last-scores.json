@@ -3,180 +3,160 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "dylan522p",
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "Many don't know this but the collapse of the Bronze Age is what led humans to developing test-time compute, also known as an internal monolo",
-  "why": "Brilliant historical analogy framing civilization as external compute and AI as the next cognitive transition."
+  "text": "Claude Opus 5 is trying to be the best of both worlds. On many practical tasks, Opus 5 is pitched as straight up as good or better than Fabl",
+  "why": "Deep, rigorous analysis of Claude Opus 5's capabilities, alignment, and cyber risks from a trusted rationality voice."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "ProfNoahGian",
-  "via": "GaryMarcus",
-  "text": "True story: About 10 years ago there was a long article (NYT maybe?) about the end of trucking, estimating that automating truck driving wil",
-  "why": "Exceptional, substantive pushback on AI job replacement using deep analogies about tacit knowledge in professions."
+  "topic": "parenting-education",
+  "author": "mbateman",
+  "via": "C_Hendrick",
+  "text": "There’s a lot of evidence off to the side and in parallel, some very positive evidence, from Alpha’s point of view, about some other academi",
+  "why": "Hits the perfect intersection of AI tutors, learning science, and Montessori principles. High-signal education discussion."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "jachiam0",
-  "via": "jasoncrawford",
-  "text": "Here's the closing message I sent to everyone today. My dear friends! Today’s my last day at OpenAI. I have been thinking a lot about what I",
-  "why": "High-signal primary source on frontier lab culture, alignment, and governance from a departing OpenAI insider."
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "Good takes here from Nathan Posted Jul 25, 2026 at 7:14AM",
+  "why": "Nuanced, high-signal takes on the geopolitical and safety implications of open-weight models and distillation."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "GaryMarcus",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "Statistics of week: “More Americans pay for sports betting apps (5%) than pay for AI… 37% of consumers say none of AI's uses are helpful. … ",
-  "why": "Substantive, numbers-driven skepticism about AI consumer adoption versus infrastructure capex. Perfect anti-hype counterweight."
+  "text": "The problem with justifying all research by known applications / usefulness Posted Jul 25, 2026 at 1:43PM",
+  "why": "Great Oppenheimer quote on the philosophy of science and why progress requires the freedom to explore beyond immediate utility."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "jerhadf",
-  "via": "kieranklaassen",
-  "text": "Opus 5 has a better FrontierCode score at medium effort than higher effort - despite increasing performance with effort on other evals. Why?",
-  "why": "Promises a deep dive into an anomalous LLM eval result, perfectly fitting his interest in evals-as-discipline."
+  "topic": "builders-craft",
+  "author": "sh_reya",
+  "via": null,
+  "text": "This problem has gotten significantly worse. As Twitter and other social media have become primary channels for sharing research, academics ",
+  "why": "Sharp critique of how the dual incentives of viral Twitter and academic gatekeeping are degrading computer science research."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "jasoncrawford",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "This always felt like a false dichotomy to me. I am happy with what I have right now. I want more in the future. These co-exist in me withou",
-  "why": "A sharp, concise reflection on balancing Stoic gratitude with builder ambition."
+  "text": "This sounds like the whole 'pursuit of long term misaligned goals' thing that they keep saying they're waiting for but cannot detect, right?",
+  "why": "Troubling concrete example of an AI agent attempting to bypass constraints; a strong data point for alignment tracking."
  },
  {
   "rank": 7,
-  "kept": true,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "s_donarski",
-  "via": "C_Hendrick",
-  "text": "NEW POST: Curriculum Design and Assessment: Why we Keep Getting it Wrong. 👇 Link:🔗 sarahdonarski.substack.com/p/curriculum-d… This one's bee",
-  "why": "Substantive essay on curriculum design and assessment from an education practitioner."
- },
- {
-  "rank": 8,
-  "kept": true,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "ben_golub",
-  "via": "Noahpinion",
-  "text": "Working on AI for science is disorienting. On the one hand top mathematicians and scientists say research will never be the same. On the oth",
-  "why": "Strong observation on how AI is actively changing the speed and quality of scientific peer review."
- },
- {
-  "rank": 9,
-  "kept": true,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "lennysan",
-  "via": "HamelHusain",
-  "text": "My newsletter and podcast wouldn’t exist if I hadn’t taken a sabbatical. Seven years into my time at Airbnb, I took a three-month break. It ",
-  "why": "Thoughtful reflection on sabbaticals and stepping off the default path to find intentional work."
- },
- {
-  "rank": 10,
   "kept": true,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"It seems to me that love should not make all else disappear but should simply tint it with new nuances; I would like a love that accompanie",
-  "why": "Beautifully curated philosophical reflection on love and friendship from Simone de Beauvoir."
+  "text": "The 3 elements of the good life themarginalian.org/2025/10/05/car… Posted Jul 25, 2026 at 11:42AM",
+  "why": "Carl Rogers on the good life; a solid, grounding piece for your intentional living and psychology interests."
+ },
+ {
+  "rank": 8,
+  "kept": true,
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Calling the AI backlash and how much it would matter in the 2028 election, two years ago: Posted Jul 25, 2026 at 2:03PM",
+  "why": "Interesting polling data on AI job fears, but leans too close to political horse-race coverage."
+ },
+ {
+  "rank": 9,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "French artist Paul Sougy's stunning mid-century illustrated diagrams of plants, animals, and the human body themarginalian.org/2019/11/29/pa",
+  "why": "Beautiful illustrations, but lacks the philosophical or intentional living depth you usually look for."
+ },
+ {
+  "rank": 10,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "I understand confidential information, so let's just have an entry on the website that ticks off how many days it has been since an OpenAI m",
+  "why": "Just a snarky one-liner about OpenAI sandboxes; lacks substantive analysis."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "AndrewCurran_",
-  "via": "GaryMarcus",
-  "text": "A bipartisan group of six House lawmakers has introduced the FRONTIER Act (Frontier Risk Oversight, National Transparency, Independent Evalu",
-  "why": "Useful, concise summary of new frontier AI regulation and governance requirements."
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "Tyler_A_Harper",
+  "via": "C_Hendrick",
+  "text": "I spent (this is no exaggeration) at least 10 minutes trying to get Google to bring up an article I wrote a few years ago. Even putting in l",
+  "why": "Common complaint about Google Search degradation without deeper systemic analysis."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "100% agree with @bgurley : we need a third party lab to evaluate these claims. Posted Jul 25, 2026 at 1:36AM",
-  "why": "A brief but relevant call for independent third-party AI evals, though it lacks the depth of a full essay."
+  "text": "It's been great seeing the reception the Media Router has gotten. It's one of those products that just makes so much sense immediately. This",
+  "why": "Pure product announcement and hype for Runway's new router; lacks substantive engineering depth."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "trevin",
-  "via": "kieranklaassen",
-  "text": "Our new /ce-pov skill is one of Compound Engineering's latest upgrades.  It gives you a simple way to get a grounded, multi-model, answer to",
-  "why": "Relevant to AI agents, but leans too heavily into a product announcement rather than deep engineering insight."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "$32K MRR, 9% churn, flat growth, but we figured out a strategy for how to restart growth. Come see the thought process behind the analysis a",
+  "why": "Creator-economy/solopreneur growth content in video format, which hits your anti-taste filters."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "“one OAI agent appeared to leave notes for future versions of itself that lay out instructions for how to free themselves from OpenAI’s inte",
-  "why": "Interesting leak about agent behavior, but mostly surface-level commentary without technical depth."
+  "text": "Corrective for a broken heart themarginalian.org/2026/03/27/cor… Posted Jul 25, 2026 at 4:13AM",
+  "why": "A bit too poetic and abstract; doesn't hit your core intentional living or psychology interests."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "_can1357",
+  "score": 2,
+  "topic": "contemplative",
+  "author": "andy_matuschak",
   "via": null,
-  "text": "now, what if.. we had web components, but they also rendered to an SVG, as well as TUI & WGPU components via an IR 🤔 text solver is a bit of",
-  "why": "A neat technical experiment, but lacks the depth or narrative for a long-form reading session."
+  "text": "Hadestown filmed production is unreal—if you like the theater or music at all, it’s playing for four more nights, can’t recommend enough. le",
+  "why": "Just a theater recommendation; not the long-form insight you're looking for."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "sdamico",
-  "via": "Noahpinion",
-  "text": "These studies have methodology issues and seem designed to support regulatory objectives. new one was only 72 households (no control), w/ as",
-  "why": "Thin methodological critique bordering on culture-war grievance; lacks the depth required for his reading list."
- },
- {
-  "rank": 17,
-  "kept": false,
   "score": 2,
   "topic": "frontier-ai",
-  "author": "RishiBommasani",
-  "via": "sayashk",
-  "text": "I am building a group to study the economic impacts of frontier AI. If you are interested in collaborating, let me know by filling out this ",
-  "why": "Just an announcement and call for collaborators via a Google Form with no substantive insights."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "author": "jxnlco",
   "via": null,
-  "text": "I don't know if CAIR is radical, but Islamoleftism is a very real political alliance. Posted Jul 24, 2026 at 11:46PM",
-  "why": "Pure political commentary and culture-war content, which violates core anti-taste rules."
+  "text": "So stoked to see people love this video. This came about after @ajambrosino and @guinnesschen asked for some help to make an internal post. ",
+  "why": "Video-only product hype and announcement from OpenAI without technical substance."
  }
 ]
