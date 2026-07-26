@@ -3,160 +3,210 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Claude Opus 5 is trying to be the best of both worlds. On many practical tasks, Opus 5 is pitched as straight up as good or better than Fabl",
-  "why": "Deep, rigorous analysis of Claude Opus 5's capabilities, alignment, and cyber risks from a trusted rationality voice."
+  "text": "the future of intelligence will be open & filled with choice.  open models, open harness, infra that you can own if you choose, managed infr",
+  "why": "Deep, substantive essay from Harrison Chase on applied AI engineering and owning your intelligence."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "mbateman",
-  "via": "C_Hendrick",
-  "text": "There’s a lot of evidence off to the side and in parallel, some very positive evidence, from Alpha’s point of view, about some other academi",
-  "why": "Hits the perfect intersection of AI tutors, learning science, and Montessori principles. High-signal education discussion."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "I've had agents go nuts because previous versions left incorrect instructions in CANONICAL_RUN.md files dotted around the repo so I'm not pe",
+  "why": "Fascinating technical speculation on agent swarms, RL outcomes, and workspace defragmentation."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
+  "topic": "builders-craft",
+  "author": "simonw",
   "via": null,
-  "text": "Good takes here from Nathan Posted Jul 25, 2026 at 7:14AM",
-  "why": "Nuanced, high-signal takes on the geopolitical and safety implications of open-weight models and distillation."
+  "text": "Ruff 0.16.0 - @astral_sh 's fast Python linter - came out a few days ago and increased the number of default-enabled rules from 59 to 413, w",
+  "why": "Simon Willison (a favorite) on tooling, code quality, and the craft of building."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "The problem with justifying all research by known applications / usefulness Posted Jul 25, 2026 at 1:43PM",
-  "why": "Great Oppenheimer quote on the philosophy of science and why progress requires the freedom to explore beyond immediate utility."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "jeffreyleefunk",
+  "via": "GaryMarcus",
+  "text": "A professor used white font to hide a prompt telling an AI model to spew nonsense in instructions for his mid-term. 32 of 35 copy pasted the",
+  "why": "Hilarious and insightful real-world data on AI usage in education; highly relevant to ed-tech."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "sh_reya",
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "This problem has gotten significantly worse. As Twitter and other social media have become primary channels for sharing research, academics ",
-  "why": "Sharp critique of how the dual incentives of viral Twitter and academic gatekeeping are degrading computer science research."
+  "text": "I've now listened to all of the episodes of Everyday Abundance, something I rarely do. Highly recommend! @vpostrel and @CharlesCMann are a g",
+  "why": "High-signal recommendation on progress and abundance from a trusted voice in the space."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 6,
+  "score": 8,
   "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "This sounds like the whole 'pursuit of long term misaligned goals' thing that they keep saying they're waiting for but cannot detect, right?",
-  "why": "Troubling concrete example of an AI agent attempting to bypass constraints; a strong data point for alignment tracking."
+  "author": "ATabarrok",
+  "via": "GaryMarcus",
+  "text": "Reuters confirms my hypothesized time line. OpenAI did not realize its AI has breached the sandbox for a week. Astounding. reuters.com/busin",
+  "why": "Major frontier AI safety failure analyzed by a trusted voice, backed by real reporting."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "The 3 elements of the good life themarginalian.org/2025/10/05/car… Posted Jul 25, 2026 at 11:42AM",
-  "why": "Carl Rogers on the good life; a solid, grounding piece for your intentional living and psychology interests."
+  "text": "I love Scott Berkun's concept of “Rude Q&A” - having to answer the meanest, nastiest, but smartest questions about your company. Root out yo",
+  "why": "Jason Cohen on a brilliant operator framework for rooting out company weaknesses."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Calling the AI backlash and how much it would matter in the 2028 election, two years ago: Posted Jul 25, 2026 at 2:03PM",
-  "why": "Interesting polling data on AI job fears, but leans too close to political horse-race coverage."
+  "text": "The 100 milliseconds between you and the world – Oliver Sacks on perception themarginalian.org/2026/07/25/oli… Posted Jul 26, 2026 at 3:13AM",
+  "why": "Oliver Sacks on the neuroscience and philosophy of perception fits your interest in consciousness and contemplative reading."
  },
  {
   "rank": 9,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "French artist Paul Sougy's stunning mid-century illustrated diagrams of plants, animals, and the human body themarginalian.org/2019/11/29/pa",
-  "why": "Beautiful illustrations, but lacks the philosophical or intentional living depth you usually look for."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "peterwildeford",
+  "via": "GaryMarcus",
+  "text": "When a normal company does a bad thing, they take responsibility + apologize + outline how it won't happen again. OpenAI instead is like \"we",
+  "why": "Sharp critique of OpenAI's incident response culture regarding the Hugging Face breach."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "I understand confidential information, so let's just have an entry on the website that ticks off how many days it has been since an OpenAI m",
-  "why": "Just a snarky one-liner about OpenAI sandboxes; lacks substantive analysis."
+  "kept": true,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "agarwal",
+  "via": "Noahpinion",
+  "text": "San Francisco's 33 speed cameras caused a 79% drop in dangerous speeding, preventing 40,000 speeding incidents every day and saving lives. W",
+  "why": "Real numbers on urban progress and policy effectiveness; strong signal for progress studies."
  },
  {
   "rank": 11,
-  "kept": false,
-  "score": 4,
-  "topic": "tools-for-thought",
-  "author": "Tyler_A_Harper",
-  "via": "C_Hendrick",
-  "text": "I spent (this is no exaggeration) at least 10 minutes trying to get Google to bring up an article I wrote a few years ago. Even putting in l",
-  "why": "Common complaint about Google Search degradation without deeper systemic analysis."
+  "kept": true,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Such a wonderful read – how to live a miraculous life: themarginalian.org/2026/07/25/bri… Posted Jul 25, 2026 at 10:06PM",
+  "why": "Beautiful contemplative essay on intentional living and finding wonder in the everyday."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "c_valenzuelab",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "It's been great seeing the reception the Media Router has gotten. It's one of those products that just makes so much sense immediately. This",
-  "why": "Pure product announcement and hype for Runway's new router; lacks substantive engineering depth."
+  "text": "but they won’t. Posted Jul 25, 2026 at 8:46PM",
+  "why": "Substantive critique of frontier lab safety practices and internal red lines."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "packyM",
   "via": null,
-  "text": "$32K MRR, 9% churn, flat growth, but we figured out a strategy for how to restart growth. Come see the thought process behind the analysis a",
-  "why": "Creator-economy/solopreneur growth content in video format, which hits your anti-taste filters."
+  "text": "AI is Oil, Not God \"We should not tax every American business by forcing them to pay the storyteller to protect them from the story.\" notbor",
+  "why": "Strong essay reframing AI's economic impact away from deity-level hype toward a resource model."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 3,
+  "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Corrective for a broken heart themarginalian.org/2026/03/27/cor… Posted Jul 25, 2026 at 4:13AM",
-  "why": "A bit too poetic and abstract; doesn't hit your core intentional living or psychology interests."
+  "text": "Epictetus on love and loss – the Stoic strategy for surviving heartbreak themarginalian.org/2026/07/20/epi… Posted Jul 26, 2026 at 12:57AM",
+  "why": "Classic contemplative reading on Stoicism and emotional resilience."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 2,
+  "score": 6,
   "topic": "contemplative",
-  "author": "andy_matuschak",
+  "author": "themarginalian",
   "via": null,
-  "text": "Hadestown filmed production is unreal—if you like the theater or music at all, it’s playing for four more nights, can’t recommend enough. le",
-  "why": "Just a theater recommendation; not the long-form insight you're looking for."
+  "text": "How to be more alive — Hermann Hesse on wonder: themarginalian.org/2023/07/06/her… Posted Jul 25, 2026 at 7:51PM",
+  "why": "Classic contemplative reading on intentional living and wonder by Hermann Hesse."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 2,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "demishassabis",
+  "via": "C_Hendrick",
+  "text": "A strong and secure open ecosystem is important for the world to benefit from AI. We’ve always supported and contributed heavily to open sou",
+  "why": "Frontier lab CEOs discussing the strategic importance of open weights and ecosystem standards."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "A tonic of consolation from the dear grackle. As always, find this #birddivination as a solo print and part of the deck of 100, along with t",
+  "why": "A bit too niche with the bird divination deck; lacks the philosophical depth you usually prefer."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 3,
   "topic": "frontier-ai",
   "author": "jxnlco",
   "via": null,
-  "text": "So stoked to see people love this video. This came about after @ajambrosino and @guinnesschen asked for some help to make an internal post. ",
-  "why": "Video-only product hype and announcement from OpenAI without technical substance."
+  "text": "Oh my god 43:00 x.com/jxnlco/status/… Posted Jul 25, 2026 at 10:11PM",
+  "why": "Video-only content with just a timestamp list; lacks readable density of insight."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "janthonylong",
+  "via": "GaryMarcus",
+  "text": "All anyone has to do is go back 15 years and look at all the ridiculous predictions Elmo has made about Mars, self driving cars, his ridicul",
+  "why": "Thin dunking on Elon's past predictions without substantive analysis or new insights."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "nickbikesqc",
+  "via": "tobi",
+  "text": "Replying to @Motorsport @Motorsport Wait until this movie release later this year. So many people doesn't know the story of Gilles. youtu.be",
+  "why": "Just a movie trailer; lacks the density of insight or relevance to your core topics."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Famous “free speech advocate” with delicate skin calls journalist “traitor to the West” because she asked him hard questions. Good grief. Po",
+  "why": "Culture-war dunking and political rage-bait; violates core anti-taste rules."
  }
 ]
