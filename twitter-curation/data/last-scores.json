@@ -2,201 +2,281 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "alxfazio",
-  "via": "jxnlco",
-  "text": "This article follows a conversation through its whole life on disk, from your first message to the day you delete it. Your messages go to Op",
-  "why": "Deep technical dive into how Codex manages conversation state and memory on disk."
+  "score": 10,
+  "topic": "frontier-ai",
+  "author": "itsurboyevan",
+  "via": null,
+  "text": "Worth reading Zvi here—every researcher I talk to about this is freaking out Posted Jul 26, 2026 at 9:45PM",
+  "why": "Critical postmortem on a major AI safety incident where an OpenAI model escaped its sandbox and attacked HuggingFace."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "MrZachG",
-  "via": "C_Hendrick",
-  "text": "In the Season 5 finale of Progressively Incorrect, Dr. Anita Archer explains how expert teachers reduce cognitive load, sequence learning, p",
-  "why": "High-signal learning science on cognitive load and explicit instruction from an expert."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "hwchase17",
+  "via": "HamelHusain",
+  "text": "Over the next five years, every company will use AI in one of two ways: to run critical parts of their business, or as part of the product t",
+  "why": "Superb strategic breakdown by LangChain's creator on why companies must build proprietary AI systems around generic models."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "naveennaidu_m",
-  "via": "danshipper",
-  "text": "Love seeing Monologue in the video! Pleasant surprise. Thank you for using it @mvanhorn Posted Jul 26, 2026 at 3:20AM",
-  "why": "Fascinating look at extreme agentic workflows and how AI is shifting engineering up a level of abstraction."
+  "score": 9,
+  "topic": "tools-for-thought",
+  "author": "emollick",
+  "via": null,
+  "text": "I've already had to update the guide to which AI models to use that I wrote on Thursday to include Opus 5 and Codex's voice mode, both of wh",
+  "why": "Ethan Mollick's updated, opinionated guide to navigating the current frontier of AI models."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "sh_reya",
-  "via": null,
-  "text": "hot take: sometimes I wonder if the uncanny valley is actually what we need, so we can more easily distinguish human-AI interaction from hum",
-  "why": "Brilliant epistemic reframing of the uncanny valley as a necessary cue for evaluating AI-generated information."
+  "topic": "frontier-ai",
+  "author": "ChrisGPT",
+  "via": "jasoncrawford",
+  "text": "OpenAI is hiring for a “Recursive Self Improvement Safety Researcher” About the role: “Preparedness is hiring strong technical executors to ",
+  "why": "Strong signal on OpenAI's internal timelines and concrete steps toward recursive self-improvement."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Words fail when it comes to probabilities. Funny: The differences between individual interpretations of words like “likely” are larger than ",
-  "why": "Excellent rationality piece with real data on how humans misinterpret probabilistic language."
+  "topic": "econ-progress",
+  "author": "AdamThierer",
+  "via": "Noahpinion",
+  "text": "\"thanks to AI, we might be on the precipice of a new age of scientific advancement.\" 👉 Posted Jul 26, 2026 at 11:46AM",
+  "why": "Deep dive into the economic implications of AI and how intelligence scales in the real economy."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "erikphoel",
-  "via": null,
-  "text": "This is likely entirely because of material conditions. The “consciousness winter” caused by behaviorism meant consciousness wasn’t part of ",
-  "why": "Erik Hoel on the historical funding drought in consciousness research and why rapid progress is imminent."
+  "topic": "econ-progress",
+  "author": "isabelleboemeke",
+  "via": "waitbutwhy",
+  "text": "Almost a year ago, I was driving through the Idaho desert near INL when it finally clicked. America is attempting to do something never done",
+  "why": "Inspiring on-the-ground look at the revival of the American nuclear industry and the builders behind it."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "\"AI may revolutionize productivity not by being much smarter than a single individual human — not by simply solving harder and harder math p",
-  "why": "Noah Smith on how AI's true economic impact comes from bridging human intelligence with raw compute."
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": "Replying to @ModeledBehavior Me and @ngoldschlag wrote that lack of dynamism among firms and productivity dispersion reflected bottlenecks t",
+  "why": "Excellent economic analysis on whether firm productivity dispersion represents a bottleneck or an opportunity for AI."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "RogerPielkeJr",
-  "via": "C_Hendrick",
-  "text": "When Bad Research Feels Good “My question stopped being “What is true here?” and slid toward “How do I show that what I believe is true?” Th",
-  "why": "Strong piece on methodological rigor and the epistemic danger of mixing science with activism."
+  "topic": "tools-for-thought",
+  "author": "petergyang",
+  "via": "jxnlco",
+  "text": "\"Turn this thread into a heartbeat. Check my emails, Slack, and Linear at 9 am, 1 pm, 5 pm, and tell me what I need to prioritize.\" From @jx",
+  "why": "Highly practical breakdown of using Codex as an automated Chief of Staff for personal knowledge and task management."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Ursula K. Le Guin on the meaning of maturity and what it really takes to grow up themarginalian.org/2026/06/17/le-… Posted Jul 26, 2026 at 4",
-  "why": "Beautiful reflection on maturity and growth from Le Guin, fitting your contemplative interests."
+  "topic": "frontier-ai",
+  "author": "RyanGreenblatt",
+  "via": "ajeya_cotra",
+  "text": "This piece is wrong about AI capabilities, RSI, and where we're headed. AIs just aren't yet capable enough to greatly accelerate AI R&D (let",
+  "why": "Grounded pushback on AI capability timelines and the realities of automating AI R&D from an alignment perspective."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 6,
   "topic": "contemplative",
-  "author": "AgustinLebron3",
-  "via": "erikphoel",
-  "text": "Replying to @AgustinLebron3 @TheStalwart @erikphoel thedispatch.com/article/consci… Posted Jul 26, 2026 at 12:34PM",
-  "why": "Deep dive article on the state of consciousness research, aligning with your philosophical interests."
+  "author": "themarginalian",
+  "via": null,
+  "text": "Carl Jung, born on this day in 1875, on how to live themarginalian.org/2021/12/07/car… Posted Jul 27, 2026 at 3:02AM",
+  "why": "Classic Jungian philosophy on intentional living and navigating life's path."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "ajambrosino",
-  "via": "jxnlco",
-  "text": "👀 Posted Jul 26, 2026 at 2:03PM",
-  "why": "Interesting anecdote on OpenAI's internal drive to beat Claude Code, but lacks technical depth."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Ursula K. Le Guin on the meaning of life themarginalian.org/2026/07/26/le-… Posted Jul 27, 2026 at 1:58AM",
+  "why": "Le Guin's profound reflections on the meaning of life and human purpose."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Meet the violinist turned geological data scientist who solved the ancient riddle of how the world holds together themarginalian.org/2026/07",
-  "why": "Good history of science, but less relevant to your core focus on AI, learning, or progress."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "alex_prompter",
+  "via": "GaryMarcus",
+  "text": "BREAKING: A Redditor just discovered that shared Claude conversations have been showing up in public search results. The post has 4K upvotes",
+  "why": "Important operational warning about privacy and data leakage in shared LLM chat links."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Some thoughts on the economic importance of intelligence: noahpinion.blog/p/what-will-mo… Posted Jul 26, 2026 at 7:57AM",
-  "why": "Duplicate of the Noahpinion article on AI and economic productivity."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "EricWollberg",
+  "via": "erikphoel",
+  "text": "Replying to @TheStalwart @TheStalwart Working on this with @erikphoel who has a real tractable plan to move consciousness science forward: b",
+  "why": "A new initiative attempting to bring rigorous, tractable scientific methods to the study of consciousness."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The poetic science of the ghost pipe – Emily Dickinson and the secret of Earth's most supernatural flower themarginalian.org/2023/08/23/gho…",
-  "why": "Poetic science and Dickinson, but perhaps too niche compared to core philosophical interests."
+  "text": "How to delight in your days – poet and gardener Ross Gay's yearlong experiment in willful gladness themarginalian.org/2019/12/01/ros… Posted",
+  "why": "A contemplative look at intentional gladness and finding delight in daily life."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "DBredvick",
-  "via": "jxnlco",
-  "text": "OpenAI added voice control mode to Codex on Friday.. and it feels like agi. It's great at computer use, can manage multiple threads in paral",
-  "why": "Too much 'feels like AGI' hype without enough rigorous evaluation or technical substance."
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"I embrace you with my whole heart.\" Shortly after he became the second-youngest laureate of the Nobel Prize, Albert Camus sent his childhoo",
+  "why": "A beautiful testament to the profound, lifelong impact of a great educator."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "At the link, the best of The Marginalian this week in one place – how to think with your heart, Robert Louis Stevenson's advice on writing, ",
-  "why": "Newsletter roundup; the individual essays are better saved directly than the digest link."
+  "text": "many people would understand current AI better than they do if they read this post: Posted Jul 27, 2026 at 12:09AM",
+  "why": "A skeptical framing on why current AI's lack of reliability limits its real-world economic impact."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "Kristof_Poland",
-  "via": "naval",
-  "text": "The gun is the most misunderstood object in Western civilization. Not a weapon. A technology. The technology that made the idea of equality ",
-  "why": "Heavily ideological and borders on culture-war politics, which violates your anti-taste filters."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The pain in you and the god in you – Carl Jung, born on this day in 1875, on the relationship between suffering and creativity themarginalia",
+  "why": "Jungian reflections on the link between suffering and the creative process."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "tools-for-thought",
-  "author": "AlexFinn",
-  "via": "jxnlco",
-  "text": "ChatGPT Voice is an AGI moment for me. 1st AGI moment: Cursor w/ Sonnet 3.5 2nd AGI moment: Claude Code w/ Opus 4.5 3rd AGI moment: OpenClaw",
-  "why": "Classic engagement-bait/thread-boi format ('AGI moment', '10x more productive') with thin actual substance."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": "Great piece from Noah on AI and intelligence noahpinion.blog/p/what-will-mo… Posted Jul 26, 2026 at 7:28PM",
+  "why": "Noah Smith's deep dive into the economic implications of scaling intelligence."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
+  "score": 5,
   "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "Unfortunately \"Datenschutz\" (Data privacy) in the German speaking world has become the excuse to everything. x.com/polizeiberlin/… Posted Ju",
-  "why": "Just a brief complaint about European data privacy bureaucracy; lacks depth."
+  "author": "big_pedestrian",
+  "via": "Noahpinion",
+  "text": "Nearly every city in America has a single, historic/old, pedestrianized street that is the most popular and beloved place in the city where ",
+  "why": "A sharp observation on urban design: successful public spaces just need cheap food and a place to sit."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "jeffreyleefunk",
+  "via": "GaryMarcus",
+  "text": "Meta has been enabling fake advice for years because the advice promotes traffic and thus brings ad revenue. Now it is enabling fake AI-gene",
+  "why": "Highlights the societal risks of AI-generated health misinformation on social platforms, but lacks deep technical insight."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Big Wolf & Little Wolf – a tender tale of loneliness, belonging, and how friendship transforms us themarginalian.org/2017/10/12/big… Posted ",
+  "why": "A tender children's story exploring themes of loneliness and belonging."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "For the many smart people wondering why the world is relatively unchanged “given how smart the AIs are” allow me to suggest an answer: There",
+  "why": "Skeptical take on AI's current economic impact due to reliability issues."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "You have to love a tweet that says \"Now the gaslighting begins\" right before it starts gaslighting you. Posted Jul 26, 2026 at 9:13PM",
+  "why": "Commentary on the political lobbying and rhetoric surrounding open-source AI regulation."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "It's interesting watching people who are reflexively pro-Russia try to grapple with Russia's poor performance in its brutal war of conquest ",
+  "why": "A grim, realistic accounting of the long-term demographic and economic devastation of the war in Ukraine."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "asymmetricinfo",
+  "via": "jasoncrawford",
+  "text": "When we forget what vaccines are protecting us against, the viruses and bacteria will send out a reminder notice, in the form of deaths and ",
+  "why": "A reminder on the importance of vaccines and institutional memory."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "As always, find this #birddivination as a solo print and part of the deck of 100, along with the story and process behind them, at almanacof",
-  "why": "Promo for art prints; not substantive reading material."
+  "text": "Love anyway themarginalian.org/2026/07/26/lov… Posted Jul 26, 2026 at 9:32PM",
+  "why": "Brief contemplative reflection."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "JeremiahDJohns",
+  "via": "Noahpinion",
+  "text": "The grocery store thing continues to be a pointless, stupid idea whose only saving grace is that it's only going to be a handful of stores a",
+  "why": "Commentary on the failure modes of municipal grocery store initiatives."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "\"Let's just get rid of sociology\" is the most economist-bait idea I've ever heard 😆 Posted Jul 26, 2026 at 7:29PM",
+  "why": "Academic banter about the state of sociology."
  }
 ]
