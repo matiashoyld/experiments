@@ -3,180 +3,270 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "rationality",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "“‘Rare’ here isn't what you're picturing. It's The Insider's Guide to Metro Denver (1995) and how-to-use-WordPerfect 1991 manuals” Posted Ju",
-  "why": "Brilliant, substantive debunking of the viral 'AI shredding rare books' panic by an actual bookseller."
+  "topic": "ai-essays",
+  "author": "random_walker",
+  "via": "sayashk",
+  "text": "A thought experiment that I think helps explain much of what’s gone wrong with AI and labor: Imagine an alternate universe in which — for wh",
+  "why": "Brilliant thought experiment explaining why AI empowers coders (open source intermediate steps) but substitutes artists. Mentions Willison."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "DAcemogluMIT",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Dear followers, Please see this article based on chapter 11 of my forthcoming book Happened to Liberal Democracy? in the Atlantic. How to Ma",
-  "why": "Acemoglu's deep dive into AI's economic impact on workers and automation."
+  "text": "Most insightful comment I have read on the new robot ban: Posted Jul 29, 2026 at 3:18AM",
+  "why": "Excellent substantive analysis of how hardware import bans actually kneecap domestic robotics research and iteration cycles."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "ai-essays",
+  "author": "erikphoel",
   "via": null,
-  "text": "Everyone says “focus” and “prioritize.” Step 7 of the following roadmap explains exactly how to do that. This is the difference between succ",
-  "why": "Jason Cohen's long-form, pragmatic framework for prioritization and finding product-market fit."
+  "text": "Bicameral Labs making an appearance in Nature today, on how LLMs are kicking off a new consciousness revolution nature.com/articles/d4158… P",
+  "why": "Hits the exact intersection of AI, consciousness, and philosophy, published in a rigorous journal (Nature)."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "nicbstme",
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "One thing I think people keep missing is that two things can be true at the same time. 1/Compute is absolutely one of the biggest moats in A",
-  "why": "Excellent historical analogy comparing AI compute moats to the fiber optic boom and value capture."
+  "text": "Some more questions: 1. If, tomorrow, the US and China signed a memo saying \"AI could be dangerous. We should create a governance framework\"",
+  "why": "Excellent, rigorous questions probing the game theory and practical enforcement mechanisms of international AI governance."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "danielgolliher",
-  "via": "jasoncrawford",
-  "text": "It's here: maximumnewyork.com/p/large-loads-… Posted Jul 27, 2026 at 4:49PM",
-  "why": "Deep dive into data centers and the power grid, shared by Jason Crawford."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "ramez",
+  "via": "DKThomp",
+  "text": "I'm quite bullish on AI in highly verifiable domains like math and coding. We're headed for narrow super intelligence, clearly. I expect pro",
+  "why": "High-signal debate on AI capability trajectories, specifically the divergence between verifiable domains (math/code) and general reasoning."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The bird in you, the world in you, and the art of trusting time – a ceramics and serpentine raffle themarginalian.org/2026/07/27/ser… Posted",
-  "why": "A beautiful, contemplative essay from Maria Popova on art, nature, and the passage of time."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "viemccoy",
+  "via": "TheZvi",
+  "text": "I'm really proud to have signed this. This is the first of this sort of letter that I find meaningfully reasonable: calling on the governmen",
+  "why": "A thoughtful, nuanced perspective on frontier AI coordination and alignment from a signatory of the Pacing the Frontier statement."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "GregKamradt",
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "“Humans aren’t AGI because they lack knowledge” A rare disagreement I have with Ilya, knowledge is the easy part Continual learning (adaptin",
-  "why": "Thought-provoking pushback on Ilya Sutskever regarding continual learning as the core of AGI."
+  "text": "I don't believe in magic unicorns who are excellent in all areas of product management. Even if they existed, there’s not enough hours in a ",
+  "why": "Jason Cohen always delivers high-signal, pragmatic wisdom on the realities of building and operating tech companies."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 5,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "itsolelehmann",
-  "via": "GaryMarcus",
-  "text": "btw anthropic's internal document on this literally said \"we don't want it to be known that we are working on this.” it was called project p",
-  "why": "The viral thread on Anthropic's data collection practices, though heavily contested by domain experts."
+  "author": "ChowdhuryNeil",
+  "via": "DKokotajlo",
+  "text": "nvidia et al. argue open weights improve safety by letting researchers find vulnerabilities. others argue they enable misuse but the choice ",
+  "why": "Nuanced, substantive thread on AI safety and open weights, proposing a middle-ground white-box access model for researchers."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "ade_oshineye",
-  "via": "simonw",
-  "text": "Happy Stateless MCP day! Posted Jul 28, 2026 at 3:41PM",
-  "why": "Brief tool announcement for MCP on Cloudflare; lacks the long-form depth you prefer."
+  "kept": true,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "johnloeber",
+  "via": "Noahpinion",
+  "text": "For so long, the “expert” view of AI was profoundly arrogant: they thought a few worthy supergeniuses (ofc including themselves) would figur",
+  "why": "A beautiful, optimistic philosophical framing of AI as the democratic, blended output of all human history rather than a priesthood's secret."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "teachthemx3",
-  "via": "C_Hendrick",
-  "text": "I see a lot of posts pointing out what’s wrong with various school systems. I’m curious about the general consensus on what a perfect school",
-  "why": "Generic teacher commentary on maintaining high standards; lacks learning science depth."
+  "kept": true,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "joshzoff",
+  "via": "Noahpinion",
+  "text": "This is confusing “don’t” and “can’t.” We don’t need to make a lot of rubber gloves because it is in fact low margin and importing non criti",
+  "why": "Sharp, nuanced distinction regarding US industrial capacity and supply chain resilience, pushing back on standard comparative advantage tropes."
  },
  {
   "rank": 11,
+  "kept": false,
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "JoanneLeeJacobs",
+  "via": "C_Hendrick",
+  "text": "Reading gates work: Students get more help and learn more when they know they won't just be passed along. tinyurl.com/3ce5dhcw @karenvaites ",
+  "why": "Solid learning science and education policy piece on the efficacy of reading gates and student progression standards."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"Attention is the rarest and purest form of generosity.\" Simone Weil on attention and grace themarginalian.org/2015/08/19/sim… Posted Jul 29",
+  "why": "A classic contemplative piece on attention and grace from Simone Weil, fitting the intentional living interest."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "AssaadRazzouk",
+  "via": "Noahpinion",
+  "text": "You can’t fight math, physics, or exponential tech: For the 1st time ever, wind and solar overtook fossil fuels in Germany, Europe’s industr",
+  "why": "A solid milestone for energy abundance and progress, though it's more of a news report than a deep analytical essay."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"If you write what you yourself sincerely think and feel and are interested in... you will interest other people.\" Rachel Carson on writing ",
+  "why": "Beautiful quote on the creative process, but perhaps too brief to be a top-tier long-form read today."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"No one you love is ever dead.\" Hemingway on the meaning of life and how to live through the most devastating losses: themarginalian.org/202",
+  "why": "Beautiful contemplative writing on loss, though perhaps less directly aligned with his core tech/progress intersections."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "gnoble79",
+  "via": "GaryMarcus",
+  "text": "Tesla's entire valuation rests on a robotaxi business the company's own data says is worth $840 million. And the stock is still priced for $",
+  "why": "Contains some real numbers on autonomous driving TAM, but the tone is overly sensational and hype-driven."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "Jon_Hartley_",
+  "via": "Noahpinion",
+  "text": "Harvard has laid off roughly 13 percent of college admin staff Posted Jul 28, 2026 at 3:40PM",
+  "why": "Pure news announcement about university admin layoffs; lacks the long-form depth or analysis required for a save."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "only thing keeping me from taking Zuckerberg’s manifesto seriously is the last two decades of his callous indifference of the consequences o",
+  "why": "Skepticism of Meta's track record, but lacks the substantive original analysis or numbers needed to clear the high bar for critique."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in you",
+  "why": "Announcement of a new OpenAI security tool. Useful, but lacks the long-form insight or essay depth he prefers to read."
+ },
+ {
+  "rank": 20,
   "kept": false,
   "score": 4,
   "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "Barbarian horde meets technological civilization Posted Jul 28, 2026 at 5:21AM",
-  "why": "Interesting piece on drone warfare, but falls outside your core focus areas and uses hyperbolic framing."
+  "text": "NATO militaries are all obsolete. Posted Jul 28, 2026 at 11:18PM",
+  "why": "Interesting anecdote on military state capacity, but leans slightly toward engagement-bait and isn't a deep analytical piece."
  },
  {
-  "rank": 12,
+  "rank": 21,
   "kept": false,
-  "score": 3,
+  "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "I drew a #birddivination card on my own birthday and got exactly what I needed to hear. You can find the deck of 100 (to draw your own, on y",
-  "why": "A brief promo for bird divination cards rather than a deep contemplative essay."
+  "text": "“Before you know kindness as the deepest thing inside, you must know sorrow as the other deepest thing.” The story behind one of the most mo",
+  "why": "Beautiful poetry context, but lower signal for his specific intersections of tech, learning, and progress today."
  },
  {
-  "rank": 13,
+  "rank": 22,
   "kept": false,
   "score": 3,
-  "topic": "frontier-ai",
-  "author": "DavidSacks",
-  "via": "GaryMarcus",
-  "text": "Anthropic maintains that it is entitled to train for free on all the world’s output, even if the author objects. But if a competitor trains ",
-  "why": "Brief, somewhat political dunking on Anthropic's IP hypocrisy."
+  "topic": "contemplative",
+  "author": "penguinpress",
+  "via": "michaelpollan",
+  "text": "“[An] achingly intelligent memoir . . . It’s been 10 years since the publication of Hillbilly Elegy, by Vice President JD Vance, and we fina",
+  "why": "A book review of an Appalachian memoir; falls outside his core focus areas of tech, progress, and learning science."
  },
  {
-  "rank": 14,
+  "rank": 23,
   "kept": false,
   "score": 3,
-  "topic": "econ-progress",
-  "author": "JTasioulas",
-  "via": "DAcemogluMIT",
-  "text": "Three cheers for \"working class liberalism\". Having read an earlier draft, I can say this is an important and extremely timely book. Posted ",
-  "why": "Brief endorsement and promo for Acemoglu's new book; lacks standalone substance."
+  "topic": "ai-engineering",
+  "author": "gdb",
+  "via": "jxnlco",
+  "text": "we've just open-sourced the Codex Security CLI: news.ycombinator.com/item?id=490897… Posted Jul 28, 2026 at 10:41PM",
+  "why": "Pure announcement of a tool release. He prefers deep dives, postmortems, or essays over bare release links."
  },
  {
-  "rank": 15,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "dhh",
-  "via": "tobi",
-  "text": "Standing by our principles back in 2021, and not caving to the woke mob, remains one of the proudest achievements in my career. And you don'",
-  "why": "Leans too heavily into culture-war grievances rather than actionable builder craft or calm company ops."
- },
- {
-  "rank": 16,
+  "rank": 24,
   "kept": false,
   "score": 2,
-  "topic": "econ-progress",
-  "author": "phil_mcalister",
-  "via": "C_Hendrick",
-  "text": "A few very obvious points on Mamdani's grocery stores: The supply of the discounted groceries will run out on day 1, and every day there is ",
-  "why": "Political dunking and culture-war rage-bait about city-run grocery stores."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Extremely hard to respect Anthropic’s opposition to wholesale distillation in this light. Posted Jul 28, 2026 at 1:37PM",
-  "why": "A brief dunk based on a viral story that lacks deeper technical or philosophical analysis."
+  "text": "The whole internet took this badly acted joke video as indicative of something deep about modern society. We don't even need AI slop. Posted",
+  "why": "Culture-war dunking and rage-bait, which violates the core anti-taste rules."
  },
  {
-  "rank": 18,
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "_RajPatel",
+  "via": "michaelpollan",
+  "text": "A recent attack on Marion Nestle starts to make sense if you're far less kind to the Make America Healthy Again movement than Marion has bee",
+  "why": "Political/culture-war adjacent commentary on health movements, which violates the anti-taste rules."
+ },
+ {
+  "rank": 26,
   "kept": false,
   "score": 2,
   "topic": "econ-progress",
-  "author": "NickKristof",
-  "via": "DAcemogluMIT",
-  "text": "An excellent suggestion from @DAcemogluMIT ! Posted Jul 27, 2026 at 7:48PM",
-  "why": "Political dunking on billionaires rather than substantive economic or technological analysis."
+  "author": "tobi",
+  "via": null,
+  "text": "Great Posted Jul 28, 2026 at 11:01PM",
+  "why": "Basic news announcement about Canadian passport renewals; completely outside his core reading interests."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "packyM",
+  "via": null,
+  "text": "As a big fan of both Jesse and Skinwalker Ranch, this was even better than I hoped. @BrandonFugal is just as confused as I am about two thin",
+  "why": "UFO and paranormal speculation at Skinwalker Ranch is far outside his core interests in rigorous science and progress."
  }
 ]
