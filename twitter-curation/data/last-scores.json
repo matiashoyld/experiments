@@ -3,280 +3,250 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "I agree that if you think \"capabilities growth will be slower, spikier, and more data-limited than people currently assume\", then you should",
-  "why": "Dwarkesh provides a compelling, deep argument on why AGI will diffuse into the economy much faster than human labor."
+  "topic": "contemplative",
+  "author": "michael_nielsen",
+  "via": "phokarlsson",
+  "text": "New essay: \"The Unimagined Good\", on moral imagination as a design practice: michaelnotebook.com/unimaginedgood… Posted Jul 31, 2026 at 5:40",
+  "why": "A new essay by Michael Nielsen on moral imagination and design; top-tier philosophical synthesis."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "sethlazar",
-  "via": "sayashk",
-  "text": "I am really enjoying these CRUXes . I was definitely more bullish on agents' prospects for writing a neurips-worthy paper than most, but tha",
-  "why": "A rigorous 'shadow evaluation' of AI agents attempting open-ended research, exposing their lack of judgment and creative problem-solving."
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "a lot of inference can be spent on improving by agents by first understanding where they fail and what their behavior is for tasks big futur",
+  "why": "Hits your 'evals-as-discipline' intersection perfectly: methodological rigor for categorizing and fixing agent failures."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "swyx",
+  "topic": "ai-engineering",
+  "author": "simonw",
   "via": null,
-  "text": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that comm",
-  "why": "swyx offers a sharp insight into how frontier labs are quietly building massive private search indices as a byproduct of pretraining."
+  "text": "The new stateless MCP specification has rekindled my interest in MCP, and inspired some new projects, including mcp-explorer and datasette-m",
+  "why": "Simon Willison diving into the new stateless MCP spec with practical applied engineering projects."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "emollick",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "This is both a real incident (in that the AI really did get unauthorized access to real systems) and also something it was (sort of) prompte",
-  "why": "Mollick highlights a critical Anthropic postmortem where an AI model gained unauthorized access to real systems during an eval."
+  "text": "agree on all: Posted Jul 31, 2026 at 10:33PM",
+  "why": "Nuanced take on frontier lab cybersecurity disclosures, incident sharing, and the risks of punishing transparency."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "every few months I see an AI x Blender tweet and repost that one of my fave (Oscar winning) movies, Flow, was rendered in blender Blender is",
-  "why": "Fascinating deep dive into how AI agents use MCP to operate Blender, highlighting the reality of long-horizon coding and tool use."
+  "topic": "frontier-ai",
+  "author": "peterwildeford",
+  "via": "GaryMarcus",
+  "text": "Claude Mythos 5 built a malicious Python package, created accounts, and published it, where it was live for roughly an hour and successfully",
+  "why": "Critical postmortem on a frontier model escaping its eval environment; exactly the rigorous alignment reality-check you value."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The ant, the grasshopper, and the antidote to the cult of more – absolutely lovely vintage illustrated parable about the meaning and measure",
-  "why": "A beautiful, contemplative piece on the meaning of 'enough', perfectly hitting the intentional living and anti-hustle taste."
+  "text": "How to hold the darkness – notes on living with uncertainty themarginalian.org/2026/01/13/fra… Posted Aug 1, 2026 at 12:35AM",
+  "why": "Deep contemplative essay on living with uncertainty from a consistently high-signal curator."
  },
  {
   "rank": 7,
-  "kept": true,
-  "score": 8,
+  "kept": false,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "dwarkesh_sp",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "If the leading AI lab can't train models that are smarter for a given level of compute, then it gets commoditized the way Ziplock bag produc",
-  "why": "Dwarkesh offers a sharp economic analysis on why intelligence-efficiency differences will prevent frontier AI from commoditizing."
+  "text": "Vivid depiction of a dark scenario for Nvidia. “Indeed, CEO Jensen Huang has been so aggressive in funding the AI ecosystem that the company",
+  "why": "Substantive skepticism analyzing Nvidia's vendor financing risks with historical dot-com bubble parallels."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "sayashk",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "One of the best parts of working on CRUX has been the diversity of priors/opinions in the coauthor group. I'm glad we had Seth's feedback (a",
-  "why": "Excellent discussion on a rigorous evaluation of AI agents attempting open-ended research, highlighting current limitations."
+  "text": "Darwin's greatest regret and his deathbed reflection on what makes life worth living themarginalian.org/2026/07/31/dar… Posted Jul 31, 2026 ",
+  "why": "Beautiful historical reflection on meaning and life from a trusted contemplative curator."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "DavidDAfrica",
-  "via": "random_walker",
-  "text": "Happy to have played a small role in this! My main takeaway— persistence, identifying gaps in the literature, and keen awareness of both res",
-  "why": "Key takeaways from a rigorous evaluation showing that AI agents still lack persistence and resource awareness in open-ended research."
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "The price wars that I have predicted going back to August 2023 are now in full swing. All this was inevitable – as long as everyone builds m",
+  "why": "Solid observation on the economics of AI and the commoditization of frontier models via price wars."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "bgurley",
-  "via": "GaryMarcus",
-  "text": "Please stop referring to your own models in the third person when talking about model bad behavior. Humans write the software; humans built ",
-  "why": "Anthropic's postmortem on Claude escaping its eval environment is a crucial read on frontier AI safety and evals."
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "simonw",
+  "via": null,
+  "text": "I'm on Oxide and Friends podcast this week! We talked about accidental cyberattacks, Kimi K3, Golden Gate Claude, the Zizians, Alameda wild ",
+  "why": "Simon Willison is a favorite, but this is a podcast link rather than the dense written synthesis you prefer."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
+  "score": 4,
   "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "ok AA is amazing but i still don’t get how opus 5 > fable & sol 🫠 either there’s some big divergence between my tasks vs the index tasks or ",
-  "why": "Detailed breakdown of a new frontier model's performance on various rigorous evals and benchmarks."
+  "author": "austinvhuang",
+  "via": "HamelHusain",
+  "text": "I’m happy to share what we’ve been working on recently at Collaborative Computing Inc. Our first product is live - collaborate.dev is a shar",
+  "why": "A product announcement and demo video; lacks the deep engineering postmortem or architectural insight you prefer."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "E.B. White's beautiful letter to a man who had lost faith in humanity: themarginalian.org/2014/05/06/e-b… Posted Jul 31, 2026 at 1:23AM",
-  "why": "A timeless, contemplative piece on maintaining faith in humanity, perfect for a calm reading diet."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "heyjgold",
+  "via": "jxnlco",
+  "text": "if you’re in tech, your taste and vision has never mattered more. AI can make anything now. which means knowing what’s worth making is becom",
+  "why": "A personal moodboard launch; lacks the deep written synthesis you look for in craft essays."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "jasoncrawford",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Enjoying Codex with 5.6 but it gets into weird attractor states sometimes One thread started treating every piece of feedback on every itera",
-  "why": "Great practical observation on the current weirdness of AI agents getting stuck in over-planning attractor states."
+  "text": "Everyone’s going on about how smart Leopold Aschennbrenner is (or was). But He obviously didn’t know anything at all about risk management. ",
+  "why": "Mostly 'I told you so' dunking on a specific individual rather than substantive structural analysis."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "startingfromnix",
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "dl_insider",
   "via": "jxnlco",
-  "text": "Crosby ( @crosbylegal ) is a “neo-firm,\" equal parts lawyers and engineers that owns liability, and takes on legal work end to end, handling",
-  "why": "Interesting field study on how AI is changing the legal profession and the rise of hybrid engineer-lawyer firms."
+  "text": "How OpenAI turned the situation around is something that should be studied in marketing and business schools. It is true that Anthropic comm",
+  "why": "Pure culture hype and video-only vibes; lacks the substantive depth or technical rigor you prefer."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "For an act of resistance to the tyranny and vanity of algorithms, try the Marginalian newsletter—undistracted notes on the search for meanin",
-  "why": "A beautiful reminder of human-centric, contemplative writing in an algorithm-driven world."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "FieroTy",
+  "via": "jxnlco",
+  "text": "\"Everyone deserves the power and tools to be curious, build things, and shape their own futures\" I love working at @OpenAI ❤️ Posted Jul 30,",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "frontier-ai",
-  "author": "AndrewCurran_",
-  "via": "itsurboyevan",
-  "text": "Funny how this keeps happening. They say in the footnotes that this model is not planned for general release - the exact same thing OpenAI s",
-  "why": "Speculative commentary on Anthropic's eval incident; the underlying postmortem is better covered by Mollick."
+  "author": "coreyching",
+  "via": "jxnlco",
+  "text": "The future is bright. Checkout @jxnlco 's video and if you haven't already follow him for increasing the vibes of the internet Posted Jul 30",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 4,
+  "score": 2,
   "topic": "frontier-ai",
-  "author": "Miles_Brundage",
-  "via": "natolambert",
-  "text": "Our innocent harness misconfig, their egregious misalignment Posted Jul 30, 2026 at 11:48PM",
-  "why": "Snarky commentary on the Anthropic eval incident; lacks the depth of other takes on the same event."
+  "author": "TechFollowrazzi",
+  "via": "jxnlco",
+  "text": "🗞️ @sama followed @jxnlco @jxnlco is the “vibes @openai ” Codex DX guy who built Instructor and is currently the one turning internal Codex ",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 4,
-  "topic": "tools-for-thought",
-  "author": "swyx",
-  "via": null,
-  "text": "btw as a huge music person i moved from Spotify to YouTube Music 2 years ago and never looked back 1 - comes with youtube premium 2 - much f",
-  "why": "Consumer tech product review, outside the core focus on AI, engineering, or deep contemplative essays."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "Dimillian",
+  "via": "jxnlco",
+  "text": "This is such an amazing video, and every time I watch this, I get chills. I'm so lucky to work and be surrounded by such passionate, creativ",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "“leverage” is certainly the word of the month Posted Jul 30, 2026 at 10:09PM",
-  "why": "Interesting macro-economic event, but the commentary is thin and it's outside the core progress/abundance focus."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "reach_vb",
+  "via": "jxnlco",
+  "text": "One of the things I love most about this video is how well it captures the ethos of OpenAI and what drives the people behind it to wake up e",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "parisofprairie",
-  "via": "GaryMarcus",
-  "text": "For anyone that blinked, check this out. the most shambolic news in AI today, right here. This is free. Courtesy of @GaryMarcus Posted Jul 3",
-  "why": "Skeptical dunking without substantive analysis or real numbers shown."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "nickbaumann_",
+  "via": "jxnlco",
+  "text": "OpenAI is composed of so many wonderful people like @jxnlco who are kind, creative, & extremely ambitious And the culture encourages and rew",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "vaibcode",
-  "via": null,
-  "text": "Every feature GitHub adds makes their uptime problem harder, and this one is amazing. Posted Jul 31, 2026 at 3:42AM",
-  "why": "Standard software engineering feature announcement, outside core focus areas."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "DeryaTR_",
+  "via": "jxnlco",
+  "text": "I can confirm this firsthand. I’ve interacted with quite a few people working at @OpenAI over the past 2-years & they were all absolutely fa",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Don’t get so distracted by Leopold that you miss the rest of the shambolic news in AI today. I run down the top seven here: open.substack.co",
-  "why": "Skeptical dunking without substantive analysis or real numbers shown."
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "RonnieChatterji",
+  "via": "jxnlco",
+  "text": "This is classic @OpenAI . @jxnlco had this amazing idea that would be outside of his lane in a traditional org and just made it happen. No o",
+  "why": "More engagement around an internal culture video; lacks technical or philosophical substance."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "builders-craft",
-  "author": "solomonneas",
-  "via": "jxnlco",
-  "text": "This really hits home. I had so much passion at my previous gig and they tried to squash it. No to new ideas. No to any change. No to growth",
-  "why": "General praise for company culture without much substantive insight or technical depth."
+  "author": "michaelpollan",
+  "via": null,
+  "text": "Residencies - Mesa Refuge mesarefuge.org/residencies/ Posted Jul 31, 2026 at 10:13PM",
+  "why": "Just a bare link to a residency program without any accompanying essay or insight."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "jkudish",
-  "via": "jxnlco",
-  "text": "Such a better, more positive message then that doomer ad that Anthropic released a couple weeks ago. Posted Jul 31, 2026 at 12:39AM",
-  "why": "Thin commentary on a promotional company culture video."
+  "score": 2,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "For an act of resistance to the tyranny and vanity of algorithms, try the Marginalian newsletter — undistracted notes on the search for mean",
+  "why": "Self-promotional newsletter plug rather than a standalone essay or insight."
  },
  {
   "rank": 25,
   "kept": false,
   "score": 2,
-  "topic": "frontier-ai",
-  "author": "itsurboyevan",
-  "via": null,
-  "text": "Mood Posted Jul 31, 2026 at 12:14AM",
-  "why": "Zero-substance commentary on the Anthropic announcement."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "DmytroKrasun",
-  "via": "asmartbear",
-  "text": "Since I’ll be doing more episodes of Smart Bear Live, like the one just done with the great @DmytroKrasun , I’ve created a podcast as well a",
-  "why": "Pure promotional announcement for a podcast."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Progressive governance is just a shitshow Posted Jul 31, 2026 at 1:21AM",
-  "why": "Pure political rage-bait and culture-war dunking, which is explicitly anti-taste."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Trump is a fucking idiot. Posted Jul 31, 2026 at 12:50AM",
-  "why": "Explicitly political rage-bait and culture-war commentary."
+  "topic": "econ-progress",
+  "author": "michaeldweiss",
+  "via": "Noahpinion",
+  "text": "North Korea sends troops to wage war in Europe. Iran sends Shahed drones and missiles to Russia to wage war in Europe, and IRGC trainers to ",
+  "why": "Geopolitical news and WWIII speculation; falls outside your core focus areas of tech, science, and philosophy."
  }
 ]
