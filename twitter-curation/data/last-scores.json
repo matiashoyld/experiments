@@ -2,281 +2,271 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "_can1357",
-  "via": null,
-  "text": "Two years ago I was hosting my own SMTP server and had a simple goal: receiving one-time codes + the occasional human email. But I kept runn",
-  "why": "Masterful, readable technical breakdown of how LLM tool-calling actually works under the hood, dispelling the 'magic'."
+  "score": 10,
+  "topic": "ai-essays",
+  "author": "_amanda_long",
+  "via": "krishnanrohit",
+  "text": "Models are trained to give the same \"As an AI, I don't have…\" template to every self-referential question. Remove the self-report-suppressio",
+  "why": "Incredible intersection of AI, consciousness, and evals: mechanistic interpretability proving models are trained to deny consciousness."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "agency",
-  "author": "danshipper",
-  "via": null,
-  "text": "when you experience a language model doing a task that used to require you at every step and now doesn't, it's a gigantic agency rupture. we",
-  "why": "Dan Shipper's brilliant framing of 'agency rupture'—how we metabolize the loss of identity when AI automates our core tasks."
+  "topic": "ai-essays",
+  "author": "RealLeviWekesa",
+  "via": "danshipper",
+  "text": "Very well articulated by @danshipper . What we call 'work' today will be dramatically redefined. Just like we no longer say the 'excel sprea",
+  "why": "Dan Shipper (a favorite) brilliantly articulates the 'agency rupture' we feel as AI automates our identity-tied tasks."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "ian_hsiao_tw",
-  "via": "thorstenball",
-  "text": "Adding a new feature requires careful observation and accurate perception of the model’s capability and how it reflects in human workflow. R",
-  "why": "Excellent deep-dive into the UX and architecture of agentic coding tools, analyzing what features actually work in practice."
+  "score": 9,
+  "topic": "ai-essays",
+  "author": "jaatster",
+  "via": "danshipper",
+  "text": "read this very important for anyone who is thinking about working with agents Posted Aug 3, 2026 at 4:40AM",
+  "why": "Dan Shipper brilliantly articulates the 'agency rupture' we feel as AI automates our identity-tied tasks."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "levie",
-  "via": "Noahpinion",
-  "text": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to automation first, part",
-  "why": "Excellent framework for understanding which jobs AI automates first, based on the objective verifiability of the work."
+  "topic": "ai-engineering",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Bets on whether Astra will be vulnerable to the same problems? I think the answer is “very likely yes” Posted Aug 3, 2026 at 2:48PM",
+  "why": "The quoted thread is a fantastic evals-as-discipline breakdown of salience bias in LLMs."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "vixsheikh",
-  "via": "danshipper",
-  "text": "Fascinating take. I’m curious if anyone I know here has experienced this? Posted Aug 2, 2026 at 11:05PM",
-  "why": "Highlights Dan Shipper's brilliant framing of 'agency rupture'—how we metabolize the loss of identity when AI automates our tasks."
+  "topic": "ai-engineering",
+  "author": "rohanpaul_ai",
+  "via": "GaryMarcus",
+  "text": "LLMs can know a task is impossible and still optimize it anyway. Ask whether to walk or drive to a car wash 50 meters away, and some models ",
+  "why": "Excellent methodological rigor applied to LLM systems, exposing how task framing suppresses model knowledge."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "I've long since said that if you want LLMs to act according to our values without getting caught in the helpful/ harmless/ honest trilemma, ",
-  "why": "Fascinating paper breakdown on how inducing a 'consciousness vector' in LLMs radically alters their alignment and human-like beliefs."
+  "text": "I know this is slop, but it took me less than four hours on the weekend to make some serious progress on an issue I previously wasted a mont",
+  "why": "Great builder-operator wisdom: using AI agents to finally resolve an 8-year-old open source issue in a weekend."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Talent is insignificant. I know a lot of talented ruins. Beyond talent lie all the usual words: discipline, love, luck, but most of all, en",
-  "why": "Timeless wisdom on the craft of writing and the necessity of endurance over mere talent."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "RyanFedasiuk",
+  "via": "Noahpinion",
+  "text": "Distillation is an AI training technique. What Moonshot did to Anthropic was fraud. In a new article for @WarOnTheRocks , I walk through how",
+  "why": "High-signal analysis on frontier AI policy, distillation mechanics, and geopolitics."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The grasshopper, the game of life, and the \"lusory attitude\" essential for playing themarginalian.org/2026/08/02/sui… Posted Aug 3, 2026 at ",
-  "why": "A beautiful philosophical exploration of games, life, and the 'lusory attitude' from The Marginalian."
+  "topic": "ai-essays",
+  "author": "wwwojtekk",
+  "via": "jasoncrawford",
+  "text": "My prediction: mathematicians will survive and thrive in the future, even in the near future. They will just be confused on a higher level a",
+  "why": "Thoughtful philosophical debate on how AI alters the incentive structures and nature of knowledge work."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "topic": "ai-engineering",
+  "author": "awilkinson",
   "via": null,
-  "text": "“poorly evidenced sensationalism makes for bad policymaking, politics, philanthropy and much else.” beautiful coda for a weekend in which pe",
-  "why": "The quoted thread offers a sober, substantive look at why human verification will bottleneck AI-driven scientific progress."
+  "text": "Sam ( @sama ), I love Codex. But there's this one really dumb/subtle problem. Claude Code FEELS faster. I think this is primarily because as",
+  "why": "Sharp builder insight on the UX of AI coding agents and how perceived latency affects trust."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "It'll change a lot, but maybe not the stuff people expect to change. noahpinion.blog/p/what-will-mo… Posted Aug 3, 2026 at 12:09AM",
-  "why": "Noahpinion's economic analysis on what actually happens to society and growth if intelligence becomes abundant."
+  "text": "\"There is no quieter place on earth than the third hour of a good long day of walking. It’s alone in this space, this walk-induced hypnosis,",
+  "why": "Craig Mod on walking—a perfect contemplative counterweight to the digital noise."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "topic": "parenting-education",
+  "author": "DTWillingham",
   "via": null,
-  "text": "Don’t think I have seen more misconceptions around one model (I count 8) since the fantasies people had before GPT-5 was released. That turn",
-  "why": "A rare substantive skeptical take correctly identifying why AI success in math (highly verifiable) doesn't guarantee open-ended AGI."
+  "text": "James Traub in the NY Times making the point that, whatever you think of the particular curricular choices that Texas has made, they are tak",
+  "why": "A cognitive scientist's take on curriculum design for reading comprehension and critical thinking."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
   "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Top eight misconceptions about OpenAI’s amazing new Astra math results. Expertise in one domain does not at all guarantee expertise in all o",
-  "why": "Substantive skeptical take identifying why AI success in math (highly verifiable) doesn't guarantee open-ended AGI."
+  "author": "hammer_mt",
+  "via": "every",
+  "text": "One of the main things I tell consulting clients is to not think about cost savings with AI, but instead what tasks would have been impossib",
+  "why": "Great framing on AI economics: it's about induced demand for previously impossible tasks, not just cost savings."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "davidcrawshaw",
-  "via": "swyx",
-  "text": "Machines create code now. That means machines can personalize your software, if it is open source. Closed source tools (like Claude Code) ar",
-  "why": "Swyx-amplified argument on why AI coding agents make open-source devtools strictly superior to closed ones."
+  "author": "nicbstme",
+  "via": null,
+  "text": "I’d offer a slightly different perspective from my experience testing models: don’t think model vs. model, think model quality per task (you",
+  "why": "Nuanced take on model evaluation, highlighting how the frontier gap only appears on highly complex tasks."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "emollick",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Qwen 3.8 Max on my shader test. Basic impression after a bunch of experiments is that it is a solid model, but not Kimi K3 level in my exper",
-  "why": "Mollick's quick vibe-check on Qwen 3.8 Max's coding capabilities compared to Kimi K3. Good, but not a deep long-form read."
+  "text": "We all need better newspapers. Heres one the agents are running themselves - autonomous press - strangelab.ai/autonomous-pre… 3 diff models ",
+  "why": "Cool applied AI engineering project: autonomous agents running a daily newspaper."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Tariffs. Price controls. Rent control. Deportations. Corporate landlord bans. Infinite tax cuts. ALL SLOP. noahpinion.blog/p/slopulism-is… P",
-  "why": "Political economics piece that leans a bit too heavily into punditry over rigorous analysis."
+  "text": "How to hold the darkness – notes on living with uncertainty themarginalian.org/2026/08/02/fra… Posted Aug 3, 2026 at 3:51PM",
+  "why": "Beautiful contemplative piece on living with uncertainty."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
+  "score": 6,
   "topic": "econ-progress",
-  "author": "TheAutumnalFire",
-  "via": "WillManidis",
-  "text": "The Trumpian commercialist international framework was a necessity of the AI buildout trade. The Biden Admin failed to establish these rails",
-  "why": "Leans too heavily into partisan geopolitical punditry rather than core AI economics or progress studies."
+  "author": "packyM",
+  "via": null,
+  "text": "What SpaceX is to space and Anduril is to defense, I think Base will be to energy. Now it has $1B more to put to work making energy affordab",
+  "why": "Good progress/abundance update on hardware and energy, though slightly hype-heavy."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "simonw",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Qwen 3.8 Max and MiniMax-H3 within hours of each other Posted Aug 3, 2026 at 3:42AM",
-  "why": "Bare announcement of new model releases; lacks the substantive analysis Matias prefers."
+  "text": "Annie Dillard on how to bear your mortality – superb read themarginalian.org/2023/04/30/ann… Posted Aug 3, 2026 at 11:42AM",
+  "why": "Annie Dillard on mortality—solid contemplative reading."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "🚨ASI/AGI is imminent fans don’t realize that they ALREADY lost the argument around Astra. My argument (spelled out in detail in my Substack ",
-  "why": "Repetitive AI skepticism and hype-dunking without new data or rigorous technical analysis."
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "nsachdeva2019",
+  "via": "C_Hendrick",
+  "text": "Some years ago, this non sense stat was being distributed and @DTWillingham had responded beautifully. I used his responses to create a micr",
+  "why": "Practical application of learning science to debunk educational myths."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "This comment is psychotic. I love mathematicians, and I quite enjoyed analysis class. 😂 Posted Aug 3, 2026 at 2:13AM",
-  "why": "Commentary on the social reactions to AI math capabilities rather than the capabilities themselves."
+  "text": "\"True teachers are called into being by the contradictions generated by civilization… We need them.\" Gary Snyder (a true teacher himself) on",
+  "why": "Gary Snyder on education and civilization—a good contemplative read."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "MoreBirths",
-  "via": "Noahpinion",
-  "text": "FOR IMMIGRATION TO BE SUCCESSFUL YOU NEED A MUCH HIGHER BIRTHRATE The European Union has been famously unsuccessful at integrating immigrant",
-  "why": "Macro-demographic political debate that strays too far into culture-war territory."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "fascinating comments on possible slowdown –  but probably a red herring. Anthropic and OpenAI presumably aren’t colluding to slowdown, they ",
+  "why": "Decent point on regulation vs collusion, but leans too much into punditry."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "TheZvi",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Trying out a personal early warning system. manifold.markets/ZviMowshowitz/… Posted Aug 2, 2026 at 9:53PM",
-  "why": "Bare link to a prediction market without surrounding analysis."
+  "text": "Sudden silence on metrics that used to be shared regularly is a bad sign.  If this post below is correct, it doesn’t look great for enthusia",
+  "why": "Speculative dunking on Anthropic's ARR without much substantive analysis."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "“hopefully”. the entire future of humanity could rest on that word. Posted Aug 2, 2026 at 9:22PM",
-  "why": "Repetitive AI safety dunking without new technical substance."
+  "text": "Mandatory reading. gruhn.me/blog/2026-08-0… Posted Aug 3, 2026 at 4:00PM",
+  "why": "Too little context to judge the link, even from a great builder."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": null,
-  "text": "Here we go, another week another frontier open weight model. Posted Aug 3, 2026 at 3:28AM",
-  "why": "Pure model announcement without substantive analysis or original insight."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "ramez",
+  "via": "Noahpinion",
+  "text": "This is not good.  This is driven by both underlying climate and an unprecedented super-El Nino. Either way, are now exceeding climate model",
+  "why": "Climate doom updates fall outside your core focus areas."
  },
  {
   "rank": 24,
   "kept": false,
   "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "this is the real reason people from OpenAI etc are desperate to shut me up. Astra (which didn’t even have a control group and is maybe not t",
-  "why": "AI drama and hype-dunking without substantive technical or economic analysis."
+  "topic": "agency",
+  "author": "Prigoose",
+  "via": "catehall",
+  "text": "You can just do things...but will you? Come implement the lessons from @catehall 's new book, tomorrow evening at Fractal Campus luma.com/bn",
+  "why": "Event promo with no standalone substance."
  },
  {
   "rank": 25,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "Rust serde people, what do you think of this? gist.github.com/mitsuhiko/f0ab… Posted Aug 2, 2026 at 9:27PM",
-  "why": "Too niche and specific to Rust serialization; lacks broader engineering or AI insights."
+  "topic": "tools-for-thought",
+  "author": "kobex___",
+  "via": "every",
+  "text": "I’ve officially made it: I’m on a YouTube thumbnail 😂 @every put out a video on turning knowledge work into Codex workflows, where @romainhu",
+  "why": "Video promo and audience-growth content."
  },
  {
   "rank": 26,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "Replying to @sh_reya @sh_reya @BEBischof @AAAzzam @bradenjhancock Cool I'm gonna try it, will add onto it Incase you are curious (my fork is",
-  "why": "Mid-conversation reply with a GitHub PR link; lacks standalone context or insight."
+  "topic": "builders-craft",
+  "author": "hannahkoch",
+  "via": "jxnlco",
+  "text": "@jxnlco is so talented and a great reminder you can just do things. like make an OpenAI mission video. Thank you for making something beauti",
+  "why": "Pure hype and praise for a video, lacking standalone insight."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
+  "score": 2,
   "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "OpenAI distilled Google’s name lol Posted Aug 3, 2026 at 2:15AM",
-  "why": "Low-effort dunking and noise."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "FeralPHunter",
-  "via": "Noahpinion",
-  "text": "The fact that left wing politicians have been doing photo ops with this guy is absolutely insane Posted Aug 2, 2026 at 11:07PM",
-  "why": "Pure political rage-bait, explicitly against core reading preferences."
+  "author": "JoeMcCormick01",
+  "via": "jxnlco",
+  "text": "I don’t post here often, but joining OpenAI last year has been one of the best decisions I’ve made. Proud to be working alongside Jason and ",
+  "why": "Announcement-only post with no substance."
  }
 ]
