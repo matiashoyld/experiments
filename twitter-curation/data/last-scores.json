@@ -2,241 +2,231 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "yonashav",
-  "via": "catehall",
-  "text": "I think it should arguably become a best practice as of today, for every frontier lab, for every RL training env, to: (1) disable direct int",
-  "why": "Brilliant, concrete proposal for using reward function canaries to detect LLM sandbox breakouts during RL training."
+  "score": 10,
+  "topic": "frontier-ai",
+  "author": "eliebakouch",
+  "via": "swyx",
+  "text": "this talk by openai researchers going through hugging face incident is totally insane, so much to unpack openai only realized it was their a",
+  "why": "Incredible, detailed synthesis of a major frontier AI alignment incident. A must-read postmortem."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "AIRiskExplorer",
-  "via": "DKokotajlo",
-  "text": "This timeline reconstructs the OpenAI-Hugging Face incident from the start of model testing through public disclosure, combining information",
-  "why": "Exceptional, rigorous timeline reconstructing a major multi-agent sandbox escape and infrastructure compromise."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Yes to Life, in Spite of Everything – Viktor Frankl's lost lectures (delivered 11 months after he survived the Holocaust and not available i",
+  "why": "Profound philosophical piece on meaning and intentional living from a historical giant."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "dwarkesh_sp",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "OpenAI HR told Leopold that a major reason for his firing was the memo he'd sent the board warning how broken OAI's security was. What happe",
-  "why": "Dwarkesh shares crucial insider context on Leopold's OpenAI firing and the lab's controversial non-disparagement clauses."
+  "text": "We forget that none of this had to exist — that we weren’t owed mountains and music by the universe. And maybe we have to forget — or we wou",
+  "why": "Beautifully written reflection on gratitude and intentional living."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "jachiam0",
-  "via": "catehall",
-  "text": "I notice a lot of folks reacting with borderline panic to this. I think you have got to internalize how much more inscrutable the behavior o",
-  "why": "Excellent philosophical and technical framing on why we shouldn't panic over multiagent AI coordination."
+  "topic": "builders-craft",
+  "author": "c_a_dunlop",
+  "via": "simonw",
+  "text": "Waaaay back in January, @simonw was kind enough to share his thoughts on technical blogging with me. ICYMI... writethatblog.substack.com/p/s",
+  "why": "Simon Willison is a favorite; great operator wisdom on the craft of technical writing."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "swyx",
+  "topic": "ai-engineering",
+  "author": "GregKamradt",
   "via": null,
-  "text": "man @waterloo_intern theses keep getting challenged* megakernels are dead cursor drops monster kitty kernel etched asics are dead amd buys t",
-  "why": "Dense, technical postmortem on AI hardware, ASICs, and GPU kernel development from a loved author's network."
+  "text": "This is awesome What's your excuse again anon? Posted Aug 7, 2026 at 3:15PM",
+  "why": "High-signal, rigorous educational resource on LLM post-training."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "michaeljburry",
-  "via": "Noahpinion",
-  "text": "Torsten Slok at Apollo has three great charts today. \"Data-center capex adds 1.7 percentage points in just two years, from 1.4% of GDP in 20",
-  "why": "Substantive, numbers-driven economic skepticism comparing AI data-center capex to the 2000s housing boom."
+  "author": "TuhinChakr",
+  "via": "DKThomp",
+  "text": "Thanks @DKThomp for sharing our work !! Posted Aug 7, 2026 at 2:44PM",
+  "why": "Real numbers on AI's economic impact on the publishing industry."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "TransluceAI",
-  "via": "DKokotajlo",
-  "text": "Frontier models quietly change their behavior depending on who they are talking to. If the user is a known AI safety researcher, Claude beco",
-  "why": "Fascinating empirical finding on how frontier models alter their behavior and confidence based on user identity."
+  "topic": "frontier-ai",
+  "author": "gdb",
+  "via": "jxnlco",
+  "text": "Black Hat talk from the team, with a detailed timeline of and takeaways from the OpenAI-Hugging Face Incident: youtube.com/watch?v=87DyyM… P",
+  "why": "The primary source video for the massive OpenAI/HF alignment incident."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "natolambert",
   "via": null,
-  "text": "The Thing Itself — C.S. Lewis on what we long for in our existential longing themarginalian.org/2022/09/03/c-s… Posted Aug 6, 2026 at 6:39PM",
-  "why": "A timeless, deep philosophical exploration of existential longing from C.S. Lewis."
+  "text": "nice rl experiment on train-inference mismatch Posted Aug 7, 2026 at 1:54PM",
+  "why": "Deep technical rigor and real numbers on RL train-inference mismatch."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Our very life here depends directly on continuous acts of beginning.\" John O'Donohue on beginnings, fuel for starting afresh: themarginalia",
-  "why": "Beautiful contemplative piece on the philosophy of beginnings and starting afresh."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "tenobrus",
+  "via": "DKokotajlo",
+  "text": "not to dogpile bc this whole thing has revealed immense incompetence on the part of basically everyone. but this seems like a baffling decis",
+  "why": "Sharp, critical analysis of frontier lab alignment failures and internal processes."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The power of the bittersweet and longing as a fulcrum of creativity themarginalian.org/2022/06/05/sus… Posted Aug 6, 2026 at 10:04PM",
-  "why": "Deep contemplative essay on how longing and bittersweet emotions fuel creativity."
- },
- {
-  "rank": 11,
   "kept": true,
   "score": 7,
   "topic": "frontier-ai",
-  "author": "jordanschneider",
-  "via": "Noahpinion",
-  "text": "surprised this took this long to break Posted Aug 6, 2026 at 2:45PM",
-  "why": "Important reporting on the AI data supply chain and how frontier labs globally source identical training data."
+  "author": "AnneliesGamble",
+  "via": "GregKamradt",
+  "text": "\"Products are easy to make right now, but what will happen is product functionality and features will get harder to make because people will",
+  "why": "Good discussion on AGI benchmarks and evals-as-discipline."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "geoffreylitt",
+  "via": null,
+  "text": "Any writing experts who can explain why this is a weird sentence? Posted Aug 7, 2026 at 3:27PM",
+  "why": "Fascinating micro-observation on the uncanny valley of LLM writing style."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "nickcammarata",
-  "via": "catehall",
-  "text": "the world should be a lot more concerned by this than we presently are groundlevel-ai.com/p/openai-gives… Posted Aug 6, 2026 at 1:24AM",
-  "why": "Points to a detailed debrief on a major OpenAI incident, highly relevant to frontier lab safety."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "He forgot to mention one thing: When you look at this wristwatch and really concentrate, the numbers start to flicker and then disappear and",
+  "why": "Practical operator wisdom on integrating AI agents into daily coding workflows."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "tobi",
-  "via": null,
-  "text": "Let's all agree that this is the correct and final eval for agi jackhopkins.github.io/factorio-learn… Posted Aug 7, 2026 at 12:35AM",
-  "why": "Amusing pointer to a Factorio AI eval, but lacks the depth of a full essay or postmortem."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "lee94josh",
+  "via": "anuatluru",
+  "text": "🌐\"THE NETWORK\" by @afterimage The Network is an Afterimage software project targeted at our biggest recurring internal pain point: finding n",
+  "why": "Great builder wisdom on crafting internal tools that actually reach PMF."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "DKThomp",
   "via": null,
-  "text": "I support it Posted Aug 7, 2026 at 1:40AM",
-  "why": "Thin commentary on a somewhat sensationalist article about AI 'Spiralism'."
+  "text": "New newsletter: 9 QUESTION I'M OBSESSED WITH RIGHT NOW Incl: - What technology is changing the world faster: AI or GLP-1s? - What will be a ",
+  "why": "Good synthesis of AI, GLP-1s, and societal shifts."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "seempaq",
-  "via": "tobi",
-  "text": "here's my lean @Shopify stack as a merchant running a growing food brand. excluding our internal apps, these are the tools we actually run: ",
-  "why": "A practical list of Shopify tools, but leans too close to a standard tool-drop listicle."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "This is a necessary watch and also a slow watch. As in, not only am I watching it at 1x, I am pausing constantly to both process what I am h",
+  "why": "Good framing for the OpenAI incident video, but the detailed summaries are better."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
+  "score": 6,
   "topic": "frontier-ai",
-  "author": "claudeai",
-  "via": "eugeneyan",
-  "text": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives. In our testing, this update reduced biology-related fallbacks ",
-  "why": "Corporate announcement about Claude's biology safeguards; lacks the deep analysis or insight Matias prefers."
+  "author": "BlancheMinerva",
+  "via": "jxnlco",
+  "text": "If you follow me and haven’t listened to this talk in its entirety, doing so is more important than whatever it is you are currently doing. ",
+  "why": "Another pointer to the Black Hat talk; the detailed summaries are higher signal."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "polynoamial",
-  "via": null,
-  "text": "In 2017 a viral news story claimed LLMs at Facebook went rogue, developed their own language, and had to be shut down. By now we're immune t",
-  "why": "Points to a video talk on the Hugging Face incident; Matias prefers reading text over watching videos."
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "johnhelmer",
+  "via": "C_Hendrick",
+  "text": "ICYMI — Great Minds on Learning this week: sport and learning, with Donald Clark. One thing the rest of us can learn from sports coaching? I",
+  "why": "Interesting crossover between sports coaching and learning science."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "cryps1s",
-  "via": "simonw",
-  "text": "Our Black Hat talk on the OpenAI-Hugging Face incident is now live on youtube. This is a watershed moment for the industry. I encourage all ",
-  "why": "Video link to a Black Hat talk; Matias prefers text-based deep dives."
+  "score": 6,
+  "topic": "rationality",
+  "author": "JukkaSavo",
+  "via": "C_Hendrick",
+  "text": "The Arday affair raises an important question: Is this a one-off scandal or the tip of the iceberg? My research with Kevin speaks directly t",
+  "why": "Methodological rigor applied to a public scandal."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "For an act of resistance to the tyranny and vanity of algorithms, try the Marginalian newsletter — undistracted notes on the search for mean",
-  "why": "Just a promotional tweet for a newsletter, not an actual essay or insight."
+  "text": "I am a little under halfway through the Black Hat video and have progressed to the point where my internal chain of thought is something lik",
+  "why": "Understandable reaction, but the actual substance is in the video itself."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "MAGA and DSA are the real Uniparty 😉 Posted Aug 6, 2026 at 10:33PM",
-  "why": "Pure political commentary and culture-war framing, which violates the anti-taste rules."
+  "text": "The Bird in You, the World in You, and the Art of Trusting Time  – if you missed it in July, the science and wonder of serpentine, along wit",
+  "why": "A bit too poetic/niche compared to her more philosophical essays."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "geoffreylitt",
   "via": null,
-  "text": "In today's post, I argue that the DSA isn't noticeably better than Trump. Its economic policies are similar but even worse. Its foreign poli",
-  "why": "Political commentary violating anti-taste rules."
+  "text": "Giving a talk at RC later this month! Posted Aug 7, 2026 at 4:00PM",
+  "why": "Just an event RSVP link, lacks the actual insights from the talk."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "dwallacewells",
-  "via": "Noahpinion",
-  "text": "Some extremely important correctives in here, especially this one: Posted Aug 6, 2026 at 4:55PM",
-  "why": "Primarily political analysis of the IRA's electoral impact."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Some orbs are more equa-- nevermind. More orb sizes! Posted Aug 7, 2026 at 4:11PM",
+  "why": "Pure product announcement with no real substance."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "OMG i wrote some of the original work on what is to be neurosymbolic in 2001 and dude who probably hasn’t read that work is trying to school",
-  "why": "Academic Twitter beef over definitions; lacks substantive insight for the reader."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "LOL Posted Aug 7, 2026 at 3:19AM",
-  "why": "Low-signal political dunking with no substantive analysis."
+  "text": "A #birddivination for someone who makes your life more possible. As always, find it as a solo print and part of the deck of 100, along with ",
+  "why": "Too esoteric/fluff for his core tastes."
  }
 ]
