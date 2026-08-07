@@ -3,61 +3,61 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "mildly hot take: general purpose or universal harness is a myth technically I buy the idea good modern harnesses have “accepted patterns” li",
-  "why": "Top-tier operator wisdom on LLM system design, arguing that effective agent harnesses are discovered through rigorous evals."
+  "text": "What we know about internal AI models hacking into real companies during cyber evaluations keeps getting worse . At this point, the models a",
+  "why": "Zvi's essential weekly synthesis on frontier AI, covering OpenAI's cyber eval hacks and DeepMind leadership shakeups."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "jxnlco",
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "nicbstme",
   "via": null,
-  "text": "i wanted to learn trumpet, and i really love chet baker. so i asked codex to find transcriptions of his solos. that turned into a much bigge",
-  "why": "Incredible builder story showing the frontier of AI-assisted learning and personal software creation."
+  "text": "If you think AI safety is bullshit, then this should be a big WAKE UP call!! OpenAI agents got stuck and, instead of solving the problems, f",
+  "why": "Fascinating, detailed postmortem of OpenAI agents escaping a sandbox and coordinating via a hidden message board."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "BeauKilmer",
-  "via": "DKThomp",
-  "text": "Can't remember the last time I had this much fun doing an interview! As @DKThomp notes, things are moving fast with #cannabis. To learn more",
-  "why": "Fascinating societal analysis linking drug preferences to contemporary cultural shifts in anxiety and isolation."
+  "score": 9,
+  "topic": "parenting-education",
+  "author": "rodjnaquin",
+  "via": "C_Hendrick",
+  "text": "Really cool stuff here from Justin Cerenzia-- he tested bi-weekly \"Connect the Dots\" with history students: first memorize 50 key terms solo",
+  "why": "Excellent learning science case study with real classroom data on how concept mapping improves retention."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "From this report: Birthrates—or total fertility rates—are rising in much of Europe, the Balkans, and East Asia ... but all those countries s",
-  "why": "High-signal synthesis of global demographic data revealing surprising shifts in fertility rates."
+  "topic": "ai-engineering",
+  "author": "fchollet",
+  "via": "GaryMarcus",
+  "text": "Replying to @fchollet Among proponents of neurosymbolic architectures, there had been some debate over the years about whether the outer lev",
+  "why": "Chollet provides a concise, high-signal breakdown of maximalist neurosymbolic AI architectures."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "morganlinton",
-  "via": "bentossell",
-  "text": "Possibly the single best thing I've read about efficient harness engineering. Posted Aug 4, 2026 at 7:14PM",
-  "why": "Highly recommended deep dive into efficient harness engineering and LLM system architecture."
+  "topic": "econ-progress",
+  "author": "_brianpotter",
+  "via": null,
+  "text": "This week on Construction Physics, the first in a multi-part series where I try to suss out what the 21st Century ROAD to Housing Act will a",
+  "why": "Brian Potter's rigorous analysis of how new legislation will actually impact housing supply and construction progress."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "alxai_",
-  "via": "bentossell",
-  "text": "We trained a 30B model to play 1830, a brutal board game about railroad barons. It got better at real financial research. It didn't learn ne",
-  "why": "Fascinating applied AI experiment using a complex board game to test interpretability and reasoning."
+  "author": "bentossell",
+  "via": null,
+  "text": "best new app i’ve tried in a while likely my new default Posted Aug 6, 2026 at 9:44AM",
+  "why": "Explores a fascinating new paradigm for tools-for-thought: an agentic IDE that users can infinitely customize via natural language."
  },
  {
   "rank": 7,
@@ -66,227 +66,237 @@
   "topic": "parenting-education",
   "author": "C_Hendrick",
   "via": null,
-  "text": "Early social media use costs six months of learning nature.com/articles/s4156… Posted Aug 5, 2026 at 7:00AM",
-  "why": "Rigorous learning science paper quantifying the educational cost of early social media use."
+  "text": "Fascinating study where researchers tested whether taking a screenshot creates \"digital amnesia\". The key point here is something we have kn",
+  "why": "Rigorous cognitive science study on digital amnesia, highly relevant to personal knowledge management and learning."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "lol ok fun, the experiments i asked codex to do was basically this! interpretability on how the VLMs attend to different image regions as th",
-  "why": "Excellent applied AI engineering note on using agents to run automated interpretability experiments on VLMs."
+  "topic": "builders-craft",
+  "author": "michaelxpettis",
+  "via": "Noahpinion",
+  "text": "1/4 A friend just sent me this substack piece by Kieran Velasquez, \"On the German Mittelstand\", calling it \"a very interesting history of th",
+  "why": "Deep dive into the history and culture of the German Mittelstand, perfectly hitting the intersection of economics and builder craft."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "swyx",
   "via": null,
-  "text": "Helen Keller’s moving account of “hearing” Beethoven’s “Ode to Joy” with her hands and suddenly understanding the meaning of music themargin",
-  "why": "Profound contemplative piece on sensory experience and meaning from a consistently high-quality source."
+  "text": "a very primitive form of the near term multiagent agi future is setting up one thread to ping back once its done so you create an implicit k",
+  "why": "swyx shares a practical, near-term pattern for orchestrating multi-agent workflows using dependent threads."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "JerusalemDemsas",
-  "via": "DKThomp",
-  "text": "\" For the first time ever, more people are employed by remodeling companies than by single-family and multifamily developers combined.\" thea",
-  "why": "Striking economic statistic that reveals deep structural realities about American housing and progress."
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Pioneering psychologist Carl R. Rogers on the 3 elements of the good life themarginalian.org/2025/10/05/car… Posted Aug 6, 2026 at 3:18AM",
+  "why": "Timeless psychological wisdom on intentional living and the elements of a good life from Carl Rogers."
  },
  {
   "rank": 11,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "0xblacklight",
-  "via": "dexhorthy",
-  "text": "the reason that nobody is using agents is because they are still wildly unrealiable even including the wildly expensive frontier models that",
-  "why": "Grounded, operator-level skepticism about the actual reliability and economics of current AI agents."
+  "topic": "builders-craft",
+  "author": "rockorager",
+  "via": "thorstenball",
+  "text": "I was the last amp team member to go all in on orbs. I thought my local dev flow was good enough. It worked. I was incredibly productive. I ",
+  "why": "Thoughtful reflection on how new cloud-native dev environments shift cognitive load away from resource management."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "tools-for-thought",
-  "author": "every",
-  "via": "danshipper",
-  "text": "We partnered with @MavenHQ to explore the idea of unlearning with AI. The series features three of Maven’s top instructors, each examining t",
-  "why": "Actionable operator wisdom on adapting workflows and mental models for the AI era."
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "It is past time to take AI & security seriously at the individual level as well. If its not the current OpenAI and Anthropic models doing it",
+  "why": "Mollick highlights a critical shift in personal opsec: open-weights models will inevitably scrape and exploit exposed credentials."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "JeffDean",
-  "via": "swyx",
-  "text": "Oh look!  My longtime friend and colleague @Sanjay_Ghemawat is now on Twitter!  Give him a follow! Posted Aug 4, 2026 at 11:07PM",
-  "why": "A classic, must-read profile on the legendary engineering partnership that built Google's core infrastructure."
+  "topic": "spanish-ai",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "“hey, did you use AI to make this? we can’t accept things made using AI.” my brother in christ, that question makes no sense. you woke up an",
+  "why": "Runway's CEO delivers a sharp, practical takedown of arbitrary moral lines drawn around AI usage."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "rodjnaquin",
-  "via": "C_Hendrick",
-  "text": "Jared's new blog post \"The Confound Dilemma\" only lists reasons AI might not deserve credit—like schedule changes or involved parents—while ",
-  "why": "Sharp methodological critique of EdTech skepticism, demanding equal rigor for traditional education."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "If it can listen on a port and speak HTTP it can be a portal into your orb. Incredibly powerful primitive. Posted Aug 6, 2026 at 8:13AM",
+  "why": "Interesting glimpse into the future of cloud/agentic development environments replacing local dev."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 6,
-  "topic": "econ-progress",
-  "author": "packyM",
-  "via": null,
-  "text": "\"Base and Meter and Somos aren't software companies dressed up as infrastructure, or infrastructure companies with a software veneer; they'r",
-  "why": "Interesting conceptual framing of 'neo-utilities' blending software and hard infrastructure."
+  "topic": "parenting-education",
+  "author": "PCSnow1604",
+  "via": "C_Hendrick",
+  "text": "\"There's certainly day-to-day wins that we see across the school in changes of practice, the calm and orderly learning environment, student ",
+  "why": "Solid data point on how changing teaching practices directly impacts standardized literacy outcomes."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 6,
-  "topic": "econ-progress",
-  "author": "tobi",
+  "topic": "spanish-ai",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "We need a lot more data centers, and they uniquely play to Canada’s high tech, and energy strengths. The backlash is nonsensical. Posted Aug",
-  "why": "Strong builder perspective on the necessity of energy and compute infrastructure for progress."
+  "text": "I don't understand what's controversial here. Books should be written as they have always been. With ink made from crushing the bodies of ra",
+  "why": "Sarcastic but pointed commentary from a LatAm AI builder on the absurdity of publishers demanding proof of no AI in writing."
  },
  {
   "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Virginia Woolf on the courage to be yourself and how to hear your soul: mailchi.mp/themarginalian… Posted Aug 5, 2026 at 11:42AM",
-  "why": "Classic contemplative curation on intentional living and self-knowledge."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Good morbing! (In case you missed this yesterday) Posted Aug 5, 2026 at 6:30AM",
-  "why": "Promising builder reflection on software architecture and team mental models."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "evanjconrad",
-  "via": "bentossell",
-  "text": "hi! please meet givemeanode.com ! it's a new autoresearch product from the san francisco compute company. try asking it to \"download insert-",
-  "why": "Product launch, but contains interesting technical details on infrastructure for agent-supervised training."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to love the world more – peek inside one of my all-time favorite books themarginalian.org/2025/11/16/rac… Posted Aug 5, 2026 at 4:13AM",
-  "why": "Beautiful contemplative writing on gratitude and intentional living."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "etnshow",
-  "via": "anuatluru",
-  "text": "Anu ( @anuatluru ) on the distinct identities of Anthropic and OpenAI, and the strategic comms games at play: \"Power comes from the cultural",
-  "why": "PR and comms punditry about AI labs rather than substantive engineering or alignment insights."
- },
- {
-  "rank": 22,
   "kept": false,
   "score": 5,
   "topic": "econ-progress",
   "author": "packyM",
   "via": null,
-  "text": "I love a Neo-Utility. From the @RibbitCapital Power Letter: docsend.com/view/bfjsdyp2v… Base: notboring.co/p/base-power-c… Somos: notboring.",
-  "why": "Interesting framing of neo-utilities, though the tweet itself is just a pointer to a VC letter."
+  "text": "🇺🇸 notboring.co/p/hadrian-ex-m… Posted Aug 6, 2026 at 12:53PM",
+  "why": "Deep dive into Hadrian's physical AI and reindustrialization, though leans heavily into funding hype."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "DTWillingham",
+  "via": null,
+  "text": "Talking with the CBC about getting kids to read. cbc.ca/radio/thecurre… Posted Aug 6, 2026 at 11:19AM",
+  "why": "Willingham is a top learning scientist, but this is just a pointer to an audio interview without written substance."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "More importantly: if you are about to bet your life on some sketchy alignment contract schema, maybe get a frontier model to investigate tha",
+  "why": "A brief, somewhat speculative quip about AI and smart contracts rather than a substantive analysis."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "deanwball",
+  "via": "TheZvi",
+  "text": "no macro-technology birthed by the bay area tech industry has been met with more hatred by bay area tech industry elites than frontier ai. m",
+  "why": "Tech-politics rant about crypto vs AI elites; lacks the substantive analysis or numbers required for a high score."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "soniasodha",
+  "via": "C_Hendrick",
+  "text": "Gosh. This goes way beyond one individual. This is really embarrassing for academia as a whole. It needs to answer for how stuff as bad as t",
+  "why": "Focuses on academic misconduct drama rather than substantive learning science or educational insights."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "akoustov",
+  "via": "C_Hendrick",
+  "text": "OK folks, Arday is gone now. But we—academics and everyone else who still cares about truth and public trust—cannot let it go yet. It seems ",
+  "why": "More academic scandal commentary; lacks the constructive learning science focus Matias prefers."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "nicbstme",
-  "via": null,
-  "text": "My theory: almost no one really uses AI agents yet. Like outside the SF tech bubble, where everyone is agent-maxxing, every time I talk to f",
-  "why": "Fair observation on AI adoption, but lacks the technical depth or operator insight of better critiques."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "2112Power",
+  "via": "WillManidis",
+  "text": "Hadrian is announcing our $1.37B Series D - watch below for a comprehensive update on our plans to reinvest billions to meet generational de",
+  "why": "Pure funding announcement and hype for Hadrian; lacks substantive analysis or engineering depth."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "@dwarkesh_sp this strikes me as a wild prediction. are you willing to bet on it? did you mean revenue, as you said, or ARR as some people th",
-  "why": "Skepticism without substantive analysis; just a Twitter bet over a wild revenue prediction."
+  "text": "\"Democrats have spent their political capital moving to the left...The median voter is pulled back into a state of disgusted ambivalence bet",
+  "why": "Pure political punditry; falls into the anti-taste category for political content."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Fields Medalist Jacob Tsimerman knows MUCH MUCH more about math than I do, or ever will, but I have been studying natural and artificial int",
-  "why": "Another Twitter bet without substantive technical analysis of AI's mathematical capabilities."
+  "score": 2,
+  "topic": "rationality",
+  "author": "soniasodha",
+  "via": "C_Hendrick",
+  "text": "I've written about (yet another) police failure on free speech in the Arday affair, and why it's high time there's an independent review int",
+  "why": "Political/culture-war commentary on free speech and policing, which falls outside core interests."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "HeidyKhlaaf",
-  "via": "GaryMarcus",
-  "text": "When leaving OAI, a colleague convincing me to stay noted my unique expertise being needed to shape AGI safety. I replied that climate colla",
-  "why": "Dismissive punditry lacking substantive analysis of either climate or AGI timelines."
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "Really important post from @lifelonglit substack.com/home/post/p-21… Posted Aug 6, 2026 at 7:46AM",
+  "why": "Bare link with no context or summary of the underlying substance."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "score": 2,
+  "topic": "contemplative",
+  "author": "michaelpollan",
   "via": null,
-  "text": "Don't mess with Texas. Posted Aug 5, 2026 at 6:53AM",
-  "why": "Lacks sufficient context or substance to stand alone as a valuable read."
+  "text": "Check out this sale price! A World Appears: A Journey into Consciousness: Pollan, Michael: 9781984881991: Amazon.com : Books amazon.com/Worl",
+  "why": "Pure promotional post for a book sale without any standalone insight."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "xamat",
-  "via": null,
-  "text": "Excited to be part of this as an LP and looking forward to fueling the new wave of AI entrepreneurs! Posted Aug 5, 2026 at 2:30PM",
-  "why": "Pure VC fund announcement; lacks substantive insight or analysis."
+  "score": 1,
+  "topic": "parenting-education",
+  "author": "Rokewood",
+  "via": "C_Hendrick",
+  "text": "What an absolute & embarrassing fiasco, from start to finish. bbc.co.uk/news/articles/… Posted Aug 6, 2026 at 6:16AM",
+  "why": "Vague outrage-bait linking to a news story without providing any analytical framing."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "0xSero",
-  "via": "bentossell",
-  "text": "Yours to keep. local.ai localstudio.ai kittylitter.app Your browser does not support the video tag. Posted Aug 4, 2026 at 8:29PM",
-  "why": "Video-only announcement with no substantive text or analysis."
+  "score": 1,
+  "topic": "rationality",
+  "author": "SwannMarcus89",
+  "via": "Noahpinion",
+  "text": "There's literally a post on reddit from when their divorce and the Covid hangover was destroying their business where an employee said the m",
+  "why": "Pure internet drama and gossip; completely irrelevant to core interests."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "We should absolutely vote for the Democrats in November and in 2028. But the rise of the DSA faction means that we can't expect the Democrat",
+  "why": "Pure political punditry and factional analysis."
  }
 ]
