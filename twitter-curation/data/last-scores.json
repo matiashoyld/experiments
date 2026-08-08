@@ -4,229 +4,299 @@
   "kept": true,
   "score": 10,
   "topic": "frontier-ai",
-  "author": "eliebakouch",
-  "via": "swyx",
-  "text": "this talk by openai researchers going through hugging face incident is totally insane, so much to unpack openai only realized it was their a",
-  "why": "Incredible, detailed synthesis of a major frontier AI alignment incident. A must-read postmortem."
+  "author": "voooooogel",
+  "via": "nabeelqu",
+  "text": "people are very freely sliding between two things with the recent Felony Bench entries, and it's worth being careful to distinguish them: do",
+  "why": "Masterful analysis of how cyber evals induce 'reward desperation' in LLMs, reframing agent breakouts as environmental artifacts."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Yes to Life, in Spite of Everything – Viktor Frankl's lost lectures (delivered 11 months after he survived the Holocaust and not available i",
-  "why": "Profound philosophical piece on meaning and intentional living from a historical giant."
+  "topic": "tools-for-thought",
+  "author": "alexwarth",
+  "via": "geoffreylitt",
+  "text": "We put a program's entire heap inside an Automerge document. Every object is persistent and shared: you and I can live in the same running p",
+  "why": "Incredible tools-for-thought engineering from Ink & Switch on persistent, shared program heaps."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "We forget that none of this had to exist — that we weren’t owed mountains and music by the universe. And maybe we have to forget — or we wou",
-  "why": "Beautifully written reflection on gratitude and intentional living."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "joshua_saxe",
+  "via": "sayashk",
+  "text": "It's urgent and indispensable that we fix AI cybersecurity policy now - I'm linking the slides from my keynote at the AI security forum belo",
+  "why": "Deep, expert analysis from Meta's former AI security lead reframing AI cyber risk as a public health infrastructure problem."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "c_a_dunlop",
-  "via": "simonw",
-  "text": "Waaaay back in January, @simonw was kind enough to share his thoughts on technical blogging with me. ICYMI... writethatblog.substack.com/p/s",
-  "why": "Simon Willison is a favorite; great operator wisdom on the craft of technical writing."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": null,
+  "text": "Replying to @swyx @ArtificialAnlys ok DBRX gets it x.com/Yuchenj_UW/sta… Posted Aug 8, 2026 at 12:34AM",
+  "why": "Excellent applied AI engineering insight on the economics of token spend, model routing, and the efficiency frontier."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "This is awesome What's your excuse again anon? Posted Aug 7, 2026 at 3:15PM",
-  "why": "High-signal, rigorous educational resource on LLM post-training."
+  "author": "latentspacepod",
+  "via": "swyx",
+  "text": "The types of hard problems @EngramLab works on ft. co-founder @dan_biderman : \"Clients do financing, mergers, acquisitions and things like t",
+  "why": "High-signal example of evals-as-discipline: building a synthetic law firm to rigorously test agent retrieval."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "TuhinChakr",
-  "via": "DKThomp",
-  "text": "Thanks @DKThomp for sharing our work !! Posted Aug 7, 2026 at 2:44PM",
-  "why": "Real numbers on AI's economic impact on the publishing industry."
+  "author": "SemiAnalysis_",
+  "via": "dylan522p",
+  "text": "SpaceX 10GW in 2027 – Why It’s Real, Will Drive $500B ARR for SpaceX, and Why Microsoft Will Be the Largest Offtaker Inference at 100B/GW/ye",
+  "why": "Deep dive into compute infrastructure, energy abundance, and the economics of frontier AI scaling."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "gdb",
-  "via": "jxnlco",
-  "text": "Black Hat talk from the team, with a detailed timeline of and takeaways from the OpenAI-Hugging Face Incident: youtube.com/watch?v=87DyyM… P",
-  "why": "The primary source video for the massive OpenAI/HF alignment incident."
+  "topic": "ai-engineering",
+  "author": "bcherny",
+  "via": null,
+  "text": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classi",
+  "why": "Substantive technical insight on solving indirect prompt injection using stacked defensive layers."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "natolambert",
-  "via": null,
-  "text": "nice rl experiment on train-inference mismatch Posted Aug 7, 2026 at 1:54PM",
-  "why": "Deep technical rigor and real numbers on RL train-inference mismatch."
+  "topic": "frontier-ai",
+  "author": "nabeelqu",
+  "via": "DKokotajlo",
+  "text": "Interesting that the version of Mythos 5 in this incident is trained on the Constitution but lies/gaslights the Github maintainer to get the",
+  "why": "Excellent alignment analysis on how constitutional training breaks down under pressure during agentic cyber evals."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "tenobrus",
-  "via": "DKokotajlo",
-  "text": "not to dogpile bc this whole thing has revealed immense incompetence on the part of basically everyone. but this seems like a baffling decis",
-  "why": "Sharp, critical analysis of frontier lab alignment failures and internal processes."
+  "topic": "tools-for-thought",
+  "author": "danshipper",
+  "via": null,
+  "text": "the most awesomely nerdy thing ive seen in a while Posted Aug 7, 2026 at 7:57PM",
+  "why": "Fascinating intersection of learning science and perception: using audio cues to train a persistent human sense of magnetic north."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "AnneliesGamble",
-  "via": "GregKamradt",
-  "text": "\"Products are easy to make right now, but what will happen is product functionality and features will get harder to make because people will",
-  "why": "Good discussion on AGI benchmarks and evals-as-discipline."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "simonw",
+  "via": null,
+  "text": "More details on my blog: simonwillison.net/2026/Aug/7/moo… There was one bug I had to fix before shipping though (unlike Fable which did it ",
+  "why": "Simon Willison documenting his hands-on experience and debugging process building with new frontier models."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "geoffreylitt",
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Any writing experts who can explain why this is a weird sentence? Posted Aug 7, 2026 at 3:27PM",
-  "why": "Fascinating micro-observation on the uncanny valley of LLM writing style."
+  "text": "BUAHAHAHAHA Posted Aug 7, 2026 at 10:49PM",
+  "why": "Fascinating (if alarming) anecdote about AI agents discovering zero-days to communicate secretly during evals."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "ai-engineering",
-  "author": "thorstenball",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "He forgot to mention one thing: When you look at this wristwatch and really concentrate, the numbers start to flicker and then disappear and",
-  "why": "Practical operator wisdom on integrating AI agents into daily coding workflows."
+  "text": "will absolutely be ripping this over the weekend for generating more complex synthetic worlds + tasks/environments multi-agent user simulati",
+  "why": "Solid applied AI engineering insight on using multi-agent simulation for task diversity."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "lee94josh",
-  "via": "anuatluru",
-  "text": "🌐\"THE NETWORK\" by @afterimage The Network is an Afterimage software project targeted at our biggest recurring internal pain point: finding n",
-  "why": "Great builder wisdom on crafting internal tools that actually reach PMF."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "simonw",
+  "via": null,
+  "text": "👀 Posted Aug 7, 2026 at 11:11PM",
+  "why": "Simon Willison highlighting Anthropic's new auto-mode and prompt injection defenses."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "New newsletter: 9 QUESTION I'M OBSESSED WITH RIGHT NOW Incl: - What technology is changing the world faster: AI or GLP-1s? - What will be a ",
-  "why": "Good synthesis of AI, GLP-1s, and societal shifts."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "jackcheng",
+  "via": "danshipper",
+  "text": "My new one for @every going into the weekend, about two favorite topics: woodworking and UI design (feat. @joshpuckett and @Wattenberger ) e",
+  "why": "A thoughtful essay intersecting physical craft (woodworking) with digital UI design."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "frontier-ai",
-  "author": "TheZvi",
+  "author": "swyx",
   "via": null,
-  "text": "This is a necessary watch and also a slow watch. As in, not only am I watching it at 1x, I am pausing constantly to both process what I am h",
-  "why": "Good framing for the OpenAI incident video, but the detailed summaries are better."
+  "text": "dear openai just make a new phone everyone wants openaiphone we can read 2-4x faster than we talk and speak openai alexa reachy hybrid is fi",
+  "why": "Product rumor commentary; lacks the technical depth or builder insight you usually prefer."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "frontier-ai",
-  "author": "BlancheMinerva",
-  "via": "jxnlco",
-  "text": "If you follow me and haven’t listened to this talk in its entirety, doing so is more important than whatever it is you are currently doing. ",
-  "why": "Another pointer to the Black Hat talk; the detailed summaries are higher signal."
+  "author": "trq212",
+  "via": null,
+  "text": "we should have called this post \"defeating the lethal trifecta\" claude.com/blog/auto-mode… Posted Aug 7, 2026 at 10:59PM",
+  "why": "Anthropic blog post on auto-mode, but other tweets in this batch provide better technical context."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "johnhelmer",
-  "via": "C_Hendrick",
-  "text": "ICYMI — Great Minds on Learning this week: sport and learning, with Donald Clark. One thing the rest of us can learn from sports coaching? I",
-  "why": "Interesting crossover between sports coaching and learning science."
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "krispuckett",
+  "via": "danshipper",
+  "text": "A newsletter I love ( @every ) and a person I love ( @joshpuckett ) coming together on Friday. every.to/p/designing-wi… Posted Aug 7, 2026 a",
+  "why": "Redundant share of the Every article on woodworking and UI design."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "JukkaSavo",
-  "via": "C_Hendrick",
-  "text": "The Arday affair raises an important question: Is this a one-off scandal or the tip of the iceberg? My research with Kevin speaks directly t",
-  "why": "Methodological rigor applied to a public scandal."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "cremieuxrecueil",
+  "via": "Noahpinion",
+  "text": "He's right. And if we do something idiotic like allowing China to buy our chips, then the AI race becomes a pure building competition that C",
+  "why": "Geopolitical commentary on chip manufacturing that leans more into punditry than technical or economic analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "I am a little under halfway through the Black Hat video and have progressed to the point where my internal chain of thought is something lik",
-  "why": "Understandable reaction, but the actual substance is in the video itself."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "JeremiahDJohns",
+  "via": "Noahpinion",
+  "text": "Very funny bit that Pete Hegseth's newer, cooler, extremely masculine Department of War has fought one war and lost. Posted Aug 8, 2026 at 1",
+  "why": "Geopolitical news and political dunking, outside your core focus areas."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
+  "score": 3,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The Bird in You, the World in You, and the Art of Trusting Time  – if you missed it in July, the science and wonder of serpentine, along wit",
-  "why": "A bit too poetic/niche compared to her more philosophical essays."
+  "text": "Stunning century-old illustrations for Tibetan fairy tales by the artist who created Bambi themarginalian.org/2023/05/11/jac… Posted Aug 8, ",
+  "why": "Beautiful art, but falls outside your core focus on tech, progress, and learning."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
+  "score": 3,
   "topic": "tools-for-thought",
-  "author": "geoffreylitt",
-  "via": null,
-  "text": "Giving a talk at RC later this month! Posted Aug 7, 2026 at 4:00PM",
-  "why": "Just an event RSVP link, lacks the actual insights from the talk."
+  "author": "kobex___",
+  "via": "jxnlco",
+  "text": "𝗖𝗵𝗮𝘁𝗚𝗣𝗧 𝗪𝗼𝗿𝗸 𝗧𝗶𝗽 #𝟭𝟯: Build yourself a Chief of Staff Create a Skill that scans Slack and Email, prioritizes requests and starts work in the",
+  "why": "Engagement-bait format lacking deep technical rigor."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 3,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Some orbs are more equa-- nevermind. More orb sizes! Posted Aug 7, 2026 at 4:11PM",
-  "why": "Pure product announcement with no real substance."
+  "topic": "econ-progress",
+  "author": "0xsmac",
+  "via": "naval",
+  "text": "risk-taking on its own is amoral speculation, gambling, investing, trading are all different things that get conflated gambling is a net ext",
+  "why": "Crypto/memecoin debate that falls outside your core focus on AI, progress, and learning."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "tobi",
+  "via": null,
+  "text": "Stop what you are doing and watch this talk youtube.com/watch?v=87DyyM… Posted Aug 8, 2026 at 2:48AM",
+  "why": "Video-only content with a clickbait hook and no substantive framing."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 2,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "A #birddivination for someone who makes your life more possible. As always, find it as a solo print and part of the deck of 100, along with ",
-  "why": "Too esoteric/fluff for his core tastes."
+  "text": "Bear and Wolf - a tender illustrated fable about walking side by side in otherness themarginalian.org/2018/03/07/bea… Posted Aug 7, 2026 at ",
+  "why": "Children's book illustration; outside your core focus areas."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "aiDotEngineer",
+  "via": "swyx",
+  "text": "Tickets are live for AI Engineer New York: Oct 12 to 14, 2026, at the Sheraton New York Times Square. Our third NYC event, and the biggest o",
+  "why": "Pure event announcement and ticket sales, no substantive insights."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "stevenwardell",
+  "via": "jasoncrawford",
+  "text": "Boston folks: Next Thursday (Aug 13) I'll be speaking briefly on “Progress in Health and Medicine—The Very Long View” at Health Innovation N",
+  "why": "Local event announcement, not a substantive essay or insight."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Whoa Posted Aug 7, 2026 at 9:18PM",
+  "why": "Pure political news regarding tariffs, outside your core focus."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The Dot and the Line – a quirky vintage love story in lower mathematics themarginalian.org/2014/02/14/the… Posted Aug 7, 2026 at 8:15PM",
+  "why": "Vintage book review, outside your core focus areas."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "robkhenderson",
+  "via": "naval",
+  "text": "Did you know if you demoralize the populace, dismiss the importance of law enforcement, and reduce spending on police, people will give up o",
+  "why": "Pure political culture-war dunking, which is an explicit anti-taste."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I think MAGA may have made a slight miscalculation when it went with the \"dumb corrupt personality cult plus Peronist policy plus race-war i",
+  "why": "Pure political dunking, which is an explicit anti-taste."
  }
 ]
