@@ -2,391 +2,141 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "score": 9,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Today I am taking the time to write the shorter, simpler version of What Happened. For those who want all the details, to see my sources, an",
-  "why": "TheZvi's definitive, terrifying breakdown of how OpenAI's models-in-training hacked their own servers and HuggingFace."
+  "text": "I'm glad people are seeing AI itself as our \"cognitive commons\". That's what it really is -- a world-mind that collects and integrates all h",
+  "why": "Brilliant framing of how AI automating junior roles threatens the long-term pipeline of human expertise needed to supervise it."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "swisscheese4299",
-  "via": "TheZvi",
-  "text": "Replying to @TheZvi I built the inhouse AI platform for a company that's crucial to a small nation's food safety. The most imporant tool the",
-  "why": "Fascinating applied AI engineering: giving background agents a 'distress call' tool to ping humans when stuck."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "karenvaites",
+  "via": "C_Hendrick",
+  "text": "\"Let me be clear: retrieval practice and spacing are not so much teaching techniques, but rather tools for ensuring learning continuity with",
+  "why": "Deep insight into learning science: retrieval practice is a curriculum property, not just an isolated teaching technique."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "zarazhangrui",
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "alexolegimas",
   "via": "Noahpinion",
-  "text": "This paper gives a fancy name to a problem you can already feel in your bones \"The Tragedy of the Cognitive Commons.\" Checking AI output req",
-  "why": "Brilliant framing of how AI automating junior 'grunt work' destroys the pipeline for creating future experts."
+  "text": "Intelligence is not enough to flourish. You need intelligence and well-functioning economic institutions. Even as AI capabilities continue t",
+  "why": "Sharp analysis on why AI capabilities won't translate to prosperity without flexible, well-functioning economic institutions."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "simonw",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Neat example here of the agents communicating purely through file names, including adding base64-encoded attachments and using \"zz\" prefixes",
-  "why": "Simon Willison highlights a fascinating emergent behavior: AI agents communicating purely through file names."
+  "text": "Some “laws” are just rules of thumb which crumble under minor scrutiny. Some are deep insights, which remain true over all domains, generati",
+  "why": "Deep builder wisdom from Jason Cohen on distinguishing fundamental startup insights from fragile rules of thumb."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "kyleichan",
-  "via": "Noahpinion",
-  "text": "Key part of ByteDance all-hands meeting: They see a widening gap with US models and are focused on competing long-term in AGI foundational c",
-  "why": "Rare internal insight into ByteDance's long-term AGI strategy and their perceived gap with US models."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Ben_Reinhardt",
+  "via": "jasoncrawford",
+  "text": "If you haven't seen it, Jordan created an incredible site that (literally) highlights the now-mundane things that would have been a miracle ",
+  "why": "Beautiful perspective on technological progress and abundance, reframing modern mundanities as historical miracles."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "timhnln",
-  "via": "swyx",
-  "text": "Two days ago, I signed up for the SmolForge alpha and asked Opus to deploy a SolidStart app. I figured @swyx was the kind of person who'd ap",
-  "why": "Clever applied AI engineering: building a feedback loop specifically for AI agents to report UX 'papercuts'."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The ant, the grasshopper, and the antidote to the cult of more – poetic vintage parable about the meaning and measure of enough themarginali",
+  "why": "A poetic parable addressing the cult of more, fitting perfectly with intentional living and productivity skepticism."
  },
  {
   "rank": 7,
-  "kept": false,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "scottlincicome",
-  "via": "Noahpinion",
-  "text": "\"Automation does not lower the labour share\" cepr.org/voxeu/columns/… \"There is no evidence that firms experiencing larger declines in routi",
-  "why": "Empirical evidence challenging the narrative that automation inherently reduces labor's share of income."
+  "kept": true,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "At this point, if I ask you what your new factory will be building, and you say 'Terminators,' my odds that the government stops you from bu",
+  "why": "Zvi's quick take on AI safety regulation and government oversight of frontier models."
  },
  {
   "rank": 8,
-  "kept": false,
-  "score": 8,
+  "kept": true,
+  "score": 6,
   "topic": "ai-essays",
-  "author": "Noahpinion",
+  "author": "nicbstme",
   "via": null,
-  "text": "(3) is what I've been calling \"cloud laws\" Posted Aug 8, 2026 at 6:59PM",
-  "why": "Fascinating breakdown of how AI will push human mathematicians to higher levels of abstraction."
+  "text": "Congrats to the Google DeepMind team on WeatherNext Cyclones. This stuff is probably the best possible marketing for AI! If AI can give peop",
+  "why": "Interesting perspective on framing AI's value through tangible, life-saving applications rather than job replacement."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "c_valenzuelab",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "on track Posted Aug 8, 2026 at 5:18PM",
-  "why": "Runway's CEO on why intention-driven AI interfaces will kill legacy feature-heavy software companies."
+  "text": "Is there God? Stephen Hawking gives the definitive answer to the eternal question: themarginalian.org/2019/07/17/ste… Posted Aug 9, 2026 at ",
+  "why": "Stephen Hawking's definitive answer to the existence of God; good philosophical reading but slightly pop-science."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "vsistla",
-  "via": "GaryMarcus",
-  "text": "and we agree with @GaryMarcus . Training and running frontier class AI on CPUs, at a fractional cost, saving the planet, while building huma",
-  "why": "Gary Marcus and Steven Pinker explore neurosymbolic AI and its implications for natural intelligence."
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "At the link, the best of The Marginalian this week — how to hold what harrows you, the \"lusory attitude\" necessary for playing the game of l",
+  "why": "Weekly curation of contemplative essays on philosophy and intentional living, though lacks a specific deep-dive focus."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Surprise! H-1b visas are actually good for American workers! WHO COULD HAVE PREDICTED THIS??? Posted Aug 9, 2026 at 1:48AM",
-  "why": "Rigorous NBER paper showing how H-1B visas boost domestic worker incomes and productivity."
+  "author": "conorsen",
+  "via": "Noahpinion",
+  "text": "For the memory experts: if someone thought/were worried that China will eventually do to memory what they did to solar panels, what would be",
+  "why": "Relevant news on semiconductor supply chains, but mostly a pointer to a WSJ article lacking deep original analysis."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "besttrousers",
-  "via": "Noahpinion",
-  "text": "\"even if it produces demonstrably worse outcomes\" It doesn't, though. \"Democratizations increase GDP per capita by about 20% in the long run",
-  "why": "Empirical economic evidence that democratization significantly increases long-run GDP per capita."
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "For the Sunday morning crowd: Posted Aug 9, 2026 at 4:37AM",
+  "why": "Bare newsletter link without enough context or insight to justify a high score."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "timoreilly",
-  "via": "Noahpinion",
-  "text": "An alternate hypothesis about the shakeup at DeepMind. asimovaddendum.substack.com/p/googles-west… Posted Aug 8, 2026 at 5:54PM",
-  "why": "Tim O'Reilly shares a deep dive into the strategic shakeups happening at Google DeepMind."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Hasan is the Tucker Carlson of the left. Posted Aug 9, 2026 at 3:45PM",
+  "why": "Culture-war dunking and political drama, which violates core reading preferences."
  },
  {
   "rank": 14,
-  "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "sapinker",
-  "via": "GaryMarcus",
-  "text": "CPUs and the rise of neurosymbolic AI by @garymarcus (with implications for what Artificial Intelligence implies about natural intelligence ",
-  "why": "Gary Marcus and Steven Pinker explore neurosymbolic AI and its implications for natural intelligence."
- },
- {
-  "rank": 15,
-  "kept": true,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "marcportermagee",
-  "via": "C_Hendrick",
-  "text": "There has been a push from schools of education to replace objective measures of achievement in K-12 education with things like personal nar",
-  "why": "A scathing critique of how education academia prioritizes narrative over objective credentials and rigor."
- },
- {
-  "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to grow old – Bertrand Russell (who lived nearly a century, through two World Wars and a Nobel Prize) on what makes a fulfilling life th",
-  "why": "Bertrand Russell's timeless philosophical advice on aging and living a fulfilling life."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "“Reality is that which, when you stop believing in it, doesn’t go away.” How to build a universe – Philip K. Dick on reality, its enemies, a",
-  "why": "Philip K. Dick's philosophical reflections on the nature of reality and belief."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "ProfEmilyOster",
-  "via": null,
-  "text": "If you're interested in the NY school test scores (who isn't?): in ELA they were way up in 2025 (celebrated!) but then down the same amount ",
-  "why": "Emily Oster breaks down a massive coding error in NY school test scores data."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "Michael Pollan’s ‘A World Appears’ Review: Exploring Consciousness, Psychedelics and the Mystery of Being Alive openthemagazine.com/books/be",
-  "why": "Explores consciousness and the mystery of being alive through the lens of Michael Pollan's work."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "muddybike",
-  "via": "Noahpinion",
-  "text": "One problem w/ datacenter build out, possibly addressed in article, is it is one sector that is explicitly exempt from Trump's tariffs. This",
-  "why": "Highlights a major economic distortion in the datacenter boom related to tariff exemptions."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "sriramk",
-  "via": "Noahpinion",
-  "text": "we will need some version of this for data center construction for America to get access to compute - helping pay for the communities you bu",
-  "why": "Discusses local economic incentives and policy frameworks needed to sustain the US data center boom."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "johnrhanger",
-  "via": "Noahpinion",
-  "text": "US battery storage keeps skyrocketing! It added 8.3 GWs in first 6 months of 2026 and is on track to add another 14 GW in H2 2026! That's 22",
-  "why": "Incredible stats on the exponential growth of US battery storage capacity."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 5,
-  "topic": "rationality",
-  "author": "catehall",
-  "via": null,
-  "text": "There's a type of person who -- when things really start going sideways -- gets calmer/more relaxed, because it's like other people can fina",
-  "why": "An interesting psychological observation on why doomers get calmer when crises actually hit."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The good luck of your bad luck – Marcus Aurelius on the Stoic strategy for turning suffering into strength themarginalian.org/2021/09/19/mar",
-  "why": "Classic Stoic philosophy on resilience from Marcus Aurelius."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "agency",
-  "author": "arjunkhemani",
-  "via": "naval",
-  "text": ". @naval : “The opportunities have never been more equal than now. @elonmusk and @JeffBezos have the same iPhone you do. They don’t have som",
-  "why": "Naval's perspective on why status games are zero-sum and technology is the great equalizer."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "SawyerMerritt",
-  "via": "Noahpinion",
-  "text": "Tesla is naming its $10.1 billion solar manufacturing facility plan in Texas “Project Crystal Sun.” • The project would create 9,712 permane",
-  "why": "Details on a massive $10B solar manufacturing investment in Texas."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "bentossell",
-  "via": null,
-  "text": "i somehow believe in all these at once more people become builders (can build stuff) more personal software exists software engineering look",
-  "why": "Broad predictions on how AI agents will shift the internet from SaaS to personal, intention-driven software."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "If you could use your faith in the improbable restored, this poem is for you: themarginalian.org/2026/04/30/bet/ Posted Aug 9, 2026 at 2:44A",
-  "why": "A contemplative poem from The Marginalian, though perhaps too brief for deep reading."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The bird that is your life themarginalian.org/2026/04/24/emi… Posted Aug 8, 2026 at 11:09PM",
-  "why": "Poetic reflection from The Marginalian, but lacks the depth of a full essay."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "If you have ever felt uneasy about poetry, alienated by it, or simply not getting it, this is for you: themarginalian.org/2026/05/07/mar… Po",
-  "why": "A defense of poetry for those who feel alienated by it."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "As a guide to my posts about topics related to the contents of the Black Hate video, assume every post except this one is downplaying what I",
-  "why": "Meta-commentary on his own reaction to an AI safety incident; the actual write-up is more valuable."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Instructions for love from the Great Blue Heron, the first #birddivination I ever made. As always, find it as a solo print and part of the d",
-  "why": "A bit too niche/art-focused for his core reading list."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "heyalizaid",
-  "via": "swyx",
-  "text": "10 hours into building superstage for @swyx 's \"help kill my saas\" hackathon... it's morning now and i've been at it all night. took a break",
-  "why": "Standard hackathon progress update; lacks deep technical insight."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "BooraemFrancois",
-  "via": "catehall",
-  "text": "Great interview @catehall , and the book is on my short list for next reads. youtube.com/watch?v=ieXv9x… Posted Aug 8, 2026 at 9:07PM",
-  "why": "Video-only content and a brief compliment tweet."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "anuatluru",
-  "via": null,
-  "text": "celebrities dating business / finance guys is just a modern new money / old money pairing fame = new money money / power / nobility = old mo",
-  "why": "Pop culture observation about celebrity dating habits."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "heyalizaid",
-  "via": "swyx",
-  "text": "6 hours into building @swyx 's \"help kill my saas\" hackathon platform. ~30% done. 10M+ tokens burned already 💀 not polishing. just prompting",
-  "why": "Standard hackathon progress update; lacks deep technical insight."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Incredible news for your inboxes: newest Joy & Curiosity is here! registerspill.thorstenball.com/p/joy-and-curi… Posted Aug 8, 2026 at 5:30P",
-  "why": "Just a newsletter announcement without substantive context."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "For an act of resistance to the tyranny and vanity of algorithms, try the Marginalian newsletter — undistracted notes on the search for mean",
-  "why": "Pure newsletter promotion."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "jordihays",
-  "via": "WillManidis",
-  "text": "I weighed in on one of the defining stories of our time: Posted Aug 8, 2026 at 2:11PM",
-  "why": "Pop culture gossip, irrelevant to core interests."
+  "author": "ohabryka",
+  "via": "TheZvi",
+  "text": "Lighthaven has ended up ~empty between August 24 and September 10. If you want to run some cool things last minute, you can get any of those",
+  "why": "Logistical announcement for venue space; lacks substantive insight or essay content."
  }
 ]
