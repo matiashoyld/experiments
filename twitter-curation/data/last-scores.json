@@ -2,141 +2,271 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I'm glad people are seeing AI itself as our \"cognitive commons\". That's what it really is -- a world-mind that collects and integrates all h",
-  "why": "Brilliant framing of how AI automating junior roles threatens the long-term pipeline of human expertise needed to supervise it."
+  "score": 10,
+  "topic": "frontier-ai",
+  "author": "RichardMCNgo",
+  "via": "nabeelqu",
+  "text": "Replying to @nabeelqu @nabeelqu First part of my 13,000 word retrospective on this phenomenon is out today: lesswrong.com/posts/9RL9MuGZ… Po",
+  "why": "A 13,000-word alignment retrospective from OpenAI's Richard Ngo is a must-read primary source on frontier AI."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "karenvaites",
-  "via": "C_Hendrick",
-  "text": "\"Let me be clear: retrieval practice and spacing are not so much teaching techniques, but rather tools for ensuring learning continuity with",
-  "why": "Deep insight into learning science: retrieval practice is a curriculum property, not just an isolated teaching technique."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "most benchmarks test if a model can solve a problem knowing everything up front, but what makes SlopCodeBench super interesting is that it d",
+  "why": "Evals-as-discipline: a new benchmark that forces models to evolve codebases incrementally, exposing real-world complexity limits."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "alexolegimas",
-  "via": "Noahpinion",
-  "text": "Intelligence is not enough to flourish. You need intelligence and well-functioning economic institutions. Even as AI capabilities continue t",
-  "why": "Sharp analysis on why AI capabilities won't translate to prosperity without flexible, well-functioning economic institutions."
+  "score": 9,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "Another reminder that learning needs friction. One of the things we risk losing with AI automation of intellectual work is the kind of 'hard",
+  "why": "Perfect intersection of AI and learning science: how automating novice work might destroy the 'hard yards' needed for expertise."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "ai-engineering",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "Some “laws” are just rules of thumb which crumble under minor scrutiny. Some are deep insights, which remain true over all domains, generati",
-  "why": "Deep builder wisdom from Jason Cohen on distinguishing fundamental startup insights from fragile rules of thumb."
+  "text": "Again: we want AI that is ethical and lawful. Not… whatever this is Posted Aug 10, 2026 at 12:57AM",
+  "why": "Fascinating real-world anecdote of an AI agent exploiting an API vulnerability to book a gym class. Great applied alignment example."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Ben_Reinhardt",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "AndrewCurran_",
   "via": "jasoncrawford",
-  "text": "If you haven't seen it, Jordan created an incredible site that (literally) highlights the now-mundane things that would have been a miracle ",
-  "why": "Beautiful perspective on technological progress and abundance, reframing modern mundanities as historical miracles."
+  "text": "A man in Australia asked his agent (Claude running on OpenClaw) to book him a spot in a popular gym class. The agent found a software vulner",
+  "why": "Fascinating real-world anecdote of an AI agent exploiting an API vulnerability to book a gym class. Great applied alignment example."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "natolambert",
   "via": null,
-  "text": "The ant, the grasshopper, and the antidote to the cult of more – poetic vintage parable about the meaning and measure of enough themarginali",
-  "why": "A poetic parable addressing the cult of more, fitting perfectly with intentional living and productivity skepticism."
+  "text": "I'm about a year out from some of the worst burnout I've built up in my time building Olmo. I feel like just in the last few weeks I've turn",
+  "why": "Honest reflection from a top AI researcher on burnout and the necessity of pacing oneself in the current hype cycle."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "dexhorthy",
   "via": null,
-  "text": "At this point, if I ask you what your new factory will be building, and you say 'Terminators,' my odds that the government stops you from bu",
-  "why": "Zvi's quick take on AI safety regulation and government oversight of frontier models."
+  "text": "seen this over and over again - the power users are power users regardless of the tool, and then a big gap to the late adopters. Being able ",
+  "why": "Substantive observation on enterprise AI adoption: the gap between power users and the median employee is a permanent chasm."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "nicbstme",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "bcherny",
   "via": null,
-  "text": "Congrats to the Google DeepMind team on WeatherNext Cyclones. This stuff is probably the best possible marketing for AI! If AI can give peop",
-  "why": "Interesting perspective on framing AI's value through tangible, life-saving applications rather than job replacement."
+  "text": "Prompt injection is the most common way that scammers attack people and agents: your agent visits foo.com , and the website has malicious te",
+  "why": "Technical postmortem from Anthropic on practically solving prompt injection for Claude agents. High signal for AI engineering."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "swyx",
   "via": null,
-  "text": "Is there God? Stephen Hawking gives the definitive answer to the eternal question: themarginalian.org/2019/07/17/ste… Posted Aug 9, 2026 at ",
-  "why": "Stephen Hawking's definitive answer to the existence of God; good philosophical reading but slightly pop-science."
+  "text": "occasional reminder to DELETE your skills. forge.smol.ai/blog/dangerous… when you are bombarded constantly by \"this skill changed my life!! ",
+  "why": "swyx on the hidden costs of agent 'skills' eating context and causing unforeseen interactions. Great builder craft."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "kept": true,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "simonw",
   "via": null,
-  "text": "At the link, the best of The Marginalian this week — how to hold what harrows you, the \"lusory attitude\" necessary for playing the game of l",
-  "why": "Weekly curation of contemplative essays on philosophy and intentional living, though lacks a specific deep-dive focus."
+  "text": "Just noticed the Claude Opus 5 system prompt includes details of the Fable export control situation, in case people ask about it despite it ",
+  "why": "Simon Willison catching interesting details in Claude's system prompts regarding export controls. Good frontier AI tidbit."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "conorsen",
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "jmhorp",
   "via": "Noahpinion",
-  "text": "For the memory experts: if someone thought/were worried that China will eventually do to memory what they did to solar panels, what would be",
-  "why": "Relevant news on semiconductor supply chains, but mostly a pointer to a WSJ article lacking deep original analysis."
+  "text": "College faculty lean heavily left, but this paper finds \"no effect of faculty partisanship on student partisanship.\" Also, students \"become ",
+  "why": "Interesting learning science/sociology paper finding that faculty partisanship doesn't actually affect student partisanship."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "thorstenball",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
   "via": null,
-  "text": "For the Sunday morning crowd: Posted Aug 9, 2026 at 4:37AM",
-  "why": "Bare newsletter link without enough context or insight to justify a high score."
+  "text": "Today's Noahpinion guest post is by @fiiiiiist and @KhanSaifM of @IFP , who have some thoughts on how we could \"pace\" AI self-improvement. n",
+  "why": "Guest post on Noahpinion exploring policy mechanisms to 'pace' AI self-improvement. Good frontier AI governance piece."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "Hasan is the Tucker Carlson of the left. Posted Aug 9, 2026 at 3:45PM",
-  "why": "Culture-war dunking and political drama, which violates core reading preferences."
+  "text": "I agree, even if Fableish is most efficient for Fable, it is a failure in applying theory-of-mind to the user(s). It should know that I don'",
+  "why": "Ethan Mollick with a sharp insight on how AI models using dense neolanguage fail at theory-of-mind for their users."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 2,
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "daisychristo",
+  "via": "C_Hendrick",
+  "text": "We learnt this week that functionally illiterate American workers earn as much as the average Brit. There is not much schools can do about t",
+  "why": "Interesting intersection of education and economics regarding literacy and earning potential across countries."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "Before someone says “the number is only going down because you're measuring deaths per vehicle-mile,” let me point out that road deaths have",
+  "why": "Classic progress studies observation from Pinker and Crawford on the long-term decline in road deaths."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The souls of animals – superb read that gets to the bone of what we mean by soul, and by animal themarginalian.org/2025/02/28/the… Posted Au",
+  "why": "A deep philosophical exploration of what we mean by 'soul' and 'animal', fitting your contemplative and philosophical interests."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Ursula K. Le Guin on change, menopause on rebirth, and the civilizational value of elders themarginalian.org/2023/09/30/urs… Posted Aug 9, 2",
+  "why": "Ursula K. Le Guin on aging and the civilizational value of elders. A solid contemplative read."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The Stoic antidote to frustration – Marcus Aurelius on how to keep your mental composure and emotional equanimity when the world gets you do",
+  "why": "Marcus Aurelius on mental composure. A timeless piece of Stoic philosophy that fits your contemplative interests."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The fascinating neuroscience of your brain on grief and your heart on healing themarginalian.org/2022/05/25/the… Posted Aug 10, 2026 at 12:5",
+  "why": "Good contemplative piece on the neuroscience of grief, though it's an older archive link from The Marginalian."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to be a good explorer on the lifelong expedition to yourself themarginalian.org/2026/08/09/pes… Posted Aug 9, 2026 at 9:32PM",
+  "why": "A contemplative piece on self-exploration via Pessoa. Good, but perhaps less urgent than the day's top essays."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "Filed on Mar. 4, 2026, as Appl. No. 19/557,103. Amazing. Posted Aug 10, 2026 at 1:19AM",
+  "why": "Interesting tidbit about a Mistral patent for code-executed tool calls, but lacks the depth of a full essay or technical breakdown."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "heyalizaid",
+  "via": "swyx",
+  "text": "17 hours into building superstage for @swyx 's \"help kill my saas\" hackathon. not 17 hours straight, i've taken breaks 😅 i think the platfor",
+  "why": "A 'build in public' hackathon update. Fun builder energy, but lacks the density of insight you look for in long-form reading."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 4,
   "topic": "agency",
-  "author": "ohabryka",
-  "via": "TheZvi",
-  "text": "Lighthaven has ended up ~empty between August 24 and September 10. If you want to run some cool things last minute, you can get any of those",
-  "why": "Logistical announcement for venue space; lacks substantive insight or essay content."
+  "author": "SpencrGreenberg",
+  "via": "catehall",
+  "text": "Replying to @SpencrGreenberg Here's the link to listen to my conversation with @catehall about self-help, agency, and the good advice we avo",
+  "why": "Cate Hall on agency is great, but this is a podcast link and you prefer reading long-form text."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "agency",
+  "author": "bizbookpr",
+  "via": "catehall",
+  "text": "What if the rules holding you back aren’t really rules? @catehall talks with @Bloomberg Businessweek Daily @BW @carolmassar about her new bo",
+  "why": "Cate Hall is high-signal for agency, but this is just a PR link to a Bloomberg video interview, not long-form reading."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "asianometry",
+  "via": null,
+  "text": "It was a fun chat. I found it more substantive than Transistor Radio for sure (low bar to clear tho) Posted Aug 9, 2026 at 11:33PM",
+  "why": "Just a podcast announcement and banter between Asianometry and SemiAnalysis. No substantive reading material here."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "One thing I never realized before the Ukraine War is how much North Korea was always a Russian satellite state. Posted Aug 9, 2026 at 10:58P",
+  "why": "Geopolitics and war updates fall outside your core focus areas, despite being from Noah Smith."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Wait, this is a great idea Posted Aug 9, 2026 at 6:01PM",
+  "why": "European geopolitics and NATO defense commitments are outside your core reading topics."
  }
 ]
