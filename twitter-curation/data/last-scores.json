@@ -3,121 +3,121 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "In the wake of the letter calling on us to prepare to potentially Pace the Frontier , there has been much discussion of when pacing the fron",
-  "why": "Zvi's deep, rigorous analysis of the 'Pacing the Frontier' debate, AI alignment timelines, and recent lab security failures."
+  "topic": "econ-progress",
+  "author": "saranormous",
+  "via": "erikbryn",
+  "text": "A super smart scientist asked me last week: what's so hard about reshoring general advanced manufacturing (short of TSMC frontier precision ",
+  "why": "Brilliant operator wisdom on tacit knowledge in manufacturing and why reshoring is harder than just building factories."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "_can1357",
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "DTWillingham",
   "via": null,
-  "text": "This is going to be a quick one: please stop using cache hit % as an efficiency metric! It seems, funny enough, collectively, we all fucked ",
-  "why": "Exceptional applied AI engineering deep-dive with real math on why cache hit % is a flawed metric for LLM cost optimization."
+  "text": "New data indicating that the age at which children get social media accounts influences academic success. afterbabel.com/p/does-early-a… Pos",
+  "why": "Hard data from a top learning scientist on how social media age affects kids' academic success."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "MWCvitkovic",
-  "via": "catehall",
-  "text": "Went to China, wrote some notes: milan.cvitkovic.net/china_notes_q3… Posted Aug 11, 2026 at 1:17AM",
-  "why": "High-signal, on-the-ground observations and synthesis about China's current economic and technological state."
+  "topic": "ai-engineering",
+  "author": "greedymaximizer",
+  "via": "thorstenball",
+  "text": "Someone DMed me last weekend asking why I'm so vocal and bullish on cloud agents and whether I had any long-form articles to recommend to be",
+  "why": "Deep, substantive operator post on the paradigm shift in dev environments for AI agents."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "danshipper",
-  "via": null,
-  "text": "co-sign Posted Aug 10, 2026 at 11:26PM",
-  "why": "Excellent builder wisdom on writing with substance, avoiding AI slop, and the compounding value of high-signal craft."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "CarolynGorman_",
+  "via": "C_Hendrick",
+  "text": "The same dynamic is almost certainly at play among the many types of  mental health professionals who have more minimal training and credent",
+  "why": "Strong critique of pseudo-science and neuro-myths in education and psychology."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 7,
+  "topic": "agency",
+  "author": "themarginalian",
   "via": null,
-  "text": "The iPod wasn't the first portable mp3 player, Google wasn’t the first search engine, and the list goes on. They were 𝘣𝘦𝘵𝘵𝘦𝘳, not “disruptiv",
-  "why": "A superb, anti-hype essay from Jason Cohen arguing that building a better product trumps the obsession with 'disruption'."
+  "text": "The founding father of neuroscience on the 6 psychological flaws that keep the talented from reaching greatness themarginalian.org/2017/03/1",
+  "why": "Deep dive into the psychological flaws that hinder greatness, from a neuroscience pioneer."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "RyanGreenblatt",
-  "via": "DKokotajlo",
-  "text": "It seems good to align AIs with individuals (with some safeguards) and avoid companies having significantly more capable AIs than what's pub",
-  "why": "A rigorous, substantive critique of Zuckerberg's open-source superintelligence manifesto from an AI safety perspective."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "The business model was always unit-unprofitable. The founders delegated the solution to their future selves. It rarely works, and the failur",
+  "why": "Solid operator wisdom on avoiding structural business model blunders from Jason Cohen."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "jarredsumner",
-  "via": "bcherny",
-  "text": "8 days ago, while jogging, I asked Claude to solve the Riemann Hypothesis It didn’t. 1.5 days later, it proved >= 67% of the zeros are on th",
-  "why": "Fascinating frontier AI capability update on Claude tackling the Riemann Hypothesis, showing real math progress."
+  "topic": "ai-engineering",
+  "author": "kplikethebird",
+  "via": "danshipper",
+  "text": "Tag yourself, I'm a beginner with no revenue. And it just so happens that I wrote about rookie mistakes (mine and the models') on @every tod",
+  "why": "Grounded take on the current limits of AI coding autonomy and the necessity of reading code."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "osoleve",
-  "via": "krishnanrohit",
-  "text": "I'm really curious about how they might implement something like this such that you could reasonably expect the signal to survive to time of",
-  "why": "Technical spitballing on how Anthropic's new invisible watermarks might actually be implemented and their failure modes."
+  "topic": "ai-essays",
+  "author": "ezramechaber",
+  "via": "danshipper",
+  "text": "The ol' allocation economy thesis. every.to/chain-of-thoug… Posted Aug 10, 2026 at 10:48PM",
+  "why": "Thoughtful essay on how AI shifts the bottleneck from knowledge work to compute allocation."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "rationality",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "Applaud this effort! Posted Aug 11, 2026 at 1:05AM",
-  "why": "An interactive forecasting model that exposes all its assumptions as sliders—great methodological rigor."
+  "topic": "parenting-education",
+  "author": "evidence_1st",
+  "via": "C_Hendrick",
+  "text": "Replying to @C_Hendrick The other question is, Carl, \"Can the evidence-based teaching community come together and create a coherent voice wh",
+  "why": "Strong argument for evidence-based rigor in education to combat pervasive neuro-myths."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
+  "score": 6,
   "topic": "frontier-ai",
-  "author": "rseroter",
-  "via": "GaryMarcus",
-  "text": "Why Open Source Matters for AI oreilly.com/radar/why-open… < good post by @timoreilly Reminder from @GaryMarcus that today we have open weig",
-  "why": "Tim O'Reilly's substantive take on the open-source AI debate, distinguishing open weights from true open source."
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "Good news. Now that labs confirm there is no security issue with revealing reasoning traces, can we … just have them revealed? :) x.com/kote",
+  "why": "Good technical context on the debate over revealing reasoning traces and their security implications."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "ProfNoahGian",
-  "via": "GaryMarcus",
-  "text": "Really important point and nicely explained! Two further points worth noting: (1) if an AI system relies on a harness (which as Gary notes i",
-  "why": "Nuanced technical commentary on why RLHF data and harness code complicate the 'open source' AI debate."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "ahall_research",
+  "via": "DKThomp",
+  "text": "In new, ongoing research studying the transcripts of city council meetings, we find that the most common complaints about data centers are a",
+  "why": "Interesting empirical data on the real reasons behind local data center backlash."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Nick Cave on the two pillars of a meaningful life themarginalian.org/2023/11/28/nic… Posted Aug 10, 2026 at 7:07PM",
-  "why": "A beautiful reflection from Nick Cave on humility, curiosity, and the pillars of a meaningful life."
+  "text": "How to help someone change – the samurai guide to giving feedback themarginalian.org/2026/07/13/tsu… Posted Aug 11, 2026 at 12:58PM",
+  "why": "Contemplative wisdom on giving feedback and helping others change."
  },
  {
   "rank": 13,
@@ -126,197 +126,127 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The geometry of grief – a mathematician's field guide to how fractals can help us fathom loss and befriend the ongoingness of life themargin",
-  "why": "Beautiful contemplative essay blending mathematics, fractals, and the human experience of grief."
+  "text": "Neuroscientist David Eagleman explains how the physiology of drug withdrawal illuminates the psychology of heartbreak themarginalian.org/202",
+  "why": "Fascinating intersection of neuroscience and the psychology of heartbreak."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "Noahpinion",
+  "author": "DKThomp",
   "via": null,
-  "text": "Can confirm this book is great Posted Aug 11, 2026 at 12:48AM",
-  "why": "Strong book recommendation for understanding China's state organization and capital allocation."
+  "text": "Today's pod: THE REAL REASONS BEHIND THE NATIONAL AI REBELLION I talked to the great @jasminewsun about why the Bay Area doesn't understand ",
+  "why": "Interesting framing on the data center backlash, but ultimately just a podcast promo without deep standalone text."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "tools-for-thought",
+  "author": "danshipper",
   "via": null,
-  "text": "Ursula K. Le Guin on the meaning of maturity and what it really takes to grow up themarginalian.org/2026/06/17/le-… Posted Aug 10, 2026 at 1",
-  "why": "Ursula K. Le Guin's timeless wisdom on what it truly means to grow up and achieve maturity."
+  "text": "fun to re-read Posted Aug 11, 2026 at 3:11PM",
+  "why": "Retrospective on using LLMs for journaling, but it's an older piece with thin new commentary."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "anuatluru",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "the Thinker-CEO strategic comms playbook: Thesis, Twitter, Talk shows - and repeat. Posted Aug 10, 2026 at 10:42PM",
-  "why": "Zuckerberg's major manifesto on open-source superintelligence, framed through the lens of CEO strategic comms."
+  "text": "Claude to have invisible watermarks in all generated text. This is a great development for authenticating the integrity of student writing. ",
+  "why": "News announcement about Claude watermarks; lacks deep analysis."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 5,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "tszzl",
-  "via": "Noahpinion",
-  "text": "we live in actual cyberpunk now private consortiums raise funds larger than federal discretionary spending of American government to build l",
-  "why": "A striking, albeit brief, framing of our current cyberpunk reality where private AI labs outspend governments."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "You don't have to like techbros, but like them or not, our nation needs their talents. noahpinion.blog/p/the-poverty-… Posted Aug 11, 2026 a",
+  "why": "Leans too much into culture-war techbro discourse rather than deep analysis."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Legendary artist Sheila Hicks, at 92, on the secret to creative vitality themarginalian.org/2026/06/27/she… Posted Aug 11, 2026 at 2:22AM",
-  "why": "Contemplative wisdom on creative vitality and lifelong craft from a legendary 92-year-old artist."
+  "text": "Antipathy to the \"techbro\" class has become an all-consuming obsession among many intellectuals in America. This is preventing them from bei",
+  "why": "Leans too much into culture-war techbro discourse rather than deep analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "The wisdom of water – Alan Watts on the ocean and the meaning of life themarginalian.org/2026/08/10/ala… Posted Aug 11, 2026 at 12:35AM",
-  "why": "Classic Alan Watts philosophy on the meaning of life, curated by The Marginalian."
+  "text": "Listening to @https:// twitter.com/nathanbarry’s recent podcast with @mpacc , pausing every 5 minutes to take notes on how to improve as a p",
+  "why": "Brief note about a podcast episode, lacks standalone substance."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
-  "topic": "rationality",
-  "author": "michaelpollan",
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Why don’t some people respond to psychedelics? 5 Questions for psychologist Rachel Ham themicrodose.substack.com/p/why-dont-som… Posted Aug ",
-  "why": "Interesting scientific inquiry into the psychology and biology of non-responders to psychedelics."
+  "text": "Interesting. Something like this will have to be done at some point fairly soon... Posted Aug 11, 2026 at 3:35PM",
+  "why": "Political news about Social Security, lacks deep analysis."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
-  "topic": "tools-for-thought",
-  "author": "tobi",
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Better annotating screenshot tool coming to Omarchy Quattro. github.com/tobi/omasnap Your browser does not support the video tag. Posted Aug",
-  "why": "A neat open-source screenshot annotation tool, but mostly just a brief announcement."
+  "text": "14 years old, still one of the best talks on designing good tools youtu.be/e_6gkfTomUQ?is… Posted Aug 11, 2026 at 2:31PM",
+  "why": "Video-only content, which is an anti-taste."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "bentossell",
   "via": null,
-  "text": "Why I think the \"NIMBYs just want beautiful buildings\" idea is bunk 👇👇👇👇👇 Posted Aug 10, 2026 at 11:59PM",
-  "why": "YIMBY/NIMBY debate piece; a bit too close to standard internet dunking to be top-tier reading."
+  "text": "we can already smell it tho. that's the load-bearing part. Posted Aug 11, 2026 at 8:55AM",
+  "why": "Thin commentary on a news announcement."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 4,
-  "topic": "tools-for-thought",
-  "author": "RTomMcCoy",
-  "via": "ByrneHobart",
-  "text": "Just found an Easter egg on Wikipedia! On the page for double dactyls (a type of poem), there's a sentence that's formatted as a normal line",
-  "why": "A fun piece of Wikipedia trivia, but lacks the depth required for a top daily read."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Look at the clock, because it's Posted Aug 11, 2026 at 6:58AM",
+  "why": "Inside baseball hype without much substance."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "GregKamradt",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "DAcemogluMIT",
   "via": null,
-  "text": "ivibemorethanyou.com Posted Aug 11, 2026 at 1:29AM",
-  "why": "Thin commentary on an AI agent launch; leans too close to pure hype without deep technical analysis."
+  "text": "Dear followers, My new book What Happened to Liberal Democracy?: Remaking a Politics of Shared Prosperity is out. It is an editors’ pick and",
+  "why": "Pure announcement/promo for a new book."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "Tyler_A_Harper",
-  "via": "Noahpinion",
-  "text": "This is a story about a college lost down the rabbit hole of performative progressivism. But at its heart, it’s about labor exploitation, th",
-  "why": "Leans heavily into culture-war and academic politics rage-bait, which violates the anti-taste rules."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "tobi",
-  "via": null,
-  "text": "hockey players rejoice Posted Aug 10, 2026 at 8:41PM",
-  "why": "A brief science news snippet about tooth regeneration; lacks long-form analysis or depth."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "After more than a year of labor, my book 𝘏𝘪𝘥𝘥𝘦𝘯 𝘔𝘶𝘭𝘵𝘪𝘱𝘭𝘪𝘦𝘳𝘴 has launched! It's all my best ideas -- and best writing -- on how to grow your ",
-  "why": "Promotional post for a book launch, rather than a standalone piece of insight."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "TheAtlantic",
-  "via": "Noahpinion",
-  "text": "Much of @Tyler_A_Harper ’s academic career had felt like a fairy tale. When he landed a tenure-track job, one adviser said that it was like ",
-  "why": "Focuses heavily on academic culture-war grievances, which falls into the anti-taste category."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "ajlamesa",
-  "via": "Noahpinion",
-  "text": ". @Tyler_A_Harper made me spit my coffee out when I read this sentence. In all seriousness, though, this is a masterpiece worth reading from",
-  "why": "Another share of the academic culture-war piece; violates the anti-taste rule against rage-bait."
- },
- {
-  "rank": 30,
-  "kept": false,
   "score": 2,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A favorite #birddivination from the early days. As always, find it as a solo print and part of the deck of 100, along with the story and pro",
-  "why": "Primarily a promotional post for a physical print/deck, lacking long-form substance."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "Come work with me! Help me fundraise for @rootsofprogress Not only will you be fueling an awesome team on a crucial mission, you will also g",
-  "why": "A job posting for Roots of Progress, not a substantive read."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Woke 1.0 was crazy, man Posted Aug 10, 2026 at 6:54PM",
-  "why": "Pure culture-war dunking on university politics, explicitly violating the anti-taste guidelines."
+  "topic": "ai-engineering",
+  "author": "lily_gpupoor",
+  "via": "swyx",
+  "text": "sign up for COLM 2026 before it sells out! for non-local researchers, here's the SF map by @swyx . safety tip: i added poop alerts 💩 for the",
+  "why": "Conference logistics and announcements."
  }
 ]
