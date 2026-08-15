@@ -3,460 +3,330 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "rodjnaquin",
-  "via": "C_Hendrick",
-  "text": "Carl Hendrick discusses studies showing students who remembered rules much better through retrieval practice didn't apply them any better. D",
-  "why": "Deep learning science insight: retrieval practice aids recall but doesn't automatically translate to application."
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Drake Thomas (who works at Anthropic on their system cards and risk reports) recommends Section 5.2 of the report, which is about safety pro",
+  "why": "Excellent, rigorous breakdown of Anthropic's safety process failures and alignment challenges from their risk report."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "hsinha1445",
-  "via": "Noahpinion",
-  "text": "Japan has done something no other big economy has managed. Its debt-to-GDP ratio is falling — from a peak of 229% to 204% — and it didn't re",
-  "why": "Fascinating, substantive breakdown of how Japan used financial repression to lower its debt-to-GDP ratio."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "bendee983",
+  "via": "random_walker",
+  "text": "Tool-use is already a bottleneck in AI reasoning models, and it will become even more problematic as the underlying models become faster. Th",
+  "why": "Superb technical foresight on how tool-use latency and execution environments will bottleneck future agentic AI."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "natolambert",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Lots of people posting about Z ai “benchmaxxing” to make this model. I think the truth is messy and many faceted: 1. Yes Zai probably cares ",
-  "why": "Nuanced, rigorous breakdown of a frontier model's benchmark performance and training strategy. Great evals-as-discipline."
+  "text": "Orcas and the price of consciousness – lessons in love and loss from Earth's most successful and creative predator themarginalian.org/2025/0",
+  "why": "Beautifully curated essay exploring consciousness, love, and loss through the lens of orcas."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "fchollet",
-  "via": "GaryMarcus",
-  "text": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesis of a symbolic worl",
-  "why": "Chollet highlights a top-performing ARC-AGI approach using LLM-guided synthesis of symbolic world models."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Nature and creativity – the fascinating science of \"soft fascination\" and how the natural world resets the brain themarginalian.org/2022/07/",
+  "why": "Deep dive into the neuroscience of creativity and how nature resets the brain's default mode network."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "JarrodMorgan",
-  "via": "danshipper",
-  "text": "I've quoted this article by @danshipper in many discussions in the last few months, but if you haven't read it, you should.  The punchline i",
-  "why": "Dan Shipper essay exploring the paradox of automation creating more human work. Great anti-hype counterweight."
+  "topic": "agency",
+  "author": "catehall",
+  "via": null,
+  "text": "why buy the cow when you can hallucinate the milk for free Posted Aug 14, 2026 at 10:20PM",
+  "why": "A dense, highly actionable 20-point breakdown of high-agency behavior and builder wisdom."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "teachthemx3",
-  "via": "C_Hendrick",
-  "text": "Discovery-based instruction does not work at the high school level. A few weeks ago, I burned an entire class period trying to get my geomet",
-  "why": "A teacher's practical postmortem on why discovery-based learning fails in high school geometry. High signal learning science."
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "With prodding from @xeophon I added a crucial detail. Data industry go brrr in China. Our interconnects group chat has on many occasions bee",
+  "why": "Deep technical analysis of Chinese frontier models and the underlying data industry powering their rapid progress."
  },
  {
   "rank": 7,
-  "kept": true,
+  "kept": false,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "DKokotajlo",
-  "text": "\"Sitting here today, mission success feels within sight.\" Why do you think this? OpenAIs mission of \"ensuring AGI benefits all of humanity\" ",
-  "why": "Sharp, substantive critique of OpenAI's triumphalist messaging in light of recent internal security failures."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Albert Camus on the 3 antidotes to the absurdity of life themarginalian.org/2017/07/24/alb… Posted Aug 14, 2026 at 9:32PM",
+  "why": "Classic philosophical exploration of meaning and absurdity from a highly trusted curator."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "andy_matuschak",
-  "via": null,
-  "text": "What a beautiful project—an ode to the mundane wonders in our living rooms. Reminds me of Gordon Brander's wonderful \"Everything around me w",
-  "why": "Andy Matuschak highlights a beautiful project capturing historical awe at now-mundane household technologies."
+  "topic": "econ-progress",
+  "author": "Mike__Baier",
+  "via": "jasoncrawford",
+  "text": "On hard-rock machines like Prufrock Main beam, the propulsion system doesn’t push off a tunnel liner — because there is no liner. The rock i",
+  "why": "Fascinating hard-tech engineering breakdown of how deleting subsystems enables faster tunneling progress."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "johnrhanger",
-  "via": "Noahpinion",
-  "text": "Batteries Start New Era of Anytime Solar! 74% of surging global battery fleet's primary application is shifting power to new hours. Batterie",
-  "why": "Excellent data on how battery deployments are successfully shifting solar power into evening peak hours globally."
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "basically every company will own their pipeline of using Trajectories to mine knowledge + data to improve (harness eng + finetune) their age",
+  "why": "Excellent applied engineering mental models for using agent trajectories and traces to build evals and improve models."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "HamelHusain",
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "💯 “You didn't read the thing when you generated it, I won't read it when I'm reading it.” Posted Aug 13, 2026 at 10:53PM",
-  "why": "Vicki Boykis and Hamel Husain push back on AI-generated slop, advocating for writing meant for actual humans."
+  "text": "It's The Phones Posted Aug 14, 2026 at 8:33PM",
+  "why": "Fascinating economic paper linking smartphone/4G adoption to declining marriage and employment rates."
  },
  {
   "rank": 11,
-  "kept": false,
+  "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "samwhoo",
-  "via": "Noahpinion",
-  "text": "This might be the most beautiful thing I've read in my life. What a privilege to be alive in 2026. ordinaryabundance.com Posted Aug 13, 2026",
-  "why": "A beautiful essay celebrating the ordinary abundance and technological privileges of living in the modern era."
+  "topic": "ai-engineering",
+  "author": "ChaoQiao42",
+  "via": "GregKamradt",
+  "text": "Replying to @GregKamradt Thanks Greg — ARC-AGI-3 is a remarkable benchmark. Few environments make it so clear that intelligence is not just ",
+  "why": "Deep insight into evals and agentic memory, framing intelligence as test-time learning over long horizons."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "notes on \"How to do data\" from th Zai team that others should steal as they build their own environments \"Research agents collect task patte",
-  "why": "Solid applied AI engineering notes on building synthetic data environments and the necessity of human-in-the-loop evals."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "pescami",
+  "via": "Noahpinion",
+  "text": "Ordinary Abundance. This is the greatest thing I've read in weeks. No kidding. This should win a Pulitzer in a category not yet invented. or",
+  "why": "Highly recommended essay on abundance and progress, perfectly aligned with your interest in optimistic economics."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "rationality",
-  "author": "asmartbear",
-  "via": null,
-  "text": "If you approach every conversation as if you could be wrong, you could have something to learn, even if you’re sure that’s not the case… …yo",
-  "why": "Jason Cohen applies Pascal's Wager to intellectual humility and everyday conversations. Great intentional living piece."
+  "topic": "parenting-education",
+  "author": "dylanwiliam",
+  "via": "C_Hendrick",
+  "text": "I've written two articles on classroom formative assessment for the Victoria Department of Education's Spotlight series. Find them here: Cla",
+  "why": "Deep dive into classroom formative assessment and learning science from an expert."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Simone de Beauvoir on how chance and choice converge to make us who we are themarginalian.org/2017/01/06/sim… Posted Aug 14, 2026 at 3:03PM",
-  "why": "Beautiful philosophical reflection on chance, choice, and identity curated by The Marginalian."
+  "topic": "ai-engineering",
+  "author": "isaac_flath",
+  "via": "HamelHusain",
+  "text": "Amp orbs are actually pretty useful.  Here's an example. I started a thread in the cli working on my blog.  Had it use a portal to host the ",
+  "why": "Practical applied AI engineering workflow showing how sandboxed agents reduce friction in coding tasks."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "danshipper",
-  "via": null,
-  "text": "not really you can be an AI-native rocketship without being in a permanent fundraising situation and in a constant death match with other ro",
-  "why": "Dan Shipper pushing back on the VC-rocketship default for AI startups; advocates for calm company building."
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Anthropic gave Claude Mythos additional private information and asked it to review Section 2 of their report. Claude disagrees with Anthropi",
+  "why": "Fascinating meta-eval where Claude critiques Anthropic's own risk report redactions."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "random_walker",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "In this short editorial for Science, @akashkapur and I talk about how India should approach AI sovereignty given the trend of models commodi",
-  "why": "Arvind Narayanan on how India should approach AI sovereignty as models commoditize."
+  "text": "Instructions for being more alive themarginalian.org/2025/10/10/how… Posted Aug 14, 2026 at 11:02PM",
+  "why": "A beautiful, contemplative essay on intentional living and finding awe in the everyday."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "topic": "ai-engineering",
+  "author": "swyx",
   "via": null,
-  "text": "wow! new OpenAI study shows “no correlation between how often employees use AI and how much money they make. The ROI of the latest tech boom",
-  "why": "Substantive skepticism highlighting research that questions the immediate ROI of AI tools for employees."
+  "text": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically the M in their $188B series M stands for \"we are going t",
+  "why": "Insightful look at how enterprise AI agents are finally working by automating the capture of organizational context."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "frontier-ai",
+  "author": "natolambert",
   "via": null,
-  "text": "\"To love. To be loved. To never forget your own insignificance... To seek joy in the saddest places. To pursue beauty to its lair. To never ",
-  "why": "Arundhati Roy's beautiful reflection on love, insignificance, and the true measures of success."
+  "text": "GLM 5.3 notes and why we should stop being so surprised about these very strong Chinese models (most of this is talking myself through some ",
+  "why": "Deep technical analysis of Chinese frontier models and the underlying data industry powering their rapid progress."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "tombennett71",
-  "via": "C_Hendrick",
-  "text": "This is a fascinating and important report: internationally, teachers now spend more time than ever dealing with behaviour. This is the bigg",
-  "why": "OECD data showing a massive global increase in classroom time lost to behavior management."
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "This graph from the @FT does not look good for @dwarkesh_sp ’s prediction that Anthropic’s “likely ends the year with ~$100-$150B revenue [r",
+  "why": "Substantive skepticism regarding frontier lab revenue projections and the looming LLM price war."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "sdamico",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "fiiiiiist",
   "via": "Noahpinion",
-  "text": "Over a year into shipping and now at 1/10th the industry average in terms of support / service calls (Bosch induction cooktops are best-in-c",
-  "why": "Great builder postmortem showing how OTA updates drastically reduced hardware support calls."
+  "text": "As promised, here is a meaty list of AI policy recommendations from @fiiiiiist and @KhanSaifM ! noahpinion.blog/p/23-low-regre… Posted Aug 1",
+  "why": "A substantive, low-regret policy recommendation list for AI governance."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "As promised, here is a meaty list of AI policy recommendations from @fiiiiiist and @KhanSaifM ! noahpinion.blog/p/23-low-regre… Posted Aug 1",
-  "why": "A comprehensive list of low-regret AI policy recommendations from Noah Smith."
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "jrodgers",
+  "via": "tobi",
+  "text": "517 US companies with a Canadian founder. $414B raised. 88% educated here. The talent was never the problem. The belief was. barnvc.com/the-",
+  "why": "Interesting data on Canadian founder success in the US, touching on builder mindset and ambition."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "robinsonmeyer",
-  "via": "Noahpinion",
-  "text": "It’s forgotten now, but the controversy over cell towers ended not because phone companies won thousands of local permitting fights or the p",
-  "why": "A timely historical reminder that cell tower NIMBYism was defeated by federal preemption, not public persuasion."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "WillManidis",
+  "via": null,
+  "text": "one of the better bits about the lab ceos refusing to communicate publicly is that we find out what they think through Gavin Baker giving us",
+  "why": "Amusing insider commentary on frontier lab valuations, but light on technical or philosophical substance."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "LyalinDotCom",
-  "via": "simonw",
-  "text": "I told Gemini 3.7 Flash to have some fun, here is it's story, written by Gemini itself. Thank you @simonw for all your inspiration, hope you",
-  "why": "A fascinating, practical test of Gemini 3.7 Flash's ability to hand-code a complex SVG portrait from scratch."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "remember how i said OpenAI might turn out to be the WeWork of AI? Posted Aug 14, 2026 at 9:16PM",
+  "why": "Skeptical take on OpenAI's internal stability and financial maneuvers, though leans slightly into drama."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "natolambert",
   "via": null,
-  "text": "Nick Cave on how to use your suffering: themarginalian.org/2025/10/17/nic… Posted Aug 14, 2026 at 12:35AM",
-  "why": "Nick Cave's profound reflections on grief, suffering, and finding meaning."
+  "text": "Happy to see @NVIDIAAI released their expert models for MOPD. Starting to make research there much more accessible (tho these are big models",
+  "why": "Pure model release announcement without deeper architectural or systemic analysis."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is a big change. Posted Aug 13, 2026 at 11:52PM",
-  "why": "Data showing a massive drop in San Francisco car break-ins driven by new surveillance technology."
+  "score": 3,
+  "topic": "rationality",
+  "author": "chrissyfarr",
+  "via": "GaryMarcus",
+  "text": "Kids will die unnecessarily because of misinformation Posted Aug 14, 2026 at 11:24PM",
+  "why": "News reaction about misinformation and measles; lacks the deep long-form insight you prefer."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 3,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "If you could use your faith in our kind restored, the moving story of how humanity saved the ginkgo themarginalian.org/2025/09/23/gin… Poste",
-  "why": "A nice historical piece on how humanity saved the ginkgo tree."
+  "text": "This is the plot of the movie \"Brazil\" Posted Aug 14, 2026 at 8:06PM",
+  "why": "Tragic news story, but falls into outrage/news rather than systemic long-form analysis."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "JerusalemDemsas",
-  "via": "Noahpinion",
-  "text": "Men and women underrate how much the average guy prioritizes family over career success. Great piece diving into men's expressed preferences",
-  "why": "Interesting sociological piece on family vs career preferences, but slightly outside the core focus areas."
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "every",
+  "via": null,
+  "text": "CONFIRMED: @c_valenzuelab , cofounder and co-CEO of @runwayml , is speaking at Thesis, our inaugural conference on work and AI. Language mod",
+  "why": "Promotional announcement for a conference, lacking standalone insight."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "ai-essays",
-  "author": "nicbstme",
+  "author": "every",
   "via": null,
-  "text": "I think most software will be created by AI, and increasingly most software will also be consumed by AI on our behalf. So we’re going to see",
-  "why": "A common take on agent-first software without much technical depth or novel insight."
+  "text": "CONFIRMED: @joshm , CEO and cofounder of @browsercompany , is speaking at Thesis, our inaugural conference on work and AI. Bots generated mo",
+  "why": "Promotional announcement for a conference."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This deserves more attention Posted Aug 14, 2026 at 3:18PM",
-  "why": "Just a pointer to the original thread on Japan's debt. The original thread is scored higher."
+  "author": "DarmolinskiT",
+  "via": "Noahpinion",
+  "text": "600 dronów nie uratowało amerykańskiej brygady Podczas ćwiczeń Combined Resolve w Hohenfels amerykańska 3rd Armored Brigade Combat Team, 1st",
+  "why": "Content is in Polish, outside of requested language preferences."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "GaryMarcus",
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "neurosymbolic world models – exactly what I argued for in 2020 in the Next Decade in AI – for the win. Posted Aug 14, 2026 at 2:22PM",
-  "why": "Gary Marcus taking a victory lap; the underlying Chollet quote is the real signal."
+  "text": "Damn Posted Aug 14, 2026 at 8:34PM",
+  "why": "News report, lacks the long-form analytical insight you look for."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "MikeMcCormick_",
-  "via": "DKThomp",
-  "text": "Super glad to see you covering AI risk @DKThomp Plain English is an S-tier podcast (seriously so good) but I always felt the topic was under",
-  "why": "Podcast promo on AI cyber warfare risks; lacks the density of a written essay."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "These people lie as they breathe. They screech \"ILLEGAL VS. LEGAL\" all day long, and then when it comes time to make policy, they put all th",
+  "why": "Political culture-war commentary and dunking."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "Narrative violation, indeed. Posted Aug 13, 2026 at 9:14PM",
-  "why": "A bit too deep into healthcare policy wonkery."
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Hahahaha this guy spends all day talking about how he's going to destroy the Democratic establishment, and then as soon as people outside De",
+  "why": "Pure political dunking and culture-war commentary."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Buying a Matic vacuum cleaner was my best purchase last year. It’s so good. Now, it has voice command functionality, which is the best becau",
-  "why": "Product hype and ad for a robot vacuum."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A #birddivination for a beloved friend. As always, find it as a solo print and part of the deck of 100, along with the story and process beh",
-  "why": "Art promo, not core reading."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "Zai_org",
-  "via": "simonw",
-  "text": "Introducing GLM-5.3: Built to Code. Ready for Cyber Defense. Top-tier coding and agentic capabilities, achieved through post-training on the",
-  "why": "Pure model announcement without substantive analysis."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": null,
-  "text": "!!!!! it's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better people. Dynarize is no",
-  "why": "Acquisition hype and congratulations."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "tobi",
-  "text": "Universal health care should be a guaranteed floor of coverage (like Medicare!) not a Canadian-style effort to create a ceiling on consumpti",
-  "why": "Healthcare policy debate, outside core topics."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "rationality",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "Getting tougher on property crime is the #1 issue where the moderate position significantly outpolls the progressive one among democratic pa",
-  "why": "Political strategy and crime discourse falls into the anti-taste politics/culture-war bucket."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "ninklefitz",
-  "via": "danshipper",
-  "text": "s-tier lineup, the @danshipper curatorial hand is unmatched Posted Aug 13, 2026 at 8:20PM",
-  "why": "Pure event announcement and lineup hype, lacks substantive insight."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "seriouspeopleai",
-  "via": "danshipper",
-  "text": "So excited about this event that I filled out the application myself.* mostly Posted Aug 14, 2026 at 2:13PM",
-  "why": "Event promo and hype."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "danshipper",
+  "author": "TheZvi",
   "via": null,
-  "text": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one room if you’re a busi",
-  "why": "Event promo."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "\"heathens not using Orbs yet\" As if someone's not using Orbs yet, haha Posted Aug 14, 2026 at 12:15PM",
-  "why": "Too short and niche."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": "jxnlco",
-  "text": "The @latentspacepod team and I will be speaking at Mongodb's .local buildfest today 10a-4pmish, come by! mongodb.com/events/mongodb… We'll b",
-  "why": "Event promo."
- },
- {
-  "rank": 44,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "clairevo",
-  "via": "every",
-  "text": "Stacked lineup, impeccable execution Posted Aug 13, 2026 at 10:43PM",
-  "why": "Event promo."
- },
- {
-  "rank": 45,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": null,
-  "text": "CONFIRMED: Cat de Jong, head of applied AI at @AnthropicAI , is speaking at Thesis, our inaugural conference on work and AI. Cat’s work star",
-  "why": "Event promo."
- },
- {
-  "rank": 46,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "_catwu",
-  "via": "bcherny",
-  "text": "Join office hours with the Cowork team If you're in marketing, sales, finance, legal, ops, or any non-eng role, book a 15 min slot to show u",
-  "why": "Office hours promo."
+  "text": "It's fun that I have now been out of Magic long enough that I see posts like this and they read like total word salad. Sure, the cabbage mer",
+  "why": "Off-topic commentary about Magic the Gathering."
  }
 ]
