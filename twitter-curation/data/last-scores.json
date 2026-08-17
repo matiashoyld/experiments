@@ -3,240 +3,170 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "builders-craft",
-  "author": "anuatluru",
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "You win great people when you believe the greatness they aspire to is destined, then match that belief with your words and actions. Posted A",
-  "why": "Exceptional operator wisdom on recruiting great talent and bridging the gap to their dreams."
+  "text": "I, also, would like more precision around discussions of how AI will cure diseases. I assume it means \"a nation of geniuses in a data center",
+  "why": "Ethan Mollick providing substantive, grounded skepticism on AI healthcare hype, anchored in the reality of clinical trial timelines."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "erikbryn",
-  "via": null,
-  "text": ". @_sholtodouglas and @DarioAmodei are right to be con concerned about AI driving an increase in the concentration of economic power. @zhitz",
-  "why": "Erik Brynjolfsson and Sholto Douglas debating AI's impact on economic concentration; highly substantive."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "LocasaleLab",
+  "via": "C_Hendrick",
+  "text": "Academia cannot be reformed until the PhD has standards again. The degree should be reserved for the relatively few candidates whose dissert",
+  "why": "Excellent, substantive critique of academic credentialism and the structural incentives driving PhD oversupply."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ziv_ravid",
-  "via": "GaryMarcus",
-  "text": "There are two separate questions regarding Dario Amodei’s post about AI and biology: motivation and reality. Motivation. Dario started in bi",
-  "why": "Substantive, nuanced critique of Anthropic's 'curing cancer' narrative and the political economy of AI safety."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Wholeness and the implicate order – physicist David Bohm on bridging consciousness and reality themarginalian.org/2023/05/25/who… Posted Aug",
+  "why": "Deep philosophical exploration of consciousness and reality from David Bohm; perfect fit for his contemplative interests."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "dylan522p",
-  "via": null,
-  "text": "Incompetence in grid modeling is causing US ratepayers to pay $12B more than necessary. The auction system of PJM is damaging to building mo",
-  "why": "SemiAnalysis postmortem on a $12B grid modeling mistake; excellent infrastructure and progress piece with real numbers."
+  "topic": "ai-engineering",
+  "author": "vishal_learner",
+  "via": "sh_reya",
+  "text": "trying this skill out on claude dot ai with opus 4.6 high and i'm liking it. too soon to understand why. Posted Aug 17, 2026 at 2:35AM",
+  "why": "Practical application of evals-as-discipline, using an LLM judge to measure a specific plain-writing skill for agents."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "danshipper",
-  "via": null,
-  "text": "i am also skeptical of the centralization of power hypothesis it comes from Lewis Mumford in 1964 who argued: \"from late Neolithic times in ",
-  "why": "Dan Shipper (a favorite) exploring the philosophy of AI centralization vs decentralization."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "_swanson",
+  "via": "thorstenball",
+  "text": "I think this is the most important piece of content of the year. If I've built any credibility with you, please listen. Posted Aug 16, 2026 ",
+  "why": "Strong conceptual framing around 'jellyware' and agent-driven development, even if it points to a podcast."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "TheAnnaGat",
-  "via": "krishnanrohit",
-  "text": "New piece by @krishnanrohit -- as usual, very good: \"This magic is basically because we have given up the control that would come with under",
-  "why": "Rohit Krishnan's Strange Loop Canon essay on markets, complexity, and decentralized computation."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Rachel Carson on the ocean and the meaning of life themarginalian.org/2026/08/15/rac… Posted Aug 17, 2026 at 1:58AM",
+  "why": "Beautiful, contemplative essay on meaning and nature; provides a strong counterweight to the tech-heavy feed."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "aarri_yann",
-  "via": "krishnanrohit",
-  "text": "strangeloopcanon.com/p/nobody-knows… Posted Aug 16, 2026 at 7:39PM",
-  "why": "Pointer to a great Strange Loop Canon piece, though other tweets provide better framing."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Good discussions here, although I fear it let common misconceptions get reinforced, so I reiterate: HF used open models because they on prin",
+  "why": "TheZvi highlights key misconceptions in a new Odd Lots episode on the OpenAI/Hugging Face security incident."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "mmpiatkowski",
-  "via": "Noahpinion",
-  "text": "Agreed👇. I have for some time postulated to award Nobel-like prizes 🏆 to economic policymakers. Zhu would have been one of the guaranteed re",
-  "why": "Noahpinion's deep dive into the structural demand issues in China's economy."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "swyx",
+  "via": null,
+  "text": "5 years later and most of the best players here have been bought Posted Aug 17, 2026 at 5:24AM",
+  "why": "swyx revisits his 2021 thesis on usage-based billing, offering a quick but insightful retrospective on the category's evolution."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "bentossell",
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "are they primarily terminal based? most are apps too Posted Aug 16, 2026 at 7:51PM",
-  "why": "Patrick Collison on the UX of agentic coding harnesses; good builder-level observation."
+  "text": "\"I walk because, somehow, it’s like reading.\" This is wonderful: themarginalian.org/2019/05/21/fla… Posted Aug 17, 2026 at 12:57AM",
+  "why": "A lovely, short contemplative piece on walking and reading, fitting his interest in intentional living."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "sariazout",
-  "via": null,
-  "text": "so far today instinct has: -purchased movie tickets for my kids + their friends. when i needed to add one ticket it easily found the closest",
-  "why": "Interesting anecdotal look at how AI agents are actually saving time for working parents today."
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "theobjectivist",
+  "via": "naval",
+  "text": "This so-called defense of the founders by Cuban is worse than Ro Khanna's direct assault, because it is the assault's enabler, as their exch",
+  "why": "Ideological rant on wealth taxes and property rights; falls too close to political rage-bait for Matias's taste."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 6,
+  "score": 3,
   "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "It’s important to understand bad housing policy as not simply a transfer from renters to landowners, but also a large net loss to the overal",
-  "why": "Solid Slow Boring piece on housing policy as a drag on the overall economy."
+  "author": "theobjectivist",
+  "via": "naval",
+  "text": "You have to defend these men on principle, the principle of individual rights, or watch this exchange repeat until nothing is left to defend",
+  "why": "Continuation of a political argument about wealth taxes; lacks the empirical or builder-focused signal he prefers."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "polynoamial",
-  "via": null,
-  "text": "Autocompaction in Codex is really good. @OpenAI recognized early on that it would be important and invested in research efforts to make it n",
-  "why": "Useful technical snippet for Codex context windows, but too narrow to be a top long-form read."
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "jeffreyleefunk",
+  "via": "GaryMarcus",
+  "text": "Geoffrey Hinton can't stop himself from making foolish predictions about work that keep turning out wrong. In 2016 he claimed that there wou",
+  "why": "Pure dunking on AI hype without original analysis or real numbers; violates the rule against unsubstantiated skepticism."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Right now, you are missing the vast majority of what is happening around you. You are missing the events unfolding in your body, in the dis",
-  "why": "Recycled 2013 post on the art of looking; good but not a priority for today's limited slots."
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "NatalieFratto",
+  "via": "danshipper",
+  "text": "I'm really excited to speak at Thesis because: the lineup includes humans I'm deeply inspired by, like @ivanhzhao (teach me how to dress!) t",
+  "why": "Conference announcement with some light commentary on post-automation meaning, but lacks substantive depth."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Albert Camus on the will to live and the most important question of existence themarginalian.org/2016/11/07/cam… Posted Aug 17, 2026 at 12:3",
-  "why": "Recycled 2016 post; good philosophy but not a timely, high-signal read for today's curation."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "litcapital",
+  "via": "naval",
+  "text": "If Ro Khanna and his idiotic base somehow pass their wealth tax as proposed, founders have no choice but to move out of California There is ",
+  "why": "Political rage-bait regarding wealth taxes; violates the anti-taste rule against culture-war dunking."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "HollyBlomberg",
-  "via": "GaryMarcus",
-  "text": "Replying to @sethharpesq @sethharpesq OpenAI spent $1.60 for every dollar it earned in 2025. We need more journalism that cuts through all o",
-  "why": "AI financial skepticism, but relies on a lower-tier tech news site rather than primary analysis."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "JesseSchoberg",
+  "via": "asmartbear",
+  "text": "New Smart Bear Live just dropped! DropInBlog’s @JesseSchoberg has 2,000 happy customers, 2% monthly churn, a Bangkok-nomad life--and a growt",
+  "why": "Video-only promotional content, which violates the anti-taste rules."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to stop waiting and start living – a classic jolt from Henry James themarginalian.org/2022/10/17/hen… Posted Aug 16, 2026 at 9:32PM",
-  "why": "Recycled 2022 post on Henry James."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "The case for a liberal revival from @JerusalemDemsas theargumentmag.com/p/who-starts-a… Posted Aug 16, 2026 at 10:37PM",
+  "why": "Purely political content, outside of Matias's core focus areas."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Guess who gets f_cked in the end? Posted Aug 16, 2026 at 7:14PM",
-  "why": "Skepticism of AI debt, but framed as a low-effort dunk rather than substantive analysis."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The beach and the soul – Anne Morrow Lindberg on the benedictions of the sea themarginalian.org/2024/06/13/ann… Posted Aug 16, 2026 at 7:07P",
-  "why": "Recycled post."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "No. Posted Aug 16, 2026 at 11:41PM",
-  "why": "Pure dunking on AI hype without original analysis or substance."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "👇👇👇👇👇 Posted Aug 16, 2026 at 8:02PM",
-  "why": "Culture-war dunking on activists; violates anti-taste rules."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "scottlincicome",
+  "author": "MPIainDS",
   "via": "Noahpinion",
-  "text": "Good Politico look at how the new \"Republican economics\" is a political project, not an economics one. politico.com/news/2026/08/1… Posted A",
-  "why": "Pure political horse-race coverage of economic policy."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "New Smart Bear Live just dropped! DropInBlog’s @JesseSchoberg has 2,000 happy customers, 2% monthly churn, a Bangkok-nomad life--and a growt",
-  "why": "Video-only content violates anti-taste rules."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "That's a lot of barbarians Posted Aug 16, 2026 at 8:47PM",
-  "why": "War/politics dunking; violates anti-taste rules."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Arguably, given restrictive housing policies, the city still hasn't actually made room for them (or anyone) Posted Aug 16, 2026 at 8:46PM",
-  "why": "Local politics snark; violates anti-taste rules."
+  "text": "Nobody can now pretend that China isn’t our enemy. The revelations in The @Telegraph that China is accused of secretly funding pro-Palestine",
+  "why": "Political rage-bait and culture-war commentary, which is strictly anti-taste."
  }
 ]
