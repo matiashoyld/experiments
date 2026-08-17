@@ -3,290 +3,240 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "arena",
-  "via": "HamelHusain",
-  "text": "We analyzed tens of thousands of real-world, high-reasoning Claude Opus and Fable outputs from versions 4.5 to 5 in the Text Arena and found",
-  "why": "Rigorous, data-driven analysis of how Claude's writing style and complexity have evolved across versions."
+  "topic": "builders-craft",
+  "author": "anuatluru",
+  "via": null,
+  "text": "You win great people when you believe the greatness they aspire to is destined, then match that belief with your words and actions. Posted A",
+  "why": "Exceptional operator wisdom on recruiting great talent and bridging the gap to their dreams."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "hnshah",
-  "via": "swyx",
-  "text": "I keep thinking about Meta and how ruthless they have been for years about taking mechanics that work somewhere else and making them their o",
-  "why": "Insightful operator wisdom on how AI changes software development from 'can we build it' to 'should we build it'."
+  "score": 9,
+  "topic": "econ-progress",
+  "author": "erikbryn",
+  "via": null,
+  "text": ". @_sholtodouglas and @DarioAmodei are right to be con concerned about AI driving an increase in the concentration of economic power. @zhitz",
+  "why": "Erik Brynjolfsson and Sholto Douglas debating AI's impact on economic concentration; highly substantive."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "Am absolutely fascinating and wonderful experiment. Love this, more like this please! Posted Aug 16, 2026 at 1:52AM",
-  "why": "Fascinating experiment training an LLM exclusively on K-5 educational material, hitting the AI x learning-science intersection."
+  "topic": "frontier-ai",
+  "author": "ziv_ravid",
+  "via": "GaryMarcus",
+  "text": "There are two separate questions regarding Dario Amodei’s post about AI and biology: motivation and reality. Motivation. Dario started in bi",
+  "why": "Substantive, nuanced critique of Anthropic's 'curing cancer' narrative and the political economy of AI safety."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "danshipper",
+  "topic": "econ-progress",
+  "author": "dylan522p",
   "via": null,
-  "text": "Dario should tweet more Posted Aug 16, 2026 at 12:12AM",
-  "why": "Anthropic CEO Dario Amodei shares a nuanced perspective on AI regulation, regulatory capture, and decentralizing power."
+  "text": "Incompetence in grid modeling is causing US ratepayers to pay $12B more than necessary. The auction system of PJM is damaging to building mo",
+  "why": "SemiAnalysis postmortem on a $12B grid modeling mistake; excellent infrastructure and progress piece with real numbers."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "SpiritDirtbag",
-  "via": "catehall",
-  "text": "I was there yesterday and what made the most impression on me: - @catehall had an experience of god, which helped through a lot if transitio",
-  "why": "Excellent notes on agency, serendipity, and striving from Cate Hall and Sasha Chapin."
+  "topic": "ai-essays",
+  "author": "danshipper",
+  "via": null,
+  "text": "i am also skeptical of the centralization of power hypothesis it comes from Lewis Mumford in 1964 who argued: \"from late Neolithic times in ",
+  "why": "Dan Shipper (a favorite) exploring the philosophy of AI centralization vs decentralization."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "sh_reya",
-  "via": null,
-  "text": "Interesting to see all the agreement. Check out the DocWriter project's plain-writing skill: github.com/docwriter-org/… We recently added ev",
-  "why": "Practical application of LLM-as-a-judge evals for a plain-writing skill in an AI agent."
+  "topic": "econ-progress",
+  "author": "TheAnnaGat",
+  "via": "krishnanrohit",
+  "text": "New piece by @krishnanrohit -- as usual, very good: \"This magic is basically because we have given up the control that would come with under",
+  "why": "Rohit Krishnan's Strange Loop Canon essay on markets, complexity, and decentralized computation."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "If you haven’t experienced scale, you might think it’s “the same as now, just more of it.” Which means you can solve it with more servers, m",
-  "why": "Excellent builder wisdom on the non-linear, emergent problems that arise when scaling systems."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "aarri_yann",
+  "via": "krishnanrohit",
+  "text": "strangeloopcanon.com/p/nobody-knows… Posted Aug 16, 2026 at 7:39PM",
+  "why": "Pointer to a great Strange Loop Canon piece, though other tweets provide better framing."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "pescami",
-  "via": "catehall",
-  "text": "Ordinary Abundance. This is the greatest thing I've read in weeks. No kidding. This should win a Pulitzer in a category not yet invented. or",
-  "why": "Highly recommended essay on abundance, fitting the progress and intentional living themes."
+  "author": "mmpiatkowski",
+  "via": "Noahpinion",
+  "text": "Agreed👇. I have for some time postulated to award Nobel-like prizes 🏆 to economic policymakers. Zhu would have been one of the guaranteed re",
+  "why": "Noahpinion's deep dive into the structural demand issues in China's economy."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "DKokotajlo",
-  "text": "On its face this seems bad, though also there are indications the prior status quo wasn't working well either. Definitely seems important th",
-  "why": "Substantive critique of OpenAI's safety practices and transparency regarding the disbanding of their preparedness team."
+  "topic": "ai-engineering",
+  "author": "bentossell",
+  "via": null,
+  "text": "are they primarily terminal based? most are apps too Posted Aug 16, 2026 at 7:51PM",
+  "why": "Patrick Collison on the UX of agentic coding harnesses; good builder-level observation."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "sariazout",
   "via": null,
-  "text": "The gentle giant – Oliver Sacks on the art of choosing empathy over vengeance themarginalian.org/2015/10/13/oli… Posted Aug 16, 2026 at 12:3",
-  "why": "Oliver Sacks on the art of choosing empathy over vengeance."
+  "text": "so far today instinct has: -purchased movie tickets for my kids + their friends. when i needed to add one ticket it easily found the closest",
+  "why": "Interesting anecdotal look at how AI agents are actually saving time for working parents today."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "swyx",
-  "via": null,
-  "text": "in case you’re not living in the tech bubble, as a general rule i’ve been surprised by how infrequently top tier folks actually meet/know ea",
-  "why": "swyx on the reassuring reality that top builders focus on the work rather than narrative or gossip."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "It’s important to understand bad housing policy as not simply a transfer from renters to landowners, but also a large net loss to the overal",
+  "why": "Solid Slow Boring piece on housing policy as a drag on the overall economy."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "aaronvi",
-  "via": "vaibcode",
-  "text": "We had an EC2 service that had to compute the health of all ec2 instances in < 60 seconds. It was taking 55. If this service went over 60 se",
-  "why": "A gritty builder war story about scaling EC2 services and how AI is changing the engineering grind."
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "polynoamial",
+  "via": null,
+  "text": "Autocompaction in Codex is really good. @OpenAI recognized early on that it would be important and invested in research efforts to make it n",
+  "why": "Useful technical snippet for Codex context windows, but too narrow to be a top long-form read."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How to read the signal of your life themarginalian.org/2026/08/15/geo… Posted Aug 15, 2026 at 7:07PM",
-  "why": "A contemplative piece on reading the signal of your life."
+  "text": "\"Right now, you are missing the vast majority of what is happening around you. You are missing the events unfolding in your body, in the dis",
+  "why": "Recycled 2013 post on the art of looking; good but not a priority for today's limited slots."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Walt Whitman, shortly after his paralytic stroke, on what makes life worth living themarginalian.org/2017/12/20/wal… Posted Aug 16, 2026 at ",
-  "why": "Walt Whitman on finding meaning and what makes life worth living."
+  "text": "Albert Camus on the will to live and the most important question of existence themarginalian.org/2016/11/07/cam… Posted Aug 17, 2026 at 12:3",
+  "why": "Recycled 2016 post; good philosophy but not a timely, high-signal read for today's curation."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "What it's like to be a falcon – the peregrine as a portal to a way of seeing and a state of being themarginalian.org/2024/05/09/bak… Posted ",
-  "why": "A contemplative exploration of seeing the world through the eyes of a falcon."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "HollyBlomberg",
+  "via": "GaryMarcus",
+  "text": "Replying to @sethharpesq @sethharpesq OpenAI spent $1.60 for every dollar it earned in 2025. We need more journalism that cuts through all o",
+  "why": "AI financial skepticism, but relies on a lower-tier tech news site rather than primary analysis."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How not to be a victim of time – Rebecca West on music and life themarginalian.org/2026/01/14/reb… Posted Aug 15, 2026 at 11:46PM",
-  "why": "Rebecca West on music, life, and not being a victim of time."
+  "text": "How to stop waiting and start living – a classic jolt from Henry James themarginalian.org/2022/10/17/hen… Posted Aug 16, 2026 at 9:32PM",
+  "why": "Recycled 2022 post on Henry James."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "this guy gets it Posted Aug 15, 2026 at 10:25PM",
-  "why": "Interesting concept of 'AI-Human Interaction' (AHI) as a new field of study."
+  "text": "Guess who gets f_cked in the end? Posted Aug 16, 2026 at 7:14PM",
+  "why": "Skepticism of AI debt, but framed as a low-effort dunk rather than substantive analysis."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "ricmac",
-  "via": "swyx",
-  "text": "I'm loving working for @latentspacepod and I'm also learning new tricks (ref old dogs and all that). @swyx has been teaching me his method o",
-  "why": "Behind-the-scenes look at using AI tools like Claude Design for creating developer diagrams."
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The beach and the soul – Anne Morrow Lindberg on the benedictions of the sea themarginalian.org/2024/06/13/ann… Posted Aug 16, 2026 at 7:07P",
+  "why": "Recycled post."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "At the link, the best of The Marginalian this week in one place – how love comes to you, Alan Watts on the wisdom of water, and more: mailch",
-  "why": "Weekly roundup from The Marginalian on contemplative topics."
+  "text": "No. Posted Aug 16, 2026 at 11:41PM",
+  "why": "Pure dunking on AI hype without original analysis or substance."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "theobearman",
-  "via": "GaryMarcus",
-  "text": "The FT reports this weekend that OpenAI quietly disbanded its preparedness team at the end of last month, with responsibilities for individu",
-  "why": "News snippet on OpenAI disbanding its preparedness team."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "👇👇👇👇👇 Posted Aug 16, 2026 at 8:02PM",
+  "why": "Culture-war dunking on activists; violates anti-taste rules."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "econ-progress",
-  "author": "pat_hedger",
+  "author": "scottlincicome",
   "via": "Noahpinion",
-  "text": "Bernie is right. There is no rational reason why each generation should have a lower standard of living than the previous… …which is why the",
-  "why": "A quick point on economic progress and living standards, but lacks deep analysis."
+  "text": "Good Politico look at how the new \"Republican economics\" is a political project, not an economics one. politico.com/news/2026/08/1… Posted A",
+  "why": "Pure political horse-race coverage of economic policy."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "if this were true, why aren’t the companies being more transparent about their finances? Posted Aug 15, 2026 at 11:58PM",
-  "why": "Thin commentary on AI company profitability and transparency."
+  "text": "New Smart Bear Live just dropped! DropInBlog’s @JesseSchoberg has 2,000 happy customers, 2% monthly churn, a Bangkok-nomad life--and a growt",
+  "why": "Video-only content violates anti-taste rules."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "anuatluru",
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "The co-founder/CEO of Anthropic wading into Twitter discourse to reestablish narrative while criticizing the focus on “messaging and marketi",
-  "why": "Meta-commentary on Anthropic's CEO engaging in Twitter discourse."
+  "text": "That's a lot of barbarians Posted Aug 16, 2026 at 8:47PM",
+  "why": "War/politics dunking; violates anti-taste rules."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "itsurboyevan",
-  "via": null,
-  "text": "New 8-bit personal site! Stuffed full of delightful details: fireflies follow your cursor musical mushrooms that can unlock a secret a lapto",
-  "why": "Fun personal site project, but lacks long-form insight."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "mcuban",
-  "via": "naval",
-  "text": "Ro, I like you. You know that. But you need to read the state of the state. The number of Deca Unicorns in Cali is growing by the day as inv",
-  "why": "Political debate on wealth taxes and startup migration; a bit too close to political dunking."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "mer__edith",
-  "via": "GaryMarcus",
-  "text": "“This nightmare will only cost you eleventy trillion dollars…” Wild that to hear tech people speculate that the growing AI backlash is some ",
-  "why": "Snarky dunking on AI hype without substantive analysis."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "packyM",
-  "via": null,
-  "text": "This is great. Posted Aug 15, 2026 at 11:41PM",
-  "why": "Thin quote tweet of Dario Amodei's thread."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "classic! openAI employee declares AGI reached! 🤦‍♂️ Posted Aug 15, 2026 at 8:51PM",
-  "why": "Snarky dunking without substantive analysis."
- },
- {
-  "rank": 29,
-  "kept": false,
   "score": 1,
-  "topic": "ai-engineering",
-  "author": "trq212",
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Replying to @trq212 claude.ai/code/artifact/… Posted Aug 15, 2026 at 8:14PM",
-  "why": "Bare link with no context."
+  "text": "Arguably, given restrictive housing policies, the city still hasn't actually made room for them (or anyone) Posted Aug 16, 2026 at 8:46PM",
+  "why": "Local politics snark; violates anti-taste rules."
  }
 ]
