@@ -3,390 +3,100 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "every",
-  "via": null,
-  "text": "Anyone working in AI should read Lorraine Daston’s Rules: A Short History of What We Live By. It’s a history of rules and why rules are impo",
-  "why": "Brilliant essay on how LLMs bridge the gap between algorithmic rules and tacit knowledge, changing how we encode organizational wisdom."
+  "topic": "parenting-education",
+  "author": "azeem",
+  "via": "DKThomp",
+  "text": "This one is brutal—and load-bearing. That is the cleanest, most legible summary. Posted Aug 18, 2026 at 12:03PM",
+  "why": "Fascinating study on how LLMs cause a 'homogenization effect' in student writing, reducing creative diversity."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "_jasonwei",
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
   "via": null,
-  "text": "When language models first started using tools well, I was sympathetic to the narrative that instead of scaling up language models, all we n",
-  "why": "Jason Wei on why a small 'cognitive core' + tools isn't enough: internalized knowledge beats effortful tool use. The bitter lesson strikes."
+  "text": "a little one sided and its not black and white, but the \"its slower but still makes enough mistakes that I have to watch it\" hits home I thi",
+  "why": "Substantive skepticism on how AI coding agents are making codebases more complex, verbose, and harder to maintain."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "nealkhosla",
-  "via": "xamat",
-  "text": "1/ We started @CuraiHQ with the mission of proving AI could outperform humans at the core cognitive work of medicine. Today in @JAMA_Current",
-  "why": "Rigorous JAMA paper demonstrating AI outperforming humans in core medical cognitive work, with real numbers on human-in-the-loop errors."
+  "author": "strickvl",
+  "via": "HamelHusain",
+  "text": "Replying to @saen_dev Good question. The main secret sauce is... you :) Basically we believe that evals are all about pairing domain experts",
+  "why": "Great perspective on evals-as-discipline: pairing domain experts with deterministic evaluators to encode taste."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Too busy == severely unproductive, and not because you’re out of energy. It doesn't lead to a competitive edge; it leads to gummed-up proces",
-  "why": "Jason Cohen (asmartbear) dismantles the cult of high utilization, showing how being 'too busy' destroys organizational productivity."
+  "topic": "ai-engineering",
+  "author": "Whats_AI",
+  "via": "swyx",
+  "text": "This 1 hour workshop on context engineering will help you build agents that hold long conversations and cut your token cost by up to 90%. La",
+  "why": "High-signal masterclass on context engineering, prompt caching, and managing chat history to cut token costs."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "GregKamradt",
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "> one of my favorite parts is some of the tools that models developed during this experiment The next move 37 is is upon us Posted Aug 17, 2",
-  "why": "Fascinating look at autonomous agents iterating on a research environment and developing their own tools."
+  "text": "The hidden costs of AI never end. First it was memory chips and nonconsensual deepfake porn and the undermining of college and high school e",
+  "why": "Interesting economic analysis on how massive AI infrastructure borrowing is pushing up interest rates for the entire economy."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "Best runs closed 82% of the gap to a record built by dozens of humans over months. The 13% gap that AI didn't close - how come? What is it a",
-  "why": "Fascinating postmortem on autonomous AI agents closing 82% of the gap to human records in optimizing nanoGPT. Great evals-as-discipline."
+  "author": "trevin",
+  "via": "danshipper",
+  "text": "Compound Engineering is a plugin of skills for Claude Code, Cursor, Codex, Grok and other agents that keep getting added. Our core philosoph",
+  "why": "Deep dive into 'compound engineering' workflows, prototyping with agents, and avoiding repetitive papercuts."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "AlexanderKalian",
-  "via": "GaryMarcus",
-  "text": "Concise list of reasons why AI can't \"cure all diseases\" in 5-10 years: We haven't discovered all diseases. Clinical trials take 7+ years. D",
-  "why": "Substantive, numbers-backed skepticism on why AI won't cure all diseases in 5-10 years, detailing biological data and trial bottlenecks."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "badlogicgames",
+  "via": "jxnlco",
+  "text": "recommended reading. Posted Aug 17, 2026 at 4:01PM",
+  "why": "Practical breakdown of multi-agent coordination, delegating tasks between different model sizes based on reasoning needs."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "albertwenger",
-  "via": "erikphoel",
-  "text": "Philosophy Mondays: Human Nature and Multiscale Analysis continuations.com/philosophy-mon… Posted Aug 17, 2026 at 8:29PM",
-  "why": "Albert Wenger on human nature and multiscale analysis; a great philosophical counterweight to the daily tech stream."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "proto_von",
+  "via": "danshipper",
+  "text": "\"And yet, the paradox remains. If you talk to anyone in the AI industry—or to early adopters outside of it—you’ll hear the same thing we’ve ",
+  "why": "Dan Shipper on the paradox of AI automation: making expert competence cheap actually drives up the demand for human experts."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "vkhosla",
-  "via": "xamat",
-  "text": "Game mostly over for human doctors vs. AI? @ZekeEmanuel @AbeBakerButler @nealkhosla and I just published in @JAMA_current : Although integra",
-  "why": "Vinod Khosla summarizing the JAMA paper findings on algorithm aversion and human-in-the-loop errors."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Yes to Life, in Spite of Everything – Viktor Frankl's lost lectures (delivered 11 months after he survived the Holocaust and not available i",
+  "why": "Viktor Frankl's lost lectures on finding meaning beyond optimism and pessimism. A beautiful contemplative read."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "tools-for-thought",
-  "author": "viticci",
-  "via": "jxnlco",
-  "text": "It's honestly remarkable how good and unique Codex Remote for iOS is. Other companies' \"remote control\" features force you to start from a M",
-  "why": "Great practical breakdown of using Codex Remote for iOS as a voice-driven tool-for-thought to manage desktop environments."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "Even if you had Noam Shazeer level models tomorrow they'd still be experiment bottlenecked, so it changes the shape of takeoff. very importa",
-  "why": "Insightful point on AI takeoff speeds: even with superintelligence, we will hit physical experiment bottlenecks in the real world."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "a big part of owning your intelligence will be converting the massive amounts of data your agents produce every day into reports, viz, conte",
-  "why": "Strong argument for vertically integrating your AI stack and fine-tuning open models to own your intelligence layer."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Albert Camus on how to live whole in a broken world themarginalian.org/2024/06/22/alb… Posted Aug 17, 2026 at 9:32PM",
-  "why": "Classic Marginalian essay on Albert Camus and living whole in a broken world."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "danshipper",
-  "via": null,
-  "text": "my proposal was if you spend a billion tokens in a day you have to answer a quiz about the details of what you built and why if you fail you",
-  "why": "Dan Shipper highlighting a clever, intentional approach to managing AI token budgets."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The story of the world's first seed bank and the botanist who defended it with his life during the Siege of Leningrad themarginalian.org/202",
-  "why": "Fascinating historical piece on the world's first seed bank and the botanist who defended it."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How should you live your life — Marie Howe’s spare, stunning poem “The Maples” themarginalian.org/2025/05/16/mar… Posted Aug 18, 2026 at 2:0",
-  "why": "A beautiful poem on intentional living, but a bit short on the analytical depth you prefer."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 5,
   "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "Many people’s blindness to this problem — AI failing to follow instructions — is like their initially blasé attitude towards hallucinations,",
-  "why": "Gary Marcus on LLMs ignoring instructions, but relies on a single anecdotal dev.to post."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "imkin",
-  "via": "swyx",
-  "text": "So it is done. Or just beginning. KillMySaas Total 69 submissions in total there were  69 unique submissions. nice. browse them all here …my",
-  "why": "Link to Swyx's hackathon submissions; fun builder energy but mostly a project directory."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "EVs are just a better technology. You can stall technological revolutions with bullshit politics for a while, but in the end, tech wins. Pos",
-  "why": "Very brief take on EV technology winning out over politics."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "davidlee",
-  "via": "asianometry",
-  "text": "Must watch from the one and only @asianometry SK hynix and the HBM Revolution youtu.be/Cg5tAujp6Go?si… Posted Aug 15, 2026 at 6:46PM",
-  "why": "Asianometry is great on semis, but this is a video-only link without written substance."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "schmidtsciences",
-  "via": "erikbryn",
-  "text": "\"What's one job AI will never automate?\" Economist and AI2050 Senior Fellow @erikbryn 's answer: simply being human. As machine-made work ge",
-  "why": "Video-only content with a generic platitude about AI and human connection."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "TheZvi",
-  "via": null,
-  "text": "The Inkhaven product is clearly awesome and if you are thinking about doing it you should probably do it. Mentor list looks great, even if w",
-  "why": "Inside-baseball commentary on a rationality blogging cohort."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "The fourth cohort of the @rootsofprogress writers fellowship is stacked with talent. Follow these folks: Posted Aug 17, 2026 at 8:47PM",
-  "why": "Announcement of a fellowship cohort; lacks standalone reading material."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "rootsofprogress",
-  "via": "jasoncrawford",
-  "text": "We've kicked off our fourth Blog-Building Intensive Fellowship with a cohort of 41 outstanding fellows. This year’s fellows were selected fr",
-  "why": "The underlying fellowship announcement thread; mostly a list of names."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "textbook example of not answering legit questions. totally on-brand. Posted Aug 17, 2026 at 7:50PM",
-  "why": "Gary Marcus dunking on an OpenAI executive interview; lacks substantive analysis."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "robwalling",
-  "via": "asmartbear",
-  "text": "It was awesome joining Jason Cohen on the second episode of his new show. Posted Aug 17, 2026 at 5:30PM",
-  "why": "Podcast episode promo without standalone insights."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "TheZvi",
-  "via": null,
-  "text": "If you think that people might actually solve your in-world-unsolved-in-800k-AD problem and your update would be to pick a different similar",
-  "why": "Highly abstract, niche rationality commentary that lacks broader context."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A #birddivination for hard times. As always, find it as a solo print and part of the deck of 100, along with the story and process behind th",
-  "why": "Promo for a bird divination deck; lacks the long-form substance you look for."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": "fortelabs",
-  "text": "After more than a year of labor, my book 𝘏𝘪𝘥𝘥𝘦𝘯 𝘔𝘶𝘭𝘵𝘪𝘱𝘭𝘪𝘦𝘳𝘴 has launched! It's all my best ideas -- and best writing -- on how to grow your ",
-  "why": "Book launch announcement with no standalone insights."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "kane",
-  "via": "naval",
-  "text": "Congressman @RoKhanna , \"leading the fight to ban stock trading in Congress and against corruption\", traded 244 out of 250 trading days last",
-  "why": "Politics and corruption dunking; falls into the rage-bait anti-taste category."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Rothmus",
-  "via": "naval",
-  "text": "Socialists are attacking capital accumulation again. Yet another good example of why socialist economies always end in destitution. But the ",
-  "why": "Culture-war framing around economics and socialism; lacks rigorous analysis."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Houseofyogi",
-  "via": "naval",
-  "text": "Ro Khanna’s solution to taxing illiquid billionaire founders is so stupid it sounds like satire. Say you founded a private company valued at",
-  "why": "Angry political rant about unrealized gains taxes; too much rage-bait."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "danshipper",
-  "via": null,
-  "text": "Lfgggg!!! Posted Aug 17, 2026 at 10:36PM",
-  "why": "Conference speaker announcement with no standalone insight."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": null,
-  "text": "CONFIRMED: @edbayes , design lead for ChatGPT Work and Codex at @OpenAI , is speaking at Thesis, our inaugural conference on work and AI. At",
-  "why": "Duplicate conference speaker announcement."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": null,
-  "text": "CONFIRMED: @rileybrown , cofounder of @vibecodeapp, is speaking at Thesis, our inaugural conference on work and AI. Riley thinks software is",
-  "why": "Another conference speaker announcement."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": null,
-  "text": "CONFIRMED: @kanekallaway , founder of Wavy Labs, is speaking at Thesis, our inaugural conference on work and AI. Kane turned his “secret sau",
-  "why": "Yet another conference speaker announcement."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "katrosenfield",
-  "via": "waitbutwhy",
-  "text": "My most conservative position, apparently, is that being forced to pretend belief in things that deeply violate your conscience and sense of",
-  "why": "Culture-war grievance posting about DEI seminars."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "naval",
-  "via": null,
-  "text": "✌.com Posted Aug 18, 2026 at 1:02AM",
-  "why": "Zero-substance tweet about emoji domains."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "kane",
-  "via": "naval",
-  "text": "Today, instead of using Congress' easy electronic filing system, @RoKhanna once again chose to hand-deliver his financial disclosures on 353",
-  "why": "More political dunking on Ro Khanna's financial disclosures."
+  "text": "It's a new medium Posted Aug 18, 2026 at 12:45PM",
+  "why": "Thoughtful essay arguing that generative AI is a completely new medium, not just an evolution of existing tools."
  }
 ]
