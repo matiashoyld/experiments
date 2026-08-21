@@ -2,241 +2,441 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "frontier-ai",
-  "author": "nxthompson",
-  "via": "GaryMarcus",
-  "text": "This analysis of the different ways to improve models — and to optimize for solving different bottlenecks at different times — is so smart a",
-  "why": "Exceptional, readable deep-dive into the nuances of scaling laws beyond just parameter counts."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "launching another update to this skill soon - open holy grail question if anyone wants to riff! what goes in “How-to-make-tasks-harder[.]md”",
+  "why": "Excellent deep dive into eval engineering for agents and how to systematically make tasks harder."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 10,
-  "topic": "frontier-ai",
-  "author": "jietang",
-  "via": "naval",
-  "text": "Thoughts About Scaling Law Scaling, but not only of parameters. Every model release now ends with the same question: how many parameters? It",
-  "why": "Exceptional, readable deep-dive into the nuances of scaling laws beyond just parameter counts."
+  "score": 9,
+  "topic": "tools-for-thought",
+  "author": "fortelabs",
+  "via": null,
+  "text": "Looking at the Internet, it's already pretty clear that it's soon going to be completely overrun by AI-generated content , known as \"slop.\" ",
+  "why": "Excellent, substantive critique of 'workslop' and the cognitive/trust debt AI introduces to knowledge work."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "This was a week of quiet aftermath, an opportunity to process recent events and start to figure out the path forward OpenAI is attempting to",
-  "why": "Zvi's weekly roundups are the gold standard for high-signal curation on frontier AI and alignment."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "rcolvile",
+  "via": "C_Hendrick",
+  "text": "It is hard to overstate how insanely impressive the GCSE results from Michaela/ @Miss_Snuffy were, yet again. 1 in 9 pupils got a 9 ('super ",
+  "why": "Hard numbers on the exceptional academic results of the Michaela school model."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "every",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Our dictation software @usemonologue only has one human engineer: @naveennaidu_m . His work now feels more like managing a team. Each agent ",
-  "why": "Fascinating real-world architecture for a multi-agent system replacing a human engineering team."
+  "text": "If you don’t decide and encode a system of values, then people won’t embody them except by accident. This is more and more true every time s",
+  "why": "High-signal operator wisdom on intentionally encoding company values and culture."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "phineasb",
-  "via": "danshipper",
-  "text": "A note to founders: Right now, all the VCs want you to raise tons of money to pursue big swings in deep tech, hardware or neolabs. They want",
-  "why": "Excellent counter-narrative on building capital-efficient AI software rather than playing the VC deep-tech game."
+  "topic": "contemplative",
+  "author": "sariazout",
+  "via": null,
+  "text": "from Abigail Disney Posted Aug 21, 2026 at 11:08AM",
+  "why": "Great reflection on intentional living and why removing all friction from life leads to fragility."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
+  "topic": "ai-essays",
   "author": "random_walker",
   "via": null,
-  "text": "A question I've gotten for decades from non-technical folks who want to work in tech (say, tech policy) is how technical they should be. I'v",
-  "why": "Great perspective shift on the 'should I learn to code' debate in the era of AI agents."
+  "text": "I’m often critical of the Bitter Lesson because it tends to get overzealously applied, so I want to take a minute to acknowledge its core tr",
+  "why": "Sharp observation on how general-purpose agents are swallowing task-specific 'deep research' tools."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "People who are trying to make money off AI are spreading bullshit about the how AI just invented a cancer vaccine. AI — and not the kind you",
-  "why": "Excellent, substantive takedown of AI medical hype with actual scientific context and nuance."
+  "topic": "builders-craft",
+  "author": "byosko",
+  "via": "asmartbear",
+  "text": "Great article defining an MVP in detail from @byosko . Also gives a solid argument against the \"L\" of my SLC ( longform.asmartbear.com/slc/?",
+  "why": "High-signal product strategy debate on MVPs vs SLCs (Simple, Lovable, Complete), endorsed by Jason Cohen."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "divya_venn",
-  "via": "naval",
-  "text": "“If you really want to communicate something, even if it’s just an emotion or an attitude, let alone an idea, the least effective and least ",
-  "why": "Beautiful insight on the psychology of learning and discovery versus direct instruction."
+  "topic": "ai-engineering",
+  "author": "MParakhin",
+  "via": "tobi",
+  "text": "If you don't use Gisting - you really should. My favorite technique to quickly tune your model and make it much faster without changing the ",
+  "why": "High-signal technical recommendation on 'Gisting' to optimize LLM performance without weight changes."
  },
  {
   "rank": 9,
-  "kept": false,
+  "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "abuchanlife",
-  "via": "GaryMarcus",
-  "text": "AI did not suddenly discover a cancer vaccine. That is engagement bait. Moderna and Merck reported positive Phase 3 results for Intismeran p",
-  "why": "Excellent, substantive takedown of AI medical hype with actual scientific context and nuance."
+  "topic": "ai-engineering",
+  "author": "nicbstme",
+  "via": null,
+  "text": "I asked Instinct to buy me a book on Amazon. The next day, it showed up at my house. The new generation of B2C AI products have no apps, no ",
+  "why": "Great observation on the UX of agentic 'Computer Use' bridging the gap until websites expose agent APIs."
  },
  {
   "rank": 10,
   "kept": true,
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "emollick",
+  "via": null,
+  "text": "Yes, the CEOs of the AI Labs talked about building AI that would replace all labor & could pose an existential risk because, as far as I cou",
+  "why": "Ethan Mollick offering a sharp, cynical-but-true take on why AI lab CEOs stopped talking about existential risk."
+ },
+ {
+  "rank": 11,
+  "kept": false,
   "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How to be a sea — Albert Camus on learning to die and learning to live themarginalian.org/2026/08/18/cam… Posted Aug 20, 2026 at 3:01PM",
-  "why": "Classic Marginalian curation on philosophy and intentional living."
- },
- {
-  "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
-  "via": null,
-  "text": "\"The whole, this is gonna make humans obsolete thing is just way over-hyped, to the point where some folks are living in a dismal fantasy la",
-  "why": "Grounded perspective from a builder on why human guidance remains essential for coding agents."
+  "text": "How emotions are made themarginalian.org/2024/02/23/how… Posted Aug 21, 2026 at 3:31PM",
+  "why": "Deep dive into the psychology and neuroscience of how emotions are constructed."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to bear your loneliness themarginalian.org/2023/03/11/pem… Posted Aug 20, 2026 at 4:13AM",
-  "why": "Classic Marginalian curation on intentional living and emotional resilience."
+  "topic": "builders-craft",
+  "author": "nicoschriever",
+  "via": "swyx",
+  "text": "This week I am cleaning up and improving the codebase of Skillsail.com a lot in order to better serve the many channels which we support (we",
+  "why": "Great builder-craft heuristic: when building support for integrations, do zero, one, or unlimited."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "JoePostingg",
-  "via": "DKThomp",
-  "text": "Credential stuffing has always been the most common type of attack, it's about to get worse but the correct way to protect yourself has not ",
-  "why": "Basic password hygiene advice; lacks the technical depth or original insight he prefers."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The pain in you and the God in you – Carl Jung on the relationship between suffering and creativity themarginalian.org/2025/05/18/car… Poste",
+  "why": "Deep contemplative essay on Jung, suffering, and creativity."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "ProfDemirtas",
-  "via": "DAcemogluMIT",
-  "text": "The Economist’in Daron Acemoğlu hakkındaki yazısını okudum. Bu yazıya zaten Daron Acemoğlu okkalı bir yanıt vercektir. Ancak ben burada yazı",
-  "why": "Academic drama and defense of Acemoglu; lacks the direct economic progress insights he prefers."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "Counsell_C",
+  "via": "C_Hendrick",
+  "text": "Wonderful vindication of knowledge-rich done really, really well. Subject-sensitive disciplinary teaching that is deeply thorough from Y7, s",
+  "why": "Strong evidence for the effectiveness of knowledge-rich, disciplinary teaching models."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "swyx",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "HAHAHAHAHAHA non technical people are so incredibly cooked they are burnt thru can u imagine covering ai with zero context, zero reasoning, ",
-  "why": "A bit too close to pure hype/dunking, lacking the usual technical depth Swyx provides."
+  "text": "\"While we weaken friendships by expecting too little of them, we undermine romantic relationships by expecting too much of them.\" The Other ",
+  "why": "Insightful framing on the differing expectations we place on friendships versus romantic relationships."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "jeffreyhuber",
-  "via": "WillManidis",
-  "text": "I’ve been looking forward to today for 3 years Today we’re announcing Foundation - Chroma’s solution to memory Our research preview of this ",
-  "why": "Pure product announcement without technical depth or postmortem insights."
+  "score": 7,
+  "topic": "rationality",
+  "author": "NikoMcCarty",
+  "via": "naval",
+  "text": "There's a subset of women who have four cones (instead of three) in their eyes, enabling them to distinguish between colors that nobody else",
+  "why": "Fascinating scientific deep dive into the genetics of tetrachromacy and human perception."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "tiangolo",
-  "via": "jxnlco",
-  "text": "Did you see the famous talk \"Pydantic is all you need\"? And how that ended up in AI Labs providing structured output? It seems @jxnlco is al",
-  "why": "Just a conference speaker announcement, lacks substantive engineering insights."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "nxthompson",
+  "via": "Noahpinion",
+  "text": "Also, everyone who argues that Waymos reduce social connection has missed this research. Posted Aug 20, 2026 at 4:14PM",
+  "why": "Strong progress-oriented argument on the safety and efficiency of autonomous vehicles like Waymo."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "agency",
-  "author": "ohabryka",
-  "via": "TheZvi",
-  "text": "Applications for the first round of lightconecommons.com are closing this Sunday! We'll likely facilitate $35M of grants by end of October. ",
-  "why": "Funding announcement; useful but not a substantive essay or insight piece."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "codeshaunted",
+  "via": "vaibcode",
+  "text": "or use BAML, where we propagate exceptions to your function's type automatically Posted Aug 20, 2026 at 11:12PM",
+  "why": "Good technical debate on error handling patterns in TypeScript vs Rust, with a nod to BAML for AI."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
+  "score": 6,
   "topic": "econ-progress",
-  "author": "gabramosp",
-  "via": "DAcemogluMIT",
-  "text": "I worry about the context of this ferocious criticism of @DAcemogluMIT . Instead, focus should be on his proposals to build strong instituti",
-  "why": "Meta-commentary on academic criticism rather than substantive economic analysis."
+  "author": "Brad_Setser",
+  "via": "Noahpinion",
+  "text": "I discussed the second China shock with Ezra Klein of the New York Times nytimes.com/2026/08/21/opi… Posted Aug 21, 2026 at 12:18PM",
+  "why": "Ezra Klein podcast on the China shock; solid econ/progress content but just a link pointer."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "crampell",
-  "via": "DKThomp",
-  "text": "Hear me out. What if instead of selling food below cost to all comers at taxpayer expense, and then using more taxpayer dollars to subsidize",
-  "why": "Snarky political policy dunking rather than substantive economic progress analysis."
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "Mattathias17",
+  "via": "Noahpinion",
+  "text": "Replying to @Mattathias17 @Mattathias17 I documented it here! noahpinion.blog/p/ai-has-the-w… Posted Aug 21, 2026 at 2:31AM",
+  "why": "Substantive critique of AI's current sales pitch and economic narrative."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "bunjavascript",
-  "via": "mitsuhiko",
-  "text": "Bun 1.4 is here youtube.com/watch?v=i38DgE… Posted Aug 20, 2026 at 2:11PM",
-  "why": "Bare product announcement and video link with no substantive text."
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "tracewoodgrains",
+  "via": "C_Hendrick",
+  "text": "For a long while, universities have used reputations drawn from their serious work to prop up large, unserious sectors, with departments of ",
+  "why": "Provocative critique of university education departments and their academic rigor."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "FastAPI",
-  "via": "jxnlco",
-  "text": "FastAPI Conf speaker news! 📢 @jxnlco , creator of Instructor, the person that convinced AI Labs to provide structured output with Pydantic (",
-  "why": "Pure event announcement without technical substance."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to take fate by the throat – Beethoven, as he was losing his hearing, on creative vitality and resilience in the face of suffering thema",
+  "why": "Contemplative piece on Beethoven and resilience; good but standard Marginalian fare."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "TheCraigHewitt",
-  "via": "asmartbear",
-  "text": "Had a great time on Rogue Startups with @thecraighewitt talking about how SaaS founders should think about AI in their products! roguestartu",
-  "why": "Pure podcast promo/announcement without summarizing the actual insights."
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "daisychristo",
+  "via": "C_Hendrick",
+  "text": "The improvement in maths attainment at GCSE and the numbers taking maths at A-level are really striking. Incredible improvements over a fair",
+  "why": "Encouraging data point on systemic improvements in math education attainment."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 1,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How do you know that you love somebody? A litmus test from philosopher Martha Nussbaum with help from Proust themarginalian.org/2017/01/16/m",
+  "why": "Philosophical exploration of love and knowledge via Martha Nussbaum."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "Check out my podcast with Peter Singer on plant consciousness, psychedelics and ethics - YouTube youtube.com/@peter_singer Posted Aug 20, 20",
+  "why": "Michael Pollan and Peter Singer discussing plant consciousness; high-signal thinkers but just a video link."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": null,
+  "text": "it was a blast covering Build Fest this year - they didnt know this but I learned to code with MongoDB over 10 years ago (shoutout MERN stac",
+  "why": "Swyx on MongoDB's AI engineering updates; more of an event recap than deep technical insight."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "johnhelmer",
+  "via": "C_Hendrick",
+  "text": "In case you missed it — Great Minds on Learning this week was about how creative people learn, how that is changing, and whether the change ",
+  "why": "Podcast link about how creative people learn; lacks in-tweet substance."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 5,
   "topic": "builders-craft",
-  "author": "pchamal",
-  "via": "Noahpinion",
-  "text": "This is awesome. Excited to try these out. Turned it into a map view with details about the restaurants. Posted Aug 19, 2026 at 11:45AM",
-  "why": "Local restaurant guide; completely outside of his core reading interests."
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "Deref continues to be a hilarious hack to get specializations in Rust within macro contexts gist.github.com/mitsuhiko/4125… Posted Aug 21, 2",
+  "why": "Niche Rust programming trick; a bit too deep in the weeds compared to your usual systems focus."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "This is so 80s Posted Aug 21, 2026 at 3:50AM",
+  "why": "Amusing cultural anecdote about parenting, but lacks deeper analysis or learning science."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The light between us (lensed through Baldwin) themarginalian.org/2022/01/31/jam… Posted Aug 21, 2026 at 2:37AM",
+  "why": "Beautiful Baldwin essay, but perhaps less directly actionable than other contemplative pieces today."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "OpenAI is becoming a surveillance company It’s not even really trying to hide it, anymore. And, as discussed at the link below, this has bee",
+  "why": "Gary Marcus critique of OpenAI's data practices; a bit repetitive compared to higher-signal skepticism."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "new term: “prompt surveillance” don’t say you weren’t warned. Posted Aug 21, 2026 at 3:28PM",
+  "why": "Brief skeptical note on prompt surveillance; lacks the depth or original analysis you prefer."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "aboard",
+  "via": "every",
+  "text": "How should people be approaching AI tools in the workplace? @Every EIC @katelaurielee says you need to come in with an open mind. \"To the ex",
+  "why": "Generic advice about having an 'open mind' with AI tools; lacks specific insights."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "NickGibbUK",
+  "via": "C_Hendrick",
+  "text": "My article in tomorrow’s Daily Telegraph - “GCSE results are proof that Conservative education reforms work”. telegraph.co.uk/news/2026/08/2",
+  "why": "Highly politicized framing of education results; you prefer the pedagogical science over the politics."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "daisychristo",
+  "via": "C_Hendrick",
+  "text": "This is quite entertaining - in 2016 @oldandrewuk wrote a blog on the Labour Teachers website taking issue with the phrase \"one size fits al",
+  "why": "Inside-baseball debate on UK education politics from 2016; low signal for your core interests."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "bunjavascript",
+  "via": "bcherny",
+  "text": "Bun 1.4 Fixes over 2,900 GitHub issues +1,517 tests from the Node.js test suite Reduces idle CPU by 5x Reduces memory usage by up to 35% Sta",
+  "why": "Standard release notes for Bun; good tool but this is just an announcement."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "agranato42",
+  "via": "DKThomp",
+  "text": "In a month of moments that have been completely surreal, at ~33 minutes you can watch @DKThomp and @BillSimmons discuss Pranjal and I's rese",
+  "why": "Sports podcast episode; the insurance law mention is too niche and buried."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "One of the most anticipated and requested features in nearly 8 years of building Runway is finally here. Sorry it took so long. 16-bit HDR i",
+  "why": "Product announcement for Runway video features; lacks the analytical depth you look for."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "In case you need a smug, British voice telling you that you spent too many tokens: Posted Aug 21, 2026 at 12:00PM",
+  "why": "Just a joke about token usage; no real engineering substance."
+ },
+ {
+  "rank": 40,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "suryamidha",
+  "via": "WillManidis",
+  "text": "musings.suryamidha.com/san-francisco Posted Aug 21, 2026 at 2:07AM",
+  "why": "Bare link with zero context or framing; impossible to judge the signal."
+ },
+ {
+  "rank": 41,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "petergyang",
+  "via": "HamelHusain",
+  "text": "I'm on my way back to Vancouver to be with my mom but wanted to take a moment to celebrate crossing 100K subs on YouTube. Excited to share a",
+  "why": "YouTube channel milestone and promo; lacks standalone insight."
+ },
+ {
+  "rank": 42,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Congrats to everyone. Great choices. I am low information, but this is how I would have voted as well. Posted Aug 21, 2026 at 3:47PM",
+  "why": "Magic the Gathering Hall of Fame announcement; off-topic for your core interests."
+ },
+ {
+  "rank": 43,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "every",
+  "via": null,
+  "text": "Thank goodness because guess who needs it... Posted Aug 21, 2026 at 2:23PM",
+  "why": "Thin commentary on an OpenAI usage limit update; not worth your time."
+ },
+ {
+  "rank": 44,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "every",
+  "via": null,
+  "text": "Thank goodness because guess who needs it... Posted Aug 21, 2026 at 2:23PM",
+  "why": "Thin commentary on an OpenAI usage limit update; not worth your time."
  }
 ]
