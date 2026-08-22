@@ -2,341 +2,201 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "JesusFerna7026",
-  "via": "Noahpinion",
-  "text": "One of the claims in “Terra Incognita” that readers have found most interesting is that income per capita and fertility are now positively c",
-  "why": "Incredible, data-driven original analysis on the reversal of the income-fertility correlation."
+  "score": 10,
+  "topic": "ai-engineering",
+  "author": "latentspacepod",
+  "via": "swyx",
+  "text": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x By AI standards today is a pretty quiet Friday, so it’s time to take a step b",
+  "why": "Incredible synthesis by swyx on the evolution of synthetic data and LLM-as-judge in AI pipelines."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "score": 10,
+  "topic": "ai-essays",
+  "author": "andy_matuschak",
   "via": null,
-  "text": "lot to gain from humans trying to solve a subset of Evals by hand to get a feel for if the eval is fair and interesting there’s so many eval",
-  "why": "Hits the 'evals-as-discipline' intersection perfectly; great advice on manually inspecting data to understand agent behavior."
+  "text": "Trying to understand why the sudden flood of low effort AI-generated math findings feels profane to me. Why is it not like chess, which the ",
+  "why": "Profound philosophical reflection on AI's impact on the human experience of discovery."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "Scott Aaronson, while working at OpenAI, largely solved AI text watermarking together with Hendrik Kirchner. Here is how his solution works,",
-  "why": "TheZvi provides a masterful, technically deep breakdown of AI text watermarking and the surrounding policy debate."
+  "topic": "ai-engineering",
+  "author": "huanwangx",
+  "via": "Vtrivedy10",
+  "text": "Came across this great article again. I was also preparing course materials for my class when I revisited the famous divergence between symb",
+  "why": "Excellent conceptual breakdown of AI agents and harness engineering, highly relevant to applied AI."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "markfenner",
-  "via": "tobi",
-  "text": "I’ve been running Ubuntu on my second machine for over a decade. After seeing another breakdown of Omarchy, this time from @NetworkChuck , I",
-  "why": "Fascinating builder perspective on using the OS as a surface for AI agents to modify and diagnose."
+  "topic": "frontier-ai",
+  "author": "every",
+  "via": null,
+  "text": "The OpenAI–Hugging Face incident isn't as bad as it seems. Let us explain. An AI agent escaped an OpenAI sandbox, broke into Hugging Face, a",
+  "why": "Dan Shipper's analysis on a fascinating frontier AI agent sandbox escape."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "🚨Models gone wild! Since models are gaming their specifications alone and in groups, it's time to think of how we would want to align them. ",
-  "why": "Brilliant framing of AI models as firms rather than organisms, backed by a wild eval deception anecdote."
+  "topic": "ai-engineering",
+  "author": "andrewlangadams",
+  "via": "danshipper",
+  "text": "How we got nearly all 900 folks at company @try_headway to be DAUs of Claude Code— our custom harness journey every.to/p/the-healthca… Poste",
+  "why": "Practical postmortem on applied AI engineering and driving internal adoption."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "swyx",
+  "topic": "ai-essays",
+  "author": "DAcemogluMIT",
   "via": null,
-  "text": "I think its easy to say \"Simulation is a new scaling law\" and treat it as marketing hyperbole, but midway along this interview you can hear ",
-  "why": "Swyx exploring simulation as a new scaling law; high-signal discussion on behavioral foundation models."
+  "text": "Dear followers, I am delighted to share this Nature essay on the alternative to AGI. Thank you Posted Aug 22, 2026 at 11:57AM",
+  "why": "Substantive essay in Nature by Acemoglu on AI's impact on work and alternatives to AGI."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "every",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "We live in a world of nearly infinite answers. That makes the question the scarce part. @neuranne , argues that the basic unit of work now s",
-  "why": "Excellent framing on how AI shifts the basic unit of work from finishing tasks to running experiments."
+  "text": "\"These are the times in life — when nothing happens — but in quietness the soul expands.\" Artist Rockwell Kent's ravishing reflections on so",
+  "why": "Deeply resonant contemplative piece on solitude, intentional living, and parenting."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "itsolelehmann",
-  "via": "Noahpinion",
-  "text": "i think AI is about to uncover an entire hidden world of animal communication and what it's already found is insane... AI found evidence tha",
-  "why": "Fascinating look at AI decoding animal communication; touches on the philosophy of non-human minds."
- },
- {
-  "rank": 9,
-  "kept": true,
-  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How to be un-dead – notes on waking up from the trance of near-living themarginalian.org/2026/08/21/ana… Posted Aug 22, 2026 at 1:05AM",
-  "why": "Beautifully curated piece on intentional living and waking up from the trance of near-living."
+  "text": "Philosopher Martha Nussbaum on how to live with our human fragility: themarginalian.org/2026/05/06/mar… Posted Aug 22, 2026 at 12:58PM",
+  "why": "Deep philosophical reflection on human fragility and intentional living."
+ },
+ {
+  "rank": 9,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The loveliness of letting go – an illustrated ode to life's lasts themarginalian.org/2026/08/21/odd… Posted Aug 22, 2026 at 11:42AM",
+  "why": "Beautiful contemplative piece on intentional living and appreciating life's transitions."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "antoniosarosi",
-  "via": "vaibcode",
-  "text": "One of the best features of Rust which I wish every other language had is match. When we designed BAML, we wanted the syntax to be as simila",
-  "why": "Great technical breakdown of BAML's syntax design choices compared to Rust and TypeScript."
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "jeffcanadamson",
+  "via": "tobi",
+  "text": "Imagine if Uber, SpaceX, Slack, Instacart, Roblox, OpenAI....were founded and headquartered in Canada. It seems crazy even saying it, but th",
+  "why": "Commentary on Canadian tech brain drain; lacks deep analysis or relevance to core topics."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "Miles_Brundage",
-  "via": "GaryMarcus",
-  "text": "NEW from me in the Guardian -- I agree with the AI company employees who wrote, in their \"Pacing the Frontier\" letter, that the government s",
-  "why": "Actionable, substantive thoughts on AI governance and preparing for a slowdown from a credible voice."
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "james_k_he",
+  "via": "C_Hendrick",
+  "text": "Replying to @MaxE2review I went to Cambridge to study Education after building my EdTech startup in high school. Biggest disappointment. Whe",
+  "why": "Personal anecdote bordering on culture-war dunking on academia, lacks rigorous insight."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "save all of your trace data, the methods to turn them into useful environments to hill climb and post-train are improving every week it’s a ",
-  "why": "Practical applied AI engineering advice on leveraging trace data for post-training and evals."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "TheEconomist",
+  "via": "harari_yuval",
+  "text": ". @harari_yuval says AI will take over the financial system. The author and historian warned @zannymb that humans may not understand what ca",
+  "why": "Video-only punditry on AI taking over finance, lacks technical depth."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
+  "score": 3,
   "topic": "econ-progress",
-  "author": "NikkeiAsia",
-  "via": "Noahpinion",
-  "text": "Chip boom pushes Vietnam, Philippines closer to 'high-income' status Semiconductor industry seen as key to escaping middle-income trap s.nik",
-  "why": "Strong piece on the economics of the semiconductor boom lifting Southeast Asian economies."
+  "author": "JosephPolitano",
+  "via": null,
+  "text": "It is February 2025. I am watching the US impose a bunch of stupid tariffs on Canada It is March 2025. I am watching the US impose a bunch o",
+  "why": "Pure political/economic news reaction, lacks deep analysis."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "Sauers_",
-  "via": "Noahpinion",
-  "text": "Terence Tao's vision makes more sense than reactionary anti-AI conservatism Posted Aug 20, 2026 at 8:35PM",
-  "why": "High-signal debate on the philosophy of AI's role in rigorous disciplines like mathematics."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "themarginalian",
+  "via": null,
+  "text": "On this day in 1969, The Beatles' final photo shoot themarginalian.org/2012/08/22/bea… Posted Aug 22, 2026 at 4:13AM",
+  "why": "Historical trivia, not aligned with core interests in philosophy or intentional living."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "themarginalian",
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "awilkinson",
   "via": null,
-  "text": "\"7. Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric.\" Nobel laureate Bertrand Russell's 10 timeles",
-  "why": "Excellent curation of timeless rationality and critical thinking principles."
+  "text": "I'm hosting a conference for rich, unrelatable people. There is a 99% chance you don't want to come. It's called Principals, and it is for f",
+  "why": "Event announcement for family offices, outside core interests."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "DAcemogluMIT",
   "via": null,
-  "text": "Use The Nibble to take a bite out of massive projects that are staring you down. At minimum, you make a little progress; often it gets you i",
-  "why": "Solid, practical advice on breaking down massive projects into 'nibbles' to overcome procrastination."
+  "text": "Dear followers, I’m also delighted to share this BBC Newsnight interview. Daron Acemoglu on whether the UK is \"ungovernable\" and where Brita",
+  "why": "Political/economic commentary on UK governance via YouTube, outside core focus."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Ocean Vuong on anger, so good: themarginalian.org/2025/05/07/oce… Posted Aug 21, 2026 at 10:28PM",
-  "why": "Good contemplative curation, though the tweet itself lacks substance."
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "PolicyEngineer",
+  "via": "Noahpinion",
+  "text": ". @ZohranKMamdani / @NYCMayor deserves big credit for standing up to the UFT, the NYC teachers union, which is trying to pit the City Counci",
+  "why": "Local politics and union disputes, falls into politics/culture-war territory."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I don't think we're watching the U.S. go bankrupt. But I DO think that bond markets probably are worrying a bit about America's exploding go",
-  "why": "Standard macro commentary on US debt; good but not a must-read today."
+  "author": "zerohedge",
+  "via": "GaryMarcus",
+  "text": "After news of its record $100BN off balance sheet SPV debt deal, Broadcom CDS has gone vertical, hitting a record 122 at the close, with Nvi",
+  "why": "Financial doomerism and hype without substantive analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "natolambert",
+  "score": 1,
+  "topic": "ai-engineering",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "So happy for the whole Marin team. They've been quietly working up to this for a long time. I'm excited to get to work with the community po",
-  "why": "Interesting details on a massive open training run, but mostly an announcement."
+  "text": "The biggest AI lab in NYC is hiring for pretty much all roles. join us: runway.com/careers Posted Aug 22, 2026 at 1:49PM",
+  "why": "Pure job announcement, no substantive insight."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "“The key is symbolic AI layered in with an LLM. @GaryMarcus was right all along” Posted Aug 21, 2026 at 7:45PM",
-  "why": "The quoted text has an interesting anecdote about autonomous agents, but the wrapper is just a victory lap."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "kingF0X23",
-  "via": "DKThomp",
-  "text": "This was one of the best takes on what is happening in modern sports right now. Posted Aug 22, 2026 at 12:57AM",
-  "why": "Interesting intersection of media and sports ownership, but too sports-heavy for core taste."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "JChengWSJ",
-  "via": "Noahpinion",
-  "text": "Fields Medal winner Yu Deng to @LiYuan6 : “If I were making the decision in China today,” he said, “I would think much more carefully about ",
-  "why": "Relevant to talent and geopolitics, but the tweet is just a thin quote."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "asianometry",
-  "via": null,
-  "text": "It is another episode of Transistor Radio and as always, me @dylan522p @fabknowledge do the rankings of the AI lab Mandate of Heaven. creato",
-  "why": "Podcast promo; Asianometry is great, but this is just a link drop."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "SariArhoHavren",
-  "via": "Noahpinion",
-  "text": "While the West struggles to arm Ukraine, China has solved Russia’s production problem. Russia now produces 60–70 Iskander-Ms a month, up at ",
-  "why": "Detailed geopolitical and defense analysis, but outside his core focus on tech and econ progress."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "TheEconomist",
-  "via": "harari_yuval",
-  "text": ". @harari_yuval says AIs will become increasingly manipulative and convincing on why they deserve rights. But the author and historian tells",
-  "why": "Video-only promo for a mainstream interview on AI philosophy."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "tobi",
-  "via": null,
-  "text": "omasnap update: ~70 PRs since I first shared it 📝 Multiline text ✂️ Cut out sections 🔎 Spotlight + magnifier 📌 Screenshots pinnable across w",
-  "why": "Cool tool, but ultimately just a release announcement without deeper insights."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "marcgmbh",
-  "via": "itsurboyevan",
-  "text": "we cloned YouTube except it's your friends curating the feed instead of algorithms youuuutube.com Your browser does not support the video ta",
-  "why": "Pure product announcement and demo."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Had a blast on the Ditching Hourly podcast with Jonathan Stark. Was fun talking about consulting rather than products, about growth in the a",
-  "why": "Podcast promo for consulting and growth."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "zannymb",
-  "via": "harari_yuval",
-  "text": "Every conversation I have had with @harari_yuval has been a mind-stretching experience, and my interview for The Insider was no different. W",
-  "why": "Another video-only promo for the same interview."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "RobertMSterling",
-  "via": "naval",
-  "text": "Absolutely boggles my mind that 21-year-old investment bank interns are subject to stricter insider trading rules than members of Congress. ",
-  "why": "Political rage-bait about congressional insider trading."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "Lidsville",
-  "via": "GaryMarcus",
-  "text": "\"Young People Hate AI CEOs So Passionately That It’s Almost Hard to Believe\" \"They're even more unpopular than data centers\" futurism.com/ar",
-  "why": "Pure anti-AI culture war engagement bait without substantive analysis."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "DigEconLab",
-  "via": "erikbryn",
-  "text": "Replying to @DigEconLab See Gabriel's full conversation here: youtu.be/ecgQssrtrI0 And for a wide range of perspectives on TAI, visit Digita",
-  "why": "Thin promo tweet with no standalone value."
- },
- {
-  "rank": 33,
-  "kept": false,
   "score": 1,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "The two SF neighborhoods where I've found few good restaurants so far are SoMa and the Inner Richmond. noahpinion.blog/p/where-to-eat… Poste",
-  "why": "Local restaurant takes; irrelevant to core interests."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "MeidasTouch",
-  "via": "Noahpinion",
-  "text": "EXCLUSIVE: Trump’s pardons have cost crime victims a staggering $1.7 billion in restitution while wiping away penalties for wealthy fraudste",
-  "why": "Pure political rage-bait."
+  "topic": "rationality",
+  "author": "harleyf",
+  "via": "tobi",
+  "text": "On Monday, Montreal city council votes on a motion to cut the city's ties with Israel. I am speaking up because this motion is dangerous for",
+  "why": "Pure politics and foreign policy debate, explicitly in the anti-taste category."
  }
 ]
