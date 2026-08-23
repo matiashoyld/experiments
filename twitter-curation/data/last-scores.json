@@ -2,201 +2,341 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "latentspacepod",
-  "via": "swyx",
-  "text": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x By AI standards today is a pretty quiet Friday, so it’s time to take a step b",
-  "why": "Incredible synthesis by swyx on the evolution of synthetic data and LLM-as-judge in AI pipelines."
+  "author": "sh_reya",
+  "via": null,
+  "text": "we've been iterating a lot on how DocWriter internally represents a user's writing style! the naive approach is to dump all a user's prior w",
+  "why": "Fantastic applied AI engineering insight on moving from naive prompting to multi-agent lexical analysis for style matching."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 10,
-  "topic": "ai-essays",
-  "author": "andy_matuschak",
-  "via": null,
-  "text": "Trying to understand why the sudden flood of low effort AI-generated math findings feels profane to me. Why is it not like chess, which the ",
-  "why": "Profound philosophical reflection on AI's impact on the human experience of discovery."
+  "score": 9,
+  "topic": "contemplative",
+  "author": "signulll",
+  "via": "Noahpinion",
+  "text": "assuming the current u.s. life expectancy of 79 years as a baseline, in your life you get: ~4,120 weekends ~8,240 weekend days 79 summers 31",
+  "why": "A striking, Tim Urban-esque breakdown of a human lifespan into meaningful repetitions that forces intentionality."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "huanwangx",
-  "via": "Vtrivedy10",
-  "text": "Came across this great article again. I was also preparing course materials for my class when I revisited the famous divergence between symb",
-  "why": "Excellent conceptual breakdown of AI agents and harness engineering, highly relevant to applied AI."
+  "topic": "ai-essays",
+  "author": "TheAnnaGat",
+  "via": "krishnanrohit",
+  "text": "After building AI interventions for the first few years (for 1:1 texting, group chats), Interintellect has now run human-only for 7+ years a",
+  "why": "Profound essay on the ritual of human conversation, temporality, and what LLMs lack in understanding physical dialogue."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "every",
+  "topic": "parenting-education",
+  "author": "themarginalian",
   "via": null,
-  "text": "The OpenAI–Hugging Face incident isn't as bad as it seems. Let us explain. An AI agent escaped an OpenAI sandbox, broke into Hugging Face, a",
-  "why": "Dan Shipper's analysis on a fascinating frontier AI agent sandbox escape."
+  "text": "How to be more alive – Hermann Hesse on wonder and the proper aim of education themarginalian.org/2023/07/06/her… Posted Aug 23, 2026 at 12:",
+  "why": "Deeply contemplative essay on the true aim of education and preserving a sense of wonder."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "andrewlangadams",
-  "via": "danshipper",
-  "text": "How we got nearly all 900 folks at company @try_headway to be DAUs of Claude Code— our custom harness journey every.to/p/the-healthca… Poste",
-  "why": "Practical postmortem on applied AI engineering and driving internal adoption."
+  "author": "nicbstme",
+  "via": null,
+  "text": "From my « AI practitioner » point of view new chips are crucial. Every AI company is extremely compute constrained. Imagine I have 100 milli",
+  "why": "Excellent breakdown of why chip efficiency (tokens per megawatt) is the ultimate bottleneck for AI scaling."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "Dear followers, I am delighted to share this Nature essay on the alternative to AGI. Thank you Posted Aug 22, 2026 at 11:57AM",
-  "why": "Substantive essay in Nature by Acemoglu on AI's impact on work and alternatives to AGI."
+  "topic": "ai-engineering",
+  "author": "SteveMoraco",
+  "via": "fortelabs",
+  "text": "I’m actually pretty upset Apple allowed this. While the feature is cool, the technical functionality that enables it is not cool. If I was T",
+  "why": "Substantive, technical critique of how AI integrations compromise end-to-end encryption and user privacy."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "tools-for-thought",
+  "author": "andy_matuschak",
   "via": null,
-  "text": "\"These are the times in life — when nothing happens — but in quietness the soul expands.\" Artist Rockwell Kent's ravishing reflections on so",
-  "why": "Deeply resonant contemplative piece on solitude, intentional living, and parenting."
+  "text": "The wonderful Gary Wolf has a lovely new book about personal science. It's a synthesized anthology, full of stories of individuals earnestly",
+  "why": "Andy Matuschak recommending a synthesized anthology on personal science and earnest self-inquiry."
  },
  {
   "rank": 8,
   "kept": true,
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "Some weekend thoughts on how LLMs change the way we start new projects. lucumr.pocoo.org/2026/8/22/fast… Posted Aug 22, 2026 at 7:53PM",
+  "why": "Armin Ronacher on how LLMs fundamentally alter the friction and craft of bootstrapping new software projects."
+ },
+ {
+  "rank": 9,
+  "kept": true,
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "You’re overwhelmed because you’re only one person and you have to do everything in the business, and you’ve never done most of this stuff, a",
+  "why": "Jason Cohen offering counter-intuitive, calm-company wisdom on why founder procrastination can actually be a useful signal."
+ },
+ {
+  "rank": 10,
+  "kept": true,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "jmhorp",
+  "via": "Noahpinion",
+  "text": "Even excluding China, global extreme poverty has fallen to almost 1/3 of the level of 1990. Big drop in poverty in India too. There are also",
+  "why": "Strong data-driven reminder of global economic progress and extreme poverty reduction."
+ },
+ {
+  "rank": 11,
+  "kept": false,
   "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Philosopher Martha Nussbaum on how to live with our human fragility: themarginalian.org/2026/05/06/mar… Posted Aug 22, 2026 at 12:58PM",
-  "why": "Deep philosophical reflection on human fragility and intentional living."
+  "text": "\"You can only go with loves in this life.\" Ray Bradbury on writing, emotion vs. intelligence, and the core of creativity themarginalian.org/",
+  "why": "Beautiful reflection on creativity and emotion from a master of the craft."
  },
  {
-  "rank": 9,
+  "rank": 12,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "signulll",
+  "via": "Noahpinion",
+  "text": "most ppl don’t realize that without immigration america would likely already feel like japan where they are actively shutting down schools &",
+  "why": "Thought-provoking macro perspective on how rapid demographic decline will reshape society."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "pitdesi",
+  "via": "DKThomp",
+  "text": "Interesting: 20 years ago, Friday night was the start of the weekend and a big night for seeing friends. Now it looks like any other weeknig",
+  "why": "Fascinating sociological look at how our weekend rituals and social habits have shifted over 20 years."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"What exists, exists so that it can be lost and become precious.\" Poet Lisel Mueller, who lived nearly a century, on what gives meaning to o",
+  "why": "Beautiful meditation on how transience and loss are what give our lives and experiences their preciousness."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "Paul__Walsh",
+  "via": "fortelabs",
+  "text": "🛑 Do not add the ChatGPT Messages “plugin” to Apple Messages. And never use iMessage, SMS or RCS again. You’ll never know if the person you’",
+  "why": "Substantive privacy critique of how AI integrations can silently break end-to-end encryption."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "nberpubs",
+  "via": "Noahpinion",
+  "text": "Studying how wages adjusted during the recent inflation period, from Erik Hurst, Christina Patterson, Nela Thomas Richardson, and Ye Liv Wan",
+  "why": "Rigorous NBER paper analyzing wage adjustments during the recent inflationary period."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "rationality",
+  "author": "TheZvi",
+  "via": null,
+  "text": "I don't expect let alone count on default-style benevolence but if you do expect it this is a warning that antra is correct about the decisi",
+  "why": "Interesting decision-theory thought experiment on expecting benevolence from future AI."
+ },
+ {
+  "rank": 18,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The loveliness of letting go – an illustrated ode to life's lasts themarginalian.org/2026/08/21/odd… Posted Aug 22, 2026 at 11:42AM",
-  "why": "Beautiful contemplative piece on intentional living and appreciating life's transitions."
- },
- {
-  "rank": 10,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "jeffcanadamson",
-  "via": "tobi",
-  "text": "Imagine if Uber, SpaceX, Slack, Instacart, Roblox, OpenAI....were founded and headquartered in Canada. It seems crazy even saying it, but th",
-  "why": "Commentary on Canadian tech brain drain; lacks deep analysis or relevance to core topics."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "james_k_he",
-  "via": "C_Hendrick",
-  "text": "Replying to @MaxE2review I went to Cambridge to study Education after building my EdTech startup in high school. Biggest disappointment. Whe",
-  "why": "Personal anecdote bordering on culture-war dunking on academia, lacks rigorous insight."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "TheEconomist",
-  "via": "harari_yuval",
-  "text": ". @harari_yuval says AI will take over the financial system. The author and historian warned @zannymb that humans may not understand what ca",
-  "why": "Video-only punditry on AI taking over finance, lacks technical depth."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "JosephPolitano",
-  "via": null,
-  "text": "It is February 2025. I am watching the US impose a bunch of stupid tariffs on Canada It is March 2025. I am watching the US impose a bunch o",
-  "why": "Pure political/economic news reaction, lacks deep analysis."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On this day in 1969, The Beatles' final photo shoot themarginalian.org/2012/08/22/bea… Posted Aug 22, 2026 at 4:13AM",
-  "why": "Historical trivia, not aligned with core interests in philosophy or intentional living."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "awilkinson",
-  "via": null,
-  "text": "I'm hosting a conference for rich, unrelatable people. There is a 99% chance you don't want to come. It's called Principals, and it is for f",
-  "why": "Event announcement for family offices, outside core interests."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "Dear followers, I’m also delighted to share this BBC Newsnight interview. Daron Acemoglu on whether the UK is \"ungovernable\" and where Brita",
-  "why": "Political/economic commentary on UK governance via YouTube, outside core focus."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "PolicyEngineer",
-  "via": "Noahpinion",
-  "text": ". @ZohranKMamdani / @NYCMayor deserves big credit for standing up to the UFT, the NYC teachers union, which is trying to pit the City Counci",
-  "why": "Local politics and union disputes, falls into politics/culture-war territory."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "zerohedge",
-  "via": "GaryMarcus",
-  "text": "After news of its record $100BN off balance sheet SPV debt deal, Broadcom CDS has gone vertical, hitting a record 122 at the close, with Nvi",
-  "why": "Financial doomerism and hype without substantive analysis."
+  "text": "Sylvia Plath on living with the darkness and making light of the barely bearable lightness of being themarginalian.org/2021/05/16/syl… Poste",
+  "why": "A poignant reflection on enduring darkness and finding lightness; classic Marginalian curation."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 1,
-  "topic": "ai-engineering",
-  "author": "c_valenzuelab",
+  "score": 6,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
   "via": null,
-  "text": "The biggest AI lab in NYC is hiring for pretty much all roles. join us: runway.com/careers Posted Aug 22, 2026 at 1:49PM",
-  "why": "Pure job announcement, no substantive insight."
+  "text": "Dingdingding Posted Aug 22, 2026 at 7:28PM",
+  "why": "Interesting thesis on the politicization of humanities as a symptom of institutional collapse rather than the cause."
  },
  {
   "rank": 20,
   "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "China's true ideology isn't communism or capitalism. It's Boomerism. Posted Aug 22, 2026 at 8:37PM",
+  "why": "Interesting look at Chinese societal attitudes toward poverty and education, but a bit thin."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "catehall",
+  "via": null,
+  "text": "Wow powerful stuff: \"all we have done is focused on making money in every single way that we can, hand over fist. And there's nothing wrong ",
+  "why": "A bit of culture-war complaining about Silicon Valley losing its idealism; lacks deep substance."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "yuanyi_z",
+  "via": "Noahpinion",
+  "text": "Another proof of the Chinese as spiritually American hypothesis: Posted Aug 22, 2026 at 5:57PM",
+  "why": "Same Jacobin article on Chinese education inequality, framed as a hot take."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "Dem elected officials and non-specialist staffers are making a mistake if they think the neo-Brandeisians are like “people who are really in",
+  "why": "A bit too deep into political antitrust wonkery rather than core abundance/progress themes."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "Musa_alGharbi",
+  "via": "Noahpinion",
+  "text": "Replying to @Musa_alGharbi Arday committed significant academic violations. He should have lived, but also lived with the consequences of th",
+  "why": "Higher education drama and academic violations; not high signal for his learning science interests."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "tszzl",
+  "via": "Noahpinion",
+  "text": "there will be a steady ramp of such events Posted Aug 23, 2026 at 3:04AM",
+  "why": "News about infrastructure hacking; outside of his core focus areas."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "sambendett",
+  "via": "Noahpinion",
+  "text": "Iranian drone fleet chart iranwatch.org/our-publicatio… Posted Aug 22, 2026 at 10:18PM",
+  "why": "Military tech chart; not relevant to his core interests."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "ebfull",
+  "via": "naval",
+  "text": "We put up an FAQ for this Zcash coinholder vote: zakura.com/voting/ Posted Aug 22, 2026 at 9:50PM",
+  "why": "Crypto governance voting FAQ; outside of his core topics."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Tony_Diver",
+  "via": "Noahpinion",
+  "text": "Exclusive: Iran shut down a British power plant for four days in an unprecedented cyber attack, @Telegraph can reveal tonight. It is thought",
+  "why": "Duplicate news about infrastructure hacking."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "jongranskog",
+  "via": "c_valenzuelab",
+  "text": "Today is my 4th year anniversary at Runway. Grateful for a job where I'm still learning new things four years in while surrounded by smart a",
+  "why": "Just a hiring announcement for Runway."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "danshipper",
+  "via": null,
+  "text": "we’re hiring @every ! every.to/careers Posted Aug 23, 2026 at 3:08AM",
+  "why": "Just a hiring announcement."
+ },
+ {
+  "rank": 31,
+  "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "harleyf",
-  "via": "tobi",
-  "text": "On Monday, Montreal city council votes on a motion to cut the city's ties with Israel. I am speaking up because this motion is dangerous for",
-  "why": "Pure politics and foreign policy debate, explicitly in the anti-taste category."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "We have a new Christian Coalition, except it's Muslim now Posted Aug 23, 2026 at 2:17AM",
+  "why": "Political rage-bait, hits the anti-taste criteria."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Least wacky San Francisco public servant Posted Aug 23, 2026 at 12:28AM",
+  "why": "Local politics dunking; hits the anti-taste criteria."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "“The record shows Donald Trump has behaved, and is behaving, not as the leader of a major trading nation conducting good-faith negotiations;",
+  "why": "Pure political dunking."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "HAHAHAHAHAHAHAHAHAHA Posted Aug 22, 2026 at 7:23PM",
+  "why": "Zero-substance dunking."
  }
 ]
