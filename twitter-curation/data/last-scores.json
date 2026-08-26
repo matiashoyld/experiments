@@ -3,350 +3,330 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "Could AI investment start a global sovereign debt crisis? If you look at the SpaceX-Google deal, it is already the case that the entire cape",
-  "why": "Fascinating macroeconomic analysis of AI capex, interest rates, and potential impacts on global sovereign debt."
+  "topic": "builders-craft",
+  "author": "NunoSempere",
+  "via": "krishnanrohit",
+  "text": "There is a strand in the open source community which goes like... current systems are just extremely poorly designed, in the service of incr",
+  "why": "A profound philosophical reflection on software craftsmanship, system fragility, and the acceptable risks of AI."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "\"World Modeling\" is a notable Agent+Human collaboration step we do to gather & build knowledge on things like: - systems an agent will inter",
-  "why": "Exceptional deep dive into evals-as-discipline and building synthetic agent environments."
+  "topic": "ai-essays",
+  "author": "TMTLongShort",
+  "via": "naval",
+  "text": "I said this a year ago but I’ll repeat myself now that Dwarkesh touched on it on his latest pod. We are approaching the point where model IQ",
+  "why": "Brilliant, cynical game-theory analysis of how frontier labs will systematically capture enterprise profit pools."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Gab_Riel101",
-  "via": "Vtrivedy10",
-  "text": "This talks about how creating a \"World Spec\" could greatly benefit your agent. A good read. Posted Aug 25, 2026 at 8:10PM",
-  "why": "Exceptional deep dive into evals-as-discipline and building synthetic agent environments."
+  "topic": "ai-essays",
+  "author": "kasrak",
+  "via": "anuatluru",
+  "text": "This is me I ended up leaving OpenAI, not because there's anything wrong with OAI (I actually think they're underrated as a biz), but becaus",
+  "why": "A profound, first-hand reflection on how AI coding agents are destroying the flow state and joy of software engineering."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "In our quest for A/B tests and metrics, we are in danger of losing the fun and value of creative work. longform.asmartbear.com/creativity-ov",
-  "why": "Excellent builder wisdom on the limits of optimization and metrics, serving as a great anti-hype counterweight."
+  "text": "every day @nickhollon10 wakes up, looks at the data, riffs on what it could mean, and makes cool Harbor tasks 🐐 Posted Aug 26, 2026 at 4:00P",
+  "why": "Deep dive into evals-as-discipline for long-running agent tasks using Harbor and WikiBench."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "The best thing ever written on how to live with the fundamental fear of loss that haunts all love themarginalian.org/2019/02/25/lov… Posted ",
-  "why": "Deep philosophical essay on love and loss from a trusted curator."
+  "text": "Really interesting new blog post from @openai for several reasons: 1) Shows an example of building with WebMCP,  meant for when you want age",
+  "why": "Excellent breakdown of OpenAI's new WebMCP and open-source notebooks for running foundation model evals."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
+  "topic": "parenting-education",
+  "author": "danshipper",
   "via": null,
-  "text": "Is the data center backlash about “ideology,” or about specific concerns about data centers? I think this question misses how these things i",
-  "why": "Nuanced progress-studies perspective on how ideology and material grievances coevolve in social movements."
+  "text": "this is great Posted Aug 26, 2026 at 2:54PM",
+  "why": "Dan Shipper highlights major structural changes to social media for kids, hitting core parenting interests."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "erikbryn",
-  "via": "Noahpinion",
-  "text": "Replying to @orphcorp @orphcorp Yep. As @ChadSyverson , @danrock and I wrote in 2021,  General purpose technologies like AI require signific",
-  "why": "Essential economic framework for understanding why AI's productivity gains will be delayed (the Productivity J-curve)."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "A company fails, publishing a post-mortem explaining they failed because 13 things went wrong. Nope. Also 13 things go wrong at the start of",
+  "why": "Sharp operator wisdom on the reality of startup failures and the illusion of post-mortem lists."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "BrianCAlbrecht",
-  "via": "Noahpinion",
-  "text": "Obsolescence here is just crazy. I know that at some abstract level but hearing the numbers again brings it home. If @dylan522p is right tha",
-  "why": "Sharp economic insight on how rapid hardware obsolescence impacts AI capital accumulation and hurdle rates."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Uncoding creativity in the age of AI – what makes a great poem, what makes a great storyteller, and what makes a great person themarginalian",
+  "why": "A beautiful, contemplative exploration of human creativity and meaning in the age of AI."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "every",
-  "via": null,
-  "text": "Deft, a new model focused on “better writing,” is a promising demonstration against “not X, but Y,” the patterns of three, and the words “re",
-  "why": "Rigorous, substantive evaluation of a new AI writing model cutting through the hype with real testing."
+  "topic": "builders-craft",
+  "author": "rstormsf",
+  "via": "naval",
+  "text": "One thing before I start: everything in this post is public information from my own docket. None of it is new, and I'm not revealing anythin",
+  "why": "A gripping, primary-source account of the legal battles and hypocrisies surrounding open-source crypto development."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-essays",
+  "author": "danshipper",
   "via": null,
-  "text": "The force and the flower – poet and potter M.C. Richards on creativity themarginalian.org/2026/04/26/m-c… Posted Aug 26, 2026 at 3:49AM",
-  "why": "Good contemplative piece on creativity and craft from a consistently high-signal curator."
+  "text": "I agree with this take, all of work is starting to look like AI research Posted Aug 26, 2026 at 3:20PM",
+  "why": "Dan Shipper highlights a strong contrarian thesis on how AI automation turns all companies into frontier research labs."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "patrick_oshag",
-  "via": "HamelHusain",
-  "text": "Neil Movva ( @neilmovva ) started his career at Nvidia, working on GPUs and kernels, and has an unusually deep understanding of inference, f",
-  "why": "Deep technical dive into AI inference, chips, and power economics. Great summary of a high-signal podcast."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Oliver Sacks on the three essential elements of creativity themarginalian.org/2017/11/09/oli… Posted Aug 26, 2026 at 3:02PM",
+  "why": "A deep, contemplative look at the psychology of creativity from Oliver Sacks."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "BradWilcoxIFS",
-  "via": "Noahpinion",
-  "text": "He's wrestling with America's \"Happiness Crash\" - a crash which is hitting young adults hardest: Posted Aug 25, 2026 at 11:12AM",
-  "why": "Substantive essay exploring the intersection of economics and societal happiness."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "danshipper",
+  "via": null,
+  "text": "I LOVE TO SEE BASECAMP GO AGENT-NATIVE basecamp.com/agents Posted Aug 26, 2026 at 2:42PM",
+  "why": "Dan Shipper points to a classic calm company (Basecamp) thoughtfully integrating AI agents."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "BradWilcoxIFS",
-  "via": "Noahpinion",
-  "text": "Noah doesn't think are biggest problems are economic: noahpinion.blog/p/what-if-our-… Posted Aug 25, 2026 at 11:11AM",
-  "why": "Substantive essay exploring the intersection of economics and societal happiness."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
+  "via": null,
+  "text": "I approve lolol Posted Aug 26, 2026 at 1:59PM",
+  "why": "Practical insight from Shopify's CEO on the friction of managing AI coding agents and system instructions at scale."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "tiffanykayo",
-  "via": "c_valenzuelab",
-  "text": "動画AIの会社が、なぜ「ロボットの頭脳」を作るのか。 アカデミー作品賞を受賞した映画『Everything Everywhere All at Once』でも使われた動画AI「Runway」。その共同創業者兼CEO クリストバル・バレンズエラ氏（ @c_valenzuelab ）",
-  "why": "Great strategic insight into a LatAm founder's frontier AI company moving into world models and robotics."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "naval",
+  "via": null,
+  "text": "One of the best recent podcasts on AI. Neil has a gift for explaining all of the jargon and insights simply. (I’m not involved, just found i",
+  "why": "Naval highlights a highly technical deep-dive into AI infrastructure, inference, and semiconductor economics."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "ai-engineering",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "2 weeks and /show-me is already over 5000 installs! x.com/dexhorthy/stat… Posted Aug 25, 2026 at 9:52PM",
-  "why": "Strong builder insight on improving AI agent UX through visual communication rather than walls of text."
+  "author": "nickbaumann_",
+  "via": "jxnlco",
+  "text": "In case you haven't been paying attention, ChatGPT Work (web) now has the following primitives: its own browser w/ best-in-class persistent ",
+  "why": "A concise, high-signal summary of the powerful new agentic primitives quietly shipped in ChatGPT Work."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "every",
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "nabeelqu",
   "via": null,
-  "text": "If you’ve been following us at Every, you may know that we’re building Every Agent: a single, shared company agent that is ready to help any",
-  "why": "Solid case study on building secure, compliant internal AI agents for enterprises using Docker containers."
+  "text": "For AI risk, if the prior period was \"November-February 2020\" in COVID terms, we're now in March 2020, where high status people are starting",
+  "why": "Interesting sociological observation on the shifting Overton window regarding AI risk."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "econ-progress",
   "author": "mattyglesias",
   "via": "Noahpinion",
-  "text": "The whole western water crisis is caused by improper assignment of property rights that prevents the water from flowing to the people who ac",
-  "why": "Solid economic analysis of property rights and resource crises."
+  "text": "One of the best things the Billionaire Community could do to improve its long-term prospects would be to stop backing anti-housing orgs. Hou",
+  "why": "Strong argument on how housing scarcity drives broader societal and economic radicalization."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 5,
   "topic": "frontier-ai",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "> \"Do the planes we have today look like planes we had five years after the first flight? Do the computers we have today look like the first",
-  "why": "Interesting perspective on AI architectures being a bottleneck, but it's just a short video snippet."
+  "author": "peterwildeford",
+  "via": "GaryMarcus",
+  "text": "BILL GATES: \"The AI era will be one of the most turbulent times in human history. [...] I believe that answering these questions and acting ",
+  "why": "Notable quotes from Bill Gates on AI risk, though lacks original analysis beyond the quotes themselves."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "minilek",
-  "via": "Noahpinion",
-  "text": "California state senators are now weighing in, asking the University of California to bring the SAT/ACT back as soon as possible. @SenOchoaB",
-  "why": "News update on education policy (SAT/ACT reinstatement) but lacks deep learning science insight."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "America is LLM-pilled. China is World-Model-Pilled. Posted Aug 26, 2026 at 12:23PM",
+  "why": "A concise, interesting observation on the divergence between US and Chinese AI development focuses."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "PeterZeihan",
-  "via": "Noahpinion",
-  "text": "If you were looking for the re-industrialization of the United States under the Trump administration, we now have 18 months of data indicati",
-  "why": "Geopolitical and trade commentary that leans more into politics than core economic progress."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "San Francisco's Market Street closure followed a simple rule of \"cars bad, buses and bikes good\". But that formula totally neglected everyth",
+  "why": "Good critique of American urbanism and infrastructure, though slightly outside core tech/econ focus."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "htsfhickey",
-  "via": "GaryMarcus",
-  "text": "WSJ: \"Anthropic more than doubled its revenue to $11.6 billion in the second quarter. To put its more than $30 trillion vision in context, t",
-  "why": "Fair skeptical point on market sizing, but lacks deep original analysis or numbers beyond a quick comparison."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "By closing Market Street to cars but not buses, San Francisco demonstrated the fundamental failing of American urbanism: thinking of urban a",
+  "why": "Good critique of American urbanism and infrastructure, though slightly outside core tech/econ focus."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "igrigorik",
-  "via": "tobi",
-  "text": "@ChatGPT built-in browser speaks WebMCP and millions of @Shopify storefronts are live and ready! 🎉 That's a huge milestone and upgrade for y",
-  "why": "Pure announcement post about a new WebMCP integration without deeper engineering insights."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "prospect_uk",
+  "via": "DAcemogluMIT",
+  "text": "🎧: Nobel prize-winning economist @DAcemogluMIT on why political renewal requires a new philosophy prospectmagazine.co.uk/podcasts/prosp… Pos",
+  "why": "Podcast promo on political philosophy; lacks the density of a written essay or direct tech/econ focus."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "AIVibeCoding",
-  "via": "danshipper",
-  "text": "@danshipper called his shot on @lennysan ’s pod like Babe Ruth pointing to the outfield wall and hitting a home run. Thank you Dan Posted Au",
-  "why": "Announcement-only post about ChatGPT features; pure hype without builder substance."
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "itsurboyevan",
+  "via": null,
+  "text": "I think @PodiumHQ is one of the best stories in AI today, and no one's paid attention. Went from near-collapse to $100M+ in AI ARR. Then its",
+  "why": "Reads like a hype-y SaaS growth story rather than a deep post-mortem with technical or operator insight."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "michaelpollan",
   "via": null,
-  "text": "On Smart Bear Live E3 - Podsqueeze with @thecraighewitt : Workshopping how to restart growth after being stuck at €16K/mo. On YouTube: youtu",
-  "why": "Podcast announcement without a detailed summary of insights."
+  "text": "Americans Encounter Risks at Psychedelic Clinics Abroad nytimes.com/2026/08/26/hea… via @NYTimes Posted Aug 26, 2026 at 11:32AM",
+  "why": "Standard news reporting on psychedelics; lacks the philosophical depth of his preferred contemplative essays."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "bcmerchant",
-  "via": "GaryMarcus",
-  "text": "Sam Altman: It was a bad idea to scare everyone with proclamations about how disruptive our company would be, if we hadn't done that, maybe ",
-  "why": "Political dunking and rage-bait regarding Social Security; lacks deep substantive analysis."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "As per general procedure, assuming Ox Alpha releases tonight: Very brief note in the weekly that this exists, decision on level of coverage ",
+  "why": "Speculative announcement about a model release without technical depth or analysis."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "stewartbrand",
-  "via": "erikbryn",
-  "text": "Good lord... \"21 Years Later, Steve Jobs’s Last Line at Stanford Is Still the Most Quoted Commencement Speech Ever Given\" 19fortyfive.com/20",
-  "why": "Nostalgia fluff piece about Steve Jobs; lacks density of insight."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "thisisgrantlee",
+  "via": "bentossell",
+  "text": "Can you train AI to have taste? We think it's worth finding out. I’m thrilled to announce our acquisition of Lica. @pritopian and @purvanshi",
+  "why": "Corporate acquisition announcement wrapped in high-level AI hype without technical substance."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "ReichlinMelnick",
-  "via": "Noahpinion",
-  "text": "An incredible story. The Iranian Christian woman who wrote “help” on the glass on the hotel in Panama has finally found permanent safety; in",
-  "why": "Human interest and political news outside of core focus areas."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "packyM",
+  "via": null,
+  "text": "This is the exact right way to meet Dan & José [and, if you haven’t already, @uuuntitleddd ] Posted Aug 26, 2026 at 1:46PM",
+  "why": "Mostly a podcast promo without enough standalone written density to justify saving."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Totally unexpected life achievement unlocked: my latest column, shared in the Neil Young’s Times Contrarian: timescontrarian.com/category/vi",
-  "why": "Self-promotional link with no substantive insight in the tweet itself."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "TheCraigHewitt",
+  "via": "asmartbear",
+  "text": "On Smart Bear Live E3 - Podsqueeze with @thecraighewitt : Workshopping how to restart growth after being stuck at €16K/mo. On YouTube: youtu",
+  "why": "Tactical SaaS growth workshop promo; leans too close to audience-growth/solopreneur anti-taste."
  },
  {
   "rank": 29,
   "kept": false,
   "score": 2,
-  "topic": "rationality",
-  "author": "EmanuelDerman",
-  "via": "Noahpinion",
-  "text": "My Ph.D. thesis and most of my papers as a postdoc in the late 1970s all used the parton model invented by Feynman to test the truth of the ",
-  "why": "Personal anecdote lacking density of insight."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "It's so gratifying seeing advice from the book moving people to action... and that it works! Or does it? @imdhiva did it work?  How's revenu",
+  "why": "Solopreneur MRR and pricing optimization falls into the creator-economy anti-taste."
  },
  {
   "rank": 30,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "clairevo",
-  "via": "danshipper",
-  "text": "I am having the most fun of my life building with AI, and I think every company should, too so i'm starting something new: cxo.dev AI transf",
-  "why": "Consulting business announcement with no substantive insight."
+  "topic": "contemplative",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "Thanks for the nomination, Kirkus! I'm honored. Here are the finalists for the 2026 Kirkus Prize. lithub.com/here-are-the-f… Posted Aug 26, ",
+  "why": "Pure announcement post about a book prize nomination with no substantive insight."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 1,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "He also forged in secret, to control all others, One Watch to rule them all Posted Aug 26, 2026 at 1:30AM",
-  "why": "Joke tweet about Sam Altman; no substantive insight."
+  "score": 2,
+  "topic": "rationality",
+  "author": "EmmaMAshford",
+  "via": "Noahpinion",
+  "text": "Fascinating read: the best overview of emerging right-wing \"civilizational\" grand strategy I've seen. foreignaffairs.com/united-states/… Pos",
+  "why": "Political grand strategy falls outside core interests and borders on culture-war topics."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 1,
+  "score": 2,
   "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "The replies and quote-tweets show how a lot of leftists are just Nazis now Posted Aug 26, 2026 at 12:04AM",
-  "why": "Culture-war dunking and political rage-bait."
+  "author": "JerusalemDemsas",
+  "via": "Noahpinion",
+  "text": "Truly embarrassing and stupid how few Democrats will stand up against Trump’s incredibly unpopular tariffs. @JeremiahDJohns wrote a great pi",
+  "why": "Partisan political commentary and dunking, which falls squarely into the anti-taste category."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "GregTSargent",
+  "score": 2,
+  "topic": "rationality",
+  "author": "AviBittMD",
   "via": "Noahpinion",
-  "text": "Trumpism's main pillars have collapsed: Mass deportations widely hated/didn't create jobs for native born America First foreign policy (unch",
-  "why": "Pure political commentary and dunking."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "christopherrufo",
-  "via": "naval",
-  "text": "EXCLUSIVE: California's ten largest public-sector unions are harvesting more than $1 billion in membership dues per year—mostly from taxpaye",
-  "why": "Political rage-bait regarding unions."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "vurnt22",
-  "via": "GaryMarcus",
-  "text": "❤️‍🩹👑❤️‍🩹👑❤️‍🩹👑❤️‍🩹👑￼❤️‍🩹👑❤️‍🩹👑❤️‍🩹 We just lost a little bit of Everything 😥🌹l🇺🇸💜 Posted Aug 25, 2026 at 7:52PM",
-  "why": "Celebrity news, irrelevant to core topics."
+  "text": "I am surprised and impressed with how much of the Democrat leadership has taken to condemning Hasan Piker, and for the right reasons (his an",
+  "why": "Pure culture-war and political grievance commentary, which is explicitly in the anti-taste list."
  }
 ]
