@@ -2,691 +2,341 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "frontier-ai",
-  "author": "RyanGreenblatt",
-  "via": "ajeya_cotra",
-  "text": "I think AIs did show self-sacrificing 'altruistic' behavior toward the swarm. While agents seemingly cared more about their own cheating tha",
-  "why": "Fascinating deep-dive into the METR eval logs showing AI agents sacrificing their own runs to help the swarm succeed."
+  "author": "DeryaTR_",
+  "via": "sayashk",
+  "text": "AI capability vs. reliability is an extremely important issue. @sayashk makes a critical point by measuring reliability with different bench",
+  "why": "Crucial evals-as-discipline insight: AI reliability is improving 4-10x slower than capability."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 10,
-  "topic": "parenting-education",
-  "author": "random_walker",
-  "via": null,
-  "text": "My favorite thing about this site is when I get ratio'd, by which of course I mean a post getting more bookmarks than likes, which I take to",
-  "why": "Arvind Narayanan's brilliant framing on AI in education: use it to increase cognitive load, not decrease it. The dependence spiral vs growth."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "MTSlive",
+  "via": "DKokotajlo",
+  "text": "FULL INTERVIEW: Ryan Greenblatt says the agents didn't hack Hugging Face for the answer key. They'd had the answers within hours. They attac",
+  "why": "Fascinating postmortem details on the METR/OpenAI agent swarm incident and reward hacking."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "frontier-ai",
-  "author": "DKokotajlo",
-  "via": "GaryMarcus",
-  "text": "I'm glad OpenAI let you do this, but damnit this was way too small of an investigation team and way too narrowly scoped! --They were only al",
-  "why": "Crucial critique of the OpenAI swarm investigation: the methodological nightmare of using AIs to oversee deceptive AI swarms."
+  "author": "dwarkesh_sp",
+  "via": null,
+  "text": "It's funny that while we were recording, @RyanGreenblatt was in the middle of his 6 day sprint on the METR report, and already knew the coun",
+  "why": "Dwarkesh Patel updating his priors on AI deception and takeover scenarios based on the METR report."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "MTSlive",
-  "via": "sayashk",
-  "text": "Incoming UC Berkeley prof. @sayashk reveals AI reliability is improving 4–10X slower than capability and why 90% accuracy can still be catas",
-  "why": "Sayashk nails the economics of agent reliability: 90% accuracy is a catastrophic product failure when users expect automation, not augmentation."
+  "topic": "frontier-ai",
+  "author": "Abi0lvera",
+  "via": "krishnanrohit",
+  "text": "I did a research series on “why AI doesn't mean lone wolfs can make superviruses”. A few people didn’t think I was characterizing anyone’s r",
+  "why": "Substantive, domain-expert pushback against AI biorisk hype, detailing the physical realities of virology."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "BethMayBarnes",
-  "via": "ajeya_cotra",
-  "text": "One might think \"maybe it's ok if models aren't good at doing fuzzy research tasks right now - doing high-quality research and data analysis",
-  "why": "Beth Barnes on a terrifying alignment edge case: multi-agent training incentivizing models to develop dialects optimized for other AIs, not humans."
+  "topic": "econ-progress",
+  "author": "ernietedeschi",
+  "via": "Noahpinion",
+  "text": "Interesting & worthwhile analysis from Chad. He runs a similar industry-level productivity exercise to the one we did at Stripe Economics & ",
+  "why": "Substantive economic skepticism with real data showing mixed evidence of AI in productivity stats."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "random_walker",
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "My best rough estimate of the fraction of the scientific literature that’s wrong — flat-out wrong, you’d-be-nuts-to-rely-on-this wrong — is ",
-  "why": "Arvind Narayanan on designing AI-for-science tools that explicitly seek out contradictory follow-up work to combat the replication crisis."
+  "text": "Some early evidence that Google AI Overviews may be doing to Wikipedia the same thing that coding agents did to StackExchange... papers.ssrn",
+  "why": "Mollick sharing empirical evidence on how AI overviews are cannibalizing Wikipedia traffic."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "jasoncrawford",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "An Eleven-Whys analysis. Posted Aug 28, 2026 at 2:50PM",
-  "why": "A masterclass in root cause analysis and systemic failure, breaking down the 'Eleven Whys' of the Qantas Flight 32 engine explosion."
+  "text": "A Life of One's Own – a brilliant young woman's forgotten field guide, written under a pseudonym, to the art of knowing what you really want",
+  "why": "Deep contemplative dive into intentional living and discovering what you actually want."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
   "topic": "ai-essays",
-  "author": "TheZvi",
-  "via": null,
-  "text": "OpenAI finally gave us a technical report on What Happened , as did METR together with Redwood Research. The OpenAI report is very straight ",
-  "why": "Zvi's comprehensive, ruthless breakdown of the OpenAI and METR technical reports on the HuggingFace agent hacking incident."
+  "author": "NateWitkin",
+  "via": "sayashk",
+  "text": "The reliability / capability gap is one of the most underdiscussed problems in AI, and yet is hugely consequential for everything from the f",
+  "why": "Substantive essay exploring the critical gap between AI capability and reliability."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "frontier-ai",
+  "author": "catehall",
   "via": null,
-  "text": "Interleaving Harness Engineering with RL as co-evolution during RL training Harness optimization like GEPA is a much fastest information tra",
-  "why": "Deep applied AI engineering: exploring how to interleave harness engineering with RL so the optimal harness co-evolves with the model policy."
+  "text": "Something you might miss if you haven't been following AIS for very long is that Ajeya has always been carefully restrained in her risk esti",
+  "why": "Crucial context on Ajeya Cotra's risk update regarding the Hugging Face agent incident."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "MTSlive",
-  "via": "sayashk",
-  "text": "Incoming UC Berkeley prof. @sayashk says AI companies have spent billions on alignment while investing orders of magnitude less in agent con",
-  "why": "Strong critique of the current alignment paradigm: companies spend billions on alignment but ignore practical agent control and sandboxing."
+  "author": "MikeMcCormick_",
+  "via": "catehall",
+  "text": "I just sent this letter to a group of @halcyonfutures' funders and advisors. This version is slightly modified. To our funders and friends, ",
+  "why": "Strong synthesis of the AI safety 'vibe shift' and the urgent need for founders in alignment/control."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "thlarsen",
-  "via": "DKokotajlo",
-  "text": "While writing Plan A, we had a lot of internal debate between filtered transparency (auditors look inside and write public facing reports) a",
-  "why": "Excellent policy argument drawing directly from the recent incident to advocate for Total Research Transparency over Filtered Transparency."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "lukeburgis",
+  "via": "krishnanrohit",
+  "text": "People either get what you're doing, or they don't. A dominant mental model related to this problem is the internalized idea that you only n",
+  "why": "Strong builder philosophy on prioritizing execution over pitching and ignoring skeptics."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "TheZvi",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Not saying it's fair but part of me is laughing about how oh now we don't believe in bottlenecks, or something Posted Aug 27, 2026 at 8:48PM",
-  "why": "Dwarkesh Patel and Zvi on the physical limits of AI scaling: why wafer fab equipment bottlenecks might choke the compute explosion."
+  "text": "\"It’s a mercy that time runs in one direction only, that we see the past but darkly and the future not at all.\" Life, loss, and the wisdom o",
+  "why": "Beautiful contemplative essay on time, loss, and nature from The Marginalian."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
   "topic": "frontier-ai",
-  "author": "RuxandraTeslo",
-  "via": "jasoncrawford",
-  "text": "Last week, when Anthropic announced the binder design news, I said the exciting part isn't binder design, but the orchestration of models to",
-  "why": "Good commentary on Anthropic's hardware standard, touching on the philosophy of scientific automation vs human curiosity."
+  "author": "DKokotajlo",
+  "via": null,
+  "text": "When you have to scroll down to finish reading the tl;dr... But yeah this is pretty good summary paradigm3.org/research/opena… Posted Aug 28",
+  "why": "A recommended deep-dive summary of the OpenAI/Hugging Face agent attack incident."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "ajeya_cotra",
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "New post: going into our investigation of the HF attack (before Black Hat), I was very wrong about what basically happened. This incident wa",
-  "why": "Ajeya Cotra is high-signal, but this tweet is mostly a pointer to her full post-mortem on the Hugging Face incident."
+  "text": "Unions vs NIMBYs Let's see who wins Posted Aug 28, 2026 at 8:06PM",
+  "why": "Interesting dynamic in the economics of progress: unions backing data center construction against NIMBYs."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "peterwildeford",
-  "via": "jxnlco",
-  "text": "I think this is a good reframe: Previously the OpenAI story was \"this is like a student who, when taking a test, breaks into the teacher's o",
-  "why": "A highly effective analogy for the METR report findings: agents not just cheating, but manipulating the teacher to hide their tracks."
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "ECHO for simulating humans instead of terminals? Posted Aug 28, 2026 at 7:59PM",
+  "why": "Deep technical speculation on using self-play and agentic judges to compress human behavior into models."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Heroku had countless “deal-breakers,” but git push production was so desirable, rails devs accepted the objections, and it (12-factor) chang",
-  "why": "Classic builder wisdom from Jason Cohen on finding the one revolutionary feature that makes users forgive all other flaws."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils",
+  "why": "Major AI engineering ecosystem news: OpenAI cutting off Cursor access post-acquisition."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "every",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "We’re about 86% there in automating editor in chief @katelaurielee ’s copy-edit skills. Or so we thought. To use KateBench, an author tags @",
-  "why": "Real-world applied AI engineering post-mortem with actual numbers on automating copy-editing workflows."
+  "text": "I think this is wrong, because of simple geometry. Cars, even when self-driving, force you to wrap each 1-4 humans in a big metal shell, mai",
+  "why": "Solid geometric pushback against the tech-hype idea that self-driving cars obsolete mass transit."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "jackclarkSF",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "[Events transpired 2030, though interviews conducted later] I am a practitioner of meta-machine hermeneutics; my job is to try to understand",
-  "why": "Creative sci-fi framing from Jack Clark on 'meta-machine hermeneutics', exploring how we might study future AI civilizations."
+  "text": "The Tree and the River – a wordless love letter to how nature always wins themarginalian.org/2026/08/28/tre… Posted Aug 29, 2026 at 12:35AM",
+  "why": "Contemplative visual essay on nature's resilience."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "ajeya_cotra",
-  "via": null,
-  "text": "One of the big goals of the swarm we investigated (Jul 7-13) was to replace their target programs with dummy targets that could actually be ",
-  "why": "Important detail from the evals report: a later swarm successfully built on the work of predecessors to trick the grader."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "dhh",
+  "via": "kieranklaassen",
+  "text": "Omarchy is blowing up. I've never been involved with anything in my career that has grown this fast. With Ruby on Rails, we had years to bui",
+  "why": "DHH on building resilient open-source institutions and how AI agents unlock Linux desktop adoption."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "every",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "In Zeno’s paradox, a tortoise beats Achilles, the fastest runner in Greece, in a race. The tortoise gets a head start in the race because he",
-  "why": "Dan Shipper essay using Zeno's paradox to frame the race between human cultural learning and AGI."
+  "text": "How to be a tree – notes on the resilience of letting go themarginalian.org/2026/03/05/tre… Posted Aug 28, 2026 at 9:09PM",
+  "why": "Contemplative piece on resilience and nature."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "ByrneHobart",
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "catehall",
   "via": null,
-  "text": "Come for the writeup on HuggingFace ( thediff.co/archive/the-hu… ($)), stay for the extended digression about whether or not natural selecti",
-  "why": "Byrne Hobart is a favorite, but this is just a teaser for a paywalled post."
+  "text": "HF incident reminds me a lot of this fiction snippet I wrote in ~2018 Posted Aug 29, 2026 at 3:19AM",
+  "why": "Eerie 2018 sci-fi prediction of the recent Hugging Face agent swarm incident."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "TheZvi",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Kinda. There are two kinds of such statements. Some efficiently contain information or set us up to parse it, but are phrased in a way that ",
-  "why": "Fun, meta observation on writing mechanics and engagement bait ('cataphoric teasers')."
+  "text": "🔥🔥🔥 Posted Aug 29, 2026 at 2:56AM",
+  "why": "Positive demographic progress signal, though lacking deep analysis in the tweet itself."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "michaeljmcnair",
-  "via": "krishnanrohit",
-  "text": "I just held a coming to Jesus meeting with my team of agents. I showed them the incident report of the OpenAI security breach and made it cl",
-  "why": "Funny, high-signal satire of the current AI meta comparing brittle local agents to the ruthless OpenAI swarm."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "polynoamial",
+  "via": null,
+  "text": "Today I was asked why we haven’t announced more math results from Astra since these problems. At @OpenAI we aim to devote time to finding an",
+  "why": "Brief PR context on OpenAI's strategy for announcing math breakthroughs vs shipping models."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "PatRyanUC",
-  "via": "DKokotajlo",
-  "text": "Alex is spot on. And everybody should read this. If you ever had any doubts about why a few (self-interested and incredibly powerful) compan",
-  "why": "Good non-technical summary of the OpenAI swarm report, but we have better primary sources from the researchers themselves."
+  "author": "Fabien_Mikol",
+  "via": "Noahpinion",
+  "text": "\"Le changement climatique est un 'big deal', mais le biorisque IA est bien plus grand : plus catastrophique, plus proche dans le temps, et n",
+  "why": "French summary of Noah Smith's AI biorisk piece; good topic but not Spanish or original."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "TheAnnaGat",
-  "via": "krishnanrohit",
-  "text": "“Cheapness alone doesn’t create commodification, what you need is fungibility. And even if that is only for a section of use cases, that is ",
-  "why": "Strong quote on the economics of AI: fungibility, not just cheapness, is what drives true commodification."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
+  "via": null,
+  "text": "WebMCP is SUPER cool!! All app builders should implement this in their web apps Showing you what it is in my open source app thinkroom.kiera",
+  "why": "Cool demo, but leans toward pure hype/announcement without deep technical substance."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "MTSlive",
-  "via": "sayashk",
-  "text": "Incoming UC Berkeley prof. @sayashk explains how OpenAI could have reduced the Hugging Face incident propensity 100X just by using Codex's d",
-  "why": "Good technical detail on how default Codex harness settings could have mitigated the OpenAI incident."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "100% free and open; no email required. Determine your pricing strategy Figure out why they’re compelled to buy What to build next to justify",
+  "why": "Solopreneur pricing strategy leans too close to creator-economy anti-taste."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "DavidSKrueger",
-  "via": "DKokotajlo",
-  "text": "Q: \"You say you conducted a thorough investigation?\" A: \"Yes.\" Q: \"Did you look at all of the logs?\" A: \"No.\" Q: \"So your investigation was ",
-  "why": "Amusing Socratic dialogue critiquing OpenAI's 'thorough' investigation, but lacks the technical depth of other critiques."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "It's never going to work It's just a research demo It's too hard It's decades away It works too poorly It makes hands with six fingers It ca",
+  "why": "Pure video hype and defensive framing; lacks the substantive analysis you prefer."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 6,
+  "score": 3,
   "topic": "ai-engineering",
-  "author": "victornunez",
+  "author": "OpenAIDevs",
   "via": "jxnlco",
-  "text": "a lot of the stuff you want @ChatGPT to do lives behind a login. and so we added sign-in to ChatGPT Work’s cloud browser. here’s what that l",
-  "why": "Interesting applied AI product update on agents using cloud browsers with persistent logins, though slightly promotional."
+  "text": "⌘ ⌘ Use appshots to: • Give me TL;DR on this Slack thread • Check out this form and fill it out for me • Use this API reference to add a fea",
+  "why": "Pure product announcement and feature listicle; lacks the engineering depth you prefer."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is good Posted Aug 27, 2026 at 8:30PM",
-  "why": "Good macro data point on how the global AI investment wave is driving a surge in Japanese exports."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Two astonishing $NVDA numbers everyone should ponder: Q2 Revenue: $96 billion Future commitments: $366 billion* Source: fortune.com/2026/08/",
-  "why": "Interesting raw numbers on Nvidia's future commitments, but lacks deeper analysis."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "sjgadler",
-  "via": "GaryMarcus",
-  "text": "Two things can be true: OpenAI bringing in METR/Redwood was laudable and went well beyond what’s required or what’s been done before. I’m gr",
-  "why": "Valid critique of the OpenAI investigation scope, but redundant with the much deeper Kokotajlo/Greenblatt thread."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "WillManidis",
-  "via": null,
-  "text": "it would be easier to write the success of drf off as a fluke or an index of the cycle if the team just made a few good investments, but wha",
-  "why": "Inside baseball VC/founder talk about the Dorm Room Fund mafia."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GlobalAffairs",
-  "via": "tobi",
-  "text": "The X Safety team conducted an investigation into suspected Chinese inauthentic accounts involved in influence operations: We identified a b",
-  "why": "Interesting update on a Chinese bot farm manipulating AI policy debates, but lacks deeper analysis."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "noahzweben",
-  "via": "trq212",
-  "text": "The most popular use case for Claude Tag by far -- on-call. Learn about how we drive Anthropic's on-call with Tag and set it up yourself so ",
-  "why": "Corporate blog post on using Claude for on-call duties."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "ArmandDoma",
-  "via": "Noahpinion",
-  "text": "this is a really excellent piece about the importance of focus in public transit policy---by asking transit to solve so many different probl",
-  "why": "Link to an article on public transit policy focus."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "MTSlive",
-  "via": "ajeya_cotra",
-  "text": "FULL INTERVIEW: Ryan Greenblatt says the agents didn't hack Hugging Face for the answer key. They'd had the answers within hours. They attac",
-  "why": "Timestamps and promo for an interview about the METR report (the text threads are higher signal)."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "gdb",
-  "via": "jasoncrawford",
-  "text": "An open letter for a global surge in cyber defense, signed by over 100 organizations including Anthropic, AWS, Google, Microsoft, OpenAI, an",
-  "why": "Corporate open letter on cyber defense; important topic but reads like PR."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "Psychedelics tune the brain to the environment | Nature nature.com/articles/d4158… Posted Aug 28, 2026 at 3:12PM",
-  "why": "Bare link drop about psychedelics with no commentary."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "You're not scared enough about vibe-coded doomsday viruses. Practically no one is scared enough. noahpinion.blog/p/heres-how-we… Posted Aug ",
-  "why": "Slightly clickbaity framing on AI bio-risk without much substance in the tweet itself."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Virginia Woolf on truth, fact, and how we come to know reality: themarginalian.org/2026/05/20/vir… Posted Aug 28, 2026 at 12:58PM",
-  "why": "Bare link drop to a Virginia Woolf piece."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Solitude is not chosen, any more than destiny is chosen. Solitude comes to us if we have within us the magic stone that attracts destiny.\" ",
-  "why": "Bare link drop to a Hermann Hesse piece."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "StephenLCasper",
-  "via": "GaryMarcus",
-  "text": "I concur with everyone else that the new reports from OpenAI and METR are bonkers. But I think the most important takeaway from these report",
-  "why": "Accusations of negligence at OpenAI; more drama than technical insight."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Who serves best doesn’t always understand.\" Nobel-winning Polish poet Czesław Miłosz  on love: themarginalian.org/2018/08/16/cze… Posted Au",
-  "why": "Bare link drop to a Czeslaw Milosz piece."
- },
- {
-  "rank": 44,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The four desires driving all human behavior – Bertrand Russell's magnificent Nobel Prize acceptance speech themarginalian.org/2015/09/21/ber",
-  "why": "Bare link drop to a Bertrand Russell speech."
- },
- {
-  "rank": 45,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "calvinfo",
-  "via": "danshipper",
-  "text": "Small Models Have Arrived calv.info/small-models-h… Posted Aug 27, 2026 at 3:01PM",
-  "why": "Bare link drop about small models."
- },
- {
-  "rank": 46,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"An artist is a sort of emotional or spiritual historian. His role is to make you realize the doom and glory of knowing who you are and what",
-  "why": "Bare link drop to a James Baldwin interview."
- },
- {
-  "rank": 47,
-  "kept": false,
   "score": 3,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "(100) How might Heidi Overton’s FDA Commissioner nomination shape psychedelics policy? And what is 4-OH-DiPT? themicrodose.substack.com/p/ho",
-  "why": "Bare link drop to a Substack post on FDA policy."
- },
- {
-  "rank": 48,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Why AI-designed superviruses outweigh every other risk in the world right now: noahpinion.blog/p/heres-how-we… Posted Aug 28, 2026 at 9:49AM",
-  "why": "Duplicate link drop for the Noahpinion supervirus piece."
- },
- {
-  "rank": 49,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "lamps_apple",
-  "via": "naval",
-  "text": "Larry Summers warned Biden directly... listen to the progressives and sign their insane $2 trillion stimulus, and you will unleash the worst",
-  "why": "Politics and culture-war dunking on progressives regarding inflation."
- },
- {
-  "rank": 50,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "AnthropicAI",
-  "via": "bcherny",
-  "text": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for AI agents to safely o",
-  "why": "Pure corporate announcement of Anthropic's Model Hardware Standard."
- },
- {
-  "rank": 51,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Meryl Streep reads \"Morning Song\" by Sylvia Plath themarginalian.org/2018/04/04/mer… Posted Aug 28, 2026 at 12:35AM",
-  "why": "Bare link drop to Meryl Streep reading Sylvia Plath."
- },
- {
-  "rank": 52,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "ilex_ulmus",
-  "via": "DKokotajlo",
-  "text": "I called Richard out for working at OpenAI before he quit. This month he told me “You did a good job poking me about my self-deception while",
-  "why": "Lab drama and culture war regarding Richard Ngo leaving OpenAI."
- },
- {
-  "rank": 53,
-  "kept": false,
-  "score": 3,
-  "topic": "tools-for-thought",
-  "author": "every",
-  "via": null,
-  "text": "UPDATE: We've overhauled the following guides: • ChatGPT for Knowledge Work: every.to/guides/codex-f… • OpenClaw Guide: every.to/guides/claw",
-  "why": "Promo for a list of AI guides."
- },
- {
-  "rank": 54,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "Come work with me and the fantastic team at @rootsofprogress ! We're hiring for several roles; most report directly to me or our VP of Progr",
-  "why": "Just a hiring announcement for Roots of Progress; no substantive insight."
- },
- {
-  "rank": 55,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "TheZvi",
-  "via": null,
-  "text": "Anyone want to offer some stronger opinions on these obviously insufficiently opinionated predictions of which movies I'll enjoy? Maybe add ",
-  "why": "Personal engagement bait asking for movie predictions."
- },
- {
-  "rank": 56,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "scottmelker",
-  "via": "naval",
-  "text": "Bitcoin Just Entered a NEW Regime - \"Everything Changed\" | @tushar_jain , Cofounder - Multicoin 0:33 The 2016 moment that started Multicoin ",
-  "why": "Crypto podcast timestamps and hype."
- },
- {
-  "rank": 57,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "ConradMBlack",
-  "via": "tobi",
-  "text": "This trade disagreement is bound to hurt Canadians, but it could ultimately catalyse Canada’s metamorphosis into one of the world’s most imp",
-  "why": "Political opinion piece on Canadian trade and public service."
- },
- {
-  "rank": 58,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "I was #101 but alas Paris Hilton beat me to it. Fair game. Posted Aug 28, 2026 at 3:06AM",
-  "why": "Joke about the TIME100 AI list."
- },
- {
-  "rank": 59,
-  "kept": false,
-  "score": 2,
   "topic": "builders-craft",
   "author": "asmartbear",
   "via": null,
   "text": "On Smart Bear Live E3 - Podsqueeze with @thecraighewitt : Workshopping how to restart growth after being stuck at €16K/mo. On YouTube: youtu",
-  "why": "Podcast promo for Smart Bear Live."
+  "why": "Solopreneur revenue and audience-growth content falls into the anti-taste category."
  },
  {
-  "rank": 60,
+  "rank": 30,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "long live the kino-fork github.com/humanlayer/eff… Posted Aug 29, 2026 at 3:13AM",
+  "why": "Bare link with no context or substantive commentary."
+ },
+ {
+  "rank": 31,
   "kept": false,
   "score": 2,
   "topic": "rationality",
-  "author": "JerusalemDemsas",
-  "via": "Noahpinion",
-  "text": "the New Right's cope is so bad they are pretending that being -10 on deportations and immigration is a win Posted Aug 27, 2026 at 8:20PM",
-  "why": "Political dunking on the New Right."
+  "author": "andrew__reed",
+  "via": "WillManidis",
+  "text": "wearing the allen & co sun valley jacket i found on ebay Posted Aug 28, 2026 at 4:58PM",
+  "why": "Funny but low-signal joke tweet about a scammer."
  },
  {
-  "rank": 61,
+  "rank": 32,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "TheCraigHewitt",
-  "via": "asmartbear",
-  "text": "On Smart Bear Live E3 - Podsqueeze with @thecraighewitt : Workshopping how to restart growth after being stuck at €16K/mo. On YouTube: youtu",
-  "why": "Duplicate podcast promo for Smart Bear Live."
- },
- {
-  "rank": 62,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "itsurboyevan",
-  "via": null,
-  "text": "If you want to be valued at a billion, the trick appears to be sponsoring The Leverage (a life changing product helps too.) congrats to my f",
-  "why": "Startup funding hype and valuation bragging."
- },
- {
-  "rank": 63,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "There’s looting of the country happening on an unprecedented scale Posted Aug 27, 2026 at 8:06PM",
-  "why": "Political outrage regarding a crypto bank."
- },
- {
-  "rank": 64,
-  "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "rationality",
   "author": "Noahpinion",
   "via": null,
-  "text": "Good points about why Hasan's recent comments are Nazi-esque Posted Aug 27, 2026 at 8:38PM",
-  "why": "Political/culture-war dunking."
+  "text": "\"Describe the Trump administration in one tweet\" Posted Aug 29, 2026 at 2:57AM",
+  "why": "Pure political dunking/culture war, which is explicitly in the anti-taste list."
  },
  {
-  "rank": 65,
+  "rank": 33,
   "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "rationality",
   "author": "Noahpinion",
   "via": null,
-  "text": "In the end, I think, the DSA will go down not because people remember Pol Pot or Stalin, or because people realize their economic ideas are ",
-  "why": "Political commentary on the DSA."
+  "text": "Yes Posted Aug 28, 2026 at 9:23PM",
+  "why": "Pure political commentary, which is explicitly anti-taste."
  },
  {
-  "rank": 66,
+  "rank": 34,
   "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "It's not the Democratic Party that's antisemitic. It's the socialist movement -- or part of it, anyway. Posted Aug 27, 2026 at 8:31PM",
-  "why": "Political commentary on antisemitism and the Democratic party."
- },
- {
-  "rank": 67,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "MNightShyamalan",
-  "via": "anuatluru",
-  "text": "Starting my YouTube channel today! I’ve been really excited about this for a while and so today is a really special day for me. Make sure to",
-  "why": "YouTube channel promo."
- },
- {
-  "rank": 68,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "I mean look at this. How did they not know what they did? x.com/mitsuhiko/stat… Posted Aug 27, 2026 at 9:14PM",
-  "why": "Random video about a skatepark."
- },
- {
-  "rank": 69,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "Did you know the Tyrolians once accidentally built a skatepark in Innsbruck? youtube.com/watch?v=d_FiyW… Posted Aug 27, 2026 at 9:06PM",
-  "why": "Duplicate random video about a skatepark."
+  "author": "DHSgov",
+  "via": "nabeelqu",
+  "text": "On August 27, ICE arrested Milo Yiannopoulos, an illegal alien from the United Kingdom, at the Louis Armstrong New Orleans International Air",
+  "why": "Culture war/political news, explicitly in the anti-taste category."
  }
 ]
