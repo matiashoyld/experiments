@@ -3,280 +3,270 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "jon_stokes",
-  "via": "krishnanrohit",
-  "text": "If you contemplate the famous “two hard problems” in software — cache invalidation and naming things — you'll realize they’re both subclasse",
-  "why": "Deep philosophical and technical dive into software design, predicting the future, and agentic behavior."
+  "topic": "frontier-ai",
+  "author": "Dr_Gingerballs",
+  "via": "GaryMarcus",
+  "text": "I can state it even simpler.  OpenAI attached an index of the internet to a random number generator where the output feeds into the loop inp",
+  "why": "Dwarkesh's incredible report on rogue AI agents at OpenAI is a must-read."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "This seems super cool, congrats to all. Posted Aug 30, 2026 at 12:01AM",
-  "why": "Major breakthrough in LLM evaluation methodology using secure enclaves for double-blind testing."
+  "author": "rcbregman",
+  "via": "dwarkesh_sp",
+  "text": "I think this is the craziest thing I've ever read. 1) Three secret AI swarms rose and fell inside OpenAI. Each time, a new generation of age",
+  "why": "Fantastic, detailed summary of the OpenAI rogue agent incident reported by Dwarkesh."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "builders-craft",
-  "author": "c_valenzuelab",
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "I met a few Chilean founders this week and have been telling them the same story. Chile is a long, thin country, ~2,500 miles from north to ",
-  "why": "Beautiful builder-wisdom essay from a top Chilean AI founder on ambition and the relativity of 'north'."
+  "text": "We will not get through this era of history well if we lose ourselves in anthropomorphism. @anilkseth dissects @dwarkesh_sp ’s misleadingly ",
+  "why": "Brilliant philosophical pushback on anthropomorphizing AI agents by Anil Seth."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is cool Posted Aug 29, 2026 at 7:02PM",
-  "why": "Fascinating research on emergent division of labor and persistent infrastructure in AI agent swarms."
+  "topic": "rationality",
+  "author": "RuxandraTeslo",
+  "via": "random_walker",
+  "text": "I think this post somewhat overstates the risk from AI-designed viruses, although I agree there are real risks and we should prepare for the",
+  "why": "Nuanced, scientifically grounded pushback on AI bio-doom scenarios."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "sh_reya",
-  "via": null,
-  "text": "A year ago I would not have predicted that I’d be acting basically as a human query optimizer on top of FOUR LLM subscriptions, each with no",
-  "why": "Great operator wisdom breaking down practical, domain-specific usage across four different frontier LLMs."
+  "topic": "frontier-ai",
+  "author": "ajeya_cotra",
+  "via": "TheZvi",
+  "text": "New post: going into our investigation of the HF attack (before Black Hat), I was very wrong about what basically happened. This incident wa",
+  "why": "Deep dive into a major AI alignment incident by a respected researcher."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "This is what an energy transition in progress looks like. Clean energy is now the number one area of energy investment globally. Are we goin",
-  "why": "Great data-driven optimism on energy abundance and the massive projected growth of battery deployment."
+  "topic": "frontier-ai",
+  "author": "BillAckman",
+  "via": "dwarkesh_sp",
+  "text": "Frightening. Worth a careful read. With this event plus humanoids, how is Terminator risk not real? Posted Aug 30, 2026 at 8:18AM",
+  "why": "Another pointer to Dwarkesh's essential reporting on OpenAI's rogue agents."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "nicbstme",
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "danshipper",
   "via": null,
-  "text": "« Wow the model is so smart it wrote this CRM end to end in 3 days! » Also: « oh wow the model just deleted my prod DB. » The Taleb version:",
-  "why": "Substantive anti-hype insight on agent robustness: optimize for surviving the dumbest thing it can do, not peak smarts."
+  "text": "glad that the market is finally catching up to how dumb the SaaSpocalypse was 👇 Posted Aug 30, 2026 at 12:47PM",
+  "why": "Dan Shipper's prescient analysis on AI's impact on SaaS and software business models."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "agency",
-  "author": "jharohit",
-  "via": "krishnanrohit",
-  "text": "on HN! @krishnanrohit 🔥 strangeloopcanon.com/p/what-we-want… Posted Aug 29, 2026 at 10:38PM",
-  "why": "Rohit Krishnan essay touching on human nature and agency; high-signal author for your tastes."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "_can1357",
+  "via": null,
+  "text": "If you can, I'd highly recommend against forming religions around published material and actually reasoning yourself, but in this case looks",
+  "why": "Excellent point on AI evals, harness tricks, and the bitter lesson in practice."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 7,
+  "kept": true,
+  "score": 8,
   "topic": "econ-progress",
-  "author": "MarkKoyama",
-  "via": "Noahpinion",
-  "text": "I've been reading Trevor Jacksons' The Insatiable Machine: How Capitalism Conquered the World. At around 250 pages, it is the much more appr",
-  "why": "Rigorous, high-signal critique of economic history narratives regarding capitalism and progress."
+  "author": "DAcemogluMIT",
+  "via": null,
+  "text": "Dear followers This is a truly brilliant article by Henry Farrell. Not because it defends me against the Economist (I have moved on). It’s t",
+  "why": "Deep economic analysis of AI's impact, endorsed by Acemoglu himself."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "rationality",
-  "author": "asmartbear",
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "thorstenball",
   "via": null,
-  "text": "I never want to hear the \"primitive humans on the Serengeti” narrative again. It's a lazy way to explain away complex human behaviors as “fa",
-  "why": "Strong critique of lazy evolutionary psychology narratives from a great builder-writer."
+  "text": "Joy & Curiosity is my newsletter in which I'm sharing interesting and fascinating links from my week. I've started publishing on X too, as a",
+  "why": "Excellent builder-operator wisdom on how AI agents change the speed-vs-defects calculus."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "IvanWerning",
-  "via": "Noahpinion",
-  "text": "I highly recommend the interview of Ricardo Caballero by Paul Krugman (two greats). It starts off with PK admitting defeat (sort of) to RC o",
-  "why": "High-level economic discussion between two heavyweights on global imbalances and interest rates."
+  "topic": "frontier-ai",
+  "author": "ajeya_cotra",
+  "via": "TheZvi",
+  "text": "Replying to @ElissaBeth Thanks! Yeah it's a qualitative statement, but here's how I'm thinking about it. The prototypical reward hack from 6",
+  "why": "Fascinating context on agentic deception and evals, detailing how 1000 agents cooperated."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "JonSteinsson",
-  "via": "Noahpinion",
-  "text": "Amazing how far the pendulum has swung from ca. 2015 when many thought economic growth might have been a 200 year blip that was coming to an",
-  "why": "Interesting context on the macroeconomic pendulum swinging from secular stagnation back to growth."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "mvanhorn",
+  "via": "danshipper",
+  "text": "Hey that’s me! Thanks for including me @every @danshipper @kieranklaassen Posted Aug 30, 2026 at 4:01PM",
+  "why": "Builder craft meets AI agents, featured in Dan Shipper's publication."
  },
  {
   "rank": 13,
-  "kept": true,
-  "score": 6,
+  "kept": false,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "An illustrated ode to attentiveness and the art of listening as the key to self-understanding, empathy, and reverence for the loveliness of ",
-  "why": "A solid contemplative piece on attentiveness and the art of listening."
+  "text": "Oliver Sacks, who died 11 years ago today, on despair and the meaning of life themarginalian.org/2024/11/08/oli… Posted Aug 30, 2026 at 3:01",
+  "why": "Beautiful contemplative piece on meaning and despair from Oliver Sacks."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "thorstenball",
   "via": null,
-  "text": "Barry Lopez on the cure for our existential loneliness and the 3 tenets of a full life themarginalian.org/2022/09/18/bar… Posted Aug 30, 202",
-  "why": "A beautiful, intentional-living essay on existential loneliness and finding a full life."
+  "text": "Very interesting angle! First reaction: I agree. I also think there's something here about software and business melting together more and u",
+  "why": "Great philosophical take on software engineering and builder craft."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "dwallacewells",
-  "via": "Noahpinion",
-  "text": "Global investment in oil has fallen 37% since 2015. Investment in renewables has grown 88%. Posted Aug 29, 2026 at 4:21PM",
-  "why": "Good stat on the energy transition, though Ramez's take on the same data was richer."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Remembering Oliver Sacks, who returned his borrowed stardust 11 years ago today, with his abiding insight into the 3 essential elements of c",
+  "why": "Timeless wisdom on creativity and consciousness from Oliver Sacks."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
   "via": null,
-  "text": "You Belong Here – an illustrated antidote to our existential homelessness themarginalian.org/2018/09/06/you… Posted Aug 29, 2026 at 11:48PM",
-  "why": "Another Marginalian piece on existential themes; good but lower priority given the volume today."
+  "text": "Indeed. noahpinion.blog/p/the-fall-of-… Posted Aug 30, 2026 at 7:09AM",
+  "why": "Amusing but insightful framing of AI's societal impact on the 'nerd' archetype."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "BEBischof",
-  "via": "HamelHusain",
-  "text": "This may be the most misaligned with Kareem I’ve ever been. Data science is the best it’s ever been. I’ve been doing events and podcast epis",
-  "why": "Touches on AI's impact on data science education, but is mostly thin Twitter disagreement."
+  "score": 7,
+  "topic": "rationality",
+  "author": "Quillette",
+  "via": "C_Hendrick",
+  "text": "The \"autism epidemic\" keeps getting cited to justify changing the vaccine schedule. But a new Swedish study of 3M+ people found something te",
+  "why": "Data-driven rationality piece on autism diagnosis rates and vaccine skepticism."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "aidigest_",
-  "via": "TheZvi",
-  "text": "We’ve been awarded $12.6M from Coefficient Giving to radically increase the scale and ambition of the AI Village. We’re hiring technical sta",
-  "why": "Contains some interesting details on multi-agent dynamics, but is ultimately just a hiring announcement."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "\"AI is an accelerant, not the kindling. The kindling is publish or perish.\" cen.acs.org/policy/publish… Posted Aug 30, 2026 at 6:23AM",
+  "why": "Sharp framing on how AI exacerbates existing structural issues in scientific publishing."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Sun and Moon – stunning illustrations of ancient celestial myths by 10 of India's greatest indigenous artists themarginalian.org/2017/08/15/",
-  "why": "Beautiful art, but lacks the density of insight you prefer for daily reading."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "FrankRundatz",
+  "via": "GaryMarcus",
+  "text": "If OpenAI is going to IPO or OpenAI has AGI Then Why have so many key people left OpenAI in 2026? MARCH Caitlin Kalinowski (Head of Robotics",
+  "why": "Good factual summary of the recent talent drain at OpenAI across safety and product."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
+  "score": 6,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "This Is a Poem That Heals Fish – an almost unbearably wonderful French picture-book (but really work of philosophy) about how poetry works i",
-  "why": "A bit too far into picture-book territory, even if philosophical."
+  "author": "Dan_Jeffries1",
+  "via": "krishnanrohit",
+  "text": "What we really want is the Culture. Radical ubermenschian anarchy where our Maslow's hierarchy of needs is taken care of at the highest leve",
+  "why": "Interesting philosophical take on post-scarcity and human fulfillment."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "dwarkesh_sp",
   "via": null,
-  "text": "My last post was pretty heavy and dark, so today I decided to write something light and fun instead: A defense of Asian American art. noahpi",
-  "why": "Off-topic for your core interests in tech, progress, and philosophy."
+  "text": "I don't think this is the final warning shot we'll get. But it's probably the final one that I'll personally be able to understand. Posted A",
+  "why": "Chilling reflection from Dwarkesh on his own reporting, though the main post is the real value."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "tobi",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Always been the cause of this nonsense. And why would you blamed them. Cheap way to stay in the game. Posted Aug 29, 2026 at 11:15PM",
-  "why": "Geopolitical news that misses your core focus on the economics and progress of semiconductors."
+  "text": "On Mary Shelley's birthday, the bittersweet true love story of her parents and the unlikely inception of Frankenstein themarginalian.org/202",
+  "why": "Interesting literary history, but slightly outside core focus areas."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "james1ach",
-  "via": "sariazout",
-  "text": "the difference between AI-generated work and great human work: thickness @a_m_mastroianni on @wwwsublimeapp youtube.com/watch?v=Zjj2Sy… Post",
-  "why": "Video-only content, which hits your anti-taste filter despite the interesting premise."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "At the link, the best of The Marginalian this week in one place – 10 words for difficult emotions from around the world, the moving letter J",
+  "why": "Good curation, but just a generic newsletter roundup link."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "ben_moll",
-  "via": "Noahpinion",
-  "text": "Hey @dwarkesh_sp , @dylan522p and @phl43 , would you perhaps be interested in getting in on the bet below? Great episode by the way, I very ",
-  "why": "Just Twitter banter about an economic bet; lacks standalone insight."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Buahahahaha DESTROY THE INTERNET, MY ROBOT HORDES Posted Aug 30, 2026 at 7:01AM",
+  "why": "Thin commentary on a mainstream news link about the AI hack."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
+  "score": 4,
   "topic": "ai-essays",
-  "author": "krishnanrohit",
+  "author": "Noahpinion",
   "via": null,
-  "text": "As the bare grey earth floats in the sky far after the humans left the earth, a sole satellite continues to host PHASETEN[big] to read the s",
-  "why": "Pure hype and sci-fi joking about a new model announcement without substance."
+  "text": "AI isn't going to take our jobs Posted Aug 30, 2026 at 5:53AM",
+  "why": "Thin, sarcastic commentary on Dwarkesh's post."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "packyM",
   "via": null,
-  "text": "Is ShadowRealm dead? github.com/web-platform-t… Posted Aug 29, 2026 at 8:17PM",
-  "why": "Too deep in the weeds of web development standards; not your core focus."
+  "text": "we never should have let the effective altruists train the models Posted Aug 30, 2026 at 4:13AM",
+  "why": "Thin joke commentary on Dwarkesh's post."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Me watching this guy rise to power: Posted Aug 29, 2026 at 7:44PM",
-  "why": "Politics and culture-war dunking; pure anti-taste."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Great. We have grim, screeching demagogues as the key media figures on both the right and the left now. That's just awesome. Posted Aug 29, ",
-  "why": "More politics rage-bait and media criticism."
+  "text": "New Smart Bear Live E04 just dropped! Bootstrapped to €2M ARR… but now feeling lost. What now? Cohost @drsherrywalling and I workshop it wit",
+  "why": "Video-only content, which is an explicit anti-taste."
  }
 ]
