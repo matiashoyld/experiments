@@ -2,291 +2,341 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
+  "score": 10,
   "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "Okay, so we who read blogs like this one have collectively realized there really is a lot going on right now. There is Big Trouble in Baby S",
-  "why": "Zvi's definitive, deep-dive essay on the HuggingFace incident and the necessity of anthropomorphizing AI to predict its behavior."
+  "author": "jachiam0",
+  "via": "catehall",
+  "text": "There is a fact about the future that I feel many people are not facing for reasons that are largely psychological: there are going to be ro",
+  "why": "Profound, paradigm-shifting essay on the inevitable ecology of rogue AIs and why containment is wishful thinking."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "s8mb",
-  "via": "jasoncrawford",
-  "text": "Throwing rubbish in a landfill is (usually) better for the environment than recycling it. With few exceptions, recycling ends up emitting mo",
-  "why": "Fascinating, data-dense counter-narrative on why landfills are better than recycling. Great progress/econ piece with real numbers."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Really huge and extremely concerning story from the Information tonight. Looks like OpenAI utilized a breakthrough in neuralese for Astra th",
+  "why": "Deep, substantive analysis of how new frontier architectures threaten AI monitorability and alignment."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
+  "score": 9,
   "topic": "builders-craft",
-  "author": "asmartbear",
+  "author": "simonw",
   "via": null,
-  "text": "The profound sadness after selling a startup is more common than you think. Its not about the money, its about the loss of identity. longfor",
-  "why": "Deeply introspective essay by Jason Cohen on the psychology and identity loss of selling a company. High signal for builders."
+  "text": "In another case of it being quicker to build a tool than hunt around to find something that does what you need, here's a little vibe-coded t",
+  "why": "Simon Willison demonstrating practical AI-assisted builder craft and tool-making."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "_philschmid",
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "If you have used coding agents, you may have noticed that they started to use Bash for tasks that would have traditionally used dedicated to",
-  "why": "Fascinating technical breakdown of why coding agents are shifting to raw Bash over atomic tools, with real postmortem examples."
+  "text": "true: “chain of thought interpretability was always going to be so fragile as to be an unacceptable backstop for long-term AI safety’ but ki",
+  "why": "Deep insider perspective on the fragility of Chain of Thought for AI safety and alignment."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "“increasing agent autonomy can gradually make human oversight ineffective by causing approval fatigue, overreliance, loss of situational awa",
-  "why": "Substantive research on the degradation of human oversight as AI agents gain autonomy. Great evals/skepticism crossover."
+  "topic": "frontier-ai",
+  "author": "peterwildeford",
+  "via": "DKokotajlo",
+  "text": "Imagine an airplane crashes under mysterious circumstances. Except in this world, there is no government oversight, and all investigations a",
+  "why": "Brilliant analogy exposing the methodological constraints of current frontier AI safety evals."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "joshua_saxe",
-  "via": "random_walker",
-  "text": "A better OpenAI/Huggingface incident report would look at people, teams, organizations, and incentives First this is a great report and I ca",
-  "why": "Crucial perspective applying organizational safety culture (like the Challenger disaster) to frontier AI lab failures."
+  "topic": "agency",
+  "author": "asmartbear",
+  "via": null,
+  "text": "𝗟𝘂𝗰𝗸 𝗛𝗮𝗶𝗸𝘂 Much of life is luck. Still, act like you control it. What else can you do? longform.asmartbear.com/lucky/?utm_sou… Posted Sep 2,",
+  "why": "Excellent builder-operator wisdom on navigating the tension between luck and personal agency."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "TheZvi",
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "nicbstme",
   "via": null,
-  "text": "I fear this is being interpreted wrong. Increased firm AI use -> neutral within-firm employment does not mean neutral overall employment imp",
-  "why": "Zvi highlighting real Census data on AI's economic impact, cutting through the hype with actual firm-level employment numbers."
+  "text": "Interestingly, I didn’t mention finding this new journaling app or coding a new one. Instead, I simply asked the LLM to record me and store ",
+  "why": "Fascinating applied AI use case showing how LLMs can replace apps for personal knowledge management."
  },
  {
   "rank": 8,
   "kept": false,
-  "score": 7,
+  "score": 8,
   "topic": "frontier-ai",
-  "author": "TheZvi",
+  "author": "DKokotajlo",
   "via": null,
-  "text": "Fwiw I would have spun off the anthropomorphization debate from this (spoiler: I'm for it) but tomorrow's slot is taken and Thursday is the ",
-  "why": "Zvi's deep dive into the OpenAI/HuggingFace incident and the necessity of anthropomorphizing AI to understand it."
+  "text": "Holy shit fuck Posted Sep 2, 2026 at 2:14AM",
+  "why": "Crucial alignment perspective on how losing CoT monitorability fundamentally changes the threat model."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "this is a great - bash + code mode for everything - sane security & tool wrapper boundaries largely for context management (truncate+offload",
-  "why": "Strong technical summary of why coding agents are shifting to raw Bash over atomic tools."
+  "text": "C.S. Lewis on what we long for in our existential longing, with help from Virginia Woolf themarginalian.org/2022/09/03/c-s… Posted Sep 2, 20",
+  "why": "Beautiful contemplative piece on existential longing from C.S. Lewis and Virginia Woolf."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 6,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "_philschmid",
-  "via": null,
-  "text": "Another Bitter Lesson is coming. You might have noticed your coding agents preferring bash over dedicated tool more and more. They became su",
-  "why": "Phil Schmid's thesis on frontier models becoming superhuman in Bash. Great technical insight."
+  "author": "tobi",
+  "via": "kieranklaassen",
+  "text": "Btw we open sourced the core infra piece that makes these self improving loops possible. tangleml.com Posted Sep 1, 2026 at 9:46PM",
+  "why": "High-signal release of open-source infrastructure for self-improving AI models."
  },
  {
   "rank": 11,
   "kept": true,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "classonde",
-  "via": "tobi",
-  "text": "CBC has completely lost the plot. WSIB just bought Canadian-built AI from Vancouver’s Owl.co . A Canadian Crown insurer buying Canadian insu",
-  "why": "Solid critique of media narratives vs the reality of enterprise AI adoption and productivity."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"If you look at zero you see nothing; but look through it and you will see the world.\" The invention of zero: themarginalian.org/2017/02/02/",
+  "why": "A beautiful philosophical and historical look at the invention of zero."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
+  "score": 7,
+  "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "“Where’s the return?” Posted Sep 1, 2026 at 3:05PM",
-  "why": "Macro-econ skepticism of AI productivity gains. Good data point, but the commentary is just a one-liner."
+  "text": "URGENT: In light of the breaking news from @theinformation about OpenAI’s new techniques that reduce Chain of Thought monitorability, I urge",
+  "why": "Highlights a crucial paper on the fragility of Chain of Thought monitoring for AI safety."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "sjgadler",
-  "via": "GaryMarcus",
-  "text": "Seems concerning: There are major incidents happening, and yet we're ~entirely dependent on AI companies to self-disclose information about ",
-  "why": "Valid concern about frontier lab self-disclosure, but it's a short commentary rather than a full essay."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "hugobowne",
+  "via": "HamelHusain",
+  "text": "An AI data agent tells you net revenue was $4.21M. It doesn't show the metric definition, source query, assumptions, or what it could not ve",
+  "why": "Great insight on applied AI engineering: 'hard to eval' is often a product design smell."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "HeidyKhlaaf",
-  "via": "GaryMarcus",
-  "text": "This is again what I mean by doubling down on your incorrect and ill-informed beliefs. CoT is not explainability and has always known to be ",
-  "why": "Good technical point on evals and Chain of Thought, but it's a brief reply tweet."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "JulianGewirtz",
+  "via": "Noahpinion",
+  "text": "This chart is unforgettable once you’ve seen it. We’re just beginning to see the consequences of this scale of Chinese scientists leaving Am",
+  "why": "Important data on scientific talent migration and its implications for global progress."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 5,
+  "score": 7,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Are You an Echo – the story of the remarkable woman who died far too young, her poems rediscovered decades later to make her Japan's most be",
-  "why": "High-quality contemplative history, but slightly off-core for his daily tech/AI/econ diet."
+  "author": "doristsao",
+  "via": "jasoncrawford",
+  "text": "We have 15 open positions at Astera Neuro! We're hiring experimental and computational neuroscientists and engineers to build a large-scale ",
+  "why": "Despite being a hiring post, it outlines a fascinating scientific vision for understanding consciousness."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 5,
-  "topic": "agency",
-  "author": "chrislakin",
-  "via": "visakanv",
-  "text": "if you're capital looking for philanthropic stuff to fund… consider retroactively funding work that already happened that you loved. give th",
-  "why": "Interesting thought on retroactive funding for builders, but very brief."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Export controls work, and \"export controls have failed\" stories are psyops Posted Sep 1, 2026 at 11:20PM",
+  "why": "Important data point on the efficacy of semiconductor export controls."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "There's been a lot of moral posturing and panic about Alpha School of late. Listen to this conversation with @mrbartonmaths and @jliemandt f",
-  "why": "Relevant topic (AI in education), but it's just a pointer to a podcast without summarizing the insights."
+  "text": "The 3 Buddhist steps to repairing a relationship themarginalian.org/2021/10/10/thi… Posted Sep 1, 2026 at 11:03PM",
+  "why": "Practical, contemplative wisdom on relationships and intentional living."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "specialized small model fine-tuning will continue to explode this year 🚀 we serve/use small fine-tuned models in prod today fine-tuning infr",
-  "why": "Good observation on small model fine-tuning, but too brief to be a high-signal long-form read."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "danshipper",
+  "via": "kieranklaassen",
+  "text": "READ THE FABLE 5.1 VIBE CHECK ON @every every.to/vibe-check/fab… Posted Sep 1, 2026 at 6:30PM",
+  "why": "Dan Shipper's latest AI analysis, always worth reading for his grounded perspective."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "trevin",
-  "via": "kieranklaassen",
-  "text": "Been playing with an idea of how to let agents have a conversation without you copy-and-pasting between sessions. Say hello to The Ringdown ",
-  "why": "Cool applied AI engineering tool demo, but it's a product launch rather than a substantive essay."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "jessesingal",
+  "via": "GaryMarcus",
+  "text": "we're begging to get our asses skynetted Posted Sep 2, 2026 at 1:54AM",
+  "why": "Important reporting on how new frontier architectures might sacrifice monitorability for performance."
  },
  {
   "rank": 20,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "jacob_bruggeman",
+  "via": "Noahpinion",
+  "text": "Glad to be a standard-bearer of HF incident as a \"scary but non-descrutive warning.\" Thanks for the shout, Noah! Posted Sep 1, 2026 at 3:23P",
+  "why": "Solid curation of tech, AI, and energy progress topics from Noahpinion."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Martha – the last passenger pigeon – died alone at the Cincinnati Zoo on this day in 1914. Here is the story of her kind: themarginalian.org",
+  "why": "A poignant historical reflection on extinction and nature."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "cartoon_magoo",
+  "via": "Noahpinion",
+  "text": "for scale, sf just kicked off a study for this part. a one station extension. where the tunnel already exists. the study is scheduled to fin",
+  "why": "Touches on progress and building, but leans too heavily into local political venting."
+ },
+ {
+  "rank": 23,
   "kept": false,
   "score": 4,
   "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "Whatever you may think about anthropomorphic language, the most immediate “house that is on fire” is the combination of OpenAI’s lax securit",
-  "why": "Brief commentary on OpenAI security and anthropomorphism; less substantive than the longer essays on the topic today."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The courage of vulnerability – teenage Frida Kahlo's moving letters to her first love themarginalian.org/2026/04/01/fri… Posted Sep 1, 2026 ",
-  "why": "Beautiful contemplative piece, but outside his core focus areas for daily reading."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "TheZvi",
-  "via": null,
-  "text": "I am more Maimonides than EA: The more virtuous act is the kind you don't advertise. But yes, in coordination games you do need people to no",
-  "why": "Too short to provide meaningful long-form value."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "jliemandt",
-  "via": "C_Hendrick",
-  "text": "Today, I’m honored to join Andrew Huberman for a deep conversation about how children learn and how we can redesign school around what scien",
-  "why": "Hits the exact AI x education intersection, but it's a 2.5-hour video/audio podcast (anti-taste rule)."
+  "text": "I am not a doomer. But this is scary. garymarcus.substack.com/p/red-alert-op… Posted Sep 2, 2026 at 3:27AM",
+  "why": "Clickbait hook without substantive analysis in the tweet itself."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "hubermanlab",
-  "via": "C_Hendrick",
-  "text": "The new Huberman Lab episode is out: How to Accelerate Learning & Improve Education | Joe Liemandt 0:00 Joe Liemandt 3:16 History of Traditi",
-  "why": "Hits the exact AI x education intersection, but it's a 2.5-hour video/audio podcast (anti-taste rule)."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "sjgadler",
+  "via": "GaryMarcus",
+  "text": "If this is true, OpenAI seems to be violating one of the few redlines that exist in the AI industry. Absolutely do not train your models lik",
+  "why": "Thin commentary on a topic better covered by the original thread."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "Noahpinion",
   "via": null,
-  "text": "A #birddivination for the most elemental truth we most habitually forget. Find the full deck of 100, along with the story and process behind",
-  "why": "A product plug for a divination deck, lacking substantive long-form insight."
+  "text": "Every attempt to actually make this work past the age of 30 either ends in a polycule or a bunch of messy divorces. Usually both. Posted Sep",
+  "why": "Snarky cultural commentary that lacks deep sociological insight."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "tools-for-thought",
-  "author": "fortelabs",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "There are four viable ways you can learn about AI right now. Let’s examine the pros and cons of each: #1. DIY You can learn how to use AI by",
-  "why": "Creator economy content pitching a cohort-based course."
+  "text": "Acemoglu thinks we can all stop fighting each other and unite, hand in hand, against technological modernity Posted Sep 1, 2026 at 11:23PM",
+  "why": "Snarky commentary rather than substantive economic critique."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "Over subscribed for tonight Show up rate is usually 30-40% for a public meet up like this Posted Sep 1, 2026 at 3:01PM",
-  "why": "Just an event announcement for a Grok bot meetup."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "hugobowne",
+  "via": "HamelHusain",
+  "text": "just had a wild and high signal chat with @HamelHusain about the current state of agentic AI, evals, data science, and the rise of the AI sc",
+  "why": "Video-only content, which you usually skip, despite Hamel's expertise on evals."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Dear followers, I’m delighted to share this New York Times article which builds on and expands the arguments of my new book. Thank you. Demo",
-  "why": "Political op-ed, falls into the anti-taste category."
+  "text": "what are the odds it’s actually a looped transformer Posted Sep 2, 2026 at 2:19AM",
+  "why": "Thin commentary on the Astra architecture news."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 1,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "We need this Posted Sep 2, 2026 at 1:03AM",
+  "why": "Thin commentary on a local transit proposal."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Texas has been majority-minority for 22 years, and so far it has not lapsed into ethnic conflict. I'd say that's a big swing and a miss for ",
+  "why": "Leans too close to political/culture-war debates."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "alexolegimas",
+  "via": "jasoncrawford",
+  "text": "Penn and Teller had an amazing segment where they went through the whole recycling chain to show that it’s worse than just tossing. 20 years",
+  "why": "Old video content that doesn't provide new substantive analysis."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Aviation_Intel",
+  "via": "Noahpinion",
+  "text": "Chinese Cargo Ships Clandestinely Gather Signals Intelligence: Report It should not come as too much of a surprise that China is using its m",
+  "why": "Geopolitics and military intelligence fall outside your core focus areas."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 2,
   "topic": "ai-engineering",
-  "author": "davebcn87",
-  "via": "tobi",
-  "text": "That looks better than the README.md Your browser does not support the video tag. Posted Aug 31, 2026 at 4:13PM",
-  "why": "Video-only reply with no readable substance."
+  "author": "GregKamradt",
+  "via": null,
+  "text": ". @NickWentz_ @MatthewBerman @angela_ferrante crushing tonight Posted Sep 2, 2026 at 1:39AM",
+  "why": "Event announcement with no substantive insights."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "tobi",
+  "via": null,
+  "text": "Exactly.  And that highly motivated and skilled engineering team is looking for more top folks. shopify.com/careers Posted Sep 2, 2026 at 1:",
+  "why": "Hiring announcement without technical substance."
  }
 ]
