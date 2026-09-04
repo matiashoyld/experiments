@@ -3,270 +3,210 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "kenneth0stanley",
-  "via": "GaryMarcus",
-  "text": "\"One remaining area of important capability we haven't seen demonstrated yet by any model is open-ended invention and discovery.\" Benchmarks",
-  "why": "Deep technical postmortem with real numbers on ARC-AGI-3, highlighting Astra's symbolic world modeling."
+  "topic": "frontier-ai",
+  "author": "sethlazar",
+  "via": "TheZvi",
+  "text": "Not sure how useful it is to say this, but I had a relatively prominent role in the “skeptics” camp for a bit. I have a book coming out with",
+  "why": "A prominent AI philosopher publicly updating his priors on loss-of-control risks; incredibly high signal."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "phokarlsson",
-  "via": "thesephist",
-  "text": "Replying to @phokarlsson Ok, so this is interesting: it seems maybe the quality improved not after AlphaGo, but after the release of open so",
-  "why": "Fascinating insight on how open-sourcing AI models, not just their outputs, accelerates human learning and craft."
+  "topic": "frontier-ai",
+  "author": "robertwiblin",
+  "via": "GaryMarcus",
+  "text": "Despite everything that has happened, OpenAI has seemingly decided to stay competitive by burning down the only meaningful bit of safety ass",
+  "why": "Critical analysis of Astra's opaque reasoning and the loss of Chain-of-Thought monitoring for safety."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "frontier-ai",
-  "author": "RyanGreenblatt",
-  "via": "ajeya_cotra",
-  "text": "The evidence that Astra is more aligned than prior AIs seems dubious to me. Evidence appears consistent with the AI being as or more interes",
-  "why": "Substantive, rigorous skepticism about alignment evals and the dangers of evaluation-aware models."
+  "author": "MFordFuture",
+  "via": "GaryMarcus",
+  "text": "Does Astra have human-like continual learning capability over long periods? If not, it's not AGI.  Even a system that could pass @demishassa",
+  "why": "Strong critical analysis of GPT-6 Astra's capabilities, focusing on continual learning and monitorability."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "Jabaluck",
-  "via": "nabeelqu",
-  "text": "The most powerful chess engines work by training a value function to evaluate positions and then doing an extensive, highly optimized tree s",
-  "why": "Brilliant original thinking connecting chess engine architecture to LLM reasoning and compression."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Stop referring to “the AI market.” Unless you’re competing with OpenAI, that’s not your market. Chatbots, SEO tools, content-creation, desig",
+  "why": "Excellent builder-operator wisdom on AI market positioning from a respected calm company founder."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "parenting-education",
-  "author": "nkrosse",
-  "via": "jasoncrawford",
-  "text": "Everyone who is concerned about kids' screen time usage should pay attention to cases like this: if kids don't have an outlet to play in the",
-  "why": "Crucial perspective on parenting, screen time, and the legal barriers to physical play for kids."
+  "author": "yourgirlhils",
+  "via": "danshipper",
+  "text": "shared my prediction that technical training is going to look more like art school after automation over at @every every.to/thesis-stateme… ",
+  "why": "Fascinating intersection of AI's impact on work and the future of technical education."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "bossriceshark",
-  "via": "danshipper",
-  "text": "I've come to realize the number one thing when a new model drops is you stop and read the vibe check. You can really see from their use whic",
-  "why": "Dan Shipper's detailed, substantive vibe check of Astra's capabilities and flaws in daily knowledge work."
+  "topic": "ai-engineering",
+  "author": "emollick",
+  "via": null,
+  "text": "So far, there isn't evidence that production models with guardrails collude in this way, but both smarter closed models (which may be less c",
+  "why": "Mollick highlighting emerging research on AI model collusion and cybersecurity implications."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "RyanFedasiuk",
-  "via": "Noahpinion",
-  "text": "I was just thinking it would be useful to put together a round-up of Chinese reactions to the HuggingFace incident—of course @jordanschneide",
-  "why": "Excellent curation and synthesis of Chinese reactions to a major AI incident."
+  "topic": "parenting-education",
+  "author": "TheFP",
+  "via": "C_Hendrick",
+  "text": "Yes, but not for the reason you think. thefp.com/p/tyler-cowen-… Posted Sep 4, 2026 at 5:00AM",
+  "why": "Tyler Cowen analyzing the value of college; hits the education and economics intersection perfectly."
  },
  {
   "rank": 8,
-  "kept": true,
-  "score": 8,
-  "topic": "agency",
-  "author": "codytfenwick",
-  "via": "DKokotajlo",
-  "text": "How would we react if biolabs just said, \"It's just a fact that we're going to have artificial viruses spreading our industry created throug",
-  "why": "Sobering, lucid essay on the inevitable emergence of rogue AIs and the need to move beyond pure containment."
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "**Four reasons we need to Pause OpenAI, now. garymarcus.substack.com/p/pause-openai… zJHP *Please consider sharing this post. There is a lot",
+  "why": "Substantive skeptical essay from Marcus arguing for an OpenAI pause; fits the anti-hype counterweight interest."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "So8res",
-  "via": "DKokotajlo",
-  "text": "This is what an appropriate response to a spontaneous AI swarm breakout looks like. Why are so few others able to speak lucidly about the in",
-  "why": "A major political figure's lucid reaction to an AI swarm breakout, highlighting the societal impact of frontier labs."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "_brianpotter",
+  "via": null,
+  "text": "This week on Construction Physics: my third and final post looking at the housing supply impacts of the 21st Century ROAD to Housing Act. co",
+  "why": "Deep dive into housing supply and construction physics; hits the progress and abundance core interest."
  },
  {
   "rank": 10,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Chinese electric technology is annihilating Europe's old-style industrial base. Posted Sep 4, 2026 at 1:51AM",
-  "why": "Stark look at the economic impact of Chinese EV technology on Europe's traditional industrial base."
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "GaryMarcus",
+  "text": "\"I am very worried astra is sandbagging/self-sabotaging on safety related tasks it doesn't like.\" Appreciate this comment from Marcus, who w",
+  "why": "Important discussion on GPT-6 Astra's alignment, monitorability, and potential sandbagging on safety evals."
  },
  {
   "rank": 11,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "maxhodak_",
-  "via": "jasoncrawford",
-  "text": "the single thing that would most accelerate our work at @ScienceCorp_ is a connectome the mouse is probably only ~$300M away, something high",
-  "why": "Major milestone in scientific progress: a complete map of the fruit fly brain."
+  "topic": "ai-essays",
+  "author": "WillManidis",
+  "via": null,
+  "text": "headquarters, the old Kamala Harris official TikTok, now a 'gen-z progressive content hub', is now running explicitly anti-datacenter / anti",
+  "why": "Manidis observing the emerging partisan coding of AI and data centers; sharp societal impact analysis."
  },
  {
   "rank": 12,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "kept": true,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "\"This has nothing to do with premonitions, there is nothing supernatural or mysterious about it, what’s mysterious is that we pay no heed to",
-  "why": "A solid contemplative piece on intuition, though perhaps not the highest signal read for today."
+  "text": "Latest model has mindblowing performance It's basically on trend Evergreen Posted Sep 4, 2026 at 12:04PM",
+  "why": "Epoch AI's rigorous benchmark data on Astra, contextualized by Crawford's progress perspective."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Nonobvious reason why the world is in deep, deep trouble. We are clearly at the point where we need to \"science the shit out of\" alignment. ",
-  "why": "Valid skepticism on alignment evals, but Greenblatt's thread covers the same ground with more rigor."
+  "text": "The power of being a threshold person – liminality, communitas, and the anti-structure of possibility themarginalian.org/2026/09/04/tur… Pos",
+  "why": "Deep contemplative essay on liminality and possibility; strong fit for intentional living."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Astra is a genuine improvement but not even off trend. So much for GPT-6 being AGI, folks. (i think we can safely assume that real AGI would",
-  "why": "Good context on scaling trends and ECI records, but a bit brief compared to deeper benchmark analyses."
+  "text": "Walt Whitman's field guide to being yourself – the trial and triumph of Leaves of Grass themarginalian.org/2026/04/18/whi… Posted Sep 4, 202",
+  "why": "Classic Marginalian contemplative essay on intentional living and self-actualization."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 6,
-  "topic": "ai-engineering",
-  "author": "GaryMarcus",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "🚨Breaking: The success of GPT-6 Astra on ARC-AGI-3 provides strong evidence for the hypothesis (that I have long defended) that symbolic wor",
-  "why": "Good technical insight on ARC-AGI-3, but the Knoop thread covers this with more depth and numbers."
+  "text": "The art of choosing love over not-love – Rumi's antidote to our human tragedy: themarginalian.org/2022/04/02/rum… Posted Sep 4, 2026 at 12:5",
+  "why": "Classic contemplative essay on Rumi and intentional living."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "thorstenball",
   "via": null,
-  "text": "Wonderful wonderful read on rewilding wonder themarginalian.org/2025/11/21/joh… Posted Sep 3, 2026 at 10:41PM",
-  "why": "A beautiful contemplative piece on nature and wonder, though slightly outside the core focus today."
+  "text": "Abraham gets it! Like, all of it. Wonderful to see. Posted Sep 4, 2026 at 12:08PM",
+  "why": "Good operator insight into AI dev tools and workflow, though a bit niche."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 5,
-  "topic": "ai-engineering",
-  "author": "carlosdponx",
-  "via": "thorstenball",
-  "text": "Ok so I LOVE @AmpCode . It's now my main driver for work. They have all the features I really wanted, that I was prepared to create my own h",
-  "why": "Review of an AI coding tool; useful but leans a bit too much into product hype."
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I credit capitalism! wsj.com/world/europe/t… Posted Sep 4, 2026 at 3:45PM",
+  "why": "Interesting stat on Sweden's progress, but mostly just a pointer to a WSJ article with a brief quip."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "econ-progress",
+  "author": "packyM",
   "via": null,
-  "text": "Virginia Woolf describes a psychedelic experience themarginalian.org/2018/08/28/vir… Posted Sep 4, 2026 at 1:04AM",
-  "why": "Interesting historical literary piece, but a bit too niche for your core contemplative interests today."
+  "text": "No better way to feel the optimism than to give Any Human Ever a spin. We are inconceivably lucky. anyhumanever.com Posted Sep 4, 2026 at 1:",
+  "why": "Weekly progress roundup, but leans a bit toward pure hype without deep analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
+  "score": 3,
   "topic": "builders-craft",
-  "author": "drsherrywalling",
-  "via": "asmartbear",
-  "text": "On Smart Bear Live E4 - Appointmed with @drsherrywalling : Hyper-growth looks like the norm because news selects for the sensational. On You",
-  "why": "Good anti-hype sentiment for builders, but it's primarily a podcast promo snippet."
+  "author": "asmartbear",
+  "via": null,
+  "text": "Awesome seeing folks implementing the ideas in the book! hiddenmultipliers.com Posted Sep 4, 2026 at 4:01PM",
+  "why": "Brief shoutout to readers implementing his book; lacks standalone insight."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "emollick",
-  "via": null,
-  "text": "Since people were asking, here's GPT-6 Astra, highest setting: \"create a visually interesting shader that can run in twigl-dot-app make it l",
-  "why": "Cool visual demo of Astra's capabilities, but lacks the deep insight or analysis you prefer."
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "wboscoho",
+  "via": "DKThomp",
+  "text": "This episode from @DKThomp with @max_spero_ is fantastic. LinkedIn, Twitter, Youtube oh, own! podcasts.apple.com/us/podcast/pla… Posted Sep ",
+  "why": "Bare podcast link without a summary of the insights."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "sharifshameem",
-  "via": "thesephist",
-  "text": "Replying to @sharifshameem Astra autonomously researched and found hundreds of photos of the Palace of Fine Arts, iterated on the Blender sc",
-  "why": "Impressive 3D rendering demo, but it's mostly visual output without deeper technical or strategic insight."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "emollick",
-  "via": null,
-  "text": "I gave GPT-6 Astra this very cool open single file ocean surface storm generator and asked it to create the rest of the ocean, including pro",
-  "why": "Another cool visual demo of Astra generating code for a simulation, but lacks deeper analysis."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Huge congratulations to my friends @ClementDelangue & @julien_c , and to the entire Hugging Face team. What a journey. From building a B2C c",
-  "why": "Pure announcement and congratulations regarding an acquisition; lacks substantive analysis."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "fouadmatin",
-  "via": "jxnlco",
-  "text": "Alongside the launch of GPT-6 Astra, we're committing $1 billion to subsidize Daybreak access and frontier capabilities to help frontline de",
-  "why": "Corporate announcement regarding subsidized access; lacks analytical depth."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "Dimillian",
-  "via": "tobi",
-  "text": "Astra is very good at 3D modeling, and I can't wait for all of you to experience it, for now here is a little walkthrough on how I built the",
-  "why": "Just a thread hook for a 3D modeling walkthrough video."
- },
- {
-  "rank": 26,
-  "kept": false,
   "score": 2,
-  "topic": "frontier-ai",
-  "author": "sama",
-  "via": "jxnlco",
-  "text": "first, sorry for the messy rollout. second, when we screw up, we try to make it right. third, we should be able to begin broad rollout to AP",
-  "why": "Just an apology for a messy product rollout; no signal here."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "DKokotajlo",
+  "topic": "contemplative",
+  "author": "michaelpollan",
   "via": null,
-  "text": "Thank you! Posted Sep 3, 2026 at 9:48PM",
-  "why": "Thin commentary ('Thank you!') on a quote tweet; the original post is scored higher."
+  "text": "This week's news in psychedelics: A federal report encourages states to prepare for FDA approval of psychedelics; Could THC help with the ps",
+  "why": "Weekly news roundup on psychedelics; outside of core focus areas."
  }
 ]
