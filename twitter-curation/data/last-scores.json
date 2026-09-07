@@ -2,491 +2,191 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "IterIntellectus",
-  "via": "Noahpinion",
-  "text": "honestly, i keep thinking about this result and it's just absurd. in the 2022 PISA, el salvador scored 343 in math, 365 in reading, and 373 ",
-  "why": "Incredible intersection of AI, learning science, and progress with massive real-world impact numbers from El Salvador."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "_philschmid",
+  "via": null,
+  "text": "Seeing more posts on Astra or Fabel using bash and python scripts for everything. They are not the only ones and the trend will probably con",
+  "why": "Fascinating technical insight on coding agents using Bash as a routing layer."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "contemplative",
-  "author": "andy_matuschak",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "U Chicago offers a great four-year program studying the \"Great Books of the Western World\". Meets weekly online for 3hr discussion-based sem",
-  "why": "Andy Matuschak beautifully reflecting on learning science, the history of ideas, and the joy of deep reading."
+  "text": "AGI, eh? “GPT Astra is a terrible executor. It writes awful code. It makes tons of mistakes. It can't build even the most trivial sequence o",
+  "why": "Substantive, nuanced review of a frontier model's specific strengths and flaws in execution."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "merettm",
-  "via": "Noahpinion",
-  "text": "I wrote about the state of AI, why I’m concerned about the next few years, and the choices we need to make to keep the future in humanity’s ",
-  "why": "The definitive essay from OpenAI's Chief Scientist on alignment and the path forward. A must-read."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Still the finest thing I've ever read about the art of growing older themarginalian.org/2015/09/03/gra… Posted Sep 7, 2026 at 4:13AM",
+  "why": "Beautiful, timeless essay on aging and intentional living."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "MilesKWang",
-  "via": "jxnlco",
-  "text": "Many OpenAI researchers are now spending more on Codex than the cost of hiring a new human researcher A striking milestone captured in @kliu",
-  "why": "Fascinating real numbers on AI's impact on work at frontier labs ($2.5M annualized on Codex vs human salaries)."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "ryanlpeterman",
+  "via": "trq212",
+  "text": "Thariq Shihipar ( @trq212 ) is an engineer on Anthropic’s Claude Code team I asked him how Anthropic makes the most out of the models for en",
+  "why": "High-signal interview with an Anthropic engineer on internal model usage and preventing breakages."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Overlooked section so far, very precise, and says The thing: \"The core problem in AI research is that of alignment.\" Other capabilities are ",
-  "why": "Crucial essay from OpenAI's Chief Scientist on the state of alignment and future risks."
+  "text": "How to have enough – Wendell Berry on creativity and love themarginalian.org/2024/12/14/wen… Posted Sep 7, 2026 at 12:58PM",
+  "why": "Wendell Berry on creativity and love; great contemplative reading on intentional living."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "I did not expect to be back here so soon with more OpenAI agent swarm coverage. And yet, here we are. It turns out that the whole time, ther",
-  "why": "Substantive, detailed critique of OpenAI's handling and disclosure of rogue agent activity."
- },
- {
-  "rank": 7,
-  "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "geoffreylitt",
-  "via": null,
-  "text": "IMO the essential difficulty of malleable software now boils down to “fork maintenance”. Let’s unpack that a bit. If you want to make your o",
-  "why": "Excellent builder insight on the future of malleable software, LLMs, and the complexities of 'fork maintenance'."
- },
- {
-  "rank": 8,
-  "kept": false,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "TurnerNovak",
-  "via": "Noahpinion",
-  "text": "The US has added over 1 million new jobs due to AI since 2023: 310k Blue collar: 85k Electrical contractors 85k Commercial construction 75k ",
-  "why": "High-signal data on AI's actual economic impact and job creation numbers."
- },
- {
-  "rank": 9,
-  "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "emollick",
-  "via": null,
-  "text": "This is both an interesting experiment and a sign of a tsunami coming for academia. AIs retroactively reading the research and finding both ",
-  "why": "Ethan Mollick on a fascinating intersection of AI and learning science/academia."
- },
- {
-  "rank": 10,
-  "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "mfishbein",
-  "via": "dexhorthy",
-  "text": "You're not tokenmaxxing hard enough. AI creates abundance. Redesign your work to take advantage. For engineering: the slop is the spec. \"the",
-  "why": "Great applied engineering insight on redesigning workflows for AI abundance ('the slop is the spec')."
- },
- {
-  "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "simonsarris",
-  "via": null,
-  "text": "Get a real camera and commit to using it. It needs to be in your pocket or on a shelf in a room that you are all in often. Declutter/make ho",
-  "why": "Beautiful reflection on the craft of daily life, intentional living, and capturing family moments without staging."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "0xblacklight",
-  "via": "dexhorthy",
-  "text": "if you're building an agent or a harness, you need to be an order of magnitude closer to the code than you would be normally models are VERY",
-  "why": "Strong builder insight on the limitations of models for agent architecture and the need for hands-on program design."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "BjornLomborg",
-  "via": "naval",
-  "text": "Good news you probably haven't heard: The Great Barrier Reef's five best years of coral cover in the 40-year record are the five most recent",
-  "why": "Great data point on environmental progress and abundance countering mainstream doomerism."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Kinda wish @JensenHuang had read this post from @fchollet . Posted Sep 6, 2026 at 11:01PM",
-  "why": "Chollet providing rigorous methodological context on ARC 3 and why it doesn't equal AGI."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "RyanGreenblatt",
-  "via": "ajeya_cotra",
-  "text": "It seems likely that downstream of AI we'll soon see a strong acceleration in progress on publicly salient software R&D tasks that are easy ",
-  "why": "Sharp observation on how AI will rapidly accelerate software R&D tasks with clear metrics."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "Dr_Atoosa",
-  "via": "GaryMarcus",
-  "text": "I read some strange criticisms of this post. So here is my take. I’m not fully endorsing the piece by Newport, but there’s quite some factua",
-  "why": "Nuanced essay bridging the gap between concrete AI harms and existential risks in governance discourse."
- },
- {
-  "rank": 17,
-  "kept": false,
   "score": 7,
   "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "By replacing oil with electric technology, China is going to free the world from the Middle East. Posted Sep 6, 2026 at 6:41PM",
-  "why": "Strong macro observation on energy transition and global economics."
+  "text": "Happy Labor Day! AI isn't killing jobs. noahpinion.blog/p/ai-keeps-stu… Posted Sep 7, 2026 at 12:15PM",
+  "why": "Data-driven look at AI's actual impact on the labor market from a solid econ writer."
  },
  {
-  "rank": 18,
-  "kept": false,
+  "rank": 7,
+  "kept": true,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "simonw",
-  "via": null,
-  "text": "Interesting details in here about how OpenAI researchers are using coding agents I'd love to know what caused the huge uptick in token spend",
-  "why": "Simon Willison highlighting key details on how frontier researchers are actually using coding agents."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "GaryMarcus",
-  "text": "A human moderator on this German wiki spent tens of hours over six weeks manually deleting thousands of posts from OpenAI's agent swarm whil",
-  "why": "Concrete, real-world postmortem of the impact of OpenAI's rogue agent swarm on a human moderator."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "iScienceLuvr",
-  "via": "jxnlco",
-  "text": "One of my favorite features of Codex/ChatGPT is not even documented in the main docs, I discovered it on Reddit. So basically we have a GPU ",
-  "why": "Highly practical, undocumented tip for AI engineers managing remote GPU clusters."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to think like a sunflower – Wendell Berry (so wise, so wistfully missed) on turning conflict into collaboration themarginalian.org/2024/",
-  "why": "Wendell Berry is a great fit for intentional living and contemplative philosophy."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "I see these numbers, all i think is: give the world’s most creative & knowledgeable researchers/scientists unlimited compute to test every s",
-  "why": "Interesting perspective on how frontier models are lowering the barrier to groundbreaking research."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "So much for astra being a quantum stairstep leap over Fable 5.1? See also the @EpochAIResearch showing a measurable but on trend increase. P",
-  "why": "Good practical evaluation comparing frontier models for complex policy and coding tasks."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Kurt Vonnegut on the simplest, hardest secret of happiness themarginalian.org/2014/01/16/kur… Posted Sep 6, 2026 at 9:32PM",
-  "why": "Kurt Vonnegut on 'having enough' is a perfect fit for intentional living and productivity skepticism."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "IsaacKing314",
-  "via": "GaryMarcus",
-  "text": "Interestingly, by being visibly incompetent and malicious in a way that encourages regulators to take notice, OpenAI may be doing more for A",
-  "why": "Interesting counter-intuitive take on OpenAI's alignment disclosure failures."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Loops and graphs. Sam Altman is now the ultimate advocate for (neuro)symbolic AI and he doesn’t even know it. Posted Sep 6, 2026 at 4:53PM",
-  "why": "Interesting commentary on the shift from prompting to agentic loops and graphs."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "This is an extraordinary letter: Dissident poet turned president Vaclav Havel, writing from prison, on how to hold your greatest failure the",
-  "why": "Strong contemplative piece from Vaclav Havel on dealing with failure."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Walt Whitman's field guide to being yourself – the trial and triumph of Leaves of Grass themarginalian.org/2026/04/18/whi… Posted Sep 7, 202",
-  "why": "Good contemplative piece, but slightly lower signal compared to other philosophy essays today."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The Peace of Wild Things – Wendell Berry's poetic antidote to despair, animated themarginalian.org/2021/03/12/wen… Posted Sep 7, 2026 at 12:",
-  "why": "More Wendell Berry, always a solid contemplative read, though a bit repetitive in today's batch."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "tobi",
-  "via": null,
-  "text": "You can now share replays of your runs after you die: neohack.dev/dashboard?run=… Also, you can use this web component neohack.dev/component",
-  "why": "Cool builder project using AI for a classic game, but a bit too niche for a top score."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Excellent analysis, and yes this happens every single time. (Tyler Cowen said o3 was AGI!) Posted Sep 6, 2026 at 7:24PM",
-  "why": "Reasonable pushback on AGI hype, but the arguments are well-worn territory at this point."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "“Currently I believe that no lab has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed",
-  "why": "Gary Marcus taking a victory lap on the Pachocki essay; the essay itself is the real value."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 4,
   "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "For Labor Day, I wrote a post about how everyone expects AI to be a job-killer, and AI keeps refusing to kill jobs. noahpinion.blog/p/ai-kee",
+  "why": "Data-driven look at AI's actual impact on the labor market."
+ },
+ {
+  "rank": 8,
+  "kept": true,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "pratinavanil",
+  "via": "C_Hendrick",
+  "text": "In praise of reading. I enjoyed @j_amesmarriott 's bravura defence of books, theory, and print culture: thetimes.com/culture/books/… Posted ",
+  "why": "A strong defense of print culture and deep reading."
+ },
+ {
+  "rank": 9,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "Jensen has the best gig on the planet. But it is impossible to see how all this is sustainable. Consider the following: Each new model costs",
-  "why": "Generic skepticism about the economics of AI model providers; lacks deep analysis."
+  "text": "Do people agree on the $1B training compute bill for Astra?  (My guess was a bit higher) (re scaling: we aren’t getting data on base models ",
+  "why": "Brief speculation on compute costs and lack of transparency, but lacks deep analysis."
  },
  {
-  "rank": 34,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The true purpose of tarot themarginalian.org/2026/09/06/ale… Posted Sep 6, 2026 at 11:03PM",
-  "why": "A bit too esoteric compared to the higher-signal contemplative pieces today."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Don't waste your wildness themarginalian.org/2024/10/13/don… Posted Sep 6, 2026 at 9:43PM",
-  "why": "Decent contemplative piece, but overshadowed by stronger essays in this batch."
- },
- {
-  "rank": 36,
+  "rank": 10,
   "kept": false,
   "score": 4,
   "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "This is excellent and you should read it. Posted Sep 6, 2026 at 6:18PM",
-  "why": "Duplicate pointer to the Pachocki essay already captured."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The art of choosing love over not-love – Rumi's antidote to our human tragedy themarginalian.org/2026/09/04/rum… Posted Sep 6, 2026 at 5:56P",
-  "why": "Good contemplative piece, but lower priority than the deeper essays today."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "jonfavs",
+  "author": "ValerioCapraro",
   "via": "GaryMarcus",
-  "text": "OpenAI’s chief scientist: “The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes.” Posted",
-  "why": "Another pointer to the Pachocki essay."
+  "text": "Jensen Huang says that AGI has been achieved. I strongly disagree. GPT-6 performs really well on benchmarks, including ARC-AGI-3. But benchm",
+  "why": "Standard AGI definition debate (open vs closed-ended) without new technical depth."
  },
  {
-  "rank": 39,
+  "rank": 11,
+  "kept": false,
+  "score": 4,
+  "topic": "agency",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Nonsense. Temujin would have found a way. Posted Sep 7, 2026 at 4:25AM",
+  "why": "Brief historical debate on agency vs determinism, but lacks long-form depth."
+ },
+ {
+  "rank": 12,
   "kept": false,
   "score": 3,
   "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "anyone who’s a buddy or job hunting over the weekend this very cracked team… built a database 🫪 in anticipation of the most crucial and diff",
-  "why": "Essentially just a job posting and hype for a new database; low density of insight."
+  "author": "JayAlammar",
+  "via": "HamelHusain",
+  "text": "Over 300 original figures! An Illustrated Guide to AI Agents is now OUT on Kindle and other Ebook stores! Presses are rolling, print copies ",
+  "why": "Book announcement with no standalone insight or readable long-form content."
  },
  {
-  "rank": 40,
+  "rank": 13,
   "kept": false,
   "score": 3,
-  "topic": "ai-engineering",
-  "author": "krishnanrohit",
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "This happened a couple times to me a year or so ago. Completely out of the blue. Nobody knew the reason, as far as I could tell the problem ",
-  "why": "Anecdotal complaint about API bans; low density of insight."
+  "text": "“The fact that the Anthropic IPO has been delayed is telling you they’re finding something that’s not good. They need to get this out quickl",
+  "why": "Financial speculation and hype-backlash without real numbers or evidence."
  },
  {
-  "rank": 41,
+  "rank": 14,
   "kept": false,
   "score": 3,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "At the link, the best of The Marginalian this week in one place — Wendell Berry (so missed!) on creativity, love, and how to have enough; Jo",
-  "why": "Just a newsletter roundup link; better to save the individual essays."
+  "text": "I believe this was the last #birddivination that came to me before sending the deck of 100 off to the printer, which you can find (along wit",
+  "why": "Product promo for a divination deck, not a long-form essay."
  },
  {
-  "rank": 42,
+  "rank": 15,
   "kept": false,
   "score": 2,
   "topic": "builders-craft",
   "author": "lkr",
   "via": "asmartbear",
-  "text": "New Smart Bear Live E05 just dropped! He's built a business good enough to niche down, but can't commit. We make him choose. Cohost @lkr (Me",
-  "why": "Video-only podcast promotion; violates anti-taste rules."
+  "text": "OK a few weeks ago I got invited to cohost a podcast with one of my business heroes @asmartbear We were giving advice on how to grow a socia",
+  "why": "MRR growth and solopreneur audience-building content is an automatic skip."
  },
  {
-  "rank": 43,
+  "rank": 16,
   "kept": false,
   "score": 2,
   "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "“i know! everybody is worried about rogue AI. so let’s distract them!” “ok, how about if we say AI gonna kill us all” “nope, tried that” “um",
-  "why": "Pure skepticism and dunking without any substantive analysis or numbers."
+  "text": "This dismissal of AI skepticism is egregiously wrong, or at least deeply selective, @jeffclune . Was I wrong that pure LLMs would always be ",
+  "why": "Twitter beef and 'I was right' post; lacks substantive analysis or new insights."
  },
  {
-  "rank": 44,
+  "rank": 17,
   "kept": false,
   "score": 2,
   "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "OpenAI’s CISO🤦‍♂️ Posted Sep 6, 2026 at 6:55PM",
-  "why": "Twitter drama and dunking on an executive; low signal."
+  "text": "ross hendricks see all of this AGI talk as an pumping effort to dump IPO stocks on retail investors. i am afraid i am getting the same vibe.",
+  "why": "More cynical stock dumping speculation; low signal for actual AI progress."
  },
  {
-  "rank": 45,
+  "rank": 18,
   "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "econ-progress",
-  "author": "highyieldYT",
-  "via": "dylan522p",
-  "text": "Here's a 52 min deep-dive video into everything AI & power with @SemiAnalysis_ . Lot's of work went into that & I think it's worth a watch 😊",
-  "why": "Video-only content; violates anti-taste rules."
+  "author": "michaelpollan",
+  "via": null,
+  "text": "Why Did Trump Order Up 660 Million Pounds of Mystery Meat? nytimes.com/2026/09/07/opi… via @NYTOpinion Posted Sep 7, 2026 at 11:16AM",
+  "why": "Political opinion piece; outside core interests."
  },
  {
-  "rank": 46,
+  "rank": 19,
   "kept": false,
   "score": 1,
-  "topic": "rationality",
+  "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "Yep. Mehdi just keeps screeching \"racist!!\" and \"Islamophobic!!\" at anyone who disagrees with him, and yet it's not working for him. Nobody ",
-  "why": "Pure politics and culture-war dunking; violates anti-taste rules."
- },
- {
-  "rank": 47,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Mehdi I don't think you'd be happier living in the Middle East because you're Muslim. America is a great place to be Muslim!! I think you'd ",
-  "why": "More politics and culture-war bickering."
- },
- {
-  "rank": 48,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Western leftism is just slowly morphing into National Socialism Posted Sep 6, 2026 at 6:42PM",
-  "why": "Pure politics and culture-war rage-bait."
- },
- {
-  "rank": 49,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "nominalthoughts",
-  "via": "Noahpinion",
-  "text": "Literacy is genociding the illiterate. Soup kitchens are genociding the hungry. Health care is genociding the sick. Jobs are genociding the ",
-  "why": "Culture-war dunking; violates anti-taste rules."
+  "text": "I actually think the Middle East has a bright future ahead of it. I just think the U.S. should back off and give Middle Easterners space to ",
+  "why": "Inflammatory geopolitical take; violates anti-taste rules."
  }
 ]
