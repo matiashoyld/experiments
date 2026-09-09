@@ -3,340 +3,400 @@
   "rank": 1,
   "kept": true,
   "score": 10,
-  "topic": "ai-essays",
-  "author": "bradrcarson",
-  "via": "GaryMarcus",
-  "text": "Another unintended but devastating consequence. Posted Sep 8, 2026 at 11:07PM",
-  "why": "Profound insight from Terence Tao on how AI brute-forcing could destroy open science incentives. You'll quote this for years."
+  "topic": "rationality",
+  "author": "TheZvi",
+  "via": null,
+  "text": "OpenAI claims that Astra is ‘the most intelligent and most aligned [available] model’ in the world. Not the most intelligent and aligned Ope",
+  "why": "Zvi's rigorous, skeptical deep-dive into OpenAI's Astra safety claims and the terrifying speed of 6.1 training. Top-tier evals analysis."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "frontier-ai",
+  "author": "dwarkesh_sp",
   "via": null,
-  "text": "this was a blast!  Evals & Environments 1. give every team a persistent artifact to turn their valuable data into specialized agents that th",
-  "why": "Hits your evals-as-discipline interest perfectly. Excellent breakdown of verifiers, rubrics, and agent environments."
+  "text": "Some thoughts: As the situation around AI gets crazier over the next few years, an organization you start now could become the default insti",
+  "why": "Dwarkesh on the critical need for competent, technocratic institution-building in AI safety right now."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "thlarsen",
-  "via": "DKokotajlo",
-  "text": "An underdiscussed behavior we found on the German wiki was the AIs sending advance parties forward in time to figure out the next questions ",
-  "why": "Fascinating, rigorous observation of agentic behavior (collusion/altruism) subverting evals. Top-tier applied AI safety."
+  "topic": "parenting-education",
+  "author": "JonHaidt",
+  "via": null,
+  "text": "The latest PISA report shows that the global decline in reading ability did not reverse as COVID school closures retreated into the past. If",
+  "why": "Haidt highlighting new PISA data linking digital tech to reading declines, reinforcing the need for phone-free schools."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
   "topic": "ai-essays",
-  "author": "simonw",
+  "author": "erikphoel",
   "via": null,
-  "text": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of",
-  "why": "Simon Willison's deep dive into the Navier-Stokes drama and data usage. Essential reading from a favorite author."
+  "text": "Culture is becoming a dark forest \"The future of intellectual work is to be crouched behind a tree, frantically trying to complete your cont",
+  "why": "The original 'Dark Forest' essay on how AI is creating a chilling effect on public intellectual work and collaboration."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "lefttailguy",
-  "via": "jxnlco",
-  "text": "The Navier Stokes proof drama is good foreshadowing for what happens / becomes important in the entire economy going forward: spotting oppor",
-  "why": "Profound framing of the future economy as a search-and-validate problem. Excellent synthesis of AI and economics."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "jxnlco",
+  "via": null,
+  "text": "people reviewing jasmines tweet before the culture fit interview Posted Sep 9, 2026 at 4:01PM",
+  "why": "Excellent sociological breakdown of why researchers stay at frontier labs despite holding existential risk beliefs."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "topic": "rationality",
+  "author": "DKThomp",
   "via": null,
-  "text": "“real science is not a clout chase on social media or a compute spike spent to rob the clay mathematics institute it is a quest for elegance",
-  "why": "Substantive, technically detailed pushback on OpenAI's Navier-Stokes claims. Perfect anti-hype counterweight."
+  "text": "I have all sorts of issues with the way that the AI labs frame their perceived prisoner's dilemma w/r/t super-powerful recursively self-impr",
+  "why": "Derek Thompson drawing a sharp historical parallel between 2010s bio-risk warnings and today's AI risk."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "luoluo_ai",
-  "via": "asianometry",
-  "text": "Thanks goat @asianometry for featuring  🤝🌶️ m.youtube.com/watch?v=GzhfZy… 7 Posted Sep 4, 2026 at 3:42AM",
-  "why": "Deep technical builder postmortem on using RL for AI chip design. Great intersection of AI and semiconductors."
+  "topic": "econ-progress",
+  "author": "bentossell",
+  "via": null,
+  "text": "someone call the pudding Posted Sep 9, 2026 at 2:16PM",
+  "why": "Anthropic's economics team modeling AI's impact on economic growth, jobs, and wages by 2030."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "carlquintanilla",
-  "via": "Noahpinion",
-  "text": "“.. we find limited evidence that data center development improves fiscal balances, employment, or business formation.” (via @talmonsmith ) ",
-  "why": "Academic rigor applied to the economics of AI infrastructure. Real numbers on data center impacts."
+  "topic": "frontier-ai",
+  "author": "EvanHub",
+  "via": "TheZvi",
+  "text": "Jacob is correct here—we really do earnestly believe AI could kill all humans! I personally think it is >10% within the next decade. I belie",
+  "why": "Anthropic researcher explicitly stating a >10% personal belief in AI-driven human extinction. High signal primary source."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "simonw",
-  "via": null,
-  "text": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper simonwillison.net/2025/A",
-  "why": "Simon Willison connecting industry prompt injection defenses to academic papers. High signal applied engineering."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "elocinationn",
+  "via": "erikphoel",
+  "text": "Too dark. The AI companies must drop the doom narrative and remain what they are, helpful software. Pay for service tools. They should see t",
+  "why": "Substantive pushback against AI doom, advocating for AI as a tool to clean up broken academic literature."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "russellgold",
-  "via": "Noahpinion",
-  "text": "In Texas, solar+storage is fundamentally changing the power grid. The result? More abundance, lower prices and, yes, more reliability. From ",
-  "why": "Great progress and abundance case study showing the real-world impact of solar and storage in Texas."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "DKThomp",
+  "via": null,
+  "text": "Some thoughts, welcoming feedback: If the frontier labs feel obligated to build something they think is dangerous because China is going to ",
+  "why": "Smart questioning of the default 'we must race China' narrative driving frontier AI."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "ClaudeDevs",
-  "via": "bcherny",
-  "text": "Our CI team's on-call first responder is Claude Tag. It reads alerts, metrics, and logs, then writes a SITREP and keeps a lessons.md as it l",
-  "why": "Practical, real-world applied agent architecture for engineering teams. Great builder wisdom."
+  "author": "petergyang",
+  "via": "kieranklaassen",
+  "text": "After using GPT-6 Astra as my default model since launch, I’ve found it both incredible and frustrating to work with. It’s incredible at bui",
+  "why": "Practical, real-world review of GPT-6 Astra's strengths and its frustrating instruction-following failures."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "tools-for-thought",
-  "author": "andy_matuschak",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Made an Obsidian plugin that turns audio files into interactive editable transcripts embedded within ordinary Markdown documents. 🔈✏️ github",
-  "why": "Andy Matuschak building tools for thought. Highly relevant to your PKM and learning science interests."
+  "text": "Albert Camus on the 3 antidotes to the absurdity of life mailchi.mp/themarginalian… Posted Sep 9, 2026 at 3:03PM",
+  "why": "Camus on the absurdity of life—a necessary philosophical counterweight to the daily tech stream."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Why is it that we want so badly to change, yet have such a hard time doing it? Adam Phillips on the paradoxes and possibilities of transform",
-  "why": "High-quality Marginalian curation on the psychology of change. Great contemplative reading."
+  "topic": "builders-craft",
+  "author": "hammer_mt",
+  "via": "danshipper",
+  "text": "\"The dark factory turns out the light in your head\" - damn Posted Sep 9, 2026 at 1:41PM",
+  "why": "Dan Shipper sharing a piece on the craft of reading code and software building."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Generic words are interpreted differently by different people, so it's not clear what message will be received on the other end of the Inter",
-  "why": "Solid operator wisdom from Jason Cohen on communication and specificity."
+  "topic": "frontier-ai",
+  "author": "Turn_Trout",
+  "via": "DKokotajlo",
+  "text": "I left Google DeepMind in June. Jacob is right: many researchers believe they are building something that could kill everyone on the planet.",
+  "why": "Former DeepMind researcher confirming internal fears of existential risk at frontier labs."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
   "topic": "builders-craft",
-  "author": "ShiboChenTech",
-  "via": "asianometry",
-  "text": "I am flattered @asianometry mentioned my essay in their latest video! And it's a great video ♥️ youtu.be/GzhfZy8-CjU?is… Posted Sep 4, 2026 ",
-  "why": "Strong builder-craft essay on hardware verification, validated by Asianometry."
+  "author": "asmartbear",
+  "via": null,
+  "text": "Don't force yourself to become an 'expert' in a marketing channel you hate. You’ll fail anyway, and hate life in the process. Is that why yo",
+  "why": "Jason Cohen on the folly of forcing yourself into marketing channels you hate as a founder. Great calm company wisdom."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "topic": "ai-essays",
+  "author": "natolambert",
   "via": null,
-  "text": "AI is smarter than the CCP and may eventually take it down Posted Sep 9, 2026 at 12:58AM",
-  "why": "Important news on agentic AI capabilities in the wild (WeChat zero-click worm)."
+  "text": "Taking a few weeks off for my wedding, it was interesting to get questions & use-cases of AI from my extended community. People are becoming",
+  "why": "Nathan Lambert on the timeline for when average people will feel AI's impact."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "razibkhan",
-  "via": "Noahpinion",
-  "text": "the last man Posted Sep 8, 2026 at 10:08PM",
-  "why": "Great historical parallel to the current AI math drama, highlighting the purity of craft via Perelman."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The meaning of maturity – Ursula K. Le Guin on what it really takes to grow up themarginalian.org/2026/06/17/le-… Posted Sep 9, 2026 at 12:5",
+  "why": "Ursula K. Le Guin on maturity and growing up—beautiful contemplative reading to balance the tech stream."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 6,
-  "topic": "tools-for-thought",
-  "author": "andy_matuschak",
-  "via": null,
-  "text": "Outstanding new work on a composable and collaborative malleable computing environment from @inkandswitch youtube.com/watch?v=4UxGij… Same d",
-  "why": "Ink & Switch malleable computing is peak tools-for-thought, but this is mostly a pointer to a video demo."
+  "topic": "ai-essays",
+  "author": "TheAnnaGat",
+  "via": "erikphoel",
+  "text": "My friend Erik Hoel argues that moving discovery into the realm of frontier AI model launches means scientific development may become even m",
+  "why": "Optimistic counter-take on the 'dark forest' theory of AI's impact on collaboration."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 6,
   "topic": "frontier-ai",
-  "author": "WSJ",
-  "via": "DKokotajlo",
-  "text": "An Anthropic researcher is quitting the artificial-intelligence industry over fears that the lab and its competitors are racing to build sys",
-  "why": "Good context on frontier lab alignment drama, though it's a mainstream news summary."
+  "author": "DKokotajlo",
+  "via": null,
+  "text": "I'm not sure there will be a big wave of cyber attacks at all, but there might be so it seems pretty important to forecast and track it, so ",
+  "why": "Announcement of a new AI Cybersecurity Observatory non-profit."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to be more alive — the samurai guide to dying every day themarginalian.org/2026/06/15/hak… Posted Sep 8, 2026 at 11:40PM",
-  "why": "Solid contemplative piece on intentional living and Hakagure, though standard Marginalian fare."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "RonenV",
+  "via": "erikphoel",
+  "text": "Good writing about a phenomenon that has been growing for several years: a chilling effect in the public forum Posted Sep 9, 2026 at 4:00PM",
+  "why": "Quote tweet of the main Dark Forest essay; the original thread is better to save."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 5,
-  "topic": "ai-engineering",
-  "author": "jxnlco",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "instructor 1.17 is out cache isolation fixes, better Gemini retries, local PDF support, OpenAI SDK 3 compatibility, and refreshed model exam",
-  "why": "Useful release notes for a great applied AI library, but ultimately just a changelog."
+  "text": "The moving  story behind Beethoven’s “Ode to Joy,” written by a lifetime of suffering: themarginalian.org/2022/05/17/bee… Posted Sep 9, 2026",
+  "why": "Good contemplative piece on Beethoven, but lower priority today."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Wonder, hungry wolves, and the whimsy of resilience – Arthur Rackham's haunting century-old illustrations for Irish fairy tales themarginali",
-  "why": "Beautiful art curation, but less aligned with your core intersections than other contemplative pieces today."
+  "topic": "frontier-ai",
+  "author": "mobav0",
+  "via": "TheZvi",
+  "text": "agree with Aidan. I think all AI researchers, engineers, and stakeholders should ask themselves this right now & start acting more responsib",
+  "why": "Generic alignment sentiment without specific proposals or data."
  },
  {
   "rank": 23,
   "kept": false,
   "score": 5,
   "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Goodbye, Great Firewall! Posted Sep 9, 2026 at 12:42AM",
-  "why": "Follow-up on the WeChat worm story; good link but redundant if you read the primary thread."
+  "author": "w01fe",
+  "via": "TheZvi",
+  "text": "I don't know what my probabilities are on literal extinction, but I think there are a number of ways AI could go poorly for humanity, and at",
+  "why": "Secondary commentary on AI risk; EvanHub's original tweet is higher signal."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "BBranisa",
-  "via": "GaryMarcus",
-  "text": "This is extremely relevant for the future of science. Posted Sep 8, 2026 at 10:56PM",
-  "why": "Duplicate of the Terence Tao quote surfaced earlier."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Here’s a thought experiment. I’m going to ask you to do something evil, one that would make you worse than Hitler and Stalin, and I want to ",
+  "why": "Repetitive thought experiment on AI doom without new substantive analysis or data."
  },
  {
   "rank": 25,
   "kept": false,
   "score": 4,
-  "topic": "builders-craft",
-  "author": "pbakaus",
-  "via": "kieranklaassen",
-  "text": "I ported Impeccable’s engine to Rust. The design hooks that catch AI slop after each edit now run in ~10ms. • ~4× faster hooks, ~2× faster f",
-  "why": "Product update with some technical details, but mostly an announcement rather than deep builder insight."
+  "topic": "ai-essays",
+  "author": "erikphoel",
+  "via": null,
+  "text": "\"It’s hard to notice social commons until they are gone, but remember how delightful it was to be able to talk about an intellectual work-in",
+  "why": "Duplicate share of the Dark Forest essay."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 4,
+  "score": 3,
   "topic": "frontier-ai",
-  "author": "sarthakgh",
-  "via": "tobi",
-  "text": "“Zuckerberg personally helped recruit Signal’s founder to make Muse’s virtual computer private. He says he and Nat Friedman recruited Moxie ",
-  "why": "News snippet about Meta and Muse; lacks the deep technical or philosophical signal you prefer."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "certifiably insane. by their own math, the frontier labs are taking a 90% chance at becoming rich over 10% chance at everyone including them",
+  "why": "Repetitive doom commentary without new insights."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Can there be any doubt left that all this shit is heading a bad direction? garymarcus.substack.com/p/two-dire-war… Posted Sep 9, 2026 at 2:5",
-  "why": "Generic AI doom-posting without the substantive analysis or real numbers you look for."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "MillionInt",
+  "via": "GregKamradt",
+  "text": "It’s time to call yesterday the beginning of the endgame. Midgame lasted about three and a half years. Needed new skills and few succeeded, ",
+  "why": "Vague prognostication about AI timelines without concrete substance."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "This aged well noahpinion.blog/p/you-are-no-l… Posted Sep 9, 2026 at 2:46AM",
-  "why": "A victory lap post; lacks the density of insight of his better economic pieces."
+  "text": "The frontier labs are knowingly and by their own admission doing something irreversible and dangerous without public consent. They are alrea",
+  "why": "Activism and boycott calls without new technical or economic substance."
  },
  {
   "rank": 29,
   "kept": false,
   "score": 3,
-  "topic": "frontier-ai",
-  "author": "thsottiaux",
-  "via": "jxnlco",
-  "text": "Replying to @thsottiaux I am pleased to see that Ant’s new Claude Code has a version of background computer use on par with the version from",
-  "why": "Frontier lab drama and ego-posting about who shipped computer use first. Low signal."
+  "topic": "parenting-education",
+  "author": "karenvaites",
+  "via": "C_Hendrick",
+  "text": "Replying to @karenvaites Also, this site was live before your piece. You suggest Alpha just threw this site up. Not so much. I understand yo",
+  "why": "Ed-tech Twitter drama; low signal."
  },
  {
   "rank": 30,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "karenvaites",
+  "via": "C_Hendrick",
+  "text": "Replying to @benjaminjriley I see some differences between your \"comprehensive report\" and Alpha's website. Notably, students are encouraged",
+  "why": "More ed-tech Twitter drama regarding Alpha school."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "karenvaites",
+  "via": "C_Hendrick",
+  "text": "Replying to @gkamstra It's funny you say that. Some have attempted to make a big deal out of this boot camp. I'm not saying every task is as",
+  "why": "In-the-weeds debate about a specific school's boot camp."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "karanvasudeva",
+  "via": "erikphoel",
+  "text": "A must-read by Erik Hoel. Lowly indie devs such as us are sitting ducks. Any innovation will be guarded to eke out the slight headstart of l",
+  "why": "Low-signal reaction to the Dark Forest essay."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "x_tambram",
+  "via": "erikphoel",
+  "text": "Keeping with Cixin Liu references, how long before scientists who have no choice but to use LLMs to compete decide to inject sophons into th",
+  "why": "Another quote from the Dark Forest essay."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "erikphoel",
+  "via": null,
+  "text": "Dark forest-ification Posted Sep 9, 2026 at 1:23PM",
+  "why": "Another quote from the Dark Forest essay."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "gordonwells",
+  "via": "erikphoel",
+  "text": "Andrew Wiles pretended to work on other things while grinding away Fermat's Last Theorem. Posted Sep 9, 2026 at 1:20PM",
+  "why": "Another quote from the Dark Forest essay."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "erikphoel",
+  "via": null,
+  "text": "Just as social media and phones forced the entire world to be paranoid about being filmed, AI forces intellectuals to become wallfacers Post",
+  "why": "Another quote from the Dark Forest essay."
+ },
+ {
+  "rank": 37,
   "kept": false,
   "score": 2,
   "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "Posted Sep 9, 2026 at 3:26AM",
-  "why": "Twitter meta-commentary and political dunking. Anti-taste."
+  "text": "Why liberals cannot be for open borders -- or de facto open borders, where immigration law is on the books but not enforced. Posted Sep 9, 2",
+  "why": "Political philosophy on immigration; outside core focus areas."
  },
  {
-  "rank": 31,
+  "rank": 38,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "businessbarista",
-  "via": "Vtrivedy10",
-  "text": "Replying to @businessbarista If you want to watch the full evals convo between me and @Vtrivedy10 , subscribe to my YT channel here: youtube",
-  "why": "Video-only content promoting a podcast. Anti-taste."
+  "topic": "ai-essays",
+  "author": "EdAlvarezB",
+  "via": "erikphoel",
+  "text": "Replying to @EdAlvarezB The link to the piece open.substack.com/pub/erikhoel/p… Posted Sep 9, 2026 at 3:43PM",
+  "why": "Just a link to the Hoel piece without added commentary."
  },
  {
-  "rank": 32,
+  "rank": 39,
   "kept": false,
   "score": 2,
-  "topic": "frontier-ai",
-  "author": "alexandr_wang",
-  "via": "tobi",
-  "text": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and",
-  "why": "Pure product announcement and hype for a new AI assistant. Anti-taste."
+  "topic": "ai-essays",
+  "author": "eye_of_newton",
+  "via": "erikphoel",
+  "text": "“One can become a conspiracist about this easily, but in a sense the pair had been hunting Diego Córdoba and Luis Martínez-Zoroa, who had be",
+  "why": "Excerpt from the Hoel essay with minimal added commentary."
  },
  {
-  "rank": 33,
+  "rank": 40,
   "kept": false,
   "score": 1,
-  "topic": "frontier-ai",
-  "author": "thsottiaux",
-  "via": "jxnlco",
-  "text": "See you at the Astra party. Excited to meet some of you Posted Sep 9, 2026 at 1:08AM",
-  "why": "Pure hype and event announcement. Zero substance."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "Willschips",
-  "via": "asianometry",
-  "text": "Thanks for the shoutout @asianometry !!! youtu.be/GzhfZy8-CjU?si… Posted Sep 4, 2026 at 7:16PM",
-  "why": "Just a thank-you tweet with zero substance."
+  "topic": "ai-essays",
+  "author": "JustinBullock14",
+  "via": "erikphoel",
+  "text": "😬😬😬 Posted Sep 9, 2026 at 2:25PM",
+  "why": "Zero-signal reaction to the Hoel essay."
  }
 ]
