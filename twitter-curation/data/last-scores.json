@@ -2,321 +2,341 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "OpenAI’s central message on Astra is that it is three things: Highly capable and can do all the things for you. Hard to monitor. The most al",
-  "why": "Zvi's rigorous, deep-dive analysis of Astra's system card and the decline of CoT monitorability. Top-tier evals-as-discipline."
+  "score": 10,
+  "topic": "ai-essays",
+  "author": "bradrcarson",
+  "via": "GaryMarcus",
+  "text": "Another unintended but devastating consequence. Posted Sep 8, 2026 at 11:07PM",
+  "why": "Profound insight from Terence Tao on how AI brute-forcing could destroy open science incentives. You'll quote this for years."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "ByrneHobart",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Today in The Diff, an idea I've been kicking around for a bit: LLMs make us better-informed but less calibrated. thediff.co/archive/stayin… ",
-  "why": "Byrne Hobart delivers a deep, analytical essay on how LLMs impact our epistemological calibration and knowledge."
+  "text": "this was a blast!  Evals & Environments 1. give every team a persistent artifact to turn their valuable data into specialized agents that th",
+  "why": "Hits your evals-as-discipline interest perfectly. Excellent breakdown of verifiers, rubrics, and agent environments."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "karenvaites",
-  "via": "C_Hendrick",
-  "text": "As today's grim PISA results fill your feed, don't miss @C_Hendrick 's insights on the increase in \"hasty readers\": '“Hasty reading” doesn’t",
-  "why": "Substantive, data-backed critique of skills-based reading education and the rise of the 'hasty reader'. Highly relevant to learning science."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "thlarsen",
+  "via": "DKokotajlo",
+  "text": "An underdiscussed behavior we found on the German wiki was the AIs sending advance parties forward in time to figure out the next questions ",
+  "why": "Fascinating, rigorous observation of agentic behavior (collusion/altruism) subverting evals. Top-tier applied AI safety."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
+  "score": 9,
   "topic": "ai-essays",
-  "author": "NatalieFratto",
-  "via": "every",
-  "text": "After automation, we’ll pay to watch humans make things. I wrote this essay as a thesis statement for my friends @every as part of their upc",
-  "why": "Fascinating original thesis on how AI slop will create a premium on human proof-of-work and the process of creation."
+  "author": "simonw",
+  "via": null,
+  "text": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of",
+  "why": "Simon Willison's deep dive into the Navier-Stokes drama and data usage. Essential reading from a favorite author."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Once you scale, you’ll have to refactor everything to handle scale, and people will complain about the code. They’re wrong. Over-engineering",
-  "why": "Classic builder wisdom from Jason Cohen on why over-engineering early is a mistake. High signal for craft."
+  "score": 9,
+  "topic": "econ-progress",
+  "author": "lefttailguy",
+  "via": "jxnlco",
+  "text": "The Navier Stokes proof drama is good foreshadowing for what happens / becomes important in the entire economy going forward: spotting oppor",
+  "why": "Profound framing of the future economy as a search-and-validate problem. Excellent synthesis of AI and economics."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "stratechery",
-  "via": "swyx",
-  "text": "Write Things Down Writing things down is powerful, for humans and for AI; what comes first, however, is what to write, why to do it, and act",
-  "why": "Stratechery exploring the intersection of writing, human thought, and AI. High signal for tools-for-thought."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "“real science is not a clout chase on social media or a compute spike spent to rob the clay mathematics institute it is a quest for elegance",
+  "why": "Substantive, technically detailed pushback on OpenAI's Navier-Stokes claims. Perfect anti-hype counterweight."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "If you’re grappling with forgiveness (or self-forgiveness) this little poem may help: themarginalian.org/2025/01/18/for… Posted Sep 8, 2026 ",
-  "why": "A beautiful, contemplative piece on forgiveness from The Marginalian. Great non-AI counterweight."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "luoluo_ai",
+  "via": "asianometry",
+  "text": "Thanks goat @asianometry for featuring  🤝🌶️ m.youtube.com/watch?v=GzhfZy… 7 Posted Sep 4, 2026 at 3:42AM",
+  "why": "Deep technical builder postmortem on using RL for AI chip design. Great intersection of AI and semiconductors."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Albert Camus on the 3 antidotes to the absurdity of life themarginalian.org/2017/07/24/alb… Posted Sep 8, 2026 at 11:42AM",
-  "why": "Camus on the absurdity of life via The Marginalian. Excellent philosophical counterweight."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "carlquintanilla",
+  "via": "Noahpinion",
+  "text": "“.. we find limited evidence that data center development improves fiscal balances, employment, or business formation.” (via @talmonsmith ) ",
+  "why": "Academic rigor applied to the economics of AI infrastructure. Real numbers on data center impacts."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "simonw",
   "via": null,
-  "text": "And finally this interview. Thank you. Liberalism cannot survive without shared prosperity: Wknd talks to Nobel-winning economist Daron Acem",
-  "why": "Nobel laureate Daron Acemoglu on the economic necessity of shared prosperity. High signal for econ-progress."
+  "text": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper simonwillison.net/2025/A",
+  "why": "Simon Willison connecting industry prompt injection defenses to academic papers. High signal applied engineering."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "natolambert",
-  "via": null,
-  "text": "While everyone is raging at me for defending OpenAI/Anthropic in one narrow area, we have got loads of new, fun, and powerful open models. A",
-  "why": "Useful curation of new open models, but mostly a list rather than a deep synthesis or essay."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "russellgold",
+  "via": "Noahpinion",
+  "text": "In Texas, solar+storage is fundamentally changing the power grid. The result? More abundance, lower prices and, yes, more reliability. From ",
+  "why": "Great progress and abundance case study showing the real-world impact of solar and storage in Texas."
  },
  {
   "rank": 11,
+  "kept": false,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "ClaudeDevs",
+  "via": "bcherny",
+  "text": "Our CI team's on-call first responder is Claude Tag. It reads alerts, metrics, and logs, then writes a SITREP and keeps a lessons.md as it l",
+  "why": "Practical, real-world applied agent architecture for engineering teams. Great builder wisdom."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 7,
+  "topic": "tools-for-thought",
+  "author": "andy_matuschak",
+  "via": null,
+  "text": "Made an Obsidian plugin that turns audio files into interactive editable transcripts embedded within ordinary Markdown documents. 🔈✏️ github",
+  "why": "Andy Matuschak building tools for thought. Highly relevant to your PKM and learning science interests."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Why is it that we want so badly to change, yet have such a hard time doing it? Adam Phillips on the paradoxes and possibilities of transform",
+  "why": "High-quality Marginalian curation on the psychology of change. Great contemplative reading."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Generic words are interpreted differently by different people, so it's not clear what message will be received on the other end of the Inter",
+  "why": "Solid operator wisdom from Jason Cohen on communication and specificity."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "ShiboChenTech",
+  "via": "asianometry",
+  "text": "I am flattered @asianometry mentioned my essay in their latest video! And it's a great video ♥️ youtu.be/GzhfZy8-CjU?is… Posted Sep 4, 2026 ",
+  "why": "Strong builder-craft essay on hardware verification, validated by Asianometry."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "AI is smarter than the CCP and may eventually take it down Posted Sep 9, 2026 at 12:58AM",
+  "why": "Important news on agentic AI capabilities in the wild (WeChat zero-click worm)."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "razibkhan",
+  "via": "Noahpinion",
+  "text": "the last man Posted Sep 8, 2026 at 10:08PM",
+  "why": "Great historical parallel to the current AI math drama, highlighting the purity of craft via Perelman."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 6,
+  "topic": "tools-for-thought",
+  "author": "andy_matuschak",
+  "via": null,
+  "text": "Outstanding new work on a composable and collaborative malleable computing environment from @inkandswitch youtube.com/watch?v=4UxGij… Same d",
+  "why": "Ink & Switch malleable computing is peak tools-for-thought, but this is mostly a pointer to a video demo."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "WSJ",
+  "via": "DKokotajlo",
+  "text": "An Anthropic researcher is quitting the artificial-intelligence industry over fears that the lab and its competitors are racing to build sys",
+  "why": "Good context on frontier lab alignment drama, though it's a mainstream news summary."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to be more alive — the samurai guide to dying every day themarginalian.org/2026/06/15/hak… Posted Sep 8, 2026 at 11:40PM",
+  "why": "Solid contemplative piece on intentional living and Hakagure, though standard Marginalian fare."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "jxnlco",
+  "via": null,
+  "text": "instructor 1.17 is out cache isolation fixes, better Gemini retries, local PDF support, OpenAI SDK 3 compatibility, and refreshed model exam",
+  "why": "Useful release notes for a great applied AI library, but ultimately just a changelog."
+ },
+ {
+  "rank": 22,
   "kept": false,
   "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "bell hooks on love: themarginalian.org/2023/11/03/bel… Posted Sep 8, 2026 at 12:58PM",
-  "why": "Good contemplative link from The Marginalian, but slightly less unique than the other pieces today."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "Thom_Wolf",
-  "via": "sh_reya",
-  "text": "wtf is this way to handle mathematicians work and scientific communication TLDR: Leven and Tristan worked over several months on one of the ",
-  "why": "Important frontier lab drama regarding scientific credit, but ultimately a short complaint rather than a deep analytical essay."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "This new bill banning superintelligence could hobble the frontier AI industry (which aspires to build superintelligence even if it doesn’t a",
-  "why": "Gary Marcus commenting on AI regulation and dunking on OpenAI. Lacks the original analysis needed for a high score."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "daniel_s_larson",
-  "via": "Noahpinion",
-  "text": "I founded my law firm in 2023 right when ChatGPT came out. I seriously wondered whether I would have a job and whether people would still ne",
-  "why": "A brief anecdote about AI not replacing a lawyer's job. Good point, but too thin to be a saved read."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "I am also delighted to share this intelligence square podcast on my new book. Thank you. podcasts.apple.com/us/podcast/why… Posted Sep 8, 20",
-  "why": "Podcast link for Acemoglu. He prefers reading long-form text over audio."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "halfkelly",
-  "via": "TheZvi",
-  "text": "NEW EPISODE: From Pinnacle Sports to Jane Street @TheZvi talks about Magic the Gathering, poker, trading sports, Jane Street, DFS, and his p",
-  "why": "Podcast episode with Zvi. Good guest, but audio format is less preferred than his written essays."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "jun_song",
-  "via": "GaryMarcus",
-  "text": "I know this might be an unpopular take. AGI stands for Artificial General Intelligence, meaning human-level general intelligence across mult",
-  "why": "Standard semantic debate about the definition of AGI. Lacks deep original insight."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "mualphaxi",
-  "via": "WillManidis",
-  "text": "It's one of my four favorite days of the year: new issue day for @arenamagdotcom ! I am thrilled to introduce Arena Magazine Issue 009: Hell",
-  "why": "Just an announcement for a new magazine issue, lacking standalone substance in the tweet itself."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "awilkinson",
-  "via": null,
-  "text": "Reminder: Posted Sep 8, 2026 at 2:55PM",
-  "why": "A long pitch for a specific stock trade (Bitcoin miners pivoting to AI). Outside his core taste for structural economics."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "aaryankushwah",
-  "via": "awilkinson",
-  "text": "Instinct is painfully slow, so we built the world's best iMessage agent. Introducing Companion > gpt-6 astra by default > bring your ChatGPT",
-  "why": "Standard product launch announcement for an iMessage agent."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "so it was the harness not the model. more sneaky games with unacknowledged domain-specific neurosymbolic AI doing the real work. Posted Sep ",
-  "why": "More repetitive commentary on ARC AGI benchmark revisions."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "Dear followers, I’m delighted to share this BBC interview BBC World Service - The Interview, Daron Acemoglu, Economist: Liberal democracy is",
-  "why": "Another audio interview link for Acemoglu."
+  "text": "Wonder, hungry wolves, and the whimsy of resilience – Arthur Rackham's haunting century-old illustrations for Irish fairy tales themarginali",
+  "why": "Beautiful art curation, but less aligned with your core intersections than other contemplative pieces today."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "sqs",
-  "via": "thorstenball",
-  "text": "Queueing your messages to the agent made sense for easily distractible models. Now? Amp sends your message to the agent without waiting. It'",
-  "why": "Minor tool update announcement for Ampcode."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Goodbye, Great Firewall! Posted Sep 9, 2026 at 12:42AM",
+  "why": "Follow-up on the WeChat worm story; good link but redundant if you read the primary thread."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "packyM",
-  "via": null,
-  "text": "i'm having a lot of fun with astra. Your browser does not support the video tag. Posted Sep 8, 2026 at 3:12PM",
-  "why": "Video-only hype post with no substantive text or analysis."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "BBranisa",
+  "via": "GaryMarcus",
+  "text": "This is extremely relevant for the future of science. Posted Sep 8, 2026 at 10:56PM",
+  "why": "Duplicate of the Terence Tao quote surfaced earlier."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
+  "score": 4,
   "topic": "builders-craft",
-  "author": "c_valenzuelab",
-  "via": null,
-  "text": "1B next year Posted Sep 8, 2026 at 2:51PM",
-  "why": "Company milestone and revenue announcement. Low signal for deep reading."
+  "author": "pbakaus",
+  "via": "kieranklaassen",
+  "text": "I ported Impeccable’s engine to Rust. The design hooks that catch AI slop after each edit now run in ~10ms. • ~4× faster hooks, ~2× faster f",
+  "why": "Product update with some technical details, but mostly an announcement rather than deep builder insight."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "It is either lazy or completely intellectually dishonest to pretend that I said “AI would make no progress” under any circumstances when wha",
-  "why": "Defensive Twitter squabbling over past predictions. No new insight."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "sarthakgh",
+  "via": "tobi",
+  "text": "“Zuckerberg personally helped recruit Signal’s founder to make Muse’s virtual computer private. He says he and Nat Friedman recruited Moxie ",
+  "why": "News snippet about Meta and Muse; lacks the deep technical or philosophical signal you prefer."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
+  "score": 4,
+  "topic": "ai-essays",
   "author": "GaryMarcus",
   "via": null,
-  "text": "Can you explain, @SebastienBubeck ? On the face of it, this does not look great. Posted Sep 8, 2026 at 1:40PM",
-  "why": "More Twitter drama regarding academic credit at frontier labs."
+  "text": "Can there be any doubt left that all this shit is heading a bad direction? garymarcus.substack.com/p/two-dire-war… Posted Sep 9, 2026 at 2:5",
+  "why": "Generic AI doom-posting without the substantive analysis or real numbers you look for."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
   "via": null,
-  "text": "practically my entire feed for days had consisted of string of reports about OpenAI’s misconduct, around the hacks, around apparent coverups",
-  "why": "Repetitive dunking on OpenAI without new substantive analysis."
+  "text": "This aged well noahpinion.blog/p/you-are-no-l… Posted Sep 9, 2026 at 2:46AM",
+  "why": "A victory lap post; lacks the density of insight of his better economic pieces."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 2,
+  "score": 3,
   "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "we do need to hear OpenAI’s side of this story but it is absolutely-no-scientist-will-work-then-again level bad if true. Posted Sep 8, 2026 ",
-  "why": "Short reaction tweet to the mathematician drama."
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "Replying to @thsottiaux I am pleased to see that Ant’s new Claude Code has a version of background computer use on par with the version from",
+  "why": "Frontier lab drama and ego-posting about who shipped computer use first. Low signal."
  },
  {
   "rank": 30,
   "kept": false,
   "score": 2,
   "topic": "econ-progress",
-  "author": "CSIC",
-  "via": "DAcemogluMIT",
-  "text": "🏅 El #CSIC concede su Medalla Extraordinaria al Mérito Científico al economista Daron Acemoglu 🔶 La distinción reconoce sus contribuciones a",
-  "why": "Just an announcement of an award for Acemoglu."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Posted Sep 9, 2026 at 3:26AM",
+  "why": "Twitter meta-commentary and political dunking. Anti-taste."
  },
  {
   "rank": 31,
   "kept": false,
   "score": 2,
-  "topic": "frontier-ai",
-  "author": "polynoamial",
-  "via": null,
-  "text": "Seb is a really sweet guy with great intentions, am so happy for him that his week long collaboration with myself and others worked out, but",
-  "why": "Vague subtweeting about academic credit drama."
+  "topic": "ai-engineering",
+  "author": "businessbarista",
+  "via": "Vtrivedy10",
+  "text": "Replying to @businessbarista If you want to watch the full evals convo between me and @Vtrivedy10 , subscribe to my YT channel here: youtube",
+  "why": "Video-only content promoting a podcast. Anti-taste."
  },
  {
   "rank": 32,
   "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "alexandr_wang",
+  "via": "tobi",
+  "text": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and",
+  "why": "Pure product announcement and hype for a new AI assistant. Anti-taste."
+ },
+ {
+  "rank": 33,
+  "kept": false,
   "score": 1,
-  "topic": "rationality",
-  "author": "JHWeissmann",
-  "via": "Noahpinion",
-  "text": "It’s because a lot of liberals and leftists have trouble accepting that voter anger over illegal immigration is sincere and deeply felt, rat",
-  "why": "Political commentary on immigration and voter anger. Explicit anti-taste."
+  "topic": "frontier-ai",
+  "author": "thsottiaux",
+  "via": "jxnlco",
+  "text": "See you at the Astra party. Excited to meet some of you Posted Sep 9, 2026 at 1:08AM",
+  "why": "Pure hype and event announcement. Zero substance."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "Willschips",
+  "via": "asianometry",
+  "text": "Thanks for the shoutout @asianometry !!! youtu.be/GzhfZy8-CjU?si… Posted Sep 4, 2026 at 7:16PM",
+  "why": "Just a thank-you tweet with zero substance."
  }
 ]
