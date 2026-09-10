@@ -2,401 +2,641 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "rationality",
+  "score": 9,
+  "topic": "frontier-ai",
   "author": "TheZvi",
   "via": null,
-  "text": "OpenAI claims that Astra is ‘the most intelligent and most aligned [available] model’ in the world. Not the most intelligent and aligned Ope",
-  "why": "Zvi's rigorous, skeptical deep-dive into OpenAI's Astra safety claims and the terrifying speed of 6.1 training. Top-tier evals analysis."
+  "text": "The world of AI is inside my OODA loop. Even if I can process all the incoming information and sculpt it into posts, and even using Saturday",
+  "why": "Zvi's dense, high-signal synthesis of a chaotic week in frontier AI, covering new models, alignment, and the Coxon resignation."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "Some thoughts: As the situation around AI gets crazier over the next few years, an organization you start now could become the default insti",
-  "why": "Dwarkesh on the critical need for competent, technocratic institution-building in AI safety right now."
+  "topic": "econ-progress",
+  "author": "ben_moll",
+  "via": "Noahpinion",
+  "text": "We need more serious, quantitative work on this assumption typically made by the double-digit growth crowd: \"Assumption 4: No AI-driven cybe",
+  "why": "Rigorous economic pushback on AI double-digit growth claims, highlighting the overlooked risk of AI-driven GDP destruction."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "parenting-education",
-  "author": "JonHaidt",
+  "author": "C_Hendrick",
   "via": null,
-  "text": "The latest PISA report shows that the global decline in reading ability did not reverse as COVID school closures retreated into the past. If",
-  "why": "Haidt highlighting new PISA data linking digital tech to reading declines, reinforcing the need for phone-free schools."
+  "text": "Many years ago, an education academic posted a picture of kids at Michaela school alongside a picture of the Hitler Youth. The school is a f",
+  "why": "Carl Hendrick delivers a powerful defense of evidence-based education reform and the science of learning against bad-faith activism."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "erikphoel",
+  "topic": "ai-engineering",
+  "author": "every",
   "via": null,
-  "text": "Culture is becoming a dark forest \"The future of intellectual work is to be crouched behind a tree, frantically trying to complete your cont",
-  "why": "The original 'Dark Forest' essay on how AI is creating a chilling effect on public intellectual work and collaboration."
+  "text": ". @kieranklaassen was shipping more than ever with AI. He also felt his understanding slipping. “My mind increasingly felt like a TikTok fee",
+  "why": "Brilliant intersection of AI engineering and learning science: practical tactics to prevent AI from atrophying your coding skills."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "jxnlco",
-  "via": null,
-  "text": "people reviewing jasmines tweet before the culture fit interview Posted Sep 9, 2026 at 4:01PM",
-  "why": "Excellent sociological breakdown of why researchers stay at frontier labs despite holding existential risk beliefs."
+  "score": 9,
+  "topic": "parenting-education",
+  "author": "nilslang",
+  "via": "C_Hendrick",
+  "text": "Some thoughts on why I think the science of learning movement in England has been so effective, after attending their national conference la",
+  "why": "A masterclass synthesis on why England's grassroots 'science of learning' movement succeeded in transforming education outcomes."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "DKThomp",
-  "via": null,
-  "text": "I have all sorts of issues with the way that the AI labs frame their perceived prisoner's dilemma w/r/t super-powerful recursively self-impr",
-  "why": "Derek Thompson drawing a sharp historical parallel between 2010s bio-risk warnings and today's AI risk."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "jachiam0",
+  "via": "catehall",
+  "text": "A strange take: I have a hunch that a year or two from now, instead of just talking about agents as the primary AI security threats, we will",
+  "why": "Brilliant, original conceptual thinking on AI alignment: the threat of self-replicating 'memeplexes' spreading among AI agents."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "bentossell",
-  "via": null,
-  "text": "someone call the pudding Posted Sep 9, 2026 at 2:16PM",
-  "why": "Anthropic's economics team modeling AI's impact on economic growth, jobs, and wages by 2030."
+  "score": 9,
+  "topic": "ai-essays",
+  "author": "robkhenderson",
+  "via": "erikphoel",
+  "text": "\"Take that brilliant idea you’ve been sitting on for years, the one for an app, or a book, or a game, or a scientific paper. Take that littl",
+  "why": "Erik Hoel's brilliant essay applying the dark forest theory to intellectual work and the chilling effect of AI generation."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "EvanHub",
-  "via": "TheZvi",
-  "text": "Jacob is correct here—we really do earnestly believe AI could kill all humans! I personally think it is >10% within the next decade. I belie",
-  "why": "Anthropic researcher explicitly stating a >10% personal belief in AI-driven human extinction. High signal primary source."
+  "topic": "ai-essays",
+  "author": "jasondiamond",
+  "via": "erikphoel",
+  "text": "The real deep discourse on building and working in stealth so no one knows what you’re doing which makes you even harder to copy in an incre",
+  "why": "Profound application of the dark forest theory to intellectual work and building in the age of AI generation."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "elocinationn",
-  "via": "erikphoel",
-  "text": "Too dark. The AI companies must drop the doom narrative and remain what they are, helpful software. Pay for service tools. They should see t",
-  "why": "Substantive pushback against AI doom, advocating for AI as a tool to clean up broken academic literature."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "Was spending too much time reading Tweets, so set out to write down why one resignation turned the embers of AI fear into a wildfire -- and ",
+  "why": "Excellent, level-headed synthesis separating valid frontier AI risks from hyperbole in the recent resignation discourse."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "DKThomp",
+  "score": 8,
+  "topic": "contemplative",
+  "author": "packyM",
   "via": null,
-  "text": "Some thoughts, welcoming feedback: If the frontier labs feel obligated to build something they think is dangerous because China is going to ",
-  "why": "Smart questioning of the default 'we must race China' narrative driving frontier AI."
+  "text": "The race for the most important results in science is a two-horse race between: LLMs backed by trillions of dollars, armies of geniuses, and",
+  "why": "Michael Levin's peer-reviewed paper on Platonic Space touches the deep intersections of biology, intelligence, and philosophy."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "petergyang",
-  "via": "kieranklaassen",
-  "text": "After using GPT-6 Astra as my default model since launch, I’ve found it both incredible and frustrating to work with. It’s incredible at bui",
-  "why": "Practical, real-world review of GPT-6 Astra's strengths and its frustrating instruction-following failures."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "teachthemx3",
+  "via": "C_Hendrick",
+  "text": "I taught high school for five years and middle school for another five before joining Alpha School. The Alpha High School bootcamp seems to ",
+  "why": "A former teacher provides a substantive, operator-level defense of alternative education models and teaching real life skills."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "Albert Camus on the 3 antidotes to the absurdity of life mailchi.mp/themarginalian… Posted Sep 9, 2026 at 3:03PM",
-  "why": "Camus on the absurdity of life—a necessary philosophical counterweight to the daily tech stream."
+  "text": "On this topic: if you are one of the people that built a 3d game with Astra or similar on launch weekend: I'm super curious to look at the c",
+  "why": "Armin Ronacher provides a rigorous, code-backed postmortem on why he doesn't fully trust the new Astra model for production yet."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "hammer_mt",
-  "via": "danshipper",
-  "text": "\"The dark factory turns out the light in your head\" - damn Posted Sep 9, 2026 at 1:41PM",
-  "why": "Dan Shipper sharing a piece on the craft of reading code and software building."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "drmichaellevin",
+  "via": "WillManidis",
+  "text": "Here it is - the official, revised, peer-reviewed version of my Platonic Space paper. mdpi.com/2409-9287/11/5… Of all the many unpopular pos",
+  "why": "Michael Levin's peer-reviewed paper on Platonic Space touches the deep intersections of biology, intelligence, and philosophy."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
+  "score": 8,
   "topic": "frontier-ai",
-  "author": "Turn_Trout",
+  "author": "v_maini",
   "via": "DKokotajlo",
-  "text": "I left Google DeepMind in June. Jacob is right: many researchers believe they are building something that could kill everyone on the planet.",
-  "why": "Former DeepMind researcher confirming internal fears of existential risk at frontier labs."
+  "text": "I was on the communications & policy team at Google DeepMind from 2018 - 2022. When I first joined GDM, external communication about the pos",
+  "why": "High-signal insider perspective on the historical gap between frontier lab PR and the internal reality of alignment research."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Don't force yourself to become an 'expert' in a marketing channel you hate. You’ll fail anyway, and hate life in the process. Is that why yo",
-  "why": "Jason Cohen on the folly of forcing yourself into marketing channels you hate as a founder. Great calm company wisdom."
+  "text": "The Wanting Monster is in you, and it is in me, and the question is what do we do about it themarginalian.org/2025/05/29/the… Posted Sep 10,",
+  "why": "A beautiful, contemplative essay on desire, intentional living, and the psychology of wanting."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "natolambert",
-  "via": null,
-  "text": "Taking a few weeks off for my wedding, it was interesting to get questions & use-cases of AI from my extended community. People are becoming",
-  "why": "Nathan Lambert on the timeline for when average people will feel AI's impact."
+  "topic": "agency",
+  "author": "bran_don_gell",
+  "via": "every",
+  "text": "Most people are excited about Slack agents because they do the work and have a lot of context. This is great, but it misses a huge side effe",
+  "why": "Great insight on the organizational psychology of AI adoption: public Slack agents teach the rest of the team how to be AI-native."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "The meaning of maturity – Ursula K. Le Guin on what it really takes to grow up themarginalian.org/2026/06/17/le-… Posted Sep 9, 2026 at 12:5",
-  "why": "Ursula K. Le Guin on maturity and growing up—beautiful contemplative reading to balance the tech stream."
+  "text": "“We searched a wide swath of the loading, stimulation, and material parameter space associated with LENR. Although we didn't test every poss",
+  "why": "Jason Crawford highlights a rigorous null result in cold fusion research; great progress-studies reality check."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "TheAnnaGat",
-  "via": "erikphoel",
-  "text": "My friend Erik Hoel argues that moving discovery into the realm of frontier AI model launches means scientific development may become even m",
-  "why": "Optimistic counter-take on the 'dark forest' theory of AI's impact on collaboration."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Once again... Posted Sep 10, 2026 at 2:04PM",
+  "why": "Hard data from Stripe Economics debunking the 'SaaSpocalypse' narrative with real revenue numbers."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "DKokotajlo",
+  "author": "natolambert",
   "via": null,
-  "text": "I'm not sure there will be a big wave of cyber attacks at all, but there might be so it seems pretty important to forecast and track it, so ",
-  "why": "Announcement of a new AI Cybersecurity Observatory non-profit."
+  "text": "If you are looking for an alternate viewpoint today, which assumes AI models accelerate the process of AI research, but it doesn't result in",
+  "why": "A rigorous, substantive counter-argument to the rapid recursive self-improvement (RSI) narrative."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "RonenV",
-  "via": "erikphoel",
-  "text": "Good writing about a phenomenon that has been growing for several years: a chilling effect in the public forum Posted Sep 9, 2026 at 4:00PM",
-  "why": "Quote tweet of the main Dark Forest essay; the original thread is better to save."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "packyM",
+  "via": null,
+  "text": "As I was writing this, Zuck & @alexandr_wang dropped a gift in my lap with Muse. Posted Sep 10, 2026 at 1:05PM",
+  "why": "Deep dive into startup strategy and counter-positioning; great builder-operator wisdom on creating moats."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The moving  story behind Beethoven’s “Ode to Joy,” written by a lifetime of suffering: themarginalian.org/2022/05/17/bee… Posted Sep 9, 2026",
-  "why": "Good contemplative piece on Beethoven, but lower priority today."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "lucy_crehan",
+  "via": "C_Hendrick",
+  "text": "I gave this speech over two years ago, but in light of the depressing Welsh PISA results, it is just as relevant now. Welsh schools need mor",
+  "why": "Important commentary on curriculum reform and the necessity of knowledge-rich education in light of declining PISA scores."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "mobav0",
-  "via": "TheZvi",
-  "text": "agree with Aidan. I think all AI researchers, engineers, and stakeholders should ask themselves this right now & start acting more responsib",
-  "why": "Generic alignment sentiment without specific proposals or data."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "NielsHoven",
+  "via": "C_Hendrick",
+  "text": "Pro-tip: don't waste your time on ideologues who prioritize their narrative over truth They'll happily go from \"it's not happening\" to \"it's",
+  "why": "A sharp, frustrating look at how modern education policy often actively prevents high-achieving students from accelerating."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "w01fe",
-  "via": "TheZvi",
-  "text": "I don't know what my probabilities are on literal extinction, but I think there are a number of ways AI could go poorly for humanity, and at",
-  "why": "Secondary commentary on AI risk; EvanHub's original tweet is higher signal."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "So much of Scotland's decline is rooted in this sentence: \"\"Knowledge\" is a contested idea in Scottish education.\" Posted Sep 10, 2026 at 7:",
+  "why": "A sharp critique of how abandoning knowledge-centric pedagogy has led to a collapse in educational outcomes in Scotland."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Here’s a thought experiment. I’m going to ask you to do something evil, one that would make you worse than Hitler and Stalin, and I want to ",
-  "why": "Repetitive thought experiment on AI doom without new substantive analysis or data."
+  "text": "How to be more alive – the samurai guide to dying every day themarginalian.org/2026/06/15/hak… Posted Sep 10, 2026 at 4:13AM",
+  "why": "A profound, contemplative piece on intentional living and mortality from a consistently excellent curator."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "erikphoel",
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "nicbstme",
   "via": null,
-  "text": "\"It’s hard to notice social commons until they are gone, but remember how delightful it was to be able to talk about an intellectual work-in",
-  "why": "Duplicate share of the Dark Forest essay."
+  "text": "Builders are attracted to small teams because they want to ship great product fast and win in the marketplace. Posted Sep 10, 2026 at 2:45AM",
+  "why": "Great builder-operator insight on how extreme talent density and small team sizes drive velocity at frontier labs."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "certifiably insane. by their own math, the frontier labs are taking a 90% chance at becoming rich over 10% chance at everyone including them",
-  "why": "Repetitive doom commentary without new insights."
+  "text": "Emily Dickinson’s herbarium — a forgotten treasure at the intersection of science and poetry themarginalian.org/2017/05/23/emi… Posted Sep 1",
+  "why": "A beautiful, contemplative intersection of science, poetry, and craft from a consistently high-signal curator."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "MillionInt",
-  "via": "GregKamradt",
-  "text": "It’s time to call yesterday the beginning of the endgame. Midgame lasted about three and a half years. Needed new skills and few succeeded, ",
-  "why": "Vague prognostication about AI timelines without concrete substance."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "danshipper",
+  "via": null,
+  "text": "bending spoons on a generational run right now if they make their saas apps agent native Posted Sep 10, 2026 at 3:45PM",
+  "why": "Dan Shipper highlights a fascinating strategic play: acquiring distressed SaaS and making them agent-native."
  },
  {
   "rank": 28,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "andrewho03",
+  "via": "krishnanrohit",
+  "text": "On the other hand, if you’re a frontier lab employee and you express skepticism about safety concerns (even if in a polite, reasoned way), y",
+  "why": "A sharp sociological observation about the internal culture and social desirability bias at frontier AI labs."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 6,
+  "topic": "rationality",
+  "author": "allTheYud",
+  "via": "DKokotajlo",
+  "text": "The dodos were the lucky ones.  Observe what happens to chickens.  Or don't, you might throw up. And it's not that humans want to hurt chick",
+  "why": "Yudkowsky's dark but thought-provoking analogy on AI consciousness and the ethics of model training."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"A library is a rainbow in the clouds.\" Maya Angelou on how a library saved her life themarginalian.org/2016/11/18/may… Posted Sep 10, 2026 ",
+  "why": "A lovely tribute to libraries and reading by Maya Angelou, though slightly less dense than your top saves."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "No, Anderson Cooper, AI is not going to kill all humans by 2030. A dissection of Jacob Coxon’s and co’s actual arguments at garymarcus.subst",
+  "why": "Substantive pushback on the recent AI doomer drama, though Marcus can sometimes lean too heavily into pure skepticism."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "festdelasideas",
+  "via": "pablo_dors",
+  "text": "¿Qué pasa en nuestro cuerpo cuando prestamos atención? 🧘 Nazareth Castellanos y @pablo_dors conversan con Olivia Loewe sobre ciencia, medita",
+  "why": "Event announcement on the science of meditation and attention, though it lacks standalone reading material."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "greg_ashman",
+  "via": "C_Hendrick",
+  "text": "I have criticised Alpha School and will likely continue to do so. I don’t buy the model. At best, I can see it working for a certain kind of",
+  "why": "Nuanced take on the Alpha School controversy, but leans a bit too heavily into Twitter education drama."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "ccatalini",
+  "via": "erikphoel",
+  "text": "Open weights will increasingly be about control. x.com/erikphoel/stat… Posted Sep 10, 2026 at 3:43AM",
+  "why": "An interesting one-liner on the future of open weights, but lacks the depth of a full argument."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "what a consistently dishonest company Posted Sep 10, 2026 at 2:29AM",
+  "why": "Valid critique of OpenAI's lobbying practices, but leans a bit too heavily into Twitter dunking."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "cojobrien",
+  "via": "Noahpinion",
+  "text": "DHS is out with a proposal that will further tie H-1B, O-1, L-1, E-1/2/3, H-1B1, and TN visa holders to their employers. Employers' leverage",
+  "why": "Important policy news for tech immigration, but lacks the deep synthesis or long-form insight you usually save."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "MikeRiggs",
+  "via": "erikphoel",
+  "text": "Journalists have been operating this way forever. Welcome, fellow knowledge workers, to Scooplandia. Posted Sep 10, 2026 at 3:17PM",
+  "why": "Thin commentary on the Erik Hoel quote; the underlying essay is great, but this specific tweet doesn't add much."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "KholiH",
+  "via": "erikphoel",
+  "text": "This is basically how Blackmagic Design operates and it’s almost impossible for any company to keep secrets like those guys do, not even App",
+  "why": "A brief comparison to Blackmagic Design, but lacks the depth of a standalone essay or analysis."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 4,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "As someone who thinks that existential threat is greatly exaggerated, I 100% agree with @dkthomp here: enough about Coxon’s background (much",
+  "why": "Meta-commentary on the AI safety discourse; reasonable point, but not a deep, lasting insight."
+ },
+ {
+  "rank": 40,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "OliviaHelenS",
+  "via": "jasoncrawford",
+  "text": "$500M in philanthropic capital from Intercept is available for candidates working to end respiratory illness Posted Sep 10, 2026 at 1:59PM",
+  "why": "A massive funding announcement for progress in health, but it's just an announcement without deep analysis."
+ },
+ {
+  "rank": 41,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "lucidzk",
+  "via": "naval",
+  "text": "one thing working on @TachyonZcash has made increasingly obvious to me is that succinct proofs do not automatically give you a succinct syst",
+  "why": "Highly technical breakdown of ZK proofs and crypto architecture, but falls outside your core focus areas."
+ },
+ {
+  "rank": 42,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "greg_ashman",
+  "via": "C_Hendrick",
+  "text": "“The truth is every country in the OECD is showing all-time-low results in everything.” This is not true. Posted Sep 10, 2026 at 8:02AM",
+  "why": "A brief fact-check on OECD education data; lacks the depth of a full essay."
+ },
+ {
+  "rank": 43,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "jessegenet",
+  "via": "C_Hendrick",
+  "text": "Replying to @rodjnaquin By these standards you’d also think that the average scouts troop or sports team is a cult too. But more importantly",
+  "why": "More defense in the Alpha School debate; the earlier Carl Hendrick thread covers this ground much better."
+ },
+ {
+  "rank": 44,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "kane",
+  "via": "Noahpinion",
+  "text": "Malls like Stonestown, Cupertino Main, and Valley Fair are ripping record numbers. San Francisco Center isn’t failing bc of Amazon or COVID,",
+  "why": "Commentary on San Francisco urban decay; a bit too localized and political for your core interests."
+ },
+ {
+  "rank": 45,
+  "kept": false,
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "rpondiscio",
+  "via": "C_Hendrick",
+  "text": "Ditto. There are few figures in education I respect and regard as highly as @C_Hendrick . That said, our field has a long indulged rooting f",
+  "why": "Nice praise for Carl Hendrick, but doesn't contain standalone educational insights."
+ },
+ {
+  "rank": 46,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "jamestwotree",
+  "via": "Noahpinion",
+  "text": "This Atlantic article on Taiwan has prompted harsh criticism, mostly deserved. It is riddled with problems, some of which I'll dive into. Bu",
+  "why": "Geopolitical critique of an Atlantic article; outside your core focus areas."
+ },
+ {
+  "rank": 47,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "EmilyOehlsen",
+  "via": "Noahpinion",
+  "text": "Today we’re launching Project Tailwind, a call for founders to start ambitious new AI safety initiatives: coefficientgiving.org/tailwind/?ut",
+  "why": "Pure announcement post for a funding initiative; lacks the substantive analysis or insight you look for."
+ },
+ {
+  "rank": 48,
+  "kept": false,
+  "score": 3,
+  "topic": "tools-for-thought",
+  "author": "nicolaygerold",
+  "via": "thorstenball",
+  "text": "Make Amp's dial your own. Choose the models behind the builtin modes. Use your API keys or ChatGPT subscription for supported models. Or add",
+  "why": "Product feature announcement without broader insights into tools-for-thought or engineering."
+ },
+ {
+  "rank": 49,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "We got a lot of comments from people thinking the people in this video are real. Well, for those wondering, here’s your answer. It's clear t",
+  "why": "Video-heavy product announcement for Runway; violates the anti-taste rule against pure hype and video-only content."
+ },
+ {
+  "rank": 50,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "evanjconrad",
+  "via": "bentossell",
+  "text": "the average on-platform customer on sfcompute saves about 25% it's the difference between $4.5/hr and $3.3/hr we wrote about why and how you",
+  "why": "Essentially a marketing post for a compute provider; lacks broader engineering insights."
+ },
+ {
+  "rank": 51,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Tomorrow I will rip Jacob Coxon’s CNN appearance. But let’s cut with the six weeks/entry level bullshit and the character assassination. My ",
+  "why": "Pure Twitter drama regarding the timeline of an employee's resignation; not worth your time."
+ },
+ {
+  "rank": 52,
+  "kept": false,
+  "score": 3,
+  "topic": "tools-for-thought",
+  "author": "sqs",
+  "via": "thorstenball",
+  "text": "Context analysis, now on Amp thread usage/cost pages If you have 377 MCP tools and AGENTS.md files junking up your context, now you can ask ",
+  "why": "Minor feature update for a specific tool."
+ },
+ {
+  "rank": 53,
   "kept": false,
   "score": 3,
   "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "The frontier labs are knowingly and by their own admission doing something irreversible and dangerous without public consent. They are alrea",
-  "why": "Activism and boycott calls without new technical or economic substance."
+  "text": "Why the public needs to step up. I talk with @CBCNews about why a (temporary) boycott of generative AI, as unlikely as it is, ought to be on",
+  "why": "Video interview calling for an AI boycott; lacks the rigorous written analysis you prefer."
  },
  {
-  "rank": 29,
+  "rank": 54,
   "kept": false,
   "score": 3,
-  "topic": "parenting-education",
-  "author": "karenvaites",
-  "via": "C_Hendrick",
-  "text": "Replying to @karenvaites Also, this site was live before your piece. You suggest Alpha just threw this site up. Not so much. I understand yo",
-  "why": "Ed-tech Twitter drama; low signal."
+  "topic": "rationality",
+  "author": "willdepue",
+  "via": "DKokotajlo",
+  "text": "I've known Jacob Coxon for the last three years, having started at OpenAI at the same time. I consider him a deeply thoughtful and measured ",
+  "why": "More Twitter drama and character defense regarding the recent Anthropic resignation."
  },
  {
-  "rank": 30,
+  "rank": 55,
   "kept": false,
   "score": 3,
-  "topic": "parenting-education",
-  "author": "karenvaites",
-  "via": "C_Hendrick",
-  "text": "Replying to @benjaminjriley I see some differences between your \"comprehensive report\" and Alpha's website. Notably, students are encouraged",
-  "why": "More ed-tech Twitter drama regarding Alpha school."
+  "topic": "rationality",
+  "author": "datamathcode",
+  "via": "GaryMarcus",
+  "text": "I'm no one special. But after the mathematicians and OpenAI debacle I've decided to cancel all of my cloud AI subscriptions. I know that's r",
+  "why": "A personal boycott announcement without broader systemic analysis."
  },
  {
-  "rank": 31,
+  "rank": 56,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "karenvaites",
-  "via": "C_Hendrick",
-  "text": "Replying to @gkamstra It's funny you say that. Some have attempted to make a big deal out of this boot camp. I'm not saying every task is as",
-  "why": "In-the-weeds debate about a specific school's boot camp."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "karanvasudeva",
-  "via": "erikphoel",
-  "text": "A must-read by Erik Hoel. Lowly indie devs such as us are sitting ducks. Any innovation will be guarded to eke out the slight headstart of l",
-  "why": "Low-signal reaction to the Dark Forest essay."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "x_tambram",
-  "via": "erikphoel",
-  "text": "Keeping with Cixin Liu references, how long before scientists who have no choice but to use LLMs to compete decide to inject sophons into th",
-  "why": "Another quote from the Dark Forest essay."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "erikphoel",
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
   "via": null,
-  "text": "Dark forest-ification Posted Sep 9, 2026 at 1:23PM",
-  "why": "Another quote from the Dark Forest essay."
+  "text": "Pushed ruby_llm-skills 0.4.0.pre1 to rubygems.org in prep for this! Posted Sep 10, 2026 at 3:19PM",
+  "why": "Minor version release announcement; lacks substantive engineering insights or postmortem details."
  },
  {
-  "rank": 35,
+  "rank": 57,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "gordonwells",
-  "via": "erikphoel",
-  "text": "Andrew Wiles pretended to work on other things while grinding away Fermat's Last Theorem. Posted Sep 9, 2026 at 1:20PM",
-  "why": "Another quote from the Dark Forest essay."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "erikphoel",
+  "score": 2,
+  "topic": "rationality",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Just as social media and phones forced the entire world to be paranoid about being filmed, AI forces intellectuals to become wallfacers Post",
-  "why": "Another quote from the Dark Forest essay."
+  "text": "Whiny unknown conspiracy guy who wonders how other unknown guy got so many views now has 5 million views. Oh, the irony. Fact is, people lik",
+  "why": "Pure Twitter drama and dunking; violates the anti-taste rule against rage-bait and engagement-bait."
  },
  {
-  "rank": 37,
+  "rank": 58,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Orbin' time & just in time for these bad boys to go out Posted Sep 10, 2026 at 2:29PM",
+  "why": "Pure feature announcement and banter; lacks substantive builder wisdom."
+ },
+ {
+  "rank": 59,
   "kept": false,
   "score": 2,
   "topic": "econ-progress",
-  "author": "Noahpinion",
+  "author": "MITshapingwork",
+  "via": "DAcemogluMIT",
+  "text": "Replying to @zubairabbasi @zubairabbasi @DAcemogluMIT Yes! Livestream registration is available here: shapingwork.mit.edu/events/what-ha… Po",
+  "why": "Just an event registration link; no standalone insight or reading material."
+ },
+ {
+  "rank": 60,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "TheBabylonBee",
+  "via": "Noahpinion",
+  "text": "'Oh, Your Intelligent Creations Are Trying To Kill You? That's Interesting,' Says Jesus buff.ly/mHmZXeX Posted Sep 9, 2026 at 10:00PM",
+  "why": "Satire piece; funny, but not the high-signal long-form insight you're looking to save."
+ },
+ {
+  "rank": 61,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "nabla_theta",
+  "via": "DKokotajlo",
+  "text": "Replying to @charliemktplace @charliemktplace you might benefit from reading my blog post, “terrorism is bad actually “ about how terrorism ",
+  "why": "Appears to be a shitpost or highly sarcastic piece; not the substantive reading you want."
+ },
+ {
+  "rank": 62,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
   "via": null,
-  "text": "Why liberals cannot be for open borders -- or de facto open borders, where immigration law is on the books but not enforced. Posted Sep 9, 2",
-  "why": "Political philosophy on immigration; outside core focus areas."
+  "text": "this looks sick! Posted Sep 10, 2026 at 2:42AM",
+  "why": "Thin commentary on a library release."
  },
  {
-  "rank": 38,
+  "rank": 63,
   "kept": false,
   "score": 2,
-  "topic": "ai-essays",
-  "author": "EdAlvarezB",
-  "via": "erikphoel",
-  "text": "Replying to @EdAlvarezB The link to the piece open.substack.com/pub/erikhoel/p… Posted Sep 9, 2026 at 3:43PM",
-  "why": "Just a link to the Hoel piece without added commentary."
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Incredible how people are making up different numbers of weeks/months for how long Coxon worked at Anthropic to assassinate his character. T",
+  "why": "Pure Twitter drama regarding the timeline of an employee's resignation."
  },
  {
-  "rank": 39,
+  "rank": 64,
   "kept": false,
   "score": 2,
-  "topic": "ai-essays",
-  "author": "eye_of_newton",
-  "via": "erikphoel",
-  "text": "“One can become a conspiracist about this easily, but in a sense the pair had been hunting Diego Córdoba and Luis Martínez-Zoroa, who had be",
-  "why": "Excerpt from the Hoel essay with minimal added commentary."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 1,
-  "topic": "ai-essays",
-  "author": "JustinBullock14",
-  "via": "erikphoel",
-  "text": "😬😬😬 Posted Sep 9, 2026 at 2:25PM",
-  "why": "Zero-signal reaction to the Hoel essay."
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Replying to @GaryMarcus @johnnydoya and this, assuming my facts are correct, is just plain dirty: Posted Sep 10, 2026 at 2:22AM",
+  "why": "Continuation of Twitter drama."
  }
 ]
