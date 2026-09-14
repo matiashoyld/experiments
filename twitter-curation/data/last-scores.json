@@ -2,261 +2,271 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "Chilean philosophers Humberto Maturana and Francisco Varela on love and how we come to know the world themarginalian.org/2026/04/14/tre… Pos",
-  "why": "Incredible intersection of his interests: deep philosophy on consciousness and epistemology, specifically featuring Chilean thinkers."
+  "text": "Dario Amodei has a new essay that finally says the thing: We Must Pace the Frontier , naming his call after the Pacing the Frontier letter l",
+  "why": "Zvi's comprehensive breakdown of Dario Amodei's crucial 'Pacing the Frontier' proposal and the industry's reaction."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "RayanKrishnan",
-  "via": "krishnanrohit",
-  "text": "With AI safety topics going mainstream, the public seems anxious and disconnected from the reality of the problem. From what I’ve seen at Va",
-  "why": "High-signal postmortem on AI evaluations, offering concrete timelines and a rigorous framework for independent model auditing."
+  "author": "sh_reya",
+  "via": null,
+  "text": "Did this podcast a couple of months ago but data agents are more timely than ever! Since then, OpenAI has released a data agent product, and",
+  "why": "Excellent evals-as-discipline: a rigorous new benchmark exposing how frontier data agents fail at multi-database queries."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "teortaxesTex",
-  "via": "nabeelqu",
-  "text": "Upon reflection, I am not at all surprised by Dario's hawkishness. He's sincere and he's making sense, under assumptions that look plausible",
-  "why": "A provocative, deeply analytical character study of Dario Amodei that reframes frontier AI safety as a geopolitical imperative."
+  "topic": "builders-craft",
+  "author": "colossusmag",
+  "via": "WillManidis",
+  "text": "Mark, by @colossusjeremy . This is a story about the head of history's largest nonterritorial empire, who nonetheless remains a prisoner of ",
+  "why": "Will Manidis shared this deep, year-in-the-making profile of Zuckerberg. High-signal builder and leadership piece."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "fchollet",
-  "via": "GaryMarcus",
-  "text": "In the near term (definitely not in the long term), more capable models should mean safer models (maybe paradoxically). Current models are u",
-  "why": "Chollet offers a sharp, contrarian reframing of the alignment problem as an intelligence and common-sense deficit."
+  "author": "DKThomp",
+  "via": null,
+  "text": "Excellent point. This is why, while I like the language around \"pace the frontier,\" I'd prefer to just have clear rules, explicit red lines,",
+  "why": "Derek Thompson and Byrne Hobart dissect the economics and practical realities of 'pacing the frontier'."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The loveliness of letting go – an illustrated field guide to life's lasts themarginalian.org/2026/08/21/odd… Posted Sep 14, 2026 at 1:58AM",
-  "why": "Beautiful, contemplative essay on intentional living and the psychology of letting go."
+  "topic": "ai-essays",
+  "author": "jayvanbavel",
+  "via": "random_walker",
+  "text": "This is a huge problem and it's harming prospective students because faculty just begin to ignore any outreach (I hear countless private com",
+  "why": "Arvind Narayanan on how AI-generated spam is destroying the egalitarian power of cold emails in academia."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "linamkhan",
-  "via": "GaryMarcus",
-  "text": "Law enforcers already have authority to charge companies and their CEOs for creating and releasing dangerous, unvetted, or defective product",
-  "why": "Highly substantive thread from the FTC Chair detailing how existing consumer protection and antitrust laws apply to AI."
+  "topic": "builders-craft",
+  "author": "itsurboyevan",
+  "via": null,
+  "text": "This profile by @colossusjeremy is one of those that makes you take a hard look in the mirror as a writer. Excellent, voicey craft that is w",
+  "why": "Highly praised, deep-dive profile of Mark Zuckerberg exploring his evolution as a builder and leader."
  },
  {
   "rank": 7,
-  "kept": false,
+  "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "“We must moving beyond apocalyptic rhetoric toward the concrete questions: How should frontier labs collaborate on safety? How do we align i",
-  "why": "Excellent, grounded reframing of p(doom) as an endogenous variable and a call for concrete alignment mechanics."
+  "topic": "contemplative",
+  "author": "DmitryRybin1",
+  "via": "naval",
+  "text": "There once lived a mathematician named Petrov. Petrov was working on a problem. The problem was very difficult, and so Petrov worked on it f",
+  "why": "A brilliant, contemplative short story about human meaning, mathematics, and the alien nature of AI problem-solving."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "simonw",
-  "via": null,
-  "text": "Built a little local web app to help edit commit messages for a repo simonwillison.net/2026/Sep/14/co… Posted Sep 14, 2026 at 1:34AM",
-  "why": "Classic Simon Willison: a practical, builder-focused walkthrough of creating a local tool, hitting the craft sweet spot."
+  "topic": "econ-progress",
+  "author": "privitera_",
+  "via": "DAcemogluMIT",
+  "text": "Today, we publish a Transformative AI Strategy for Europe. Over the last few months, we’ve rallied researchers and engaged with governments ",
+  "why": "Daron Acemoglu shared this comprehensive policy proposal for Europe's economic and strategic response to transformative AI."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "kept": true,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "Matter, memory, and the paradox of perception – Henri Bergson (one of the most original and deep-seeing minds our species has produced) on h",
-  "why": "Deep philosophical exploration of perception and reality from Bergson; perfect for the contemplative/consciousness intersection."
+  "text": "This is the load bearing assumption and we should all question if this is strong enough to support whatever interventions are being proposed",
+  "why": "Substantive debate on the assumptions behind rapid AI takeoff and algorithmic breakthroughs."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "tools-for-thought",
-  "author": "jon__ortega",
-  "via": "danshipper",
-  "text": "Recently found myself letting ideas rest for a bit before throwing them at an llm, no matter how cheap that would be Loved this article on t",
-  "why": "Hits the exact intersection of tools-for-thought and productivity skepticism, exploring the value of resting ideas before using AI."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "DKThomp",
+  "via": null,
+  "text": "I don’t know that I entirely agree with this view by @benthompson but it is at least logically sound: There’s no point is pacing global AI p",
+  "why": "Derek Thompson highlights the geopolitical counter-argument to AI pacing: the reality of Chinese open-weight models."
  },
  {
   "rank": 11,
-  "kept": true,
+  "kept": false,
   "score": 7,
   "topic": "frontier-ai",
-  "author": "McReynoldsJoe",
-  "via": "Noahpinion",
-  "text": "This is a very important piece by Noah, esp. on US-China, and everyone should read it. My one addition: exposing things like Kimi's distilla",
-  "why": "Strong geopolitical analysis on AI safety and US-China dynamics, adding specific technical context."
+  "author": "ByrneHobart",
+  "via": null,
+  "text": "Today's free issue of The Diff: thoughts on pacing the frontier—particularly, the possibility that even a deliberately slower pace will be f",
+  "why": "Byrne Hobart's deep dive into the economics and politics of deliberately slowing AI progress."
  },
  {
   "rank": 12,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "I think I have two important things to add to the AI safety discussion: How to make normies realize that superintelligence is dangerous How ",
-  "why": "Substantive essay on the geopolitical and public-perception missing pieces in the AI safety debate."
+  "text": "Seneca on true and false friendship themarginalian.org/2026/09/13/sen… Posted Sep 14, 2026 at 1:43PM",
+  "why": "Classic contemplative piece from The Marginalian on Seneca's philosophy of friendship."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "bcherny",
+  "topic": "econ-progress",
+  "author": "emollick",
   "via": null,
-  "text": "Fable solved the Cyphral Distich (a 370 year old cypher). Super cool way to use Claude vals.ai/blogs/fable-so… Posted Sep 14, 2026 at 2:20AM",
-  "why": "Great applied AI engineering case study showing how LLMs can be used to solve historical ciphers."
+  "text": "Huh. Posted Sep 14, 2026 at 11:48AM",
+  "why": "Ethan Mollick highlights an interesting back-of-the-napkin calculation on the energy efficiency of AI vs human intelligence."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "frontier-ai",
-  "author": "BedoyaUSA",
-  "via": "GaryMarcus",
-  "text": "1) AI will not eradicate humanity. Humans survived an ice age, the Black Death, two world wars, and (so far) the advent of nuclear weapons. ",
-  "why": "A strong, legally grounded argument dismantling AI extinction rhetoric and clarifying antitrust boundaries for frontier labs."
+  "author": "DKokotajlo",
+  "via": null,
+  "text": "IMO europe needs to wake up to what's on the horizon with AGI, and then negotiate and bargain for an international agreement asap. Europe ha",
+  "why": "A look at Europe's strategic positioning on transformative AI, though noted as somewhat weak by Kokotajlo."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "kplikethebird",
-  "via": "danshipper",
-  "text": "TL;DR: Every is looking for our next AI-pilled writer, and we've got presents for that person! When I first started doing AI editorial at @e",
-  "why": "Though a job ad, it details a fascinating multi-agent 'Iron Man suit' for writing, hitting the tools-for-thought sweet spot."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "mmitchell_ai",
+  "via": "GaryMarcus",
+  "text": "For Dario, I believe it is genuine and manifested from incentives to consolidate power and permanently solidify market dominance. We make a ",
+  "why": "Chollet and Mitchell offer a substantive critique of 'pacing the frontier' as potential regulatory capture."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "mombaque",
-  "via": "WillManidis",
-  "text": "Daqui virá uma das seitas heréticas mais perigosas de toda a história, capaz de gerar o maior suicídio coletivo já registrado: Prometerão up",
-  "why": "A fascinating, slightly dystopian philosophical take on mind uploading and digital afterlife."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "translation: we will go as fast as we can without going to jail or getting sued out of existence, but for optics we will it call it pacing. ",
+  "why": "Altman's policy statement with Marcus's cynical translation; lacks the deep analysis of Zvi's or Hobart's pieces."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "packyM",
   "via": null,
-  "text": "If we want China to cooperate with us in pacing frontier AI development, we must make the Chinese leadership realize that * Chinese superint",
-  "why": "Strong geopolitical analysis on AI safety and US-China dynamics."
+  "text": "Reading Mark to The Social Network soundtrack as God intended. Posted Sep 14, 2026 at 12:32PM",
+  "why": "Commentary on the Colossus Zuckerberg profile; the actual profile shared by Manidis is the better save."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 5,
-  "topic": "frontier-ai",
-  "author": "ModeledBehavior",
-  "via": "Noahpinion",
-  "text": "I am not sure “we won’t literally go extinct” is much comfort. The ice age and Black Death were pretty bad. Posted Sep 13, 2026 at 6:13PM",
-  "why": "A brief but sharp counterpoint on AI extinction rhetoric, though lacks the depth of a full essay."
+  "topic": "ai-essays",
+  "author": "PessimistsArc",
+  "via": "C_Hendrick",
+  "text": "2019: “GPT2 is groundbreaking in two ways. One is its size, says Dario Amodei, OpenAI’s research director. The models “were 12 times bigger,",
+  "why": "Fun historical artifact on AI scaling from 2019, but just a snippet rather than a deep essay."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "visakanv",
-  "via": null,
-  "text": "I think a lot about the longevity of art works. I feel we always live at the crossroads of two streams of time, the immediate-ephemeral now ",
-  "why": "A brief but poetic reflection on the longevity of art and short-term vs long-term incentives."
+  "score": 4,
+  "topic": "parenting-education",
+  "author": "nypost",
+  "via": "jean_twenge",
+  "text": "Suicide rate soars for girls as young as 10, as expert says one major trend is to blame trib.al/XCt1BEu Posted Sep 10, 2026 at 10:05PM",
+  "why": "NYPost article on teen mental health; relevant to Haidt/Twenge themes but likely too sensationalist for deep insight."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "rationality",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "How to change your life, the wonderful Japanese concept of \"ma,\" and the true purpose of tarot – the best of The Marginalian this week in a ",
-  "why": "A solid curation of contemplative essays, though direct links to the underlying pieces are usually preferred."
+  "text": "AI doomers - do you actually think we will be extinct in five years or is that just what Jacob Coxon is telling the media? Posted Sep 14, 20",
+  "why": "Twitter bickering over extinction timelines; lacks the depth of a full essay."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "GearoidReidy",
-  "via": "Noahpinion",
-  "text": "The latest evidence to show that Japanese youth lean conservative and those who lean left are mostly elderly, despite what you might read on",
-  "why": "Interesting demographic data, but falls outside core focus on progress, AI, or craft."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "short summary of GPT-6 Astra and why it doesn’t bail OpenAI out of its economic mess: Posted Sep 14, 2026 at 1:09PM",
+  "why": "Skeptical assertions about OpenAI's economics, but lacks the rigorous financial analysis or real numbers you prefer."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "dnapway",
-  "via": "Noahpinion",
-  "text": "Sam Altman says Trump and Xi would win the Nobel Peace Prize for a one-page AI agreement “I think Presidents Trump and Xi would get the Nobe",
-  "why": "Just a raw quote from Sam Altman about geopolitics; lacks analytical depth."
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "fortelabs",
+  "via": null,
+  "text": "Most AI advice right now is a pile of disconnected tips. A prompt here, a shortcut there, none of it building toward anything. The AI Second",
+  "why": "Intersects tools-for-thought and AI, but reads too much like a promotional funnel for a creator-economy course."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "RushDoshi",
-  "via": "Noahpinion",
-  "text": "This feels like a milestone moment in Trump China policy. There are credible reports that China’s provision of satellite imagery to Iran may",
-  "why": "Pure geopolitical commentary outside the core focus areas of AI, progress, or craft."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "bryceadams",
+  "via": "asmartbear",
+  "text": "I had such a fun time chatting with Jason and Carl! We spent a few hours in the weeds, but emerged with clarity and direction. Check it out ",
+  "why": "Jason Cohen is great for builder wisdom, but this is a video-only podcast format which you usually avoid."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 2,
+  "score": 3,
   "topic": "builders-craft",
-  "author": "bryceadams",
-  "via": "asmartbear",
-  "text": "New Smart Bear Live E06 just dropped! Ymir's 25 customers never churn, and nobody new ever signs up. Cohost @bryceadams (Metorik) and I work",
-  "why": "Video-only content, which falls into the anti-taste category for this reading format."
+  "author": "temporalio",
+  "via": "swyx",
+  "text": "We did it again. Temporal just raised a $550M Series E round at a $12.55B valuation. Learn more about how we got here: temporal.io/blog/temp",
+  "why": "Pure funding announcement; lacks substantive engineering or builder insights."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "SawyerMerritt",
-  "via": "tobi",
-  "text": "Barron's Al Root: Boy, we were wrong about SpaceX. \"We said that SpaceX was the big loser in its February merger with xAI. Now, it looks as ",
-  "why": "Mostly Elon Musk fan-posting and media dunking; lacks substantive analysis of progress or engineering."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "neeratanden",
+  "via": "GaryMarcus",
+  "text": "A good question to ask Open AI is why Sam Altman said on Saturday that he supported federal regulation if his super pac is spending hundreds",
+  "why": "Focuses on political lobbying and legislative drama rather than technical or philosophical substance."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "awilkinson",
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "Update: highest bid is $50,000 🔥 Posted Sep 13, 2026 at 10:03PM",
-  "why": "Self-promotional auction update; irrelevant to core reading interests."
+  "text": "Thread for model welfare-style considerations and points around either Fable 5.1 or Astra. I have a backlog, but I have not forgotten about ",
+  "why": "Just a placeholder tweet for a future thread; no actual substance to read yet."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "I’m in London tonight - calling all fans of RPI software factories slopcodebench show-me solving hard problems with coding agents And of cou",
+  "why": "Local meetup announcement in London; not a long-form insight piece."
  }
 ]
