@@ -3,71 +3,71 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Jack_W_Lindsey",
-  "via": "ch402",
-  "text": "Replying to @bayeslord Here are the questions that currently seem most important to me: -- Better methods for \"mind-reading\" model activatio",
-  "why": "Excellent, rigorous breakdown of the frontier of LLM interpretability and methodological challenges in evals."
+  "topic": "frontier-ai",
+  "author": "kesvelt",
+  "via": "Noahpinion",
+  "text": "Some scientists argue civilization-threatening bioweapons are a fantasy. I wish they were correct, and that I've wasted years building defen",
+  "why": "Deeply substantive, expert analysis from Kevin Esvelt on biological existential risk and AI. Incredible density of insight."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "rationality",
-  "author": "DKThomp",
+  "topic": "contemplative",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Briefly, on why I pay attention to the EA/rationalists: Imagine you have an extremely nerdy friend who, in the mid-2000s, would not shut up ",
-  "why": "Brilliant, nuanced reflection on the EA/rationalist community's track record of predicting the AI boom despite their eccentricities."
+  "text": "Posted Sep 16, 2026 at 11:24PM",
+  "why": "Anil Seth on synthetic biology and 'xenocortical mice'. Hits the absolute core of your AI x consciousness x philosophy interest."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "MackenZ_arnold",
-  "via": "random_walker",
-  "text": "My toxic trait is loving even-handed, ecumenical takes. And @sayashk and @random_walker supply them in spades. A few thoughts and reactions:",
-  "why": "Superb synthesis of Kapoor and Narayanan's pragmatic, middle-ground approach to AI safety, control, and cybersecurity."
+  "author": "mstockton",
+  "via": "Vtrivedy10",
+  "text": "Folks - there’s not shortcuts here. You need to have data, you need to understand it, you need to clean it, you need to use it properly, you",
+  "why": "Excellent reminder that data and evals remain the true bottleneck for agent improvements. High signal for evals-as-discipline."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "This is our reality. I suppose we have to talk about it. Everyone in a position to know is freaking out about AI potentially killing everyon",
-  "why": "Zvi's detailed, rationalist analysis of the sudden politicization of AI safety and the strategic need for non-partisanship."
+  "text": "Machine Learning 101 “garbage in garbage out” is actually so undefeated 😮‍💨 Every time I embark on the quest of trying to improve some agent",
+  "why": "Excellent reminder that data and evals remain the true bottleneck for agent improvements. High signal for evals-as-discipline."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "It is also telling and interesting that this criticism that is much more in line with the beliefs and priorities of the tech sector has come",
-  "why": "A concise, validated summary of Acemoglu's economic critique of AGI-centric development versus pro-worker AI diffusion."
+  "topic": "frontier-ai",
+  "author": "OpenAI",
+  "via": "davideoks",
+  "text": "We're sharing our new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI. The framework sets cr",
+  "why": "OpenAI's new framework for disclosing model misalignment. Crucial reading for frontier labs and alignment."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "You have scars. Embrace them scars; they’re part of who you are, and what makes you unique. But they also create blind spots and weaknesses;",
-  "why": "Excellent builder-operator wisdom from Jason Cohen on how past experiences create both unique strengths and blind spots."
+  "topic": "ai-essays",
+  "author": "thegautamkamath",
+  "via": "random_walker",
+  "text": "Nihar Shah did a heroic experiment for TMLR: he spent 20-25 hours over two weeks interviewing authors of seemingly low-quality submissions a",
+  "why": "Fascinating postmortem on AI paper mills and the lack of rigor in submissions. Great substantive skepticism."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ramez",
-  "via": "GaryMarcus",
-  "text": "This is one of the best thought out and explained AI safety policy & legislation proposals I've seen. We need an equivalent of the NTSB for ",
-  "why": "Highly substantive policy proposal advocating for an NTSB-style Cyber Safety Review Board for AI incidents."
+  "topic": "econ-progress",
+  "author": "emollick",
+  "via": null,
+  "text": "Google has been on a roll recently in releasing really interesting papers taking AI seriously and considering the policy implications. Poste",
+  "why": "Ethan Mollick highlighting Google's serious look at AI's economic policy implications (UBI, EITC). High signal."
  },
  {
   "rank": 8,
@@ -76,357 +76,327 @@
   "topic": "frontier-ai",
   "author": "GaryMarcus",
   "via": null,
-  "text": "excellent and timely policy ideas from the always-lucid @asad09 Posted Sep 16, 2026 at 12:50PM",
-  "why": "Highly substantive policy proposal advocating for an NTSB-style Cyber Safety Review Board for AI incidents."
+  "text": "i will say again that METR is a fine organization that should have a seat at the table but not the only seat at the table. if you care to kn",
+  "why": "Important context on METR's third-party evals and funding. High signal for frontier AI alignment and evals."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "HoffProf",
-  "via": "random_walker",
-  "text": "AI flooding of administrative agencies and trial courts is a huge problem, and is driving adjudicators to use AI tools in response. Slop for",
-  "why": "Sharp observation on one of the most insidious near-term AI harms: the systemic flooding of communication and legal channels."
+  "topic": "frontier-ai",
+  "author": "nicbstme",
+  "via": null,
+  "text": "38 GW by 2032! I think the most important ingredient in recursive self improvement for AI is compute. RSI is basically thousands of agents r",
+  "why": "Great synthesis of how massive compute scaling fuels recursive self-improvement via parallel agentic experiments."
  },
  {
   "rank": 10,
-  "kept": false,
+  "kept": true,
   "score": 8,
   "topic": "ai-essays",
-  "author": "danielledonfro",
-  "via": "random_walker",
-  "text": "This strikes me as correct. I wonder what legal notice will/should look like when no one 1) opens mail; 2) answers their phone; 3) listens t",
-  "why": "Fascinating extension of the 'AI flood' concept, questioning how legal notice and societal trust function when all channels are spammed."
+  "author": "TmlrOrg",
+  "via": "sh_reya",
+  "text": "TMLR has faced a deluge of submissions, necessitating stricter desk rejection policies due to limited reviewer capacity Co-EiC Nihar Shah re",
+  "why": "Fascinating postmortem on AI paper mills and the lack of rigor in submissions. Great substantive skepticism."
  },
  {
   "rank": 11,
-  "kept": true,
+  "kept": false,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "finkd",
-  "via": "WillManidis",
-  "text": "Last month I wrote about how we can build a positive and safe future for everyone: meta.com/thefutureisfor… Every lab has the responsibility",
-  "why": "Essential primary source: Zuckerberg outlining Meta's strategic and philosophical stance on open weights, alignment, and liability."
+  "author": "Marcus_J_W",
+  "via": "DKokotajlo",
+  "text": "🧵 Excited to share the first batch of 6 misalignment reports from OpenAI's new disclosure process for misalignment incidents. We want to be ",
+  "why": "Direct source for OpenAI's first batch of misalignment reports. Essential for alignment tracking."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "packyM",
   "via": null,
-  "text": "the only intellectually substantive critique of METR’s actual work that I have seen – and it’s a good one. Posted Sep 16, 2026 at 3:59PM",
-  "why": "Sharp critique of METR's methodology, highlighting the blind spot of ignoring human/executive error in AI incidents."
+  "text": "f it. pacing the frontier: the video game notboring.com/pacing Your browser does not support the video tag. Posted Sep 16, 2026 at 9:52PM",
+  "why": "Packy McCormick building an interactive PKM library with AI. Perfect hit for tools-for-thought."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "politicalmath",
-  "via": "naval",
-  "text": "I recently wrote in frustration that labs don't face liability if they screw up and that's one of the biggest problems Slowdown or not, we n",
-  "why": "Substantive debate on AI liability and the strategic posturing between open-weight and frontier labs."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Kafka's approach to creative block and the four psychological hindrances that keep the gifted from living up to their gift themarginalian.or",
+  "why": "Kafka on creative block and self-doubt. Great contemplative piece on the psychology of creators."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "mylandros",
-  "via": "DAcemogluMIT",
-  "text": "Replying to @DAcemogluMIT Having read the summary, i found it super-convincing, if this is indeed a correct summary. In particular, that the",
-  "why": "Strong synthesis of Acemoglu's pro-worker AI thesis and practical observations on AI diffusion in China."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Virginia Woolf on the courage to create rather than cater and the remedy for self-doubt themarginalian.org/2022/09/16/vir… Posted Sep 17, 20",
+  "why": "Virginia Woolf on the courage to create. Fits your interest in intentional living and the builder's craft."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to grow old – wisdom from beloved creative titans, from Ursula K. Le Guin to Nick Cave themarginalian.org/2025/12/29/gro… Posted Sep 16,",
-  "why": "Timeless contemplative curation on aging and intentional living from a consistently high-signal source."
+  "topic": "frontier-ai",
+  "author": "petergostev",
+  "via": "GregKamradt",
+  "text": "Based Posted Sep 16, 2026 at 10:09PM",
+  "why": "OpenAI's new framework for disclosing model misalignment, though the quote commentary is thin."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-essays",
+  "author": "catehall",
   "via": null,
-  "text": "Virginia Woolf on creativity themarginalian.org/2026/09/16/vir… Posted Sep 16, 2026 at 2:04PM",
-  "why": "High-quality contemplative curation on creativity and the inner life from a trusted source."
+  "text": "Holy fucking shit Posted Sep 16, 2026 at 11:13PM",
+  "why": "Real numbers on the dramatic increase in public fear regarding AI's impact on jobs and humanity."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "WillManidis",
-  "via": null,
-  "text": "underrated the degree to which our world resembling SA was a treatment versus a selection effect. i don't think it is necessarily true that ",
-  "why": "Insightful meta-commentary on how Leopold's 'Situational Awareness' created a self-fulfilling vocabulary for AI geopolitics."
+  "topic": "builders-craft",
+  "author": "mvernal",
+  "via": "WillManidis",
+  "text": "One of the crazier facts about venture is that it seems consistently possible to build a small community of college-aged kids that is incred",
+  "why": "Interesting observation on talent density and venture communities. Fits your interest in education and builders."
  },
  {
   "rank": 18,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "lumpenspace",
-  "via": "erikphoel",
-  "text": "fun fact: teller gave the bomb a safety margin of 1.6; fermi (half-jokingly) a 10% chance of igniting the atmosphere. as it turns out, telle",
-  "why": "Erik Hoel brings a strong philosophical and historical lens to the argument for banning superintelligence."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "BrianAcity",
-  "via": "naval",
-  "text": "Replying to @naval @naval Judge Glock makes this argument in his new piece: city-journal.org/article/ai-saf… Posted Sep 16, 2026 at 2:51PM",
-  "why": "Points to a potentially useful legal analysis of AI safety and tort claims, relevant to liability debates."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "In lots of 80s/early 90s profiles of quantitative investors, there's a list of the general strategies they used, and a surprisingly common o",
-  "why": "Interesting financial history from Byrne Hobart, though slightly tangential to core tech/econ progress themes."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "jackclarkSF",
-  "via": null,
-  "text": "saying weird stuff about AI and the singularity The Anthropic Institute 🤝 the DeepMind Institute Posted Sep 16, 2026 at 2:38PM",
-  "why": "Notable signal on how frontier labs are institutionalizing AGI research, though mostly an announcement."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "I am very happy to see this wide ranging review from Jacobin. The review does a good job of summarizing my arguments, and its criticisms are",
-  "why": "Points to a thoughtful, critical review of Acemoglu's institutional thesis on AI and labor."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "And yet so far as I know not one new actual mathematical insight What this really reveals is that Altman doesn’t know the first thing about ",
-  "why": "Sharp pushback on OpenAI's mathematical reasoning hype, distinguishing between brute-force verification and true insight."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "she tried to warn the “AI safety” people that they were creating a mess. welp, here we are. Posted Sep 16, 2026 at 12:25PM",
-  "why": "Strong critique of how tying AI safety to the EA/rationalist movement overpoliticizes and damages the field."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "TaylorSicard",
-  "via": "tobi",
-  "text": "The Shopify Catalog API is how your products surface inside AI agents. Clean, identifier-rich, structured data gets recommended. Thin or ima",
-  "why": "Practical look at how structured data and APIs will surface products to AI agents in the near future."
- },
- {
-  "rank": 26,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Roots and the meaning of life themarginalian.org/2026/03/15/roo… Posted Sep 16, 2026 at 11:42AM",
-  "why": "Beautiful contemplative piece on rootedness and meaning, though slightly less actionable than other selections."
+  "text": "If you find yourself feeling like you are waiting to start living, this poem is for you: themarginalian.org/2025/01/10/no-… Posted Sep 17, 2",
+  "why": "A contemplative poem on intentional living and not waiting to start your life."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "_can1357",
+  "via": null,
+  "text": "with omp 18.2.3, you can mention a model with ^ to turn it into a spawnable subagent! we received many requests for allowing the model to be",
+  "why": "In-the-weeds update on spawning subagents in Open Interpreter. Good applied AI engineering."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to promise and how to keep promises from breaking themarginalian.org/2026/09/16/how… Posted Sep 16, 2026 at 11:02PM",
+  "why": "Contemplative piece on the nature of promises and intentional living."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "judegomila",
+  "via": "naval",
+  "text": "I've attempted to map everything in oncology in a public website and open source repo for all. The site is trying to get all cancers, produc",
+  "why": "Impressive open-source mapping of oncology, though slightly outside your core focus areas of AI, education, and economics."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "What?! Star Wars Star Trek Wall-E Westworld A.I. Short Circuit The Jetsons Posted Sep 17, 2026 at 1:52AM",
+  "why": "Discussion on how dystopian sci-fi shapes AI policy, though the tweet itself is mostly a list of movies."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Who you gonna believe? In my latest, I dissect lies and dubious claims across the political spectrum and then makes some suggestions about h",
+  "why": "Gary Marcus dissecting AI claims. A bit heavy on the dunking, but relevant to AI skepticism."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "WillManidis",
+  "via": null,
+  "text": "every anglo must have their Arabist era Posted Sep 16, 2026 at 9:23PM",
+  "why": "Will Manidis highlighting a podcast on venture history and exceptional builders. Good, but mostly a promo."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "GPT-6 Astra is an obviously broken product that needs to be taken off the market until it’s fixed. Posted Sep 16, 2026 at 11:23PM",
+  "why": "Skepticism of OpenAI's safety testing, but leans more toward dunking than substantive analysis."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "pbakaus",
+  "via": "swyx",
+  "text": "If you're interested in the origin story of Impeccable and the philosophy of it, here's my talk on the subject from @aiDotEngineer world fai",
+  "why": "Video-only talk announcement; skipping per your anti-taste rules."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "Brendan_McCord",
-  "via": "jasoncrawford",
-  "text": "Introducing Cosmos Ventures. @_MattMandel and I are launching Fund I with $77.6M to back philosopher-builders founding institutions for the ",
-  "why": "Fund launch announcement with some philosophical framing, but ultimately lacks dense, actionable insight."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "AndrewCurran_",
+  "via": "itsurboyevan",
+  "text": "An unreleased Astra-family model added this to its persona during RL training. Posted Sep 16, 2026 at 10:21PM",
+  "why": "Just a meme/joke about the OpenAI misalignment framework."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "HeidyKhlaaf",
-  "via": "GaryMarcus",
-  "text": "It was great to speak to the @guardian alongside many other critical voices (e.g., @ProfWoodward and @GaryMarcus ) about the unsubstantiated",
-  "why": "Standard skepticism of AI extinction claims; lacks the deep technical or novel analysis preferred."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "TheStalwart",
+  "via": "Noahpinion",
+  "text": "AI is probably the biggest issue in politics right now, on several dimensions from jobs to geopolitics. And unfortunately AOC's discussion o",
+  "why": "Political dunking on AI policy rather than substantive economic analysis."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "good test of whether AI safety promises from the industry are real or just lip service. Posted Sep 16, 2026 at 12:26PM",
-  "why": "A somewhat generic wishlist of demands for AI labs; lacks the rigorous analysis preferred."
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "thaiscbranco_",
+  "via": "swyx",
+  "text": "How do we end AI slop? To fix it, you gotta measure it first. Thanks for having me @swyx @aiDotEngineer ! youtube.com/watch?v=sDMGWK… Posted",
+  "why": "Video-only talk announcement; skipping per your anti-taste rules."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 4,
+  "score": 2,
   "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Totally agree that AI safety has been too tied up with a various specific movement that is not as rational as their name might suggest. But,",
-  "why": "Too focused on the culture-war drama surrounding EA/rationalists rather than substantive AI safety arguments."
+  "author": "stephenfhayes",
+  "via": "Noahpinion",
+  "text": "From @KarlRove , a well-crafted excoriation of the GOP's ever-growing bigot/nut wing. wsj.com/opinion/why-im… Posted Sep 16, 2026 at 11:21PM",
+  "why": "Pure political commentary; skipping per your anti-taste rules."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "“Most generations inherit their world. Some must build it anew.” Cosmos Ventures launches a $77.6M fund: Posted Sep 16, 2026 at 2:20PM",
-  "why": "Fund launch announcement; despite the philosophical framing, it lacks dense, actionable insight."
+  "score": 2,
+  "topic": "rationality",
+  "author": "JohnCornyn",
+  "via": "Noahpinion",
+  "text": "Why I’m Voting for a Texas Democrat by @KarlRove wsj.com/opinion/why-im… via @WSJopinion Posted Sep 16, 2026 at 11:30PM",
+  "why": "Pure political commentary; skipping per your anti-taste rules."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "HawleyMO",
-  "via": "GaryMarcus",
-  "text": "Hawley, Blumenthal lead bipartisan moment on Capitol Hill, ask Senate to vote on AI regulation bill axios.com/2026/09/15/ai-… Posted Sep 16,",
-  "why": "Standard political news update on AI regulation without deep analytical commentary."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "The best time to join Runway was yesterday. The second best time is tomorrow. Welcome @nithinaray ! Posted Sep 16, 2026 at 10:11PM",
+  "why": "Pure announcement post; skipping per your anti-taste rules."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "MITshapingwork",
-  "via": "DAcemogluMIT",
-  "text": "We asked co-director Simon Johnson how things have changed since his book \"Power and Progress\" (co-authored with @DAcemogluMIT ) came out in",
-  "why": "Video-only AMA promo; lacks the dense text format preferred for reading."
+  "score": 1,
+  "topic": "rationality",
+  "author": "neoavatara",
+  "via": "Noahpinion",
+  "text": "We've seen this so many times before. These groups rise, cause damage, are crushed, and then normal Americans have to pick up the pieces. Po",
+  "why": "Culture-war politics; skipping per your anti-taste rules."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "moretothat",
-  "via": null,
-  "text": "I’m excited to share my new venture: More To Build! Over the past few months, I’ve been knee-deep in the world of AI. At first I was fearful",
-  "why": "Mostly a promotional post for a new cohort-based course, lacking dense standalone insight."
+  "score": 1,
+  "topic": "rationality",
+  "author": "leahfiles",
+  "via": "Noahpinion",
+  "text": "People keep saying Trump term II is the most corrupt administration ever, so I built a model to find out if it was true. I took the UN's def",
+  "why": "Political rage-bait; skipping per your anti-taste rules."
  },
  {
   "rank": 35,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "faizan10114",
-  "via": "asmartbear",
-  "text": "For everyone, building solo, new and old. This is a must listen. Also, was surprised to hear the Montreal accent on audio, only to find out ",
-  "why": "Video/audio content, which falls into the anti-taste category for this text-heavy reading list."
+  "score": 1,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Bruh I tried to warn you Posted Sep 16, 2026 at 11:28PM",
+  "why": "Gossip and engagement bait; skipping per your anti-taste rules."
  },
  {
   "rank": 36,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "WillManidis",
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "there are very few decisions that you'll make in your life that actually matter. if you're lucky, maybe 2-3 every decade. joining drf was on",
-  "why": "Personal nostalgia about a specific venture fellowship; lacks broader insights."
+  "text": "Yes. Around the time liberalism gave way to \"progressivism\", people on the left started being wrong about a ton of stuff. Back in 2010, Demo",
+  "why": "Culture-war politics; skipping per your anti-taste rules."
  },
  {
   "rank": 37,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "AEI",
-  "via": "crmiller1",
-  "text": "Tomorrow, AEI’s @crmiller1 will host @jacobhelberg , the architect of Pax Silica, the State Department’s flagship coalition for securing the",
-  "why": "Just an event announcement, lacks standalone insight."
+  "score": 1,
+  "topic": "rationality",
+  "author": "CurtisHouck",
+  "via": "Noahpinion",
+  "text": "University of Texas-Austin student and American citizen Dhairya Gupta on Bo French saying America should be “prioritizing Americans” and not",
+  "why": "Culture-war politics; skipping per your anti-taste rules."
  },
  {
   "rank": 38,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "packyM",
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "The cartels hate to see Eli with 25 fresh million. Posted Sep 16, 2026 at 3:16PM",
-  "why": "Standard Series B funding announcement without deeper technical or philosophical insight."
+  "text": "The anti-Indian idiots have really convinced themselves that Indians are a bunch of dumdums despite out-earning every other ethnic group in ",
+  "why": "Culture-war politics; skipping per your anti-taste rules."
  },
  {
   "rank": 39,
   "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "michaelpollan",
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Great review of (wife) Judith Belzer's Walking Project: Animal, Vegetable, Mineral - The Brooklyn Rail brooklynrail.org/2026/09/artsee… Post",
-  "why": "Personal promotion of a spouse's art exhibition; off-topic."
+  "text": "The New Right sees the world as a zero-sum collective competition between racial groups. This is why they will fail. They are not nation-bui",
+  "why": "Culture-war politics; skipping per your anti-taste rules."
  },
  {
   "rank": 40,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "dexhorthy",
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Oh snap there’s a whole village in Hungary dedicated to no more slop en.wikipedia.org/wiki/Noszlop nice find @_dhamidi Posted Sep 16, 2026 a",
-  "why": "Just a quick joke about a town name; no substance."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 1,
-  "topic": "ai-engineering",
-  "author": "Love2Code",
-  "via": "thorstenball",
-  "text": "I'm looking for my next role, in Montreal or remote! My background spans compilers, systems, and AI research. I'd welcome introductions, lea",
-  "why": "Personal job search post, not relevant for a curated reading list."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": null,
-  "text": "ATTENDING: @threepointone of @partykit_io will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.t",
-  "why": "Pure event promotion with no substantive content."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "patrickc",
-  "via": "mitsuhiko",
-  "text": "A quick EU founder survey: eusurvey.vercel.app . Posted Sep 16, 2026 at 12:22PM",
-  "why": "Bare link to a survey, no insights provided."
+  "text": "These idiots keep on robotically repeating the same crap. But America isn't going to fall for it. Posted Sep 16, 2026 at 9:15PM",
+  "why": "Culture-war politics; skipping per your anti-taste rules."
  }
 ]
