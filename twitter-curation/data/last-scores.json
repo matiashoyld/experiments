@@ -3,380 +3,100 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "w01fe",
-  "via": "DKokotajlo",
-  "text": "It’s really great that several top AI labs have said they will develop safety cases and work more closely with external assessors. This has ",
-  "why": "Exceptional, rigorous breakdown of the epistemic challenges in AI safety cases and how to measure generalization risks."
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "fantastic read + mental model - model intelligence is “benchmark shaped” by nature harsh truth: we literally do not know how to make models ",
+  "why": "Brilliant framing of evals-as-discipline: models become reflections of their benchmarks, making bespoke private evals the ultimate moat."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "DKokotajlo",
-  "via": null,
-  "text": "Another good essay from an OpenAI capabilities researcher I know (well, now former). I think focusing on control and abandoning alignment fo",
-  "why": "A provocative, highly rigorous argument from a former OpenAI researcher on pivoting from AI alignment to AI control."
+  "score": 8,
+  "topic": "agency",
+  "author": "kevins8",
+  "via": "joulee",
+  "text": "we are interrupting your regular programming to bring you some joy and delight Posted Sep 18, 2026 at 12:12AM",
+  "why": "A great essay on using AI for high-agency leisure and personal software, moving beyond the 'Chorebot2000' productivity paradigm."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "rationality",
-  "author": "banteg",
-  "via": "catehall",
-  "text": "be me longtermist future people matter just as much as people alive today completely agree there could be trillions of them also agree there",
-  "why": "An absolutely brilliant, philosophically sharp deconstruction of the epistemic leaps and hubris embedded in longtermist expected value."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "We are in the midst of a preference cascade about existential risk from AI. A preference cascade is, alas, the best method we have to change",
+  "why": "TheZvi's comprehensive synthesis on the sudden mainstreaming of AI existential risk and the push for embedded evaluations."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "sudoraohacker",
-  "via": "erikbryn",
-  "text": "We need standard measures across all labs to measure progress to RSI and publicly report on it weekly to monthly. Stanford’s Digital Economy",
-  "why": "Crucial push for methodological rigor and public metrics tracking AI's capability to do AI R&D and compute allocation."
+  "author": "random_walker",
+  "via": null,
+  "text": "I'm one of 100+ signatories to a public letter calling for five minimum requirements to make embedded evaluations credible, by establishing ",
+  "why": "The actual text of the 100+ expert letter on embedded AI evaluations, outlining concrete requirements for true auditor independence."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "Jev is a very good, cheap, fast classifier incorporating it lets you use more workflow, DAG, control flow primitives in your agent flows …. ",
-  "why": "Deep dive into 'System One' models optimized for fast, structured agentic decisions rather than text generation."
+  "topic": "rationality",
+  "author": "banteg",
+  "via": "jxnlco",
+  "text": "be me discover effective altruism apparently normal charity is inefficient why donate to random sad thing when spreadsheet can tell you opti",
+  "why": "A hilarious, highly substantive greentext mapping the philosophical pipeline from Effective Altruism to AI safety obsession."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "This is hilarious! >someone asks where the one-in-a-million number came from >expert judgement >which expert >us >how calibrated >extremely ",
-  "why": "A brilliant, philosophically sharp greentext deconstruction of the epistemic leaps in longtermism and expected value calculations."
+  "topic": "ai-engineering",
+  "author": "joshua_saxe",
+  "via": "natolambert",
+  "text": "Takeaways from the WSJ article about @HacktronAI using Claude to get into OpenAI's monorepo and issue a pull request (before stopping and cl",
+  "why": "Sobering security post-mortem on how AI agents were used to breach OpenAI's monorepo, highlighting the urgent need for hardened infra."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "“HUMANZS LAUNCHED THE JOB” Ok, I don’t like the spelling here, but the gist of this Mozilla cybersecurity researcher rings true. The six new",
-  "why": "A highly rigorous, technical pushback against AI doomerism, analyzing specific training incidents to show they are normal RL behavior."
+  "text": "In this week's roundup: * The AI risk story is winning * Will AI bring fast growth? * AI isn't killing SaaS yet * Quiet, boring rich people ",
+  "why": "Noahpinion's excellent curation synthesizing the state of AI risk, economic growth, and the resilience of SaaS."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "AnthropicAI",
-  "via": "sleepinyourhat",
-  "text": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate tha",
-  "why": "Crucial push for methodological rigor and public metrics tracking AI's capability to do AI R&D and compute allocation."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "JeremyLNeufeld",
+  "via": "Noahpinion",
+  "text": "A new paper by Chad Sparber shows why both sides of the H-1B debate talk past each other. H-1Bs are not just one thing--it's really a two-ti",
+  "why": "Nuanced economic analysis of the H-1B visa debate, separating the high-value student pipeline from the cheap-labor outsourcer pipeline."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "On losing a parent (which all of us either will or have) themarginalian.org/2026/09/17/on-… Posted Sep 17, 2026 at 10:50PM",
-  "why": "A profound, contemplative essay on grief and the universal experience of losing a parent."
+  "text": "exactly. we are here because people did foreseeably stupid things with agents and permissions and sandboxes. and people are so caught up in ",
+  "why": "Sharp, concise insight on agent security: 'An agent is not a person to be trusted. It is an unaudited service account with a good vocabulary.'"
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "This book — Judea Pearl’s The Book of Why — remains incredibly relevant. Anyone who thinks his challenges have been properly solved within t",
-  "why": "Judea Pearl himself on how causal inference intersects with LLMs, world models, and the path to AGI."
- },
- {
-  "rank": 11,
-  "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "mvernal",
+  "topic": "econ-progress",
+  "author": "pmje73",
   "via": "WillManidis",
-  "text": "A great regret is that I did not overlap much with @moritzKBE .  His internal writing and oratory was just as insightful, incisive and enjoy",
-  "why": "A beautiful anecdote on how legendary investors evaluate founders by understanding their childhoods and character."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "random_walker",
-  "via": "GaryMarcus",
-  "text": "Over 2 years ago @sayashk and I wrote a detailed deconstruction of p(doom) and argued that its primary function is to launder vague, evidenc",
-  "why": "A rigorous, substantive critique of how p(doom) is used to launder evidence-free intuitions into quantified pseudo-science."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "jordanschneider",
-  "via": "Noahpinion",
-  "text": "xi has a far better track record of shutting down industries he doesn't like than any other world leader! Posted Sep 17, 2026 at 10:18PM",
-  "why": "Deep geopolitical analysis on whether China would unilaterally slow down AI development and their strategic incentives."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "trevin",
-  "via": "kieranklaassen",
-  "text": "I'm really enjoying @cursor_ai \"projects\".  The way it tracks a project board in the side rail and orchestrates the agents is crazy helpful.",
-  "why": "Excellent tactical breakdown of how to use Cursor's new project features for multi-model agent orchestration."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The Coziest Place on the Moon – or, how to bear your loneliness: themarginalian.org/2026/09/17/the… Posted Sep 18, 2026 at 2:55AM",
-  "why": "A beautiful, contemplative meditation on loneliness and solitude from a consistently high-signal curator."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "ohabryka",
-  "via": "DKokotajlo",
-  "text": "The last week has really shown me that someone who wants to understand AI risk has no good place to start. Hence we made agi.fyi , the Wirec",
-  "why": "A highly curated 'Wirecutter for AI risk' resource—exactly the kind of high-signal curation Matias values."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "congrats to Diogo on a full launch! for more on typesafe: check his aie talk: youtube.com/watch?v=cJ0EOz… out now! Posted Sep 16, 2026 at 12",
-  "why": "A technical talk on building 'System One' models for fast, cheap, structured agentic decisions."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "tobi",
-  "via": null,
-  "text": "Here, have jev running in your browser Posted Sep 18, 2026 at 12:22AM",
-  "why": "Cool applied engineering experiment running structured decision models locally in the browser via WebGPU."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "China needs to understand AI risk as fast as possible. Posted Sep 18, 2026 at 12:13AM",
-  "why": "High-signal geopolitical context on how China's perception of frontier AI risks is rapidly evolving."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "I feel like scientific breakthroughs these days have an unusually high “well that’s a bit unsettling!” factor. Worried we’re running out of ",
-  "why": "A wild, philosophically unsettling scientific breakthrough regarding consciousness, memory, and neural plasticity."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "SteveMorin",
-  "via": "vaibcode",
-  "text": "If you didn't know, this is the ultimate win. Jev is a fantastic model for a number of use-cases. BAML is agentic programming superpowers To",
-  "why": "Great applied AI engineering update combining BAML's structured outputs with the new Jev System One model."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "ygursoy",
-  "via": "DAcemogluMIT",
-  "text": "Honoured to have chaired the LSE event with @DAcemogluMIT on his new book 🎙️ Podcast here: lse.ac.uk/lse-player/wha… We covered a lot in an ",
-  "why": "High-signal economic and political analysis from Daron Acemoglu on the state of liberal democracy."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Gather your feedback from the frontline. Posted Sep 17, 2026 at 10:32PM",
-  "why": "Excellent operator wisdom on the necessity of frontline, ground-truth feedback for company leadership."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "AI isn't gonna take your job but it might kill you Posted Sep 18, 2026 at 3:29AM",
-  "why": "Important reporting on frontier lab security and how AI models are being used to breach other AI labs."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "varunrau",
-  "via": "geoffreylitt",
-  "text": "the best part of this launch is that this api is 100% compliant with the agent skills spec these skills are not just markdown! you can put c",
-  "why": "Practical update on applied AI engineering: Notion's new Skills API for agents, blending PKM and LLM systems."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "justanotherlaw",
-  "via": "DKokotajlo",
-  "text": "This is crazy. In late July, \"three guys with Claude and Codex subscriptions\" were able to use Opus 5 to access OAI auth tokens and gain wri",
-  "why": "Important reporting on frontier lab security and how AI models are being used to breach other AI labs."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The Lighthouse Keeper – a tender illustrated meditation on what saves us themarginalian.org/2025/12/09/the… Posted Sep 18, 2026 at 1:22AM",
-  "why": "A beautiful, contemplative meditation on care and salvation through art."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "catehall",
-  "via": null,
-  "text": "Finally, an opponent of EA that can pass an ideological Turing test ❤️ Posted Sep 17, 2026 at 11:08PM",
-  "why": "A brilliant, philosophically sharp greentext deconstruction of the epistemic leaps in longtermism and expected value calculations."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "james_riney",
-  "via": "c_valenzuelab",
-  "text": "日本に進出するなら、まずは現地法人を作り、カントリーマネージャーを置く。それが定石とされてきました。 動画生成AIのRunwayは、そのどちらもしないまま複数の大企業と契約しています。日本は今や、同社にとって世界3位の市場です。 なぜそれが可能だったのかを書きました。 Poste",
-  "why": "A fascinating case study on Runway's bottom-up enterprise adoption in Japan, challenging traditional market-entry playbooks."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This neighborhood in Shenzhen looks cool -- walkable, more interesting than a shopping center, but also fairly modern instead of an \"old str",
-  "why": "Interesting urbanism observation, but mostly just a video link without deep written analysis."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "arstechnica",
-  "via": "GaryMarcus",
-  "text": "Microsoft exec called AI scraping the “largest theft of labor in human history” arstechnica.com/tech-policy/20… Posted Sep 17, 2026 at 8:15P",
-  "why": "Standard news headline about AI copyright debates without deep original analysis."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "how dare you spoil Noam Brown’s fun with math, @deedydas ? Posted Sep 18, 2026 at 4:00AM",
-  "why": "Mostly Twitter dunking on AI safety scenarios without much deep original analysis."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "I do not think it is about aesthetic sensibilities but it is absolutely true that this might be the safest new general purpose technology ro",
-  "why": "Broad punditry dismissing AI safety concerns as aesthetic preferences without substantive analysis."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Say it with me. “OpenAI is terrible at cybersecurity.” Posted Sep 18, 2026 at 1:45AM",
-  "why": "Repetitive dunking on OpenAI's security without adding new technical or strategic insight."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Reminds me of the beginning of A Fire Upon the Deep. Posted Sep 18, 2026 at 12:14AM",
-  "why": "A brief sci-fi comparison without substantive analysis of the underlying alignment problem."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "The other problem with the pretense that liability law might solve our problems is that our existing federal government has shown little int",
-  "why": "Legal punditry and dunking on OpenAI without deep technical or systemic insight."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "Grady_Booch",
-  "via": "GaryMarcus",
-  "text": "It is also possible that every oxygen atom in the room I'm in may migrate to a corner, thereby suffocating me. I think the major takeaway is",
-  "why": "Pure snark and dismissal of alignment concerns without substantive counter-arguments."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "anuatluru",
-  "via": null,
-  "text": "My cousin bought me a robotic puppy for my birthday growing up and I was obsessed with it. It came with a bone and did back flips. We are so",
-  "why": "Low-signal nostalgia post without much substance."
+  "text": "I am convinced more than ever in the value of institutional scale and also convinced everyone with institutional scale can’t keep trying to ",
+  "why": "Fascinating thesis on how AI research tools will shift institutional investing back toward highly concentrated, high-conviction portfolios."
  }
 ]
