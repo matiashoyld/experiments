@@ -2,12 +2,12 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "parenting-education",
-  "author": "p_kuperman",
-  "via": "C_Hendrick",
-  "text": "I put this together from facts stated on podcasts interviewing mostly Joe Liemandt. Three commitments to kids: you'll love school; you'll le",
-  "why": "Incredible deep dive into AI x learning science: mastery learning, working memory, and real numbers from a next-gen school."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "tobi",
+  "via": null,
+  "text": "MCP vs CLI for LLMs is the wrong discussion. People are debating at the wrong layer. Both work incredibly well as long as they are run throu",
+  "why": "Tobi Lutke on the future of LLM execution environments; brilliant insight into agentic state and repls."
  },
  {
   "rank": 2,
@@ -16,287 +16,337 @@
   "topic": "ai-engineering",
   "author": "Vtrivedy10",
   "via": null,
-  "text": "Jev-as-a-judge🤝 RL Environment Verifiers 🤝 way cheaper + faster RL a lot of things in Agent World look like classification problems…includin",
-  "why": "Evals-as-discipline: using new System One models for faster, cheaper, lower-variance agent evaluation."
+  "text": "every time a new step model step change happens or great primitive (like Jev) is released i grow more confident in the Unbundling and Rebund",
+  "why": "Deep architectural dive into modular AI agents, specialized harnesses, and the future of open components."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "joshua_saxe",
-  "via": "sayashk",
-  "text": "POV on catastrophic cyber risk We're in a new era, the right side of the cyber incident damages distribution will get fatter and elongated, ",
-  "why": "Sober, non-hype analysis of catastrophic AI cyber risks and the fat tail of damages from parallelized agent swarms."
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "very clear that harnesses across the industry will become specialized boxes optimized for a given task -> some bundling tooling like Jev! Mo",
+  "why": "Excellent synthesis of model jaggedness, the bitter lesson, and task-specific AI architectures."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
+  "topic": "builders-craft",
+  "author": "dexhorthy",
   "via": null,
-  "text": "It’s the week of Jev ! I’m really, really, really, really excited about it. I mean: really. It’s like someone blew up a confetti bomb in the",
-  "why": "Great builder perspective on System One models (Jev) as 'smart if-statements' that unlock new paradigms in software development."
+  "text": "everything piper just said is correct Posted Sep 21, 2026 at 12:16AM",
+  "why": "Substantive, raw skepticism about the reality of AI-generated code degrading engineering culture and craft."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "topic": "ai-essays",
+  "author": "emollick",
   "via": null,
-  "text": "Can you use Jev for Evals? Yes!  Remember that a LLM Judge is also classifier*. Make sure to test your classifiers against human labels and ",
-  "why": "Practical advice on using new classification models for LLM evals from a top applied AI practitioner."
+  "text": "I would broaden this to all social science. We are in uncharted waters. We need fast, smart research on AI that is deeply informed by AI's a",
+  "why": "Ethan Mollick on the urgent need for fast, methodologically adaptable social science research on AI."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "Vtrivedy10",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "this is such good advice, can’t recommend it enough, bro is just being real with it just do stuff to build momentum, tell ppl about it every",
-  "why": "Excellent breakdown of a common failure mode for senior engineers; high-signal career wisdom for builders."
+  "text": "sure, Trump doesn’t want to regulate AI. except when wants to send people to jail for their models. Posted Sep 20, 2026 at 8:12PM",
+  "why": "Wild, high-signal account of frontier lab negotiations with the government over model deployment and safety."
  },
  {
   "rank": 7,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "testingham",
-  "via": "ajeya_cotra",
-  "text": "What impact is AI having? I'm of the view that we should be focussing more on aggregate outputs, relatively less on inputs or intermediate p",
-  "why": "Smart framing on measuring AI's economic impact through aggregate outputs rather than intermediate proxies."
+  "topic": "ai-engineering",
+  "author": "mstockton",
+  "via": "Vtrivedy10",
+  "text": "This is what I would type up if I were able to properly distill all the random thoughts in my brain and make them coherent for people to und",
+  "why": "Strong endorsement of the unbundling/rebundling theory of AI agents and evals-as-discipline."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "lNot only is this “no moat” regime literally what I predicted in August 2023 but China maybe seems to be understanding the full implications",
-  "why": "Strong analysis on the commoditization of AI models and the shifting economic moat to the application layer."
+  "topic": "frontier-ai",
+  "author": "ChrisPainterYup",
+  "via": "catehall",
+  "text": "Replying to @Eric_Schmitt Hi Senator! I’m the President of METR. To clarify, METR is pursuing the opposite of censorship: Our goal is to mak",
+  "why": "METR's President clarifies their alignment mission and evals methodology directly to a Senator."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "Big leap here from “family meals are associated with better outcomes” to “it's because of the conversation.” Shared meals are a marker of pa",
-  "why": "Sharp skepticism of a parenting study, correctly identifying shared meals as a proxy for stable routines rather than a magic bullet."
+  "topic": "econ-progress",
+  "author": "rutgerbregman",
+  "via": "DAcemogluMIT",
+  "text": "Really great to see this: six Nobel Prize-winning economists (Duflo, Krugman, Diamond, Banerjee, Acemoglu and Stiglitz) just came out in fav",
+  "why": "Substantive essay on wealth concentration, AI power dynamics, and the economics of a billionaire tax."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "rationality",
-  "author": "slatestarcodex",
-  "via": "Noahpinion",
-  "text": "Replying to @sapinker I think you've done enough calling us paranoid and preposterous. The next step is for you to defend your position in p",
-  "why": "Scott Alexander (a favorite author) challenging Steven Pinker to a high-stakes public debate on AI safety."
+  "topic": "builders-craft",
+  "author": "tobi",
+  "via": null,
+  "text": "This is the way. Accept code on merit and ensure that a person takes accountability for it. Doesn’t matter if it was typed, chiseled, genera",
+  "why": "Fascinating debate on open source AI policies and judging code on merit vs. origin."
  },
  {
   "rank": 11,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "kept": true,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "danshipper",
   "via": null,
-  "text": "breaking: author of the study that so many “AI influencers” are taking as evidence that LLMs feel pain tells me “we don’t claim they feel pa",
-  "why": "Substantive anti-hype: clarifying a misunderstood study on LLM internals and consciousness."
+  "text": "highly recommend this is my favorite book Posted Sep 20, 2026 at 11:32PM",
+  "why": "Dan Shipper (loved author) recommending a deep contemplative essay on Pierre Teilhard de Chardin."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 5,
+  "score": 7,
   "topic": "builders-craft",
-  "author": "Vtrivedy10",
+  "author": "dexhorthy",
   "via": null,
-  "text": "fwiw doing a PhD can be a great training ground for this you have regular meetings with your lab, have to explain the last week of experimen",
-  "why": "Good reminder on building momentum and agency through a PhD, but a bit generic compared to deeper essays."
+  "text": "great post by @seldo on the front page of hackernews today - how NOT to get OSS maintainers paid (and how we might actually do it in a susta",
+  "why": "Smart economic analysis comparing open source maintainer payouts to social media creator incentives."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The solace of open spaces themarginalian.org/2022/06/09/the… Posted Sep 20, 2026 at 3:01PM",
-  "why": "A bare link drop to a contemplative essay without enough framing to justify a top score."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "CSElmendorf",
+  "via": "DKThomp",
+  "text": "On \"education school ideas that are ... straight-up wrong,\" this passage from @DKThomp 's Mississippi Marathon podcast is really something. ",
+  "why": "Critical look at education school dogmas and the real-world impact of dropping standardized testing."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "GoalsBDunn",
-  "via": "danshipper",
-  "text": "I believe Will is correct. every.to/thesis-stateme… Posted Sep 20, 2026 at 1:16PM",
-  "why": "Bare link with no context, despite being shared by a trusted curator."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "carlquintanilla",
+  "via": "GaryMarcus",
+  "text": "“.. Debt sold by a venture building a data center to be leased by Jane Street has quickly soured in secondary trading. Yields on the bonds h",
+  "why": "Real numbers on AI infrastructure economics and data center debt souring."
  },
  {
   "rank": 15,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "James Baldwin on how to live through your darkest hour themarginalian.org/2020/04/23/jam… Posted Sep 21, 2026 at 12:57AM",
+  "why": "Timeless contemplative essay by James Baldwin on navigating dark times and intentional living."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Wait, what? Are you listening to what you are writing @GavinSBaker ? If there are going to be ZERO profits at the model layer, as in your hy",
+  "why": "Interesting economic debate on AI model layer profits vs. infrastructure returns."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 5,
+  "topic": "rationality",
+  "author": "tracewoodgrains",
+  "via": "Noahpinion",
+  "text": "Scott Alexander, who has never publicly debated in-person before, challenges Steven Pinker to a debate on AI safety. Fascinating if it happe",
+  "why": "Fun intellectual drama involving a loved author (Scott Alexander), but lacks density of insight."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "TheAtlantic",
+  "via": "Noahpinion",
+  "text": "“For all the concern about China’s advances in AI, the reality is that the country is racked by the same anxieties about the onrush of AI as",
+  "why": "Standard journalism on AI geopolitics; good but lacks the density of a top-tier essay."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "A spell against stagnation – John O'Donohue on beginnings themarginalian.org/2023/12/30/joh… Posted Sep 21, 2026 at 12:35AM",
+  "why": "Beautiful contemplative piece, but slightly lower signal density for his core professional interests."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "CSElmendorf",
+  "via": "DKThomp",
+  "text": "And then listen to @DKThomp 's fantastic podcast on the Mississippi Marathon. Posted Sep 20, 2026 at 6:38PM",
+  "why": "Good pointer to education policy issues, but the substance is buried in the external links."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "“Whoever you are, no matter how lonely, the world offers itself to your imagination” Hear Mary Oliver, in her lovely time-rasped voice, read",
+  "why": "Beautiful poetry reading, but lower density of insight for his daily reading queue."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "The only true alignment seems to be between doomers, hypers and frontier lab founderes, who have converged around a misleading narrative tha",
+  "why": "Mostly Twitter debate and punditry without deep original analysis or new numbers."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": null,
+  "text": "Jev pod tomorrow subscribe on apple /youtube @latentspacepod thanks to @allenpark and Ke for making this happen! Posted Sep 21, 2026 at 3:16",
+  "why": "Pure announcement/hype for a new model and podcast episode; wait for the actual technical deep dive."
+ },
+ {
+  "rank": 24,
   "kept": false,
   "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Are you working – in defense of the invisible labors of creativity themarginalian.org/2026/09/20/leo… Posted Sep 20, 2026 at 2:00PM",
-  "why": "Another bare link drop from The Marginalian without framing."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "GearoidReidy",
-  "via": "Noahpinion",
-  "text": "The growth in the number of permanent residents in Japan is actually quite spectacular. Given how quickly the Japanese population is also de",
-  "why": "Interesting demographic data on Japan, but tangential to core progress/econ focus."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Sure, agents may be indispensable to long-term success , @rabois ,  but that does not mean that we know how to build them reliably or safely",
-  "why": "Twitter bickering about AI agents without deep substance or numbers."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "The key to defeating a very large country is to realize that to the leaders of that country, domestic control will always be more important ",
-  "why": "Geopolitics and IR strategy, which falls outside of core focus areas."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "PessimistsArc",
-  "via": "C_Hendrick",
-  "text": "A pioneer of cybernetics built this machine and warned its further development risked killing all humans: en.wikipedia.org/wiki/Homeostat \"T",
-  "why": "Historical AI safety dunking without much modern analytical substance."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "JeremiahDJohns",
-  "via": "C_Hendrick",
-  "text": "The latest MrBeast video has him building an entire village - housing, a school, well and plumbing system, power grid, play areas, farm, mar",
-  "why": "Interesting commentary on MrBeast's philanthropy, but not aligned with core topics."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I used to think the U.S. could gather a coalition of allies and outmatch Chinese power. I no longer think that's going to be possible. But C",
-  "why": "Geopolitics piece on China, outside of core reading interests."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "tomloveless99",
-  "via": "C_Hendrick",
-  "text": "This is bad advice. Increase student math knowledge. Posted Sep 20, 2026 at 4:00AM",
-  "why": "Education link but with extremely thin commentary."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
-  "via": null,
-  "text": "The cover image comes from me asking Amp to make a \"ghost that looks like a jeff\" Posted Sep 20, 2026 at 6:40AM",
-  "why": "Just a thread reply about a cover image; the real value is in the main newsletter post."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "I really recommend this @hlntnr / @jonfavs conversation as a good way to get up to speed on what some of the basic AI safety concerns are. c",
-  "why": "Podcast recommendation with very thin text framing."
+  "text": "Random pages of found books, remixed into poems: themarginalian.org/2025/12/07/lit… Posted Sep 21, 2026 at 2:13AM",
+  "why": "A bit too light on insight; more of an art project than a substantive essay."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "packyM",
+  "author": "Noahpinion",
   "via": null,
-  "text": "IN BASTION WE... TRUST Posted Sep 20, 2026 at 3:22PM",
-  "why": "Crypto/stablecoin regulatory announcement. Outside of core interests."
+  "text": "Recommended: Posted Sep 21, 2026 at 1:11AM",
+  "why": "Just a pointer to a newsletter; lacks standalone substance."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "New Smart Bear Live E07 just dropped! One customer is 90% of his revenue. Getting the next ten takes something new. Cohost @danmartell and I",
-  "why": "Video-only content promoting a YouTube show."
+  "text": "The best of The Marginalian this week, in one place – Tolkien on how to fall in love with life, regret vs. remorse and how to reconcile your",
+  "why": "Newsletter roundup link without standalone substance."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Obama is making exactly same argument I have been making: the problem isn’t AI in general, it’s agents with internet access. kudos for his b",
-  "why": "Political punditry regarding AI; lacks technical or philosophical depth."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "PalmerLuckey",
+  "via": "Noahpinion",
+  "text": "It was my honor to keynote this forum in Taiwan. \"If Taiwan can reach a durable shared view of its own future . . . Beijing will reach the c",
+  "why": "Geopolitics and defense tech; a bit outside his core focus areas."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Can we have a moratorium on “influencers” using the phrase “just published” for papers published in 2024? Posted Sep 20, 2026 at 5:22AM",
-  "why": "Meta-complaint about AI influencers; lacks original insight."
+  "text": "Correcting others to show how smart you are. Correcting others to help them learn and grow. It’s more than intent, it changes how you do it.",
+  "why": "Good thought on builder craft, but ultimately a promo for a live show."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "xamat",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "This must be one of the most viral tweets I have ever appeared in the almost 20 years since I joined 😂😂😂 Posted Sep 20, 2026 at 6:42AM",
-  "why": "Personal reaction to a viral tweet; no substantive signal."
+  "text": "this is why nobody wants to stop agentic AI — no matter how dangerous it is. Posted Sep 20, 2026 at 8:13PM",
+  "why": "One-liner linking to a standard tech journalism piece on agentic AI."
  },
  {
   "rank": 30,
   "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "danmartell",
+  "via": "asmartbear",
+  "text": "New Smart Bear Live E07 just dropped! One customer is 90% of his revenue. Getting the next ten takes something new. Cohost @danmartell and I",
+  "why": "Video-only podcast promo; violates anti-taste rules."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "theguardian.com/us-news/2026/s… Posted Sep 21, 2026 at 2:48AM",
+  "why": "Bare link with no context; outside core topics."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "yuanyi_z",
+  "via": "Noahpinion",
+  "text": "Not only did India not do that, but all British civil servants in India were allowed to retain their jobs on their original expatriate terms",
+  "why": "Historical trivia used as a reply in a culture-war adjacent thread."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "natolambert",
+  "via": null,
+  "text": "I don’t agree exactly on the assumption that full RSI will work, but this is an excellent video summarizing where we are at. youtu.be/fjZ90V",
+  "why": "Video-only content violates anti-taste rules."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Tucker Carlson and Hasan Piker both want more of this Posted Sep 21, 2026 at 3:37AM",
+  "why": "Explicitly violates anti-taste: politics rage-bait and culture-war dunking."
+ },
+ {
+  "rank": 35,
+  "kept": false,
   "score": 1,
   "topic": "builders-craft",
-  "author": "creatine_cycle",
-  "via": "Noahpinion",
-  "text": "SF gyms rank ordered: 1. fitnessSF polk (opening soon) 2. fitnessSF soma 3. fitnessSF transbay 4. kleos 5. luxfit mission rock 6. fitnessSF ",
-  "why": "Ranking of gyms in SF. Completely irrelevant."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "CQ Noodles in the Richmond is another really good Chinese hole-in-the-wall place maps.app.goo.gl/LFPKX8WLH6WoYz… Posted Sep 21, 2026 at 2:39",
+  "why": "Just a restaurant recommendation."
  }
 ]
