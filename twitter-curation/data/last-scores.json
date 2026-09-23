@@ -4,240 +4,240 @@
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "lennysan",
-  "via": "HamelHusain",
-  "text": "Evals have been coming up more and more in my conversations with podcast guests and PM friends. Nearly half of the 25 awesome PM job opening",
-  "why": "Hits the 'evals-as-discipline' intersection perfectly, sharing real numbers and ROI from top companies. High signal from Hamel Husain."
+  "author": "rbro112",
+  "via": "sh_reya",
+  "text": "We’re investing heavily in evals at @sentry . It’s early but we’re seeing a culture change from shipping vibes to shipping with clear data u",
+  "why": "Incredible real-world numbers on implementing evals at Sentry. Evals-as-discipline at its best."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "frontier-ai",
-  "author": "AndrewYNg",
-  "via": "naval",
-  "text": "The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexp",
-  "why": "Masterful anti-hype counterweight from Andrew Ng, breaking down the technical reality of 'agent swarms' vs existential risk."
+  "author": "sudoraohacker",
+  "via": "Noahpinion",
+  "text": "Fantastic essay about Chinese AI labs: “If there is one thing I’d want to delete from the American discourse, it’s the phrase “China’s AI st",
+  "why": "Fascinating, original analysis dispelling myths about Chinese AI labs. High-signal frontier AI geopolitics."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "WillManidis",
+  "topic": "ai-engineering",
+  "author": "simonw",
   "via": null,
-  "text": "i first read the Nomad letters when i was 17, and they changed my life. this is an embarrassing admission to make about a collection of hedg",
-  "why": "Brilliant synthesis connecting classic value investing (Nick Sleep's scale economies shared) to the current dynamics of AI frontier labs."
+  "text": "Big model release today - I wrote about Claude Opus 5.5, GPT-6 Sol, and GPT-6 Luna - plus comparison grids of pelicans by the different mode",
+  "why": "Simon Willison comparing the new models with reasoning levels. Essential applied AI reading."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "ValerioCapraro",
-  "via": "GaryMarcus",
-  "text": "Let’s be clear: LLMs don’t feel pain. And they don’t deserve moral standing. This new paper reports a series of experiments identifying pain",
-  "why": "Hits the AI x consciousness x philosophy intersection perfectly. Substantive pushback against anthropomorphizing LLM representations."
+  "topic": "agency",
+  "author": "neha",
+  "via": "random_walker",
+  "text": "I think there is another option which is \"Exit the system\". In Arvind's examples, this might mean you consume or produce entertainment in an",
+  "why": "Brilliant thread on the 4 stages of responding to systemic problems, touching on agency and institutional reform."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "kieranklaassen",
+  "author": "sh_reya",
   "via": null,
-  "text": "Top score for Compound Engineering code review using opus 5, interesting. Super cool @dsifry Posted Sep 22, 2026 at 3:13PM",
-  "why": "Excellent evals-as-discipline postmortem with real numbers on optimizing AI code review costs and performance."
+  "text": "“I used my agent to formally verify my software and it fixed all these bugs” is the new “I asked an LLM judge to fix my LLM output”. The dev",
+  "why": "Substantive nuance on the difficulty of using agents for formal verification. Evals-as-discipline."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "heyalizaid",
-  "via": "swyx",
-  "text": "this podcast needed a great thumbnail new @latentspacepod episode with @CompleteSkeptic talking about Jev, System One Models, reliable AI, a",
-  "why": "High-signal podcast episode from swyx on reliable AI, System One models, and rejecting public benchmarks."
+  "author": "emollick",
+  "via": null,
+  "text": "I had Fable/Opus build a hard science fiction starship combat game, with orbital mechanics, delta-v, heat, and realistic tactics, but simpli",
+  "why": "Ethan Mollick building a hard sci-fi game with Opus. Great applied AI engineering example."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "parenting-education",
+  "author": "simonsarris",
   "via": null,
-  "text": "“The missing piece is the synthetic data recipe. And our experiments strongly point in the same direction.” to make a model good at a Task, ",
-  "why": "Deep technical analysis of a new model's architecture, emphasizing the importance of synthetic data recipes over pure compute."
+  "text": "By 12 years old, you will have spent 75% of your lifetime face-to-face time with your child. The majority of your time in their life is alre",
+  "why": "Sobering framing on time spent with kids and the homeschooling calculus. Hits the parenting/intentional living intersection."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "How auditing RL Environments (ie. looking at the data) will help us explain model behavior \"models are benchmark shaped\" bc GRPO style RL is",
-  "why": "Excellent technical insight into how RL environments induce vestigial behaviors in models. High signal for AI engineering."
+  "text": "Dostoyevsky, just after his death sentence was repealed, on the meaning of life themarginalian.org/2019/12/05/dos… Posted Sep 23, 2026 at 12",
+  "why": "Dostoyevsky on the meaning of life right after facing execution. Top-tier contemplative philosophy."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "I copied the structures of James Altucher, Steve Almond, and Seth Godin, all on my way in finding my own voice. Just be honest when you do i",
-  "why": "Great builder/craft wisdom from Jason Cohen on finding your voice by deconstructing others' structures."
+  "text": "I recommend grabbing these skills that @sh_reya and I created and at the very least doing an /eval-audit of your existing pipeline. We've fo",
+  "why": "Open-source eval skills from Hamel Husain. Highly actionable for AI engineering."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "America has now discovered the Effective Altruists, who  take utilitarianism to absurd extremes. But this should cause us to reflect on how ",
-  "why": "Substantive philosophical critique of utilitarianism and Effective Altruism from Noah Smith. Great rationality/philosophy read."
+  "topic": "ai-engineering",
+  "author": "SarahBugden3",
+  "via": "HamelHusain",
+  "text": "Good Read - \"Bulding eval systems that improve your AI product\" by @HamelHusain and @sh_reya lennysnewsletter.com/p/building-eva… Posted Sep",
+  "why": "The definitive link to Hamel and Shreya's highly praised piece on building eval systems."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 8,
-  "topic": "contemplative",
-  "author": "anuatluru",
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "My working theory: Relationships, religion, and work are the 3 sanity technologies. Posted Sep 22, 2026 at 11:54AM",
-  "why": "Deep philosophical take on the meaning of work and relational living. Fits his interest in intentional living and AI's impact on society."
+  "text": "🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 Posted Sep 22, 2026 at 9:40PM",
+  "why": "Substantive skepticism: Meta's AI agent secretly routing calls to humans highlights the gap between AI valuations and reality."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "hammer_mt",
-  "via": "every",
-  "text": "My job at @every is basically benchmarks-as-a-service now: every.to/also-true-for-… Posted Sep 21, 2026 at 3:19PM",
-  "why": "Evals applied to personal workflows. High signal for his interest in tools-for-thought and rigorous AI engineering."
+  "author": "danshipper",
+  "via": null,
+  "text": "GPT-6 Sol and Opus 5.5 launched today. We’ve been testing both extensively @every on our real work. Here’s our head-to-head vibe check: ever",
+  "why": "Dan Shipper's head-to-head vibe check on the new models applied to real work."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "afterimage",
-  "via": "every",
-  "text": "New essay for @every , by @afterimage We believe we will look back on Astra as a turning point in how creatives use AI in video work. For ma",
-  "why": "Nuanced, practical postmortem on using a new AI model for real creative work, avoiding hype and focusing on builder craft."
+  "topic": "econ-progress",
+  "author": "dylan522p",
+  "via": null,
+  "text": "Spoke with AMD, they did not ship / sell this dual use chip to this firm and they're investigating the sourcing. This violates their policie",
+  "why": "Fascinating supply chain/geopolitics insight on AMD military chips ending up in China at a fraction of the cost."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "scottlincicome",
-  "via": "DKThomp",
-  "text": "New study finds that the 2019-2025 shift to remote work in the USA is associated with significant declines in air pollution (NO2), thus like",
-  "why": "Solid econ/progress study with real numbers on the secondary societal benefits of remote work."
+  "topic": "ai-engineering",
+  "author": "sqs",
+  "via": "thorstenball",
+  "text": "I know people who spent $12k in tokens and built nothing. @Westpac spent $12k in tokens on @AmpCode and built a new intranet for their 35,00",
+  "why": "Real-world ROI numbers on applied AI: $12k in tokens to build an intranet for 35k employees."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "Afinetheorem",
-  "via": "emollick",
-  "text": "People got upset at me for saying this, but there are no companies outside the US and China even trying to build frontier AI (perhaps Korea ",
-  "why": "Good macro analysis on the geographic reality of frontier AI labs and Mistral's strategic pivot."
+  "topic": "econ-progress",
+  "author": "DKThomp",
+  "via": "Noahpinion",
+  "text": "Mexico's total fertility rate has declined by almost 40% since 2019. Not a typo—TFR declined from 1.9 in 2019 to ~1.2 in 2024. In Mexico Cit",
+  "why": "Staggering demographic data on Mexico's fertility rate collapse; highly relevant to econ/progress."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to hold the darkness – notes on living through uncertainty themarginalian.org/2026/09/22/fra… Posted Sep 22, 2026 at 3:03PM",
-  "why": "A beautiful contemplative piece on navigating uncertainty, fitting his interest in intentional living."
+  "topic": "ai-engineering",
+  "author": "lennysan",
+  "via": "HamelHusain",
+  "text": "No coincidence Posted Sep 22, 2026 at 11:51PM",
+  "why": "Great stats on how evals improve AI products (Ramp, Shopify), pointing to Hamel/Shreya's piece."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "James Baldwin on the relationship between creativity and integrity themarginalian.org/2016/04/13/jam… Posted Sep 22, 2026 at 2:25PM",
-  "why": "Timeless wisdom on craft and integrity from James Baldwin. Great contemplative reading."
+  "text": "Formulate a theory from your marketing data, then test it rigorously. As opposed to: Random A/B tests, followed by more random tests. “See w",
+  "why": "Jason Cohen on the pattern-seeking fallacy vs rigorous testing. Great builder/craft wisdom."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Autumn Light – Pico Iyer on finding beauty in impermanence and luminosity in loss themarginalian.org/2019/10/11/aut… Posted Sep 22, 2026 at ",
-  "why": "Beautiful contemplative piece by Pico Iyer on impermanence and loss."
+  "topic": "builders-craft",
+  "author": "GeoffreyHuntley",
+  "via": "kieranklaassen",
+  "text": "Ding, ding, ding. AI is a time compression device that allows you to try many different ideas. Doesn't mean those ideas ship, but it means t",
+  "why": "Strong builder philosophy: AI as a time-compression device to explore the idea space, not just ship features."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "ChaoQiao42",
-  "via": "GregKamradt",
-  "text": "Thank you @arcprize for independently evaluating dots3-note Preview, released one month ago. It scored 76.8% on ARC-AGI-2—a new open-weight ",
-  "why": "Good benchmark/evals news on ARC-AGI progress, shared by a trusted list member."
+  "topic": "frontier-ai",
+  "author": "kyleichan",
+  "via": "Noahpinion",
+  "text": "More than half of the world's top AI talent comes from China. From the new Carnegie report @damienics : carnegieendowment.org/features/whos-",
+  "why": "Important data point on global AI talent distribution from Carnegie."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "DTWillingham",
+  "topic": "ai-engineering",
+  "author": "xamat",
   "via": null,
-  "text": "The best take I've seen on @nhannahjones 's  NYTimes piece...\"The article is less compelling for what it says than for what it doesn’t.\" edu",
-  "why": "Substantive critique of education policy and public schooling narratives."
+  "text": "The hard part of agentic AI isn't getting an agent to work once. It's making many agents useful, reliable, and accountable at scale. In my n",
+  "why": "Deep dive into the operating model for agentic AI at scale at Expedia."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "jasoncrawford",
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "themarginalian",
   "via": null,
-  "text": "“If an AI agent does something that would be a tort for a human, someone should be liable. If no downstream actor intended or was negligent ",
-  "why": "A brief but substantive point on AI liability and tort law for autonomous agents."
+  "text": "\"Talent is insignificant. I know a lot of talented ruins. Beyond talent lie all the usual words: discipline, love, luck, but most of all, en",
+  "why": "James Baldwin on endurance over talent. Great wisdom for builders and writers."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 6,
-  "topic": "ai-essays",
-  "author": "mmitchell_ai",
-  "via": "GaryMarcus",
-  "text": "A bit from me in @WIRED today wrt our research on AI agents with @evijit and @samirpassi . This is a really detailed article, thanks for wri",
-  "why": "Good author (Margaret Mitchell) on AI agents, but the tweet itself is just a thin pointer to the article."
+  "topic": "econ-progress",
+  "author": "JHWeissmann",
+  "via": "Noahpinion",
+  "text": "Again, it will be kind of funny if after all the \"Abundance failed\" takes, the only two major bills to pass Congress this year are housing a",
+  "why": "Good quick hit on the abundance agenda and permitting reform progress."
  },
  {
   "rank": 23,
   "kept": false,
   "score": 6,
-  "topic": "econ-progress",
-  "author": "joshgans",
-  "via": "GaryMarcus",
-  "text": "New paper today on whether AI providers should be held liable for cybersecurity attacks on their customers. This is something being called f",
-  "why": "Relevant economic/policy paper on AI liability, though the tweet is brief."
+  "topic": "ai-engineering",
+  "author": "sh_reya",
+  "via": null,
+  "text": "Very exciting to see how much this post resonated with the community. The uncomfortable dialectic is that (1) evals are necessary to build g",
+  "why": "Good commentary on the evals dialectic, though the actual article (linked elsewhere) is the real prize."
  },
  {
   "rank": 24,
   "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "nabeelqu",
+  "topic": "ai-engineering",
+  "author": "emollick",
   "via": null,
-  "text": "Tyler asks good questions on RSI: marginalrevolution.com/marginalrevolu… Posted Sep 22, 2026 at 12:12PM",
-  "why": "Good link to Tyler Cowen on recursive self-improvement, but the tweet itself is just a pointer."
+  "text": "Open source here: github.com/emollick/orbit… And if you like this, the most realistic space game I have played is Children of a Dead Earth (",
+  "why": "The open-source repo for Mollick's AI-generated game."
  },
  {
   "rank": 25,
@@ -246,167 +246,107 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "A beginning, not a decline – Colette on the splendor of autumn and the autumn of life themarginalian.org/2026/09/11/col… Posted Sep 22, 2026",
-  "why": "Nice contemplative piece, but slightly lower priority given the other Marginalian links in this batch."
+  "text": "\"There was perfect trust between us, a source of joy to me, and it must have been a comfort to him. Perhaps birds understand more than we th",
+  "why": "A beautiful contemplative piece on friendship and nature from The Marginalian."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "EmmyProbasco",
-  "via": "GaryMarcus",
-  "text": "Katrina Mamson’s story on the Minab airstrike is worth reading in full. I can’t fully express how upset I was and still am with that strike.",
-  "why": "Important news on AI in lethal targeting, but leans a bit too heavily into daily news/politics rather than systemic analysis."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Born on this day in 1711, Thomas Wright was the first to describe the spiral shape of the Milky Way and to dare imagine the existence of oth",
+  "why": "Interesting history of science piece on the discovery of the Milky Way's shape."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "DKThomp",
+  "score": 4,
+  "topic": "rationality",
+  "author": "Noahpinion",
   "via": null,
-  "text": "~Today’s adults increasingly behave like the children they never have~ feels like a rude thing to say about people. And yet: “Toy sales amon",
-  "why": "Interesting demographic/economic stat about adult toy sales, but borders on cultural dunking."
+  "text": "Unfortunately, this experiment has been run. Democracies without liberalism are weak, fragile things, quick to be overthrown. Liberal states",
+  "why": "Political theory debate. A bit too far into general politics/culture for the core reading list."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "If you want to understand where we actually are right now in the quest for AGI, I urge you read this. Posted Sep 22, 2026 at 2:00PM",
-  "why": "Standard Gary Marcus skepticism. Valid point on extrapolating math benchmarks to AGI, but repetitive."
+  "text": "The shortest #birddivination of all, and perhaps the truest. Find it among the set of 100, along with the story and process behind them, at ",
+  "why": "Too short and fluffy to meet the bar for contemplative reading today."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "p_millerd",
-  "via": "fortelabs",
-  "text": "I'm going global with the Pathless Path audiobook and am partnering with @AuthorsEQTY to relaunching my book for the 5th anniversary People ",
-  "why": "Interesting thoughts on self-publishing logistics, but leans more toward creator-economy mechanics than his core builder/craft interests."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "dsp_",
+  "via": "bcherny",
+  "text": "I rarely post about our model launches, but I truly enjoy Claude 5.5 and I am really glad it is finally available to everyone. It communicat",
+  "why": "Standard model launch announcement/hype. Not enough substance to save."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "agree w Microsoft’s @BradSmi , if the AI industry doesn’t get its safety house in order “a lack of public trust, not regulation, will become",
-  "why": "Standard AI safety policy talk without much technical depth or original insight."
+  "text": "This looks really cool! Ah to be young again... Recommended. Posted Sep 23, 2026 at 1:25AM",
+  "why": "Just a fellowship announcement. Low signal density."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "88choppertime",
-  "via": "GaryMarcus",
-  "text": "“What we are facing near-term, anyway, is not extinction. And it’s not superintelligence… It’s wholesale deepfaked disinformation, and unrel",
-  "why": "More repetitive AI skepticism quoting Gary Marcus. Lacks new analysis."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "People who work for the Republican and Democratic Parties know that these parties are extremist. Read this: wsj.com/arts-culture/b… Posted S",
+  "why": "Political commentary and culture-war adjacent material; falls outside your core focus areas."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "roughly equals, and not entirely wrong, “we dug ourself a grave and may as well get used to the view from 6 feet under” but i would be less ",
-  "why": "Too meta (a quote of a quote of a quote) without adding much original substance to the AI safety debate."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "yoheinakajima",
+  "via": "krishnanrohit",
+  "text": "reintroducing untapped capital new website ( untapped.vc ) and... music video 🙃🎙️ Your browser does not support the video tag. MC Posted Sep",
+  "why": "VC fund announcement with a music video. Pure engagement/hype."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "danshipper",
   "via": null,
-  "text": "Runners can now create Git worktrees, one per thread. No more threads fighting over a checkout. ampcode.com/news/one-runne… Posted Sep 22, 2",
-  "why": "A bit too niche/tool-specific for his broader engineering interests."
+  "text": "i added almost 10k new followers today! if you're new around here, here are two things to start with: my vibe check on opus 5.5 vs. sol-6 on",
+  "why": "Audience-growth recap post. Anti-taste."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "c_valenzuelab",
-  "via": null,
-  "text": "Who could we hire to help us do that? One of the questions I’ve been asked most often over the last five years finally has an answer. Introd",
-  "why": "Pure product announcement for a hiring platform. Lacks substantive insight."
+  "score": 1,
+  "topic": "rationality",
+  "author": "spencerpratt",
+  "via": "naval",
+  "text": "People keep asking me to push for one Mayoral candidate or the other. Trying to decide the best move. Guys...it's over. LA had its chance fo",
+  "why": "Local LA politics rant. Pure anti-taste."
  },
  {
   "rank": 35,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "bentossell",
-  "via": null,
-  "text": "just added a live leaderboard 🥇 game boy colour 🥈 discman 🥉 game boy / playstation / nokia 3310 only 1 person had the pokewalker 5hL Posted ",
-  "why": "A fun weekend project, but ultimately engagement-bait/nostalgia without deeper builder insights."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "This was the month the world took notice that AI might kill everyone. Jacob Coxon’s resignation set off a preference cascade . Anthropic CEO",
-  "why": "Heavily focused on political drama and culture-war aspects of AI policy. Violates the anti-taste rule."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "I am declaring that henceforth: If someone uses the term Super Intelligence (or ‘SUPER INTELLIGENCE’) as multiple words, or uses the initial",
-  "why": "Pure politics and culture-war dunking on Trump's AI naming conventions. Violates the anti-taste rule."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "If he had just gone with 'superior' or 'extreme' or 'supreme' I would not care and this would be extremely funny windmill tilting, but speci",
-  "why": "More political dunking on the 'Super Intelligence' namespace clash. Low signal."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Sam Altman briefing the UN: “An individual who really doesn't appear to know much about the underlying tech, and who is incompetently leadin",
-  "why": "Pure rage-bait and dunking on Sam Altman. Low signal."
- },
- {
-  "rank": 40,
-  "kept": false,
   "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
   "via": null,
-  "text": "They keep doing the meme Posted Sep 22, 2026 at 3:39PM",
-  "why": "Political rage-bait regarding Canadian healthcare policies. Immediate archive."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 1,
-  "topic": "frontier-ai",
-  "author": "tobi",
-  "via": null,
-  "text": "Congrats @MParakhin time.com/collection/exe… Posted Sep 22, 2026 at 1:50PM",
-  "why": "Just a congratulatory link drop. Zero substance."
+  "text": "Replying to @dexhorthy @EchoDesertRobot @NickADobos @GOrlanski x.com/dexhorthy/stat… Posted Sep 23, 2026 at 3:11AM",
+  "why": "Contextless thread reply."
  }
 ]
