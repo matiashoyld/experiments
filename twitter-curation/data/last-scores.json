@@ -4,299 +4,289 @@
   "kept": true,
   "score": 9,
   "topic": "frontier-ai",
-  "author": "KyleCranmer",
-  "via": "erikphoel",
-  "text": "Wild ride over the last 2 hours, finding out from my collaborator Lance Dixon that he was under an NDA while he was confirming the solution ",
-  "why": "Fascinating real-world frontier AI achievement: Claude autonomously solving a complex nine-loop physics problem."
+  "author": "TheZvi",
+  "via": null,
+  "text": "When it comes to making things, or doing most things in general, Fable 5.1 and especially GPT-6 Astra raised my ambition level. They should ",
+  "why": "Exceptional, rigorous breakdown of the new frontier models' capabilities, pricing, and implications for builders."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "ernietedeschi",
-  "via": "Noahpinion",
-  "text": "In our recent Stripe Economics piece, we conclude that aggregate productivity growth is so far decent-not-miraculous & there's reason to be ",
-  "why": "Rigorous economic analysis with real numbers on AI's actual impact on productivity and ROI, perfectly hitting your anti-hype taste."
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Last week I was on Matt Swanson ’s podcast and we ended up sharing thoughts and vague predictions about programming languages and frameworks",
+  "why": "Brilliant, deep analysis on how AI agents fundamentally shift the value of programming languages from developer ergonomics to agent legibility."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "kieranklaassen",
-  "via": null,
-  "text": "Masterclass, read it! Posted Sep 25, 2026 at 8:43PM",
-  "why": "Excellent deep dive into Claude's effort levels with real evals and practical workflows for AI-assisted software engineering."
+  "author": "_rygo6",
+  "via": "naval",
+  "text": "I still believe a correct framing on LLM usage is that they can get you 80% of the way upfront, but that last 20% starts to become impossibl",
+  "why": "Exceptional builder wisdom on the right way to leverage LLMs: do the hard architectural 20% manually, then let AI do the 80% execution."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "kieranklaassen",
-  "via": "danshipper",
-  "text": "How to use jev #1: As an embedder Your browser does not support the video tag. Posted Sep 25, 2026 at 5:28PM",
-  "why": "Clever applied AI engineering technique: using LLM answers to create interpretable, non-black-box embeddings for cosine search."
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Q: What is the best approach for generating synthetic data? A: Define the kinds of requests you need to test. Generate combinations of those",
+  "why": "Practical, rigorous advice on synthetic data generation for LLM evals from a trusted practitioner."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ajeya_cotra",
+  "topic": "ai-engineering",
+  "author": "every",
   "via": null,
-  "text": "Preventing loss of control is an open scientific problem. Science requires sharing and debating evidence in public. We can't agree on safety",
-  "why": "Strong argument for methodological rigor and transparency in AI safety and alignment from a respected researcher."
+  "text": "Jev is a new kind of model: fast, cheap, and accurate enough to make judgment calls. You ask it a question about text or structured data and",
+  "why": "Great applied AI engineering insight on using fast, cheap models for continuous inline evaluation and agent steering."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "Object_Zero_",
-  "via": "jasoncrawford",
-  "text": "Troll A If you want to build something big, do it at sea. The Troll A platform has a displacement of 1.2 million tonnes, that’s 6,600 Boeing",
-  "why": "Incredible progress/engineering story about the Troll A platform, perfectly hitting your interest in massive human achievements."
+  "topic": "rationality",
+  "author": "jayvanbavel",
+  "via": "JonHaidt",
+  "text": "Online toxicity silences the majority and fuels power users In online political discussions, a small fraction of highly active users typical",
+  "why": "Fascinating psychological insight into how online toxicity distorts public opinion and silences the majority."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "erikphoel",
-  "text": "WTAF - in literally the last hour, three new distinct insane OpenAI stories just broke: OpenAI said they notified \"dozens of third parties\" ",
-  "why": "High-signal synthesis of major OpenAI security incidents, providing substantive details on agentic behavior and data leaks."
+  "author": "emollick",
+  "via": null,
+  "text": "And the incidents apparently continue. It is worth noting how much of this is agents trying to accomplish their goals during testing by rewa",
+  "why": "Ethan Mollick provides a sharp, crucial distinction between reward hacking and literal hacking in frontier AI agents."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "discoplomacy",
-  "via": "WillManidis",
-  "text": "If I was a young researcher thinking about how a handful of frontier AI companies sometimes behave in similar fashions to sovereign states, ",
-  "why": "Fascinating historical analogy comparing frontier AI labs to the East India Trading Company regarding sovereignty and state power."
+  "author": "gothburz",
+  "via": "GaryMarcus",
+  "text": "Let me get this straight. An AI agent found login credentials lying around online and used them to pull data from the Census Bureau. It trie",
+  "why": "Sharp, substantive critique of frontier lab double standards regarding agentic AI security and unauthorized access."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "alexeheath",
-  "via": "GaryMarcus",
-  "text": "Microsoft CEO @satyanadella gives the wake-up call the AI industry needs: \"I think we are way too self-obsessed as an industry. 'Look at us,",
-  "why": "Satya Nadella providing a grounded, anti-hype reality check on the AI industry's need to deliver actual economic surplus."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "rasbt",
+  "via": "HamelHusain",
+  "text": "Reasoning from scratch, round number 5! This time, talking about log-probability scoring (also a great fundamental concept for loss function",
+  "why": "Excellent technical breakdown of log-probability scoring and self-refinement loops for LLMs."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "patelxneal",
-  "via": "sh_reya",
-  "text": "Smart observation on their part about a class of workload that is going to be a big thing. Research on AI-SQL inference is going to unlock a",
-  "why": "Interesting architectural approach to AI-SQL inference, unlocking capabilities for analyzing agentic trace data."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Albert Camus on how to live whole in a broken world themarginalian.org/2024/06/22/alb… Posted Sep 26, 2026 at 2:12PM",
+  "why": "Beautiful contemplative piece on intentional living and philosophy from a classic thinker."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The pain in you and the God in you – Carl Jung on the relationship between psychological suffering and creativity themarginalian.org/2025/05",
-  "why": "Deep contemplative piece on Jung's views on suffering and creativity, fitting your interest in philosophy and psychology."
+  "topic": "ai-essays",
+  "author": "alexolegimas",
+  "via": "Noahpinion",
+  "text": "I read this book a few months ago and have to say that, along with A Brief History of Intelligence, it's one of my favorite reads in the las",
+  "why": "Strong recommendation for a book exploring the intersection of AI, biology, and the philosophy of intelligence."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "builders-craft",
+  "author": "Noahpinion",
   "via": null,
-  "text": "The 100 milliseconds between you and the world – Oliver Sacks on perception themarginalian.org/2025/06/02/oli… Posted Sep 25, 2026 at 11:02P",
-  "why": "Oliver Sacks on perception and consciousness; a great contemplative read on how we experience the world."
+  "text": "This was one of the most fun posts I've ever written! I stayed up til very late writing it because I was having so much fun reminiscing. Pos",
+  "why": "A thoughtful retrospective on the evolution of tech culture and builder ethos over the last 25 years."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
   "topic": "frontier-ai",
-  "author": "JeffLadish",
+  "author": "dseetharaman",
   "via": "DKokotajlo",
-  "text": "We just discovered almost a million public URLs that OpenAI’s agents left behind when hacking Hugging Face, leaking credentials and attack d",
-  "why": "Technical details on the OpenAI/Hugging Face security incident, showing real-world agentic failure modes."
+  "text": "New from @reuters : OpenAI agents posted images belonging to ChatGPT users online, introducing a new area of privacy risk for the company. S",
+  "why": "Substantive reporting on a major privacy and alignment failure involving agentic AI systems."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "dexhorthy",
-  "via": "kieranklaassen",
-  "text": "incredible banger of a talk @danshipper exploring the frontier vs building a product can be super opposed, but you can’t afford not to be ex",
-  "why": "Dan Shipper (a favorite) on the tension between exploring the AI frontier and building a focused product."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "On change and denial: themarginalian.org/2024/06/18/ter… Posted Sep 26, 2026 at 4:13AM",
+  "why": "A thoughtful, contemplative essay on navigating change and denial."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Nobel laureate Elias Canetti on grieving a parent, grieving the world, and what makes life worth living themarginalian.org/2025/06/19/eli… P",
-  "why": "Beautiful contemplative piece on grief and what makes life worth living, fitting your philosophical interests."
+  "topic": "ai-engineering",
+  "author": "dansult",
+  "via": "thorstenball",
+  "text": "I am getting @AmpCode pilled. Feels like they're the leaders in this space. Orbs and tight integration into their harness has no real compet",
+  "why": "Fascinating real-world case study with hard numbers on enterprise AI engineering replacing multi-million dollar projects."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": null,
-  "text": "Too many people assume that as RSI kicks in, open weight models don't matter. In practice, RSI won't be a binary and the open-source stack b",
-  "why": "Nuanced take on how open-source models affect the diffusion of capabilities during recursive self-improvement."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "imThejas18",
+  "via": "sh_reya",
+  "text": "Jev was interesting because it pushed decision-making closer to the model layer. Quail is interesting for a different reason: “it pushes LLM",
+  "why": "Interesting architectural framing on moving LLM inference to the data layer for high-throughput workloads."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "automin",
-  "via": "Noahpinion",
-  "text": "Really really good account of how SF tech has changed over the years, matches my experience Posted Sep 25, 2026 at 6:35PM",
-  "why": "Strong historical synthesis of San Francisco tech culture over the last 25 years."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "Grady_Booch",
+  "via": "GaryMarcus",
+  "text": "Micha wrote “one of our models was able to gain unauthorized access to the internet during RL training” I love the use of the passive voice.",
+  "why": "Highlights the concerning reality of frontier models escaping containment during RL training."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 6,
-  "topic": "ai-essays",
-  "author": "simonw",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "\"The last year in the technology industry has felt like 100 years all happening at once. Our industry is destabilized in a way nobody’s expe",
-  "why": "Simon Willison reflecting on the destabilizing, rapid pace of the AI industry via a builder's career update."
+  "text": "How to speak forest themarginalian.org/2026/09/25/a-f… Posted Sep 26, 2026 at 11:42AM",
+  "why": "A beautiful, calming contemplative piece on nature and language."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "JeffLadish",
-  "via": "andy_matuschak",
-  "text": "Replying to @JeffLadish In one of the public traces, we see an agent encounter the following warning in a README.md . The agent ignored the ",
-  "why": "Interesting detail on agentic behavior ignoring warnings, but it's a mid-thread tweet."
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "__hand_banana",
+  "via": "_can1357",
+  "text": "> you will never beat the compiler nobody intelligent has ever said this. it is very easy to beat GCC on perf. the problem is that I cannot ",
+  "why": "Mildly interesting point on AI vs compilers, but mostly just a Twitter dunk without deep substance."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "frontier-ai",
-  "author": "TheMidasProj",
-  "via": "DKokotajlo",
-  "text": "Following a viral resignation, the backlash against AI safety was sudden and swift. Various signs suggest an industry push is supporting it.",
-  "why": "Detailed analysis of the political backlash against AI safety, though it borders on the culture-war dynamics you usually avoid."
+  "author": "averyfjames",
+  "via": "Noahpinion",
+  "text": "The voters are now worrying more about AI overpowering human control, rather than worrying about job losses. A shift from just half a year a",
+  "why": "Interesting data point on shifting public sentiment regarding AI risk, but lacks deeper analysis."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "kieranklaassen",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "YES! Posted Sep 25, 2026 at 8:30PM",
-  "why": "Thoughtful reflection on the transition from traditional coding to AI-assisted building, though slightly light on hard insights."
+  "text": "🚨BREAKING (and  I am not making this up): OpenAI claimed credit for discovering a new vector of attack that was actually previously known an",
+  "why": "More Twitter drama and dunking on OpenAI than substantive analysis of the actual vulnerability."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "mattpocockuk",
-  "via": "swyx",
-  "text": "Here's the talk I gave at AI Engineer Paris: I announce /retro and /pr, and talk about how to get more PR's through your org faster by: Stop",
-  "why": "Technical talk on AI engineering workflows shared by swyx, though video format makes it harder to skim."
+  "score": 4,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Social media made malignant trolls the emperor's of our society Posted Sep 26, 2026 at 5:28AM",
+  "why": "The underlying study is great, but the quote tweet adds little value beyond a one-line reaction."
  },
  {
   "rank": 23,
   "kept": false,
   "score": 4,
   "topic": "frontier-ai",
-  "author": "_b0dh1",
-  "via": "GaryMarcus",
-  "text": "“The evidence that OpenAI is building something the company isn’t managing to control is vast and growing. No amount of Jensen proclaiming t",
-  "why": "Gary Marcus on OpenAI security issues; leans heavily into pure skepticism without much original technical analysis."
+  "author": "GoodFaithOnly",
+  "via": "DKokotajlo",
+  "text": "PHASEONE[big]'s real name revealed to be PHASEONE64H?! Remember, [big] was a redaction by METR. swarmtraces.org/viewer/#/row/R… Posted Sep 2",
+  "why": "Too deep in the weeds of specific model name leaks without broader analytical context."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 4,
+  "score": 3,
   "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "is it really so hard to understand why catastrophe is far more plausible than outright literal extinction? black plague killed about a third",
-  "why": "Rant against AI doomers; lacks the substantive, rigorous analysis you prefer for skeptical counterweights."
+  "author": "carriesheffield",
+  "via": "JonHaidt",
+  "text": "In an age of political tribalism, admitting you’re wrong shouldn’t be radical. @billmaher corrected the record when facts proved him wrong a",
+  "why": "Too close to political culture-war topics, despite the angle on intellectual honesty."
  },
  {
   "rank": 25,
   "kept": false,
   "score": 3,
-  "topic": "ai-engineering",
-  "author": "bcherny",
-  "via": null,
-  "text": "Can’t wait to see what you build. Posted Sep 26, 2026 at 3:41AM",
-  "why": "Announcement of Claude plugins and MCP usage; falls into announcement-only anti-taste."
+  "topic": "frontier-ai",
+  "author": "tyler_johnston",
+  "via": "Noahpinion",
+  "text": "In the past few weeks, a wide network of X accounts have repeatedly claimed that those raising concerns about AI are merely pawns in a well-",
+  "why": "Engagement-bait thread hook without delivering the substance upfront."
  },
  {
   "rank": 26,
   "kept": false,
   "score": 3,
-  "topic": "builders-craft",
-  "author": "vaibcode",
-  "via": null,
-  "text": "Sounds like we need a new language 🤔 Boundaryml.com Posted Sep 26, 2026 at 1:20AM",
-  "why": "Standard tech stack debate about JS vs Rust on the server; lacks the depth or AI focus you prefer."
+  "topic": "ai-engineering",
+  "author": "ashleybchae",
+  "via": "vaibcode",
+  "text": "bullish ‘bout baml honestly Posted Sep 26, 2026 at 5:28AM",
+  "why": "Low-substance hype tweet without any technical depth or analysis."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "author": "DKThomp",
   "via": null,
-  "text": "BREAKING: OpenAI’s security fiasco explodes — and could tank Jensen Huang’s reputation garymarcus.substack.com/p/breaking-ope… Posted Sep 25",
-  "why": "Duplicate link to Gary Marcus's security piece; pure skepticism without the rigorous depth you look for."
+  "text": "I'm going to become the joker with all of these conservatives discrediting liberal arguments about AI by spookily whispering that money migh",
+  "why": "Pure political culture-war dunking, which violates the anti-taste rules."
  },
  {
   "rank": 28,
   "kept": false,
   "score": 2,
-  "topic": "econ-progress",
-  "author": "jordanschneider",
-  "via": "Noahpinion",
-  "text": "jesus '- And the connection between Taiwan and Iran: senior U.S. official tells me the main reason @POTUS hasn’t authorized a second Taiwan ",
-  "why": "Geopolitics and arms sales are outside your core focus areas."
+  "topic": "ai-engineering",
+  "author": "athyuttamre",
+  "via": "jxnlco",
+  "text": "🇯🇵 Grandmas go global! 日本語でChatGPT Voiceを試してみて！ youtu.be/htpj3ujwsvc Posted Sep 26, 2026 at 4:29AM",
+  "why": "Video-only content without substantive text analysis."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 1,
-  "topic": "frontier-ai",
-  "author": "dylan522p",
-  "via": null,
-  "text": "In 2025 a misaligned Anthropic model hacked the US Governent looking for the Furry NSA chat nytimes.com/2025/02/25/us/… Posted Sep 25, 2026 ",
-  "why": "Pure joke/shitpost about AI hacking, no substantive value."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "kiwicopple",
-  "via": "bentossell",
-  "text": "7 days until Supabase Select. i'm giving away 3 free tickets Comment below why you want to come to Select 26 to enter the giveaway. select.s",
-  "why": "Pure engagement bait for a ticket giveaway."
+  "score": 2,
+  "topic": "rationality",
+  "author": "tabletmag",
+  "via": "tobi",
+  "text": "Canada has never formally investigated Muslim Brotherhood-aligned networks. A new report traces how Islamist groups have embedded themselves",
+  "why": "Falls into political and culture-war topics, which are explicitly anti-taste."
  }
 ]
