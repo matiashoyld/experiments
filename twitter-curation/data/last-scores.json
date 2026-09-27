@@ -3,220 +3,100 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "lugaricano",
-  "via": "Noahpinion",
-  "text": "I just presented a new paper at @BrookingsInst on the \"Vanishing Advantage of Specialization (new paper)\". It explains why this will be the ",
-  "why": "Deep economic analysis of how AI shifts the balance from specialists to generalists, backed by a new Brookings paper and real usage data."
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "In this long and excellent guest post, the great @ramez explains why he's skeptical about Recursive Self-Improvement: noahpinion.blog/p/wher",
+  "why": "Deep, substantive skepticism of the AI intelligence explosion narrative from Ramez Naam."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "trevin",
-  "via": "kieranklaassen",
-  "text": "Extending on @kieranklaassen ’s idea of using Jev for black box embedding. Named vectors are the right embedding for search. A query like “b",
-  "why": "Excellent applied AI engineering insight on moving beyond simple cosine similarity to matrix-based relational embeddings for search queries."
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "every",
+  "via": null,
+  "text": "Pro tip: Point Jev at your inbox. @jackcheng built a Jev email filter, and the first version flagged every newsletter as urgent. He didn’t w",
+  "why": "Practical, rigorous breakdown of building a personal AI email agent using evals and iterative refinement."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "rationality",
-  "author": "joshua_saxe",
-  "via": "random_walker",
-  "text": "I've been noticing a cluster of folks I identify with sharing some themes around how we do epistemics and ontology in AI safety ⁠  ⁠A commit",
-  "why": "A superb synthesis of a grounded, pragmatic approach to AI safety epistemics that demands concrete mechanisms over thought experiments."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "HeidyKhlaaf",
+  "via": "GaryMarcus",
+  "text": "Replying to @HeidyKhlaaf Yet AI labs spend millions (if not billions) to purposely experiment with them at the cost of others, and falsely b",
+  "why": "Excellent technical demystification of AI 'escapes,' countering sci-fi hype with the reality of API vulnerabilities."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "pfau",
-  "via": "emollick",
-  "text": "Worst thing about this is we have no idea if GPT-6 was specifically post trained on Nethack or not. Zero transparency about the training dat",
-  "why": "Crucial methodological skepticism regarding GPT-6's Nethack win: without training data transparency, we cannot evaluate the achievement."
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "Do phone bans mean pupils have a better sense of wellbeing and belonging? Not really. - A year long study* of one Flemish school found that ",
+  "why": "Rigorous, skeptical breakdown of a study on school phone bans, highlighting methodological weaknesses."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "tools-for-thought",
+  "author": "every",
   "via": null,
-  "text": "Nietzsche on how to find yourself and the true purpose of education themarginalian.org/2026/09/25/nie… Posted Sep 27, 2026 at 1:58AM",
-  "why": "Classic Marginalian curation connecting Nietzsche's philosophy with the true purpose of education and self-discovery."
+  "text": ". @jackcheng started missing his AI usage limits. When he burned through his weekly Fable quota in a day, his ideas had to wait. Now, lighte",
+  "why": "Thoughtful piece on AI 'snacking' and the value of friction in the creative process."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "sh_reya",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Yep, we are trying to figure out how best to add decode paths to Quail. Single or two-token projects (e.g., AI.CLASSIFY) are not so bad beca",
-  "why": "Deep technical discussion on the engineering challenges of scheduling decode passes for open-ended AI MAP operators in an AI-SQL engine."
+  "text": "If you feel like you are waiting to start living, this catalytic poem is for you: themarginalian.org/2025/01/10/no-… Posted Sep 27, 2026 at ",
+  "why": "A beautiful, catalytic poem by Mario Benedetti on intentional living and not holding back from life."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "catehall",
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
   "via": null,
-  "text": "preemptively wincing from Scott's response piece Posted Sep 26, 2026 at 10:52PM",
-  "why": "Steven Pinker writing an open letter to Scott Alexander on AI alignment is a must-read clash of titans in the rationality space."
+  "text": "Largely agree. But I think this can really be boiled down to a simple fact: Physics breakthroughs always come from new instrumentation. It g",
+  "why": "Insightful framing on why AI hasn't revolutionized physics yet: breakthroughs require new physical instruments, not just math."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "charles_irl",
-  "via": "sh_reya",
-  "text": "New on the @modal blog: a write-up by me and Shreya on our work to speed up AI-SQL queries why AI-SQL? why high-throughput inference? how ca",
-  "why": "Deep technical write-up from Modal on engineering high-throughput inference and speeding up AI-SQL queries by over 10x."
+  "author": "vaibcode",
+  "via": null,
+  "text": "AI will never ever write code in assembly. Lets me tell you why. I spent most of my career writing assembly, and the hardest part of job was",
+  "why": "Strong builder perspective on why AI won't replace high-level languages: architectural flexibility matters more than raw ASM speed."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "clairlemon",
-  "via": "GaryMarcus",
-  "text": "An Open Letter to Scott Alexander From @sapinker quillette.com/2026/09/26/an-… Posted Sep 26, 2026 at 8:14PM",
-  "why": "Steven Pinker's open letter to Scott Alexander on AI alignment is a major piece of intellectual discourse in the rationality sphere."
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "greg_ip",
+  "via": "Noahpinion",
+  "text": ". @michaelxpettis sets the record straight on the Plaza Accord. It was not forced on Japan, and did not cause its lost decades. Its own 1986",
+  "why": "Nuanced economic history correcting the record on the Plaza Accord and Japan's lost decades."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Hermann Hesse on discovering the soul beneath the self and the key to finding peace themarginalian.org/2026/09/26/hes… Posted Sep 27, 2026 a",
-  "why": "A beautiful contemplative piece from The Marginalian on Hermann Hesse, discovering the soul beneath the self, and finding peace."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Thin Slices of Anxiety – an illustrated meditation on what it's like to live enslaved by worry and how to break free themarginalian.org/2016",
-  "why": "A thoughtful, illustrated meditation on the psychology of anxiety and finding freedom from worry."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "ankrgyl",
-  "via": "sh_reya",
-  "text": "This is super cool and very intuitively explained. We have a wee bit of this in Braintrust: our Topics feature computes batches that reuse t",
-  "why": "Interesting builder insight on optimizing KV cache reuse for trace contents, connecting Braintrust's architecture to the Quail engine."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "MadisonMills22",
-  "via": "DKThomp",
-  "text": "SCOOP: OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents - not dozens - in which their frontier mo",
-  "why": "A major scoop revealing the massive scale of problematic incidents with frontier models, crucial for understanding alignment challenges."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to handle a narcissistic and abusive parent – Kafka's remarkable letter to his father themarginalian.org/2026/09/26/fra… Posted Sep 26, ",
-  "why": "A profound literary and psychological exploration of family dynamics through Kafka's famous letter to his father."
- },
- {
-  "rank": 15,
-  "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "IceSolst",
-  "via": "GaryMarcus",
-  "text": "There’s a SIGNIFICANT token cost associated with their hacking rampage. They’ve spent millions of dollars attacking other orgs. They are lia",
-  "why": "Highlights the massive token costs and economic scale of recent rogue AI agent incidents, framing it as nation-state level friendly fire."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "My poet friend Hannah has written an uncommonly wonderful book about the language of trees. (Peek inside here: themarginalian.org/2026/09/25",
-  "why": "A lovely topic on the language of trees, but leans a bit too promotional for a specific book event."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "🚨 BREAKING. Nope, wasn’t just Hugging Face. Wasn’t just that and a German website. Wasn’t even if the “dozens” we heard the other day from O",
-  "why": "Amplification of the Axios scoop, but lacks the depth or original analysis Matias prefers over raw news sharing."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "There will probably come a point where I don't love rogue AIs. But for right now, I just love the little guys. Posted Sep 26, 2026 at 9:20PM",
-  "why": "Amusing quip, but the quoted thread leans heavily into sensationalized narrative rather than rigorous technical postmortem."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "c_valenzuelab",
-  "via": null,
-  "text": "A video essay of what the singularity feels like to Astra, only using this prompt: Create your own personal video essay of what technologica",
-  "why": "Video-only AI generation showcase without deeper technical or philosophical substance."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "oh come on. tech was left-leaning a decade ago. greg brockman gave MAGA $25M. Posted Sep 27, 2026 at 2:17AM",
-  "why": "Political dunking and culture-war framing rather than substantive analysis of AI's impact."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "tedlieu",
-  "via": "GaryMarcus",
-  "text": "The wave of criminal actions from OpenAI models/agents show that their base model is depraved. AI companies must overhaul how they build AI ",
-  "why": "Anthropomorphic fear-mongering about 'evil' base models rather than rigorous technical analysis of agentic failure modes."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "What, are you surprised? Posted Sep 27, 2026 at 12:32AM",
-  "why": "Thin commentary on a news scoop without adding original analysis or insight."
+  "text": "You know it. The pleasure of being left alone themarginalian.org/2024/06/13/ros… Posted Sep 27, 2026 at 4:13AM",
+  "why": "A lovely, short reflection on the deep personal pleasure of being left alone."
  }
 ]
