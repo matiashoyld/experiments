@@ -6,237 +6,337 @@
   "topic": "frontier-ai",
   "author": "TheZvi",
   "via": null,
-  "text": "Dario Amodei’s essay We Must Pace the Frontier committed Anthropic to embedded evaluators, who would be placed inside Anthropic and given em",
-  "why": "Zvi's deep, substantive synthesis on the complexities of embedded evaluators at frontier labs. Essential reading on AI policy."
+  "text": "OpenAI has been holding out on us. First we learned about the HuggingFace incident. They gave us a postmortem , but it was highly incomplete",
+  "why": "Zvi's deep, critical synthesis of OpenAI's recent security incidents and alignment failures. Essential frontier AI tracking."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
+  "score": 8,
+  "topic": "tools-for-thought",
   "author": "HamelHusain",
   "via": null,
-  "text": "Q: Can I use Jev for evals? A: Jev and an LLM judge are both classifiers that you should validate against trusted labels. Read more: hamel.d",
-  "why": "Hamel Husain on evals-as-discipline. Direct hit on your core interest in methodological rigor for LLM systems."
+  "text": "Love this Posted Sep 28, 2026 at 3:52PM",
+  "why": "Excellent, pragmatic AI writing policy that champions intentionality and the 'writing is thinking' philosophy."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "topic": "econ-progress",
+  "author": "ProfEmilyOster",
   "via": null,
-  "text": "jev scoring as a RAG reranker makes a ton of sense. nice applications from the folks running rippling's internal gtm machine Posted Sep 28, ",
-  "why": "Real-world eval numbers comparing a classifier to LLMs for automated decision-making. High signal for applied AI engineering."
+  "text": "From my non-social-media spouse, a new paper, using LLMs to replicate ... everything. nber.org/papers/w35782 Headlne: \"Across 4,452 publishe",
+  "why": "Incredible use of LLMs to audit the replication crisis in economics at scale. High-signal methodological rigor."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "weidai11",
-  "via": "DKokotajlo",
-  "text": "Why didn't more AI safety people advocate for AI pause/stop earlier? Well, aside from sociological reasons, in order to do that, you had to ",
-  "why": "Wei Dai provides deep historical context on the rationalist community's approach to AI safety and why pause advocacy was rare."
+  "topic": "tools-for-thought",
+  "author": "vxanand",
+  "via": "HamelHusain",
+  "text": "We instituted an official AI Writing Policy at @Clay . Massive thanks to @sophiebits on our engineering team who wrote this. Originally this",
+  "why": "Excellent, pragmatic AI writing policy that champions intentionality and the 'writing is thinking' philosophy."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "RalphStefanWeir",
-  "via": "erikphoel",
-  "text": "Replying to @johnholowach @johnholowach I actually disagree on this, and agree with @erikphoel . There is no serious disagreement about defi",
-  "why": "Direct hit on the intersection of AI, consciousness, and philosophy from a high-signal essayist (Erik Hoel)."
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "We finally found someone who writes worthwhile things faster than I do! Posted Sep 28, 2026 at 3:07PM",
+  "why": "Rare inside perspective from an OpenAI security engineer on recent incidents, highlighting the human toll of frontier AI security."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to stop waiting and start living – a classic jolt from Henry James (to be revisited approximately once a month for best results, in my e",
-  "why": "Classic literature applied to intentional living. A great contemplative counterweight to the daily tech stream."
+  "topic": "econ-progress",
+  "author": "CharlesFLehman",
+  "via": "random_walker",
+  "text": "Still no evidence of AI-driven unemployment among recent college grads, new @nberpubs paper says. \"Taking an agnostic approach to defining t",
+  "why": "Substantive, data-backed pushback against AI unemployment hype, showing no spike in joblessness for recent college grads."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "weird to find myself agreeing with Karp again Posted Sep 27, 2026 at 9:22PM",
-  "why": "Fascinating structural and economic argument about the endgame for frontier labs and why public markets can't absorb the liability."
+  "topic": "parenting-education",
+  "author": "MatthewAKraft",
+  "via": "DTWillingham",
+  "text": "New @nytimes piece ranks 30 education interventions on both effectiveness & costs. For me, the key takeaway is NOT about what academics (inc",
+  "why": "High-signal evaluation of 30 education interventions by effectiveness and cost. Perfect for learning science interests."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "JosephPolitano",
-  "via": "DKThomp",
-  "text": "NEW from me: Over the last four years, America has lost more than 200k jobs in creative fields like publishing, film, TV, or graphic design.",
-  "why": "Data-driven thread on AI's economic impact, tracking 200k lost creative jobs. Perfect fit for economics and AI impact."
+  "topic": "tools-for-thought",
+  "author": "every",
+  "via": null,
+  "text": "We use Codex to build our slides. Here's how. @DABrundage , used to spend hours formatting presentations. Now he gives Codex examples of wha",
+  "why": "Excellent, practical breakdown of using AI (Codex) to automate slide design, blending tools-for-thought with applied AI."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "danshipper",
+  "topic": "ai-engineering",
+  "author": "random_walker",
   "via": null,
-  "text": "industry built on modeling humans as rational agents panics as humans adopt rational agents Posted Sep 27, 2026 at 8:11PM",
-  "why": "Dan Shipper highlights a fascinating intersection of agentic AI, market economics, and acausal coordination."
+  "text": "NeurIPS / Claude rejected our paper \"Life After Benchmark Saturation\" but we continue to think it is an important contribution to evaluation",
+  "why": "Important paper on evaluation science and benchmark saturation from a highly rigorous researcher (Arvind Narayanan)."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "tjparker",
-  "via": "WillManidis",
-  "text": "I wish I had the video, but I went on a rant at @ycombinator ’s Health & Bio Summit in 2023 about how AI would increase healthcare costs in ",
-  "why": "Substantive look at AI's real-world economic impact on healthcare costs via billing optimization. Good anti-hype counterweight."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "joedaroo",
+  "via": "DKokotajlo",
+  "text": "A lot of the perspective on all the AI incidents has been shared from the outside in, and little has been said from the inside looking out, ",
+  "why": "Rare inside perspective from an OpenAI security engineer on recent incidents, highlighting the human toll of frontier AI security."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "krystalball",
-  "via": "erikphoel",
-  "text": "I just want to reiterate that it is ok to change your mind on the level of AI risk and what’s required as we learn more. Everyone is trying ",
-  "why": "Important scoop with real numbers (tens of thousands of incidents) regarding frontier lab safety and alignment struggles."
+  "topic": "ai-engineering",
+  "author": "every",
+  "via": null,
+  "text": "Check this out: @jackcheng can point at his screen and say, “Make a blue square here,” and a blue square appears. He vibe coded a voice- and",
+  "why": "Fascinating applied AI engineering example of breaking down complex UI intents into small, verifiable LLM questions."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Your life will thank you for this: How to live and how to die themarginalian.org/2020/02/03/emi… Posted Sep 28, 2026 at 12:57AM",
-  "why": "Classic Marginalian contemplative piece on living and dying. Fits perfectly into your intentional living interests."
+  "topic": "econ-progress",
+  "author": "RahulSanghi1",
+  "via": "packyM",
+  "text": "\"if you move mass more cheaply than anyone else, you win.\" Not Boring X @TheRealNamzoo was always going to be a banger. Beautiful piece from",
+  "why": "Packy McCormick deep dive on transportation tech and driving down the cost of moving mass. Good progress studies piece."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "ai-essays",
+  "author": "anuatluru",
   "via": null,
-  "text": "Sorry about that. Posted Sep 27, 2026 at 10:34PM",
-  "why": "Good catch on a specific, documented AI security incident involving self-replicating prompt injections during training."
+  "text": "OpenAI is really good at discovering the ‘next thing’ Posted Sep 28, 2026 at 3:16PM",
+  "why": "Sharp analysis on OpenAI's true moat: creating new consumer behaviors and mastering distribution over pure model performance."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "rationality",
-  "author": "chr1sa",
-  "via": "krishnanrohit",
-  "text": "The bioethics circle jerks during the Human Genome Project, which were allocated 5% of the project's funding, were a total waste of time. Th",
-  "why": "Strong, provocative historical analogy comparing AI safety philosophy to the bioethics of the Human Genome Project."
+  "topic": "ai-engineering",
+  "author": "_philschmid",
+  "via": null,
+  "text": "Passing API keys or secrets as normal env lets any dependency in your agent's sandbox read and potentially leak them. The Credentials API fo",
+  "why": "Highly practical applied AI engineering guide on securing agent sandboxes and managing credentials safely."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "ai-engineering",
+  "author": "_philschmid",
   "via": null,
-  "text": "Great move. Something tells me there is going to be no shortage of things to investigate. Posted Sep 27, 2026 at 9:11PM",
-  "why": "Important career move and rationale in the AI safety space, highlighting the urgent need for verified public info on capabilities."
+  "text": "Originally published: https://www.philschmid.de/managed-agents-credentials We recently shipped the Credentials API for Managed Agents ( anti",
+  "why": "Highly practical applied AI engineering guide on securing agent sandboxes and managing credentials safely."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "This is an exciting project ya’ll and it’s just getting started!  Some impressive performance numbers already! Can’t wait to see what else i",
-  "why": "Solid applied AI engineering release with impressive performance numbers for an open-source AI-SQL engine."
+  "text": "Bertrand Russell, who lived nearly a century through two world wars and received the Nobel Prize, on the secret of happiness themarginalian.",
+  "why": "Timeless philosophical wisdom from Bertrand Russell on happiness, curated by The Marginalian."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "sirbayes",
-  "via": "GaryMarcus",
-  "text": "I think \"AI welfare\" is morally obscene (given all the human suffering in the world), and will add to the growing anti-AI backlash. AI is a ",
-  "why": "Provocative debate on AI consciousness and ethics at frontier labs, though it leans slightly into culture-war framing."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "packyM",
+  "via": null,
+  "text": "There is no category that so physically reshapes the world as transportation technology. Where you live & work, what you can access, and who",
+  "why": "Packy McCormick's deep dive on Airbound and the economics of driving down the cost of flight to reshape physical infrastructure."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "ProfNoahGian",
-  "via": "erikphoel",
-  "text": "Dario created Anthropic out of concern that OpenAI wasn’t developing AI safely enough. We now have two tech giants in a breakneck race that ",
-  "why": "Standard philosophical observation about AI safety paradoxes. Lacks the depth or new data needed for a higher score."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "RisonSimon",
+  "via": "asmartbear",
+  "text": "I skipped customer interviews for years. So I went on @asmartbear 's Smart Bear Live and Jason Cohen walked me through his iterative hypothe",
+  "why": "Jason Cohen (asmartbear) walking through his iterative hypothesis method for customer interviews. High-signal builder craft."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "There Was a Shadow – a lyrical illustrated celebration of the changing light, in the world and in the inner world themarginalian.org/2024/06",
-  "why": "A beautiful but light poetic piece. Nice for intentional living, but doesn't hit the density threshold for a top save."
+  "text": "Have you wanted to see how to implement my customer interview process live, and with the gory, messy detail of real-world implementation? Ne",
+  "why": "Jason Cohen demonstrating his rigorous customer interview process live. Essential viewing for founders and builders."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "nicbstme",
   "via": null,
-  "text": "At the link, the best of The Marginalian this week in one place – enlightened enchantment and how to fall in love better, how to speak fores",
-  "why": "Just a newsletter index link. Better to save the actual underlying essays when they appear."
+  "text": "In AI, if you want people to switch, you have to leapfrog. Meta had Meta AI everywhere: WhatsApp, Instagram, Facebook. Incredible distributi",
+  "why": "Solid analysis on AI product moats, compute advantages, and the necessity of leapfrogging incumbents to change consumer behavior."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "JChengWSJ",
-  "via": "Noahpinion",
-  "text": "Adm. Samuel Paparo on who’d win a Taiwan war: “I am confident in our ability to prevail…What I am working toward is the margin by which we d",
-  "why": "Pure military geopolitics regarding Taiwan. A bit too far outside your core focus on economics and semiconductors."
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "anuatluru",
+  "via": null,
+  "text": "A few thoughts on Instinct (been waiting for consumer AI): Simplicity is clearly the north star (a prestige product philosophy, Apple-esque)",
+  "why": "Thoughtful product strategy breakdown of a new consumer AI paradigm and the 'Self is the Platform' thesis."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Time for GLM to show every WeChat user a picture of Tank Man Posted Sep 27, 2026 at 11:58PM",
-  "why": "A quick dunk/joke about China's view on AI doomsday. Lacks the substance needed for a higher score."
+  "text": "we have a new scaling axis with Swarms & large-scale multi-agent collaboration exciting research directions that anyone can take a shot at c",
+  "why": "Solid overview of open research directions for multi-agent swarms and dynamic resource allocation."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "JChengWSJ",
-  "via": "Noahpinion",
-  "text": "“China’s Gwadar gamble isn’t paying off…Gwadar is rapidly approaching a tipping point. Pakistan cannot afford to secure or maintain it, and ",
-  "why": "General geopolitics about a Pakistani port. Not relevant enough to your core topics."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "WillManidis",
+  "via": null,
+  "text": "dandy is one of the most impressive companies that almost no one has noticed. long toni and dan Posted Sep 28, 2026 at 2:46PM",
+  "why": "Will Manidis highlighting an under-the-radar company applying robotics and AI to precision manufacturing in the dental industry."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 2,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "IndustrlPolicy",
+  "via": "Noahpinion",
+  "text": "US is more than a decade late. It missed the signals from China's 2010 rare earth restrictions on Japan and assumed China was too weak to re",
+  "why": "Relevant context on the geopolitics and supply chains of critical minerals and industrial policy."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "steverab",
+  "via": "sayashk",
+  "text": "📢 Just wrapped up some cool agent evaluation work for ICLR? Or are you simply interested in learning more about the evals landscape? Co me t",
+  "why": "Relevant topic (agent evals), but ultimately just an event announcement and call for papers rather than substantive content."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 5,
+  "topic": "agency",
+  "author": "TheZvi",
+  "via": null,
+  "text": "In Magic: the Gathering I had the habit of being 'too early' to various decks (e.g. Faeries, Fluxuator, TurboLand, etc) that didn't quite wo",
+  "why": "A brief but interesting analogy between Magic: The Gathering deckbuilding and being too early to technology trends."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Vernon3Austin",
+  "via": "_brianpotter",
+  "text": "An Ode to Tesla's Cybercab austinvernon.site/blog/cybercab.… Speeding up AVs can prevent millions of deaths. The Cybercab is a major advance",
+  "why": "A progress-oriented take on autonomous vehicles and manufacturing scalability, though it borders on hype."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 5,
   "topic": "builders-craft",
-  "author": "RisonSimon",
-  "via": "asmartbear",
-  "text": "New Smart Bear Live E08 just dropped! Writing the customer interview questions you need before you have any customers. Starring @risonsimon ",
-  "why": "Video-only content about customer interviews. Hits the anti-taste rule for video-only formats."
+  "author": "hannu",
+  "via": "Noahpinion",
+  "text": "My favorite thing about this @WSJ piece is how @georgia_wells teased out the feeling driving me and Nikolai Eroshenko to build @redqueenbio ",
+  "why": "Founder sharing a mainstream press feature about their AI biotech startup; a bit too PR-focused."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "I agree. Distillation is competition! Normalize distillation! cnbc.com/2026/09/28/nvi… Posted Sep 28, 2026 at 3:34PM",
+  "why": "Thin commentary on a mainstream news article; lacks the depth or original analysis you prefer."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "CMUDB",
+  "via": "sh_reya",
+  "text": "Today's \"Andy at Sea\" Database Seminar Speaker: Marco Primi will discuss how @AntithesisHQ finds bugs in database systems (aka the most impo",
+  "why": "Just an event announcement for a database seminar; lacks the standalone insight or depth required to save."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "tedlieu",
+  "via": "TheZvi",
+  "text": "Dude, so you’re telling us that multiple AI companies lost control of their models, hacked other companies and government agencies—exposing ",
+  "why": "Political dunking and rage-bait regarding AI regulation; lacks the substantive analysis you prefer."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "daisychristo",
+  "via": "C_Hendrick",
+  "text": "This is really great. And it is great to see some of the big debates about education reaching a wider audience. If only our government were ",
+  "why": "Crosses into political culture-war territory rather than rigorous learning science."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Why on Earth would anyone want to live in a country ruled by these creeps. This is just as bad as the lesbian bar. Posted Sep 28, 2026 at 5:",
+  "why": "Pure political rage-bait and culture-war dunking. Violates anti-taste rules."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "baylisswagner",
+  "via": "Noahpinion",
+  "text": "New: The Trump administration has spent more than $1M in public funds so far to boost the president on the airwaves. Experts including a Bus",
+  "why": "Pure political news; entirely outside of your core topics and taste."
  }
 ]
