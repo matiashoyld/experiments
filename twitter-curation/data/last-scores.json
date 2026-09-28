@@ -4,99 +4,239 @@
   "kept": true,
   "score": 9,
   "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "author": "TheZvi",
   "via": null,
-  "text": "In this long and excellent guest post, the great @ramez explains why he's skeptical about Recursive Self-Improvement: noahpinion.blog/p/wher",
-  "why": "Deep, substantive skepticism of the AI intelligence explosion narrative from Ramez Naam."
+  "text": "Dario Amodei’s essay We Must Pace the Frontier committed Anthropic to embedded evaluators, who would be placed inside Anthropic and given em",
+  "why": "Zvi's deep, substantive synthesis on the complexities of embedded evaluators at frontier labs. Essential reading on AI policy."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "tools-for-thought",
-  "author": "every",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "Pro tip: Point Jev at your inbox. @jackcheng built a Jev email filter, and the first version flagged every newsletter as urgent. He didn’t w",
-  "why": "Practical, rigorous breakdown of building a personal AI email agent using evals and iterative refinement."
+  "text": "Q: Can I use Jev for evals? A: Jev and an LLM judge are both classifiers that you should validate against trusted labels. Read more: hamel.d",
+  "why": "Hamel Husain on evals-as-discipline. Direct hit on your core interest in methodological rigor for LLM systems."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "HeidyKhlaaf",
-  "via": "GaryMarcus",
-  "text": "Replying to @HeidyKhlaaf Yet AI labs spend millions (if not billions) to purposely experiment with them at the cost of others, and falsely b",
-  "why": "Excellent technical demystification of AI 'escapes,' countering sci-fi hype with the reality of API vulnerabilities."
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "jev scoring as a RAG reranker makes a ton of sense. nice applications from the folks running rippling's internal gtm machine Posted Sep 28, ",
+  "why": "Real-world eval numbers comparing a classifier to LLMs for automated decision-making. High signal for applied AI engineering."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "Do phone bans mean pupils have a better sense of wellbeing and belonging? Not really. - A year long study* of one Flemish school found that ",
-  "why": "Rigorous, skeptical breakdown of a study on school phone bans, highlighting methodological weaknesses."
+  "topic": "rationality",
+  "author": "weidai11",
+  "via": "DKokotajlo",
+  "text": "Why didn't more AI safety people advocate for AI pause/stop earlier? Well, aside from sociological reasons, in order to do that, you had to ",
+  "why": "Wei Dai provides deep historical context on the rationalist community's approach to AI safety and why pause advocacy was rare."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "every",
-  "via": null,
-  "text": ". @jackcheng started missing his AI usage limits. When he burned through his weekly Fable quota in a day, his ideas had to wait. Now, lighte",
-  "why": "Thoughtful piece on AI 'snacking' and the value of friction in the creative process."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "RalphStefanWeir",
+  "via": "erikphoel",
+  "text": "Replying to @johnholowach @johnholowach I actually disagree on this, and agree with @erikphoel . There is no serious disagreement about defi",
+  "why": "Direct hit on the intersection of AI, consciousness, and philosophy from a high-signal essayist (Erik Hoel)."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
+  "score": 8,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "If you feel like you are waiting to start living, this catalytic poem is for you: themarginalian.org/2025/01/10/no-… Posted Sep 27, 2026 at ",
-  "why": "A beautiful, catalytic poem by Mario Benedetti on intentional living and not holding back from life."
+  "text": "How to stop waiting and start living – a classic jolt from Henry James (to be revisited approximately once a month for best results, in my e",
+  "why": "Classic literature applied to intentional living. A great contemplative counterweight to the daily tech stream."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Largely agree. But I think this can really be boiled down to a simple fact: Physics breakthroughs always come from new instrumentation. It g",
-  "why": "Insightful framing on why AI hasn't revolutionized physics yet: breakthroughs require new physical instruments, not just math."
+  "text": "weird to find myself agreeing with Karp again Posted Sep 27, 2026 at 9:22PM",
+  "why": "Fascinating structural and economic argument about the endgame for frontier labs and why public markets can't absorb the liability."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "vaibcode",
-  "via": null,
-  "text": "AI will never ever write code in assembly. Lets me tell you why. I spent most of my career writing assembly, and the hardest part of job was",
-  "why": "Strong builder perspective on why AI won't replace high-level languages: architectural flexibility matters more than raw ASM speed."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "JosephPolitano",
+  "via": "DKThomp",
+  "text": "NEW from me: Over the last four years, America has lost more than 200k jobs in creative fields like publishing, film, TV, or graphic design.",
+  "why": "Data-driven thread on AI's economic impact, tracking 200k lost creative jobs. Perfect fit for economics and AI impact."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "greg_ip",
-  "via": "Noahpinion",
-  "text": ". @michaelxpettis sets the record straight on the Plaza Accord. It was not forced on Japan, and did not cause its lost decades. Its own 1986",
-  "why": "Nuanced economic history correcting the record on the Plaza Accord and Japan's lost decades."
+  "kept": true,
+  "score": 8,
+  "topic": "agency",
+  "author": "danshipper",
+  "via": null,
+  "text": "industry built on modeling humans as rational agents panics as humans adopt rational agents Posted Sep 27, 2026 at 8:11PM",
+  "why": "Dan Shipper highlights a fascinating intersection of agentic AI, market economics, and acausal coordination."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 6,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "tjparker",
+  "via": "WillManidis",
+  "text": "I wish I had the video, but I went on a rant at @ycombinator ’s Health & Bio Summit in 2023 about how AI would increase healthcare costs in ",
+  "why": "Substantive look at AI's real-world economic impact on healthcare costs via billing optimization. Good anti-hype counterweight."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "krystalball",
+  "via": "erikphoel",
+  "text": "I just want to reiterate that it is ok to change your mind on the level of AI risk and what’s required as we learn more. Everyone is trying ",
+  "why": "Important scoop with real numbers (tens of thousands of incidents) regarding frontier lab safety and alignment struggles."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "You know it. The pleasure of being left alone themarginalian.org/2024/06/13/ros… Posted Sep 27, 2026 at 4:13AM",
-  "why": "A lovely, short reflection on the deep personal pleasure of being left alone."
+  "text": "Your life will thank you for this: How to live and how to die themarginalian.org/2020/02/03/emi… Posted Sep 28, 2026 at 12:57AM",
+  "why": "Classic Marginalian contemplative piece on living and dying. Fits perfectly into your intentional living interests."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Sorry about that. Posted Sep 27, 2026 at 10:34PM",
+  "why": "Good catch on a specific, documented AI security incident involving self-replicating prompt injections during training."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "rationality",
+  "author": "chr1sa",
+  "via": "krishnanrohit",
+  "text": "The bioethics circle jerks during the Human Genome Project, which were allocated 5% of the project's funding, were a total waste of time. Th",
+  "why": "Strong, provocative historical analogy comparing AI safety philosophy to the bioethics of the Human Genome Project."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Great move. Something tells me there is going to be no shortage of things to investigate. Posted Sep 27, 2026 at 9:11PM",
+  "why": "Important career move and rationale in the AI safety space, highlighting the urgent need for verified public info on capabilities."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "This is an exciting project ya’ll and it’s just getting started!  Some impressive performance numbers already! Can’t wait to see what else i",
+  "why": "Solid applied AI engineering release with impressive performance numbers for an open-source AI-SQL engine."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "sirbayes",
+  "via": "GaryMarcus",
+  "text": "I think \"AI welfare\" is morally obscene (given all the human suffering in the world), and will add to the growing anti-AI backlash. AI is a ",
+  "why": "Provocative debate on AI consciousness and ethics at frontier labs, though it leans slightly into culture-war framing."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "ProfNoahGian",
+  "via": "erikphoel",
+  "text": "Dario created Anthropic out of concern that OpenAI wasn’t developing AI safely enough. We now have two tech giants in a breakneck race that ",
+  "why": "Standard philosophical observation about AI safety paradoxes. Lacks the depth or new data needed for a higher score."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "There Was a Shadow – a lyrical illustrated celebration of the changing light, in the world and in the inner world themarginalian.org/2024/06",
+  "why": "A beautiful but light poetic piece. Nice for intentional living, but doesn't hit the density threshold for a top save."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "At the link, the best of The Marginalian this week in one place – enlightened enchantment and how to fall in love better, how to speak fores",
+  "why": "Just a newsletter index link. Better to save the actual underlying essays when they appear."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "JChengWSJ",
+  "via": "Noahpinion",
+  "text": "Adm. Samuel Paparo on who’d win a Taiwan war: “I am confident in our ability to prevail…What I am working toward is the margin by which we d",
+  "why": "Pure military geopolitics regarding Taiwan. A bit too far outside your core focus on economics and semiconductors."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Time for GLM to show every WeChat user a picture of Tank Man Posted Sep 27, 2026 at 11:58PM",
+  "why": "A quick dunk/joke about China's view on AI doomsday. Lacks the substance needed for a higher score."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "JChengWSJ",
+  "via": "Noahpinion",
+  "text": "“China’s Gwadar gamble isn’t paying off…Gwadar is rapidly approaching a tipping point. Pakistan cannot afford to secure or maintain it, and ",
+  "why": "General geopolitics about a Pakistani port. Not relevant enough to your core topics."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "RisonSimon",
+  "via": "asmartbear",
+  "text": "New Smart Bear Live E08 just dropped! Writing the customer interview questions you need before you have any customers. Starring @risonsimon ",
+  "why": "Video-only content about customer interviews. Hits the anti-taste rule for video-only formats."
  }
 ]
