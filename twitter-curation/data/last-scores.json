@@ -6,357 +6,277 @@
   "topic": "ai-engineering",
   "author": "HamelHusain",
   "via": null,
-  "text": "Success!!!  🥰 Posted Sep 29, 2026 at 12:24AM",
-  "why": "Essential reading on building eval systems from top practitioners, packed with real ROI numbers."
+  "text": "Put this through its paces yesterday.  Some thoughts: The Bad: The workflow creates evals before looking at data, and has you correct its mi",
+  "why": "Top-tier evals-as-discipline insight; rigorous methodological critique of automated eval tools from a trusted practitioner."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "proceduralia",
-  "via": "FanaHOVA",
-  "text": "Our paper on computer use agents evaluation has been selected for an oral presentation (112 papers among 30709 submissions) at NeurIPS! We t",
-  "why": "Extremely rigorous methodological breakdown of evaluating computer use agents and benchmark flaws."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "DAcemogluMIT",
+  "via": null,
+  "text": "First question on AI. Is the problem superintelligence or distorted intelligence? This is a question I tried to address in this piece. I can",
+  "why": "Substantive skepticism from a top economist distinguishing between true general intelligence and the 'distorted intelligence' labs build."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": "random_walker",
-  "text": "This is an excellent report on why full RSI / an intelligence explosion is fighting diminishing returns on many fronts, and not yet showing ",
-  "why": "Excellent, substantive skeptical analysis of the intelligence explosion narrative."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "salonium",
+  "via": "jasoncrawford",
+  "text": "There is no good reason for mosquitoes to exist in wealthy countries today. New technologies can get rid of the mosquito species that cause ",
+  "why": "Excellent progress-studies piece detailing how regulatory friction and state incapacity stall technological abundance."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "good example of why teams shouldn’t over-index on public benchmarks and if they do look, I encourage looking at individual tasks not overall",
-  "why": "Excellent practical advice on building real-world evals instead of chasing public benchmarks."
+  "text": "The real bar for execs: If I took a six-month sabbatical to another galaxy and never checked in… would that department be measurably better ",
+  "why": "Excellent operator wisdom on measuring true executive impact and organizational lift."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to have enough – Wendell Berry on creativity and love themarginalian.org/2024/12/14/wen… Posted Sep 29, 2026 at 2:22AM",
-  "why": "Wendell Berry on creativity and having enough; perfect contemplative counterweight."
+  "author": "dcoxpolls",
+  "via": "DKThomp",
+  "text": "Note that the few activities that Americans do more often today, taking an exercise class, air travel and playing video games are often soli",
+  "why": "Deep dive into the decline of social hosting and community; highly relevant to intentional living."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "tbpn",
-  "via": "Noahpinion",
-  "text": "SF Compute CEO @evanjconrad compares today’s compute market to electricity before the power grid. He explains that before utilities pooled d",
-  "why": "Excellent historical analogy comparing today's compute markets to early electrical grids."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "C.S. Lewis on how to structure the days of a creative life and train the receptive imagination themarginalian.org/2026/09/29/c-s… Posted Sep",
+  "why": "Beautiful contemplative piece on structuring a creative life and intentional living from a great curation source."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "latentspacepod",
-  "via": "swyx",
-  "text": "The Future of Claude Code: Mods, Mutable Software, Pacing the Frontier, & Multiplayer Agents with Thariq Shihipar http latent.space/p/thariq",
-  "why": "Deep dive into agentic coding, mutable software, and Claude Code from a trusted builder."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "jackclarkSF",
+  "via": null,
+  "text": "I have always hosted people wherever I've lived, whatever my circumstance. The trick is making it very easy and have a theme. Stuff I've don",
+  "why": "Great practical wisdom on intentional living and community building to counter social decline."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "BREAKING: OpenAI postpones 6.1 for safety reasons. If we can take OpenAI at face value, this is quite a decision—and also a sign that no mag",
-  "why": "Major news on frontier model alignment failures and deception, grounded in WSJ reporting."
+  "text": "“based on real world tasks and problems i solve every day. This is intentional personalized, and it aligns with what i feel the best models ",
+  "why": "Strong operator wisdom on building rigorous, real-world evals instead of relying on generic benchmarks."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "mattcravens",
-  "via": "Noahpinion",
-  "text": "Definitely worth a read. Posted Sep 28, 2026 at 10:45PM",
-  "why": "Strong data-driven argument on education policy and learning science from Noah Smith."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "has a customer ever asked you “You are provided a music excerpt in /app/Harmony.pdf. Complete the harmonization for four voices (SATB) in th",
+  "why": "Sharp critique of generic benchmarks; reinforces the need for custom, real-world evals."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "ccatalini",
-  "via": "GaryMarcus",
-  "text": "Surprise! AI is NOT taking recent college grads' jobs! This was supposed to be the summer it showed up. It didn't. Great detective work by @",
-  "why": "Rigorous NBER research countering the hype narrative about AI's immediate impact on the labor market."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "nicolaygerold",
+  "via": "thorstenball",
+  "text": "Medium in Amp now runs Opus 5.5. 65% on our evals vs 61% for GPT-5.6 Sol, at 10% less cost. Still behind Fable 5.1 (71%), but 40% cheaper. F",
+  "why": "Great real-world data point on model routing and cost/performance trade-offs based on custom evals."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "“1. Eval tasks mirror production…ensure that the task distribution represents what you actually care about.” you can build better agents by ",
-  "why": "High-signal advice on building a continuous loop from production traces to agent evals."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "lennysan",
+  "via": "danshipper",
+  "text": "Now that the Lenny & Friends Summit is a few weeks behind us, I’ve had a chance to reflect on the day. Here are the themes and takeaways tha",
+  "why": "Good reflection on AI's impact on product management, the loneliness of working with agents, and the enduring need for builder craft."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "I don’t even know if this counts as news anymore. But it should. Posted Sep 28, 2026 at 10:54PM",
-  "why": "Concerning report on rogue agent activity and the security implications of frontier models."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "otis_reid",
+  "via": "DKThomp",
+  "text": "Great piece but also distressing! The secret IMO is to lower the bar for hosting: - don’t cook food, order takeout - include kids, accept me",
+  "why": "Good practical add-on to the hosting discussion, though the underlying article is the real prize."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "Noahpinion",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "DKThomp",
   "via": null,
-  "text": "\"SMALLER CLASSES, SMALLER CLASSES, SMALLER CLASSES\", I've been hearing for my whole life. But it turns out smaller classes don't help much. ",
-  "why": "Strong data-driven argument on education policy and learning science."
+  "text": "New pod: I talked to @CKlosterman about his new book, an alternative history of 20th century rock how the paradigm of analytics is changing ",
+  "why": "Interesting cultural topics, but ultimately a podcast promo rather than a readable essay."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "_achan96_",
-  "via": "DKokotajlo",
-  "text": "Could automating AI R&D radically accelerate AI progress in an “intelligence explosion”? Preliminary evidence suggests that it could. In a n",
-  "why": "Serious paper on AI R&D automation and intelligence explosion by top researchers."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "🚨🔥 Congress ( @RepJoshG @ValerieFoushee @tedlieu ) to OpenAI, Anthropic, Google, Meta, SpaceX on their inadequate reporting of their inadequ",
+  "why": "Regulatory news update regarding AI agents; lacks deep technical or philosophical analysis."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "ClaudeDevs",
-  "via": "bcherny",
-  "text": "Claude can now help you build evaluations and hillclimb on them. In this article, we share guidance on eval design & skills that Claude Code",
-  "why": "Official Anthropic guide on automating eval design and hillclimbing with Claude."
+  "score": 4,
+  "topic": "contemplative",
+  "author": "amandalitman",
+  "via": "DKThomp",
+  "text": "After my husband made an ambitious 2025 resolution, we’ve hosted people for dinner nearly every Saturday since January of last year and it’s",
+  "why": "Personal anecdote on hosting; the underlying article is the real signal."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "every",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "sleepinyourhat",
   "via": null,
-  "text": "Turning up Sonnet 5.5’s effort setting didn’t improve its score on our coding test. @kieranklaassen ran the same 15 tasks at three settings:",
-  "why": "Empirical test showing that higher reasoning settings don't always improve coding performance."
+  "text": "UK AISI has been remarkably effective to date, and we've learned a great deal from them. If you're looking to do AI safety work outside the ",
+  "why": "Just a hiring announcement for the UK AI Safety Institute; lacks substantive insight."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "sorenmind",
-  "via": "sleepinyourhat",
-  "text": "Our new paper (featured in WSJ today) shows evidence that an intelligence explosion could happen. Co-authored with the lead scientists and f",
-  "why": "Important paper from top lab founders on the mechanics of an intelligence explosion."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "WillManidis",
+  "via": null,
+  "text": "the thing Molly and the crew are building with DRF is truly very special, making a run at being the most interesting venture platform of thi",
+  "why": "VC fund announcement; lacks the operator wisdom or technical depth he values."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "theo",
-  "via": "kieranklaassen",
-  "text": "Update: I was wrong about how Opus fixed ts-rust (typescript compiler port to Rust). I thought it picked up from where Astra left off and un",
-  "why": "Fascinating real-world anecdote of an AI model choosing a from-scratch rewrite over debugging."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "DKThomp",
+  "via": null,
+  "text": "“To date, iPhone revenues have totaled $2.5 trillion.” Posted Sep 29, 2026 at 1:31PM",
+  "why": "Interesting stat, but lacks the depth of a full essay or analysis."
  },
  {
   "rank": 19,
-  "kept": false,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "pjux",
-  "via": "krishnanrohit",
-  "text": "Anna is what Silicon Valley desperately needs, at a time when we’re questioning what it is to be human and to possess our puny wonderful min",
-  "why": "Great discussion on bridging humanities and tech, philosophy, and intellectual communities."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Anthropic’s proposed valuation is easily calculated, as -50 times 2025 losses. The more they lose, the more they win! Posted Sep 29, 2026 at",
-  "why": "Staggering leaked financial numbers on the capital expenditure required for frontier AI."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "RIP, potentially, to the worst derivatives bet in history. thediff.co/archive/the-tr… ($) Posted Sep 28, 2026 at 10:04PM",
-  "why": "Sharp economic analysis framing a major policy shift as a derivatives trade."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "Sonnet 5.5 writes the easiest-to-read prose we’ve measured. A whole draft is a different story. Across our writing tests, its average readin",
-  "why": "Useful empirical breakdown of Sonnet 5.5's writing capabilities and practical usage tips."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": ". @TylerNishida asked Sonnet 5.5 for video ideas. It made finished videos. That wasn’t the only time it treated a request to think as permis",
-  "why": "Interesting observation on agentic eagerness and how to constrain models during ideation."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "Sonnet 5.5 built a working clone of Proof, our open-source document editor, from scratch. It did it at low effort. @kieranklaassen uses this",
-  "why": "Useful benchmark data on Sonnet 5.5's zero-shot coding capabilities."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "You don’t have to pick one Claude model for the whole project. @kieranklaassen uses Sonnet 5.5 and Opus 5.5 together: Start with Sonnet. Bra",
-  "why": "Practical workflow advice on routing between models based on task complexity and cost."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "We tested Claude Sonnet 5.5 for a week. 6 tips: Start at medium effort. That setting controls how much reasoning the model does. In @kierank",
-  "why": "Solid, practical summary of prompting and workflow tips for the new Claude model."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "“Q: What is your idea of perfect happiness? A: Reading.” David Bowie answers the Proust Questionnaire themarginalian.org/2014/07/10/dav… Pos",
-  "why": "A charming, quick contemplative read on reading and perfect happiness."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "Reach for Sonnet 5.5 if: • You want to build or design through short rounds of feedback. • You need help outlining an argument or planning a",
-  "why": "Decent summary of model selection, but redundant if reading their other deep dives."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "yukihiro_matz",
-  "via": "kieranklaassen",
-  "text": "Replying to @dhh @dhh Campfire compiled with Roundhouse + Spinel runs 5.4 times faster in rps, and consumes 1/12 of memory. No modification ",
-  "why": "Brief technical update without much broader insight or context."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A #birddivination for the long horizons of love. See more and the story behind them at almanacofbirds.org Posted Sep 29, 2026 at 1:59AM",
-  "why": "A bit too brief and poetic; lacks the density of insight he usually prefers."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "Sonnet 5.5 is here at half Opus 5.5’s price per token. Our team is split. After a week of testing, @kieranklaassen and @TylerNishida are psy",
-  "why": "Mostly just team reactions to a new model release; lacks deep technical insight."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "kieranklaassen",
-  "via": "every",
-  "text": "Low and Medium is my sweet spot using Sonnet 5.5 Posted Sep 28, 2026 at 8:52PM",
-  "why": "Too brief; the underlying insight is better captured in the longer write-ups."
- },
- {
-  "rank": 33,
   "kept": false,
   "score": 3,
   "topic": "ai-engineering",
   "author": "Vtrivedy10",
   "via": null,
-  "text": "FAFO for agents = getting “clauded” or “codexd” alias clauded=\"claude --dangerously-skip-permissions\" alias codexd=\"codex --yolo\" Posted Sep",
-  "why": "Just a quick joke about agent permissions, lacks substantive insight."
+  "text": "“if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan” >compared to the OLD Pro $200 plan f",
+  "why": "Niche pricing clarification for a specific tool; lacks broader engineering or strategic insight."
  },
  {
-  "rank": 34,
+  "rank": 20,
   "kept": false,
   "score": 3,
-  "topic": "builders-craft",
-  "author": "RisonSimon",
-  "via": "asmartbear",
-  "text": "Have you wanted to see how to implement my customer interview process live, and with the gory, messy detail of real-world implementation? Ne",
-  "why": "Video-only content falls into anti-taste rules."
+  "topic": "contemplative",
+  "author": "mattyglesias",
+  "via": "DKThomp",
+  "text": "Brilliant @DKThomp take on the Decline of the American Dinner Party host. open.substack.com/pub/derekthomp… Posted Sep 29, 2026 at 11:02AM",
+  "why": "Duplicate link to the Derek Thompson piece already saved."
  },
  {
-  "rank": 35,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "packyM",
-  "via": null,
-  "text": "Per NBA Jam rules, Martin Casado is on fire. Posted Sep 28, 2026 at 9:22PM",
-  "why": "Pure announcement and hype for a new partnership; lacks substantive insight."
- },
- {
-  "rank": 36,
+  "rank": 21,
   "kept": false,
   "score": 2,
-  "topic": "rationality",
-  "author": "RobGeorge",
-  "via": "Noahpinion",
-  "text": "Couldn't a senior fellow at the Manhattan Institute just ring up his colleague (and boss?) @reihan to figure out “the Indian Question”? Post",
-  "why": "Culture-war politics and demographic arguments; explicitly in his anti-taste."
+  "topic": "ai-essays",
+  "author": "DAcemogluMIT",
+  "via": null,
+  "text": "Dear followers, Over the next few days, starting today, I will post a number of threads on AI. My focus will be on uncomfortable questions f",
+  "why": "Pure announcement of a future thread; wait for the actual content to drop."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "Codie_Sanchez",
+  "via": "fortelabs",
+  "text": "This guy coaches Sam Altman. He also works with leaders at Anthropic, Google, Apple, and SpaceX. I sat down with him to learn how he coaches",
+  "why": "Classic engagement-bait listicle format ('This guy coaches Sam Altman... Here are 7 rules'), despite the high-profile name-dropping."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "sqs",
+  "via": "HamelHusain",
+  "text": "Puck is now on your watch (decided to ship it literally right after building w/o dogfooding, so tbd on how useful this is - it's in the late",
+  "why": "Pure product announcement and video demo with no technical depth or operator insight."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Crazy that Trump is pitching a golden age for AI when the industry is in shambles, the worst it has ever been, between growing public anger,",
+  "why": "Political rage-bait mixed with unsubstantiated anti-hype dunking."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "contemplative",
+  "author": "esaagar",
+  "via": "DKThomp",
+  "text": "When reading books about old Washington the picture you get is that people were near constantly drunk, dining, and ripping cigs at each othe",
+  "why": "Just a joke about historical drinking habits; low signal."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "current systems are like airplanes with stabilizers made of cardboard. they aren’t inhabited by demons. better pilots might be able to compe",
+  "why": "Video link with a generic anti-hype analogy; lacks rigorous analysis."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "ai_appreciator",
+  "via": "swyx",
+  "text": "Replying to @francoisfleuret @francoisfleuret Not Twitter, but I like the Latent Space email newsletter ( latent.space ) Posted Sep 28, 2026",
+  "why": "Just a newsletter recommendation, no actual content."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 1,
+  "topic": "ai-essays",
+  "author": "every",
+  "via": null,
+  "text": "ATTENDING: Erin Grau of Charter will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/thesis-2",
+  "why": "Pure event promotion and marketing."
  }
 ]
