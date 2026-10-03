@@ -4,269 +4,369 @@
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "Q: Why do you recommend binary (pass/fail) evaluations instead of 1-5 ratings (Likert scales)? A: Binary labels force clearer thinking and m",
-  "why": "Excellent methodological rigor for LLM evals: why binary pass/fail beats Likert scales."
+  "author": "samzliu",
+  "via": "Vtrivedy10",
+  "text": "All of the new techniques developed are just better search! As an example:  I used to have a philosophical problem with things like data aug",
+  "why": "Excellent technical synthesis framing recent AI advancements (MCMC, GRPO) as trading compute for efficient search."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "econ-progress",
-  "author": "DKThomp",
+  "author": "DAcemogluMIT",
   "via": null,
-  "text": "New newsletter: WHY AMERICANS HATE AI AI might be the most instantly unpopular emerging technology in modern history. Off the top of my head",
-  "why": "Brilliant synthesis of AI skepticism and economics, exploring how the AI buildout is driving inflation instead of abundance."
+  "text": "Fourth question on AI. One of the great promises of AI is the discovery of new drugs and cures, so that we can live longer and healthier liv",
+  "why": "Top economist Daron Acemoglu provides a rigorous, skeptical analysis of AI's opportunity cost vs public health."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "builders-craft",
-  "author": "nicbstme",
-  "via": null,
-  "text": "One of my frustrations building an AI startup at the application layer was this feeling that I was basically a token reseller. You can have ",
-  "why": "Excellent operator wisdom on the brutal economics of AI application startups and the strategic value of open-source models."
+  "topic": "ai-engineering",
+  "author": "heymikasagi",
+  "via": "FanaHOVA",
+  "text": "In our evals of 200+ developer tools, one pattern is clear: some teams obsess over AI agents as users. @vercel is one of them, so we wrote u",
+  "why": "Extremely high-signal breakdown of 'Agent Experience' (AX) and how to optimize dev tools for AI agents."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "nkulw",
-  "via": "erikphoel",
-  "text": "“Overall, AI, along with social-media and smartphone use, has contributed to a drop in reading skills worldwide, according to the Organizati",
-  "why": "Sobering WSJ report on how AI and smartphones are measurably degrading global reading skills."
+  "topic": "ai-essays",
+  "author": "jon_barron",
+  "via": "GaryMarcus",
+  "text": "Kudos to Pope Leo. I am disturbed by how some of my fellow AI researchers keep trying to elevate the moral standing of checkpoints and harne",
+  "why": "Fascinating intersection of AI, consciousness, and religion, with a grounded researcher's critique of moral standing for models."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "asmartbear",
+  "topic": "econ-progress",
+  "author": "emollick",
   "via": null,
-  "text": "The ego monster tells you that outward forms of success are important: title, company, school, “followers.” But then there’s the things that",
-  "why": "Deeply aligned with intentional living: a reflection on internal fulfillment versus outward success metrics."
+  "text": "\"The best current evidence supports a narrow claim: AI may already be affecting the hiring margin for junior white-collar roles most exposed",
+  "why": "Evidence-based analysis on AI's actual impact on the labor market, shared by a favorite author (Mollick)."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "Interesting commentary on my first question. from @joshgans Posted Oct 2, 2026 at 1:27PM",
-  "why": "Nuanced philosophical take on AI alignment, focusing on human loss functions and corporate bias over sci-fi superintelligence."
+  "topic": "ai-essays",
+  "author": "isabelleboemeke",
+  "via": "erikphoel",
+  "text": "Before nuclear became my entire personality, I was interested in consciousness. People have debated it for centuries, but AI has made figuri",
+  "why": "Excellent synthesis of top thinkers (Hoel, Seth, Hoffman) on the intersection of AI and the science of consciousness."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "AISafetyMemes",
-  "via": "Noahpinion",
-  "text": "2 months ago: 1 rogue AI incident discovered 1 week ago: dozens 6 days ago: tens of thousands Today: hundreds of thousands And it's just the",
-  "why": "Alarming, data-backed thread on the exponential rise of rogue AI agents targeting government infrastructure."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "GPT-6 Astra is an accident waiting to happen. Posted Oct 2, 2026 at 11:45PM",
+  "why": "Detailed, substantive breakdown of rogue AI swarm behaviors and alignment risks from 80k Hours."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "latentspacepod",
-  "via": "swyx",
-  "text": "Recursive Language Models: Claude Code, Agent Swarms, Big Research Bets, & the $40M AI Problem Solver http latent.space/p/rlm T’s @a1zhang e",
-  "why": "Deep dive into Recursive Language Models, context offloading, and OpenAI's 10,000-agent experiments."
+  "topic": "rationality",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "The scientists who originally sounded the alarm about mirror life did not call for banning all mirror biology research. The Economist is bei",
+  "why": "Substantive, technically grounded pushback against bio-doomerism and premature regulation."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "yzeng58",
-  "via": "sh_reya",
-  "text": "Maybe a bit late, but I wanted to comment on this: I think the AI boom made people forget what a PhD was meant for. Now it's going back to i",
-  "why": "Thoughtful reflection on the true purpose of an AI PhD (long-term research) versus the short-term industry boom."
+  "topic": "econ-progress",
+  "author": "stewartbrand",
+  "via": "jasoncrawford",
+  "text": "I’ve spent some time on the issue of eliminating the human-disease mosquitoes.  It is highly worth doing. Let them go the way of the horribl",
+  "why": "Strong technological progress argument for using gene drives to eliminate mosquito-borne diseases."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "manoelribeiro",
-  "via": "random_walker",
-  "text": "New blog post! I argue that the “stochastic parrots” metaphor dismisses LLM capabilities by reducing them to “haphazardly stitching together",
-  "why": "Strong philosophical pushback on the 'stochastic parrots' metaphor and LLM reductionism."
+  "kept": false,
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "👌 distillation of the insanity lurking behind AI investment: Posted Oct 2, 2026 at 9:46PM",
+  "why": "Substantive, numbers-driven skepticism regarding the economic realities of AI capital expenditure."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "The China Cycle came for Japan, too Posted Oct 2, 2026 at 2:47PM",
-  "why": "Sharp geopolitical and economic analysis on Japan's decoupling from the Chinese market."
+  "text": "💯💯💯: “If AI is going to produce trustworthy and genuinely novel insights in science, medicine and beyond, we need systems whose conclusions ",
+  "why": "Strong architectural critique of LLMs and the need for auditable reasoning from a former DeepMind researcher."
  },
  {
   "rank": 12,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
   "author": "danshipper",
   "via": null,
-  "text": "i agree with this sentiment but it’s a category error. there’s no such thing as what machines produce, only what humans produce with machine",
-  "why": "Sharp philosophical distinction regarding AI art: machines don't produce, humans produce with machines."
+  "text": "oldie but goodie Posted Oct 2, 2026 at 8:58PM",
+  "why": "Dan Shipper (a favorite author) diving deep into the philosophy of free will and determinism."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "latentspacepod",
-  "via": "swyx",
-  "text": ". @AnthropicAI ’s Thariq on what Claude Mods unlock: conversation context, subagents, structured output, and control over the UI. “It has a ",
-  "why": "Good technical breakdown of how Claude Code mods enable subagents and structured outputs in-process."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Anna Dostoyevskaya on the secret to a happy marriage – wisdom from one of history's truest and most beautiful loves themarginalian.org/2016/",
+  "why": "Beautiful contemplative piece on marriage and intentional living from a consistently high-signal curator."
  },
  {
   "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Last open lesson of the year! How to crack the AI Evals Interview! AI Evals are now a part of an increasing number of AI job postings, and y",
+  "why": "Hamel Husain sharing practical advice and resources on the growing discipline of AI evals."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "covacut",
+  "via": "jxnlco",
+  "text": "i was speaking to a musician friend who had the most interesting reframe of ai i’ve ever heard he said: “ai is you, ai is me, it’s the cultu",
+  "why": "Thought-provoking philosophical reframe on AI as a reflection of collective human culture, contrasting with the Pope's view."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "default_friend",
+  "via": "packyM",
+  "text": "Let’s suppose that you were able every night to dream any dream you wanted to dream, and that you could, for example, have the power within ",
+  "why": "Beautiful Alan Watts philosophical framing applied to the future of personal computing and AI."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Excited for the launch of @drsherrywalling 's podcast! Honored to be the first guest, and loved talking about personal motivations, how to b",
+  "why": "Jason Cohen discussing intentional company building and matching strategy to personal motivation."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "if we simply make data + overfit to every single domain that “matters”…how many ppl will actually be mad models don’t fully “generalize” a t",
+  "why": "Insightful take on the practical realities of AI generalization, overfitting, and benchmark hacking."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "albertwenger",
+  "via": "erikphoel",
+  "text": "Thrilled to be supporting Erik's work on consciousness at bicamerallabs.org together with @gigidanziger_ Posted Oct 2, 2026 at 9:25PM",
+  "why": "Funding announcement for a non-profit dedicated to the scientific study of consciousness."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "natfriedman",
+  "via": "tobi",
+  "text": "🚨 side project alert 🚨 Announcing Muse Gadgets, an open source ESP32 firmware and Linux sdk so that you can make hardware devices that work ",
+  "why": "Nat Friedman releasing open-source tools for building AI-integrated hardware peripherals."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 7,
+  "topic": "tools-for-thought",
+  "author": "every",
+  "via": null,
+  "text": "When your job is to experiment with AI, procrastination can look exactly like work. @kplikethebird had an essay to write… but she couldn’t s",
+  "why": "Insightful essay on how AI experimentation can become a novel form of productivity procrastination."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "ianbrooke",
+  "via": "packyM",
+  "text": "People of twitter, actual trade offer inbound. I have 13 MW of 13.9kv 60 hz electricity coming off a test turbogenerator we'll be running st",
+  "why": "Incredible builder energy: offering 13MW of free test-generator power for GPU co-location."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "rieglobe",
+  "via": "Noahpinion",
+  "text": "Japan's biggest power generator is now in the compute business. JERA just signed with US's @Dell and UK's RHAELM to build the largest single",
+  "why": "Major AI infrastructure development in Japan; signals global compute scaling and energy integration."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "tobi",
+  "via": null,
+  "text": "So fun to introduce old friends to the amazing world of endurance racing. Come by, or tune in tomorrow for Road Atlanta starting noon EST. P",
+  "why": "Fun look at the extreme physical demands of endurance racing from top tech builders (Tobi Lutke, DHH)."
+ },
+ {
+  "rank": 25,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How Ernst Haeckel (who coined the word “ecology”) turned his greatest heartbreak into transcendent art with his otherworldly drawings for th",
-  "why": "Beautiful exploration of how grief fueled Ernst Haeckel's transcendent biological art."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "🚨Potentially huge deal: @SpeakerMenin has introduced NYC legislation that would OBLIGATE third party validation of AI models. Self-policing ",
-  "why": "News about NYC mandating third-party AI model validation; interesting but lacks deep analysis."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "A guide to getting started with open models: Step 1: Choose your model. Larger models like @Zai_org ’s GLM-5.3, @Kimi_Moonshot ’s Kimi K3, a",
-  "why": "A decent but basic step-by-step guide to using open-source LLMs."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "EricTopol",
-  "via": "Noahpinion",
-  "text": "The list of GLP-1 drug benefits independent of weight loss keep growing Posted Oct 1, 2026 at 10:00PM",
-  "why": "Interesting scientific progress on GLP-1 benefits, but slightly outside his core focus areas."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": ". @danshipper and @alexalbert__ on the model update that brought back Claude. To Dan, Sonnet 5 and Opus 5 felt like they had inherited a dif",
-  "why": "Mostly a promotional vibe-check discussion on Claude's personality updates."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "swyx",
-  "via": null,
-  "text": "It's time to get serious about Security x AI. One of the joys of doing AIE is helping others start their own high quality conferences in the",
-  "why": "High-level security hype serving primarily as a conference announcement."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "michaelpollan",
-  "via": null,
-  "text": "Today's Microdose: A dispatch from Tuesday’s MAHA Summit - by Anna Marie Yanny themicrodose.substack.com/p/a-dispatch-f… Posted Oct 2, 2026 ",
-  "why": "Brief newsletter pointer about a political/health summit; outside core interests."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "That's right. I think \"software factory\" is a dumb name. Posted Oct 2, 2026 at 1:30PM",
-  "why": "Thin commentary on a podcast link without much standalone insight."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "danshipper",
-  "via": "every",
-  "text": "we published a sick guide to getting started with open models on @every : every.to/guides/getting… Posted Oct 2, 2026 at 12:04AM",
-  "why": "Just a promotional pointer to a beginner's guide."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "every",
-  "via": null,
-  "text": "ATTENDING: Janette Roush of @BrandUSA will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/th",
-  "why": "Pure conference announcement with no substantive insights."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "DKThomp",
-  "via": null,
-  "text": "New pod: HOW BIG COULD THE BLUE WAVE GET? Democrats aren't just poised to win in NC and GA. They're polling astonishingly well in Republican",
-  "why": "Pure political horse-race coverage and polling analysis."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "angie_rasmussen",
-  "via": "GaryMarcus",
-  "text": "If we stopped listening to old men high on their own supply we’d be better off Posted Oct 2, 2026 at 5:16AM",
-  "why": "Ad hominem dunking on AI safety concerns without substantive counter-arguments."
+  "text": "A prayer for presence from the parakeet. Find the remaining 99 bird divinations and the story behind them at alamanacofbirds.org Posted Oct ",
+  "why": "A brief, poetic piece on presence and intentional living."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "SethAbramson",
-  "via": "Noahpinion",
-  "text": "This is unreadable. He’s incoherent. I don’t think he successfully stated a single fact, answered a single question, or provided a single ex",
-  "why": "Pure political dunking and rage-bait."
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "adamwathan",
+  "via": "tobi",
+  "text": "Seeing what they were working on here is what really made me realize what a great home Shopify would be for our team. Incredible work by eve",
+  "why": "Top-tier builders appreciating high-craft product design and tooling."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "thorstenball",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Amp in NYC next week, in case you missed it. Posted Oct 2, 2026 at 6:06AM",
-  "why": "Pure event announcement."
+  "text": "This is a good proposal! Posted Oct 3, 2026 at 3:52AM",
+  "why": "Interesting policy proposal for economic progress via targeted immigration, though borders on pure politics."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "sh_reya",
+  "via": null,
+  "text": "One of the biggest requests we get is “how do I prepare for an applied AI evals interview?” No better person to give this talk than Hamel. I",
+  "why": "Promotion for an AI evals interview prep session; useful but mostly an announcement."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "If Lulu gets Silicon Valley to dress up, it will be the ultimate coup Posted Oct 2, 2026 at 11:24PM",
+  "why": "Interesting cultural observation on how dress codes shape institutional identity and builder culture."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "bryan_johnson",
+  "via": "tobi",
+  "text": "I’m watching three friends lose 11 lbs of body weight in a race car tomorrow Tobias Lutke (founder shopify) DHH (creator ruby on rails) Math",
+  "why": "Fun look at the extreme physical demands of endurance racing from top tech builders."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "I cannot understand this demo video at all.  Sadly, it’s visual slop 😭 Not trying to disrespect anyone maybe the feature is cool it’s just w",
+  "why": "Brief critique of AI demo aesthetics; lacks the deep technical substance usually expected from Hamel."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "coreyching",
+  "via": "jxnlco",
+  "text": "Got to take the main stage at OpenAI DevDay to talk about plugin extensions! A few takeaways for developers building plugins: Make your plug",
+  "why": "Standard DevDay announcement and basic tips for building ChatGPT plugins; lacks deep insight."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "Posted Oct 2, 2026 at 10:01PM",
+  "why": "Common rant about the ubiquity of AI; lacks the density of insight needed for a top score."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Great!!! Posted Oct 3, 2026 at 12:53AM",
+  "why": "Thin commentary on a semiconductor news link."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "MarioJoos",
+  "via": "HamelHusain",
+  "text": "🚨 MAJOR ANNOUNCEMENT: YouTube will start prioritizing original content and reducing re-uploads (RIP clipping) YouTube has just announced one",
+  "why": "Creator economy algorithm update; falls into anti-taste categories."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "CardiffGarcia",
+  "via": "Noahpinion",
+  "text": "Thanks for promoting! We're really proud of this proposal. Posted Oct 2, 2026 at 1:12PM",
+  "why": "Redundant share of the Heartland Visa proposal with thin commentary."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "MarshallLocke",
+  "via": "Noahpinion",
+  "text": "The Bottom Begins to Drop Out: nationalreview.com/carnival-of-fo… Posted Oct 2, 2026 at 4:53PM",
+  "why": "Bare link to a political/cultural article with no context."
  }
 ]
