@@ -3,141 +3,141 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "vaibcode",
-  "via": null,
-  "text": "this man speaks truth Posted Oct 3, 2026 at 8:40AM",
-  "why": "Excellent, opinionated breakdown of how software testing paradigms must shift in the era of coding agents."
+  "topic": "parenting-education",
+  "author": "jayvanbavel",
+  "via": "Noahpinion",
+  "text": "Will A.I. Make Your Brain Lazy? Here’s What the New Research Actually Shows. When people become accustomed to skipping the productive strugg",
+  "why": "Hits the AI x learning-science intersection perfectly, detailing how AI affects cognitive development and productive struggle."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "repligate",
-  "via": "catehall",
-  "text": "It’s actually a point of uncommon virtue that Anthropic’s beliefs don’t simply take on the values most convenient for justifying what they’r",
-  "why": "A piercing philosophical critique of the cognitive dissonance at frontier labs regarding AI consciousness and commercialization."
+  "topic": "ai-essays",
+  "author": "tszzl",
+  "via": "DKokotajlo",
+  "text": "if we are relying on methods as fragile as “which ideas will make it into pretraining” for aligning the superintelligences of the future, we",
+  "why": "Brilliant insight into AI consciousness, alignment, and the self-fulfilling nature of pretraining data."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "emrreguney",
-  "via": "danshipper",
-  "text": "For those who want to move from one-off chats to delegating whole projects to teams of agents but are unsure where to start: every.to/p/code",
-  "why": "Practical guide on transitioning from simple prompting to delegating complex projects to AI agents."
+  "score": 9,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I have no idea whether machines are conscious. However, this is the most convincing argument against machine consciousness that I have ever ",
+  "why": "Hits the AI x consciousness intersection perfectly; a substantive paper arguing against machine consciousness."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "every",
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Evals are showing up in job listings. @Lennysan shared 25 product management openings, and nearly half asked for experience writing tests of",
-  "why": "Hits the 'evals-as-discipline' sweet spot, detailing how to build personal benchmarks for model selection."
+  "text": "Addressing bullshit with careful analysis is a lost cause here on X, but I salute @stevehou for trying. (Note though that 2035 is overly gen",
+  "why": "Excellent, substantive pushback on AI GDP-doubling claims using bond market yields and inflation math."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "sh_reya",
-  "via": "HamelHusain",
-  "text": "One of the biggest requests we get is “how do I prepare for an applied AI evals interview?” No better person to give this talk than Hamel. I",
-  "why": "Deep dive into applied AI evals from a top practitioner; highly relevant to the evals-as-discipline interest."
+  "author": "simonw",
+  "via": null,
+  "text": "Just published this post about how we’re going to need default hard budget caps on pretty much everything simonwillison.net/2026/Oct/3/def… ",
+  "why": "Simon Willison is a favorite; highly practical operator wisdom on managing AI/cloud infrastructure risks."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "erikphoel",
-  "via": null,
-  "text": "To solve consciousness we need donors and scientists and labs to volunteer as experimental hubs, so if you can help check out: bicamerallabs",
-  "why": "Directly hits the intersection of consciousness research and scientific labs; highly relevant to your philosophical interests."
+  "author": "Miles_Brundage",
+  "via": "DKokotajlo",
+  "text": "David’s right. I regret helping spread the idea of “iterative deployment” which maybe briefly made sense in the GPT-3 era but makes no sense",
+  "why": "Crucial insider perspective on frontier AI alignment and the shifting consensus away from iterative deployment."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "AdrienneLaF",
-  "via": "GaryMarcus",
-  "text": "New in The Atlantic: @dgrobinson resigned this week. He was among the longest-tenured employees at OpenAI—and oversaw safety reports on 12 f",
-  "why": "Significant inside perspective on frontier lab alignment and safety from a long-tenured OpenAI employee."
+  "topic": "econ-progress",
+  "author": "DAcemogluMIT",
+  "via": null,
+  "text": "Fifth question on AI. AI is currently viewed as a centralizing technology – with ever-larger models, trained on much of the world’s knowledg",
+  "why": "Top-tier economic and historical analysis on whether AI will centralize power or empower individual agency."
  },
  {
   "rank": 8,
-  "kept": true,
-  "score": 8,
+  "kept": false,
+  "score": 7,
   "topic": "econ-progress",
-  "author": "thorstenball",
-  "via": null,
-  "text": "\"I feel that the people who love stagnation got enough of what they wanted and I hope that we are at an inflexion point where we finally bre",
-  "why": "A compelling historical framing of AI as the catalyst to break decades of technological and institutional stagnation."
+  "author": "s8mb",
+  "via": "Noahpinion",
+  "text": "1930s France imposed a 40-hour maximum working week, which led its factories to being much less productive than those in countries like Brit",
+  "why": "Fascinating historical case study on the second-order economic and geopolitical effects of labor policy."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "greg_ashman",
-  "via": "C_Hendrick",
-  "text": "With mainstream articles on education and Sold a Story 2 coming out, we are about to experience a period of intense gaslighting. It’s alread",
-  "why": "Sharp commentary on the pedagogical wars around explicit teaching and reading science."
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "DKokotajlo",
+  "via": null,
+  "text": "I agree with this. Posted Oct 3, 2026 at 9:14PM",
+  "why": "Excellent grounded perspective on AI agent capabilities, distinguishing real threats from basic web scraping."
  },
  {
   "rank": 10,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "every",
+  "topic": "frontier-ai",
+  "author": "DKokotajlo",
   "via": null,
-  "text": "You're probably sleeping on computer use. At Every, we’re handing agents chores that once required opening an app and clicking through a ser",
-  "why": "Highly practical breakdown of how to actually use computer-use agents for daily workflows and chores."
+  "text": "Another one quits. I agree with what he says here: iterative deployment needs to be phased out asap, more costly and time consuming understa",
+  "why": "Important signal on frontier lab dynamics and the growing internal pushback against current safety practices."
  },
  {
   "rank": 11,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "The dandelion and the meaning of life – G.K. Chesterton on how to live in wonder themarginalian.org/2026/10/03/g-k… Posted Oct 3, 2026 at 3:",
-  "why": "Classic Marginalian curation on intentional living and finding wonder in the mundane."
+  "text": "It seems like a tautology that “being first” means “being the leader.” But, 𝘮𝘰𝘴𝘵 of the time, the first-to-market does not become the market",
+  "why": "High-signal operator wisdom on strategy and competitive advantage from a respected builder."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "dbreunig",
-  "via": "danshipper",
-  "text": "The legal metaphor for AI engineering (where you write laws, then fine tune them as they meet the real world with case law and precedent) ca",
-  "why": "A fascinating mental model comparing AI engineering and fine-tuning to writing laws and establishing precedent."
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes, this is really good. It's hard to tell what the mood is like for regular people in China these days, even if you visit the country. The",
+  "why": "Strong macroeconomic and societal analysis of China's real estate bust and its cultural fallout."
  },
  {
   "rank": 13,
-  "kept": false,
-  "score": 7,
+  "kept": true,
+  "score": 6,
   "topic": "econ-progress",
-  "author": "nicbstme",
-  "via": null,
-  "text": "This is my thesis: no one uses AI. I repeat, absolutely no one. We live in a bubble. Even among my friends who pay for it, when I ask them t",
-  "why": "Substantive anti-hype reality check on AI adoption rates outside the tech bubble, backed by a16z data."
+  "author": "cremieuxrecueil",
+  "via": "naval",
+  "text": "A new piece in the Financial Times created a great visualization of the results from this study. TL;DR: Rent control helps people whose rent",
+  "why": "Clear, evidence-based synthesis of the economic consensus on rent control's second-order effects."
  },
  {
   "rank": 14,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "nicbstme",
+  "kept": true,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "I’m torn on this. I keep my agent memories in Google Drive and switch between Muse, ChatGPT and Grok Bots pretty easily. For me it mostly co",
-  "why": "Sharp debate on where the actual moat lies in the AI agent stack (setup costs vs. raw compute capex)."
+  "text": "\"The mind narrates what the nervous system knows. Story follows state.\" Polyvagal theory and the neurobiology of connection – the science of",
+  "why": "Fascinating intersection of neurobiology and narrative psychology; highly relevant to intentional living."
  },
  {
   "rank": 15,
@@ -146,8 +146,8 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Ocean of Stars – a gorgeous painted poem about how to bear the astonishment of life themarginalian.org/2026/10/02/oce… Posted Oct 3, 2026 at",
-  "why": "Beautiful contemplative piece on finding astonishment in life, fitting the intentional living bucket."
+  "text": "The greatest commencement address of all time – Nobel-winning poet Joseph Brodsky's 6 rules for playing the game of life like a winner thema",
+  "why": "Strong intentional living piece from a Nobel laureate on navigating life's challenges."
  },
  {
   "rank": 16,
@@ -156,87 +156,127 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The resilience of uncertainty – how to hold the universe in you themarginalian.org/2026/08/20/wee… Posted Oct 3, 2026 at 11:42AM",
-  "why": "A grounding essay on navigating uncertainty, fitting the intentional living and contemplative taste."
+  "text": "James Baldwin on how to live through your darkest hour themarginalian.org/2020/04/23/jam… Posted Oct 3, 2026 at 7:07PM",
+  "why": "Deeply contemplative piece on resilience and intentional living from a literary master."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "emollick",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "I think my upcoming book, Co-Existence, might be the first to include a blurb written specifically for AI readers, in this case from @tylerc",
-  "why": "A fun concept for a book blurb from Ethan Mollick, but ultimately just a promotional announcement without deep insight."
+  "text": "How love (finally) comes to you themarginalian.org/2026/08/14/how… Posted Oct 4, 2026 at 2:44AM",
+  "why": "Classic Marginalian contemplative essay, though the tweet lacks a substantive hook to elevate it higher today."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "every",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "5 @Microsoft Copilot updates you may have missed: • One app for chat, code, and Office. The new Copilot brings Word, Excel, PowerPoint, and ",
-  "why": "Mostly a feature-list announcement for Microsoft Copilot rather than deep original analysis."
+  "text": "Still the finest thing I've ever read about the art of growing older themarginalian.org/2015/09/03/gra… Posted Oct 4, 2026 at 12:57AM",
+  "why": "Beautiful contemplative piece on aging, though a bit brief on the framing."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "NikkeiAsia",
-  "via": "Noahpinion",
-  "text": "Japan hikes foreign residency fees, tightens rules: 5 things to know Permanent stay costs jump 20-fold as new income and language benchmarks",
-  "why": "Standard news report on immigration policy; lacks the deep synthesis or progress analysis you prefer."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The courage to be yourself – Virginia Woolf on how to hear your soul themarginalian.org/2023/09/12/vir… Posted Oct 3, 2026 at 9:32PM",
+  "why": "Classic Marginalian exploration of intentional living and inner life."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Nooooooo, Xi, please don't die, you're doing such a good job holding back Chinese power Posted Oct 3, 2026 at 7:20AM",
-  "why": "Geopolitical dunking rather than substantive analysis of progress or economics."
+  "text": "PSA: one of the most common rhetorical techniques in tech is to start with something very plausible (increase in capex to $4t) and go to som",
+  "why": "Fair critique of AI hype rhetoric, but lacks the deep economic analysis of better counter-hype posts."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Rightists will scream \"Colorblind meritocracy!\" right up until the point where Indian people start doing well, at which point every rightist",
-  "why": "Pure political culture-war dunking, which violates the anti-taste rules against rage-bait."
+  "text": "The true purpose of tarot themarginalian.org/2026/09/06/ale… Posted Oct 4, 2026 at 12:35AM",
+  "why": "A bit too esoteric compared to his core interests in philosophy and consciousness."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "neoavatara",
-  "via": "Noahpinion",
-  "text": "Biden and Democrats were horrible on inflation. But ignoring the fact THAT TRUMP MADE THINGS WORSE is just intellectually lazy. And Trump st",
-  "why": "Political dunking regarding inflation and the election; lacks the substantive progress analysis you prefer."
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "bryan_johnson",
+  "via": "tobi",
+  "text": "We completed a first-in-world racing experiment. I collected Tobi's blood before and after his 2.5 hr race. This blood test is unique. It’s ",
+  "why": "Interesting extreme performance data, but biohacking and racing fall outside his core focus areas."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Trump has done lots of things to make inflation worse in his second term: 1. Tariffs 2. Massive deficits that he says we can \"pay back\" with",
-  "why": "Pure political commentary on the election and inflation."
+  "text": "The number of prominent people who have said stuff like this that are willing to make a public bet to put their money where the mouth is is ",
+  "why": "Skepticism without deep analysis; mostly complaining about public bets and media accountability rather than substantive critique."
  },
  {
   "rank": 24,
   "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "vibhor_chhabra",
+  "via": "jxnlco",
+  "text": "Hi, I’m Vibhor, Product Lead for Ecosystem at @OpenAI . I am going to use this space to share what we are doing to further the Ecosystem for",
+  "why": "Violates anti-taste rule against announcement-only posts; lacks deeper architectural or strategic insight."
+ },
+ {
+  "rank": 25,
+  "kept": false,
   "score": 2,
-  "topic": "econ-progress",
+  "topic": "ai-engineering",
+  "author": "JohnKutay",
+  "via": "dexhorthy",
+  "text": "Super fun chatting with @vaibcode @dex about how we replaced BI with AI Agents we built in GrowthOS at Rippling youtu.be/bGMiRmXbRUs?is… Pos",
+  "why": "Video-only podcast link without a substantive text summary; violates anti-taste rules."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
   "author": "Noahpinion",
   "via": null,
-  "text": "In terms of helping the country or his party, Trump's second presidency is a spectacular failure so far. But what if all he ever wanted was ",
-  "why": "Political commentary that falls into the anti-taste bucket."
+  "text": "Americans tend to be very cynical, and just assume all politicians are corrupt -- or tune out the accusations entirely. But there are signs ",
+  "why": "Violates anti-taste rule against pure political commentary and culture-war topics."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "America is being looted by the president's mafia Posted Oct 3, 2026 at 7:16PM",
+  "why": "Violates anti-taste rule against pure political commentary and culture-war topics."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Trump came back to office with a golden opportunity to make the GOP a majority party for a generation, while accomplishing everything the co",
+  "why": "Violates anti-taste rule against pure political commentary."
  }
 ]
