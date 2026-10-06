@@ -6,397 +6,317 @@
   "topic": "ai-engineering",
   "author": "Vtrivedy10",
   "via": null,
-  "text": "for teams/ppl getting into Evals, it’s useful to internalize 2 big flavors of simulation where we give agents Worlds to practice their work ",
-  "why": "Excellent conceptual breakdown of AI evals, contrasting native game environments with constructed domain simulations."
+  "text": "Evals & Building a Simulation Machine to close the Sim2Real gap, we’ll first have to close Real2Sim gap! ie: once we have a model of the wor",
+  "why": "High-signal deep dive into evals as a discipline, directly hitting a core intersection he values highly."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "JonHaidt",
-  "via": null,
-  "text": "At the Tech and Society Lab at NYU-Stern, we have been studying the effects of many kinds of technology on kids & teens. For the first time,",
-  "why": "Jonathan Haidt's master repository of academic research and data on how technology impacts kids and teens."
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": "sh_reya",
+  "text": "Q: How often should I run my evals? A: Weigh the cost and how saturated the eval is against the business value of catching the error. Read m",
+  "why": "Hamel Husain writing specifically on evals-as-discipline; highly practical AI engineering craft."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "WillManidis",
+  "topic": "parenting-education",
+  "author": "Noahpinion",
   "via": null,
-  "text": "When we started our companies in the late 2010s, we heard the same advice about how to raise money from venture capitalists in the pursuit o",
-  "why": "Deep dive into how AI and commoditization are shifting software businesses from fixed to variable cost structures."
+  "text": "Legit Posted Oct 6, 2026 at 2:58AM",
+  "why": "Alison Gopnik on the cognitive science of explanation; hits the intersection of learning science and philosophy."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "nikhiljoisr",
-  "via": "danshipper",
-  "text": "I'll take that.  Looking forward hitting a clean 8 soon. Posted Oct 5, 2026 at 2:04PM",
-  "why": "Dan Shipper's publication on moving from basic prompting to orchestrating AI agents for personal workflows."
+  "topic": "frontier-ai",
+  "author": "fleetingbits",
+  "via": "Noahpinion",
+  "text": "by the end of 2027, the world will have enough compute to do approximately 300,000-600,000 navier-stokes-sized agent runs a year. and, you s",
+  "why": "Hard numbers on future compute and agent scaling from Epoch AI; high-signal frontier AI forecasting."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "itsurboyevan",
+  "topic": "econ-progress",
+  "author": "dylan522p",
   "via": null,
-  "text": "More people should read this—I have had a vague inkling that many ai agent companies are building the wrong product, but Nathan’s essay real",
-  "why": "Strong essay arguing against personal AI agents in favor of shared 'factory' systems that unlock economic specialization."
+  "text": "The difference in what Anthropic and OpenAI as well as many others give you in value for a subscription is insane. We tested Meta, Minimax, ",
+  "why": "SemiAnalysis providing rigorous economic breakdown of LLM subscription costs vs API credits."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "danshipper",
-  "via": null,
-  "text": "use codex to go from prompting to orchestrating agents with this step-by-step guide by @ArielleShipper every.to/p/codex-graded… Posted Oct 5",
-  "why": "Dan Shipper's guide on moving from basic prompting to orchestrating AI agents for personal workflows."
+  "topic": "ai-engineering",
+  "author": "apreshill",
+  "via": "Vtrivedy10",
+  "text": "Open invitation: I'll help you think through this multimodal RAG interview, if you let me pitch you @pixeltablehq so you don't have to (re)b",
+  "why": "Excellent deep-dive into AI engineering interview questions, covering RAG, evals, and system design."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Mister Rogers on the most important mindset for a parent themarginalian.org/2026/10/05/mis… Posted Oct 5, 2026 at 12:58PM",
-  "why": "Beautiful contemplative piece on Mister Rogers' philosophy of parenting and presence."
+  "text": "tip for @humanlayer_dev on context engineering across sessions, compaction, and handing off to another human who will carry a session or tas",
+  "why": "High-signal, practical AI engineering advice on context management and agent handoffs."
  },
  {
   "rank": 8,
-  "kept": true,
+  "kept": false,
   "score": 8,
-  "topic": "econ-progress",
+  "topic": "parenting-education",
   "author": "Noahpinion",
   "via": null,
-  "text": "AI has plenty of issues, but it also creates plenty of benefits for regular Americans: 1. Huge consumer surplus (people love using chatbots)",
-  "why": "Noah Smith's substantive breakdown of the tangible economic benefits the AI boom is already delivering to regular Americans."
+  "text": "👇👇👇👇👇 Posted Oct 5, 2026 at 8:43PM",
+  "why": "Nuanced critique of social media research methodology, highly relevant to parenting and psychology."
  },
  {
   "rank": 9,
-  "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "andres_swp",
-  "via": "DKokotajlo",
-  "text": "I'm a longtime Effective Altruist and the co-founder of the organization most frequently used as a stand-in for \"EAs have lost their minds\" ",
-  "why": "A deeply personal, earnest defense of Effective Altruism's core principles against recent media caricatures."
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Afinetheorem",
+  "via": "Noahpinion",
+  "text": "For those who saw this, and all respect due to Daron, but his projection is not at all the majority theoretical or empirical belief among ec",
+  "why": "Substantive pushback on AI economic doom from an economist, citing specific surveys."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "willmacaskill",
-  "via": "DKThomp",
-  "text": "Effective altruism's openness to strangeness is a big part of its strength. My response to the recent Economist cover (link in reply, too): ",
-  "why": "Will MacAskill's thoughtful defense of Effective Altruism's willingness to take strange-seeming ideas seriously."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "AlisonGopnik",
+  "via": null,
+  "text": "I am number 58 , where do genuinely new concepts come from? (Central question for AI) on this fascinating list nytimes.com/2026/10/05/sci… P",
+  "why": "Alison Gopnik on the origins of new concepts, linking cognitive science to AI."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
+  "score": 7,
   "topic": "parenting-education",
-  "author": "greg_ashman",
-  "via": "C_Hendrick",
-  "text": "Now no paywall: Why Schools Need a Phonics-Style Reckoning for Math – The 74 the74million.org/article/why-sc… Posted Oct 4, 2026 at 9:09PM",
-  "why": "Strong learning-science argument for applying the rigorous, evidence-based approach of phonics to math education."
+  "author": "LonesomeWest",
+  "via": "Noahpinion",
+  "text": "Sometimes the timeline gives you everything you need all at once Posted Oct 5, 2026 at 7:19PM",
+  "why": "Interesting sociological/cultural observation on education, talent, and striving."
  },
  {
   "rank": 12,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "WillManidis",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "with \"ai transformation\" in the news, republishing a piece that @johnkennedy_4 wrote in early 2024 about the new software economy. Posted Oc",
-  "why": "Will Manidis on how AI shifts SaaS from fixed to variable costs, fundamentally changing software economics."
+  "text": "Nietzsche on walking and creativity themarginalian.org/2021/12/12/nie… Posted Oct 5, 2026 at 11:03PM",
+  "why": "Classic contemplative piece on intentional living, philosophy, and creativity."
  },
  {
   "rank": 13,
-  "kept": false,
+  "kept": true,
   "score": 7,
-  "topic": "agency",
-  "author": "petergostev",
-  "via": "jxnlco",
-  "text": "I know nobody cared about this at OpenAI dev day, but I think this is one of the biggest potential future product lines. So far all agents a",
-  "why": "Strong product philosophy argument: the future of agents is taking full responsibility for outcomes, not just executing prompts."
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "So much reporting on the Claude or OpenAI usage of the same handful of technology companies with competing products & huge cloud infrastruct",
+  "why": "Ethan Mollick providing a grounded, anti-hype perspective on enterprise AI usage metrics."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "IFT_Org",
-  "via": "JonHaidt",
-  "text": "The evidence is growing: phone-free schools can create more space for learning, attention, connection, and real-world relationships. @JonHai",
-  "why": "Jonathan Haidt on the emerging evidence that phone-free schools improve learning and real-world connection."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "trq212",
+  "via": null,
+  "text": "a big advantage of doing planning like this is that it’s a lot more token efficient compared to raw HTML- the model doesn’t need to remake t",
+  "why": "Good practical AI engineering tip on token efficiency and planning in Claude Code."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "giudegio",
-  "via": "danshipper",
-  "text": "How to Get Better at AI by Asking AI every.to/p/codex-graded… Posted Oct 4, 2026 at 6:39PM",
-  "why": "Guide on using AI to evaluate and improve your own AI habits and workflows."
+  "score": 6,
+  "topic": "rationality",
+  "author": "kesvelt",
+  "via": "jasoncrawford",
+  "text": "Russia's five-hospital quarantine, FSB involvement, and reported hazmat use in response to the death of a single researcher at a weapons-lin",
+  "why": "Kevin Esvelt on biosecurity and lab leaks; high-signal author, though slightly tangential to core AI/econ."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "nicbstme",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Yesterday I got a bit roasted on X because I said my agent checks me in for my flights, so let me double down: it also helps me book basical",
-  "why": "Thoughtful defense of using AI for mundane tasks, framing it through Coasean transaction costs and the compounding value of removing friction."
+  "text": "Reclaiming friendship – a visual taxonomy of platonic relationship types to counter the commodification of the word \"friend\" themarginalian.",
+  "why": "Contemplative piece on intentional living and relationships from a high-signal curator."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "JonHaidt",
-  "via": null,
-  "text": "Facebook’s products “harm children… and the company’s leadership knows how to make [them] safer but won’t make the necessary changes.” These",
-  "why": "Jonathan Haidt reflects on the 5-year anniversary of Frances Haugen's testimony and its impact on protecting kids from addictive tech."
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "liquidai",
+  "via": "tobi",
+  "text": "Announcing d1 with vision. 👁️👁️ Our first decision model now supports images, text or both as inputs. We tested d1 against GPT-6.1 Sol and C",
+  "why": "Announcement post with some numbers, but falls into the 'announcement-only' bucket which he dislikes."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Matter, memory, and the paradox of perception – Henri Bergson on how to see reality themarginalian.org/2026/08/30/mat… Posted Oct 5, 2026 at",
-  "why": "Deep philosophical exploration of Henri Bergson's ideas on memory, matter, and the nature of perception."
+  "text": "Investors pattern matching on old movies is going to lead to a recession. There is no network effect here and no reason to think that large ",
+  "why": "Skepticism without deep original analysis or numbers; mostly punditry."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "And this Posted Oct 5, 2026 at 10:42AM",
-  "why": "Nobel laureate Daron Acemoglu on designing AI to augment rather than replace labor, and the tax incentives needed to support it."
+  "score": 4,
+  "topic": "rationality",
+  "author": "BlueRepublik",
+  "via": "Noahpinion",
+  "text": "My favorite genre of Wanye tweet is when he rambles about some idea he had of a AmericanSacredValue🇺🇸™️ and if you don’t like it then you’re",
+  "why": "Twitter dunking/meta-commentary, less valuable than the original observation."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "asmartbear",
   "via": null,
-  "text": "Paul Krugman says of AI: \"This is a technology of, by and for oligarchs, with hardly any of the benefits trickling down to regular Americans",
-  "why": "Noah Smith's substantive breakdown of the tangible economic benefits the AI boom is already delivering to regular Americans."
+  "text": "The newest Smart Bear Live (E09) is amazing. First, how an agency is transforming with AI, and must refresh its sales team or sell. Second, ",
+  "why": "Video-only content about agency sales; lacks the density of a written essay."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "A concerning direction of travel for education in England. via @daisychristo substack.com/home/post/p-21… Posted Oct 5, 2026 at 7:05AM",
-  "why": "Daisy Christodoulou on the concerning direction of travel for education policy and assessment in England."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "DKVIZ",
+  "via": "Noahpinion",
+  "text": "Some nuggets in here for the AI boom folks. Posted Oct 5, 2026 at 4:43PM",
+  "why": "Thin commentary on a link; the underlying link is Noahpinion's blog."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "tools-for-thought",
-  "author": "every",
-  "via": null,
-  "text": "Write better with AI by organizing all your material into tabs in your Google doc. 12 tips from @hammer_mt to write better with AI: Write th",
-  "why": "Practical, non-hype workflow for using AI as a writing partner via structured Google Docs tabs."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "LDrogen",
+  "via": "Noahpinion",
+  "text": "The left is really really really fucked on AI here, they are backing themselves into a corner simply because they don’t like the people buil",
+  "why": "Political framing/culture war around AI."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
+  "score": 3,
+  "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "\"1. Use the time of a total stranger in such a way that he or she will not feel the time was wasted.\" Kurt Vonnegut's 8 tenets of storytelli",
-  "why": "Classic Vonnegut wisdom on respecting the reader's time and the craft of storytelling."
+  "text": "This month, join me and some of my favorite humans to celebrate 20 years (incomprehensible...) of The Marginalian with some of my favorite p",
+  "why": "Announcement for a live event, not substantive reading material."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "gzumeta",
-  "via": "pablo_dors",
-  "text": "✔️La #radio que cuida: cuando escuchar puede ayudar a proteger nuestra salud mental ▶️#Traslatormenta de @RNE ofrece un curso de meditación ",
-  "why": "Spanish-language reflection on meditation, mental health, and the contemplative power of listening."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "jasoncrawford",
+  "via": null,
+  "text": "Excited to have @RepJoshHarder on stage at Progress Conference in a few days, interviewed by @EconDerek . Clearly they'll have lots to talk ",
+  "why": "Event announcement, not substantive reading."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "DAcemogluMIT",
-  "via": null,
-  "text": "Dear followers, I’m delighted to share this interview with 60 minutes on AI and jobs. Thank you Posted Oct 5, 2026 at 10:42AM",
-  "why": "Acemoglu's 60 Minutes interview on the economic risks of AI and the need for pro-worker technological development."
+  "score": 2,
+  "topic": "rationality",
+  "author": "PhilWMagness",
+  "via": "Noahpinion",
+  "text": "This is worth a read. nationalreview.com/2026/10/the-en… Posted Oct 5, 2026 at 9:53PM",
+  "why": "Pure political analysis; falls into the anti-taste category of culture-war/politics."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 2,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "All online ratings became useless sometime in the mid 2010s. Posted Oct 5, 2026 at 3:40PM",
-  "why": "Brief but interesting observation on the collapse of online rating systems and rating inflation."
+  "text": "An extra #birddivination not in the deck of 100 (which you can find, along with the process and story behind them, at almanacofbirds.org ) P",
+  "why": "Unrelated to core interests; a link to a bird divination deck."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "ankurbhatia28",
-  "via": "HamelHusain",
-  "text": "As the husband to and son of teachers, I'm qualified* to review online courses. I completed @HamelHusain and @sh_reya course on AI Evals ( e",
-  "why": "Endorsement of Hamel Husain's AI Evals course, reinforcing the core discipline of looking closely at your data."
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "update: i did some experiments and rolling six-sided dice produced more variable results than flipping pennies, so I guess dice are more con",
+  "why": "Pure dunking/sarcasm without substantive analysis or real numbers."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "SashaGusevPosts",
-  "via": "Noahpinion",
-  "text": "The American Time Use Survey tracks how American teens spend their time. In terms of interests outside career and education, there is little",
-  "why": "Uses time-use data to push back on cultural narratives about teen striving and hobbies."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Today on the Right, we have: Indians are bad because they study too hard Men and women shouldn't go to college together At some point are we",
+  "why": "Pure politics rage-bait/culture-war dunking."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
+  "score": 2,
+  "topic": "rationality",
   "author": "Noahpinion",
   "via": null,
-  "text": "Americans are getting AI safety-pilled Posted Oct 5, 2026 at 3:39PM",
-  "why": "Polling data on public sentiment regarding AI safety and regulation."
+  "text": "In fact, support for Hitler is so low that you start getting random effects. For example, Dems are more likely to say they're \"somewhat favo",
+  "why": "Culture war / political polling analysis, outside core interests."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "JamesBroughel",
-  "via": "Noahpinion",
-  "text": "About 80% of Virginia’s data center supported jobs were tied to construction. Posted Oct 5, 2026 at 10:23AM",
-  "why": "A specific stat on data center construction jobs, but better to read the full Noahpinion piece."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yep. Racists think everyone who doesn't act racist in public is just hiding their racism. They're directionally correct -- most people are h",
+  "why": "Culture war / political commentary."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "every",
   "via": null,
-  "text": "live momentarily on @msnow re today’s NYC AI hearing. my testimony: garymarcus.substack.com/p/coming-soon-… Posted Oct 5, 2026 at 1:43PM",
-  "why": "Gary Marcus's testimony on AI regulation; leans more toward political punditry than builder insights."
+  "text": "Access to @claudeai is only the first step to AI adoption. Ode with @AnthropicAI pairs AI engineers with the people who know a business’s op",
+  "why": "Pure announcement/marketing content."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Ilya doesn’t believe scale is all anymore; Hinton is behind. Posted Oct 5, 2026 at 3:38PM",
-  "why": "Historical anecdote about the deep learning boom, but lacks technical depth."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
+  "score": 2,
   "topic": "ai-essays",
-  "author": "harari_yuval",
-  "via": null,
-  "text": "The idea that AI dominance is inevitable is often spread by those leading this technological revolution – but ultimately, it is humanity's d",
-  "why": "High-level punditry on AI inevitability; lacks the builder-operator depth preferred."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "The question is: What kind of bad things? Are we talking about \"AI occasionally says something a little racist and writes spam emails\" type ",
-  "why": "Snarky commentary on an Altman interview quote; lacks substantive analysis."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "theblazehen",
-  "via": "_can1357",
-  "text": "Awesome-Tern list, PR's welcome github.com/theblazehen/aw… Posted Oct 5, 2026 at 12:33PM",
-  "why": "Bare link to a GitHub repository without sufficient context or synthesis."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Another correct prediction which my critics refuse to admit I made (and I actually made it early as August 2023, as well). Posted Oct 5, 202",
-  "why": "Victory lap on AI profitability predictions; lacks new substantive analysis."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "matanSF",
-  "via": "bentossell",
-  "text": "Matt Murphy is a legendary investor with a track record of being very early and being very right. He led the Series D of Anthropic in Jan 20",
-  "why": "Funding announcement and hype; lacks technical or operational substance."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "My dice are conscious!! Shut down every casino now, for slave-trading!! Either that or read what Congressman Lieu is trying to tell you. [Th",
-  "why": "Snarky dunking on AI consciousness claims without substantive philosophical depth."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "So let me get this straight, now we have to call every piece of AI SI, even • ELIZA, 1965 which was just keyword matching and certainly not ",
-  "why": "More semantic dunking on AI terminology rather than substantive analysis."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "danielhepper",
-  "via": "tobi",
-  "text": "Replying to @bryan_johnson @bryan_johnson @dhh @tobi Daniel Ricciardo said it best youtu.be/AhWsG4r3Jng?is… Posted Oct 5, 2026 at 11:34AM",
-  "why": "Contextless video reply."
+  "author": "LizClaman",
+  "via": "GaryMarcus",
+  "text": "I can’t believe Sam Altman said this out loud: AI expert @GaryMarcus @FoxBusiness foxbusiness.com/video/64063079… Posted Oct 5, 2026 at 8:45",
+  "why": "Video-only content, punditry."
  }
 ]
