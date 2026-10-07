@@ -3,360 +3,320 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "sebkrier",
-  "via": "sayashk",
-  "text": "I haven't posted in a while so here are 20 takes about AI, in no particular order. 1. It's very telling that the default question in tech an",
-  "why": "Substantive, multi-point critique of AI safety discourse, p(doom) vibes, and the homogenous views within the alignment community."
+  "topic": "ai-engineering",
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "Very good and interesting simulation experiment. As with many of mine the agents are quite good at collaborating with each other. This is al",
+  "why": "Fascinating simulation showing AI agents spontaneously developing communication protocols to solve tasks over noisy channels."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "rationality",
-  "author": "random_walker",
+  "topic": "frontier-ai",
+  "author": "nicbstme",
   "via": null,
-  "text": "An interesting cognitive bias: \"GLM 5.3 is around as capable as Claude Mythos at cyber-exploitation while also having much lower safeguards,",
-  "why": "Sharp epistemological critique via Arvind Narayanan on how the AI safety community ignores evidence of absence regarding cyber risks."
+  "text": "Some people are anti-AI because they can already see the downside, potentially losing their job or watching the craft they spent years learn",
+  "why": "A brilliant vision for 'bounded serendipity'—scaling automated biology labs as data centers to feed AI models."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "There's a degrowther meme that making it easier to build new clean energy, mobility, etc.. doesn't work, because it just adds to the global ",
-  "why": "Strong progress argument from Ramez Naam: the only lasting way to reduce emissions is making clean energy cheaper and better."
+  "topic": "tools-for-thought",
+  "author": "every",
+  "via": null,
+  "text": "AI makes it easy to spend your day “snacking” on work. You pick the easy, low-impact task over the difficult one. It's done in a minute, so ",
+  "why": "Great reflection on AI-induced productivity snacking and the value of intentional friction."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "Q: Are similarity metrics useful for evaluating LLM outputs? A: Similar wording does not tell you whether an answer works for your applicati",
-  "why": "Direct hit on evals-as-discipline: Hamel Husain explains why similarity metrics fail for evaluating LLM outputs."
+  "topic": "rationality",
+  "author": "joshua_saxe",
+  "via": "random_walker",
+  "text": "Reaction to the @slatestarcodex vs. @sapinker AI x-risk debate The main problem with this debate is that both interlocutors are mainly focus",
+  "why": "Substantive critique of the Alexander/Pinker debate, shifting focus from AI ontology to human social processes."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "Business outcomes, like sports, are a mix of skill and luck in proportions we can't measure. And we only get to run the experiment once. Tha",
-  "why": "Classic builder wisdom from Jason Cohen on the unmeasurable mix of skill and luck in business outcomes."
+  "text": "Q: Should I use \"ready-to-use\" evaluation metrics? A: No.  It's a bad idea in most situations. hamel.dev/blog/posts/eva… Posted Oct 7, 2026 ",
+  "why": "Methodological rigor applied to LLM systems: why off-the-shelf eval metrics usually fail."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "tamarawinter",
-  "via": "random_walker",
-  "text": "Have been noodling on an actual piece about this, but I think this sentiment somewhat misunderstands the Carnegies/Rockefellers and how thei",
-  "why": "Fascinating historical perspective on wealth, institution-building, and the crucial role of advisors behind great philanthropies."
+  "topic": "builders-craft",
+  "author": "SCP_Hughes",
+  "via": "WillManidis",
+  "text": "The elites of Victorian Britain got up late, drank ceaselessly, worked short hours, partied through the night, and knew nothing about scienc",
+  "why": "A fascinating historical challenge to modern productivity culture, analyzing how Victorian elites succeeded via social density."
  },
  {
   "rank": 7,
-  "kept": false,
+  "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "NateWitkin",
-  "via": "random_walker",
-  "text": "Does anyone disagree that pretty much every piece of empirical evidence we have about actually existing AI points toward a labor-augmenting ",
-  "why": "Excellent empirical grounding arguing that AI is a labor-augmenting technology with an ordinary, manageable risk profile."
+  "topic": "econ-progress",
+  "author": "random_walker",
+  "via": null,
+  "text": "\"Even “normal” general-purpose technologies are initially volatile and dangerous, even those we come to think of as unalloyed goods.\" thearg",
+  "why": "Excellent historical framing of AI as a general-purpose technology, focusing on the inevitable short-term destabilization."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "I saw Jon Stewart on AI, and I found the case it made cogent, and interesting for everything it ignores. - It starts from a POV of distrust ",
-  "why": "Astute breakdown of why the public distrusts AI CEOs and why the 'normal technology' argument is so hard to make."
+  "score": 7,
+  "topic": "agency",
+  "author": "bran_don_gell",
+  "via": "danshipper",
+  "text": "After automation, you'll give your Legos away to agents I first learned to give away my Legos, a concept Molly Graham from First Round coine",
+  "why": "Applies the classic 'give away your Legos' operator framework to delegating work to AI agents."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "every",
-  "via": null,
-  "text": "Introducing: The @Every agent, the fastest way to AI-pill your company, now officially out of beta. With personal agent use, no one can see ",
-  "why": "Dan Shipper offers a smart essayistic framing on how public AI agents in Slack solve the 'invisible AI use' problem at work."
- },
- {
-  "rank": 10,
-  "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "Abi0lvera",
-  "via": "random_walker",
-  "text": "Y2K went down in history as a public overreaction. Apparently, that’s incorrect? Programmers and critical infrastructure people worked for o",
-  "why": "Great historical nugget on the prevention paradox: Y2K wasn't an overreaction, it was a successful mitigation effort."
- },
- {
-  "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Elizabeth Bishop died on this day in 1979, having given us one of the greatest poems ever written. The true love story behind it: themargina",
-  "why": "Beautiful contemplative piece on the true love story behind Elizabeth Bishop's 'One Art'."
- },
- {
-  "rank": 12,
-  "kept": true,
-  "score": 7,
   "topic": "ai-engineering",
   "author": "Vtrivedy10",
   "via": null,
-  "text": "a lot of fellow gen media folks viscerally remember collapsing a massive custom ComfyUI workflow into a single node/model call over time, si",
-  "why": "Solid builder insight on the 'harness tax' and why vanilla models often beat custom workflows."
+  "text": "I encourage everyone to point their agent at EmbeddingGemma2 and ask about “Matryoshka Representation Learning” (MRL) very cool idea in Adap",
+  "why": "High-signal technical pointer on using Matryoshka Representation Learning to compress embedding vectors."
+ },
+ {
+  "rank": 10,
+  "kept": true,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "On Oct 9, 1903, a New York Times op-ed predicted how long it would take for humanity to build a flying machine: “It might be assumed that th",
+  "why": "Excellent historical reminder of how expert skepticism often fails right before technological breakthroughs."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "levie",
+  "via": "Noahpinion",
+  "text": "Cyber will be one of the most defining domains for AI in the coming years, and a huge area of focus for most enterprises. AI is going to now",
+  "why": "Strong synthesis of how AI agents and 'vibe coding' will fundamentally reshape the cybersecurity landscape."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "every",
+  "via": null,
+  "text": "Instead of filing her essay by the deadline, @kplikethebird was using AI to make new Disney characters. Classic. Katie turned Every’s column",
+  "why": "A creative use of AI for writing craft, turning audience modeling into character design."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "Eric straight up rocks, but idt this totally holds! if it is true, then imo that’s a negative signal for the underlying intelligence & gener",
-  "why": "Nuanced take on AI agent harnesses and generalization, useful for applied AI builders."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "SethBurn",
+  "via": "TheZvi",
+  "text": "Sometimes front page news doesn't inititially reach the front page. The best example is Sputnik. It launched 10/4/57, but the Soviets didn't",
+  "why": "Great historical parallel on how massive technological breakthroughs are often ignored by contemporary press."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 6,
-  "topic": "ai-engineering",
-  "author": "simonw",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Anyone know when the models started being able to compose competent music? I had Opus 5.5 \"write some computer game music for me\" and the re",
-  "why": "Quick read from Simon Willison on AI music generation capabilities."
+  "text": "Arundhati Roy on the deepest measure of success: mailchi.mp/themarginalian… Posted Oct 7, 2026 at 11:42AM",
+  "why": "A contemplative reflection on the true measures of success from The Marginalian."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "mitsuhiko",
-  "via": null,
-  "text": "I wrote a bit about what Codemode actually is and how it works: lucumr.pocoo.org/2026/10/6/code… Posted Oct 6, 2026 at 1:35PM",
-  "why": "Deep dive into a technical tool by a respected builder, though a bit niche."
+  "score": 5,
+  "topic": "rationality",
+  "author": "tracewoodgrains",
+  "via": "C_Hendrick",
+  "text": "It's really jarring to read Scott on the AI safety debate, because on almost every other topic he's scrupulously charitable and thoughtful a",
+  "why": "Meta-commentary on the tone of the AI safety debate, lacking the substance of other critiques."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "ramez",
-  "via": "Noahpinion",
-  "text": "Clean technologies win at scale by becoming cheaper and better than fossil alternatives. The most useful mechanism of climate policy that I ",
-  "why": "Solid progress data point on electric trucks, though less deep than his other thread."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "This is cool but also someone is going to vibe-code the doomsday virus Posted Oct 7, 2026 at 3:35PM",
+  "why": "Thin commentary on an otherwise interesting quote tweet about bio data."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 4,
   "topic": "frontier-ai",
-  "author": "simonw",
-  "via": null,
-  "text": "Mistral can pelican now! tools.simonwillison.net/markdown-svg-r… Posted Oct 6, 2026 at 2:35PM",
-  "why": "Model announcement for Mistral Large 4."
+  "author": "Yaqiu",
+  "via": "Noahpinion",
+  "text": "Unsurprisingly, few highly sought-after non-Chinese researchers want to invest their professional futures in a country marked by severe cens",
+  "why": "Geopolitical news about AI research talent, but lacks deep technical or strategic insight."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 4,
-  "topic": "parenting-education",
-  "author": "DTWillingham",
+  "topic": "frontier-ai",
+  "author": "DKThomp",
   "via": null,
-  "text": "Free online books from the @ckschools library! Suitable for strong independent readers age 8+, or as read alouds for younger readers. corekn",
-  "why": "Link to a free online library. Good resource, but not a long-form read."
+  "text": "Jesus. \"It isn’t an overstatement to say that this is probably the biggest day of scientific advancement in history. I suspect October 6th, ",
+  "why": "Pure hype quote without substantive analysis in the tweet itself."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 3,
   "topic": "ai-engineering",
-  "author": "sh_reya",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Exciting results from the polars team. With the rise of AI coding agents, we desperately need more performant query engines for data analysi",
-  "why": "Release announcement for Polars 2.0. Good tool, but this is just a product update."
+  "text": "🚨🚨 talk drop 🚨🚨 - state of the software factory, live at @AgenticAIFdn in Amsterdam last week don’t be the last one youtu.be/ix1qQK1IvmA?is…",
+  "why": "Video-only talk announcement without substantive text summary."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 3,
-  "topic": "tools-for-thought",
-  "author": "SystemSunday",
-  "via": "fortelabs",
-  "text": "Seven years of dreaming about this. Four years of researching and writing it. And today, How to Be Good at Life is officially out in the wor",
-  "why": "Productivity book launch. Triggers the anti-taste for productivity culture hype."
+  "topic": "econ-progress",
+  "author": "daniel_s_larson",
+  "via": "Noahpinion",
+  "text": "I listened to both the original \"Indian Question\" Rufo podcast and this.  The last ten minutes or so of the podcast are the most heated and ",
+  "why": "Culture-war adjacent commentary on immigration policy."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 3,
-  "topic": "frontier-ai",
-  "author": "DKThomp",
-  "via": null,
-  "text": "New pod: THE BITTER RIVALRY BEHIND THE AI ARMS RACE I talked to @kevinroose about his illuminating and delightfully gossipy new book THE AGI",
-  "why": "Podcast promo about an AI book."
+  "topic": "rationality",
+  "author": "CSully212",
+  "via": "Noahpinion",
+  "text": "\"Identity groups are like gangs — if you no longer feel like a part of the big gang (the nation), you’re probably going to turn to a smaller",
+  "why": "Political commentary on identity groups."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "tjparker",
-  "via": "WillManidis",
-  "text": "General Medicine has raised a $120M Series B led by @a16z . We're using it to build the healthcare store. The only way healthcare will work ",
-  "why": "Standard funding announcement for a healthcare startup."
+  "topic": "econ-progress",
+  "author": "Liardo1",
+  "via": "Noahpinion",
+  "text": "Replying to @Liardo1 @Liardo1 The explanation is in there, you just didn't read it. But here's a longer version, which you also won't read! ",
+  "why": "Twitter argument about a political blog post."
  },
  {
   "rank": 23,
   "kept": false,
   "score": 2,
-  "topic": "frontier-ai",
-  "author": "bran_don_gell",
-  "via": "danshipper",
-  "text": "All I can say is if you're attending Thesis: 2027, wait to buy the book... every.to/thesis-2027 Posted Oct 6, 2026 at 3:40PM",
-  "why": "Book and conference promo."
+  "topic": "econ-progress",
+  "author": "RichardHanania",
+  "via": "Noahpinion",
+  "text": "Incredible. Rufo embraces the idea that Asians work too hard so this is a good reason to restrict immigration. When he was arguing against D",
+  "why": "Culture-war dunking on immigration and DEI."
  },
  {
   "rank": 24,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "thsottiaux",
-  "via": "jxnlco",
-  "text": "Day 2.1/ We have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto",
-  "why": "Product update for an AI tool."
+  "topic": "econ-progress",
+  "author": "bhorowitz",
+  "via": "Noahpinion",
+  "text": "Welcome Hitoshi Yoshida to a16z and thank you Governor Koike-san for helping mark the occasion of our office opening! a16z Japan is official",
+  "why": "Corporate office opening announcement."
  },
  {
   "rank": 25,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "tjparker",
-  "via": "WillManidis",
-  "text": "I’m stepping back from venture capital for the best possible reason – to get back to operating. Starting today, I’m CEO of General Medicine,",
-  "why": "Corporate leadership announcement."
+  "topic": "econ-progress",
+  "author": "MattZeitlin",
+  "via": "DKThomp",
+  "text": "The New York TImes: What’s one issue in politics that you’ve changed your mind about? Zohran Mamdani: The role of the private market in hous",
+  "why": "Local housing politics quote."
  },
  {
   "rank": 26,
   "kept": false,
   "score": 2,
-  "topic": "frontier-ai",
-  "author": "natolambert",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "A chonky week for Western open models! Posted Oct 6, 2026 at 2:12PM",
-  "why": "Hype post for a model release."
+  "text": "come work with us!  some of the fun things we do: - look at the data - go from excited slack message to launched feature in a week - work wi",
+  "why": "Job posting and team promotion."
  },
  {
   "rank": 27,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "ashwinkmurali",
-  "via": "WillManidis",
-  "text": "I joined Amazon Pharmacy in 2019 to lead pricing because I wanted my work to really matter. I didn’t know much about pharmacy pricing, or he",
-  "why": "Corporate leadership announcement."
+  "topic": "ai-engineering",
+  "author": "danshipper",
+  "via": null,
+  "text": "Love to see it!! Posted Oct 7, 2026 at 1:36PM",
+  "why": "Self-promotional quote tweet with thin commentary."
  },
  {
   "rank": 28,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "thisisgrantlee",
-  "via": "bentossell",
-  "text": "Everyone is sick of generic AI, including us. Gamma was the first AI presentation platform to reach real scale. But now that AI tools are ev",
-  "why": "Product launch announcement."
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Because one Puck just isn't enough ampcode.com/news/many-many… Posted Oct 7, 2026 at 1:33PM",
+  "why": "Link drop with no context."
  },
  {
   "rank": 29,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "imintomoms",
-  "via": "asmartbear",
-  "text": "The newest Smart Bear Live (E09) is amazing. First, how an agency is transforming with AI, and must refresh its sales team or sell. Second, ",
-  "why": "Podcast/video promo."
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "There is no \"Indian Question\". There is only the question of what kind of nation America will be. And the liberal nationalists still have th",
+  "why": "Political blog post promotion."
  },
  {
   "rank": 30,
   "kept": false,
   "score": 2,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Honored to be the first guest on Dr. Sherry's new podcast! Come see it -- not the usual stuff about letting non-Carols cancel.  :-) Posted O",
-  "why": "Podcast promo."
+  "topic": "rationality",
+  "author": "SarahTheHaider",
+  "via": "GaryMarcus",
+  "text": "Never lost respect for someone so fast. I can't believe this is the person I looked up to as a model of clear thinking. astralcodexten.com/p",
+  "why": "Pure drama and rage-bait regarding an AI debate."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "packyM",
+  "score": 1,
+  "topic": "ai-engineering",
+  "author": "every",
   "via": null,
-  "text": "trycreate.co Posted Oct 6, 2026 at 12:46PM",
-  "why": "Supplement hype / product link."
+  "text": "ATTENDING: William Peng of Cerity Partners will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.",
+  "why": "Pure conference announcement."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "packyM",
-  "via": null,
-  "text": "trycreate.co Posted Oct 6, 2026 at 12:45PM",
-  "why": "Supplement hype / product link."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "AmpCode",
-  "via": "thorstenball",
-  "text": "Imagine the collective hours lost to reading AI-generated Slack messages, PRDs, and slide decks. @thorstenball and @sqs discuss how AI can m",
-  "why": "Podcast promo."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "Access to @claudeai is only the first step to AI adoption. Ode with @AnthropicAI pairs AI engineers with the people who know a business’s op",
-  "why": "Partnership and conference promo."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "nicknisi",
-  "via": "swyx",
-  "text": "My @aiDotEngineer workshop is up: \"Lifestyles of the AI-Native\" with @zackproser 🎥 Voice coding across agent sessions, goals + loops, worktr",
-  "why": "Video-only workshop link."
- },
- {
-  "rank": 36,
-  "kept": false,
   "score": 1,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "topic": "rationality",
+  "author": "tobi",
   "via": null,
-  "text": "hey look /show-me is now incorporated into official amp code plugins Posted Oct 6, 2026 at 2:27PM",
-  "why": "Minor PR merge notification."
+  "text": "Vote for Brad Posted Oct 7, 2026 at 12:57PM",
+  "why": "Local mayoral election politics."
  }
 ]
