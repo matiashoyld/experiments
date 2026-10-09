@@ -2,221 +2,191 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "ai-engineering",
-  "author": "rabi_guha",
-  "via": "jxnlco",
-  "text": "ChatGPT launched Generative UI (finally) and renamed the field over night to Intelligent UI. We had to see how they implemented it. This pos",
-  "why": "Masterful reverse-engineering of ChatGPT's new Intelligent UI architecture; essential reading for AI engineers."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "It is kind of a huge deal. OpenAI dumped a broad range of huge new mathematical results produced by an internal frontier model. They just pu",
+  "why": "Deep dive into a massive frontier AI capability breakthrough in mathematics by a highly analytical writer."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "kevinakwok",
-  "via": "WillManidis",
-  "text": "TSMC doesn’t just make chips. It manufactures its customers. New essay. Abstract Warfare: How TSMC Made Its Own Market kwokchain.com/2026/10",
-  "why": "Kevin Kwok essay on TSMC's strategic moat; top-tier analysis of semiconductor economics and market creation."
+  "topic": "frontier-ai",
+  "author": "tomekkorbak",
+  "via": "GaryMarcus",
+  "text": "Last week I was called into a meeting with OpenAI’s head of safety and told they no longer trust me. A security guard took my badge and walk",
+  "why": "Critical frontier AI alignment news: a firsthand account of safety researchers being fired over evals and containment."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "oleg_murk",
-  "via": "DKokotajlo",
-  "text": "OpenAI has fired three safety researchers, alleging they mishandled confidential information. After the recent multi-agent security incident",
-  "why": "High-signal insider perspective on the tension between shipping pressure and safety culture at OpenAI."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Q: How do I make the case for investing in evaluations to my team? A: Review real user interactions and show your team the problems you find",
+  "why": "Direct hit on evals-as-discipline: practical advice on championing methodological rigor for LLM systems."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "hazemdawahi",
-  "via": "Vtrivedy10",
-  "text": "The best case I have read for fine-tuned open models. One line stands out: \"teams with data moats can surpass frontier models.\" Most teams h",
-  "why": "Excellent breakdown of the economic and performance trade-offs between fine-tuned specialized models and frontier inference."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "If someone flips heads 10 times in a row, are they skillful or lucky? Depends on the context. The answer also helps answer: Are successful c",
+  "why": "Excellent builder/rationality crossover on survivorship bias and whether successful companies are just lucky."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "econ-progress",
+  "author": "DKThomp",
   "via": null,
-  "text": "How to break free from the tyranny of certainty – the wonderful Japanese concept of \"ma\" themarginalian.org/2026/09/07/ma/ Posted Oct 8, 202",
-  "why": "Explores the Japanese concept of 'ma' as an antidote to the tyranny of certainty; perfect for intentional living."
+  "text": "One way to put it, maybe, is that the frontier labs are \"frenemies\" of the rest of the AI ecosystem. In some ways, what’s good for the front",
+  "why": "Sharp economic analysis on the misaligned incentives between frontier AI labs and the broader AI infrastructure ecosystem."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "joulee",
-  "via": null,
-  "text": "If someone happens to be creating a mental gym, please let me know! Also please make it look like the hanging gardens of Babylon kthx Posted",
-  "why": "Excellent essay by Julie Zhuo drawing parallels between the history of physical fitness and the modern need for cognitive conditioning."
+  "topic": "rationality",
+  "author": "tunguz",
+  "via": "Noahpinion",
+  "text": "Some people are dunking on this, but IMHO THIS is the way that science publications should be done. Post-publication corrections and modific",
+  "why": "Great insight on applying software engineering practices (continuous updates) to scientific publishing and research."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Sleeping Beauties – David Byrne on how transformative ideas go dormant and how (often after centuries or civilizations, often with the help ",
-  "why": "Beautiful Marginalian essay on the lifecycle of transformative ideas and cultural awakening."
+  "text": "Yeah the % of tasks that are one shottable without strict process has gone up, and also alignment/grilling/planning workflows are still impo",
+  "why": "Practical builder wisdom on when to use heavy planning vs one-shotting for AI coding agents."
  },
  {
   "rank": 8,
-  "kept": false,
+  "kept": true,
   "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The four desires driving all human behavior — Bertrand Russell's magnificent Nobel Prize acceptance speech themarginalian.org/2015/09/21/ber",
-  "why": "Bertrand Russell's Nobel speech on human motivation; timeless philosophical insight via The Marginalian."
+  "text": "How to handle provocation – Bertrand Russell's remarkable response to a fascist themarginalian.org/2026/09/04/ber… Posted Oct 9, 2026 at 3:0",
+  "why": "High-signal contemplative piece on handling provocation, drawing on Bertrand Russell."
  },
  {
   "rank": 9,
-  "kept": false,
+  "kept": true,
   "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Improvisation and the quantum of consciousness themarginalian.org/2022/07/06/imp… Posted Oct 9, 2026 at 12:35AM",
-  "why": "Explores the intersection of improvisation and consciousness; highly relevant to his philosophical interests."
+  "text": "The power of being a threshold person – liminality, communitas, and the anti-structure of possibility themarginalian.org/2026/09/04/tur… Pos",
+  "why": "Deep contemplative essay on liminality and the philosophy of possibility."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "colossusjeremy",
-  "via": "WillManidis",
-  "text": "If you can't decide whether to see The Social Reckoning or read this article, remember that the act of reading is wholesome and pure, wherea",
-  "why": "Deep-dive profile on Mark Zuckerberg's evolution as a builder and operator."
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Perhaps vertical short-form video is the Great Filter that stops every intelligent species from reaching the stars. noahpinion.blog/p/maybe-",
+  "why": "Fun, substantive skepticism on the societal impact of short-form video framed as a Great Filter."
  },
  {
   "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "100% NRR does not completely negate cancellations. First, because -20%, then +20% gets you back to 96%, not 100%. Second, because suppose yo",
-  "why": "Jason Cohen delivering crisp, counterintuitive math on why 100% NRR doesn't actually offset churn for bootstrapped builders."
+  "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "RhysSullivan",
+  "via": "bentossell",
+  "text": "I sent this as a prompt to my agent that I wanted a  company brain with superhuman style ux that combines my GitHub, multiple X accounts, mu",
+  "why": "Cool applied AI engineering use-case for building a unified company brain and dispatching agents."
  },
  {
   "rank": 12,
-  "kept": true,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "mattturck",
-  "via": "sh_reya",
-  "text": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to databases when billions of AI agents hit them",
-  "why": "Deep technical discussion timestamps with Andy Pavlo on how AI agents are breaking and reshaping databases."
- },
- {
-  "rank": 13,
   "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Undoing as remaking – how Lincoln drew poetry and power from his suicidal depression themarginalian.org/2020/12/03/lin… Posted Oct 8, 2026 a",
-  "why": "Deep historical look at Lincoln's depression and resilience; good contemplative reading."
+  "text": "The art of choosing love over not-love – Rumi's antidote to our human tragedy: themarginalian.org/2022/04/02/rum… Posted Oct 9, 2026 at 11:4",
+  "why": "Beautiful contemplative piece on Rumi, though perhaps slightly less aligned with his core intersections."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "DKThomp",
+  "via": null,
+  "text": "New pod: THE GOLDEN AGE OF BIO & THE DARK AGE OF BIOWEAPONS I talked to @ashishkjha about the Russian plague mystery, the age of bio miracle",
+  "why": "Interesting historical framing on bio-security, but ultimately a podcast promo rather than a dense essay."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "dexhorthy",
   "via": null,
-  "text": "Yes. Posted Oct 8, 2026 at 8:36PM",
-  "why": "Podcast promo on AI and autonomous warfare; interesting topic but lacks readable long-form text."
+  "text": "yep Posted Oct 9, 2026 at 2:06PM",
+  "why": "A bit too close to generic AI-hype and engagement-bait regarding job replacement."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 4,
-  "topic": "contemplative",
-  "author": "jujulemons",
-  "via": "nabeelqu",
-  "text": "I was in Birmingham last week. I tried to explore the city the best I could. Here are my ten reflections: juliawillemyns.substack.com/p/note",
-  "why": "Personal travel reflections; doesn't hit the core intersections of tech, progress, or learning science."
+  "topic": "econ-progress",
+  "author": "cremieuxrecueil",
+  "via": "naval",
+  "text": "Remember when the Biden admin set up a $42.5bn dollar program for rural broadband? Despite awarding over $18 billion, it hasn't even connect",
+  "why": "Touches on progress and infrastructure, but framed mostly as political dunking rather than substantive analysis."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 3,
-  "topic": "builders-craft",
-  "author": "pitdesi",
-  "via": "anuatluru",
-  "text": "Both USV and Benchmark (2 of the best firms ever) upsized this year after staying small for a very long time. Game on the field is different",
-  "why": "VC fund size announcement and generic AI thesis; lacks the specific builder insight or technical depth he prefers."
+  "topic": "rationality",
+  "author": "divya_venn",
+  "via": "Noahpinion",
+  "text": "yesterday I was walking with S in the mission at 9:30 in the night and normal guy in a light gray hoodie who was passing us on the sidewalk ",
+  "why": "Personal anecdote about urban crime; leans toward culture-war/rage-bait and away from his core interests."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "benspringwater",
-  "via": "bentossell",
-  "text": "I'm delighted to introduce Sundrop – a private photo app for parents. trysundrop.app ☀️ Sundrop finds your best photos and turns them into d",
-  "why": "Product launch announcement for a photo app; lacks long-form insight or analysis."
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "every",
+  "via": null,
+  "text": "ATTENDING: @TraceWall of @klaviyo will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/thesis",
+  "why": "Pure announcement/marketing for a conference, which falls into anti-taste."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 3,
-  "topic": "tools-for-thought",
-  "author": "thesephist",
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "tools to see, not just do Posted Oct 8, 2026 at 9:00PM",
-  "why": "Brief quote tweet of a camera app launch; not the substantive long-form reading he's looking for."
+  "text": "For some reason my X timeline is full of French protests. A good moment to bring back this classic croissant review. youtube.com/watch?v=wp8",
+  "why": "Off-topic YouTube video about croissants."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "FanaHOVA",
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "mitsuhiko",
   "via": null,
-  "text": "Before: \"wtf are you doing dude, think harder and make this code actually performant\" Now: \"Hey Claude, thank you so much for your work. Sor",
-  "why": "Amusing joke about Anthropic's new anti-bullying policy, but lacks substantive analysis."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "OpenAIDevs",
-  "via": "jxnlco",
-  "text": "The attention to detail is a little concerning. Posted Oct 9, 2026 at 2:44AM",
-  "why": "Parody video about AI dishwashing; lacks substantive analysis or long-form insight."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "jomatech",
-  "via": "jxnlco",
-  "text": "Introducing ChatGPT for Dishwashing GPT-6 achieves state-of-the-art results on dishwashing benchmarks for long-running jobs and difficult st",
-  "why": "Parody video about AI dishwashing; lacks substantive analysis or long-form insight."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "sporadica",
-  "via": "Noahpinion",
-  "text": "oh man, we are so f*cking back Posted Oct 8, 2026 at 6:10PM",
-  "why": "Brief news hit about tortoises; lacks the long-form depth or analysis required for saving."
+  "text": "I know this is taking a few minutes, but it would be really valuable! x.com/mitsuhiko/stat… Posted Oct 9, 2026 at 3:19PM",
+  "why": "Just a request to fill out a survey; engagement bait."
  }
 ]
