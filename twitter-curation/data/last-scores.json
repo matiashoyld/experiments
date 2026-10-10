@@ -3,190 +3,340 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "ai-essays",
+  "author": "sayashk",
   "via": null,
-  "text": "It is kind of a huge deal. OpenAI dumped a broad range of huge new mathematical results produced by an internal frontier model. They just pu",
-  "why": "Deep dive into a massive frontier AI capability breakthrough in mathematics by a highly analytical writer."
+  "text": "Do we live in a world where AIs can be wildly superhuman at every single task? Or a world where different tasks have different inherent limi",
+  "why": "Excellent substantive skepticism and original framework for thinking about AI capabilities and fundamental limits."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "tomekkorbak",
-  "via": "GaryMarcus",
-  "text": "Last week I was called into a meeting with OpenAI’s head of safety and told they no longer trust me. A security guard took my badge and walk",
-  "why": "Critical frontier AI alignment news: a firsthand account of safety researchers being fired over evals and containment."
+  "topic": "tools-for-thought",
+  "author": "every",
+  "via": null,
+  "text": "Germans have a word for everything, and @kplikethebird stumbled across this gem: verschlimmbesserung, or “worsen-bettering.” It refers to ou",
+  "why": "Brilliant intersection of tools-for-thought, AI writing, and productivity skepticism with a practical audit framework."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "Q: How do I make the case for investing in evaluations to my team? A: Review real user interactions and show your team the problems you find",
-  "why": "Direct hit on evals-as-discipline: practical advice on championing methodological rigor for LLM systems."
+  "topic": "builders-craft",
+  "author": "jediahkatz",
+  "via": "swyx",
+  "text": "hey this is kind of what my talk will be about! Posted Oct 10, 2026 at 12:05AM",
+  "why": "Great conceptual framing ('skill compression') on how AI agents change the craft of software engineering."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "If someone flips heads 10 times in a row, are they skillful or lucky? Depends on the context. The answer also helps answer: Are successful c",
-  "why": "Excellent builder/rationality crossover on survivorship bias and whether successful companies are just lucky."
+  "topic": "econ-progress",
+  "author": "jmhorp",
+  "via": "Noahpinion",
+  "text": "Very exciting to update this chart with the 2025 data! Millennials at age 40 have about 60% more real net worth than Boomers did at age 40, ",
+  "why": "Hard data on economic progress and generational wealth, directly hitting econ/abundance interests."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "One way to put it, maybe, is that the frontier labs are \"frenemies\" of the rest of the AI ecosystem. In some ways, what’s good for the front",
-  "why": "Sharp economic analysis on the misaligned incentives between frontier AI labs and the broader AI infrastructure ecosystem."
+  "topic": "frontier-ai",
+  "author": "MTSlive",
+  "via": "nabeelqu",
+  "text": "Nick Bostrom argues humans may be as incapable of imagining AI’s upside as apes are of imagining human life: \"It looks like there's a gradie",
+  "why": "Deep philosophical discussion on AI consciousness and superintelligence from a major thinker."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "tunguz",
-  "via": "Noahpinion",
-  "text": "Some people are dunking on this, but IMHO THIS is the way that science publications should be done. Post-publication corrections and modific",
-  "why": "Great insight on applying software engineering practices (continuous updates) to scientific publishing and research."
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "he cook Posted Oct 9, 2026 at 8:56PM",
+  "why": "Deeply technical, practical breakdown of building AI agents with virtual filesystems and serverless infra."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "Yeah the % of tasks that are one shottable without strict process has gone up, and also alignment/grilling/planning workflows are still impo",
-  "why": "Practical builder wisdom on when to use heavy planning vs one-shotting for AI coding agents."
+  "score": 8,
+  "topic": "tools-for-thought",
+  "author": "CoreyWilksPsyD",
+  "via": "moretothat",
+  "text": "Few people I'd trust to learn how to leverage AI in your creative workflow. Lawrence is at the top of my list. I've taken several of his oth",
+  "why": "Inspiring intersection of AI, education, and agency, showing how non-coders can build personal tools."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How to handle provocation – Bertrand Russell's remarkable response to a fascist themarginalian.org/2026/09/04/ber… Posted Oct 9, 2026 at 3:0",
-  "why": "High-signal contemplative piece on handling provocation, drawing on Bertrand Russell."
+  "topic": "econ-progress",
+  "author": "Timodc",
+  "via": "DKThomp",
+  "text": "Today's pod: @DKThomp on Abundance discourse, AI's econ impact, whether Claude has consciousness, & we get a lil ahead of ourselves on AES/O",
+  "why": "Hits multiple core intersections perfectly: abundance, AI's economic impact, and AI consciousness."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
+  "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The power of being a threshold person – liminality, communitas, and the anti-structure of possibility themarginalian.org/2026/09/04/tur… Pos",
-  "why": "Deep contemplative essay on liminality and the philosophy of possibility."
+  "text": "How memory makes us and breaks the truth – the Rashomon Effect and the science of how memories form and falter in the brain themarginalian.o",
+  "why": "Deep dive into the science and philosophy of memory and truth from a trusted curator."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 7,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "emollick",
   "via": null,
-  "text": "Perhaps vertical short-form video is the Great Filter that stops every intelligent species from reaching the stars. noahpinion.blog/p/maybe-",
-  "why": "Fun, substantive skepticism on the societal impact of short-form video framed as a Great Filter."
+  "text": "Not only did Astra beat Montezuma's Revenge, but so did Opus 5 But one of the criteria to resolve this AGI bet is for AI to win a discontinu",
+  "why": "Ethan Mollick discussing AGI benchmarks and evals with Metaculus, highly relevant to frontier AI."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 6,
-  "topic": "ai-engineering",
-  "author": "RhysSullivan",
-  "via": "bentossell",
-  "text": "I sent this as a prompt to my agent that I wanted a  company brain with superhuman style ux that combines my GitHub, multiple X accounts, mu",
-  "why": "Cool applied AI engineering use-case for building a unified company brain and dispatching agents."
+  "topic": "builders-craft",
+  "author": "anuatluru",
+  "via": null,
+  "text": "if you care about the aesthetics of something most people don’t even think has an aesthetic, it’s art to you Posted Oct 10, 2026 at 12:05AM",
+  "why": "Beautiful reflection on the aesthetics of math and craft, fitting interests in philosophy and builders."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "trq212",
   "via": null,
-  "text": "The art of choosing love over not-love – Rumi's antidote to our human tragedy: themarginalian.org/2022/04/02/rum… Posted Oct 9, 2026 at 11:4",
-  "why": "Beautiful contemplative piece on Rumi, though perhaps slightly less aligned with his core intersections."
+  "text": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constan",
+  "why": "Practical applied AI engineering example of building personal agents with Claude."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "DKThomp",
-  "via": null,
-  "text": "New pod: THE GOLDEN AGE OF BIO & THE DARK AGE OF BIOWEAPONS I talked to @ashishkjha about the Russian plague mystery, the age of bio miracle",
-  "why": "Interesting historical framing on bio-security, but ultimately a podcast promo rather than a dense essay."
+  "score": 6,
+  "topic": "agency",
+  "author": "majamediaco",
+  "via": "sariazout",
+  "text": "So fun turning the side doors essay into a live interactive workshop today with 150 people on the internet, collabing with @sariazout , @www",
+  "why": "Great example of agency and builder craft—creating opportunities through 'side doors'."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "yep Posted Oct 9, 2026 at 2:06PM",
-  "why": "A bit too close to generic AI-hype and engagement-bait regarding job replacement."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "barrowjoseph",
+  "via": "HamelHusain",
+  "text": "A while ago I gave a talk w/ @HamelHusain , “How to Choose an OCR Model,” and I just saw it’s available on YouTube! youtube.com/watch?v=mSdm",
+  "why": "Practical, applied AI engineering talk from a trusted practitioner (Hamel Husain)."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "cremieuxrecueil",
-  "via": "naval",
-  "text": "Remember when the Biden admin set up a $42.5bn dollar program for rural broadband? Despite awarding over $18 billion, it hasn't even connect",
-  "why": "Touches on progress and infrastructure, but framed mostly as political dunking rather than substantive analysis."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "hammer_mt",
+  "via": "danshipper",
+  "text": "\"Don't freak out, I cloned you\" - the story of how I cloned @NataliaZarina , @kdaigle , and @danshipper . every.to/also-true-for-… Posted Oc",
+  "why": "Fun and practical exploration of AI cloning/personas, featuring Dan Shipper."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "divya_venn",
-  "via": "Noahpinion",
-  "text": "yesterday I was walking with S in the mission at 9:30 in the night and normal guy in a light gray hoodie who was passing us on the sidewalk ",
-  "why": "Personal anecdote about urban crime; leans toward culture-war/rage-bait and away from his core interests."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "jackclarkSF",
+  "via": null,
+  "text": "I am so grateful to the inquisitive Import AI community - it brings me a lot of joy to highlight research in the newsletter and for it to ge",
+  "why": "Nice meta-commentary on AI curation and the impact of highlighting non-dominant language datasets."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "every",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "ATTENDING: @TraceWall of @klaviyo will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/thesis",
-  "why": "Pure announcement/marketing for a conference, which falls into anti-taste."
+  "text": "Don't waste your greening life-force – Hildegaard's prophetic enchanted ecology themarginalian.org/2025/01/07/hil… Posted Oct 9, 2026 at 11:",
+  "why": "Deep, contemplative essay on ecology and life-force, but perhaps a bit too niche."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "For some reason my X timeline is full of French protests. A good moment to bring back this classic croissant review. youtube.com/watch?v=wp8",
-  "why": "Off-topic YouTube video about croissants."
+  "text": "The secret power of ambivalence themarginalian.org/2026/10/09/jef… Posted Oct 9, 2026 at 9:32PM",
+  "why": "High-quality contemplative essay on psychology and intentional living."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 1,
-  "topic": "builders-craft",
-  "author": "mitsuhiko",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "EpistemicHope",
+  "via": "DKokotajlo",
+  "text": "I think current AI company staff are massively underestimating how world-changing it would be if 15 of them or 50 of them quit and loudly sa",
+  "why": "Call to action for AI safety, but leans more towards activism than deep analysis."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "tobi",
   "via": null,
-  "text": "I know this is taking a few minutes, but it would be really valuable! x.com/mitsuhiko/stat… Posted Oct 9, 2026 at 3:19PM",
-  "why": "Just a request to fill out a survey; engagement bait."
+  "text": "Good read Posted Oct 10, 2026 at 1:50AM",
+  "why": "Opinion on AI's impact on work and hiring, but borders on generic AI hype."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 4,
+  "topic": "rationality",
+  "author": "adi_baradwaj",
+  "via": "DKokotajlo",
+  "text": "My snap judgements on the new trailer for The Altruists, as someone who worked for SBF: 🧵👇 1) First thought: Wow, the trailer’s depiction of",
+  "why": "Interesting insider perspective on the FTX saga, but mostly media drama."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "nicbstme",
+  "via": null,
+  "text": "The most successful software franchise of all time is coming to chat. Almost every knowledge worker on the planet uses Microsoft Office. Wha",
+  "why": "Interesting observation on software franchises, but borders on product hype/announcement."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Did you know that the winged seed of the maple is called \"samara\" and \"gemel\" is when two separate trees become joined together? How to spea",
+  "why": "Beautiful contemplative piece on nature and language, but a bit far from core topics."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 3,
+  "topic": "tools-for-thought",
+  "author": "trevin",
+  "via": "kieranklaassen",
+  "text": "If you're like me, you had no idea there was a waitlist to sign up for to get access to Claude Projects. So you and I both missed out on get",
+  "why": "Pure announcement/waitlist link for Claude Projects; lacks substantive insight."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Noah Smith ( @noahopinion ) has become deeply intellectually dishonest. If he actually followed the field he would a. understand the differe",
+  "why": "Substantive point on neurosymbolic AI, but heavily bogged down in Twitter drama and personal grievances."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "ASalyers3",
+  "via": "anuatluru",
+  "text": "I’m crafting a team of these very special folks @NotionHQ — I struggle to write JDs for these roles because everyone here on the team now is",
+  "why": "Interesting glimpse into Notion's culture, but ultimately just a job description/hiring post."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "answer to a misleading rumor about me that has been circulating widely, repeated by @Noahpinion (who failed to tag me) and others. Posted Oc",
+  "why": "Repetitive Twitter drama and grievance airing, low signal-to-noise."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "Douthat60",
+  "via": "erikphoel",
+  "text": "Some personal fantasy-novelist news: x.com/WordOnFire/sta… Posted Oct 9, 2026 at 7:40PM",
+  "why": "Book announcement, not highly relevant to core topics."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "jacksondahl",
+  "via": "nabeelqu",
+  "text": "WE ARE UP!!! Cameron Winter is a special artist. Trust me and listen. I went to this show and also saw the premiere of the concert movie las",
+  "why": "Music recommendation, outside of core reading interests."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "SanaSaeed",
+  "via": "Noahpinion",
+  "text": "ok well Posted Oct 9, 2026 at 6:35PM",
+  "why": "Funny news headline, but irrelevant to core interests in AI, progress, or philosophy."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "stephen_taylor",
+  "via": "tobi",
+  "text": "Olivia Chow is attacking Brad Bradford for \"MAGA-Trump politics\" and guilt by association. But in 2009, Chow personally called on Ottawa to ",
+  "why": "Canadian political commentary and culture-war dunking, explicitly anti-taste."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "accordingtoca",
+  "via": "tobi",
+  "text": "The Chow campaign won't answer questions. Instead, they are trying to smear Brad Bradford and make him out to be some kind of villain. It's ",
+  "why": "Local political debate commentary, falls under anti-taste."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "TrueSlazac",
+  "via": "Noahpinion",
+  "text": "I’m not the first one to say it, but it is notable that the people who constantly talk about the Third Worldification of America are the doi",
+  "why": "Political/culture-war commentary, explicitly anti-taste."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Roses are red Violets are blue Posted Oct 9, 2026 at 11:47PM",
+  "why": "Just a meme/joke tweet about a funny news headline."
  }
 ]
