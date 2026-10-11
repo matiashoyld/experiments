@@ -2,201 +2,311 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "PCSnow1604",
-  "via": "C_Hendrick",
-  "text": "What a fascinating deep dive. Thanks @C_Hendrick . “Bloom’s name is now routinely invoked, and often derided, in connection with a pyramid h",
-  "why": "A deep dive debunking the myth of Bloom's Taxonomy pyramid, focusing on how expertise is actually constructed."
+  "score": 10,
+  "topic": "econ-progress",
+  "author": "patrickc",
+  "via": "WillManidis",
+  "text": "Assorted things I've been mulling over regarding agents in the economy: • Companies are in some sense the original superintelligence. It's o",
+  "why": "Patrick Collison's profound, original analysis on how AI agents will fundamentally rewire market economics and product quality."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "DKThomp",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
   "via": null,
-  "text": "folks in and near the labs sometimes say “we’re not prepared for a world where AI isn’t a bubble” and I think that’s true inasmuch as predic",
-  "why": "Derek Thompson analyzing Dylan Patel's wild $600B AI revenue prediction and its macroeconomic implications."
+  "text": "Recently had the chance to interview @benhylak on how he is thinking about simulations in our AI Evals Course 😁 Simulations are incredibly u",
+  "why": "High-signal technical breakdown of using simulations for AI evals, hitting the evals-as-discipline intersection perfectly."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "xMr_Unoriginalx",
-  "via": "swyx",
-  "text": "Replying to @xMr_Unoriginalx Full breakdown by @swyx : latent.space/p/biohub-deepm… Posted Oct 10, 2026 at 7:05AM",
-  "why": "Swyx's deep dive breakdown on DeepMind and Biohub."
+  "score": 9,
+  "topic": "spanish-ai",
+  "author": "c_valenzuelab",
+  "via": null,
+  "text": "The ultimate LLM benchmark: Chilean Spanish. 80% of AI models fail to recognize Chilean Spanish and insist on speaking like an Argentine Pos",
+  "why": "Perfect intersection of Chilean Spanish AI and LLM evals from a top LatAm AI builder."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "every",
-  "via": null,
-  "text": "Your coworkers can’t learn an AI workflow if they only see the finished work. @danshipper built a copyediting skill from 30,000 historical e",
-  "why": "Dan Shipper on building a practical AI agent for team workflows based on historical edits."
+  "score": 9,
+  "topic": "builders-craft",
+  "author": "chintanturakhia",
+  "via": "danshipper",
+  "text": "We started running \"pirate and architect\" pods at Coinbase back in May of this year and I used this slide to talk the team through it. It wo",
+  "why": "Superb organizational wisdom on structuring AI-era product teams for speed and scale; highly actionable for builders."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "From mitochondria to minds – the illustrated science of the psychedelic dream called life themarginalian.org/2026/07/19/the… Posted Oct 10, ",
-  "why": "A deep dive into the science of life and consciousness from The Marginalian."
+  "score": 9,
+  "topic": "parenting-education",
+  "author": "MrZachG",
+  "via": "C_Hendrick",
+  "text": "Thanks for involving me and asking for my take on this effort. Great things are coming our way in education - some taking slightly different",
+  "why": "High-signal news on applying cognitive science to math education at scale; perfectly hits the learning-science interest."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Walt Whitman, shortly after his paralytic stroke, on what makes life worth living themarginalian.org/2026/10/07/wal… Posted Oct 10, 2026 at ",
-  "why": "Walt Whitman on finding meaning and what makes life worth living after a stroke."
+  "score": 9,
+  "topic": "parenting-education",
+  "author": "andbjn",
+  "via": "jean_twenge",
+  "text": "Replying to @andbjn Results: academic performance improved (0.073 SD), with the largest gains among the weakest students. And students who e",
+  "why": "Rigorous empirical data on the positive educational impact of smartphone bans, highly relevant to parenting and ed-tech."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "a16z",
-  "via": "Noahpinion",
-  "text": "TypeSafe AI's Diogo Almeida on why Jev is called Jev, and what cheap intelligence finally changes about software: \"It's wild that AI is so c",
-  "why": "Insightful quotes from Diogo Almeida on how cheap intelligence fundamentally changes software engineering."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "DAcemogluMIT",
+  "via": null,
+  "text": "Thanks to @joshgans for collecting my questions on AI and his responses in a single substack post. Posted Oct 11, 2026 at 12:36AM",
+  "why": "High-signal exchange on AI economics between two top thinkers; substantive analysis of AI's impact."
  },
  {
   "rank": 8,
-  "kept": false,
-  "score": 4,
+  "kept": true,
+  "score": 8,
   "topic": "builders-craft",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "I liked this view of SF but wanted it live I POC'd w/ \"Washington Square Park\" in SF + NY Connected it to OpenStreetMap, live weather, SF tr",
-  "why": "A neat visual POC combining maps and live weather, but lacks deep technical insight."
+  "author": "MTSlive",
+  "via": "_brianpotter",
+  "text": "FULL INTERVIEW: Brian Potter says robots learned kung fu before they learned to pick things up because motion is easy to train in simulation",
+  "why": "Fascinating intersection of AI, robotics, and construction physics from a high-signal builder."
  },
  {
   "rank": 9,
-  "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "no_fear_inc",
-  "via": "asmartbear",
-  "text": "E09 w/ Jon Sturgeon: AI changed his agency's model. Should he grow or sell? 2 hours with @asmartbear and @imintomoms using me as a case stud",
-  "why": "A 2-hour video case study on AI transforming an agency model; likely too video-heavy."
+  "kept": true,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "This 1965 letter from one artist to another remains the best detonator of self-doubt and creative block I've ever encountered themarginalian",
+  "why": "A timeless, deeply contemplative letter on overcoming creative block and the craft of making art."
  },
  {
   "rank": 10,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "nicbstme",
+  "via": null,
+  "text": "Having spent 10 years building AI products, this resonates a lot. Machine learning has long been a black box. Now we’re giving a much more c",
+  "why": "Excellent systems-engineering perspective on AI alignment and containment, moving beyond prompts to hard permissions."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "Qromerolauro",
+  "via": "sh_reya",
+  "text": "I don't understand why it's not: \"Share your screen\" \"Open a personal project!\" \"What's the next feature you want to add or improvement you ",
+  "why": "Highly practical, builder-centric rethinking of how to evaluate engineering talent in the age of AI agents."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "How to create a useless, unactionable metric: • many inputs • with weights • combined with a formula • with unknown error bars You know, lik",
+  "why": "Sharp, substantive skepticism of complex product metrics from a seasoned builder."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to be an instrument of kindness in a harsh world – George Saunders on unthinking the mind, unstorying the self, and the 3 antidotes to y",
+  "why": "Deeply contemplative essay from George Saunders on kindness and dismantling the ego's narratives."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "AssaadRazzouk",
+  "via": "Noahpinion",
+  "text": "Data centers are just the warm-up act: Physical AI is most lethal fossil-fuel-killing engine ever built. Electric trucks, factories, and rob",
+  "why": "Strong thesis on the energy economics of physical AI and its impact on fossil fuels."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "firesidealpha",
+  "via": "Noahpinion",
+  "text": "Palmer Luckey reveals Oculus repeatedly found wiretap electronics hidden inside product samples from Chinese factories, and says they would ",
+  "why": "Fascinating, high-stakes anecdote from a top hardware builder about supply chain security and espionage."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to stop waiting and start living – a classic jolt from Henry James (to be revisited approximately once a month for best results, in my e",
+  "why": "A classic contemplative jolt on intentional living and avoiding the trap of waiting for life to happen."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 7,
+  "topic": "agency",
+  "author": "nicbstme",
+  "via": null,
+  "text": "This is everything I admired about America as a teenager growing up in France. Michael Dell starts a company at 19 in his dorm room with $1,",
+  "why": "Inspiring reflection on the power of ownership and compounding to build agency and economic progress."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"Talent is insignificant. I know a lot of talented ruins. Beyond talent lie all the usual words: discipline, love, luck, but most of all, en",
+  "why": "Timeless wisdom on the craft of writing and the necessity of endurance over mere talent."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Almost a decade later, this is still full of so much warmth and wisdom and solace – Liz Gilbert on love, loss, and how to move through grief",
+  "why": "Beautiful contemplative piece on grief and moving through it, fitting the intentional living interest."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "kieranklaassen",
+  "via": null,
+  "text": "So cool! Posted Oct 10, 2026 at 10:20PM",
+  "why": "Interesting builder feat recreating a startup quickly, though a bit light on deep insight."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "China is deindustrializing Europe Posted Oct 10, 2026 at 8:27PM",
+  "why": "Important macroeconomic trend on global trade and industrialization, though a bit brief."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "People should pay more attention to what Goodfire is doing Posted Oct 10, 2026 at 11:59PM",
+  "why": "Interesting critique of alignment treating models as moral patients, but leans a bit into punditry."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "HannoLustig",
+  "via": "Noahpinion",
+  "text": "May come as a bit of a surprise to those of us who were following Paul's writings in the 2010s when he was railing against Eurozone \"austeri",
+  "why": "Deep dive into macroeconomic policy and Krugman's past takes, but maybe too niche macro for his core tastes."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "tobi",
+  "via": null,
+  "text": "Great read from Patrick, as always. “Personal agents will, I think, act as a kind of structural subsidy for product quality.” Yes, and well ",
+  "why": "Great snippet from Patrick Collison, but the full thread is captured in another item."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "\"Glory\" by Greg Egan Posted Oct 10, 2026 at 7:09PM",
+  "why": "Fun sci-fi reference to atomic manufacturing, but a bit brief on actual technical or economic substance."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "jxnlco",
+  "via": null,
+  "text": "This happens even at labs I think Posted Oct 11, 2026 at 3:14AM",
+  "why": "A bit too generic and hype-adjacent regarding AI replacing jobs without much substantive analysis."
+ },
+ {
+  "rank": 27,
   "kept": false,
   "score": 4,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "A #birddivination to lens your weekend. Find the remaining 99 (along with my process and the story behind them) at almanacofbirds.org Posted",
-  "why": "A poetic bird divination project; beautiful but lacks the deep philosophical synthesis he prefers."
+  "text": "At the link, the best of The Marginalian this week in one place – how to doubt your way to a truer life, Dostoyevsky on what makes a good pe",
+  "why": "A newsletter roundup link rather than a specific essay; better to read the individual pieces."
  },
  {
-  "rank": 11,
+  "rank": 28,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "DKThomp",
-  "via": null,
-  "text": "“Marvin Harrison Jr is a once in a generation prospect” “Actually I think in a few years he’ll be in the running for the worst starting WR.”",
-  "why": "A brief sports analogy on the necessity of making bold predictions."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
+  "score": 4,
+  "topic": "econ-progress",
   "author": "Noahpinion",
   "via": null,
-  "text": "Fake history. He mostly played Hearthstone. 🥰 Posted Oct 10, 2026 at 5:58AM",
-  "why": "Thread-boi format biography of an AI founder; lacks technical or philosophical substance."
+  "text": "BEEN SAYING THIS FOR YEARS noahpinion.blog/p/tokyo-is-the… Posted Oct 10, 2026 at 11:52PM",
+  "why": "Cultural commentary on Tokyo vs Paris; a bit light on the core topics of progress or economics."
  },
  {
-  "rank": 13,
+  "rank": 29,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "kieranklaassen",
   "via": null,
-  "text": "Big, big, big news: Posted Oct 10, 2026 at 2:44PM",
-  "why": "Pure product announcement for Amp."
+  "text": "replaced scores coming in for @every folk :P Posted Oct 10, 2026 at 11:45PM",
+  "why": "Repetitive share of a slightly hype-y post about AI replacing workers."
  },
  {
-  "rank": 14,
+  "rank": 30,
   "kept": false,
   "score": 2,
-  "topic": "ai-engineering",
-  "author": "jkudish",
-  "via": "thorstenball",
-  "text": "Fuck yes, well done @AmpCode you’ve closed the last gap 👏 Posted Oct 10, 2026 at 5:11AM",
-  "why": "Hype reaction to a product announcement."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "michaelpollan",
+  "topic": "rationality",
+  "author": "TheZvi",
   "via": null,
-  "text": "theguardian.com/us-news/2026/o… Posted Oct 10, 2026 at 1:52PM",
-  "why": "Bare link about FDA and food chemicals, outside core topics."
+  "text": "Today's the deadline. I once again encourage you to apply if this is plausibly for you. Posted Oct 10, 2026 at 9:27PM",
+  "why": "Just an announcement/reminder for an application deadline, lacking substantive content."
  },
  {
-  "rank": 16,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "One month to go until AI Engineer Code Summit SF! Three days of technical talks, live demos and conversations with engineers building AI cod",
-  "why": "Event announcement for AI Engineer Code Summit."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "sqs",
-  "via": "thorstenball",
-  "text": "You can use your Claude plan in Amp now. Free and open to everyone. (By very very very very popular request.) ampcode.com/news/use-your-… Po",
-  "why": "Product announcement for Amp."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "_can1357",
-  "via": null,
-  "text": "doesfastdoanything.com/?no up from 9% yesterday, not bad Posted Oct 10, 2026 at 6:30AM",
-  "why": "Lacks context or substance; just a brief status update."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "swyx",
-  "via": null,
-  "text": "aie nyc tix will sell out this weekend - last call to join us to the biggest ever technical conf in New York and our first with a finance ma",
-  "why": "Event ticket sales announcement."
- },
- {
-  "rank": 20,
+  "rank": 31,
   "kept": false,
   "score": 1,
-  "topic": "rationality",
-  "author": "JaredWalczak",
+  "topic": "econ-progress",
+  "author": "mattyglesias",
   "via": "Noahpinion",
-  "text": "Hitler Mussolini, the left-wing candidate, narrowly defeated Lenin Vladimir, the right-wing candidate. Seriously. I'm not joking. Posted Oct",
-  "why": "Amusing political trivia, but completely outside his core interests."
+  "text": "It’s under-discussed that: Trump and his supporters are obsessed with immigration as a civilization-defining issue They haven’t tried to pas",
+  "why": "Pure US politics and culture war, which is explicitly in the anti-taste list."
  }
 ]
