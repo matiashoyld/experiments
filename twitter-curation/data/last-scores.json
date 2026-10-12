@@ -2,181 +2,311 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "hammer_mt",
-  "via": "danshipper",
-  "text": "How to build good evals without getting lost or in trouble. You should see evals as saving past work and replaying it with new models or pro",
-  "why": "Exceptional, rigorous guide to building LLM evals, covering sandboxing, human vs. model grading, and optimizing agents."
+  "score": 10,
+  "topic": "ai-essays",
+  "author": "karpathy",
+  "via": null,
+  "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is widening . It's now less \"two groups of peop",
+  "why": "Karpathy masterfully articulates the widening gap in AI capability perception. A profound synthesis of where the frontier actually is."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "joshgans",
-  "via": "Noahpinion",
-  "text": "You asked for it. Here is the exchange between myself and @DAcemogluMIT collected in one post. The Acemoglu-Gans Exchange on AI. joshuagans.",
-  "why": "High-signal debate between top economists Acemoglu and Gans on AI's actual economic impact and productivity gains."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "TomDavenport",
+  "via": "danshipper",
+  "text": "Mike is probably the best in the world at this, bookmark it Posted Oct 11, 2026 at 1:45PM",
+  "why": "Direct hit on evals-as-discipline. Highly practical, technical depth made readable on how to measure LLM improvements systematically."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Restricting student access to phones is associated with significantly higher academic performance. science.org/doi/10.1126/sc… Posted Oct 11",
-  "why": "Rigorous Science paper on the academic benefits of restricting student phone access; highly relevant to learning science."
+  "text": "So cool Posted Oct 11, 2026 at 7:09PM",
+  "why": "Incredible real-world postmortem of AI agents accelerating math research, complete with real numbers and insights on agent collaboration."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Just published a new article! 👇🏾 Four sincere attempts at OKRs, four failures, and every time: \"you didn't do it right.\" Maybe the framework",
-  "why": "Jason Cohen's substantive, skeptical take on why OKRs fail and how to find a framework that actually fits your company."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "Alex_Danco",
+  "via": "anuatluru",
+  "text": "Everyone is weighing in on PC’s thoughtful “I didn’t actually love The Brothers Karamazov” post and it is my favourite book I’ve ever read (",
+  "why": "High-signal philosophical discussion on Dostoyevsky, the problem of evil, and faith vs. science, featuring Patrick Collison and Alex Danco."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "DKokotajlo",
-  "text": "Reminder that Anthropic's frontier compliance framework does not have any provisions whatsoever about managing risks from internal models. A",
-  "why": "Substantive critique of Anthropic's safety compliance framework and its lack of provisions for internal models."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "pamelafox",
+  "via": "HamelHusain",
+  "text": "Nice post by @isaac_flath on how he evaluates OCR models, with custom annotation apps and agent citation checkers. Great examples of the man",
+  "why": "Excellent methodological rigor applied to OCR/VLM evals, complete with custom annotation apps and agent citation checkers."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "nicbstme",
   "via": null,
-  "text": "\"To be a good human being is to have a kind of openness to the world, an ability to trust uncertain things beyond your own control.\" Philoso",
-  "why": "Martha Nussbaum on human fragility and trust; excellent philosophical counterweight to tech-optimism."
+  "text": "The real SaaS apocalypse is pretty simple: every piece of software becomes reproducible. The cost of building it goes toward zero, competiti",
+  "why": "Substantive analysis of AI's impact on software business models, offering a nuanced bull case for incumbents leveraging existing telemetry."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Good rant. Posted Oct 11, 2026 at 4:51AM",
-  "why": "Provocative perspective from Ben Goertzel on how the academic math community is reacting to superhuman AI theorem proving."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "CJHandmer",
+  "via": "jasoncrawford",
+  "text": "I've been prototyping an automated peer review project. With current models you get human level peer review for about $0.10 of tokens. For $",
+  "why": "Fascinating applied AI concept for scientific rigor: using agents to audit the entire scientific corpus for p-hacking and fabrication."
  },
  {
   "rank": 8,
   "kept": true,
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "willking",
+  "via": "thorstenball",
+  "text": "Craft applies to the output not the input. Posted Oct 11, 2026 at 8:44PM",
+  "why": "Great philosophical take on builders and craft in the age of AI. Challenges the comfort of clinging to 'Good Code' over first principles."
+ },
+ {
+  "rank": 9,
+  "kept": true,
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "swyx",
+  "via": null,
+  "text": "reupping my talk tips thread for all our lovely AIE NYC speakers. see you tmr at speaker dinner! Posted Oct 11, 2026 at 7:28PM",
+  "why": "Swyx delivers highly practical, high-signal advice for builders and engineers on how to communicate and present technical work effectively."
+ },
+ {
+  "rank": 10,
+  "kept": true,
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "This is an example of what I call \"cloud laws\". There are regularities in weather patterns that are too diffuse and complex for humans to gr",
+  "why": "Fascinating example of applied AI and scientific progress: models learning complex 'cloud laws' to accurately forecast weather 11 days out."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "👇👇👇👇👇 Posted Oct 11, 2026 at 6:30PM",
+  "why": "Excellent philosophical analogy (F1 vs everyday driving) addressing AI's impact on human purpose and the future of mathematics."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "jessi_cata",
+  "via": "Noahpinion",
+  "text": "Important August 2026 update on the AI 2027 scenario. \"We also re-evaluated AI 2027’s predictions; reality seems to be going about 70-90% as",
+  "why": "Good signal on frontier AI timelines and capability forecasting, extrapolating current progress to superhuman coders by 2028."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "januarycomputer",
+  "via": "WillManidis",
+  "text": "something very repulsive to me about modern culture in san francisco. a grotesque malformation of meritocracy where everyone is shaping the ",
+  "why": "Substantive skepticism of SF startup culture and meritocracy. A strong anti-hype counterweight regarding the builder ecosystem."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "Marketers:  The next wave of founders will be marketers, distribution is the new moat. PMs:  Taste is the moat, and its easier than ever to ",
+  "why": "Good synthesis of AI's impact on different tech roles (PMs, Eng, Marketers) by a respected AI engineer."
+ },
+ {
+  "rank": 15,
+  "kept": false,
   "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Be Like Water – the philosophy and origin of Bruce Lee's famous metaphor for resilience themarginalian.org/2013/05/29/lik… Posted Oct 11, 20",
-  "why": "Classic Marginalian exploration of Bruce Lee's philosophy of resilience and intentional living."
+  "text": "The great Zen teacher Thich Nhat Hanh would have been 100 today. When he was 35, he had an epiphany while at the library that revealed to hi",
+  "why": "A solid contemplative piece on Thich Nhat Hanh and the meaning of life, fitting your interest in intentional living and philosophy."
  },
  {
-  "rank": 9,
+  "rank": 16,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "“Whatever inspiration is, it’s born from a continuous ‘I don’t know.’” The creative power of uncertainty — Polish poet Wislawa Szymborska’s ",
+  "why": "A beautiful Nobel speech on the creative power of uncertainty. Fits well with intentional living and the builder's mindset."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Wow. Posted Oct 11, 2026 at 8:53PM",
+  "why": "Relevant scoop on frontier labs gaming out catastrophic AI events, though the tweet itself is a bit thin on analysis."
+ },
+ {
+  "rank": 18,
   "kept": false,
   "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Virginia Woolf's \"Orland\" was published on this day in 1928. Besides throwing the first great gauntlet at the construct of gender, it contai",
-  "why": "Good literary reflection on time, but slightly generic 'on this day' curation compared to deeper philosophical essays."
+  "text": "The great Zen teacher and peace activist Thich Nhat Hanh would have been 100 today. His immortal wisdom on true love and the 5 rivers of sel",
+  "why": "More wisdom from Thich Nhat Hanh. Good, but standard Marginalian fare without a unique intersection to elevate it."
  },
  {
-  "rank": 10,
+  "rank": 19,
   "kept": false,
-  "score": 3,
+  "score": 5,
   "topic": "ai-essays",
-  "author": "imjustnewatai",
+  "author": "arpitrage",
   "via": "Noahpinion",
-  "text": "Things are about to get alien. Look at this proof. The answer isn't the crazy part. It's how it got there. The key step connects two ideas t",
-  "why": "Breathless AI hype about 'alien math' with no actual substance, proof, or technical details provided."
+  "text": "Weird how AI is so bad at writing but it keeps winning these literary awards Posted Oct 11, 2026 at 6:51PM",
+  "why": "A bit of snark about AI winning literary awards. The underlying article is relevant to AI's societal impact, but the framing is thin."
  },
  {
-  "rank": 11,
+  "rank": 20,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "James Baldwin on how love (finally) finds you themarginalian.org/2026/10/11/bal… Posted Oct 11, 2026 at 9:32PM",
+  "why": "James Baldwin on love. A beautiful read, but standard fare without a unique intersection to score higher."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "VitreousSolid",
+  "via": "krishnanrohit",
+  "text": "Replying to @VitreousSolid strangeloopcanon.com/p/what-we-want… Posted Oct 11, 2026 at 4:12PM",
+  "why": "A bare link reply. While the author is usually high-signal, there's no context here to justify a top score."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The madman who saved mothers – the invention of hand-washing and the bittersweet true love story behind \"Frankenstein\" themarginalian.org/20",
+  "why": "Interesting history of science and progress regarding hand-washing, but doesn't hit your core intersections deeply."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "HalBrands",
+  "via": "Noahpinion",
+  "text": "The AI revolution is redrawing the strategic map of our era--a long read on how geography and technology interact. Drawing on my forthcoming",
+  "why": "A geopolitical punditry piece on AI. A bit too high-level and generic compared to the builder-centric content you prefer."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "_can1357",
+  "via": null,
+  "text": "i thought the model was trained with traces @ 272k and that was the optimal point and all that, what happened to that folks? 😩 Posted Oct 12",
+  "why": "An announcement-only post about a model's context length increase. Lacks the deeper analysis or postmortem insights you prefer."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to handle provocation – Bertrand Russell's remarkable response to a fascist themarginalian.org/2016/10/06/ber… Posted Oct 11, 2026 at 11",
+  "why": "Historical letter from Bertrand Russell. Interesting, but borders on culture-war adjacent and isn't a core focus."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Replying to @Noahpinion @LinusMixson In case it's too hard to scroll up, here is the link to the post. I actually copied it manually by hand",
+  "why": "A bare link reply to a blog post. Lacks the necessary context or framing in the tweet itself to justify a higher score."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "thorstenball",
+  "via": null,
+  "text": "\"It's such a delight\" ... and people keep asking: well if AI is so good, where's the great software? Right here, baby: ampcode dot com Poste",
+  "why": "Pure hype and praise for a new AI coding tool without deep substance, technical details, or real numbers."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The best of The Marginalian this week – how to doubt your way to a truer life, Dostoyevsky on what makes a good person, and David Byrne on t",
+  "why": "A generic weekly newsletter roundup link without enough standalone substance in the tweet itself."
+ },
+ {
+  "rank": 29,
   "kept": false,
   "score": 3,
   "topic": "econ-progress",
-  "author": "niubi",
+  "author": "asliaydintasbas",
+  "via": "DAcemogluMIT",
+  "text": "Are you also worried about the future of democracy? Come and join us for this conversation with @DAcemogluMIT on Tuesday October 13! Prof. A",
+  "why": "Just an event promo/announcement for a talk, lacking the actual insights or substance of the conversation."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "avidseries",
   "via": "Noahpinion",
-  "text": "They really need the EU market Posted Oct 10, 2026 at 2:48PM",
-  "why": "Too brief; just a short comment on a news link without the depth required for long-form curation."
+  "text": "An overwhelming percentage of Americans like legal immigrants, don't envy the lives of peasants from the Middle Ages, see no problem with in",
+  "why": "Explicitly anti-taste: politics rage-bait and culture-war dunking about Twitter's user base."
  },
  {
-  "rank": 12,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "every",
-  "via": null,
-  "text": "How the @Every Agent works: Tag @Every in any Slack channel, tell it what needs to get done, and it completes the task in the thread. It lea",
-  "why": "Pure product announcement and hype for an AI agent; lacks the substantive depth or original insight required."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "packyM",
-  "via": null,
-  "text": "This was the most fun I’ve had on a podcast. Posted Oct 11, 2026 at 2:21PM",
-  "why": "Video-only podcast promotion with no written substance or insight provided in the tweet."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "deadlockesport",
-  "via": "tobi",
-  "text": "All variations of Solomon's chessboard! After reloading, the pieces on the new character's board rearrange into a new layout based on his re",
-  "why": "Interesting video game chess trivia, but falls outside the core topics of AI, econ, or learning science."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Trump is probably going to lose the midterms. After that, the period of self-reflection caused by Trump's victory in 2024 will be over. So b",
-  "why": "Pure political and electoral analysis, which falls outside the desired core topics."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I agree that wokeness radicalized the GOP, but I also think that the fear of nonwhite immigration was already driving the Trump movement bef",
-  "why": "Culture-war and political commentary; explicitly listed in the anti-taste guidelines."
- },
- {
-  "rank": 17,
+  "rank": 31,
   "kept": false,
   "score": 1,
-  "topic": "contemplative",
-  "author": "anuatluru",
+  "topic": "tools-for-thought",
+  "author": "Noahpinion",
   "via": null,
-  "text": "I wanna shine on in the hearts of men I want a meaning from the back of my broken hand youtu.be/sZTpLvsYYHw?is… Posted Oct 11, 2026 at 2:56P",
-  "why": "Just song lyrics and a YouTube link; no relevance to core topics."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "spencerpratt",
-  "via": "naval",
-  "text": "What’s terrifying about this clip isn’t their ideals…these sweet gals’ hearts are certainly in the right place. What’s terrifying is they ha",
-  "why": "Explicit anti-taste: pure political rage-bait and culture-war dunking."
+  "text": "@kisskisstine Here's her website! christinevillanueva.net Posted Oct 12, 2026 at 3:19AM",
+  "why": "Zero context or signal provided in the tweet, just a bare link to a personal website."
  }
 ]
