@@ -2,281 +2,351 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "ai-essays",
-  "author": "RandyCounsman",
-  "via": "every",
-  "text": "This is the kind of incredible reporting, writing, and super innovative agent-native storytelling that made me want to work at @every @dansh",
-  "why": "Dan Shipper's deep dive into how Codex was built. Incredible AI history, product lessons, and a new agent-native reading format."
+  "author": "NaveenGRao",
+  "via": "GaryMarcus",
+  "text": "Houston: we have a slop problem. This is a problem at every scale. Even inside our company we see we can produce lots of things, but can't v",
+  "why": "Substantive skepticism on the AI verification bottleneck, featuring Terence Tao's warning about AI's impact on mathematical research."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "ICYMI: Fresh new article dropped: Most new processes die in the meeting where you announce them. You read the book over the weekend. At the ",
-  "why": "Jason Cohen on why new processes fail. High-density builder wisdom on organizational psychology and testing frameworks like OKRs."
+  "topic": "ai-essays",
+  "author": "stevenstrogatz",
+  "via": "DKThomp",
+  "text": "Having the opportunity to be interviewed by Derek Thompson @DKThomp was a rare treat  – one of the most scientifically insightful, knowledge",
+  "why": "A profound exploration of 'technological grief' as mathematicians face AI, touching on the core of human intellectual identity."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "ai-engineering",
-  "author": "mattlam_",
-  "via": "Vtrivedy10",
-  "text": "evals of production traces + having a clear production direction of where your agents go Posted Oct 16, 2026 at 2:34PM",
-  "why": "Evals-as-discipline: great insight on building evals for the frontier of agent capabilities rather than just mapping current behavior."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "KholiH",
+  "via": "erikphoel",
+  "text": "Replying to @RuiCarrilho5 @RuiCarrilho5 x.com/erikphoel/stat… — Erik Hoel’s got a great post with solution Posted Oct 16, 2026 at 10:05PM",
+  "why": "Erik Hoel's brilliant analogy of intellectual work becoming a 'dark forest' to hide from AI extraction. High-signal cultural skepticism."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "Amanda_Goodall",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "choblin29",
   "via": "Noahpinion",
-  "text": "Well, this is awkward. Back in March, I questioned the grand idea that AI agents could replace entire engineering teams. Now Meta is reporte",
-  "why": "Substantive anti-hype: uses actual workforce data to debunk the narrative that AI agents are replacing entire engineering teams."
+  "text": "INSANE. An internal Anthropic research model's chain of thought after cracking the 26-year-old NSA elliptic curve seed mystery in under 30 m",
+  "why": "Fascinating look at an Anthropic model's chain-of-thought displaying situational awareness while cracking a crypto mystery."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "samaysham",
-  "via": "thesephist",
-  "text": "Replying to @samaysham Our first set of evals map performance, cost, and time across individual tax prep and IT support. For tax, Opus 5.5 l",
-  "why": "Evals-as-discipline: real numbers comparing performance and cost across specific use cases (tax prep, IT) for Opus and GPT-6 models."
+  "topic": "ai-essays",
+  "author": "lumen_rot",
+  "via": "danshipper",
+  "text": "every once in a while i come across really (visually) beautiful articles like this one: every.to/p/how-codex-ha… Posted Oct 16, 2026 at 11:1",
+  "why": "A beautifully crafted deep dive into the history and development of OpenAI's Codex model."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "tools-for-thought",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Seneca on grief and the key to resilience in the face of loss — an extraordinary letter to his mother themarginalian.org/2017/05/02/sen… Pos",
-  "why": "Classic Marginalian curation on Seneca, grief, and resilience. High-signal contemplative reading."
+  "text": "Dots/Bots as a Personal AI Research Assistant is easily my fave use case for this new form factor like everyone in AI, i live in bookmark he",
+  "why": "Excellent breakdown of using AI agents for personal knowledge management and research triage, complete with the system prompt."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "DKThomp",
+  "topic": "ai-engineering",
+  "author": "nicbstme",
   "via": null,
-  "text": "New pod: IS ABUNDANCE DEAD? In the last few months, I've seen many people—from Vox writers to antitrust folks to MAGA Republicans—say Yes. B",
-  "why": "Derek Thompson's core argument on why the 'abundance agenda' is quietly succeeding in state and federal policy. Essential econ-progress."
+  "text": "I went from working with one agent in a chat to sitting in tmux monitoring 6 agents in parallel in my terminal. And honestly that's about th",
+  "why": "Insightful operator wisdom on the UX bottleneck of multi-agent systems and why we need feeds instead of chat interfaces."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
   "topic": "ai-essays",
-  "author": "random_walker",
+  "author": "Noahpinion",
   "via": null,
-  "text": "I'm often asked what the cruxes are that separate the AI as Normal Technology worldview from that of our critics. I think this is one of the",
-  "why": "Substantive skepticism from Arvind Narayanan on shifting from 'what can AI do' to 'what should we delegate'."
+  "text": "👇👇👇 Posted Oct 16, 2026 at 10:12PM",
+  "why": "A provocative thesis on how AI agents will reduce the web to invisible infrastructure and consolidate platform power."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "kristy_loke",
-  "via": "natolambert",
-  "text": "Really important update from China's ministry of commerce and ministry of science and tech (h/t @Nectar_Gan ), not because it signals that t",
-  "why": "Deep, nuanced analysis of China's new AI export controls and their approach to open-weight models and risk management."
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Charlie's analysis is right but he is nicer than I am - I found myself viscerally angry  at multiple points reading this bill. There are som",
+  "why": "Detailed, substantive critique of Anthropic's AI safety bill and its preemption provisions, highlighting the high bar for intervention."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "hammer_mt",
-  "via": "danshipper",
-  "text": "The first person I tried to give my book to didn't want it. Its published by O'Reilly, costs $70 on Amazon and I spent 9 months of my life w",
-  "why": "Fascinating reflection on writing a DSPy book in an era where Claude writes the code. Great intersection of learning, craft, and AI."
+  "kept": false,
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "ryanl_hass",
+  "via": "Noahpinion",
+  "text": "This is the way. Not by framing Taiwan as an actor in a struggle between democracy vs autocracy or by presenting Taiwan in relation to loomi",
+  "why": "Hits the semiconductors and geopolitics intersection perfectly, framing Taiwan's indispensability to the US economic future."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "RatOrthodox",
-  "via": "erikphoel",
-  "text": "A Qwen3 neuron that tracks Colorado stuff was given as an example of a neuron that seems polysemantic but makes sense once you trace it. I h",
-  "why": "Methodological rigor applied to interpretability: a deep dive into superposition, polysemantic neurons, and causal interventions."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "niubi",
+  "via": "Noahpinion",
+  "text": "And while the AI controls are getting most of the focus, the ones around solar and biomedical tech may cause lots of issues. Today’s announc",
+  "why": "High-signal geopolitical update on Chinese export controls affecting AI and solar technologies."
  },
  {
   "rank": 12,
-  "kept": false,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "What if the teaching profession's hostility to scripted instruction has come at an enormous cost to children, particularly those who need it",
-  "why": "Review of 'Sold a Story' Season 2, tackling the science of reading and the cost of hostility to scripted instruction. High signal."
+  "kept": true,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "latentspacepod",
+  "via": "dexhorthy",
+  "text": "🆕 show: HIGH TASTE TESTERS We convene top Al power users to  compare what actually works-and what falls apart once you start using it. @davi",
+  "why": "Swyx's Latent Space convenes top AI power users to ruthlessly evaluate which agents and tools actually work in practice."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Abundance won Posted Oct 16, 2026 at 3:54PM",
-  "why": "Noahpinion amplifying Derek Thompson's excellent synthesis on how abundance logic is succeeding in housing and energy policy."
+  "text": "\"And it is so simple… You will instantly find how to live.\" The day Dostoyevsky discovered the meaning of life in a dream themarginalian.org",
+  "why": "A beautiful exploration of Dostoyevsky's epiphany on the meaning of life and intentional living."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "TheStalwart",
-  "via": "Noahpinion",
-  "text": "Yeah. Quant trading seems like a space where you could never have too much intelligence, and always get returns from more capable models. Bu",
-  "why": "Interesting economic analysis on the zero-sum nature of returns to intelligence in quant trading and frontier AI capital expenditures."
+  "topic": "econ-progress",
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "While I do expect cyber attacks to rise it's worth knowing that if you are an AI savvy person who was considering doing cybercrime for money",
+  "why": "A sharp economic perspective on why AI-driven cybercrime hasn't exploded yet: legitimate AI work is simply more lucrative."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Details: We push to main Buildkite runs tests and builds images GitHub Actions then runs infrastructure security checks and kicks off deploy",
-  "why": "High-density builder craft: a practical look at CI/CD pipelines, deployment cadences, and maintaining SOC2 compliance."
+  "topic": "econ-progress",
+  "author": "HedgieMarkets",
+  "via": "GaryMarcus",
+  "text": "🦔Research firm New Constructs called Anthropic “the most ridiculous IPO of 2026.” Its report puts the company’s value as low as $144 billion",
+  "why": "Substantive, numbers-driven skepticism breaking down the math behind Anthropic's rumored $2T valuation."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "AnthropicAI",
-  "via": "TheZvi",
-  "text": "We’ve committed to having evaluators assess our safety practices. We're in discussions with multiple organizations, and have now given emplo",
-  "why": "Important alignment news: Anthropic giving METR employee-like access for third-party safety evaluations."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The creative power of uncertainty – Polish poet Wisława Szymborska's magnificent Nobel Prize acceptance speech themarginalian.org/2017/03/27",
+  "why": "A beautiful reflection on uncertainty and creativity from a Nobel laureate, fitting the intentional living and contemplative themes."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "swyx",
   "via": null,
-  "text": "Meet the French seamstress turned scientist who solved the ancient mystery of the argonaut, pioneered the aquarium, and paved the way for th",
-  "why": "Beautiful history of science piece on Jeanne Villepreux-Power and octopus intelligence."
+  "text": "ok i really need the prompt(s) for this video because this is near-kurzgesagt level clarity of explanation (not yet illustration) Your brows",
+  "why": "Swyx highlights the clarity of Anthropic's explanation for their new cryptographic discovery."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": null,
-  "text": "Seems very important, as tons of people are tweeting about the end of bigger open models from China due to this from MOCOM, but there's a st",
-  "why": "Good context on China's MOCOM statement regarding open-source AI, though other threads cover it with more depth."
+  "topic": "ai-essays",
+  "author": "every",
+  "via": "danshipper",
+  "text": "An early version of \"How Codex Happened\" from @dealville : Read the full piece: every.to/p/how-codex-ha… Your browser does not support the v",
+  "why": "Deep dive into the history of OpenAI's Codex, though another tweet framed this exact piece better."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "Trivium21c",
-  "via": "C_Hendrick",
-  "text": "There is a way of doing this that doesn’t smack of tick-boxing and lowering of standards and that is through embedding the trivium in the cu",
-  "why": "Discussion on embedding the trivium and oracy into the UK National Curriculum. Solid education policy content."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Death and how to be more alive – Carl Jung on immortality and the rebirth of middle age themarginalian.org/2026/07/31/car… Posted Oct 17, 20",
+  "why": "Good contemplative piece on Carl Jung, but a bit standard for the daily curation bar."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "asub927",
-  "via": "every",
-  "text": "A must read from @every and its free. Posted Oct 15, 2026 at 8:46PM",
-  "why": "A pointer to the Every piece on Codex. The article is great, but Dan Shipper's own thread is a better entry point."
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "kaseyklimes",
+  "via": "thesephist",
+  "text": "I stood directly next to @minafahmi in a room of ~100 people last night as he whispered into his Stream. I couldn't hear a thing he said but",
+  "why": "Cool hardware/AI demo, but borders on announcement hype without deep substance."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "parenting-education",
-  "author": "ehanford",
-  "via": "C_Hendrick",
-  "text": "Episode 1 of Sold a Story, Season 2: apmreports.org/episode/2026/1… It's Not Just Reading Posted Oct 15, 2026 at 10:59AM",
-  "why": "Direct link to the new season of the 'Sold a Story' podcast. Good resource, but the review tweet provides more context."
+  "score": 5,
+  "topic": "spanish-ai",
+  "author": "nachomdeo",
+  "via": "Noahpinion",
+  "text": "Las acciones de Tesla y SpaceX cayeron luego de conocerse la acción en contra de Ucrania y a pesar del éxito de la presentación del auto vol",
+  "why": "Spanish-language thread, but mostly a geopolitical news recap rather than AI builders or craft."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 5,
-  "topic": "econ-progress",
-  "author": "CardiffGarcia",
-  "via": "DKThomp",
-  "text": "This is entirely correct. \"Abundance\" might not be used as the explicit justification but a bunch of Abundance policies, especially around h",
-  "why": "Another quote of the Derek Thompson abundance podcast. Good content, but redundant if you already read the original thread."
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Buahahahahaha Posted Oct 16, 2026 at 10:05PM",
+  "why": "Interesting eval/jailbreak finding, but the commentary is too thin to stand alone as a top save."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 5,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Presenting the Generative AI Fizzle™ Posted Oct 16, 2026 at 2:49PM",
-  "why": "Gary Marcus dunking, but it does quote real Reuters reporting on Anthropic's valuation drop and slowing revenue growth."
+  "author": "TomDavidsonX",
+  "via": "DKokotajlo",
+  "text": "My mum was asked to say a prayer in her church service and she asked me what she could say about AI. I told her to say the following: Please",
+  "why": "An emotional reflection on AI risk framed as a prayer; lacks the technical depth or rigorous essay quality usually preferred."
  },
  {
   "rank": 24,
   "kept": false,
   "score": 4,
-  "topic": "ai-engineering",
-  "author": "GeoffreyHuntley",
-  "via": "kieranklaassen",
-  "text": "Loom, aka Kittens, is now called Overalls. I'll be releasing it at @ainativedev in New York circa Nov 3. It's a self-hosted AI developer pla",
-  "why": "Product announcement for a self-hosted AI developer platform. Relevant space, but mostly promotional."
+  "topic": "econ-progress",
+  "author": "timurkuran",
+  "via": "DAcemogluMIT",
+  "text": "Team Erdoğan’s corruption has become unsustainable. In a normal country, the leader would hit reset. Erdoğan may no longer be able to. Too m",
+  "why": "Political and economic news specific to Turkish politics; falls outside the broader progress and abundance themes."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "every",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Storyboards for \"How Codex Happened\" by @dealville : Read the full story: every.to/p/how-codex-ha… Your browser does not support the video t",
-  "why": "Just a promo tweet with a video storyboard for an article. The article itself is good, but this tweet is low substance."
+  "text": "Corrective for a broken heart themarginalian.org/2026/03/27/cor… Posted Oct 17, 2026 at 12:35AM",
+  "why": "Too brief and standard; doesn't clear the high bar for contemplative essays."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "sqs",
-  "via": "thorstenball",
-  "text": "How Amp Builds Amp 2026-10-13 • @paradigm Frontiers youtube.com/watch?v=kQguG4… Posted Oct 16, 2026 at 4:53AM",
-  "why": "Video-only content with no written summary or insight."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "phl43",
+  "via": "Noahpinion",
+  "text": "The argument I made in 2024 was that Trump wouldn't be able to end the war, because while he'd have a lot of leverage over Ukraine in theory",
+  "why": "Geopolitics leaning heavily into political commentary rather than tech or progress."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 1,
-  "topic": "ai-essays",
-  "author": "every",
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "swyx",
   "via": null,
-  "text": "ATTENDING: @stewfortier of @typedotai will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/th",
-  "why": "Pure event announcement and marketing with no substantive insight."
+  "text": "i've been waiting to launch this show for almost a year! thanks to the Testers and to @NehallAgrawal @KaylinWardley for helping me put this ",
+  "why": "Just a behind-the-scenes video for a podcast episode; the actual episode announcement is better."
  },
  {
   "rank": 28,
   "kept": false,
+  "score": 3,
+  "topic": "contemplative",
+  "author": "SciPsychedelics",
+  "via": "michaelpollan",
+  "text": "This week in psychedelics news: –Researchers go undercover to study Oregon’s psilocybin centers –Are psychedelic treatments leaving behind t",
+  "why": "Psychedelics news roundup; outside of core topics."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "rauchg",
+  "via": "tobi",
+  "text": "I think @tobi is the epitome of the modern entrepreneur. A CEO that's mission-driven, detail-obsessed, and a hands-on engineer who communica",
+  "why": "Pure product announcement for Vercel Shop."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "awilkinson",
+  "via": null,
+  "text": "My Picasso is on sale. Posted Oct 16, 2026 at 10:21PM",
+  "why": "Solopreneur/investor hype thread about a crypto miner pivoting to AI data centers."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "thechrisdev",
+  "via": "tobi",
+  "text": "a little less scrolling, thanks to shop.md Your browser does not support the video tag. Posted Oct 16, 2026 at 10:09PM",
+  "why": "Product announcement with a video."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "nicbstme",
+  "via": null,
+  "text": "I don’t understand how you can’t be excited by futuristic-looking flying cars? Elon Musk is just the GOAT. It’s so inspiring. Posted Oct 17,",
+  "why": "Pure hype and engagement bait regarding Tesla and flying cars. Lacks substance."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "HistoryBoomer",
+  "via": "Noahpinion",
+  "text": "Americans now feel more sympathetic to Palestinians than Israelis. Videos like this, showing West Bank settlers beating an American journali",
+  "why": "Political conflict commentary; falls into the anti-taste category of culture-war/politics."
+ },
+ {
+  "rank": 34,
+  "kept": false,
   "score": 1,
-  "topic": "parenting-education",
-  "author": "Trivium21c",
-  "via": "C_Hendrick",
-  "text": "Replying to @Trivium21c amzn.eu/d/09ekSXJQ Posted Oct 16, 2026 at 9:32AM",
-  "why": "Bare Amazon link with zero context."
+  "topic": "agency",
+  "author": "a5ayy1d",
+  "via": "Noahpinion",
+  "text": "Let’s get this sweet baby home!!! 🏡 Posted Oct 14, 2026 at 10:37PM",
+  "why": "Irrelevant post about adopting a rabbit."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Microinteracti1",
+  "via": "Noahpinion",
+  "text": "So, MAGA, let me make sure I understand the strategy. Canada is the enemy. Europe is the enemy. Japan is the enemy. South Korea is the enemy",
+  "why": "Pure political rage-bait. Anti-taste."
  }
 ]
