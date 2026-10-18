@@ -4,259 +4,179 @@
   "kept": true,
   "score": 9,
   "topic": "contemplative",
-  "author": "packyM",
+  "author": "WillManidis",
   "via": null,
-  "text": "Pretty cool that we made big progress in understanding human and machine minds in the same week. Age of Miracles. Posted Oct 17, 2026 at 1:0",
-  "why": "A potentially paradigm-shifting preprint on the neural structure and biological basis of consciousness."
+  "text": "it should continue to unsettle us that the more we discover about our consciousness, the less metaphorical scripture sounds and the more it ",
+  "why": "Will Manidis (a favorite) on the profound philosophical implications of neural decoding and consciousness."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "ProfCoe",
-  "via": "C_Hendrick",
-  "text": "Feels a bit weird to have all my predictions about instructional coaching at scale confirmed by a strong study (it didn’t work) Posted Oct 1",
-  "why": "Excellent postmortem with real numbers showing why a massive $20M instructional coaching rollout failed at scale."
+  "topic": "contemplative",
+  "author": "doristsao",
+  "via": "michaelpollan",
+  "text": "1/ We discovered something totally unexpected about the neural structure of consciousness that overturns decades of thinking on its biologic",
+  "why": "Major preprint on the biological basis and neural structure of consciousness; highly relevant to his philosophical interests."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "The recombination of existing knowledge creates new knowledge theory continues to be proven correct Posted Oct 17, 2026 at 3:31PM",
-  "why": "Terence Tao's assessment of a major OpenAI mathematical breakthrough and how AI recombines knowledge."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "leeknowlton",
+  "via": "danshipper",
+  "text": "notes on using AI productively: you can separate most work into two buckets: AI-verifiable and not. how you should work depends on which buc",
+  "why": "Highly practical framework for AI productivity, distinguishing between AI-verifiable tasks and building evals/judges."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
+  "score": 9,
   "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "There is a newly leaked bill that Anthropic is purportedly shopping around is (if you assume its bugs get fixed). It is similar to the FRONT",
-  "why": "Detailed, critical analysis of Anthropic's leaked federal AI bill and its implications for safety regulation."
+  "author": "NandoDF",
+  "via": "natolambert",
+  "text": "Closed frontier LLMs are dangerous In most post-training reasoning efforts, a pre-trained base model trains on its own chains of thought (Co",
+  "why": "Deep technical critique of RLHF and CoT training in frontier models, highlighting subtle alignment and delusion risks."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "kutluokan",
-  "via": "C_Hendrick",
-  "text": "the first and most important principle of DI is that \"EVERY child can achieve, regardless of circumstance.\" lfg chat. we can do it. for the ",
-  "why": "Powerful historical and philosophical framing of Direct Instruction as an equity-driven, outcome-responsible pedagogy."
+  "topic": "agency",
+  "author": "ryiacy",
+  "via": "krishnanrohit",
+  "text": "Replying to @ryiacy h/t @krishnanrohit who is the first person I've seen write about this idea strangeloopcanon.com/p/why-smart-pl… Posted O",
+  "why": "High-signal essay from Strange Loop Canon on agency, planning, and complexity."
  },
  {
   "rank": 6,
-  "kept": false,
+  "kept": true,
   "score": 8,
   "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "A fundamental rule of assessment is that there must be clear agreement about what is being assessed which is why “oracy” has so many problem",
-  "why": "Rigorous, psychometric breakdown of why assessing 'oracy' in schools is fundamentally flawed and conflates distinct traits."
+  "author": "daisychristo",
+  "via": "C_Hendrick",
+  "text": "There's been a lot of talk in the last few weeks in edu circles about whether the trad education movement has failed, what it needs to do ne",
+  "why": "Substantive reflection on cognitive science, memory, and the traditional education movement's clash with AI-era thinking."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "sirbayes",
-  "via": "GregKamradt",
-  "text": "Looking forward to giving a talk at ARC next week in Boston. I'll speak about my \"Model Discovery Agent\" and creating an \"ARC-AGI-3-like\" in",
-  "why": "DeepMind researcher Kevin Murphy on building interactive scientific benchmarks and causal world models for AI agents."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Don't open a meeting with \"We need to decide our Q2 priorities.\" Instead, say \"I'll decide our Q2 priorities by Friday. Help me get it right",
+  "why": "Excellent operator wisdom on agency, decision-making, and running effective meetings from A Smart Bear."
  },
  {
   "rank": 8,
-  "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "\"Sold a Story\" made @ehanford a hero to teachers by exposing how they'd been misled about reading. Season 2 will be a harder sell: it challe",
-  "why": "Deep dive into the learning science of reading instruction and the systemic resistance to evidence-based methods."
+  "kept": true,
+  "score": 8,
+  "topic": "rationality",
+  "author": "danwilliamsphil",
+  "via": "sayashk",
+  "text": "Slightly half-baked analysis: When thinking about whether misaligned AI poses an existential risk, it’s important to distinguish three hypot",
+  "why": "Substantive, rationalist breakdown of AI existential risk arguments using Bayesian priors and evidence."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "ketanrama",
-  "via": "DKokotajlo",
-  "text": "Anthropic’s new federal AI bill is, without any overstatement, astonishingly bad. Posted Oct 17, 2026 at 3:31AM",
-  "why": "Substantive legal critique of how Anthropic's proposed bill might actually weaken protections against catastrophic AI risks."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "marcportermagee",
+  "via": "C_Hendrick",
+  "text": "“DI is based on a deeply held conviction that if a child didn’t learn, it was because the teacher (or curriculum) didn’t teach them properly",
+  "why": "Excellent historical and philosophical context on Direct Instruction and the belief that every child can learn."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "If you are under sufficient time pressure, everything is always vibe-coded at the last minute. If it's coded, that means it was the last min",
-  "why": "Sharp critique of the lack of rigorous metrics in automated alignment research."
+  "text": "How to think like a sunflower – Wendell Berry (so missed!) on turning conflict into collaboration themarginalian.org/2024/07/01/wen… Posted ",
+  "why": "Beautiful contemplative piece on collaboration and nature from Wendell Berry via The Marginalian."
  },
  {
   "rank": 11,
-  "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "JG_Nuke",
-  "via": "GaryMarcus",
-  "text": "Coreweave CEO Michael Intrator says the market is acting irrationally by selling his stock. A run through SEC filings reveals Michael Intrat",
-  "why": "Substantive financial skepticism highlighting massive insider selling at AI infrastructure darling Coreweave."
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Nina Simone on time themarginalian.org/2017/02/21/nin… Posted Oct 18, 2026 at 12:27AM",
+  "why": "Classic contemplative curation on the philosophy of time."
  },
  {
   "rank": 12,
-  "kept": true,
+  "kept": false,
   "score": 6,
-  "topic": "builders-craft",
-  "author": "thorstenball",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Yes. You can now have a team that ships fast, ships a lot, makes a ton of money, delights customers, builds a great product that's beloved A",
-  "why": "Provocative builder take on replacing traditional PRs with high-velocity, rigorous shipping."
+  "text": "Virginia Woolf on finding beauty in the uncertainty of time, space, and being themarginalian.org/2020/04/03/vir… Posted Oct 17, 2026 at 8:15",
+  "why": "Classic Marginalian curation on intentional living and the philosophy of time."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "albrgr",
-  "via": "DKokotajlo",
-  "text": "I like Andy's version of effective altruism Posted Oct 14, 2026 at 11:30PM",
-  "why": "A thoughtful essay proposing a new direction for the Effective Altruism movement."
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "SoLInTheWild",
+  "via": "C_Hendrick",
+  "text": "Seeing the debates about oracy in the UK feels like looking into a different world compared to teaching in the United States, where we have ",
+  "why": "Interesting contrast between US and UK education debates, though slightly light on core learning science."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "natolambert",
-  "via": null,
-  "text": "This naming scheme is bonkers (minor model numbers and date tags) and the benchmark step is big. Could prove stronger than GLM 5.3 with visi",
-  "why": "Quick analysis of DeepSeek's latest open-weights model release and its benchmark improvements."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "JonSteinsson",
+  "via": "Noahpinion",
+  "text": "It is really remarkable how different the zeitgeist is in different countries when it comes to fiscal policy. Posted Oct 17, 2026 at 10:00PM",
+  "why": "Standard political-economic commentary; lacks the deep progress or abundance focus he prefers."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "bentossell",
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "nicbstme",
   "via": null,
-  "text": "vibe-slopped superhuman + todos, linear style my @bot uses this too, I can tag it in comments email built on @RhysSullivan 's Executor also ",
-  "why": "Personal AI agent workflow setup, but lacks the deeper engineering insight you prefer."
+  "text": "It’s hard to watch as a Frenchman, but I’m not surprised. My entire childhood was full of episodes like this. They seem to be getting more a",
+  "why": "General political pessimism and commentary on French decline; lacks rigorous economic progress analysis."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 5,
-  "topic": "rationality",
-  "author": "themarginalian",
-  "via": null,
-  "text": "How Kepler invented science fiction, which landed his mother in a witchcraft trial themarginalian.org/2019/12/26/kat… Posted Oct 17, 2026 at",
-  "why": "Historical look at Kepler and the intersection of early science and fiction."
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "ricklamers",
+  "via": "swyx",
+  "text": "Love this format; @swyx cooked, once again youtube.com/watch?v=ZOH8Q4… Posted Oct 18, 2026 at 3:29AM",
+  "why": "Video-only content without substantive text summary triggers anti-taste filter."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "0Beanie05923291",
-  "via": "C_Hendrick",
-  "text": "I’ve been thinking about and comparing the interviews from season 1 and season 2 in my head. I was brought to tears in season 1 when @ehanfo",
-  "why": "Commentary on the emotional impact of evidence-based reading instruction versus failed methods."
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Hahahahahaha this is actually a good question Posted Oct 17, 2026 at 9:37PM",
+  "why": "Casual Twitter banter; lacks substantive insight."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Bloom – a touching animated short film about depression and what it takes to recover the light of being themarginalian.org/2020/02/27/blo… P",
-  "why": "A contemplative animated short on depression, though perhaps too brief for deep reading."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Is there a God? Stephen Hawking gives the definitive answer to the eternal question themarginalian.org/2019/07/17/ste… Posted Oct 17, 2026 a",
-  "why": "Stephen Hawking's definitive answer to the existence of God."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Cool! We need lots more research like this Posted Oct 17, 2026 at 7:31AM",
-  "why": "Pointer to a major new preprint on the neural structure of consciousness."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 4,
-  "topic": "parenting-education",
-  "author": "BodilUK",
-  "via": "C_Hendrick",
-  "text": "The Secretary of State can not mandate oracy any more than he or she can mandate formative assessment, or peer tutoring, or anything else in",
-  "why": "Thread on the policy levers available for mandating educational practices like oracy."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "tetheredtoed1",
-  "via": "C_Hendrick",
-  "text": "\"a movement rooted in social justice but one which takes responsibility for outcomes.\" Read that again please. \"but one which takes responsb",
-  "why": "Brief highlight of the accountability aspect of Direct Instruction."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "jackclarkSF",
-  "via": null,
-  "text": "I’m speaking at the IMF in an hour about the singularity and why I believe it has begun and the choices we'll need to make. Watch live here:",
-  "why": "Live stream announcement of a talk on the singularity at the IMF."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "learningandtheb",
-  "via": "C_Hendrick",
-  "text": "If you want to know what's going on with real students at Alpha Schools, come hear @SCottinghatt and @profbeckyallen talk about their experi",
-  "why": "Event promotion for a talk on Alpha Schools."
- },
- {
-  "rank": 25,
-  "kept": false,
   "score": 1,
   "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "When I say that Trump is allied with Russia, I am not exaggerating for rhetorical effect Posted Oct 17, 2026 at 6:46AM",
-  "why": "Political news regarding Russian sanctions."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "mileskimball",
+  "author": "sdamico",
   "via": "Noahpinion",
-  "text": "This is an amazing graph. h/t @noahpinion mail.google.com/mail/u/0/?ui=2… Posted Oct 16, 2026 at 11:00PM",
-  "why": "Broken link to a private email attachment."
+  "text": "the left NIMBYs are a joke: SF’s services let people who show up here from out of state and then sleep outside one night outrank locals who ",
+  "why": "Pure politics rage-bait and culture-war dunking."
  }
 ]
