@@ -2,102 +2,102 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "contemplative",
-  "author": "WillManidis",
-  "via": null,
-  "text": "it should continue to unsettle us that the more we discover about our consciousness, the less metaphorical scripture sounds and the more it ",
-  "why": "Will Manidis (a favorite) on the profound philosophical implications of neural decoding and consciousness."
+  "score": 10,
+  "topic": "spanish-ai",
+  "author": "ecommartinez",
+  "via": "Noahpinion",
+  "text": "Un investigador de Anthropic acaba de decirle a una sala llena de doctorandos que su plan de carrera ya no existe. La charla se titula \"El f",
+  "why": "Incredible Spanish synthesis of an Anthropic talk on AGI timelines, career planning, and preserving human thought."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "contemplative",
-  "author": "doristsao",
-  "via": "michaelpollan",
-  "text": "1/ We discovered something totally unexpected about the neural structure of consciousness that overturns decades of thinking on its biologic",
-  "why": "Major preprint on the biological basis and neural structure of consciousness; highly relevant to his philosophical interests."
+  "topic": "agency",
+  "author": "random_walker",
+  "via": null,
+  "text": "A similar mindset shift — from \"what can AI do?\" to \"what should I let AI do?\" — is also needed for individuals using AI for productivity, n",
+  "why": "Exceptional reflection on AI delegation, skill atrophy, and preserving personal voice in writing. Hits core intersections perfectly."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "leeknowlton",
-  "via": "danshipper",
-  "text": "notes on using AI productively: you can separate most work into two buckets: AI-verifiable and not. how you should work depends on which buc",
-  "why": "Highly practical framework for AI productivity, distinguishing between AI-verifiable tasks and building evals/judges."
+  "author": "BHolmesDev",
+  "via": "dexhorthy",
+  "text": "Late to the party here, but @dexhorthy 's /show-me skill is awesome. It gives a short, token-efficient overview of the changes in a pseudo-c",
+  "why": "Excellent applied AI engineering on fixing LLM verbosity by forcing visual/pseudo-code outputs."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "frontier-ai",
-  "author": "NandoDF",
-  "via": "natolambert",
-  "text": "Closed frontier LLMs are dangerous In most post-training reasoning efforts, a pre-trained base model trains on its own chains of thought (Co",
-  "why": "Deep technical critique of RLHF and CoT training in frontier models, highlighting subtle alignment and delusion risks."
+  "author": "emollick",
+  "via": null,
+  "text": "Developers are going to be a small part of total token usage over time, as the internal stats on usage at OpenAI and Anthropic both show. An",
+  "why": "Ethan Mollick analyzing token usage trends and the enduring value of frontier model intelligence."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "agency",
-  "author": "ryiacy",
-  "via": "krishnanrohit",
-  "text": "Replying to @ryiacy h/t @krishnanrohit who is the first person I've seen write about this idea strangeloopcanon.com/p/why-smart-pl… Posted O",
-  "why": "High-signal essay from Strange Loop Canon on agency, planning, and complexity."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Nineteen truths and one beguiling lie about life from 20 years of The Marginalian themarginalian.org/2026/10/18/ref… Posted Oct 18, 2026 at ",
+  "why": "Excellent synthesis of life lessons from 20 years of The Marginalian; high signal for intentional living."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "daisychristo",
-  "via": "C_Hendrick",
-  "text": "There's been a lot of talk in the last few weeks in edu circles about whether the trad education movement has failed, what it needs to do ne",
-  "why": "Substantive reflection on cognitive science, memory, and the traditional education movement's clash with AI-era thinking."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "A Journey Into Consciousness: Michael Pollan and Christof Koch in Conversation - UC Berkeley Center for the Science of Psychedelics psychede",
+  "why": "Deep conversation on consciousness and philosophy between Michael Pollan and Christof Koch."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Don't open a meeting with \"We need to decide our Q2 priorities.\" Instead, say \"I'll decide our Q2 priorities by Friday. Help me get it right",
-  "why": "Excellent operator wisdom on agency, decision-making, and running effective meetings from A Smart Bear."
+  "score": 7,
+  "topic": "agency",
+  "author": "p_millerd",
+  "via": "danshipper",
+  "text": "this full talk is excellent. dan is doing some of the most interesting thinking on organizational dynamics in the ai age Posted Oct 18, 2026",
+  "why": "Dan Shipper (a favorite) on managing AI early adopters in product orgs without distracting the team."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "rationality",
-  "author": "danwilliamsphil",
-  "via": "sayashk",
-  "text": "Slightly half-baked analysis: When thinking about whether misaligned AI poses an existential risk, it’s important to distinguish three hypot",
-  "why": "Substantive, rationalist breakdown of AI existential risk arguments using Bayesian priors and evidence."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "How a pause could actually be implemented, technically, if there was a political will to do so: news.berkeley.edu/2026/10/09/a-g… Posted Oct",
+  "why": "Substantive policy/technical proposal on how to actually implement a frontier AI training pause."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "marcportermagee",
-  "via": "C_Hendrick",
-  "text": "“DI is based on a deeply held conviction that if a child didn’t learn, it was because the teacher (or curriculum) didn’t teach them properly",
-  "why": "Excellent historical and philosophical context on Direct Instruction and the belief that every child can learn."
- },
- {
-  "rank": 10,
-  "kept": true,
-  "score": 7,
+  "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "How to think like a sunflower – Wendell Berry (so missed!) on turning conflict into collaboration themarginalian.org/2024/07/01/wen… Posted ",
-  "why": "Beautiful contemplative piece on collaboration and nature from Wendell Berry via The Marginalian."
+  "text": "C.S. Lewis on what we long for in our existential longing themarginalian.org/2022/09/03/c-s… Posted Oct 18, 2026 at 9:32PM",
+  "why": "Classic Marginalian contemplative piece on C.S. Lewis and existential longing."
+ },
+ {
+  "rank": 10,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to unself in order to be who you really are – an Iris Murdoch classic themarginalian.org/2026/10/18/iri… Posted Oct 18, 2026 at 7:13PM",
+  "why": "Classic philosophical essay on 'unselfing' and intentional living."
  },
  {
   "rank": 11,
@@ -106,77 +106,177 @@
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Nina Simone on time themarginalian.org/2017/02/21/nin… Posted Oct 18, 2026 at 12:27AM",
-  "why": "Classic contemplative curation on the philosophy of time."
+  "text": "Anaïs Nin on why emotional excess is essential for creativity themarginalian.org/2012/09/03/ana… Posted Oct 18, 2026 at 4:29PM",
+  "why": "Classic Marginalian essay on creativity and emotional depth."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Virginia Woolf on finding beauty in the uncertainty of time, space, and being themarginalian.org/2020/04/03/vir… Posted Oct 17, 2026 at 8:15",
-  "why": "Classic Marginalian curation on intentional living and the philosophy of time."
+  "text": "Do Not Spare Yourself – let this classic Mario Benedetti poem be an antidote to feeling like you are waiting to start living themarginalian.",
+  "why": "Beautiful poem on intentional living, but lacks the analytical depth usually preferred."
  },
  {
   "rank": 13,
-  "kept": false,
+  "kept": true,
   "score": 5,
-  "topic": "parenting-education",
-  "author": "SoLInTheWild",
-  "via": "C_Hendrick",
-  "text": "Seeing the debates about oracy in the UK feels like looking into a different world compared to teaching in the United States, where we have ",
-  "why": "Interesting contrast between US and UK education debates, though slightly light on core learning science."
+  "topic": "contemplative",
+  "author": "michaelpollan",
+  "via": null,
+  "text": "Michael Pollan and Christof Koch Talk Psychedelics and Consciousness | Research UC Berkeley vcresearch.berkeley.edu/news/michael-p… Posted O",
+  "why": "Duplicate/similar link to the Pollan/Koch consciousness conversation."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 3,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "JonSteinsson",
-  "via": "Noahpinion",
-  "text": "It is really remarkable how different the zeitgeist is in different countries when it comes to fiscal policy. Posted Oct 17, 2026 at 10:00PM",
-  "why": "Standard political-economic commentary; lacks the deep progress or abundance focus he prefers."
+  "author": "nicbstme",
+  "via": null,
+  "text": "People see the riots in Paris but they don’t see the entrepreneurs quietly leaving. When I started my company in Paris in 2016, I shared a s",
+  "why": "Anecdotal observation on European builder brain-drain to the Bay Area."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "nicbstme",
+  "score": 4,
+  "topic": "contemplative",
+  "author": "erikphoel",
   "via": null,
-  "text": "It’s hard to watch as a Frenchman, but I’m not surprised. My entire childhood was full of episodes like this. They seem to be getting more a",
-  "why": "General political pessimism and commentary on French decline; lacks rigorous economic progress analysis."
+  "text": "On Simmons and the curse of the polymath... there are no prizes for range! theintrinsicperspective.com/p/rip-dan-simm… Posted Oct 18, 2026 a",
+  "why": "Literary appreciation of sci-fi author Dan Simmons; good writing but falls outside his core focus areas."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "ricklamers",
-  "via": "swyx",
-  "text": "Love this format; @swyx cooked, once again youtube.com/watch?v=ZOH8Q4… Posted Oct 18, 2026 at 3:29AM",
-  "why": "Video-only content without substantive text summary triggers anti-taste filter."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "jessicamalnik",
+  "via": "asmartbear",
+  "text": "New Smart Bear Live E10 just dropped! Mindstamp makes six figures of profit a year, but growth has stalled. Niche down, or stay general? Coh",
+  "why": "Video-only podcast link about bootstrapping; triggers anti-taste rule for video-only content."
  },
  {
   "rank": 17,
+  "kept": false,
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "poteto",
+  "via": "swyx",
+  "text": "not to get too sentimental, but i am truly humbled and grateful that so many of you have decided to follow me. i've said it before, i truly ",
+  "why": "Audience-growth framing ('how she got 198K followers') triggers anti-taste rules despite being about an AI engineer."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "AnthropicAI",
+  "via": "eugeneyan",
+  "text": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the p",
+  "why": "Corporate announcement regarding Anthropic's public benefit fund; lacks analytical depth."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "jackclarkSF",
+  "via": null,
+  "text": "Between this and our prior commitments, roughly 20% of all Anthropic equity will be dedicated to the public good, and that commitment can gr",
+  "why": "Amplification of a corporate announcement without added insight."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "WillManidis",
+  "via": null,
+  "text": "is this giving pledge coded or trump account coded Posted Oct 18, 2026 at 8:56PM",
+  "why": "Low-effort snark quote-tweeting a corporate announcement."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "My chat with @danives and @AliciaNievesTV re Anthropic’s IPO: app.latakoo.com/asset/25195220… Posted Oct 18, 2026 at 8:39PM",
+  "why": "Video interview link without substantive text summary; pure self-promotion."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "neroh212",
+  "via": "tobi",
+  "text": "Posted Oct 18, 2026 at 12:41PM",
+  "why": "Culture-war adjacent quote about open source politics."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "JayinKyiv",
+  "via": "Noahpinion",
+  "text": "Now beginning to look like part of a Russian blackmail operation that may even be responsible for Putin's increasing control of Elon Musk, R",
+  "why": "Geopolitical news about Starlink and Russia; outside core focus areas."
+ },
+ {
+  "rank": 24,
   "kept": false,
   "score": 2,
   "topic": "rationality",
   "author": "Noahpinion",
   "via": null,
-  "text": "Hahahahahaha this is actually a good question Posted Oct 17, 2026 at 9:37PM",
-  "why": "Casual Twitter banter; lacks substantive insight."
+  "text": "Americans barely realize that they're ruled by people who are absolutely obsessed with Europe Posted Oct 18, 2026 at 6:15PM",
+  "why": "Pure political commentary and culture war."
  },
  {
-  "rank": 18,
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "To understand the New Right, you need to understand: 1. They're obsessed with Europe 2. Whenever they lose, they think it's because they wer",
+  "why": "Political commentary on the New Right."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Just tariff all the Chinese products already. No, it's not economically efficient. But it'll push them to stop this crap and focus on improv",
+  "why": "Geopolitical trade war commentary."
+ },
+ {
+  "rank": 27,
   "kept": false,
   "score": 1,
-  "topic": "econ-progress",
-  "author": "sdamico",
+  "topic": "rationality",
+  "author": "mmpiatkowski",
   "via": "Noahpinion",
-  "text": "the left NIMBYs are a joke: SF’s services let people who show up here from out of state and then sleep outside one night outrank locals who ",
-  "why": "Pure politics rage-bait and culture-war dunking."
+  "text": "“Trump is a singular figure — a charismatic but spectacularly corrupt mafia type with authoritarian tendencies and a worldview mashed togeth",
+  "why": "US politics and culture war."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "ruffoloj",
+  "via": "tobi",
+  "text": "This is an extremely helpful tool in helping you navigate who not to vote for in the upcoming Toronto election. If you want to move Toronto ",
+  "why": "Local political endorsements."
  }
 ]
