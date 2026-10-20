@@ -2,421 +2,101 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "Nick Cammarata of Goodfire makes a bold claim: Neural Networks are Already Clean . This was his follow up after various resulting online dis",
-  "why": "Deep, substantive analysis of Goodfire's interpretability breakthrough, perfectly balancing hype with technical reality."
+  "score": 10,
+  "topic": "ai-engineering",
+  "author": "steverab",
+  "via": "sayashk",
+  "text": "📢 New paper: Emerg ing Trends in AI Agent Evaluation Evals are central to how we measure AI progress. This was pretty easy when we just eval",
+  "why": "The definitive field guide to agent evals from Princeton researchers; perfectly hits the evals-as-discipline intersection."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "agency",
-  "author": "random_walker",
+  "topic": "contemplative",
+  "author": "danshipper",
   "via": null,
-  "text": "My posts on research careers, professional practice beyond academia, and AI's impact on work seem to resonate here, so I've compiled about a",
-  "why": "Excellent synthesis of career advice, AI's impact on work, and grounded optimism from a high-signal researcher."
+  "text": "BOOK REVIEW: Will and Attention , Meghan O'Gieblyn author of God, Human, Animal Machine I loved this book. O'Gieblyn writes with an addictiv",
+  "why": "Dan Shipper exploring the limits of pragmatism and self-deception through Meghan O'Gieblyn's brilliant writing."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "In his second Noahpinion guest post, @ramez explains why he's skeptical that AI agent swarms will enable superintelligence. noahpinion.blog/",
-  "why": "Substantive, analytical skepticism regarding the feasibility of AI agent swarms achieving superintelligence."
+  "topic": "parenting-education",
+  "author": "mbateman",
+  "via": "C_Hendrick",
+  "text": "An interesting thing about Montessori is that every lesson is not only scripted but scripted with stage directions. Sit to the right of stud",
+  "why": "Fascinating insight into learning science: why Montessori's heavily scripted stage directions actually empower teachers."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "\"If a pricing page ranges from $20 a month to $20,000 a month, I don't care how you've divvied that up--I'm just confused. … I don't know wh",
-  "why": "Excellent operator wisdom on why adding a cheap pricing tier dilutes your startup's positioning."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "_NathanCalvin",
+  "via": "DKokotajlo",
+  "text": "Replying to @ajcimino Thank you for taking the time to respond thoroughly on a weekend. I realize that drafting legislation is difficult and",
+  "why": "A sharp, substantive critique of Anthropic's shifting identity from safety lab to capabilities-racing tech giant."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "parenting-education",
-  "author": "DKThomp",
-  "via": null,
-  "text": "Great, great data. I also a hunch that having 3 kids was becoming a new status symbol for the 1% in the 2020s. Not quite. It's more that 3-k",
-  "why": "Fascinating data-driven insight on how having three kids has transitioned into a luxury good."
+  "score": 9,
+  "topic": "ai-engineering",
+  "author": "KelseyTuoc",
+  "via": "Noahpinion",
+  "text": "I think this is by far the clearest, most complete and most detailed breakdown of the Hugging Face incident. It won't contain much new info ",
+  "why": "Essential postmortem on the Hugging Face rogue agent swarm incident, breaking down a major real-world alignment failure."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "brivael",
-  "via": "tobi",
-  "text": "On my way to the office this morning, I passed a group of young people protesting, a Palestinian flag draped over their shoulders. And I ask",
-  "why": "Strong economic analysis on how state intervention drives up costs in education and housing while markets drive down tech costs."
+  "author": "danroberts0101",
+  "via": "awilkinson",
+  "text": "A lot of questions this week on funding, so here's how a GPU typically gets funded at $IREN. First, the customer signs a multi-year take-or-",
+  "why": "Substantive breakdown of GPU data center financing and the hard physical constraints of the AI infrastructure boom."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "emollick",
-  "via": null,
-  "text": "Writing good STATA code was very important for my academic career. It looks like that skill is largely becoming obsolete. (Also take this is",
-  "why": "Mollick highlighting the shift from chatbots to agents and its profound impact on academic and econometric work."
+  "topic": "ai-essays",
+  "author": "ramez",
+  "via": "sayashk",
+  "text": "🧵New post in my AI series: Can a million parallel agents create superintelligence? TLDR: More agents buy speed , but intelligence gains dimi",
+  "why": "Substantive analysis on agent scaling laws, arguing that adding more agents buys speed but hits diminishing returns on intelligence."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "_philschmid",
+  "topic": "rationality",
+  "author": "jasoncrawford",
   "via": null,
-  "text": "Can Agents improve their own harness on unseen tasks? The @GoogleResearch team released Harness², a framework that allows improve an harness",
-  "why": "Excellent technical breakdown of Harness², a new framework for agents to iteratively improve their own evaluation harnesses."
+  "text": "The scientist's dilemma: either your work languishes in obscurity, or it gets popular enough to become a meme—typically a diluted or distort",
+  "why": "A neuroscientist rigorously clarifying her research on consciousness against viral misinterpretations. Great anti-hype."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "tools-for-thought",
+  "author": "thesephist",
   "via": null,
-  "text": "The single most effective remedy for despair – advice from T.H. White's Merlyn themarginalian.org/2026/10/17/t-h… Posted Oct 19, 2026 at 11:",
-  "why": "A beautiful contemplative piece on learning as the ultimate remedy for despair."
+  "text": "Good exploration of timelines and physics-like hierarchy in UI inkandswitch.com/ink/notes/cale… Posted Oct 20, 2026 at 1:09PM",
+  "why": "Ink & Switch exploring physics-like hierarchies in UI; top-tier research for personal knowledge management and interfaces."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "SynBio1",
-  "via": "GaryMarcus",
-  "text": "Anthropic's proposed AI safety bill sets \"killing or seriously injuring more than 50 people\" as the risk threshold for blocking the release ",
-  "why": "Substantive, historical comparison of risk cultures between tech and biotech regarding AI safety thresholds."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "tais_2026",
-  "via": "GaryMarcus",
-  "text": "What safety challenges do AI reasoning models present, and how can we address them? At TAIS 2026, we brought together four leading voices in",
-  "why": "Highlights a fascinating and counterintuitive technical finding: longer chain-of-thought can make models easier to jailbreak."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "chrisalbon",
-  "via": "swyx",
-  "text": "This essay on RSI by @ramez was like a breath of fresh air in a smoke filled bar. noahpinion.blog/p/wheres-the-i… I started reading assuming",
-  "why": "High-signal recommendation of a substantive, skeptical essay on why AI agent swarms might not lead to superintelligence."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "swyx",
-  "via": null,
-  "text": "\"O Infallible one, why do the people not heed the sign we tap?\" \"My dear Parth, each believes he is the first to wish for an end to chat. On",
-  "why": "Swyx offering a philosophical, contemplative take on why we can't escape chat interfaces."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "From pioneering aviator Anne Morrow Lindbergh, a wonderful short read on embracing the fluidity of relationships themarginalian.org/2024/02/",
-  "why": "Beautiful contemplative piece on the fluidity of relationships and intentional living."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": null,
-  "text": "We built an app for the back-and-forth of redacting a set of interview transcripts. For “How Codex Happened,” our team needed to remove sens",
-  "why": "Great practical example of builders using AI to create custom internal tools for specific editorial workflows."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "MsMelChen",
-  "via": "GaryMarcus",
-  "text": "Did you guys read Ender's Game? Because this is right out of Ender’s Game, except the kids in Battle School are Chinese state researchers, t",
-  "why": "Fascinating, if slightly alarmist, analysis of how foreign adversaries are using LLM agents to simulate and model voter populations."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "swyx",
-  "via": null,
-  "text": "Data engineers > AI engineers there's a big difference between a \"RAG guy\" and a \"Data Intensive Applications\" person like in this screensho",
-  "why": "Swyx offering sharp operator insight on the growing divide between surface-level AI engineers and deep data engineers."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The Wanting Monster is in you, and it is in me, and the question is what do we do about it. themarginalian.org/2025/05/29/the… Posted Oct 19",
-  "why": "A strong contemplative piece on managing desire and intentional living."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "ThierryBorgeat",
-  "via": "tobi",
-  "text": "You notice anything? Look at what separates the two groups. It isn't technology. It isn't complexity. It's one variable: how much the state ",
-  "why": "Strong economic observation on how state intervention correlates with price explosions in key sectors."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "packyM",
-  "via": null,
-  "text": "Best Ideas hbs.edu/ris/Publicatio… We find that the stocks in which active mutual fund or hedge fund managers display the most conviction to",
-  "why": "HBS paper showing high-conviction investments outperform; an interesting argument for concentrated portfolios."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "Today's free issue of The Diff: Doing Business in the Dark Forest thediff.co/archive/doing-… Posted Oct 19, 2026 at 2:52PM",
-  "why": "Byrne Hobart essay on business strategy; high-signal author but the tweet itself lacks a summary."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "varrock",
-  "via": "naval",
-  "text": "It sounds like a conspiracy theory, but \"California gas is expensive because of a failed high-speed rail project\" is 100% real. Almost half ",
-  "why": "Interesting data point on infrastructure policy and the hidden costs of stalled mega-projects."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "masayoshisson",
-  "via": "GaryMarcus",
-  "text": "if a corporate tried to bribe the public into underwriting its IPO (+ absurd insider windfalls that come with it), this'd be pretty much wha",
-  "why": "A sharp, skeptical financial perspective on the incentives behind Anthropic's public benefit fund."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "andy_pavlo",
-  "via": "sh_reya",
-  "text": "This is going to be a great talk. Thomas is a hardcore database performance engineer and Floe is an interesting system: db.cs.cmu.edu/events",
-  "why": "Niche database seminar announcement; lacks broader engineering insight."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "tobi",
-  "via": null,
-  "text": "Interesting read by Anthropic. Here is the same viz but from inside Shopify’s River. Thx @aquapoiesis anthropic.com/research/emplo… Your bro",
-  "why": "Highly contextual to a specific visualization; hard to extract value without the media."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "matamalaortiz",
-  "via": "c_valenzuelab",
-  "text": "We’re experimenting with what comes next. We think real-time generative video will power every interface and world models will open up new w",
-  "why": "Hiring announcement for Runway; lacks substantive insight despite the LatAm builder connection."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "A #birddivination for grounding today. Find all of them, along with the story and process behind them, at almanacofbirds.org Posted Oct 19, ",
-  "why": "A bit too poetic and fluffy; lacks the substantive intentional living angle he prefers."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The best of The Marginalian this week, in one place – the map to the route of your life, love after life, and more: eepurl.com/_7ELrD0P-3 Po",
-  "why": "Generic newsletter roundup link without specific insights surfaced."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 3,
-  "topic": "tools-for-thought",
-  "author": "emollick",
-  "via": null,
-  "text": "My book comes out tomorrow, so this is the last day to qualify for the pre-order bonus: a fun 10 minute AI voice interview that gives you pe",
-  "why": "Pure book promo and announcement; lacks standalone insight."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "MariusKothor",
-  "via": "GaryMarcus",
-  "text": "Literally, none of this makes any sense. They’re always telling us AI is gonna create these  incredible futures, but how exactly? They never",
-  "why": "Skepticism without substance; just complaining about AI hype without offering counter-analysis."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "annia",
-  "via": "GaryMarcus",
-  "text": "So under Anthropic's bill, Anthropic can kill 49 people and steal up to a billion dollars before anyone can legally stop them Posted Oct 17,",
-  "why": "Rage-bait framing of AI policy; lacks nuanced analysis of the actual bill."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "pk00202500",
-  "via": "asianometry",
-  "text": "The Birth & Rise of India's IT Outsourcing Industry youtu.be/NYej-KstgTg?si… via @YouTube this is gold @asianometry …….eveyone should watch ",
-  "why": "Video-only content, which violates the anti-taste rules."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "ednewtonrex",
-  "via": "GaryMarcus",
-  "text": "Anthropic exploits the work of millions of creatives without paying them. This is not absolved by donating a fraction of the ill-gotten gain",
-  "why": "Rage-bait and dunking on Anthropic without substantive analysis."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "kevinroose",
-  "via": "sleepinyourhat",
-  "text": "this post announced what could be the largest commitment of philanthropic capital ever made ($200 billion if Anthropic goes public at $1 tri",
-  "why": "Meta-commentary on Twitter replies rather than substantive analysis of the announcement."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "let’s have some perspective here, @altcap even if Elon actually carries through with this (not a guarantee) he will have given away less tha",
-  "why": "Culture-war dunking and engagement bait; lacks substantive analysis."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "if we give put enough stock in a “benefit fund” that we control, you won’t be too mad if a lot of people die on our watch, right? Posted Oct",
-  "why": "Snarky dunking without substantive analysis."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "thorwebdev",
-  "via": "swyx",
-  "text": "What's better than visiting Taiwan with Jensen? Joining @HackerHouseTW in Taipei in December! RSVP now 👉 hackerhousetaiwan.fyi/2026 Posted O",
-  "why": "Pure event promotion; lacks substantive insight."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 2,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "imagine this, imagine that imagine a tech industry with no hype Posted Oct 19, 2026 at 5:03AM",
-  "why": "Zero-substance complaining about hype."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "One reason the New Right places such a premium on savagery and brutality is that this is the only way they can convince themselves they coul",
-  "why": "Culture-war political commentary, which violates the anti-taste rules."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "ajlamesa",
-  "via": "Noahpinion",
-  "text": "The American New Right is obsessed with Europe, but also ignorant about the continent as it really is, including the right-wing populist par",
-  "why": "Pure political commentary."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "A zillion people have to have forwarded GWB this article over the years: theonion.com/bush-regales-d… . And I wonder if at some point he rea",
-  "why": "Just a joke linking to an old Onion article."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "hard agree. Posted Oct 19, 2026 at 1:37AM",
-  "why": "Pure ad-hominem dunking."
+  "text": "Love after life — Nobel-winning physicist Richard Feynman's extraordinary love letter to his departed wife themarginalian.org/2017/10/17/ric",
+  "why": "Richard Feynman's extraordinary, heartbreaking love letter to his departed wife. A timeless piece of contemplative history."
  }
 ]
