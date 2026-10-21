@@ -2,101 +2,261 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "steverab",
-  "via": "sayashk",
-  "text": "📢 New paper: Emerg ing Trends in AI Agent Evaluation Evals are central to how we measure AI progress. This was pretty easy when we just eval",
-  "why": "The definitive field guide to agent evals from Princeton researchers; perfectly hits the evals-as-discipline intersection."
+  "author": "doesdatmaksense",
+  "via": "sh_reya",
+  "text": "we have ran an extensive experiment with all major decision models on our dataset to see how trustworthy decision models are for evals go gi",
+  "why": "Rigorous evaluation of decision models as low-cost alternatives to LLM judges, with real performance data."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "contemplative",
-  "author": "danshipper",
-  "via": null,
-  "text": "BOOK REVIEW: Will and Attention , Meghan O'Gieblyn author of God, Human, Animal Machine I loved this book. O'Gieblyn writes with an addictiv",
-  "why": "Dan Shipper exploring the limits of pragmatism and self-deception through Meghan O'Gieblyn's brilliant writing."
+  "topic": "frontier-ai",
+  "author": "AndrewCurran_",
+  "via": "GaryMarcus",
+  "text": "The WSJ has seen Anthropic's new draft prospectus. Some numbers: They plan to spend three-quarters of a trillion dollars on compute over the",
+  "why": "Leaked Anthropic prospectus reveals staggering compute spending plans ($750B over 7-10 years) and revenue concentration."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "mbateman",
-  "via": "C_Hendrick",
-  "text": "An interesting thing about Montessori is that every lesson is not only scripted but scripted with stage directions. Sit to the right of stud",
-  "why": "Fascinating insight into learning science: why Montessori's heavily scripted stage directions actually empower teachers."
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "I wrote about the exponential curve of the last 30 months of AI development: oneusefulthing.org/p/30-months-on… And I asked Opus 5.5 to crea",
+  "why": "Ethan Mollick synthesizes the exponential progress of AI over the last 30 months with charts and examples."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "DKokotajlo",
-  "text": "Replying to @ajcimino Thank you for taking the time to respond thoroughly on a weekend. I realize that drafting legislation is difficult and",
-  "why": "A sharp, substantive critique of Anthropic's shifting identity from safety lab to capabilities-racing tech giant."
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "Very good post from Dario. And articulation of the race to the top thesis and its repercussions. Posted Oct 21, 2026 at 3:01AM",
+  "why": "Dario Amodei articulates Anthropic's 'race to the top' strategy and defends their safety track record."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "KelseyTuoc",
-  "via": "Noahpinion",
-  "text": "I think this is by far the clearest, most complete and most detailed breakdown of the Hugging Face incident. It won't contain much new info ",
-  "why": "Essential postmortem on the Hugging Face rogue agent swarm incident, breaking down a major real-world alignment failure."
+  "author": "teortaxesTex",
+  "via": "swyx",
+  "text": "Insane alpha, must read, might well redefine this economy. Everything me, Zephyr etc have been saying about the real profitability of the fr",
+  "why": "Deep dive into DeepSeek's V4.1 Flash inference system and the economics of frontier model profitability."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "danroberts0101",
-  "via": "awilkinson",
-  "text": "A lot of questions this week on funding, so here's how a GPU typically gets funded at $IREN. First, the customer signs a multi-year take-or-",
-  "why": "Substantive breakdown of GPU data center financing and the hard physical constraints of the AI infrastructure boom."
+  "topic": "ai-essays",
+  "author": "alexolegimas",
+  "via": "emollick",
+  "text": "Ethan's first book was about AI as chatbots, this one is all about agents. I was lucky enough to get an early copy. If you're interested in ",
+  "why": "Ethan Mollick's new book on living and working with agentic AI."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "ramez",
-  "via": "sayashk",
-  "text": "🧵New post in my AI series: Can a million parallel agents create superintelligence? TLDR: More agents buy speed , but intelligence gains dimi",
-  "why": "Substantive analysis on agent scaling laws, arguing that adding more agents buys speed but hits diminishing returns on intelligence."
+  "topic": "ai-engineering",
+  "author": "latentspacepod",
+  "via": "swyx",
+  "text": "this is a translation of https://zhuanlan.zhihu.com/p/2095560295930508953 for our own use/ twitter audiences to read The capability boundari",
+  "why": "Deep dive into DeepSeek's V4.1 Flash inference system and the economics of frontier model profitability."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "rationality",
-  "author": "jasoncrawford",
+  "topic": "frontier-ai",
+  "author": "TheZvi",
   "via": null,
-  "text": "The scientist's dilemma: either your work languishes in obscurity, or it gets popular enough to become a meme—typically a diluted or distort",
-  "why": "A neuroscientist rigorously clarifying her research on consciousness against viral misinterpretations. Great anti-hype."
+  "text": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday. His ",
+  "why": "Zvi's detailed breakdown and critique of Anthropic's leaked draft federal AI safety bill."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "thesephist",
-  "via": null,
-  "text": "Good exploration of timelines and physics-like hierarchy in UI inkandswitch.com/ink/notes/cale… Posted Oct 20, 2026 at 1:09PM",
-  "why": "Ink & Switch exploring physics-like hierarchies in UI; top-tier research for personal knowledge management and interfaces."
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": "krishnanrohit",
+  "text": "My new book, Co-Existence, is out today.  It is a guide to how to live & work in a world where AI is sometimes, but not always, better than ",
+  "why": "Ethan Mollick's new book on living and working with agentic AI."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
+  "topic": "ai-essays",
+  "author": "danielrock",
+  "via": "random_walker",
+  "text": "AI as a Rohrschach Technology test. Ever talk to someone who was around in the very early days of the internet? They did some incredible hac",
+  "why": "Arvind Narayanan offers a well-thought-out 'AI-as-normal-technology' perspective on safety and loss-of-control."
+ },
+ {
+  "rank": 11,
+  "kept": false,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "mfishbein",
+  "via": "HamelHusain",
+  "text": ". @HamelHusain ranked every AI eval method from worst to best. This point stood out to me: You need a human subject matter expert to review ",
+  "why": "Key insight on AI evals: human subject matter experts are still required for subjective outputs like GTM strategies."
+ },
+ {
+  "rank": 12,
+  "kept": false,
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Stop calling it \"tech debt\" when your code breaks at 100x the load. Debt is a shortcut you take on purpose. Code that breaks at 100x is evol",
+  "why": "Jason Cohen reframes 'tech debt' vs 'evolution due to growth', a great insight for builders and engineering craft."
+ },
+ {
+  "rank": 13,
+  "kept": false,
+  "score": 7,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Love after life — Nobel-winning physicist Richard Feynman's extraordinary love letter to his departed wife themarginalian.org/2017/10/17/ric",
-  "why": "Richard Feynman's extraordinary, heartbreaking love letter to his departed wife. A timeless piece of contemplative history."
+  "text": "How to be un-dead – notes on waking up from the trance of near-living themarginalian.org/2022/11/02/ana… Posted Oct 21, 2026 at 1:14AM",
+  "why": "A contemplative essay from The Marginalian on waking up from the trance of near-living."
+ },
+ {
+  "rank": 14,
+  "kept": false,
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "ramez",
+  "via": "Noahpinion",
+  "text": "Something I haven't explored in my posts on RSI and would love ideas on: Using AI to create synthetic training data and RL environments. We ",
+  "why": "Ramez Naam exploring whether AI can accelerate the production of synthetic data and RL environments for RSI."
+ },
+ {
+  "rank": 15,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "SepantaZeighami",
+  "via": "sh_reya",
+  "text": "1/6 🚨Releasing Actor-Gatherer framework, a new paradigm for agent context management developed at UC Berkeley for working with multiple agen",
+  "why": "A new paradigm from UC Berkeley for agent context management, decoupling knowing from acting."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "StephenWatt_",
+  "via": "DKThomp",
+  "text": "Fascinating podcast. Try to make sure my AI listening diet is not just doomer-stuff, and there was something nice listening to two guys geek",
+  "why": "Derek Thompson and Ethan Mollick discuss AI capabilities, macroeconomic impacts, and the paradoxes of AI use."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "sksq96",
+  "via": "joulee",
+  "text": "Did someone say AI agents who gossip?? Meet Hue. It'll probably say f*ck off if you ask it to book a flight. It'll happily gossip behind you",
+  "why": "Julie Zhuo's essay on consumer AI agents moving beyond one-off tasks to proactive, holistic management."
+ },
+ {
+  "rank": 18,
+  "kept": false,
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "An introvert's field guide to friendship – Thoreau on the challenges and rewards of candid connection themarginalian.org/2026/10/14/tho… Pos",
+  "why": "Contemplative reflections on friendship and connection through the lens of Thoreau."
+ },
+ {
+  "rank": 19,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "kaushikgopal",
+  "via": "mitsuhiko",
+  "text": "We all know @pidotdev is a masterclass in nailing the core primitives. How do they do it? On the latest @FragmentedCast , I had the distinct",
+  "why": "Engineering philosophy behind Pi's architecture, emphasizing simple primitives and explicit state over automagic."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Friday! Join me and some of the people, poems, and books that have made my life more livable and more meaningful these 20 (what?) years. Det",
+  "why": "Just an announcement for a livestream, lacks standalone substance."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "hammer_mt",
+  "via": "danshipper",
+  "text": "1/5th of Anthropics revenue comes from 2 unnamed customers. I can reveal to you the two companies are Meta and @every Posted Oct 20, 2026 at",
+  "why": "Just a joke about Anthropic's revenue concentration."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "Aviation_Intel",
+  "via": "Noahpinion",
+  "text": "I have real reservations about this claim. Starshield is bound by mountains of terms of service between the Pentagon on SpaceX. The idea tha",
+  "why": "Geopolitical news about Starlink in Ukraine, outside core focus areas."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "emilyaleece",
+  "via": "Noahpinion",
+  "text": "holmes literally blackmailed her lead chemist into staying silent & he killed himself, she buried whistleblowers in litigation fees to keep ",
+  "why": "True crime drama about Elizabeth Holmes, outside of core interests."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yeah, a lot of people try very hard to avoid the conclusion that our president is in Putin's pocket, but at this point it's not really a que",
+  "why": "Pure political commentary and rage-bait, which is explicitly in the anti-taste list."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 1,
+  "topic": "econ-progress",
+  "author": "spencerpratt",
+  "via": "naval",
+  "text": "WARNING: You will lose IQ points if you watch this. These are the economically illiterate rubes who Mamdani has hoodwinked and are pushing s",
+  "why": "Political rage-bait and culture-war dunking."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "euromaximal",
+  "via": "Noahpinion",
+  "text": "The AfD leaks are absolutely massive, so massive I don’t think anyone has completely gone over all of it. But what we know so far it’s incre",
+  "why": "German political news, explicitly outside of core taste."
  }
 ]
