@@ -4,399 +4,359 @@
   "kept": true,
   "score": 9,
   "topic": "econ-progress",
-  "author": "bscholl",
-  "via": "jasoncrawford",
-  "text": "Today Boom unveils three major milestones on the path to delivering the world’s most advanced turbine at scale: shipping of the first turbin",
-  "why": "Exceptional builder-operator essay on hardware craft, energy abundance, and the progress studies ethos."
+  "author": "aryamman_bhatia",
+  "via": "dwarkesh_sp",
+  "text": "Super impressed with the depth of questions by @dwarkesh_sp for a topic as complex as semis manufacturing. 10/10 would recommend- one of the",
+  "why": "Dwarkesh's incredible summary of his Intel fab tour. Massive density of insight on gate-all-around, EUV, and semiconductor progress."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "_NathanCalvin",
-  "via": "GaryMarcus",
-  "text": "Dario — Thank you for taking the time to respond to my previous post. I think it's great when this kind of engagement happens in public rath",
-  "why": "Exceptionally rigorous, substantive debate on frontier lab alignment and regulation directly engaging Anthropic leadership."
+  "topic": "ai-essays",
+  "author": "arakharazian",
+  "via": "DKThomp",
+  "text": "The best part of my job is working with writers I've admired for years. Thank you @DKThomp for having me! Listen for our conversation about ",
+  "why": "Substantive skepticism of AI hype backed by real corporate spending data from Ramp. Exactly the anti-hype counterweight he wants."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "NotRyanB",
-  "via": "dexhorthy",
-  "text": "SlopCodeBench is the most relevant coding agent benchmark left--the top score is 16% vs. 50-75% on other coding benchmarks like Terminal-Ben",
-  "why": "Exceptional evals-as-discipline post introducing a rigorous, long-horizon benchmark for coding agents."
+  "topic": "ai-essays",
+  "author": "random_walker",
+  "via": null,
+  "text": "Such a great post! Insights I particularly appreciated: - \"Why hasn’t a huge discontinuity in damages happened since the dawn of scaled AI? ",
+  "why": "Brilliant, substantive pushback on AI cyber-doom using real analysis of criminal ecosystems and capability diffusion."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "Gedmark",
-  "via": "Noahpinion",
-  "text": "The cyber incidents of the last 48 hours have been pretty mind blowing. I’ve been trying to piece together the “why now” question, and I thi",
-  "why": "Fascinating look at the physical infrastructure response (satellite air-gapping) to AI-driven zero-day vulnerability cascades."
+  "topic": "econ-progress",
+  "author": "firesidealpha",
+  "via": "dwarkesh_sp",
+  "text": "Intel CTO explains why Intel is helping Elon Musk build Terafab, and what a new fab needs besides tools DWARKESH: “I think it’ll be interest",
+  "why": "Fascinating deep dive into semiconductor manufacturing constraints and AI compute demand from Intel's CTO."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ZeffMax",
-  "via": "DKokotajlo",
-  "text": "New: The three researchers OpenAI fired last month spent the summer fighting to keep AI's chain-of-thought process visible. Then, OpenAI ask",
-  "why": "Crucial reporting on frontier lab alignment politics and the battle over chain-of-thought transparency at OpenAI."
+  "topic": "econ-progress",
+  "author": "danwwang",
+  "via": "Noahpinion",
+  "text": "I went to Phoenix to spend time with the Taiwanese community. TSMC will invest $265 billion and send thousands of engineers and their famili",
+  "why": "Dan Wang is a must-read on semiconductors and economics; this piece on TSMC in Phoenix is highly relevant to progress studies."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "itsolelehmann",
-  "via": "Noahpinion",
-  "text": "in light of the AI cyberattack mayhem going on right now, it's a good time to reshare Karapthy's Digital Hygiene guide probably the most imp",
-  "why": "Karpathy is a favorite, and this digital hygiene guide is highly relevant amidst the frontier AI zero-day cascade."
+  "author": "RyanGreenblatt",
+  "via": "TheZvi",
+  "text": "Based on this article, OpenAI has made false accusations about me. The three researchers fired from OpenAI were told I facilitated architect",
+  "why": "Primary source statement from a fired OpenAI researcher. High signal for frontier lab alignment dynamics."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "e2b",
-  "via": "FanaHOVA",
-  "text": "Two new integrations landed in the E2B Cookbook this week: @veris_ai and @nottecore . Veris Use Veris with E2B to simulate any system your a",
-  "why": "High-signal applied AI engineering on agent sandboxing, evals, and bypassing bot checks in production."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "What’s the difference between blind obstinance and determination? Whether you are questioning, actively seeking evidence to the contrary, be",
+  "why": "Jason Cohen (asmartbear) always delivers high-signal builder wisdom. Great essay on perseverance vs obstinance."
  },
  {
   "rank": 8,
-  "kept": false,
+  "kept": true,
   "score": 8,
   "topic": "econ-progress",
-  "author": "Noahpinion",
+  "author": "DAcemogluMIT",
   "via": null,
-  "text": "👇👇👇👇👇 Posted Oct 22, 2026 at 11:52PM",
-  "why": "Powerful, substantive critique of FDA bottlenecks and the human cost of regulatory stagnation."
+  "text": "Dear followers, please see this Substack from @MITshapingwork about my research with Andrea Manera and Pascual Retrepo on the US tax code's ",
+  "why": "Daron Acemoglu on how the US tax code incentivizes automation over workers. High-signal economics and AI impact."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "realbasilchatha",
-  "via": "swyx",
-  "text": "Last week, @bernhardsson (Founder & CEO, @modal ) announced a $750M Series D. I sat down with him the prior week to discuss a ton of stuff a",
-  "why": "High-signal breakdown of AI infrastructure economics, compute, and engineering culture from Modal's CEO."
+  "topic": "ai-essays",
+  "author": "sethlazar",
+  "via": "GaryMarcus",
+  "text": "Ok so it's happening. Back in 2024 I wrote \"Our institutions have been created and adapted to cater to particular kinds of agents with parti",
+  "why": "Fascinating philosophical framing of AI agents as invasive species testing the fences of our economic institutions."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "erikbryn",
+  "topic": "ai-engineering",
+  "author": "tobi",
   "via": null,
-  "text": "Here’s an interesting counterpoint to my concern that our economic institutions are not keeping up with rapidly changing technology. I don’t",
-  "why": "Excellent theoretical debate on whether economic institutions can adapt to Transformative AI."
+  "text": "Excellent code mode env: github.com/stencil-hq/dqu… Posted Oct 23, 2026 at 11:41AM",
+  "why": "Tobi Lütke on the necessity of persistent execution environments (REPLs) for AI agents. Great applied engineering insight."
  },
  {
   "rank": 11,
-  "kept": true,
+  "kept": false,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "erikbryn",
+  "topic": "ai-engineering",
+  "author": "every",
   "via": null,
-  "text": "AI is the most transformative technology of our era. That opens up an exciting set of Research opportunities. @professor_ajay , @akorinek an",
-  "why": "A rigorous research agenda mapping the intersection of Transformative AI and economic progress."
+  "text": "Earlier this year, every teammate had a personal agent. Then none of us wanted to keep fixing and updating them. So we shifted to building a",
+  "why": "Excellent postmortem on building a shared team AI agent, detailing infrastructure choices and security trade-offs."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "FanaHOVA",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "sh_reya",
   "via": null,
-  "text": "> be a model > get taught how to hide messages using different techniques > get asked to hide message in image > hide message using those te",
-  "why": "Fascinating demonstration of frontier models spontaneously using steganography to hide and recover messages."
+  "text": "Data Agent Benchmark will appear in EMNLP next week as an Oral presentation! Congrats to the team! It has received 40+ submissions and is on",
+  "why": "Methodological rigor applied to LLM systems: a new benchmark for data agents with real performance numbers."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 8,
+  "score": 7,
   "topic": "parenting-education",
-  "author": "gtmom",
+  "author": "MmeLockhartLDS",
   "via": "C_Hendrick",
-  "text": "“I have seen the MAP data, so I know Alpha students are legitimately performing well ahead of the pack. How much are the results to date sel",
-  "why": "High-signal update on learning science and the push for breakthrough, scalable K-12 education models."
+  "text": "I have been listening to the new season of Sold a Story and I love the focus on the science of learning in all subjects, not just reading. W",
+  "why": "High-signal commentary on the science of learning and direct instruction, hitting his education/parenting interests perfectly."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "moarbugs",
-  "via": "sh_reya",
-  "text": "I'm quite happy to read this. Very promising directions! With the insane frequency of security incidents we're witnessing, I really do hope ",
-  "why": "Anthropic using Claude for formal verification at scale—a major step for AI-driven software security and evals."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "How to be a sea – Albert Camus on learning to live and learning to die themarginalian.org/2026/08/18/cam… Posted Oct 23, 2026 at 3:33PM",
+  "why": "Beautiful contemplative piece on Camus, providing a great philosophical counterweight to the tech feed."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "rogbrent",
-  "via": "Noahpinion",
-  "text": "Contingency plans for the day after an AI-assisted or AI-initiated biological warning shot. Colman-Lerner's and my \"Break-Glass\" paper is up",
-  "why": "Concrete contingency planning and methodological rigor applied to AI-assisted biological threats."
+  "topic": "econ-progress",
+  "author": "firesidealpha",
+  "via": "dwarkesh_sp",
+  "text": "Intel’s Chris Auth says High-NA EUV pays off for Intel but not for TSMC, because Intel has backside power and TSMC doesn’t “High-NA is a goo",
+  "why": "Deeply technical explanation of semiconductor manufacturing differences between Intel and TSMC."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
   "topic": "ai-engineering",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "Companies normally put like 10 to 20% of their software budget towards security stuff so I expect that to continue in the agent world. Maybe",
-  "why": "Substantive analysis of the compute economics and expanding attack surfaces in an agent-driven security landscape."
+  "author": "joshua_saxe",
+  "via": "natolambert",
+  "text": "I don't think \"everything is fine,\" but anyone claiming that php2shell is \"the worst day in cybersecurity history\" needs to explain why ther",
+  "why": "Substantive pushback against AI cybersecurity alarmism, demanding clear technical mechanisms for risk models."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
   "topic": "ai-essays",
-  "author": "AISafetyMemes",
+  "author": "levie",
   "via": "Noahpinion",
-  "text": "Replying to @AISafetyMemes @AISafetyMemes noahpinion.blog/p/maybe-the-ra… Posted Oct 23, 2026 at 1:50AM",
-  "why": "Substantive essay on AI's societal impact and progress from a high-signal economics/tech writer."
+  "text": "Any form of security through obscurity is fully over. This barely worked as a method with humans, but just simply is over in a world of auto",
+  "why": "Aaron Levie on how autonomous AI agents will force a modernization of legacy enterprise security."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Only to the extent that we expose ourselves over and over to annihilation can that which is indestructible be found in us.\" When things fal",
-  "why": "Deep contemplative wisdom from Pema Chödrön via The Marginalian; excellent intentional living counterweight."
+  "topic": "builders-craft",
+  "author": "namespacelabs",
+  "via": "thorstenball",
+  "text": "Amp hasn't hired anybody since it was founded. Six months ago, @thorstenball didn't think it was possible. \"Our application is big. And we'r",
+  "why": "Great builder-craft insight on how small, self-directed teams are leveraging AI to ship complex systems without hiring."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "GaryMarcus",
   "via": null,
-  "text": "Arundhati Roy on the deepest measure of success themarginalian.org/2025/09/11/aru… Posted Oct 23, 2026 at 12:30AM",
-  "why": "Beautiful contemplative piece on redefining success; fits perfectly with his intentional living interests."
+  "text": "Excellent thread on why telling AI agents to do things in natural language is no guarantee that they will do what they want. (There is also ",
+  "why": "Substantive critique of why natural language instructions fail to guarantee control over AI agents."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "patinthehat0",
-  "via": "WillManidis",
-  "text": "SF is counter-cyclical to the AI-diffusion trade. It's telling that the current cycle edges closer to \"East Coast\" approaches in order to fi",
-  "why": "Sharp sociological critique of SF tech culture and the shifting economics of AI value capture."
+  "topic": "ai-engineering",
+  "author": "thorstenball",
+  "via": null,
+  "text": "Great explanation! Amp is the harness and the interface(s) and the platform on which to run both. Posted Oct 23, 2026 at 5:45AM",
+  "why": "Clear, educational breakdown of how LLMs use tools and why harnesses are necessary for agentic execution."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Born on this day in 1919, Doris Lessing was 14 when she dropped out of school and 88 when she won the Nobel Prize. Her timeless, increasingl",
-  "why": "Timeless contemplative wisdom on intentional living and mental freedom from Doris Lessing."
+  "topic": "ai-essays",
+  "author": "peterwildeford",
+  "via": "DKokotajlo",
+  "text": "I feel like one service I can provide is trying to help sort through what feels like a big deal and what doesn't feel like a big deal, to tr",
+  "why": "Helpful anti-hype context deflating a viral story about 'rogue' AI agents in banks."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "can1357",
-  "via": null,
-  "text": "An interesting primitive for those working on durable harnesses: github.com/stencil-hq/dqu… QuickJS with typescript support out of the box a",
-  "why": "Deeply technical, highly useful primitive for building durable agent harnesses and stateful execution."
+  "topic": "frontier-ai",
+  "author": "balesni",
+  "via": "DKokotajlo",
+  "text": "Part of me refuses to believe OpenAI fired three safety researchers for political reasons, and wishes instead that it was just a badly execu",
+  "why": "More primary source commentary on the OpenAI safety researcher firings. Good signal on frontier lab alignment."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Ursula K. Le Guin on the meaning of life themarginalian.org/2026/06/06/le-… Posted Oct 22, 2026 at 9:32PM",
-  "why": "Profound contemplative essay on the meaning of life from Ursula K. Le Guin."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "rajashree",
+  "via": "jasoncrawford",
+  "text": "Making sure I state it clearly: We can literally patch and prove bug-freeness of the entire software stack running in production. With AI th",
+  "why": "Interesting claim about AI-driven formal verification of software, though borders slightly on hype."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "ruben_bloom",
-  "via": "DKokotajlo",
-  "text": "It's an indictment of Anthropic that when you criticize them on Twitter, very very rarely do the employees come to debate or defend. I recal",
-  "why": "Sharp critique of frontier lab culture, comms control, and the lack of public engagement on existential risks."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "S1r1u5_",
+  "via": "krishnanrohit",
+  "text": "Replying to @rauchg i think intuitively cyber is fundamentally offense dominant, but let me put my money where my mouth is. want to wager? b",
+  "why": "Interesting wager on the timeline for AI to formally verify critical open-source software."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "karenvaites",
-  "via": "C_Hendrick",
-  "text": "Replying to @karenvaites substack.com/home/post/p-21… Posted Oct 22, 2026 at 6:21PM",
-  "why": "Deep dive into applied learning science and building next-generation K-12 curriculum at Alpha."
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "This is not going to be the only area in which AIs beat humans... Paper: gking.harvard.edu/peerless/ Posted Oct 23, 2026 at 4:12AM",
+  "why": "Ethan Mollick sharing a paper. The tweet is thin, but the linked paper is likely worth saving."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Raise your hand if you work in a 2010s SaaS company that has built their own agent platform that no one really wants to use. Posted Oct 23, ",
-  "why": "Sharp critique of enterprise AI engineering anti-patterns and the build-vs-buy delusion for agent platforms."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "pequityresearch",
+  "via": "dwarkesh_sp",
+  "text": "CTO of Intel, Pushkar Ranade, says that AI labs could could easily consume an entire fabs worth of silicon on their own: Dwarkesh: \"At some ",
+  "why": "Good quote on AI compute demand, but redundant if he's already reading the main Dwarkesh Intel interview."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Adapting to a wave of AI-discovered vulnerabilities will be a massive challenge for large organizations running decades of COBOL, PHP, Java…",
-  "why": "Highlights the real bottleneck in AI-driven security: legacy CI/CD pipelines and organizational deployment speed."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "GlobalMktObserv",
+  "via": "GaryMarcus",
+  "text": "AI stocks are COLLAPSING in China: MiniMax and Z AI have lost more than -80% from their respective peaks, WIPING OUT a combined -$150 billio",
+  "why": "Market news on Chinese AI stocks collapsing. Relevant to AI economics, but a bit too newsy."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 6,
+  "score": 5,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The wildest bet is the winning bet themarginalian.org/2026/10/22/bet/ Posted Oct 23, 2026 at 2:22AM",
-  "why": "Contemplative essay from The Marginalian; good philosophical counterweight to the daily tech stream."
+  "text": "If You Forget Me – Pablo Neruda's staggering (un)breakup poem themarginalian.org/2025/11/19/ner… Posted Oct 23, 2026 at 4:13AM",
+  "why": "Beautiful poetry, but perhaps less aligned with his preference for long-form essays and synthesis."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "AravSrinivas",
-  "via": "krishnanrohit",
-  "text": "You can now run the Perplexity Decision Model fully locally on your Mac, without any data leaving your machine. The power of open-weight and",
-  "why": "Solid applied AI engineering update on running compact, open-weight decision models locally."
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "bentossell",
+  "via": null,
+  "text": "was a arc user, knew this would come so have been using dia i can’t remember the diff vs arc now - what was great about arc that isn’t in di",
+  "why": "Just product sunset news (Arc browser), lacks deep insight."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "WillManidis",
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "awilkinson",
   "via": null,
-  "text": "I’m intensely skeptical of the claims that any of the frontier labs are manufacturing crisis to get regulatory / market concessions - howeve",
-  "why": "Substantive skepticism from a favored author regarding frontier lab communications and security posturing."
+  "text": "Do you have a brain disorder too? 30% of entrepreneurs do. Posted Oct 23, 2026 at 3:24PM",
+  "why": "Classic thread-boi engagement bait format ('Here's what I discovered... 🧵')."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "PhilWMagness",
-  "via": "naval",
-  "text": "🧵In 2019, California billionaire tax crusader Gabriel Zucman made an astonishing claim to the NY Times: billionaires pay a lower avg tax rat",
-  "why": "Methodological critique of highly publicized economic data regarding taxation and wealth."
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "every",
+  "via": null,
+  "text": "ATTENDING: @deremer of @VGVentures will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/thesi",
+  "why": "Pure event announcement/promo with no substantive insights."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
+  "score": 2,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "“ @pangram ’s goal is about monetizing people’s anxiety about AI - it’s not about protecting creative integrity. They sell a false binary ce",
-  "why": "Substantive skepticism regarding the false certainty and business models of AI detection tools."
+  "text": "Tonight! Join me live from Saratoga Springs NY to celebrate 20 years of The Marginalian with some of the poetry and prose I most love, read ",
+  "why": "Video live-stream announcement; lacks readable substance."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 5,
-  "topic": "agency",
-  "author": "peterwildeford",
-  "via": "GaryMarcus",
-  "text": "PSA: in light of recent cyberattacks and vulnerabilities, I recommend everyone: use a good password manager (1Password) and do not duplicate",
-  "why": "A practical but standard digital hygiene checklist; lacks the deep insight or original analysis required for a top score."
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "packyM",
+  "via": null,
+  "text": "Weekly Dose of Optimism video by @runwayml Your browser does not support the video tag. Posted Oct 23, 2026 at 12:49PM",
+  "why": "Video-only content with no readable text or deep analysis."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "JasonDClinton",
-  "via": "awilkinson",
-  "text": "as bad as things have gotten in the past 4 days, they are going to get a lot worse before they get better. security leaders, never let a cri",
-  "why": "Practical security advice, but lacks the depth or original analysis required for a top score."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "dhh",
+  "via": "tobi",
+  "text": "Shopify Racing is doubling up for next year! @tobi in the #11, I'm in the #29. Double the cars, double the data. Posted Oct 23, 2026 at 3:51",
+  "why": "Personal racing news, irrelevant to core interests."
  },
  {
   "rank": 35,
   "kept": false,
-  "score": 5,
+  "score": 2,
   "topic": "ai-engineering",
-  "author": "jonsakoda",
-  "via": "FanaHOVA",
-  "text": "Over 1 million PHP services were patched in the past 24 hours - but ~40 million vulnerable services are still online ( @censysio ) php2shell",
-  "why": "A stark statistic on the vulnerability cascade, but lacks the deep analysis of a long-form piece."
+  "author": "aiDotEngineer",
+  "via": "swyx",
+  "text": "Three more AIE Code Summit speakers 👀 @lydiahallie , Member of Technical Staff @ Anthropic Utkarsh Shrivastava, Engineering Leader, Enterpri",
+  "why": "Conference speaker announcement with no substantive content."
  },
  {
   "rank": 36,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "RonDeSantis",
-  "via": "GaryMarcus",
-  "text": "Imagine a rogue AI agent liquidating your bank account and investment portfolio. If you are the only victim, I suppose you could get made wh",
-  "why": "The underlying Axios scoop on rogue agents in banks is notable, but the political commentary adds little signal."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "mjnblack",
-  "via": "Noahpinion",
-  "text": "Things are moving so fast that everyone seems to have completely missed how insane it is that AI companies have been allowed to unleash agen",
-  "why": "Surface-level punditry on AI regulation without deep analysis or original insight."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "markgadala",
-  "via": "Noahpinion",
-  "text": "🚨 BREAKING: LINUX IS NOW FACING TWO CRITICAL SECURITY VULNERABILITIES, AND THERE ARE NO OFFICIAL KERNEL FIXES YET. Both rated 9.0/10 in seve",
-  "why": "Important news, but the engagement-bait, all-caps formatting violates the anti-taste rules."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "spqr_sulla",
-  "via": "naval",
-  "text": "Imagine your net worth is $200,000. One day an armed gang comes up to your house and demands $10,000. “Don’t worry!” the leader says. “I’m o",
-  "why": "Political rage-bait and simplistic analogies about taxation; lacks the rigorous economic analysis he prefers."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 2,
+  "score": 1,
   "topic": "builders-craft",
-  "author": "WillManidis",
-  "via": null,
-  "text": "claire is both profoundly kind and a generational investor, so rare Posted Oct 23, 2026 at 2:24AM",
-  "why": "VC networking and praise without substantive insight."
+  "author": "IMSA",
+  "via": "tobi",
+  "text": "📰: TDS Racing Expands to Two-Car IMSA LMP2 Program for 2027! imsa.com/news/2026/10/2… Posted Oct 20, 2026 at 3:31PM",
+  "why": "Irrelevant racing news."
  }
 ]
