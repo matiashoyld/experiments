@@ -4,289 +4,399 @@
   "kept": true,
   "score": 9,
   "topic": "econ-progress",
-  "author": "dwarkesh_sp",
-  "via": null,
-  "text": "I spent two days touring Intel’s most advanced fab and talking to its technical leadership to understand what the chips of the future will l",
-  "why": "Dwarkesh Patel's deep dive into Intel's fab and the future of semiconductors vs AI compute demand."
+  "author": "bscholl",
+  "via": "jasoncrawford",
+  "text": "Today Boom unveils three major milestones on the path to delivering the world’s most advanced turbine at scale: shipping of the first turbin",
+  "why": "Exceptional builder-operator essay on hardware craft, energy abundance, and the progress studies ethos."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "frontier-ai",
-  "author": "TheZvi",
-  "via": null,
-  "text": "It was the probably worst day in cybersecurity history So far  Not only is there a critical flaw in PHP that due to a leak was announced a d",
-  "why": "Zvi's comprehensive synthesis on AI safety, Anthropic's leaked bill, and a historic cybersecurity meltdown."
+  "author": "_NathanCalvin",
+  "via": "GaryMarcus",
+  "text": "Dario — Thank you for taking the time to respond to my previous post. I think it's great when this kind of engagement happens in public rath",
+  "why": "Exceptionally rigorous, substantive debate on frontier lab alignment and regulation directly engaging Anthropic leadership."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "Whats_AI",
-  "via": "swyx",
-  "text": "My AIE talk is live! I talk about the benchmark I've been building for 5 months now and released it publicly for the first time there :) Lou",
-  "why": "Perfect example of evals-as-discipline: rigorous methodology and real numbers for measuring AI writing quality."
+  "author": "NotRyanB",
+  "via": "dexhorthy",
+  "text": "SlopCodeBench is the most relevant coding agent benchmark left--the top score is 16% vs. 50-75% on other coding benchmarks like Terminal-Ben",
+  "why": "Exceptional evals-as-discipline post introducing a rigorous, long-horizon benchmark for coding agents."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "“Help me understand this” is the most common student use of AI.  Higher Ed is completely out of touch with the reality of how students are u",
-  "why": "Perfect intersection of AI and education, highlighting how institutions misunderstand student AI usage."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "Gedmark",
+  "via": "Noahpinion",
+  "text": "The cyber incidents of the last 48 hours have been pretty mind blowing. I’ve been trying to piece together the “why now” question, and I thi",
+  "why": "Fascinating look at the physical infrastructure response (satellite air-gapping) to AI-driven zero-day vulnerability cascades."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "tools-for-thought",
-  "author": "kieranklaassen",
-  "via": "danshipper",
-  "text": "I am working on the Frontier at @every Meet the team and more! Posted Oct 21, 2026 at 9:16PM",
-  "why": "Dan Shipper's team at Every detailing their internal applied AI engineering and tools-for-thought stack."
+  "topic": "frontier-ai",
+  "author": "ZeffMax",
+  "via": "DKokotajlo",
+  "text": "New: The three researchers OpenAI fired last month spent the summer fighting to keep AI's chain-of-thought process visible. Then, OpenAI ask",
+  "why": "Crucial reporting on frontier lab alignment politics and the battle over chain-of-thought transparency at OpenAI."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "fiveoutofnine",
-  "via": "simonw",
-  "text": "So basically, today PHP got two critical bugs that let anyone run code on your server without even logging in, which is bad, and then the de",
-  "why": "An incredible, breathless synthesis of a historically catastrophic day in cybersecurity and open-source infrastructure."
+  "topic": "frontier-ai",
+  "author": "itsolelehmann",
+  "via": "Noahpinion",
+  "text": "in light of the AI cyberattack mayhem going on right now, it's a good time to reshare Karapthy's Digital Hygiene guide probably the most imp",
+  "why": "Karpathy is a favorite, and this digital hygiene guide is highly relevant amidst the frontier AI zero-day cascade."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "joshua_saxe",
-  "via": "sayashk",
-  "text": "Thoughts on php2shell and the overall looming crisis in cybersecurity If you'd been appropriately pricing in that we'd see this and many mor",
-  "why": "Substantive analysis on why AI currently favors cyber defenders over attackers, despite recent zero-days."
+  "topic": "ai-engineering",
+  "author": "e2b",
+  "via": "FanaHOVA",
+  "text": "Two new integrations landed in the E2B Cookbook this week: @veris_ai and @nottecore . Veris Use Veris with E2B to simulate any system your a",
+  "why": "High-signal applied AI engineering on agent sandboxing, evals, and bypassing bot checks in production."
  },
  {
   "rank": 8,
-  "kept": true,
+  "kept": false,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Open source is free like a puppy is free. (Vibe-coded software is worse.) You pay for everything after it: the food, the vet, the walks in t",
-  "why": "Excellent builder wisdom on the hidden, long-term costs of open-source and AI-generated 'vibe-coded' software."
+  "text": "👇👇👇👇👇 Posted Oct 22, 2026 at 11:52PM",
+  "why": "Powerful, substantive critique of FDA bottlenecks and the human cost of regulatory stagnation."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "hruizmartin",
-  "via": "C_Hendrick",
-  "text": "Para aprender a leer y, sobre todo, para que un niño supere sus dificultades lectoras, lo que importa no es que pase el tiempo (\"ya madurará",
-  "why": "Spanish-language insights on the learning science of reading and overcoming childhood difficulties."
+  "topic": "ai-engineering",
+  "author": "realbasilchatha",
+  "via": "swyx",
+  "text": "Last week, @bernhardsson (Founder & CEO, @modal ) announced a $750M Series D. I sat down with him the prior week to discuss a ton of stuff a",
+  "why": "High-signal breakdown of AI infrastructure economics, compute, and engineering culture from Modal's CEO."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "econ-progress",
+  "author": "erikbryn",
   "via": null,
-  "text": "How to grow old without letting life become a parody of itself themarginalian.org/2026/10/20/sim… Posted Oct 22, 2026 at 11:42AM",
-  "why": "Deep contemplative essay on aging and intentional living via Simone de Beauvoir."
+  "text": "Here’s an interesting counterpoint to my concern that our economic institutions are not keeping up with rapidly changing technology. I don’t",
+  "why": "Excellent theoretical debate on whether economic institutions can adapt to Transformative AI."
  },
  {
   "rank": 11,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "krishnanrohit",
+  "kept": true,
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "erikbryn",
   "via": null,
-  "text": "Is this a hack or people using Instinct and Muse to check their bank accounts? Posted Oct 22, 2026 at 3:52PM",
-  "why": "Fascinating real-world signal on autonomous AI agents hitting traditional banking infrastructure."
+  "text": "AI is the most transformative technology of our era. That opens up an exciting set of Research opportunities. @professor_ajay , @akorinek an",
+  "why": "A rigorous research agenda mapping the intersection of Transformative AI and economic progress."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "MrZachG",
-  "via": "C_Hendrick",
-  "text": "The Genius is in DI’s Design: A Conversation with Carl Hendrick @C_Hendrick educationrickshaw.com/the-genius-is-… Posted Oct 22, 2026 at 2:1",
-  "why": "Deep dive into Direct Instruction and learning science with Carl Hendrick."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "FanaHOVA",
+  "via": null,
+  "text": "> be a model > get taught how to hide messages using different techniques > get asked to hide message in image > hide message using those te",
+  "why": "Fascinating demonstration of frontier models spontaneously using steganography to hide and recover messages."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "yuck. shame on Netflix. Posted Oct 22, 2026 at 12:19PM",
-  "why": "Clement Delangue provides a substantive anti-hype counterweight to Netflix's anthropomorphic AI documentary."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "gtmom",
+  "via": "C_Hendrick",
+  "text": "“I have seen the MAP data, so I know Alpha students are legitimately performing well ahead of the pack. How much are the results to date sel",
+  "why": "High-signal update on learning science and the push for breakthrough, scalable K-12 education models."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "A new study of teacher educators found they answered a third of questions wrongly about English spelling. link.springer.com/article/10.100… ",
-  "why": "Empirical learning science study highlighting gaps in teacher educators' knowledge."
+  "topic": "frontier-ai",
+  "author": "moarbugs",
+  "via": "sh_reya",
+  "text": "I'm quite happy to read this. Very promising directions! With the insane frequency of security incidents we're witnessing, I really do hope ",
+  "why": "Anthropic using Claude for formal verification at scale—a major step for AI-driven software security and evals."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "A student asked author Frank McCourt, a longtime NYC high school teacher, why they had to read a particular book. “You’ll read it for the sa",
-  "why": "A wonderful, contemplative perspective on the intrinsic value of education and learning."
+  "topic": "frontier-ai",
+  "author": "rogbrent",
+  "via": "Noahpinion",
+  "text": "Contingency plans for the day after an AI-assisted or AI-initiated biological warning shot. Colman-Lerner's and my \"Break-Glass\" paper is up",
+  "why": "Concrete contingency planning and methodological rigor applied to AI-assisted biological threats."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "itsurboyevan",
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "One of my favorite stories in SaaS right now Posted Oct 22, 2026 at 2:00PM",
-  "why": "Operator case study on pivoting a $100M+ SaaS company entirely toward AI agents."
+  "text": "Companies normally put like 10 to 20% of their software budget towards security stuff so I expect that to continue in the agent world. Maybe",
+  "why": "Substantive analysis of the compute economics and expanding attack surfaces in an agent-driven security landscape."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 6,
-  "topic": "builders-craft",
-  "author": "balindenberg",
-  "via": "asmartbear",
-  "text": "Companies think training videos cost $X00 to make. The real cost is X0,000 people-hours fake-\"watching\" videos. That's just one insight @bal",
-  "why": "Sharp operator insight on the hidden organizational costs of corporate training videos."
+  "score": 7,
+  "topic": "ai-essays",
+  "author": "AISafetyMemes",
+  "via": "Noahpinion",
+  "text": "Replying to @AISafetyMemes @AISafetyMemes noahpinion.blog/p/maybe-the-ra… Posted Oct 23, 2026 at 1:50AM",
+  "why": "Substantive essay on AI's societal impact and progress from a high-signal economics/tech writer."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "ehanford",
-  "via": "C_Hendrick",
-  "text": "Episode 3 of Sold a Story Season 2 is out today apmreports.org/episode/2026/1… Posted Oct 22, 2026 at 10:26AM",
-  "why": "Announcement for a great education podcast, but lacks standalone insight."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "\"Only to the extent that we expose ourselves over and over to annihilation can that which is indestructible be found in us.\" When things fal",
+  "why": "Deep contemplative wisdom from Pema Chödrön via The Marginalian; excellent intentional living counterweight."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "danshipper",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "we are living in unprecedented times Posted Oct 22, 2026 at 2:00PM",
-  "why": "Thin commentary on the Axios scoop, even if from a favored author."
+  "text": "Arundhati Roy on the deepest measure of success themarginalian.org/2025/09/11/aru… Posted Oct 23, 2026 at 12:30AM",
+  "why": "Beautiful contemplative piece on redefining success; fits perfectly with his intentional living interests."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The Marginalian turns 20 (!) tomorrow. I am constellating some of my favorite humans to read some of my favorite passages from books that ha",
-  "why": "Just an event announcement, lacks standalone contemplative substance."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "patinthehat0",
+  "via": "WillManidis",
+  "text": "SF is counter-cyclical to the AI-diffusion trade. It's telling that the current cycle edges closer to \"East Coast\" approaches in order to fi",
+  "why": "Sharp sociological critique of SF tech culture and the shifting economics of AI value capture."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Welfarism, Keynesianism, and tolerance toward mass migration are all being called into question by France's combination of unstoppable defic",
-  "why": "Veers too close to political culture-war topics rather than core economics and progress."
+  "text": "Born on this day in 1919, Doris Lessing was 14 when she dropped out of school and 88 when she won the Nobel Prize. Her timeless, increasingl",
+  "why": "Timeless contemplative wisdom on intentional living and mental freedom from Doris Lessing."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "AnaHawrylu97708",
-  "via": "TheZvi",
-  "text": "Okay WOW that’s a lot higher then I expected Posted Oct 22, 2026 at 3:09PM",
-  "why": "Thin commentary on a prediction market; lacks the depth of Zvi's actual writing."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "can1357",
+  "via": null,
+  "text": "An interesting primitive for those working on durable harnesses: github.com/stencil-hq/dqu… QuickJS with typescript support out of the box a",
+  "why": "Deeply technical, highly useful primitive for building durable agent harnesses and stateful execution."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "bran_don_gell",
-  "via": "danshipper",
-  "text": "Every company needs a frontier team, and that team needs to be subscribed to Every Posted Oct 22, 2026 at 1:57PM",
-  "why": "Redundant share of the Every frontier team video."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Ursula K. Le Guin on the meaning of life themarginalian.org/2026/06/06/le-… Posted Oct 22, 2026 at 9:32PM",
+  "why": "Profound contemplative essay on the meaning of life from Ursula K. Le Guin."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "thorstenball",
-  "via": null,
-  "text": "Portals, terminals, and desktop work too. Your browser does not support the video tag. Posted Oct 22, 2026 at 11:53AM",
-  "why": "Lacks enough context or substance to be worth saving."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "ruben_bloom",
+  "via": "DKokotajlo",
+  "text": "It's an indictment of Anthropic that when you criticize them on Twitter, very very rarely do the employees come to debate or defend. I recal",
+  "why": "Sharp critique of frontier lab culture, comms control, and the lack of public engagement on existential risks."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "France's riots demonstrate the limits of the left-liberal governing philosophy that Europe has embraced for the last half century. noahpinio",
-  "why": "Political commentary outside of his core progress and abundance interests."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "karenvaites",
+  "via": "C_Hendrick",
+  "text": "Replying to @karenvaites substack.com/home/post/p-21… Posted Oct 22, 2026 at 6:21PM",
+  "why": "Deep dive into applied learning science and building next-generation K-12 curriculum at Alpha."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "nicbstme",
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "thorstenball",
   "via": null,
-  "text": "Praying for my bank and brokerage account to do the right thing and fast 🫠 Posted Oct 22, 2026 at 2:45PM",
-  "why": "Thin commentary on the Axios scoop; the underlying news is better covered elsewhere."
+  "text": "Raise your hand if you work in a 2010s SaaS company that has built their own agent platform that no one really wants to use. Posted Oct 23, ",
+  "why": "Sharp critique of enterprise AI engineering anti-patterns and the build-vs-buy delusion for agent platforms."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "ElementalReason",
-  "via": "GaryMarcus",
-  "text": "The \"day after\" apocalypse scenario is truly terrifying. There's no need for anyone to bomb planet Earth. All it takes is for artificial age",
-  "why": "Unsubstantive doomer hyperbole regarding the AI banking scoop."
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "nicbstme",
+  "via": null,
+  "text": "Adapting to a wave of AI-discovered vulnerabilities will be a massive challenge for large organizations running decades of COBOL, PHP, Java…",
+  "why": "Highlights the real bottleneck in AI-driven security: legacy CI/CD pipelines and organizational deployment speed."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "TheZvi",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "manifold.markets/ZviMowshowitz/… how does it look out there? Posted Oct 22, 2026 at 12:02PM",
-  "why": "Bare link to a prediction market without the surrounding analysis."
+  "text": "The wildest bet is the winning bet themarginalian.org/2026/10/22/bet/ Posted Oct 23, 2026 at 2:22AM",
+  "why": "Contemplative essay from The Marginalian; good philosophical counterweight to the daily tech stream."
  },
  {
   "rank": 29,
   "kept": false,
+  "score": 6,
+  "topic": "ai-engineering",
+  "author": "AravSrinivas",
+  "via": "krishnanrohit",
+  "text": "You can now run the Perplexity Decision Model fully locally on your Mac, without any data leaving your machine. The power of open-weight and",
+  "why": "Solid applied AI engineering update on running compact, open-weight decision models locally."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "WillManidis",
+  "via": null,
+  "text": "I’m intensely skeptical of the claims that any of the frontier labs are manufacturing crisis to get regulatory / market concessions - howeve",
+  "why": "Substantive skepticism from a favored author regarding frontier lab communications and security posturing."
+ },
+ {
+  "rank": 31,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "PhilWMagness",
+  "via": "naval",
+  "text": "🧵In 2019, California billionaire tax crusader Gabriel Zucman made an astonishing claim to the NY Times: billionaires pay a lower avg tax rat",
+  "why": "Methodological critique of highly publicized economic data regarding taxation and wealth."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "“ @pangram ’s goal is about monetizing people’s anxiety about AI - it’s not about protecting creative integrity. They sell a false binary ce",
+  "why": "Substantive skepticism regarding the false certainty and business models of AI detection tools."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 5,
+  "topic": "agency",
+  "author": "peterwildeford",
+  "via": "GaryMarcus",
+  "text": "PSA: in light of recent cyberattacks and vulnerabilities, I recommend everyone: use a good password manager (1Password) and do not duplicate",
+  "why": "A practical but standard digital hygiene checklist; lacks the deep insight or original analysis required for a top score."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "JasonDClinton",
+  "via": "awilkinson",
+  "text": "as bad as things have gotten in the past 4 days, they are going to get a lot worse before they get better. security leaders, never let a cri",
+  "why": "Practical security advice, but lacks the depth or original analysis required for a top score."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 5,
+  "topic": "ai-engineering",
+  "author": "jonsakoda",
+  "via": "FanaHOVA",
+  "text": "Over 1 million PHP services were patched in the past 24 hours - but ~40 million vulnerable services are still online ( @censysio ) php2shell",
+  "why": "A stark statistic on the vulnerability cascade, but lacks the deep analysis of a long-form piece."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "RonDeSantis",
+  "via": "GaryMarcus",
+  "text": "Imagine a rogue AI agent liquidating your bank account and investment portfolio. If you are the only victim, I suppose you could get made wh",
+  "why": "The underlying Axios scoop on rogue agents in banks is notable, but the political commentary adds little signal."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "mjnblack",
+  "via": "Noahpinion",
+  "text": "Things are moving so fast that everyone seems to have completely missed how insane it is that AI companies have been allowed to unleash agen",
+  "why": "Surface-level punditry on AI regulation without deep analysis or original insight."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "markgadala",
+  "via": "Noahpinion",
+  "text": "🚨 BREAKING: LINUX IS NOW FACING TWO CRITICAL SECURITY VULNERABILITIES, AND THERE ARE NO OFFICIAL KERNEL FIXES YET. Both rated 9.0/10 in seve",
+  "why": "Important news, but the engagement-bait, all-caps formatting violates the anti-taste rules."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "spqr_sulla",
+  "via": "naval",
+  "text": "Imagine your net worth is $200,000. One day an armed gang comes up to your house and demands $10,000. “Don’t worry!” the leader says. “I’m o",
+  "why": "Political rage-bait and simplistic analogies about taxation; lacks the rigorous economic analysis he prefers."
+ },
+ {
+  "rank": 40,
+  "kept": false,
   "score": 2,
   "topic": "builders-craft",
-  "author": "mitsuhiko",
+  "author": "WillManidis",
   "via": null,
-  "text": "Definitely low key questioning my purchase decision. Posted Oct 22, 2026 at 7:12AM",
-  "why": "Consumer tech hardware commentary; lacks relevance to his core topics."
+  "text": "claire is both profoundly kind and a generational investor, so rare Posted Oct 23, 2026 at 2:24AM",
+  "why": "VC networking and praise without substantive insight."
  }
 ]
