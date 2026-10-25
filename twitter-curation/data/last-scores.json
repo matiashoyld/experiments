@@ -2,421 +2,151 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "kyronis_talks",
-  "via": "Noahpinion",
-  "text": "Cornell researchers asked an AI agent to open one text file. It ended with campus security getting involved. This is a real paper. And nobod",
-  "why": "Incredible, rigorous evaluation of how benign AI agents can cause chaos when facing simple errors."
+  "author": "thorstenball",
+  "via": null,
+  "text": "... as of October 2026. Use the latest and greatest models. Everything else is potentially a waste of time. If a model is wrong 10% of the t",
+  "why": "Incredible builder wisdom on AI engineering, evals, and making the SDLC legible to agents. Highly practical."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "HamelHusain",
-  "via": null,
-  "text": "2 of 3 agents for this Company harness are marketing related.  It feels right Posted Oct 24, 2026 at 11:57PM",
-  "why": "Extremely high-signal breakdown of how LangChain builds and deploys internal AI agents."
+  "topic": "econ-progress",
+  "author": "danwilliamsphil",
+  "via": "random_walker",
+  "text": "The world has incredible detail, friction, and complexity. People good at understanding machine learning and predicting benchmark performanc",
+  "why": "Brilliant intersection of economics and philosophy, offering substantive skepticism about AI's societal bottlenecks."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "ahall_research",
-  "via": "Noahpinion",
-  "text": "This is interesting Posted Oct 25, 2026 at 1:04AM",
-  "why": "Fascinating take on the 'Bugpocalypse' and how ubiquitous AI lockpicks force aggressive red-teaming."
+  "score": 9,
+  "topic": "tools-for-thought",
+  "author": "thesephist",
+  "via": null,
+  "text": "Few people could help us understand such current design problems with as much respect for historical & human context as @Mappletons . In add",
+  "why": "Maggie Appleton on agent interfaces is peak tools-for-thought. Essential reading on human-agent interaction."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "schmittsfn",
-  "via": "danshipper",
-  "text": "AI slop well explained: \"Slop is not any one particular mistake. It is not the use of em dashes, or a certain sentence rhythm, or purple acc",
-  "why": "Excellent conceptualization of 'AI slop' as visible sameness rather than specific errors."
+  "topic": "ai-engineering",
+  "author": "MeryemArik9",
+  "via": "sh_reya",
+  "text": "Good analysis & we’re increasingly seeing specialisation in inference workloads that different stacks optimize for hence targeting different",
+  "why": "Excellent deep dive into the unit economics, hardware strategy, and margin dynamics of AI inference providers."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "sh_reya",
-  "via": null,
-  "text": "Neat case study on AI for systems development. It turns out you just need (0) smart humans to understand and communicate solutions, (1) good",
-  "why": "Great case study on using AI agent swarms to build ambitious, large-scale software systems."
+  "score": 7,
+  "topic": "builders-craft",
+  "author": "Tristan0x",
+  "via": "karpathy",
+  "text": "If you've ever wondered why smart TVs are so cheap, this is why. @log4j rooted his Samsung and found an always-on hot mic, automatic content",
+  "why": "Fascinating technical breakdown of smart TV privacy tracking and a practical guide to blocking it at the network level."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "ai-essays",
-  "author": "nicbstme",
-  "via": null,
-  "text": "Never doubt the AI exponential, because it can catch up with your entire career while you’re still explaining why your profession is special",
-  "why": "Deeply insightful reflection on the psychological difficulty of grasping exponential AI progress."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "sarthakgh",
+  "via": "GaryMarcus",
+  "text": ". @DKThomp : “In 2020 and 2021, investors looked at Peloton’s and Zoom’s explosive growth, projected their revenue curves into the future, a",
+  "why": "Thoughtful economic skepticism comparing the rapid adoption of AI coding agents to the pandemic pull-forward of Zoom/Peloton."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "nicbstme",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "The current generation of models is already really good at coding. The next generation will be even better. As often happens, the capabiliti",
-  "why": "Fascinating vision of how AI agents could soon perfectly replicate and commoditize software products."
+  "text": "\"Things take the time they take. Don't worry.\" Mary Oliver on how to live fully: themarginalian.org/2015/02/09/mar… Posted Oct 25, 2026 at 1",
+  "why": "A beautiful, contemplative piece on intentional living, patience, and letting things take the time they take."
  },
  {
   "rank": 8,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "tomekkorbak",
-  "via": "GaryMarcus",
-  "text": "This was one of the third-party engagements I worked on at OpenAI. I'm glad the report is out! I'm disappointed that METR wasn't allowed to ",
-  "why": "High-signal insider commentary on the methodological rigor and transparency of OpenAI's METR evals."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The paradox of knowing who you are and what you want – beloved Italian storyteller Cristina Campo on fairy tales and the meaning of maturity",
+  "why": "High-quality contemplative curation exploring fairy tales, identity, and the meaning of maturity."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "sh_reya",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "It doesn’t seem so far-fetched to believe: we will have different models and systems for work done by agents alone/agent swarms; and for wor",
-  "why": "Fascinating research on the emerging 'dialect' of frontier AI models and human-agent communication."
+  "text": "Black October shows that \"pacing the frontier\" is just not going to happen anytime soon. The AI arms race between the U.S. and China just we",
+  "why": "Solid macroeconomic and geopolitical analysis of the AI frontier and the US-China arms race."
  },
  {
   "rank": 10,
-  "kept": false,
-  "score": 7,
+  "kept": true,
+  "score": 6,
   "topic": "econ-progress",
-  "author": "ben_golub",
-  "via": "Noahpinion",
-  "text": "This misdiagnoses things in a few different ways - let me try to unpack. (1) A lot of the 10x new economists of AI are empirical. Truly empi",
-  "why": "Substantive critique of how economists currently model and misunderstand AGI risks."
+  "author": "Noahpinion",
+  "via": null,
+  "text": "The proliferation of AI cyberattacks may signal the end of the internet as a public good. We may only be able to use it in the future if eve",
+  "why": "Interesting economic angle on AI cyber threats, though it links to the same Noahpinion piece as the previous item."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "jamescham",
-  "via": "sh_reya",
-  "text": "“build extremely ambitious systems that cover big surface areas”—good advice for PhD students and all of us… Posted Oct 25, 2026 at 2:11AM",
-  "why": "Insightful perspective on how AI agents expand the scope of what systems engineers can build."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "the race to permanent negative margins is on! Posted Oct 25, 2026 at 1:34PM",
+  "why": "Interesting market data on OpenAI undercutting Anthropic, but the commentary is just thin snark."
  },
  {
   "rank": 12,
-  "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "20 favorite books from 20 years of The Marginalian themarginalian.org/2026/10/24/20-… Posted Oct 25, 2026 at 1:46AM",
-  "why": "Excellent curation of contemplative books from 20 years of The Marginalian."
+  "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "fizzychicken",
+  "via": "jasoncrawford",
+  "text": "I'm not sure a lot of people understand what game coders actually do. We're not spending 9 hours a day finely hand crafting artisan software",
+  "why": "Relatable sentiment on game dev grunt work, but lacks the technical depth or original insight you usually prefer."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "BalaiBB",
-  "via": "Noahpinion",
-  "text": "black october just got worse. a japanese company lost 27,000 servers and it’s not even the scariest part GMO Internet runs a cloud service c",
-  "why": "Incredible postmortem of a massive cyberattack and Japan's unprecedented hack-back response."
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "rpondiscio",
+  "via": "C_Hendrick",
+  "text": "Your occasional reminder that a state’s obligation is to educate its children. A “voucher” is not at odds with that commitment. It’s a way t",
+  "why": "Leans too far into education politics and culture-war debates over vouchers rather than learning science."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "Afinetheorem",
-  "via": "Noahpinion",
-  "text": "On bottlenecks: 1) economists have been exactly right about little extra growth despite very fast tech change. They thought a group of econs",
-  "why": "Insightful thread on why economists correctly predicted slow macroeconomic growth from AI."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Userlist’s founders had a $1k onboarding fee in mind. My cohost Mariya Delano: “No, no, it needs to hurt.” She knows a one-person business t",
+  "why": "Video-only content focused on startup pricing and onboarding fees, which falls outside your core interests."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "nicbstme",
-  "via": null,
-  "text": "The last 10 years of SaaS were about standardizing software. Build one great experience, sell it to millions of users, enjoy high gross marg",
-  "why": "Strong thesis on how AI agents will shift SaaS from standardized products to personalized software."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Freemium is a fun way to grow, but often unprofitably. A normal free-to-paid rate is about 1%. So 99 of every 100 users need servers, engine",
-  "why": "Solid operator wisdom on the economics and pitfalls of freemium business models."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "lisaabramowicz1",
-  "via": "Noahpinion",
-  "text": "Jason Furman on AI vs human economists: If he were running the CEA today and had a choice between 20 highly qualified staff members “versus ",
-  "why": "Provocative take from a top economist on AI systems outperforming human research staff."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "ycinnewyork",
-  "via": "C_Hendrick",
-  "text": "I'm unsure about the methods used at Alpha School. As a parent, I've always valued direct instruction, whole books, and limited screen time.",
-  "why": "Thoughtful commentary on education models, direct instruction, and public school resource allocation."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On children – poignant parenting advice from Kahlil Gibran themarginalian.org/2019/09/09/on-… Posted Oct 24, 2026 at 4:29PM",
-  "why": "A beautiful, timeless piece of contemplative parenting wisdom from Kahlil Gibran."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "That sounds awesome Posted Oct 25, 2026 at 3:14AM",
-  "why": "Highlights a shift in OpenAI's security strategy toward AI defense swarms."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Tolkien on how to fall in love with life themarginalian.org/2026/09/15/tol… Posted Oct 25, 2026 at 2:44AM",
-  "why": "A beautiful contemplative essay on finding meaning and loving life through Tolkien's lens."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "gnoble79",
-  "via": "GaryMarcus",
-  "text": "YOUR ATTENTION TO THIS MATTER IS GREATLY APPRECIATED. Posted Oct 25, 2026 at 12:48AM",
-  "why": "Substantive skepticism regarding the macroeconomic ROI of AI in corporate America."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "“Love the earth and sun and the animals… re-examine all you have been told at school or church or in any book, dismiss whatever insults your",
-  "why": "Timeless contemplative advice from Walt Whitman on intentional living."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "carmenli",
-  "via": "swyx",
-  "text": "Honestly, I was surprised @WSJ wanted to do a profile on me. 😂 I’m not a cool 20-year-old college dropout. I’m a pretty boring 40-year-old t",
-  "why": "Interesting builder perspective on turning AI compute into a tradable asset class."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "jasonfurman",
-  "via": "Noahpinion",
-  "text": "I asked Claude how much it would have taken to develop Econvitals pre-coding agents. It's answer: a team of about 50 people working for thre",
-  "why": "Interesting anecdote on how AI drastically reduces the cost of building economic data tools."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "AISafetyMemes",
-  "via": "Noahpinion",
-  "text": "Today, we learned Kimi is controlled by the CCP. Sorry, but NO business would tell influencers to say weird apparatchik shit like this And t",
-  "why": "Geopolitical take on Chinese AI models and state influence, though slightly ranty."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "nicbstme",
-  "via": null,
-  "text": "I remember walking from the UC Berkeley library to this building and thinking, \"Wow, these architects must hate humanity.\" The building is s",
-  "why": "Interesting observation on architecture and design philosophy, though slightly tangential."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Empire, emoji, and the origin of love – the fascinating and bittersweet story of the ancient plant that gave us the heart symbol as the repr",
-  "why": "Interesting historical essay, but lower priority compared to core topics."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "the negative case against AI gets stronger every day; even Altman admits the problems are very serious with no obvious solution. the positiv",
-  "why": "Substantive skepticism on AI's macroeconomic ROI, though repetitive."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-engineering",
-  "author": "MOVNTDQ",
-  "via": "sh_reya",
-  "text": "100%, never been a better time for database/system researchers to think bigger, and bring their ideas to practical systems, and make a direc",
-  "why": "Redundant with earlier share on AI systems development."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "RepYassAnsari",
-  "via": "GaryMarcus",
-  "text": "The fact that Congress remains out of session as unauthorized AI agents are hacking major U.S. banks is INSANE. It’s a complete abdication o",
-  "why": "Alarmist political take on AI security without technical substance."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "New Smart Bear Live E11 just dropped! About 50% of Userlist’s paying customers never fully set it up, and Jane Portman says they “didn’t dar",
-  "why": "Podcast/video promo, lacks standalone written insight."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "hnshah",
-  "via": "HamelHusain",
-  "text": "We launched Beam on Monday and hit #1 on Product Hunt. The most requested feature was Intel Mac support. We shipped it three days later. Bea",
-  "why": "Product launch promotion, lacks long-form insight."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Tomorrow! Woodstock, NY. The Museum of Delight museumofdelight.org Posted Oct 24, 2026 at 8:45PM",
-  "why": "Event promotion, lacks long-form insight."
- },
- {
-  "rank": 35,
-  "kept": false,
   "score": 2,
-  "topic": "ai-essays",
-  "author": "QuintusCurtius",
-  "via": "GaryMarcus",
-  "text": "AI is yet another scam by the billionaire plutocracy to bleed the nation, strip the public of its common property, and enrich private equity",
-  "why": "Unsubstantiated political rage-bait regarding AI."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "topic": "agency",
+  "author": "every",
   "via": null,
-  "text": "So basically the entire Trump administration has been committing nonstop crimes You are ruled by a mafia Posted Oct 24, 2026 at 10:45PM",
-  "why": "Political commentary, explicitly against his anti-taste rules."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "JamesSurowiecki",
-  "via": "Noahpinion",
-  "text": "This piece on the massive shift of young voters back to Democrats (or against Republicans) has a quote from a 23-year-old Latino guy who vot",
-  "why": "Pure political polling commentary."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "💯 Posted Oct 24, 2026 at 7:39PM",
-  "why": "Political culture-war commentary."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "tobi",
-  "via": null,
-  "text": "Vote Brad Posted Oct 24, 2026 at 6:30PM",
-  "why": "Local political endorsement."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "brianlilley",
-  "via": "tobi",
-  "text": "Wow, when the \"progressive\" paper, the Toronto Star, can't endorse the \"progressive\" candidate, Olivia Chow... It's really telling. thestar.",
-  "why": "Local political commentary."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Your country is being looted Posted Oct 24, 2026 at 4:18PM",
-  "why": "Political scandal commentary."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "anneapplebaum",
-  "via": "Noahpinion",
-  "text": "A wild story: the CEO of a US energy company whose plans were discussed during the Witkoff-Kushner-Putin negotiations resigns. Why? He learn",
-  "why": "Political scandal commentary."
+  "text": "Before the CEO woke up, the Every Agent flagged a customer who was still waiting for their test results. The customer, a farmer, had paid fo",
+  "why": "Reads like engagement-bait and content marketing for their own AI agent product."
  }
 ]
