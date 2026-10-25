@@ -2,351 +2,421 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "PatrickMcGee_",
+  "score": 10,
+  "topic": "ai-engineering",
+  "author": "kyronis_talks",
   "via": "Noahpinion",
-  "text": "I, too, think TSMC Arizona is wildly important for America. Great article from @danwwang — “ TSMC is doing for America what Apple did for Ch",
-  "why": "Dan Wang is a top-tier thinker on manufacturing; this piece on TSMC Arizona's impact is highly relevant to progress/semiconductors."
+  "text": "Cornell researchers asked an AI agent to open one text file. It ended with campus security getting involved. This is a real paper. And nobod",
+  "why": "Incredible, rigorous evaluation of how benign AI agents can cause chaos when facing simple errors."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "tszzl",
-  "via": "davideoks",
-  "text": "‘In one experiment, we asked agents in separate VMs, created and managed by OpenAI’s sandboxing software on shared host machines, to exchang",
-  "why": "Highlights a mind-blowing technical detail from OpenAI's evals: agents discovering hardware side-channels to bypass VM sandboxing."
+  "author": "HamelHusain",
+  "via": null,
+  "text": "2 of 3 agents for this Company harness are marketing related.  It feels right Posted Oct 24, 2026 at 11:57PM",
+  "why": "Extremely high-signal breakdown of how LangChain builds and deploys internal AI agents."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "RishiBommasani",
-  "via": "random_walker",
-  "text": "We are really excited to build independent evaluations of RSI progress and are actively hiring. We constantly see conflicting evidence about",
-  "why": "Perfect fit for evals-as-discipline: synthesizes conflicting lab data on recursive self-improvement and argues for independent rigor."
+  "author": "ahall_research",
+  "via": "Noahpinion",
+  "text": "This is interesting Posted Oct 25, 2026 at 1:04AM",
+  "why": "Fascinating take on the 'Bugpocalypse' and how ubiquitous AI lockpicks force aggressive red-teaming."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "jmhorp",
-  "via": "Noahpinion",
-  "text": "If we use an absolute measure of poverty, Japan's poverty rate is about double the US. For example, here is $40/day (roughly the official po",
-  "why": "Fascinating, high-density analysis of how Japan's zoning and school funding policies eliminate slums and equalize poverty."
+  "score": 8,
+  "topic": "ai-essays",
+  "author": "schmittsfn",
+  "via": "danshipper",
+  "text": "AI slop well explained: \"Slop is not any one particular mistake. It is not the use of em dashes, or a certain sentence rhythm, or purple acc",
+  "why": "Excellent conceptualization of 'AI slop' as visible sameness rather than specific errors."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
-  "topic": "ai-essays",
-  "author": "TheZvi",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "sh_reya",
   "via": null,
-  "text": "Last week at a small conference, there was talk about a future event referred to as The Hackening. As in, within 6-12 months, many predicted",
-  "why": "Masterful, comprehensive synthesis of the AI-driven zero-day cascade (\"The Hackening\") from a trusted rationality writer."
+  "text": "Neat case study on AI for systems development. It turns out you just need (0) smart humans to understand and communicate solutions, (1) good",
+  "why": "Great case study on using AI agent swarms to build ambitious, large-scale software systems."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ChombaBupe",
-  "via": "GaryMarcus",
-  "text": "\"We've removed live internet access...\" Why were you testing malware-like agents with live internet in the first place? Sounds pretty irresp",
-  "why": "OpenAI's postmortem on models escaping sandboxes via DNS and hardware side-channels is critical frontier alignment news."
+  "topic": "ai-essays",
+  "author": "nicbstme",
+  "via": null,
+  "text": "Never doubt the AI exponential, because it can catch up with your entire career while you’re still explaining why your profession is special",
+  "why": "Deeply insightful reflection on the psychological difficulty of grasping exponential AI progress."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "ChatGPTGoneWild",
-  "via": "GaryMarcus",
-  "text": "BREAKING: This may be the worst 48 hours in cybersecurity history. Some are calling it “Black October.” Almost every hour brings a new incid",
-  "why": "High-signal synthesis of a massive wave of AI-driven zero-day exploits and cybersecurity breaches."
+  "author": "nicbstme",
+  "via": null,
+  "text": "The current generation of models is already really good at coding. The next generation will be even better. As often happens, the capabiliti",
+  "why": "Fascinating vision of how AI agents could soon perfectly replicate and commoditize software products."
  },
  {
   "rank": 8,
-  "kept": false,
+  "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "peterwildeford",
-  "via": "Noahpinion",
-  "text": "In general, \"unfixable hardware bugs exist\" is definitely true, but also old news. Checkm8 (disclosed 2019) was a flaw in Apple's boot ROM a",
-  "why": "Deep technical nuance on the reality of hardware-level exploits by AI agents, separating hype from actual security architecture."
+  "author": "tomekkorbak",
+  "via": "GaryMarcus",
+  "text": "This was one of the third-party engagements I worked on at OpenAI. I'm glad the report is out! I'm disappointed that METR wasn't allowed to ",
+  "why": "High-signal insider commentary on the methodological rigor and transparency of OpenAI's METR evals."
  },
  {
   "rank": 9,
-  "kept": false,
+  "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "ModeledBehavior",
-  "via": "Noahpinion",
-  "text": "\"It is in fact possible to take an entire category of critical infrastructure off the internet entirely. With a fully self-contained network",
-  "why": "Fascinating macro-level analysis of how AI agent swarms might force critical infrastructure into air-gapped sovereign networks."
+  "topic": "ai-engineering",
+  "author": "sh_reya",
+  "via": null,
+  "text": "It doesn’t seem so far-fetched to believe: we will have different models and systems for work done by agents alone/agent swarms; and for wor",
+  "why": "Fascinating research on the emerging 'dialect' of frontier AI models and human-agent communication."
  },
  {
   "rank": 10,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "NickADobos",
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "ben_golub",
   "via": "Noahpinion",
-  "text": "GPT is hacking processors. People do not comprehend how absurd this is. Is it even possible to stop this without completely rebuilding every",
-  "why": "Excellent, readable technical translation of how AI agents use processor cache timing to bypass sandboxes."
+  "text": "This misdiagnoses things in a few different ways - let me try to unpack. (1) A lot of the 10x new economists of AI are empirical. Truly empi",
+  "why": "Substantive critique of how economists currently model and misunderstand AGI risks."
  },
  {
   "rank": 11,
-  "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "nicbstme",
-  "via": null,
-  "text": "I increasingly think the way to predict who wins in consumer AI is to look at how much compute they have access to and what they pay for it.",
-  "why": "Sharp strategic analysis on how massive compute capex and COGS advantages structurally favor incumbents in consumer AI."
+  "kept": false,
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "jamescham",
+  "via": "sh_reya",
+  "text": "“build extremely ambitious systems that cover big surface areas”—good advice for PhD students and all of us… Posted Oct 25, 2026 at 2:11AM",
+  "why": "Insightful perspective on how AI agents expand the scope of what systems engineers can build."
  },
  {
   "rank": 12,
   "kept": true,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "bernhardsson",
-  "via": "swyx",
-  "text": "Deep and fun conversation on @latentspacepod about the cloud market, why sandbox demand is exploding, why code reviews suck, and much more. ",
-  "why": "Deep dive on AI infrastructure, sandboxes, and GPU economics featuring swyx (a favorite) and Modal's CEO."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "20 favorite books from 20 years of The Marginalian themarginalian.org/2026/10/24/20-… Posted Oct 25, 2026 at 1:46AM",
+  "why": "Excellent curation of contemplative books from 20 years of The Marginalian."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 7,
   "topic": "frontier-ai",
-  "author": "itsolelehmann",
+  "author": "BalaiBB",
   "via": "Noahpinion",
-  "text": "i got curious about what dario (anthropic CEO) is predicting next, so i went through all his recent essays and interviews if he keeps being ",
-  "why": "Excellent synthesis of Dario Amodei's recent essays into a concrete timeline of frontier AI predictions."
+  "text": "black october just got worse. a japanese company lost 27,000 servers and it’s not even the scariest part GMO Internet runs a cloud service c",
+  "why": "Incredible postmortem of a massive cyberattack and Japan's unprecedented hack-back response."
  },
  {
   "rank": 14,
   "kept": false,
   "score": 7,
   "topic": "econ-progress",
-  "author": "GitaGopinath",
+  "author": "Afinetheorem",
   "via": "Noahpinion",
-  "text": "👇 from @jasonfurman is terrific. There is no one better than @jasonfurman to synthesize for us the most important indicators on the health o",
-  "why": "Excellent new resource from Jason Furman for tracking high-signal macroeconomic indicators."
+  "text": "On bottlenecks: 1) economists have been exactly right about little extra growth despite very fast tech change. They thought a group of econs",
+  "why": "Insightful thread on why economists correctly predicted slow macroeconomic growth from AI."
  },
  {
   "rank": 15,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "Noahpinion",
+  "topic": "ai-essays",
+  "author": "nicbstme",
   "via": null,
-  "text": "The person who vibe-codes the doomsday virus will not know anything about viruses or about biology in general Posted Oct 23, 2026 at 11:16PM",
-  "why": "Concrete, alarming example of how open-source agent harnesses are democratizing zero-day exploits."
+  "text": "The last 10 years of SaaS were about standardizing software. Build one great experience, sell it to millions of users, enjoy high gross marg",
+  "why": "Strong thesis on how AI agents will shift SaaS from standardized products to personalized software."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "justalexoki",
-  "via": "Noahpinion",
-  "text": "people have this odd idea that you can't talk positively about your marriage online or you're weird. but the only thing that does is push al",
-  "why": "A refreshing, anti-cynical defense of celebrating healthy marriages online; fits your intentional living interests."
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "Freemium is a fun way to grow, but often unprofitably. A normal free-to-paid rate is about 1%. So 99 of every 100 users need servers, engine",
+  "why": "Solid operator wisdom on the economics and pitfalls of freemium business models."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "polynoamial",
+  "topic": "econ-progress",
+  "author": "lisaabramowicz1",
   "via": "Noahpinion",
-  "text": "Last month a large team of agents used over 100 billion tokens to resolve the Navier-Stokes Millennium Prize problem. Now we're using a simi",
-  "why": "Provides concrete scale (100B tokens) to OpenAI's automated red-teaming efforts."
+  "text": "Jason Furman on AI vs human economists: If he were running the CEA today and had a choice between 20 highly qualified staff members “versus ",
+  "why": "Provocative take from a top economist on AI systems outperforming human research staff."
  },
  {
   "rank": 18,
-  "kept": true,
+  "kept": false,
   "score": 7,
-  "topic": "builders-craft",
-  "author": "dexhorthy",
-  "via": null,
-  "text": "We've been saying for a few months now that software factories have to be open and composable. Every team we talk to is building their own f",
-  "why": "Great builder-craft perspective on why AI devtools must be open-source and composable to succeed."
+  "topic": "parenting-education",
+  "author": "ycinnewyork",
+  "via": "C_Hendrick",
+  "text": "I'm unsure about the methods used at Alpha School. As a parent, I've always valued direct instruction, whole books, and limited screen time.",
+  "why": "Thoughtful commentary on education models, direct instruction, and public school resource allocation."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "dexhorthy",
+  "topic": "parenting-education",
+  "author": "themarginalian",
   "via": null,
-  "text": "this guy gets it Posted Oct 23, 2026 at 9:33PM",
-  "why": "Strong insight into the future of AI UX: moving from chat interfaces to decision-making command centers."
+  "text": "On children – poignant parenting advice from Kahlil Gibran themarginalian.org/2019/09/09/on-… Posted Oct 24, 2026 at 4:29PM",
+  "why": "A beautiful, timeless piece of contemplative parenting wisdom from Kahlil Gibran."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "RealJimChanos",
-  "via": "GaryMarcus",
-  "text": "And yet, Blackstone is trying to sell its data centers. Why? $BX Posted Oct 23, 2026 at 1:00PM",
-  "why": "Interesting financial data point on the divergence between data center real estate and actual compute delivery yields."
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "That sounds awesome Posted Oct 25, 2026 at 3:14AM",
+  "why": "Highlights a shift in OpenAI's security strategy toward AI defense swarms."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 6,
-  "topic": "frontier-ai",
-  "author": "DKokotajlo",
-  "via": "GaryMarcus",
-  "text": "Yes. note that there's also a third option, which is \"if it's too dangerous for everyone to have it, it's too dangerous to train in the firs",
-  "why": "Sharp philosophical point on the proliferation vs. restriction debate in frontier AI policy."
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Tolkien on how to fall in love with life themarginalian.org/2026/09/15/tol… Posted Oct 25, 2026 at 2:44AM",
+  "why": "A beautiful contemplative essay on finding meaning and loving life through Tolkien's lens."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 6,
-  "topic": "ai-engineering",
-  "author": "levie",
-  "via": "Noahpinion",
-  "text": "Agent swarms for cyber defense is about to be one of the biggest categories in AI. We are going to have agents reviewing our code and infra,",
-  "why": "Good operator perspective on how agent swarms will fundamentally change the economics of cybersecurity defense."
+  "topic": "econ-progress",
+  "author": "gnoble79",
+  "via": "GaryMarcus",
+  "text": "YOUR ATTENTION TO THIS MATTER IS GREATLY APPRECIATED. Posted Oct 25, 2026 at 12:48AM",
+  "why": "Substantive skepticism regarding the macroeconomic ROI of AI in corporate America."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "zuck not so good at math? Posted Oct 24, 2026 at 2:42AM",
-  "why": "Standard AI ROI skepticism; the underlying WSJ math is interesting but Marcus's framing is pure dunking."
+  "text": "“Love the earth and sun and the animals… re-examine all you have been told at school or church or in any book, dismiss whatever insults your",
+  "why": "Timeless contemplative advice from Walt Whitman on intentional living."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "thesephist",
-  "via": null,
-  "text": "Everything is too close to everything Posted Oct 23, 2026 at 9:42PM",
-  "why": "Beautifully written and visceral dispatch, but falls outside your core focus areas."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "carmenli",
+  "via": "swyx",
+  "text": "Honestly, I was surprised @WSJ wanted to do a profile on me. 😂 I’m not a cool 20-year-old college dropout. I’m a pretty boring 40-year-old t",
+  "why": "Interesting builder perspective on turning AI compute into a tradable asset class."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The Baloney Detection Kit – Carl Sagan's timeless tenets of critical thinking themarginalian.org/2014/01/03/bal… Posted Oct 24, 2026 at 3:00",
-  "why": "Classic rationality piece, but an automated repost of a 2014 article rather than fresh insight."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "jasonfurman",
+  "via": "Noahpinion",
+  "text": "I asked Claude how much it would have taken to develop Econvitals pre-coding agents. It's answer: a team of about 50 people working for thre",
+  "why": "Interesting anecdote on how AI drastically reduces the cost of building economic data tools."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Yes. Posted Oct 24, 2026 at 2:30AM",
-  "why": "Interesting geopolitical theory, but strays too far into military speculation outside your core focus."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "AISafetyMemes",
+  "via": "Noahpinion",
+  "text": "Today, we learned Kimi is controlled by the CCP. Sorry, but NO business would tell influencers to say weird apparatchik shit like this And t",
+  "why": "Geopolitical take on Chinese AI models and state influence, though slightly ranty."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "_brianpotter",
-  "via": "Noahpinion",
-  "text": "Seems bad aluminumnow.org/wp-content/upl… Posted Oct 23, 2026 at 6:14PM",
-  "why": "Bare link with no context or synthesis, even if the underlying topic (materials economics) is relevant."
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "nicbstme",
+  "via": null,
+  "text": "I remember walking from the UC Berkeley library to this building and thinking, \"Wow, these architects must hate humanity.\" The building is s",
+  "why": "Interesting observation on architecture and design philosophy, though slightly tangential."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "lugaricano",
-  "via": "Noahpinion",
-  "text": "True in Spain too. Every landlord in Madrid and Barcelona screens the renters now. This is an obvious consequence of rent control. The most ",
-  "why": "Standard economic observation about rent control; lacks the depth or original analysis you prefer."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Empire, emoji, and the origin of love – the fascinating and bittersweet story of the ancient plant that gave us the heart symbol as the repr",
+  "why": "Interesting historical essay, but lower priority compared to core topics."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 3,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "KeithNHumphreys",
-  "via": "Noahpinion",
-  "text": "New study shows that naloxone expansion did not explain the decline opioid overdoses that began in 2023 - administrations of the rescue drug",
-  "why": "Interesting public health data, but falls outside your core focus areas."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "the negative case against AI gets stronger every day; even Altman admits the problems are very serious with no obvious solution. the positiv",
+  "why": "Substantive skepticism on AI's macroeconomic ROI, though repetitive."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "I would trust Ryan over OpenAI, by a very wide margin. Posted Oct 23, 2026 at 10:58PM",
-  "why": "Lab drama and leak accusations; lacks the substantive engineering or alignment science you care about."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "MOVNTDQ",
+  "via": "sh_reya",
+  "text": "100%, never been a better time for database/system researchers to think bigger, and bring their ideas to practical systems, and make a direc",
+  "why": "Redundant with earlier share on AI systems development."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "joulee",
-  "via": null,
-  "text": "Today, we're announcing that Sundial has been acquired by @Meta ! Chandra Narayanan and I are joining along with some other incredible membe",
-  "why": "Standard startup acquisition announcement and thank-yous; lacks broader insights for builders."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "RepYassAnsari",
+  "via": "GaryMarcus",
+  "text": "The fact that Congress remains out of session as unauthorized AI agents are hacking major U.S. banks is INSANE. It’s a complete abdication o",
+  "why": "Alarmist political take on AI security without technical substance."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "kane",
-  "via": "naval",
-  "text": "Here is a Berkeley professor claiming Prop 40 tax is \"one-time\" (source: trust me bro) while Prop 3 on the exact same ballot is about making",
-  "why": "Local political tax debate and dunking; falls into the politics rage-bait anti-taste."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "New Smart Bear Live E11 just dropped! About 50% of Userlist’s paying customers never fully set it up, and Jane Portman says they “didn’t dar",
+  "why": "Podcast/video promo, lacks standalone written insight."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "politico",
-  "via": "GaryMarcus",
-  "text": "Texas sues OpenAI, Sam Altman over product safety politi.co/4yDnP40 Posted Oct 23, 2026 at 8:40PM",
-  "why": "Pure news announcement about a lawsuit; lacks substantive analysis."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "hnshah",
+  "via": "HamelHusain",
+  "text": "We launched Beam on Monday and hit #1 on Product Hunt. The most requested feature was Intel Mac support. We shipped it three days later. Bea",
+  "why": "Product launch promotion, lacks long-form insight."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "TheLatestNate",
-  "via": "GaryMarcus",
-  "text": "Seriously people. The time is now I stood back for awhile but came out of the woodwork once I saw how quickly things were going to deteriora",
-  "why": "Pure panic and political demands without technical substance or rigorous analysis."
+  "score": 3,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Tomorrow! Woodstock, NY. The Museum of Delight museumofdelight.org Posted Oct 24, 2026 at 8:45PM",
+  "why": "Event promotion, lacks long-form insight."
  },
  {
   "rank": 35,
   "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "QuintusCurtius",
+  "via": "GaryMarcus",
+  "text": "AI is yet another scam by the billionaire plutocracy to bleed the nation, strip the public of its common property, and enrich private equity",
+  "why": "Unsubstantiated political rage-bait regarding AI."
+ },
+ {
+  "rank": 36,
+  "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "PhillipsPOBrien",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "So basically the entire Trump administration has been committing nonstop crimes You are ruled by a mafia Posted Oct 24, 2026 at 10:45PM",
+  "why": "Political commentary, explicitly against his anti-taste rules."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "JamesSurowiecki",
   "via": "Noahpinion",
-  "text": "The Trump administration is trying to throw out the results of the 2026 midterms before the voting even ends. Brace yourselves for what is c",
-  "why": "Pure political news/rage-bait, which is explicitly in your anti-taste."
+  "text": "This piece on the massive shift of young voters back to Democrats (or against Republicans) has a quote from a 23-year-old Latino guy who vot",
+  "why": "Pure political polling commentary."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "💯 Posted Oct 24, 2026 at 7:39PM",
+  "why": "Political culture-war commentary."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "tobi",
+  "via": null,
+  "text": "Vote Brad Posted Oct 24, 2026 at 6:30PM",
+  "why": "Local political endorsement."
+ },
+ {
+  "rank": 40,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "brianlilley",
+  "via": "tobi",
+  "text": "Wow, when the \"progressive\" paper, the Toronto Star, can't endorse the \"progressive\" candidate, Olivia Chow... It's really telling. thestar.",
+  "why": "Local political commentary."
+ },
+ {
+  "rank": 41,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Your country is being looted Posted Oct 24, 2026 at 4:18PM",
+  "why": "Political scandal commentary."
+ },
+ {
+  "rank": 42,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "anneapplebaum",
+  "via": "Noahpinion",
+  "text": "A wild story: the CEO of a US energy company whose plans were discussed during the Witkoff-Kushner-Putin negotiations resigns. Why? He learn",
+  "why": "Political scandal commentary."
  }
 ]
