@@ -3,150 +3,300 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "thorstenball",
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "... as of October 2026. Use the latest and greatest models. Everything else is potentially a waste of time. If a model is wrong 10% of the t",
-  "why": "Incredible builder wisdom on AI engineering, evals, and making the SDLC legible to agents. Highly practical."
+  "text": "Hell yeah Posted Oct 26, 2026 at 12:58AM",
+  "why": "Incredible progress update on pancreatic cancer treatments with hard numbers and tangible optimism."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "danwilliamsphil",
-  "via": "random_walker",
-  "text": "The world has incredible detail, friction, and complexity. People good at understanding machine learning and predicting benchmark performanc",
-  "why": "Brilliant intersection of economics and philosophy, offering substantive skepticism about AI's societal bottlenecks."
+  "topic": "ai-engineering",
+  "author": "HamelHusain",
+  "via": null,
+  "text": "I've been looking into public benchmarks and am astounded by the poor quality vs. how much we rely on them as an industry. @xeophon pointed ",
+  "why": "Crucial methodological skepticism of AI benchmarks, highlighting a high-signal resource for rigorous evals."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 9,
-  "topic": "tools-for-thought",
-  "author": "thesephist",
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "nicbstme",
   "via": null,
-  "text": "Few people could help us understand such current design problems with as much respect for historical & human context as @Mappletons . In add",
-  "why": "Maggie Appleton on agent interfaces is peak tools-for-thought. Essential reading on human-agent interaction."
+  "text": "I cloned part of Notion and Google Sheets to show you what a software factory could look like. Autonomous agents are going to be able to rep",
+  "why": "Fascinating applied AI engineering experiment using an MCP bridge to have an agent clone software via visual diffs."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
   "topic": "ai-engineering",
-  "author": "MeryemArik9",
-  "via": "sh_reya",
-  "text": "Good analysis & we’re increasingly seeing specialisation in inference workloads that different stacks optimize for hence targeting different",
-  "why": "Excellent deep dive into the unit economics, hardware strategy, and margin dynamics of AI inference providers."
+  "author": "levie",
+  "via": "Noahpinion",
+  "text": "Good assessment of the on the ground reality for security in most large enterprises right now. The fragmented landscape of the risk surface ",
+  "why": "Substantive analysis of how AI agents intersect with the messy reality of enterprise cybersecurity."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "Tristan0x",
-  "via": "karpathy",
-  "text": "If you've ever wondered why smart TVs are so cheap, this is why. @log4j rooted his Samsung and found an always-on hot mic, automatic content",
-  "why": "Fascinating technical breakdown of smart TV privacy tracking and a practical guide to blocking it at the network level."
+  "score": 8,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Although he won the Nobel Prize for his fiction, I think John Steinbeck's greatest masterpiece is this strange, splendid book at the interse",
+  "why": "Beautiful exploration of Steinbeck's philosophical work at the intersection of marine biology and meaning."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "sarthakgh",
-  "via": "GaryMarcus",
-  "text": ". @DKThomp : “In 2020 and 2021, investors looked at Peloton’s and Zoom’s explosive growth, projected their revenue curves into the future, a",
-  "why": "Thoughtful economic skepticism comparing the rapid adoption of AI coding agents to the pandemic pull-forward of Zoom/Peloton."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "themarginalian",
+  "via": null,
+  "text": "20 favorite children's books from 20 years of The Marginalian themarginalian.org/2026/10/25/20-… Posted Oct 25, 2026 at 8:13PM",
+  "why": "Exceptional curation of children's literature, perfectly hitting the parenting and education interest."
  },
  {
   "rank": 7,
   "kept": true,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "\"Things take the time they take. Don't worry.\" Mary Oliver on how to live fully: themarginalian.org/2015/02/09/mar… Posted Oct 25, 2026 at 1",
-  "why": "A beautiful, contemplative piece on intentional living, patience, and letting things take the time they take."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "nicolaygerold",
+  "via": "thorstenball",
+  "text": "If a model has written the entire skill without any input from you, you don't need the skill. Posted Oct 25, 2026 at 5:58PM",
+  "why": "Deeply technical, applied engineering wisdom on managing agent context windows and skill design."
  },
  {
   "rank": 8,
-  "kept": true,
-  "score": 7,
+  "kept": false,
+  "score": 8,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "The paradox of knowing who you are and what you want – beloved Italian storyteller Cristina Campo on fairy tales and the meaning of maturity",
-  "why": "High-quality contemplative curation exploring fairy tales, identity, and the meaning of maturity."
+  "text": "The greatest commencement address of all time – Nobel-winning poet Joseph Brodsky's 6 rules for playing the game of life like a winner thema",
+  "why": "Timeless wisdom on intentional living and agency from a Nobel laureate, beautifully curated."
  },
  {
   "rank": 9,
   "kept": true,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Black October shows that \"pacing the frontier\" is just not going to happen anytime soon. The AI arms race between the U.S. and China just we",
-  "why": "Solid macroeconomic and geopolitical analysis of the AI frontier and the US-China arms race."
+  "score": 7,
+  "topic": "ai-engineering",
+  "author": "mfishbein",
+  "via": "HamelHusain",
+  "text": "Writing evals is about to be the highest paying job in AI. Evals are how you enable agents to verify their own work. Evals create the gradin",
+  "why": "Strong argument on why evals and domain expertise are the bottleneck for agentic workflows."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "kept": false,
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "The proliferation of AI cyberattacks may signal the end of the internet as a public good. We may only be able to use it in the future if eve",
-  "why": "Interesting economic angle on AI cyber threats, though it links to the same Noahpinion piece as the previous item."
+  "text": "20 favorite books from 20 years of The Marginalian mailchi.mp/themarginalian… Posted Oct 26, 2026 at 1:58AM",
+  "why": "High-signal curation of books from a beloved contemplative source."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "the race to permanent negative margins is on! Posted Oct 25, 2026 at 1:34PM",
-  "why": "Interesting market data on OpenAI undercutting Anthropic, but the commentary is just thin snark."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "adamnash",
+  "via": "Noahpinion",
+  "text": "Turns out that if everyone was paid the same, saved the same amount, made the same on their investments, and worked & lived the same amount ",
+  "why": "Counterintuitive economic math demonstrating the sheer power of compounding over a lifetime."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "fizzychicken",
-  "via": "jasoncrawford",
-  "text": "I'm not sure a lot of people understand what game coders actually do. We're not spending 9 hours a day finely hand crafting artisan software",
-  "why": "Relatable sentiment on game dev grunt work, but lacks the technical depth or original insight you usually prefer."
+  "score": 7,
+  "topic": "econ-progress",
+  "author": "Brad_Setser",
+  "via": "Noahpinion",
+  "text": "Chinese vehicle production is now DOWN about a million cars from its peak late last year ... Which is remarkable given the scale of China's ",
+  "why": "Data-driven thread on the surprising drop in Chinese vehicle production despite export booms."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 3,
-  "topic": "parenting-education",
-  "author": "rpondiscio",
-  "via": "C_Hendrick",
-  "text": "Your occasional reminder that a state’s obligation is to educate its children. A “voucher” is not at odds with that commitment. It’s a way t",
-  "why": "Leans too far into education politics and culture-war debates over vouchers rather than learning science."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The power of surrender and the paradox of self-transcendence – timeless wisdom from The Moomins themarginalian.org/2015/01/22/tov… Posted Oc",
+  "why": "Deeply contemplative essay on self-transcendence and surrender through the lens of classic literature."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Userlist’s founders had a $1k onboarding fee in mind. My cohost Mariya Delano: “No, no, it needs to hurt.” She knows a one-person business t",
-  "why": "Video-only content focused on startup pricing and onboarding fees, which falls outside your core interests."
+  "score": 7,
+  "topic": "agency",
+  "author": "ViableBen",
+  "via": "HamelHusain",
+  "text": "Frontier AI labs are hiring people to do the jobs they already created for themselves. Two recent examples: 1) @yourgirlhils joining @Anthro",
+  "why": "Great observation on agency and career building: creating your own market value until frontier labs have to hire you."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 2,
-  "topic": "agency",
-  "author": "every",
+  "score": 6,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Before the CEO woke up, the Every Agent flagged a customer who was still waiting for their test results. The customer, a farmer, had paid fo",
-  "why": "Reads like engagement-bait and content marketing for their own AI agent product."
+  "text": "Yes Posted Oct 26, 2026 at 1:55AM",
+  "why": "Thought-provoking take on how compute scaling might replace physical experiments in biology."
+ },
+ {
+  "rank": 16,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "But on the other hand, they have really big train stations, you can pay for stuff with your smile, and they have lots of LEDs on buildings P",
+  "why": "Visceral, on-the-ground perspective on the economic reality and 'involution' in China's job market."
+ },
+ {
+  "rank": 17,
+  "kept": false,
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "China's industrial strategy of paying every company to make the same products and compete each other's profits to zero is running into a few",
+  "why": "Sharp commentary on the structural flaws of China's state-subsidized industrial strategy."
+ },
+ {
+  "rank": 18,
+  "kept": true,
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "awilkinson",
+  "via": null,
+  "text": "Claude and ChatGPT plugins are the death of software. Integrate your software into their interface Get everyone used to using it in that way",
+  "why": "Provocative take on how LLM interfaces might commoditize traditional software UI."
+ },
+ {
+  "rank": 19,
+  "kept": true,
+  "score": 6,
+  "topic": "builders-craft",
+  "author": "asmartbear",
+  "via": null,
+  "text": "You picked a niche because being specific wins. Then you added a cheaper plan to reach more people. That plan fights your niche. Most segmen",
+  "why": "Solid builder wisdom on pricing and niche dilution, though it points to a video."
+ },
+ {
+  "rank": 20,
+  "kept": false,
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Aviation_Intel",
+  "via": "Noahpinion",
+  "text": "We have been reporting on this coming together for some time, it’s incredibly important. More so than a new fighter or an additional destroy",
+  "why": "Interesting news on military infrastructure resilience, but lacks deeper analytical synthesis."
+ },
+ {
+  "rank": 21,
+  "kept": false,
+  "score": 5,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The true purpose of tarot themarginalian.org/2026/09/06/ale… Posted Oct 25, 2026 at 7:07PM",
+  "why": "Interesting contemplative piece, but perhaps too niche compared to other Marginalian essays today."
+ },
+ {
+  "rank": 22,
+  "kept": false,
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "aiDotEngineer",
+  "via": "swyx",
+  "text": "Your coding agent's verbosity is a code review problem. Ben Holmes at AIE NY on scoring redundant tests and noisy explanations. Scaling with",
+  "why": "Promotional post for an AI engineering event, lacks standalone substance."
+ },
+ {
+  "rank": 23,
+  "kept": false,
+  "score": 3,
+  "topic": "rationality",
+  "author": "politico",
+  "via": "michaelpollan",
+  "text": "The Trump administration moves to treat millions of mentally ill veterans with psychedelics politi.co/4idkGBF Posted Oct 25, 2026 at 2:01PM",
+  "why": "Pure news announcement without deeper analysis."
+ },
+ {
+  "rank": 24,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "actnowforward",
+  "via": "GaryMarcus",
+  "text": "Replying to @GaryMarcus @GaryMarcus Sharing this good video interview / discussion with Cal Newport & Emile Tores. It’s a good introduction ",
+  "why": "Culture-war framing of tech monopolies; violates anti-taste rules against politics and video-only content."
+ },
+ {
+  "rank": 25,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Congrats to @ethereallad for winning the World Fantasy Award!!! 🎉👏 goodreads.com/en/book/show/2… O Posted Oct 26, 2026 at 1:45AM",
+  "why": "Brief congratulatory note, lacks substantive insight."
+ },
+ {
+  "rank": 26,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "ChrisGPT",
+  "via": "Noahpinion",
+  "text": "This user posted - “We had to patch a major energy security flaw on 3 grids in the US this week alone. “ 2 days later the Pentagon said it’s",
+  "why": "Unverified conspiracy theory connecting AI lab rumors to military prep."
+ },
+ {
+  "rank": 27,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "mattyglesias",
+  "via": "Noahpinion",
+  "text": "Useful @gelliottmorris look at who the undecided voters are and what they care about. gelliottmorris.com/p/2026-10-25-s… Posted Oct 25, 2026",
+  "why": "Standard political polling analysis."
+ },
+ {
+  "rank": 28,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Next stop in the Trump Canada-Hungary-Brazil Inverse Influence tour is … the U.S. Posted Oct 26, 2026 at 12:53AM",
+  "why": "Pure political commentary."
+ },
+ {
+  "rank": 29,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "TheTorontoSun",
+  "via": "tobi",
+  "text": "Former deputy mayor under Olivia Chow endorses Brad Bradford torontosun.com/news/local-new… Posted Oct 25, 2026 at 7:17PM",
+  "why": "Local political endorsement, irrelevant to core interests."
+ },
+ {
+  "rank": 30,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "DrJacobsRad",
+  "via": "tobi",
+  "text": "“Please, vote for Brad Bradford.” -Jennifer McKelvie, former deputy mayor. WOW! That's quite an endorsement. Brad Bradford is a rare politic",
+  "why": "Local political endorsement, irrelevant to core interests."
  }
 ]
