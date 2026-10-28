@@ -2,341 +2,331 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
+  "score": 9,
   "topic": "ai-engineering",
-  "author": "danielrupawalla",
-  "via": "HamelHusain",
-  "text": "i've found defects in ~65% of the TAU-banking tasks. these are tasks where the policy isn't enforced correctly. for example, if there are ru",
-  "why": "Exceptional methodological rigor exposing critical flaws and reward hacking in major AI agent benchmarks. Perfect evals-as-discipline."
+  "author": "simonw",
+  "via": null,
+  "text": "I think October represents another inflection point in capabilities for coding agents and the models that drive them: Claude Opus 5.5 can no",
+  "why": "Simon Willison providing expert synthesis on the state of coding agents and model capabilities."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "EpochAIResearch",
-  "via": "Noahpinion",
-  "text": "Since 2022, 72% of the world’s AI compute has ended up in the US and about 10% in China. And the US share keeps growing. It acquired around ",
-  "why": "Exceptional data-driven analysis of the global AI compute supply chain and semiconductor distribution."
+  "topic": "ai-engineering",
+  "author": "natolambert",
+  "via": null,
+  "text": "Open models' demise has been greatly exaggerated, but the previous AA index did flatter them. As an industry we need more specific intellige",
+  "why": "Deep methodological rigor applied to LLM benchmarking and the state of open models."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "alexolegimas",
-  "via": "DKokotajlo",
-  "text": "This is one of the most important pieces of social science on human and AI interaction that I’ve seen in some time. Experts follow agentic a",
-  "why": "Crucial research on human-AI interaction showing how experts unconsciously defer to AI agents. High signal on AI's impact on work."
+  "author": "emollick",
+  "via": null,
+  "text": "There has been a bunch of really interesting experiments with activating individual neurons in open AI models, locking them into particular ",
+  "why": "Ethan Mollick highlighting fascinating interpretability work on activating specific neurons for AI personas."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "obie",
-  "via": "kieranklaassen",
-  "text": "I don't remember why anymore, but in early 2000 I managed to be one of the first subscribers to the original XP mailing list. As a result, R",
-  "why": "Brilliant historical perspective on how AI code generation is resurrecting the worst software engineering anti-patterns."
+  "topic": "frontier-ai",
+  "author": "lefttailguy",
+  "via": "WillManidis",
+  "text": "Claude Science looks to me like a bid to own the economic version control system for life sciences. The logical endgame is Anthropic financi",
+  "why": "Exceptional, deep analysis of Anthropic's strategic endgame in life sciences and AI-driven drug discovery."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 8,
+  "score": 9,
   "topic": "frontier-ai",
-  "author": "emollick",
+  "author": "TheZvi",
   "via": null,
-  "text": "Artificial Analysis finally moves to closed benchmarks (goodbye GDPval-AA), and finds that open weights models are falling  further behind t",
-  "why": "Ethan Mollick analyzing the growing gap between closed and open-weight frontier models with hard benchmark data."
+  "text": "The full text is finally here , so we are giving it the full RTFB of model card treatment. First, a recap of the state of Anthropic finances",
+  "why": "Masterful, substantive breakdown of Anthropic's S-1, financials, and safety posture by a trusted analyst."
  },
  {
   "rank": 6,
   "kept": true,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 9,
+  "topic": "econ-progress",
+  "author": "thorstenball",
   "via": null,
-  "text": "The founders you're told to copy can't all be right. Instagram and WhatsApp raised venture money and grew as fast as they could. 37signals s",
-  "why": "Excellent builder wisdom on why you can't copy outlier founder playbooks. Perfect fit for calm companies and craft."
+  "text": "If you're even remotely interested in technology and engineering, I highly recommend reading this. There are so many quote-worthy and mind-b",
+  "why": "Mind-blowing excerpts on semiconductor engineering, ASML, and the sheer scale of technological progress."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "willdepue",
-  "via": "WillManidis",
-  "text": "anthropic is massively underplaying the recent security breach. i'm hearing cathedral achieved full administrator access of the slack worksp",
-  "why": "Critical inside look at frontier lab security practices and a major Anthropic breach, shared by Will Manidis."
+  "topic": "econ-progress",
+  "author": "MichaelAArouet",
+  "via": "Noahpinion",
+  "text": "This is eye-opening. Europe’s share of global tech R&D has collapsed from 23% in 2005 to just 8% today, while the US has climbed to 62% and ",
+  "why": "Excellent synthesis of global tech R&D trends and the economic consequences of regulatory policy vs dynamism."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "jayvanbavel",
-  "via": "GaryMarcus",
-  "text": "Meta had an internal PR plan to try and discredit Jon Haidt because he was a critic of social media. Meta was going to recruit academics, li",
-  "why": "Important revelation about tech platforms targeting Jonathan Haidt and academic critics. High signal on tech's societal impact."
+  "topic": "rationality",
+  "author": "asmartbear",
+  "via": null,
+  "text": "When two extremes are both bad, distance yourself from both. A “Middle Way” or “balance” is appropriate. When they’re both good choices, the",
+  "why": "Excellent mental model for decision-making and trade-offs from a respected builder."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "emollick",
-  "via": null,
-  "text": "Important, but not unexpected, finding that experts working with AI agents are swayed by the positions of the AI, even if they think they ar",
-  "why": "Ethan Mollick's synthesis of critical new research on human-in-the-loop automation bias."
+  "topic": "agency",
+  "author": "isabelleboemeke",
+  "via": "jasoncrawford",
+  "text": "In 2020, we were fighting just to keep nuclear plants from closing early. Almost everyone said it was pointless. Nuclear was dying, and that",
+  "why": "Inspiring agency-driven perspective on the revival of nuclear energy and overcoming 'inevitable' decline."
  },
  {
   "rank": 10,
   "kept": true,
-  "score": 8,
+  "score": 7,
   "topic": "ai-engineering",
-  "author": "felixrieseberg",
-  "via": "trq212",
-  "text": "The coding interview is dead, at least for my team at Anthropic. I've seen enough to know that it no longer provides signal. I removed it fr",
-  "why": "Inside look at how AI is killing the traditional coding interview at frontier labs."
+  "author": "bjing2016",
+  "via": "Noahpinion",
+  "text": "Today, in collaboration with Anthropic, we’re excited to share rapid initial progress towards an antibody treatment for food allergy, which ",
+  "why": "Detailed, technical explanation of applying Claude to solve a specific biophysical problem in immunology."
  },
  {
   "rank": 11,
   "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "jasoncrawford",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "“Big compute builds strong models. Strong models lead to little compute. Little compute leads to weak models. Weak models lead to big comput",
-  "why": "Excellent conceptual framework for the self-stabilizing dynamics of the frontier AI compute race."
+  "text": "“Love the earth and sun and the animals… re-examine all you have been told at school or church or in any book, dismiss whatever insults your",
+  "why": "Timeless contemplative wisdom on intentional living from a consistently high-signal curator."
  },
  {
   "rank": 12,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "hammer_mt",
-  "via": "kieranklaassen",
-  "text": "I had basically done this for myself because it was so useful and now there's an official one. Gemini is severely underrated because with on",
-  "why": "Highly practical applied AI engineering breakdown of using Gemini's multimodal tools for agents."
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "EconBerger",
+  "via": "Noahpinion",
+  "text": "A few additions to Neil's argument: 1/ The unemployment rate is lower than it was a year ago .  Any \"AI is leading to higher aggregate unemp",
+  "why": "Data-driven counter-narrative on AI and unemployment showing no correlation with job losses."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "sebkrier",
-  "via": "Noahpinion",
-  "text": "+100! Also if you're experienced in running multi-agent simulations, familiar with reward hacking/safety literature, and econ-minded - pleas",
-  "why": "Fascinating intersection of economics, game theory, and AI alignment research."
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Yes. AI is going to have positive effects on our discourse, by constantly bringing facts. Posted Oct 28, 2026 at 3:44PM",
+  "why": "Thought-provoking philosophical take on AI as an epistemic counterweight to social media engagement algorithms."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "dylan522p",
+  "score": 6,
+  "topic": "econ-progress",
+  "author": "DKThomp",
   "via": null,
-  "text": "Re OpenAI TPU announcements, SemiAnalysis clients had this already. semianalysis.com/datacenter-ind… Posted Oct 28, 2026 at 12:57AM",
-  "why": "High-signal SemiAnalysis piece on AI compute and datacenter models."
+  "text": "There's a leftist/academic thing to constantly emphasize both the moral brutality of capitalist growth in the US and the surprising growth u",
+  "why": "Sharp, substantive critique of ideological framing in narratives around economic growth and history."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "builders-craft",
-  "author": "manishrjain",
-  "via": "sh_reya",
-  "text": "After a year of quiet work, I'm ready to announce Egres. Egres is a Postgres-compatible database designed to tackle heavy workloads and run ",
-  "why": "Deeply technical builder post detailing a new Postgres-compatible storage engine."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "cryptopunk7213",
+  "via": "Noahpinion",
+  "text": "Anthropic's is officially steering internal models and compute on solving drug discovery with the goal of solving all rare and common diseas",
+  "why": "Good summary of Anthropic's pharma work, but overshadowed by deeper analysis pieces today."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "themarginalian",
-  "via": null,
-  "text": "20 favorite children's books from 20 years of The Marginalian themarginalian.org/2026/10/25/20-… Posted Oct 27, 2026 at 11:03PM",
-  "why": "Excellent curation of children's books, perfect for the parenting and education focus."
+  "score": 5,
+  "topic": "contemplative",
+  "author": "ramez",
+  "via": "Noahpinion",
+  "text": "5-meo-DMT is quite possibly the most potent antidepressant known to science. It may even exceed the effectiveness of psilocybin, though psil",
+  "why": "Fascinating clinical trial data, though slightly outside the core focus areas."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "ojblanchard1",
-  "via": "Noahpinion",
-  "text": "econvitals is an amazing new resource.  On the one hand, it shows the power of AI, when well domesticated (by Jason).  On the other, it prod",
-  "why": "Great curation of a new AI-powered economics resource tracking central bank rates."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "TheZvi",
+  "via": null,
+  "text": "GPT4o-1 Was Crazy. Posted Oct 28, 2026 at 2:39PM",
+  "why": "Important real-world failure mode of LLM medical advice, but mostly just a link to a lawsuit."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "dwarkeshpodcast",
-  "via": "dwarkesh_sp",
-  "text": "President George H.W. Bush has gotten a lot of criticism for the Gulf War, usually for not “finishing the job” by overthrowing Saddam Hussei",
-  "why": "Fascinating historical analysis of the Gulf War's geopolitical context by a favorite podcaster."
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Okay, this makes so much more sense now. Posted Oct 28, 2026 at 12:21PM",
+  "why": "Brief commentary on benchmark updates; overshadowed by deeper methodological pieces today."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Hermann Hesse on solitude, the courage to be yourself, and how to find your destiny themarginalian.org/2019/01/15/her… Posted Oct 28, 2026 a",
-  "why": "Classic contemplative essay on solitude and intentional living."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "SigalSamuel",
+  "via": "GaryMarcus",
+  "text": "What if Anthropic just...stopped? Unilaterally? Right now? I talked to @DKokotajlo @_NathanCalvin @geoffreyirving about why it's time to sto",
+  "why": "Alignment discussion on unilateral pauses, though leans a bit preachy compared to technical safety work."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "japan_nobunaga",
-  "via": "Noahpinion",
-  "text": "The biggest mistake tourists make in Japan is dragging a fifty-pound suitcase up and down subway stairs. Watch how Japanese travelers board ",
-  "why": "Great micro-essay on high-trust infrastructure and societal progress in Japan."
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "I'm sure no distilled abliterated version of this \"God Model\" will become available to bioterrorists at any point, right? Posted Oct 28, 202",
+  "why": "Good quote, but the original full text from lefttailguy is scored higher in this batch."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "CartoonsHateHer",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "ramez",
   "via": "Noahpinion",
-  "text": "I don't know why Nate Silver has to \"live down\" predicting a 30% chance Trump would win in 2016. Things with 30% likelihood still happen all",
-  "why": "A solid rationality reminder on how the public misunderstands probabilistic forecasting."
+  "text": "I've been writing about neurotech for 20+ years now, in both fiction and non. This is the most exciting the field has ever been. Truly sci-f",
+  "why": "High-level hype about neurotech without much substantive analysis or data."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "JordanNanos",
-  "via": "DKokotajlo",
-  "text": "People seem to forget how unprecedented this is Posted Oct 26, 2026 at 3:19PM",
-  "why": "Major milestone announcement for frontier AI labs (Anthropic IPO filing)."
+  "author": "IamKyros69",
+  "via": "Noahpinion",
+  "text": "🚨BREAKING: Anthropic just showed what Claude did inside 6 drug companies 3 months of regulatory writing done in 4 hours ~35,000 antibody des",
+  "why": "Thread-boi formatting and redundant with other Anthropic pharma news."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "What it takes to be free themarginalian.org/2026/10/27/fre… Posted Oct 28, 2026 at 12:04AM",
-  "why": "Contemplative essay on freedom, though lacks specific context in the tweet."
+  "score": 4,
+  "topic": "rationality",
+  "author": "TomRtweets",
+  "via": "WillManidis",
+  "text": "New DIA report ( dia.mil/Articles/Press… ) essentially confirms Russian development, in breach of Outer Space Treaty, of a satellite constel",
+  "why": "Geopolitical defense news that falls outside of core focus areas."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 5,
+  "score": 4,
   "topic": "frontier-ai",
-  "author": "MauiBoyMacro",
-  "via": "GaryMarcus",
-  "text": "“If Anthropic’s colossal paper losses shouldn’t count in adjusted earnings, neither should the large paper gains on the other side of its de",
-  "why": "Financial scrutiny of Anthropic's earnings, but lacks deep analysis in the tweet itself."
+  "author": "owl_posting",
+  "via": "WillManidis",
+  "text": "incredible work. im in awe of anthropic’s pace, and am grateful for the transparency of process+results i went through 3 out of the 5 case s",
+  "why": "Good synthesis of Anthropic's pharma case studies, though redundant with other deep dives today."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "asmartbear",
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "You set high plan limits to be generous, but that can backfire. Userlist’s baseline was 500,000 emails a month. My cohost Mariya Delano: “Wh",
-  "why": "Good builder topic, but links to video-only content which you prefer to avoid."
+  "text": "I guess dancing robots weren't enough, huh reuters.com/world/china/ch… Posted Oct 28, 2026 at 7:22AM",
+  "why": "Notable macro news on the Chinese AI industry, though the commentary is thin."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Meryl Streep reads \"Morning Song\" by Sylvia Plath, who would have been 94 today: themarginalian.org/2018/04/04/mer… Posted Oct 28, 2026 at 2",
-  "why": "Beautiful poetry reading, but slightly outside the core philosophical and intentional living focus."
+  "text": "Damn this would be excellent Posted Oct 28, 2026 at 3:35PM",
+  "why": "Standard political news rather than deep economic or progress analysis."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "scaling01",
+  "score": 3,
+  "topic": "rationality",
+  "author": "AISafetyMemes",
   "via": "Noahpinion",
-  "text": "another brutal reality check for the open-sauce china shills GPT-5.5 released on April 23 outscores all tested chinese models and OpenAI and",
-  "why": "Contains benchmark data but the tone is too close to engagement-bait dunking."
+  "text": "BLACK OCTOBER UPDATE: Hackers have shut down a major hospital network in New Mexico. Patients urged to stay away. Cancelled surgeries. 30+ c",
+  "why": "Sensationalist fear-mongering and doom-posting rather than rigorous analysis."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "On Sylvia Plath's birthday, Patti Smith reads her haunting portrait of depression themarginalian.org/2023/09/04/the… Posted Oct 27, 2026 at ",
-  "why": "Poetry reading, less aligned with core philosophical/intentional living focus."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "LIFE",
+  "via": "anuatluru",
+  "text": "LIFE returns to print 11.23.26. Read our Editors’ Letter and learn more about the new LIFE here: new.life.com Posted Oct 28, 2026 at 1:00PM",
+  "why": "Pure announcement with no substantive insight."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 3,
-  "topic": "contemplative",
-  "author": "GearoidReidy",
-  "via": "Noahpinion",
-  "text": "A few months ago, I had the opportunity to sit down with the good folks from the Unpacking Japan Podcast. Do give it a listen if you're inte",
-  "why": "Podcast promotion without much written substance."
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "enunomaduro",
+  "via": "thorstenball",
+  "text": "local development might actually be dead i've fully reviewed @AmpCode in this video check it out: youtu.be/TzfaEXJgBBY?si… Posted Oct 28, 20",
+  "why": "Video-only content with an engagement-bait hook."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "jasoncrawford",
-  "via": null,
-  "text": "Sad to hear that @TheCrucible is closing. Great maker space in Oakland, I took a few metalworking classes there. Some wealthy SF person shou",
-  "why": "Local news about a maker space closing; lacks broader insight."
+  "score": 2,
+  "topic": "rationality",
+  "author": "DrunkRepub",
+  "via": "naval",
+  "text": "Everything wrong with this country in a single post. Elon makes things that benefit humanity while members of Congress do nothing but obstru",
+  "why": "Pure political rage-bait and culture-war dunking."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 3,
-  "topic": "agency",
-  "author": "krishnanrohit",
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "every",
   "via": null,
-  "text": "Brendan's great, recommended! Posted Oct 27, 2026 at 8:35PM",
-  "why": "Job posting, not a substantive essay or insight."
+  "text": "ATTENDING: @AdelNehme of @DataCamp will attend Thesis: 2027. Apply to attend Thesis, our inaugural conference on work and AI: every.to/thesi",
+  "why": "Pure marketing and event announcement."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "OK, based Posted Oct 28, 2026 at 2:07AM",
-  "why": "Low-signal commentary on a bizarre news item; lacks substantive analysis."
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "oznova_",
+  "via": "thorstenball",
+  "text": "Come work with me! Posted Oct 28, 2026 at 9:20AM",
+  "why": "Pure job posting."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 2,
-  "topic": "parenting-education",
-  "author": "Noahpinion",
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "thorstenball",
   "via": null,
-  "text": "It's kind of funny that MAGA sued to achieve the very outcome that MAGA has been freaking out about online (Indians in U.S. colleges) Posted",
-  "why": "Culture-war politics and dunking, which violates your anti-taste rules."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I fucking hate ketamine, lamest possible drug Posted Oct 28, 2026 at 1:06AM",
-  "why": "Low-signal dunking on a news article."
+  "text": "We don't usually hire. But we're hiring now. Amp Labs in Sydney is looking for senior or staff-level engineers. If you're interested, contac",
+  "why": "Pure job posting."
  }
 ]
