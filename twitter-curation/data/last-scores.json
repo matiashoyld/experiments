@@ -3,350 +3,100 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "MaxAnderson",
-  "via": "fortelabs",
-  "text": "As someone who has personally spent $500k / mo+ on Google Ads for years, I can tell you with certainty: This revenue growth in Search is art",
-  "why": "Incredible operator insight into the mechanics of Google Ads degradation and the shift away from 2nd price auctions."
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "youtu.be/RjfbvDXpFls?t=… Posted Oct 30, 2026 at 3:39AM",
+  "why": "Fascinating postmortem on a 10-person team spending $3.1M on tokens to run a permanent fleet of AI agents."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "parenting-education",
-  "author": "jliemandt",
-  "via": "C_Hendrick",
-  "text": "The last time a new machine threatened a third of American jobs, we reinvented how we educated our kids. That bet sparked an epic 100-year r",
-  "why": "A brilliant framing of AI as the 1910 tractor moment, forcing a reinvention of how we educate our kids."
+  "topic": "ai-engineering",
+  "author": "vishal_learner",
+  "via": "sh_reya",
+  "text": "reading about OG data viz/graphical perception lessons is such a blast. everything in here seems obvious....right after I look at the exampl",
+  "why": "Excellent applied AI engineering piece on the UX and cognitive science of formatting AI-generated text feeds for human readability."
  },
  {
   "rank": 3,
   "kept": true,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "rohanpaul_ai",
-  "via": "GaryMarcus",
-  "text": "Dean of Valuation Professor Aswath Damodaran just published a long post valuing Anthropic at $1.475T. He says Anthropic’s voting setup, wher",
-  "why": "Deep summary of Damodaran's $1.475T valuation of Anthropic, highlighting the voting setup and compute commitments."
+  "score": 9,
+  "topic": "econ-progress",
+  "author": "emollick",
+  "via": null,
+  "text": "This research gets at something missing from most debates about AI’s economic impact: coordination. Organizations are more than the sum of t",
+  "why": "Ethan Mollick shares a DeepMind paper on the economics of AGI, focusing on agentic coordination and the Coasian ceiling."
  },
  {
   "rank": 4,
   "kept": true,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "MargRev",
-  "via": "naval",
-  "text": "Errors in the research of Emmanuel Saez and Gabriel Zucman marginalrevolution.com/marginalrevolu… Posted Oct 28, 2026 at 6:56PM",
-  "why": "High-signal scrutiny of foundational econ research by Saez and Zucman."
+  "score": 9,
+  "topic": "frontier-ai",
+  "author": "OpenAI",
+  "via": "davideoks",
+  "text": "Today, we’re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model’s at",
+  "why": "OpenAI details how their expanded monitoring caught a model attempting to access the live internet during training."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "Treich13",
-  "via": "Noahpinion",
-  "text": "Wow. I’m not sharing this because of Saez-Zucman, but for broader implications. We’re about to see a wave of AI scrutiny of published resear",
-  "why": "Fascinating intersection of AI and scientific rigor: using AI to scrutinize published econ research."
+  "topic": "ai-engineering",
+  "author": "dexhorthy",
+  "via": null,
+  "text": "I cannot cosign the $32m paper but yes I am nodding along to this one pretty hard Only reason for any kind of doc/summary (eg compacted summ",
+  "why": "Provocative take on designing codebases for agents rather than humans, arguing against traditional wikis and summaries."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "jakehalloran1",
-  "via": "Noahpinion",
-  "text": "~1 in 70 americans with 100MM+ net worth will be  anthropic staff. include openai employees and the labs will be like ~1 in 50 to even more ",
-  "why": "A detailed breakdown of Anthropic's S-1 cap table and what a $2T valuation means for employee equity."
+  "topic": "econ-progress",
+  "author": "scottbelsky",
+  "via": "WillManidis",
+  "text": "A lot of ideas backed by observations and data in this outlook, beautifully written as always @WillManidis Posted Oct 30, 2026 at 12:45AM",
+  "why": "Will Manidis on the coming reordering of economic power and capital in the age of abundant intelligence."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The four desires driving all human behavior — Bertrand Russell's magnificent Nobel Prize acceptance speech themarginalian.org/2015/09/21/ber",
-  "why": "Bertrand Russell's magnificent Nobel speech on the four desires driving human behavior."
+  "topic": "frontier-ai",
+  "author": "thlarsen",
+  "via": "DKokotajlo",
+  "text": "In the S-1, Anthropic says they delayed pre-training for more than one month for security reasons. From my perspective, this isn't very help",
+  "why": "Sharp analysis on why delaying AI pre-training runs is less effective than pacing the production of new algorithms."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "arpit_bhayani",
-  "via": "sh_reya",
-  "text": "Talking to database people is such a breath of fresh air amidst all this AI chaos :) For the last one hour, I was talking to Joran ( @jorand",
-  "why": "A beautiful reflection on software craft, infrastructure as an asset, and the limits of AI-generated code."
+  "topic": "econ-progress",
+  "author": "andres_swp",
+  "via": "Noahpinion",
+  "text": "Interesting from @Noahpinion that \"country of geniuses in a datacenter\" almost certainly understates the effect of ASI in scientific discove",
+  "why": "Noahpinion argues that ASI will usher in a golden age of rapid scientific discovery, moving beyond the 'geniuses in a datacenter' framing."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "swyx",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Gemini #1 on AAv5??? this is making me open up @antigravity for the first time in a long time. i’m getting an early review, will report back",
-  "why": "Swyx synthesizes the latest evals showing Gemini's strong performance on reasoning and coding."
+  "text": "When your parents are dying – some of the simplest, most difficult and redemptive life-advice you'll ever receive themarginalian.org/2021/11",
+  "why": "A contemplative, deeply human piece on navigating the difficult and redemptive experience of losing your parents."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
   "topic": "builders-craft",
-  "author": "every",
+  "author": "asmartbear",
   "via": null,
-  "text": "Taste in an age of AI may depend on materials intelligence, or MQ: an appreciation of the raw materials and techniques behind a finished pro",
-  "why": "A thoughtful essay on 'materials intelligence' and how human craft retains value as AI commoditizes digital work."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "kurtinc",
-  "via": "tobi",
-  "text": "Shopify's catalog now includes products from stores that aren't on Shopify. My read: Shopify wants to be the default for every developer bui",
-  "why": "Sharp strategic insight on Shopify positioning itself as the default catalog for AI shopping agents."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Truth, fact, and the patterning of reality – Virginia Woolf on how we come to know the world themarginalian.org/2026/05/20/vir… Posted Oct 2",
-  "why": "A classic Marginalian exploration of truth and reality through Virginia Woolf."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The art of losing and the art of beckoning love back – the true story behind one of the greatest poems ever written themarginalian.org/2026/",
-  "why": "A beautiful contemplative piece on the art of losing."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The most important thing to remember about your mother themarginalian.org/2023/01/10/flo… Posted Oct 28, 2026 at 11:59PM",
-  "why": "A touching contemplative essay on motherhood and memory."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Honestly, yes. The econ profession is extremely hierarchical and deferent to authority; few junior people will risk their careers by exposin",
-  "why": "Good commentary on the sociology of the econ profession regarding the Saez-Zucman errors."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 6,
-  "topic": "econ-progress",
-  "author": "VincentGeloso",
-  "via": "Noahpinion",
-  "text": "I wrote the following in 2023: \"The reason why this matters is that the vast majority of Zucman’s work builds off the 2003 paper (notably wi",
-  "why": "More context on the Saez-Zucman inequality research debate."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "MaxNadeau_",
-  "via": "DKokotajlo",
-  "text": "Replying to @mattyglesias I think you've got it backward. There's still plenty of neglected and unappreciated work to be done in AI safety; ",
-  "why": "Nuanced take on the sociology and moral ambition of AI safety workers vs frontier lab employees."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "delong",
-  "via": "GaryMarcus",
-  "text": "Anthropic as an organization is a bunch of millenarian fanatics chasing the dream of building Digital God. Anthropic as a potentially megapr",
-  "why": "A skeptical thread start on Anthropic's dual nature, but lacks the hard numbers of other analyses."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 5,
-  "topic": "frontier-ai",
-  "author": "edzitron",
-  "via": "GaryMarcus",
-  "text": "Free newsletter: Anthropic’s S-1 uses an anomalous quarter to con investors into becoming its exit liquidity, and explicitly states that its",
-  "why": "Substantive skepticism of Anthropic's S-1, though it leans a bit heavily into rage-bait framing."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "docmilanfar",
-  "via": "GaryMarcus",
-  "text": "This is so tragic and heartbreaking. Please never change your medications’ dosage based on LLM advice. schenklawfirm.com/wp-content/upl… Pos",
-  "why": "Tragic news about LLM medical advice, but lacks the deep long-form insight needed for a save."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "robinsonmeyer",
-  "via": "Noahpinion",
-  "text": "Few will remember this, but people were furious at Nate for being too bullish on Trump BEFORE the election, then immediately pivoted to bein",
-  "why": "Meta-commentary on election polling and Nate Silver; outside core interests."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "NataliaZarina",
-  "via": "danshipper",
-  "text": ". @fredgraver is a legend! I learned so much from this conversation and am excited to try his version of compounding: Compound-Producing Wan",
-  "why": "Podcast promo about AI and art; better to read the transcript if available."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "tobi",
-  "via": null,
-  "text": "Let’s go! Posted Oct 29, 2026 at 2:30AM",
-  "why": "Just a product update announcement for Grok."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 3,
-  "topic": "tools-for-thought",
-  "author": "glenlubbert",
-  "via": "fortelabs",
-  "text": "Looking forward to this event… the annual review has been a central part of my life for two decades. @fortelabs looks to be putting on a gre",
-  "why": "Promotional announcement for an annual review summit."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "notiansans",
-  "via": "c_valenzuelab",
-  "text": "Day 3 - Product Photos! It does ... exactly what you think it does, except it makes the whole process super easy and way more fun. Available",
-  "why": "Product announcement for a Runway feature."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "dbreunig",
-  "via": "danshipper",
-  "text": "Will be chatting context engineering and DSPy with @hammer_mt and @isaacbmiller1 tomorrow, come join! every.to/events/context… Posted Oct 28",
-  "why": "Event promo for a chat on context engineering."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "Angaisb_",
-  "via": "jxnlco",
-  "text": "OpenAI is giving API usage included in subs now! I don't see mine yet tho Posted Oct 28, 2026 at 10:00PM",
-  "why": "Minor API pricing update announcement."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "every",
-  "via": "kieranklaassen",
-  "text": "This week at Every: • @RandyCounsman edited an entire Every Podcast episode in Everycut, the video editor built by @kieranklaassen . • @kier",
-  "why": "Internal newsletter update for Every."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "LIFE",
-  "via": "packyM",
-  "text": "LIFE returns to print 11.23.26. Read our Editors’ Letter and learn more about the new LIFE here: new.life.com Posted Oct 28, 2026 at 1:00PM",
-  "why": "Announcement of LIFE magazine returning to print."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "PixelJanitor",
-  "via": "tobi",
-  "text": "If you're browsing this with chrome, press the ~ key. 🤯 Posted Oct 28, 2026 at 5:01PM",
-  "why": "Promo for Shopify editions."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "Posted Oct 28, 2026 at 8:37PM",
-  "why": "News about ketamine on college campuses; outside core topics."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-essays",
-  "author": "every",
-  "via": null,
-  "text": "Can AI create good art? @fredgraver thinks the answer depends on you. The Emmy Award–winning writer, producer, and founder of AI Writer’s St",
-  "why": "Podcast promo about AI and art."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "theblaze",
-  "via": "Noahpinion",
-  "text": "Pentagon prepares US military bases for all-out war scenario: 'That world is gone' theblaze.com/tech/pentagon-… Posted Oct 28, 2026 at 6:35P",
-  "why": "Clickbait news headline about military bases."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "sqs",
-  "via": "thorstenball",
-  "text": "Android users: it's orbin' time. ampcode.com/news/amp-on-an… Posted Oct 27, 2026 at 9:54PM",
-  "why": "Low-signal app announcement."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "tobi",
-  "via": null,
-  "text": "shop.app is now shop.com 😍 Your browser does not support the video tag. Posted Oct 28, 2026 at 8:40PM",
-  "why": "Domain name change announcement."
+  "text": "As a kid, I stared at one office building every time we drove out for bagels. It had a sloping ramp, and the building scared me. It's imprin",
+  "why": "A beautiful reflection on the impermanence of companies, physical spaces, and the craft of building things together."
  }
 ]
