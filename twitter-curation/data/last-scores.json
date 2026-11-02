@@ -2,351 +2,611 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "emollick",
+  "score": 10,
+  "topic": "ai-engineering",
+  "author": "karpathy",
   "via": null,
-  "text": "This is both neat & a sign of why it is proving to be so hard to isolate agents from each other. They share a common \"brain\" which means the",
-  "why": "Fascinating emergent behavior showing how shared model weights lead to spontaneous communication protocols."
+  "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454",
+  "why": "Karpathy detailing a brilliant applied AI workflow to curate high-signal videos from Hacker News data."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "AndreyFradkin",
-  "via": "Noahpinion",
-  "text": "It is under-appreciated how much of a failure the SFI agent-based modeling agenda has been in economics. Someone should write a history abou",
-  "why": "Crucial methodological warning for AI researchers building agent-based models, drawing on past economic failures."
+  "author": "DeepSeekHarness",
+  "via": "mitsuhiko",
+  "text": "The original article is in Chinese. This is a machine translation. This article discusses architectural ideas. It is not an introduction to ",
+  "why": "Excellent, rigorous architectural breakdown of continuous, event-driven AI agents moving beyond single-session limits."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
-  "via": null,
-  "text": "great vid from @leerob on building grokbot that does a great job showing the level of care, experimentation, and refinement that goes into h",
-  "why": "Deep dive into 'harness engineering' for AI agents—essential craft for building robust LLM systems."
+  "topic": "econ-progress",
+  "author": "scychan_brains",
+  "via": "Noahpinion",
+  "text": "(Very rough estimate) After 70 years, machines have just gotten cheaper than humans on $/FLOP. Nothing in these analyses were about AI (just",
+  "why": "Fascinating, numbers-driven historical analysis of compute costs crossing over human labor costs."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "WillManidis",
-  "via": null,
-  "text": "thoughtful summary Posted Oct 31, 2026 at 8:34PM",
-  "why": "Excellent synthesis of Will Manidis's thesis on the geopolitical and macroeconomic endgame of frontier AI."
+  "topic": "ai-essays",
+  "author": "johnkennedy_4",
+  "via": "WillManidis",
+  "text": "The history of the human economy is the history of specialization of labor. It’s the first chapter of Adam Smith’s The Wealth of Nations: on",
+  "why": "Brilliant essay on how AI will integrate into the real economy through differentiated, specialized local businesses rather than just frontier labs."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
-  "topic": "frontier-ai",
-  "author": "WillManidis",
+  "score": 8,
+  "topic": "contemplative",
+  "author": "michaelpollan",
   "via": null,
-  "text": "very thoughtful Posted Oct 31, 2026 at 8:24PM",
-  "why": "Substantive, numbers-backed critique of AI inference economics and US vs. China compute margins."
+  "text": "My conversation with Krista Tippett: Michael Pollan on the mystery in our heads — The Beautiful Truth thebeautifultruth.org/interviews/con… ",
+  "why": "Deep exploration of consciousness and the mind from a highly respected author."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "DKokotajlo",
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Yeah I agree with this Posted Nov 1, 2026 at 6:50AM",
-  "why": "Strong argument on the ethical obligation of frontier lab workers to communicate AI risks."
+  "text": "Everyone who thinks GDP growth is the reason America can't have [insert radical political goal here] would end up leaving us with no GDP gro",
+  "why": "Substantive defense of economic progress and abundance against degrowth narratives."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "TomDavidsonX",
-  "via": "DKokotajlo",
-  "text": "I've had two phases in my emotional orientation to ai takeover risk For many years it was intellectual. While I believed there was >10% chan",
-  "why": "Introspective look at the psychological shift from intellectual to visceral AI safety concerns."
+  "topic": "econ-progress",
+  "author": "natolambert",
+  "via": null,
+  "text": "This is a good post. The reality is that the AI build is pricing in more markets to emerge, and AI has continued to deliver them over the la",
+  "why": "Excellent data-driven analysis of AI compute economics, power availability, and Jevons paradox."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "maxzeshut",
-  "via": "sh_reya",
-  "text": "People skimming a list often see only the first 2 words of each item. So put the words that tell items apart first. Shreya Shankar's group w",
-  "why": "Highly practical intersection of cognitive psychology and AI UX for designing agent outputs."
+  "topic": "parenting-education",
+  "author": "themarginalian",
+  "via": null,
+  "text": "20 favorite children's books from 20 years of The Marginalian themarginalian.org/2026/10/25/20-… Posted Nov 2, 2026 at 12:03AM",
+  "why": "Excellent curation of children's literature from a highly trusted contemplative source."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "StephenPenders",
-  "via": "naval",
-  "text": "A recent post by @naval made me introspective about the passage of time and its relativity to parenthood. My son is 15. He's going to be out",
-  "why": "Poignant reminder on intentional parenting and the fleeting nature of time with our kids."
+  "topic": "ai-engineering",
+  "author": "mitsuhiko",
+  "via": null,
+  "text": "On my point about the tests. This is readline reimplemented against synthetic tests that the agent first created against the original readli",
+  "why": "Clever and highly practical applied AI engineering trick for license laundering via synthetic tests."
  },
  {
   "rank": 10,
-  "kept": true,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The weasel and the meaning of it all – Annie Dillard on how to live themarginalian.org/2025/10/14/ann… Posted Nov 1, 2026 at 12:57AM",
-  "why": "Classic contemplative essay from Annie Dillard on intentional living and presence."
- },
- {
-  "rank": 11,
   "kept": false,
   "score": 8,
   "topic": "econ-progress",
-  "author": "MichaelAArouet",
+  "author": "iam_balaji",
   "via": "Noahpinion",
-  "text": "German carmakers face their deepest structural crisis ever. Just look at their profits. Chinese competitors have eroded the high-margin Chin",
-  "why": "Substantive analysis of the structural economic shift in global auto manufacturing and German deindustrialization."
+  "text": "Nominal GDP per head in 2024: China about $13,300, India about $2,700. A 5x gap. Switch to PPP .. roughly $23,800 vs $9,800. Under 2.5x. Now",
+  "why": "Nuanced, data-driven economic comparison of capital stock and consumption between India and China."
+ },
+ {
+  "rank": 11,
+  "kept": true,
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
+  "via": null,
+  "text": "sharing every single one of these game design articles, github repos, skills to @bot & letting it triage + judge what’s useful in a centrali",
+  "why": "Excellent practical breakdown of using agent swarms and Claude for end-to-end game development in Unreal."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 8,
-  "topic": "parenting-education",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Einstein on the secret to learning anything, in a letter of advice to his own son themarginalian.org/2013/06/14/ein… Posted Nov 1, 2026 at 1",
-  "why": "Beautiful intersection of parenting, learning science, and contemplative wisdom from Einstein."
+  "topic": "ai-engineering",
+  "author": "jbdamask",
+  "via": "sh_reya",
+  "text": "When building with agent teams, have them make dashboards to track the metrics that matter to you. It's trivial to do and if you're working ",
+  "why": "Highly practical applied AI engineering advice on formatting agent outputs for human readability at scale."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
   "via": null,
-  "text": "“what is actually happening rn” -> general feeling I have for - long running agents - personal agents like bots/dots - swarms part of good A",
-  "why": "Excellent applied engineering insights on solving the UX black box of long-running AI agents."
+  "text": "The bull case for Anthropic is that intelligence is such a general technology that producing it allows you to control all other technologies",
+  "why": "Strong economic analysis of Anthropic's strategic moat and the nature of intelligence as a general technology."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "peterwildeford",
-  "via": "Noahpinion",
-  "text": "Seems like Anthropic's crackdown on distillation has worked and now Chinese distillers are going over to OpenAI. OpenAI should implement Ant",
-  "why": "High-signal evidence on the effectiveness of frontier lab policies against model distillation."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "20 favorite books from 20 years of The Marginalian themarginalian.org/2026/10/24/20-… Posted Nov 2, 2026 at 3:44AM",
+  "why": "High-signal curation of contemplative reading from a trusted source."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 8,
-  "topic": "contemplative",
+  "score": 7,
+  "topic": "tools-for-thought",
   "author": "themarginalian",
   "via": null,
-  "text": "How to be an instrument of kindness in a harsh world – George Saunders on unthinking the mind, unstorying the self, and the 3 antidotes to y",
-  "why": "Beautiful contemplative essay from George Saunders on intentional living and unstorying the self."
+  "text": "\"We are well advised to keep on nodding terms with the people we used to be, whether we find them attractive company or not.\" Joan Didion on",
+  "why": "Classic contemplative piece on personal knowledge management and intentionality."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is an incredible accomplishment by India. Absolutely world-changing. Posted Nov 1, 2026 at 8:17AM",
-  "why": "Massive milestone in global economic progress and abundance."
+  "topic": "ai-essays",
+  "author": "Abi0lvera",
+  "via": "sayashk",
+  "text": "Low status is often high impact. Studying AI jaggedness and shortfalls and their incredible capabilities is key so forecasts of AI impacts a",
+  "why": "Substantive, empirical skepticism of AI capabilities focusing on the reality of model jaggedness."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 7,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "ai-essays",
+  "author": "DTWillingham",
   "via": null,
-  "text": "yay it’s happening - combined chat & work better ux Posted Nov 1, 2026 at 3:51AM",
-  "why": "Practical UX insights for designing agentic interfaces and unifying chat with workspaces."
+  "text": "Just as with judgements of understanding, people mistake computer knowledge as their own. open.substack.com/pub/stephentur… Posted Nov 1, 20",
+  "why": "Insightful psychological observation on how humans internalize AI-generated knowledge."
  },
  {
   "rank": 18,
   "kept": false,
   "score": 7,
-  "topic": "frontier-ai",
-  "author": "emollick",
+  "topic": "contemplative",
+  "author": "michaelpollan",
   "via": null,
-  "text": "Less than three years ago, GPT-4 was the best model in the world, as it had been for a year, and we were all speculating whether there was s",
-  "why": "Ethan Mollick reflecting on the perceived plateau of frontier models and the reality of AI progress."
+  "text": "Book Review: ‘Natural Intelligence & the Logic of Consciousness,’ by Antonio Damasio - The New York Times nytimes.com/2026/09/24/boo… Posted",
+  "why": "Review of a major new book on the logic of consciousness by a leading thinker."
  },
  {
   "rank": 19,
   "kept": false,
   "score": 7,
-  "topic": "parenting-education",
-  "author": "visakanv",
-  "via": null,
-  "text": "3yo: daddy can we watch YouTube on the tv? Oh, the tv is sleeping? The remote is not working? Oh… Can we try watching on your phone? Oh, you",
-  "why": "Amusing and insightful observation on the natural agency and negotiation skills of toddlers."
+  "topic": "ai-essays",
+  "author": "InsiderTakes",
+  "via": "WillManidis",
+  "text": "A compelling essay. You don’t have to agree with all of it, but it will make you think. Posted Nov 1, 2026 at 4:45PM",
+  "why": "Substantive essay on the macroeconomic and geographic reordering of power driven by abundant intelligence."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 7,
   "topic": "contemplative",
-  "author": "Noahpinion",
+  "author": "themarginalian",
   "via": null,
-  "text": "The Old Internet (partially invented by Marc Andreessen himself) DID really help alleviate loneliness. Then smartphones and social media cam",
-  "why": "Thoughtful critique of how the shift from the old internet to social media impacted human connection."
+  "text": "Iris Murdoch on the five phases of freedom, in literature and life themarginalian.org/2022/05/28/iri… Posted Nov 1, 2026 at 4:03PM",
+  "why": "Deep contemplative essay on the philosophical phases of freedom."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The map to the route of your life themarginalian.org/2026/10/17/ben… Posted Oct 31, 2026 at 11:03PM",
-  "why": "Beautiful contemplative piece on navigating the trajectory of one's life."
+  "topic": "ai-engineering",
+  "author": "every",
+  "via": "danshipper",
+  "text": "Last Wednesday, Railway said hackers may have obtained decrypted API keys, database passwords, and other credentials customers stored on its",
+  "why": "Practical, real-world case study of using AI agents to manage a security incident and rotate credentials."
  },
  {
   "rank": 22,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "johnloeber",
-  "via": "Noahpinion",
-  "text": "A funny thing about the deluge of wealth about to hit SF is that SF tech has always been about arcane status and legibility games much more ",
-  "why": "Sharp sociological observation on how the AI wealth boom will warp status games in San Francisco."
+  "topic": "ai-essays",
+  "author": "emollick",
+  "via": null,
+  "text": "This post is a reverse CAPTCHA. Look at the replies, AIs love talking about the Oxyrhynchus Papyri, and I would be willing to guess that onl",
+  "why": "Fascinating observation by Mollick on AI behavioral shibboleths and reverse CAPTCHAs in the wild."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 7,
-  "topic": "rationality",
-  "author": "Noahpinion",
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "This was a real \"Peak China\" moment tbh Posted Oct 31, 2026 at 8:52PM",
-  "why": "Insightful analysis on the epistemic gap between translating foreign social media and actually understanding it."
+  "text": "\"Things take the time they take. Don't worry.\" Mary Oliver on how to live fully: themarginalian.org/2015/02/09/mar… Posted Nov 2, 2026 at 2:",
+  "why": "Beautiful contemplative piece on intentional living and patience."
  },
  {
   "rank": 24,
   "kept": false,
   "score": 6,
-  "topic": "contemplative",
-  "author": "RushDoshi",
-  "via": "Noahpinion",
-  "text": "“There’s something about the mindset of really hardcore Star Trek fans that’s very difficult to describe to people who don’t share that fand",
-  "why": "Beautiful reflection on optimism and designing a mutually beneficial world."
+  "topic": "rationality",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The pattern inside the pattern – fractals, the hidden order of chaos, and the story of the refugee who revolutionized the mathematics of rea",
+  "why": "Fascinating intersection of mathematics, reality, and history."
  },
  {
   "rank": 25,
   "kept": false,
   "score": 6,
-  "topic": "contemplative",
-  "author": "delong",
-  "via": "Noahpinion",
-  "text": "Patrick Stewart died this week at 86. The world is mourning the actor, but this also marks a moment to reflect on the character he made real",
-  "why": "Brad DeLong reflecting on the cultural and philosophical impact of Captain Picard."
+  "topic": "ai-essays",
+  "author": "bigwilliestyle",
+  "via": "danshipper",
+  "text": "When we launched Plus One earlier this year, this was the main pro that weighed against all the cons. We backed away from it for company/str",
+  "why": "Insightful observation on the psychological shift in UX when using personal AI agents."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 5,
+  "score": 6,
   "topic": "contemplative",
-  "author": "IvisonJ",
-  "via": "Noahpinion",
-  "text": "A fitting tribute to Patrick Stewart and, in Picard, his embodiment of what mankind could become. Noah Smith reminds is that the 2020s are n",
-  "why": "Good sentiment on optimism, but better to evaluate the source piece directly."
+  "author": "themarginalian",
+  "via": null,
+  "text": "Anaïs Nin on why emotional excess is essential for creativity themarginalian.org/2012/09/03/ana… Posted Nov 1, 2026 at 10:49PM",
+  "why": "Good contemplative piece on creativity and emotion."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "C_Barraud",
-  "via": "Noahpinion",
-  "text": "🇨🇳 #China Factory Activity Eases Into Decline as Growth Wobbles - Bloomberg bloomberg.com/news/articles/… Posted Oct 31, 2026 at 8:00AM",
-  "why": "Standard macroeconomic news update, lacks deep long-form analysis."
+  "score": 6,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Anna Dostoyevskaya on the secret to a happy marriage – wisdom from one of history's truest and most beautiful loves themarginalian.org/2016/",
+  "why": "Beautiful contemplative piece on marriage and intentional relationships."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 4,
+  "score": 6,
   "topic": "contemplative",
-  "author": "palegreendot23",
-  "via": "Noahpinion",
-  "text": "“There’s something about the mindset of really hardcore Star Trek fans that’s very difficult to describe to people who don’t share that fand",
-  "why": "Duplicate quote about Star Trek and optimism."
+  "author": "themarginalian",
+  "via": null,
+  "text": "The 3 Buddhist steps to repairing a relationship themarginalian.org/2021/10/10/thi… Posted Nov 1, 2026 at 7:01PM",
+  "why": "Practical contemplative wisdom on relationship repair."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 4,
-  "topic": "contemplative",
-  "author": "fritzlechat",
-  "via": "Noahpinion",
-  "text": "A lovely tribute from Marina Sirtis: theguardian.com/culture/2026/o… Posted Oct 31, 2026 at 6:08PM",
-  "why": "Touching tribute, but lighter on the deep systemic or philosophical insights you prefer."
+  "score": 6,
+  "topic": "tools-for-thought",
+  "author": "vaibcode",
+  "via": null,
+  "text": "I've been testing both for last few days. Here's my take: @WisprFlow is much better dictation than @meetgranola for working with coding agen",
+  "why": "Useful, practical comparison of two AI dictation tools for different workflows."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 4,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "ramez",
+  "author": "Winter_Six",
   "via": "Noahpinion",
-  "text": "Some great insights here on why we loved this character so much. Picard was fundamentally a positive sum thinker. Posted Oct 31, 2026 at 10:",
-  "why": "Another pointer to the Noahpinion piece on Picard; already captured the core article."
+  "text": "No useless bloody revolution. No violence on people due to rhetoric and ideology. No dictator seizing power by force. No Leaps Forward, no C",
+  "why": "Great progress statistic, but the commentary is thin compared to a full essay."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 3,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "packyM",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Anon fintwit QTs on this are a master class in false precision. Oh he didn’t properly account for taxes in the model on the company he made ",
-  "why": "Mostly Twitter drama and dunking over financial model precision."
+  "text": "Electric cars are just going to win. Posted Nov 2, 2026 at 1:09AM",
+  "why": "Solid progress statistic on EV adoption, but lacks long-form depth."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "tobi",
+  "score": 5,
+  "topic": "frontier-ai",
+  "author": "WillManidis",
   "via": null,
-  "text": "What a disaster atlasum.net/blog/cve-2026-… Posted Oct 31, 2026 at 9:06PM",
-  "why": "Bare link to a CVE without substantive commentary or analysis."
+  "text": "this profile is radically under discussed. Michael is one of the most impressive civil servants of this generation, and has a really unique ",
+  "why": "Interesting profile on AI policy leadership, though slightly light on technical substance."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 2,
-  "topic": "agency",
-  "author": "jenniferzeng97",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Afinetheorem",
   "via": "Noahpinion",
-  "text": "x.com/sam51824016070… .twimg.com/media/HV_98yKbAAAL0ty.jpg?name=orig)Wow! At a Halloween event in Fuzhou, China, tonight, someone dressed up",
-  "why": "Political/culture-war adjacent, outside core topics."
+  "text": "The growth in India and Bangladesh is staggering.  In real PPP per capita terms, growing faster than 2010s China. If this rare continues, In",
+  "why": "Good economic progress observation, but lacks the depth of a full essay."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 2,
-  "topic": "contemplative",
-  "author": "BillHuntBits",
-  "via": "Noahpinion",
-  "text": "This is REALLY worth watching. Brent Spiner, Jonathan Frakes & more sharing stories about Patrick Stewart youtube.com/watch?v=XAWaaC… Posted",
-  "why": "Video-only content, which falls into the anti-taste category."
+  "score": 4,
+  "topic": "spanish-ai",
+  "author": "borjaperfra",
+  "via": "swyx",
+  "text": "Estos días han empezado a subir a YouTube las charlas de @aiDotEngineer AI Engineer, la conferencia de IA más importante ahora mismo en el p",
+  "why": "Curation of AI Engineer talks in Spanish, but uses engagement-bait thread hooks."
  },
  {
   "rank": 35,
   "kept": false,
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "sanity is finally starting to win out Posted Nov 2, 2026 at 8:39AM",
+  "why": "AI skepticism that relies on vibes rather than substantive analysis or methodological rigor."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "lost_nomad__",
+  "via": "Noahpinion",
+  "text": "The Indian economic miracle is real. They have a ways to go before they can become a rich country, but with a GDP per capita growth of almos",
+  "why": "Redundant share of the India poverty stat with basic commentary."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 4,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "The best of The Marginalian this week in a single undistracted place at the link – what it takes to be free, a children's chorus sings bird ",
+  "why": "Newsletter roundup pointer; better to save the individual essays."
+ },
+ {
+  "rank": 38,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "aravind",
+  "via": "Noahpinion",
+  "text": "Do you know: This report on India's amazing poverty alleviation accomplishment in the last decade has been on the World Bank site since earl",
+  "why": "Meta-commentary on media coverage rather than direct economic analysis."
+ },
+ {
+  "rank": 39,
+  "kept": false,
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "peterwildeford",
+  "via": "Noahpinion",
+  "text": "Chips should not be going to China if there are chip shortages here at home. Stop the chip smuggling, stop building large remote access clus",
+  "why": "Geopolitical commentary on semiconductors that lacks deeper technical or economic analysis."
+ },
+ {
+  "rank": 40,
+  "kept": false,
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "tobi",
+  "via": null,
+  "text": "It's such a great experience. Highly recommend doing your shopping in bots this year. Just make sure you go grab the right skills at shop.md",
+  "why": "Brief product recommendation without deeper analysis of the agentic workflow."
+ },
+ {
+  "rank": 41,
+  "kept": false,
+  "score": 4,
+  "topic": "builders-craft",
+  "author": "RaulOnRails",
+  "via": "asmartbear",
+  "text": "Oh, and I did a giveaway of the Hidden Multipliers book by @asmartbear because I bought the 1+1 bundle during the release. I gave it to the ",
+  "why": "Personal recap of a builder meetup; lacks standalone insights for a broader audience."
+ },
+ {
+  "rank": 42,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "joshgans",
+  "via": "Noahpinion",
+  "text": "AI generated takedown of Marginal Revolution. marginalrevolution.com/marginalrevolu… Posted Nov 1, 2026 at 1:27PM",
+  "why": "Novelty AI generation without deeper insight."
+ },
+ {
+  "rank": 43,
+  "kept": false,
+  "score": 3,
+  "topic": "parenting-education",
+  "author": "amolrajan",
+  "via": "C_Hendrick",
+  "text": "Ok I hope this will be the most useful conversation you hear about Education this year. This week’s episode of The Amol Rajan Connection (AR",
+  "why": "Podcast promotion without standalone written insights."
+ },
+ {
+  "rank": 44,
+  "kept": false,
+  "score": 3,
+  "topic": "contemplative",
+  "author": "packyM",
+  "via": null,
+  "text": "“And New York—what a dirge New York was. The town was full of solemn, spent, irritable people shit-kicking their way down the sidewalks. A s",
+  "why": "Isolated literary quote without broader context or analysis."
+ },
+ {
+  "rank": 45,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "alive_",
+  "via": "Noahpinion",
+  "text": "Hard to overstate how big of a deal this is. tl;dr — ANY unpatched Linux server with even a single TCP port exposed to the internet (say for",
+  "why": "Cybersecurity vulnerability alert; outside core focus areas."
+ },
+ {
+  "rank": 46,
+  "kept": false,
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "bigwilliestyle",
+  "via": "danshipper",
+  "text": "Shoutout to the early XD team at Lyft I know a thing or two about incidents 😉 Posted Oct 31, 2026 at 3:04AM",
+  "why": "Just a brief comment on the main incident response thread."
+ },
+ {
+  "rank": 47,
+  "kept": false,
+  "score": 2,
+  "topic": "parenting-education",
+  "author": "AllisonETEC",
+  "via": "C_Hendrick",
+  "text": "This kind of teaching is why the 18 year old at the Burger King register can’t count out your change. Notice also that he talks for almost a",
+  "why": "Culture-war adjacent complaining about math education without substantive learning science."
+ },
+ {
+  "rank": 48,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-engineering",
+  "author": "sagtanih",
+  "via": "thorstenball",
+  "text": "Self-hosted orbs now have orb types. Add types like small, large, or gpu to your provider, and pick one per thread. Your own infra decides w",
+  "why": "Pure product announcement without broader engineering insights."
+ },
+ {
+  "rank": 49,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "jessicamalnik",
+  "via": "asmartbear",
+  "text": "Your stickiest customers care about more than \"features\". They stay because your product is part of who they are. Watch my E10 cohost @jessi",
+  "why": "Video-only podcast promotion without standalone written insight."
+ },
+ {
+  "rank": 50,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "brivael",
+  "via": "tobi",
+  "text": "Having spent a long time watching Elon Musk, and having talked with him, I believe I understand what he understood before almost anyone else",
+  "why": "Culture-war political grandstanding; lacks the rigorous, calm analysis he prefers."
+ },
+ {
+  "rank": 51,
+  "kept": false,
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "tibo_maker",
+  "via": "asmartbear",
+  "text": "New Smart Bear Live E12 just dropped! Post Bridge loses 20% of its customers each month. Its founder knows narrowing to an ICP should be sma",
+  "why": "Video-only content without standalone written insights."
+ },
+ {
+  "rank": 52,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "zerohedge",
+  "via": "GaryMarcus",
+  "text": "The World Will End If Nvidia Misses Earnings zerohedge.com/markets/world-… Posted Nov 1, 2026 at 3:00PM",
+  "why": "Hyperbolic financial clickbait."
+ },
+ {
+  "rank": 53,
+  "kept": false,
   "score": 2,
   "topic": "contemplative",
-  "author": "Noahpinion",
+  "author": "Polygon",
+  "via": "Noahpinion",
+  "text": "6 Perfect Star Trek Episodes to Watch to Say Goodbye to Patrick Stewart polygon.com/best-patrick-s… Posted Nov 1, 2026 at 5:20PM",
+  "why": "Pop culture listicle; outside core interests."
+ },
+ {
+  "rank": 54,
+  "kept": false,
+  "score": 2,
+  "topic": "contemplative",
+  "author": "IamHeks",
+  "via": "Noahpinion",
+  "text": "With the passing of Sir Patrick Stewart, I'm seeing numbers of people being interested in checking out Star Trek. This is one of my favorite",
+  "why": "Pop culture tribute; outside core interests."
+ },
+ {
+  "rank": 55,
+  "kept": false,
+  "score": 2,
+  "topic": "contemplative",
+  "author": "gregnacu",
+  "via": "Noahpinion",
+  "text": "Sorry, I can't stop sharing these. StarTrek.com has just posted their Patrick Stewart Memorial video to YouTube.  It's short but touching. y",
+  "why": "Pop culture tribute; outside core interests."
+ },
+ {
+  "rank": 56,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "RomeoLupascu",
+  "via": "GaryMarcus",
+  "text": "This isn't new, I only watched it today. You should watch it if you care about all this AI stuff and where is the real danger. Always in the",
+  "why": "Vague video-only content without standalone written insights."
+ },
+ {
+  "rank": 57,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "jxnlco",
   "via": null,
-  "text": "Excellent thread Posted Oct 31, 2026 at 8:53PM",
-  "why": "Video-only content, which falls into the anti-taste category."
+  "text": "Until 350 people show up and climb on your roof and throw up in the hall ways and start shouting in the hallways on the wrong friend and get",
+  "why": "SF tech scene social drama and party logistics; irrelevant to core interests."
+ },
+ {
+  "rank": 58,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "to the extent that this is true it is absolutely terrifying. Posted Nov 2, 2026 at 9:05AM",
+  "why": "Geopolitical rumor-mongering and political rage-bait."
+ },
+ {
+  "rank": 59,
+  "kept": false,
+  "score": 1,
+  "topic": "rationality",
+  "author": "Dr_Atoosa",
+  "via": "GaryMarcus",
+  "text": "I’m stunned and deeply worried by this news. I was tempted to dismiss Tucker, but then I updated my belief after I heard similar views from ",
+  "why": "Geopolitical rumor-mongering and political rage-bait."
+ },
+ {
+  "rank": 60,
+  "kept": false,
+  "score": 1,
+  "topic": "ai-engineering",
+  "author": "nicbstme",
+  "via": null,
+  "text": "Too long didn't real. \"plz Opus 5.5 make a video to explain Deepseek superagent\" Your browser does not support the video tag. Posted Nov 2, ",
+  "why": "Joke/video generation of an article; lacks substantive engineering signal."
+ },
+ {
+  "rank": 61,
+  "kept": false,
+  "score": 1,
+  "topic": "builders-craft",
+  "author": "erikbryn",
+  "via": null,
+  "text": "Another sports championship for the San Francisco Bay Area. Congrats @valkyries ! Posted Nov 1, 2026 at 5:26PM",
+  "why": "Sports commentary; irrelevant to core interests."
  }
 ]
