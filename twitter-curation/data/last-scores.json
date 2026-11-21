@@ -2,541 +2,601 @@
  {
   "rank": 1,
   "kept": true,
-  "score": 10,
-  "topic": "frontier-ai",
-  "author": "_Chris_Ong",
-  "via": "jxnlco",
-  "text": "In September, we released our first report on how internal deployments have accelerated AI research at OpenAI. Today we are releasing a seco",
-  "why": "Incredible data-rich postmortem on how OpenAI internally uses agents to accelerate AI research, with real success metrics."
+  "score": 9,
+  "topic": "ai-essays",
+  "author": "krishnanrohit",
+  "via": null,
+  "text": "Sufficiently advanced interpolation is magic This is not theory-building in the usual sense. It is something much weirder and more alien. Th",
+  "why": "Profound insight into how AI solves deep mathematical problems through alien interpolation rather than human theory-building."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
   "topic": "econ-progress",
-  "author": "michellelsun",
-  "via": "Noahpinion",
-  "text": "If we are serious about reindustrialization, we need to think deeper than building factories, or building robots to run factories. The bottl",
-  "why": "Fascinating deep dive into the physical bottlenecks of reindustrialization and precision machine tools."
+  "author": "emollick",
+  "via": null,
+  "text": "I think trying to track how much work AI can do autonomously is critical, and this is a useful counter to some of the most audacious claims ",
+  "why": "Ethan Mollick provides crucial nuance on why AI's economic value in everyday tasks decouples from its ability to do autonomous research."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "topic": "ai-engineering",
+  "author": "c_valenzuelab",
   "via": null,
-  "text": "Interesting! Posted Nov 20, 2026 at 6:42AM",
-  "why": "Data-driven skepticism of imminent superintelligence based on OpenAI's own research acceleration metrics."
+  "text": "In October 38% of PRs in Runway were created, reviewed and shipped autonomously by agents (up from 0.1% in June). It's a new world. Posted N",
+  "why": "Incredible real-world data on applied AI engineering: 38% of Runway's PRs are now handled autonomously by agents."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "The AdWords playbook that built Smart Bear didn't work for WP Engine. In 2002, I was bootstrapping Smart Bear. AdWords was new; for a lot of",
-  "why": "Exceptional builder wisdom on how expertise is earned through doing, not a prerequisite for starting."
+  "topic": "ai-engineering",
+  "author": "aiDotEngineer",
+  "via": "swyx",
+  "text": "At Code Summit, @zachbruggeman said Inspect writes and ships ~75% of @tryramp 's code. One agent setup for the whole company. Shared session",
+  "why": "Incredible applied AI engineering case study: how a single agent setup writes and ships 75% of Ramp's code."
  },
  {
   "rank": 5,
-  "kept": false,
+  "kept": true,
   "score": 9,
   "topic": "econ-progress",
-  "author": "ernietedeschi",
-  "via": "Noahpinion",
-  "text": "New from @Stripe Economics today: how have AI businesses been weathering the recent headwinds & tailwinds to the industry? To help answer th",
-  "why": "High-signal economic data tracking the actual revenue of 20,000 AI-native firms on Stripe."
+  "author": "random_walker",
+  "via": "sayashk",
+  "text": "Reminder: racing to self-improve the verifiable subset of capabilities, which is what AI companies are currently doing, decreases the window",
+  "why": "Brilliant synthesis by Arvind Narayanan on how racing toward recursive self-improvement might actually extinguish AI labs' business models."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "frontier-ai",
-  "author": "naval",
-  "via": null,
-  "text": "“NVIDIA has to become a frontier lab faster than frontier labs are becoming chip companies.” Posted Nov 20, 2026 at 1:20PM",
-  "why": "Substantive analysis on how recursive self-improvement drives frontier labs to build custom silicon."
+  "topic": "ai-essays",
+  "author": "Grady_Booch",
+  "via": "GaryMarcus",
+  "text": "“We've learned almost nothing mathematically from what they did.” Posted Nov 21, 2026 at 4:37AM",
+  "why": "Terence Tao's profound critique on how AI solves math by \"strip mining\" without building human understanding."
  },
  {
   "rank": 7,
-  "kept": false,
+  "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Everyone who talks about AI safety these days seems to talk about the coming intelligence explosion, and the need to \"pace the frontier\" to ",
-  "why": "Substantive essay challenging the prevailing AI safety focus on an imminent intelligence explosion."
+  "topic": "ai-engineering",
+  "author": "GoodfireAI",
+  "via": "thesephist",
+  "text": "Looped models are weird. A layer can write to itself or read from \"future\" layers. @thinkymachines gave us early access to Inkling 2 Mini so",
+  "why": "Fascinating mechanistic interpretability research on how looped transformers coordinate information flow."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "DigEconLab",
-  "via": "erikbryn",
-  "text": "We rolled out our monthly data update to the AI Economic Indicators this week, but with it we're introducing something new: a monthly brief,",
-  "why": "High-signal monthly brief on AI economic indicators from Stanford's research team."
+  "topic": "builders-craft",
+  "author": "judegomila",
+  "via": "naval",
+  "text": "So the universe is harmonious and on this monumental day of history - the beauty of the primes has likely been proven. Today based on the Al",
+  "why": "An incredible builder artifact: open-sourcing 17 months of deep mathematical exploration and Lean 4 proofs around the Riemann Hypothesis."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "realbasilchatha",
-  "via": "swyx",
-  "text": "@linear was founded to build a better issue tracker, then $134M in funding and 7 years later, their CEO @karrisaarinen wrote a post titled “",
-  "why": "Excellent deep dive into Linear's craft-driven GTM strategy and practical AI support integration."
+  "topic": "econ-progress",
+  "author": "econcallum",
+  "via": "Noahpinion",
+  "text": "This is yesterday's news. The more interesting trend is that the world has passed peak gerontocracy, as we argued last week. Old people's in",
+  "why": "Fascinating economic demographic analysis arguing that we have passed peak gerontocracy, challenging conventional wisdom."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "themarginalian",
-  "via": null,
-  "text": "C.S. Lewis on how to structure the days of a creative life and train the receptive imagination themarginalian.org/2026/09/29/c-s… Posted Nov",
-  "why": "Beautiful insights from C.S. Lewis on structuring a creative life and nurturing imagination."
+  "topic": "ai-essays",
+  "author": "ramez",
+  "via": "sayashk",
+  "text": "New from me: The most important graphs in AI are wrong. Specifically, measures of the length of task AIs can autonomously accomplish are dra",
+  "why": "Deep dive into AI evals and why current metrics for autonomous task length are fundamentally flawed."
  },
  {
   "rank": 11,
-  "kept": true,
+  "kept": false,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Replit",
-  "via": "kieranklaassen",
-  "text": "The leading observability platform wants $83,700/yr just to monitor your app and catch issues. So Replit Missions built DataCat: github.com/",
-  "why": "Fascinating applied AI engineering: using agent swarms to map and rebuild an entire observability platform."
+  "topic": "rationality",
+  "author": "HeidyKhlaaf",
+  "via": "GaryMarcus",
+  "text": "Compare this to the mathematician forced to announce his manual proof of Riemann Hypothesis and how it was undergoing peer review. We should",
+  "why": "Substantive methodological skepticism regarding the verifiability of a 250,000-page AI-generated mathematical proof."
  },
  {
   "rank": 12,
-  "kept": true,
+  "kept": false,
   "score": 8,
   "topic": "frontier-ai",
-  "author": "joshua_saxe",
+  "author": "NateWitkin",
   "via": "sayashk",
-  "text": "Rare photo below of me wearing something other than shorts and a t-shirt to give a congressional briefing on AI cybersecurity policy this mo",
-  "why": "Pragmatic, highly substantive policy recommendations for AI cybersecurity, open weights, and geopolitical coordination."
+  "text": "This, from @JakeASteckler , is really a must read, esp. given recent discourse growing out of @dwarkesh_sp 's podcast episode with @paulfchr",
+  "why": "A highly detailed, substantive skeptical breakdown of AI takeover scenarios, providing a strong counterweight to default doom narratives."
  },
  {
   "rank": 13,
   "kept": false,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "every",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Warning on Fable 5.2: It spends a lot of time (and tokens!) on checking its work. @hammer_mt had Fable 5.2 remake the Avengers’ epic battle ",
-  "why": "Fascinating applied AI insight on how advanced agents spend massive compute on self-correction and play-testing."
+  "text": "If you missed them, 20 favorite books from 20 years of The Marginalian (an impossibly hard winnowing) themarginalian.org/2026/10/24/20-… Pos",
+  "why": "Exceptional curation: 20 favorite books from 20 years of Maria Popova's deep contemplative reading."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The good luck of your bad luck – Marcus Aurelius on the Stoic strategy for turning suffering into strength themarginalian.org/2021/09/19/mar",
-  "why": "A contemplative dive into Marcus Aurelius and the Stoic approach to adversity."
+  "score": 8,
+  "topic": "ai-engineering",
+  "author": "nithinaray",
+  "via": "c_valenzuelab",
+  "text": "we just published a piece on how we're building a software factory. this year, it became clear that coding agents are only as effective as t",
+  "why": "Deep dive into how Runway built an end-to-end pipeline for autonomous AI agents to handle the software development lifecycle."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 7,
-  "topic": "econ-progress",
-  "author": "ArtemisConsort",
-  "via": "naval",
-  "text": "It feels demeaning to even have to explain this, but: Amazon is valued by investors at about $2.8 trillion, which means they’re willing to b",
-  "why": "Clear, substantive breakdown of Amazon's valuation, margins, and the economics of scale."
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "allTheYud",
+  "via": "DKokotajlo",
+  "text": "The Riemann Hypothesis has fallen.  RH was the singular math result that had been named, in advance, as the obvious coal mine canary for dan",
+  "why": "Eliezer Yudkowsky's stark analysis of why the Riemann Hypothesis proof serves as a critical canary for recursive self-improvement."
  },
  {
   "rank": 16,
   "kept": false,
-  "score": 7,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "thorstenball",
-  "via": null,
-  "text": "This is something that comes up again and again. If, say, batteries get 200% cheaper, it's not just that the same products you had before be",
-  "why": "Great framing on how reducing the cost of code creation unlocks entirely new product paradigms."
+  "author": "RhysSullivan",
+  "via": "bentossell",
+  "text": "it's really hard for me to see what the end state of personal agents and ai labs will be fundamentally, the agent input needs to merge with ",
+  "why": "Excellent product and engineering analysis on why personal AI agents must inevitably merge with the operating system layer."
  },
  {
   "rank": 17,
   "kept": false,
-  "score": 7,
-  "topic": "tools-for-thought",
-  "author": "dexhorthy",
+  "score": 8,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
   "via": null,
-  "text": "i know i will lose this argument but i cannot get over how jarring the experience of editing text in notion is. i have always hated the part",
-  "why": "Opinionated, relatable critique of Notion's text editing UX and the hidden complexity of WYSIWYG tools."
+  "text": "The whole \"intelligence explosion\" debate is fun and interesting, but ultimately useless. If it's going to happen there's nothing we can do ",
+  "why": "A pragmatic, grounded argument that near-term AI capabilities will be transformative regardless of whether an 'intelligence explosion' occurs."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "_philschmid",
-  "via": null,
-  "text": "Genie 4 is the first model we launched on the new Live Interactions API, bringing native WebRTC (with ephemeral tokens) and WebSocket suppor",
-  "why": "Solid technical update on building real-time AI apps with WebRTC and WebSockets via Gemini."
+  "score": 8,
+  "topic": "builders-craft",
+  "author": "HaijunXia",
+  "via": "sh_reya",
+  "text": "Statements like “UI is dead. Chat is enough.” always frustrate me. First, chat is a UI too. Second, raw chat is far from sufficient for huma",
+  "why": "Excellent design philosophy on why chat is insufficient and how UI must evolve for rich human-agent communication."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 7,
-  "topic": "ai-essays",
-  "author": "Keshavatearth",
-  "via": "bentossell",
-  "text": "There's too much AI news to keep up with. And to do that in real time is as dangerous to your health as smoking. So, I'm bringing the newspa",
-  "why": "A well-curated, calm synthesis of recent AI developments, cutting through the real-time noise."
+  "score": 8,
+  "topic": "econ-progress",
+  "author": "JayRughani",
+  "via": "WillManidis",
+  "text": "“Chat, give me a quick synopsis of the Commanding Heights” - me 15m before my lunch w/ @WillManidis Posted Nov 20, 2026 at 8:02PM",
+  "why": "Will Manidis (a favorite author) exploring the macroeconomic reordering of capital and sovereignty driven by abundant intelligence."
  },
  {
   "rank": 20,
   "kept": false,
-  "score": 7,
+  "score": 8,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Albert Camus on the will to live and the most important question of existence themarginalian.org/2016/11/07/cam… Posted Nov 19, 2026 at 8:07",
-  "why": "Deep philosophical reflection on Albert Camus and the core questions of existence."
+  "text": "Carl Jung on how to live and the origin of his famous tenet for navigating uncertainty: \"Do the next right thing.\" themarginalian.org/2021/1",
+  "why": "Timeless contemplative wisdom from Carl Jung on navigating uncertainty by simply doing the next right thing."
  },
  {
   "rank": 21,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "Lewis_Bollard",
-  "via": "Noahpinion",
-  "text": "I ate cultivated chicken last night. Before dinner, we toured the @UPSIDEFoods facility — what critics call the \"lab\" where \"lab meat\" is ma",
-  "why": "Great on-the-ground perspective on the progress and hygiene of cultivated meat facilities."
+  "topic": "ai-engineering",
+  "author": "thesephist",
+  "via": null,
+  "text": "beautiful way to think about model activations and language by @voooooogel vgel.me/notebook/words… Posted Nov 21, 2026 at 9:29AM",
+  "why": "A conceptual deep dive into model activations and language representation from a respected builder."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Obsidian and the birds – an odyssey of wonder, from the Aztecs to the quantum world themarginalian.org/2025/03/08/teo… Posted Nov 20, 2026 a",
-  "why": "Beautiful contemplative essay bridging history and physics."
+  "score": 7,
+  "topic": "parenting-education",
+  "author": "MrsG2nd",
+  "via": "C_Hendrick",
+  "text": "Anyone interested in @Alphaschool , regardless of your take, should probably read this. @ddmeyer @karenvaites @C_Hendrick @natwexler beyondc",
+  "why": "Substantive analysis of the complexity of teaching in the context of AI-driven schooling models like Alpha."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "The bird that is your life themarginalian.org/2026/04/24/emi… Posted Nov 20, 2026 at 5:13AM",
-  "why": "A contemplative essay on life and attention."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "nicoleperlroth",
+  "via": "GaryMarcus",
+  "text": "This is what I mean when I say we've been living on borrowed time. AI is uncovering vulnerabilities that have lain dormant for years. That v",
+  "why": "Sobering analysis of how AI-driven vulnerability discovery is fundamentally altering the cybersecurity clock."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 6,
-  "topic": "frontier-ai",
-  "author": "Koukoumidis",
-  "via": "GaryMarcus",
-  "text": "The AI savior became the AI villain. There’s no sugarcoating it. That's the subject of the new investigation into Anthropic by @KalleyHuang ",
-  "why": "Provocative argument on Anthropic's regulatory capture and the strategic value of specialized enterprise models."
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
+  "via": null,
+  "text": "Actuality vs. possibility and how to hear the signal of your life themarginalian.org/2026/08/15/geo… Posted Nov 21, 2026 at 5:13AM",
+  "why": "A beautiful contemplative essay on navigating actuality versus possibility in life."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "emollick",
+  "score": 7,
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Playing GTA & not following the Anthropic IPO? Following the IPO & not playing GTA? Why not both? I had Fable make a thing where you steal c",
-  "why": "A fun, creative applied AI experiment linking game environments to real-world stock data."
+  "text": "Hermann Hesse on discovering the soul beneath the self and the key to finding peace themarginalian.org/2024/02/18/hes… Posted Nov 21, 2026 a",
+  "why": "Timeless contemplative wisdom from Hermann Hesse on finding peace and understanding the soul."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 6,
-  "topic": "ai-engineering",
-  "author": "GregKamradt",
-  "via": null,
-  "text": "Wow only 44% win rate for Humans vs Jev in SnakeBench Posted Nov 19, 2026 at 7:12PM",
-  "why": "Interesting benchmark data point on human vs AI performance in real-time decision games."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "teortaxesTex",
+  "via": "nabeelqu",
+  "text": "While Yud is of course correct on the trivial point that solving RH indicates the level of capability that all eggsperts should be flabbergh",
+  "why": "Nuanced pushback on Eliezer Yudkowsky's framing of the Riemann Hypothesis proof and the capability-safety tradeoff frontier."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "AI is crashing faster than dot com did. Posted Nov 20, 2026 at 1:12PM",
-  "why": "Market analysis of the AI stock selloff compared to the dot-com crash."
+  "score": 7,
+  "topic": "frontier-ai",
+  "author": "Liv_Boeree",
+  "via": "waitbutwhy",
+  "text": "Congrats to Anthropic. You can’t deny its impressive what they’ve achieved in a few years. But it’s time for them to walk their talk on safe",
+  "why": "A prominent call for Anthropic to enact a unilateral pause on recursive self-improvement in light of recent breakthroughs."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 5,
+  "score": 7,
   "topic": "frontier-ai",
-  "author": "Gabe_cc",
-  "via": "erikphoel",
-  "text": "jobs.80000hours.org/organisations/… Posted Nov 20, 2026 at 10:38AM",
-  "why": "Brief commentary on Anthropic's safety posture regarding recursive self-improvement."
+  "author": "KLdivergence",
+  "via": "random_walker",
+  "text": "Sometimes I think about a counterfactual world in which the corner of the AI ethics community I used to be part of hadn't dogmatically rejec",
+  "why": "A thoughtful sociological reflection on how the AI ethics community's dogmatic rejection of LLMs marginalized their influence."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "BAAJA implications for mass transit have not gotten much attention but it’s a huge deal Posted Nov 19, 2026 at 5:42PM",
-  "why": "Commentary on permitting reform and mass transit infrastructure."
+  "score": 6,
+  "topic": "rationality",
+  "author": "stevenstrogatz",
+  "via": "GaryMarcus",
+  "text": "The plot thickens! Ravi Vakil announces \"Alessandro Masullo has a proposed proof of GRH [Generalized Riemann Hypothesis], and Brian Conrad h",
+  "why": "Fascinating counter-narrative to the AI math hype: a simultaneous, purely human proposed proof of the Generalized Riemann Hypothesis."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "trq212",
+  "score": 6,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Software is both art and utility. AI is both an Industrial Revolution and a Renaissance. Factories are for utilities, at AIE Code I talked a",
-  "why": "Philosophical musing on software as art in the AI era, but lacks depth in the tweet itself."
+  "text": "This is a preview of how AI will cause a scientific revolution Posted Nov 20, 2026 at 8:54PM",
+  "why": "Great framing of the Riemann Hypothesis proof as a preview of AI-driven scientific revolution."
  },
  {
   "rank": 31,
   "kept": false,
   "score": 5,
   "topic": "builders-craft",
-  "author": "MOVNTDQ",
-  "via": "sh_reya",
-  "text": "Introducing t4 ( github.com/spiraldb/t4 ) @SpiralDB , a fast object store cache: - Prefetching, splitting, coalescing, and racing read - Cus",
-  "why": "Technical release of a new fast object store cache for systems engineers."
+  "author": "excid3",
+  "via": "asmartbear",
+  "text": "YouTube stopped recommending @excid3 's Rails screencasts, and @r00k thinks the old format is “probably kinda dead.” His fix on Smart Bear L",
+  "why": "Interesting meta-discussion on how AI is changing developer education and screencasting formats."
  },
  {
   "rank": 32,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "translation: Anthropic fucked retail investors Posted Nov 20, 2026 at 1:14PM",
-  "why": "Financial skepticism on Anthropic's IPO structure, but lacks technical depth."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "vikktorrrre",
+  "via": "GaryMarcus",
+  "text": "Terence Tao: AI is winning at mathematics, but are we actually learning anything? “I've never seen such brutal competition, especially with ",
+  "why": "Duplicate of the Terence Tao commentary on AI and mathematics."
  },
  {
   "rank": 33,
   "kept": false,
-  "score": 4,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Honestly not sure OpenAI is gonna make it. Still getting WeWork vibes, Posted Nov 20, 2026 at 12:50PM",
-  "why": "News about California suing OpenAI over safety incidents."
+  "score": 5,
+  "topic": "builders-craft",
+  "author": "sonyasupposedly",
+  "via": "visakanv",
+  "text": "are you bored at work on this fine Friday? wonderful! because today I am pleased to present: AUTOZINE, a web app that turns your best recent",
+  "why": "A fun, creative builder project, but more of a toy than a high-signal long-form read."
  },
  {
   "rank": 34,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "Vibe coding a game is fun until you don't know what your own characters do. @trq212 on keeping creative control as models get better: readab",
-  "why": "Insightful take on the limits of 'vibe coding', but links to video-only content."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "jonobri",
+  "via": "Noahpinion",
+  "text": "Underrated how low Australia’s pension spending remains. Superannuation has its problems, but at least our ageing population hasn’t got us t",
+  "why": "A specific regional note on the broader pension crisis thread; the main thread is more comprehensive."
  },
  {
   "rank": 35,
   "kept": false,
-  "score": 4,
-  "topic": "builders-craft",
-  "author": "asmartbear",
-  "via": null,
-  "text": "Had a great time on the Ignite Podcast talking about the myth of exponential growth and other fun topics in startup land: linktr.ee/theignit",
-  "why": "Podcast promotion without substantive notes in the tweet."
+  "score": 5,
+  "topic": "parenting-education",
+  "author": "melissapan",
+  "via": "sh_reya",
+  "text": "it’s that time of the year again, getting some student reach out for application help in my inbox, so here we go ☺️ Posted Nov 20, 2026 at 1",
+  "why": "Practical advice for PhD applicants, but falls outside your core focus on learning science and education systems."
  },
  {
   "rank": 36,
   "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "big_pedestrian",
-  "via": "Noahpinion",
-  "text": "Rent control is shit policy that destroys cities case study 13,593. Posted Nov 19, 2026 at 3:32PM",
-  "why": "Brief commentary on the negative economic impacts of rent control."
+  "score": 5,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Riemann thoughts: thread with pointer to other threads Posted Nov 20, 2026 at 11:00PM",
+  "why": "Gary Marcus reiterating his long-standing thesis on neurosymbolic AI in light of the Riemann news."
  },
  {
   "rank": 37,
   "kept": false,
-  "score": 3,
+  "score": 5,
   "topic": "econ-progress",
-  "author": "jeffreyleefunk",
-  "via": "GaryMarcus",
-  "text": "There is no evidence for the sub-title: \"AI boom’s profits today go mostly to picks and shovels, but that will shift\" But why? If users aren",
-  "why": "Brief skepticism on AI monetization without deep original analysis."
+  "author": "JosephPolitano",
+  "via": null,
+  "text": "Who knows what this means in practice, but Trump’s nationalistic AI policies are a big reason non-American democracies are losing trust in U",
+  "why": "Interesting note on the geopolitics of AI data centers, but leans heavily into political commentary."
  },
  {
   "rank": 38,
   "kept": false,
-  "score": 3,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "andreasklinger",
-  "via": "mitsuhiko",
-  "text": "Yesterday we announced that we asked President @vonderleyen to withdraw the @euinc_petition proposal. Here is me visiting her to discuss thi",
-  "why": "EU business regulation politics, outside core interests."
+  "author": "RamiElghandour",
+  "via": "GaryMarcus",
+  "text": "I’ve taken two companies public. The Anthropic IPO is one of the worst executions I’ve ever seen. This is especially true given the 6X deman",
+  "why": "Financial commentary on the Anthropic IPO; lacks the deeper structural or technical insight you prefer."
  },
  {
   "rank": 39,
   "kept": false,
-  "score": 3,
-  "topic": "frontier-ai",
-  "author": "KenRoth",
-  "via": "GaryMarcus",
-  "text": "California sues OpenAI, accusing it of developing its AI technology without safety or the public’s interest in mind. It cites 80 incidents o",
-  "why": "News announcement about California's lawsuit against OpenAI."
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "Always worth reading! Posted Nov 21, 2026 at 1:43AM",
+  "why": "Pointer to Ramez Naam's piece, but Ethan Mollick's share of this same link included much better original commentary."
  },
  {
   "rank": 40,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "puckrin",
-  "via": "GaryMarcus",
-  "text": "The Tech selloff continues. Asian stock markets have completely collapsed and are heading for their worst week since COVID. Nikkei has plung",
-  "why": "Macroeconomic news about Asian tech stock selloffs."
+  "score": 4,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "the fact that much of the twitterverse seems hellbent on leaving the human out of the story tells you all you need to know. Posted Nov 21, 2",
+  "why": "Meta-commentary on the AI discourse rather than substantive analysis of the math or the system itself."
  },
  {
   "rank": 41,
   "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
+  "score": 4,
+  "topic": "rationality",
   "author": "GaryMarcus",
   "via": null,
-  "text": "Tomorrow (friday Nov 20) may be the big one. SoftBank, which was one of the leading companies propping generative AI (aside from Nvidia) is ",
-  "why": "Short-term market speculation on SoftBank and AI IPOs."
+  "text": "worth considering (in tandem with my own hot take) Posted Nov 20, 2026 at 9:13PM",
+  "why": "Pointer to the 250k-page proof skepticism, but the earlier share by Heidy Khlaaf had better framing."
  },
  {
   "rank": 42,
   "kept": false,
-  "score": 3,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "ByrneHobart",
-  "via": null,
-  "text": "It’s terrible to jack up prices and threaten to completely stop working if your demands aren’t met, the Teamsters have informed me. I’m list",
-  "why": "Snarky labor politics commentary."
+  "author": "RushDoshi",
+  "via": "Noahpinion",
+  "text": "New piece with Mike Wessel: Democrats shouldn't retire the China Select Committee. They should repurpose it. A new majority should set new p",
+  "why": "Detailed US-China policy proposal, but leans too heavily into partisan politics rather than core tech/econ progress."
  },
  {
   "rank": 43,
   "kept": false,
   "score": 3,
-  "topic": "frontier-ai",
-  "author": "CedricWhitney",
-  "via": "davideoks",
-  "text": "please please please come work with me: openai.com/careers/resear… our team of (3) helps define, drive and operationalize so many of the hot",
-  "why": "Job posting for OpenAI."
+  "topic": "ai-engineering",
+  "author": "FatemeFouladkar",
+  "via": "Noahpinion",
+  "text": "یکی این پرامپتو به کلاد داده، و نتیجه‌ش خیلی جالبه! «یه وبسایت بساز که اول شبیه یه سایت مارکتینگ معمولیه‌. اما با اسکرول کردن کاربر، سایت به",
+  "why": "Fun AI web-dev demo, but lacks the long-form depth or analysis you prefer."
  },
  {
   "rank": 44,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "thoughts and prayers for marcus and zitron haters Posted Nov 20, 2026 at 12:35PM",
-  "why": "Short-term stock market commentary on Anthropic."
+  "score": 3,
+  "topic": "rationality",
+  "author": "OleAndreHagen",
+  "via": "GaryMarcus",
+  "text": "AI psychosis test: Are you enthusiastic about a mathematical problem allegedly being solved that you have never heard of? Are you enthusiast",
+  "why": "Skeptical dunking on AI hype without the substantive analysis or numbers required to clear the bar."
  },
  {
   "rank": 45,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "TheAtlantic",
-  "via": "Noahpinion",
-  "text": "The far right’s attacks against Indian Americans pull from a different script than their typical anti-immigrant tropes, @Saahil_Desai argues",
-  "why": "Political commentary outside core interests."
+  "score": 3,
+  "topic": "econ-progress",
+  "author": "DropSiteNews",
+  "via": "GaryMarcus",
+  "text": "▪️“Let capitalism take its course,\" Gary Marcus, an AI researcher, New York University professor emeritus and longtime critic of the AI indu",
+  "why": "Standard news recap of market movements and political commentary; lacks original deep analysis."
  },
  {
   "rank": 46,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
+  "score": 3,
+  "topic": "econ-progress",
   "author": "GaryMarcus",
   "via": null,
-  "text": "this is fake. AI can’t actually do this yet. Posted Nov 20, 2026 at 5:43AM",
-  "why": "Dunking on fake AI engagement bait."
+  "text": "How Trump’s looking the other way one time too many may have accidentally killed the AI boom: Posted Nov 21, 2026 at 1:54AM",
+  "why": "Political and financial scandal commentary rather than substantive technological or economic analysis."
  },
  {
   "rank": 47,
   "kept": false,
-  "score": 2,
-  "topic": "ai-engineering",
-  "author": "RVAwonk",
-  "via": "GaryMarcus",
-  "text": "If the recent outages are unrelated to cyberattacks, then why is the top White House cybersecurity official stepping down? Posted Nov 20, 20",
-  "why": "General cybersecurity news, outside core focus."
+  "score": 3,
+  "topic": "builders-craft",
+  "author": "MilksandMatcha",
+  "via": "swyx",
+  "text": "I host a lot of events both for personal and work and I wrote up how I do it in a #highROI way :) dx.tips/hosting Posted Nov 20, 2026 at 10:",
+  "why": "Networking and event-hosting advice; leans too close to audience-growth/hustle culture."
  },
  {
   "rank": 48,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
+  "score": 3,
+  "topic": "rationality",
   "author": "GaryMarcus",
   "via": null,
-  "text": "“The S&P 500 is officially down over -$6 trillion in 6 weeks” 🫧 Posted Nov 20, 2026 at 4:27AM",
-  "why": "Stock market price updates."
+  "text": "nobody talks about the all human mathematician, because it doesn’t fit their narrative and in the AI-assisted team, the most ignore the huma",
+  "why": "Meta-complaint about media narratives rather than substantive analysis of the mathematical breakthroughs."
  },
  {
   "rank": 49,
   "kept": false,
-  "score": 2,
+  "score": 3,
   "topic": "econ-progress",
-  "author": "endless_frank",
-  "via": "GaryMarcus",
-  "text": "We might be setting up for one the biggest liquidation events in the history of the U.S stock market.  I can’t believe how such little cash ",
-  "why": "Stock market doomcasting."
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Looks like Gavin is finally in the acceptance of grief stage re Nvidia. Posted Nov 20, 2026 at 9:56PM",
+  "why": "Snarky commentary on semiconductor market dynamics without adding original insight."
  },
  {
   "rank": 50,
   "kept": false,
-  "score": 2,
+  "score": 3,
   "topic": "econ-progress",
-  "author": "JosephPolitano",
+  "author": "krishnanrohit",
   "via": null,
-  "text": "reviewers are calling it “the most bisexual and on-brand Joey thing I’ve ever fucking seen” DC friends, come out to this tomorrow if you can",
-  "why": "Local event promotion."
+  "text": "Jensen, story so far. - He slept with a spy! - Well maybe not a spy, but she got told secrets - Maybe not spying per se but he helped smuggl",
+  "why": "Recap of CEO scandal drama; lacks the structural or technical depth you look for."
  },
  {
   "rank": 51,
   "kept": false,
-  "score": 2,
-  "topic": "frontier-ai",
+  "score": 3,
+  "topic": "econ-progress",
   "author": "GaryMarcus",
   "via": null,
-  "text": "Anthropic dropped from $111.50 once public trading started, and it is continuing to fall after hours. Posted Nov 19, 2026 at 9:30PM",
-  "why": "Short-term stock price updates."
+  "text": "told ya it would get worse. maybe Gerstener wanted Jensen back so that this shit wouldn’t get out. if so, too late. Posted Nov 20, 2026 at 8",
+  "why": "Financial news and scandal commentary without deep structural analysis."
  },
  {
   "rank": 52,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "DavidCornDC",
-  "via": "GaryMarcus",
-  "text": "Why the Nvidia-Huang-Trump scandal may be the most important scandal ever. My latest: motherjones.com/politics/2026/… Posted Nov 19, 2026 at",
-  "why": "Political scandal piece, explicitly anti-taste."
+  "score": 2,
+  "topic": "builders-craft",
+  "author": "bentossell",
+  "via": null,
+  "text": "keshav helped build bens bites since the early days he knows more about the space than most can write great content can build understands ex",
+  "why": "Job-seeking post, not high-signal long-form insight."
  },
  {
   "rank": 53,
   "kept": false,
-  "score": 1,
+  "score": 2,
   "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "uh oh Posted Nov 19, 2026 at 10:31PM",
-  "why": "Political news."
+  "author": "AviBittMD",
+  "via": "Noahpinion",
+  "text": "Holy shit Posted Nov 20, 2026 at 8:17PM",
+  "why": "Media drama and retraction news, lacking long-form insight."
  },
  {
   "rank": 54,
   "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "more warnings people should have listened to: Posted Nov 21, 2026 at 12:40AM",
+  "why": "Book promotion and \"I told you so\" commentary without new substantive analysis."
+ },
+ {
+  "rank": 55,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "matthewstoller",
+  "via": "GaryMarcus",
+  "text": "Softbank is cooked Posted Nov 20, 2026 at 9:57PM",
+  "why": "Financial doom-casting without rigorous analysis or numbers."
+ },
+ {
+  "rank": 56,
+  "kept": false,
+  "score": 2,
+  "topic": "tools-for-thought",
+  "author": "akothari",
+  "via": "anuatluru",
+  "text": "notion.com/nsfw Posted Nov 20, 2026 at 7:20PM",
+  "why": "Bare link with no context or substantive analysis."
+ },
+ {
+  "rank": 57,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "people want to cheer; they don’t want to think Posted Nov 20, 2026 at 8:59PM",
+  "why": "Repetitive self-quoting and meta-complaining without new substance."
+ },
+ {
+  "rank": 58,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "ModeledBehavior",
+  "via": "Noahpinion",
+  "text": "Republicans must reject anti-Indian bigotry Must read from my colleague @jordanmcgillis nationalreview.com/magazine/janua… Posted Nov 20, 20",
+  "why": "Pure political commentary, which falls into your anti-taste filters."
+ },
+ {
+  "rank": 59,
+  "kept": false,
+  "score": 2,
+  "topic": "econ-progress",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "Trump literally earlier today proposed to put a “tremendous tax” on anyone trying to build data centers outside the U.S. —and yet cannot see",
+  "why": "Political dunking and hypocrisy-pointing rather than substantive analysis of AI infrastructure."
+ },
+ {
+  "rank": 60,
+  "kept": false,
   "score": 1,
   "topic": "rationality",
-  "author": "mattyglesias",
-  "via": "Noahpinion",
-  "text": "The far left’s double game is working relentlessly to undermine Democrats and then turning around and winning primaries based on the theory ",
-  "why": "Pure political commentary."
+  "author": "TheBabylonBee",
+  "via": "DKokotajlo",
+  "text": "Anthropic Offers Public Amazing Opportunity To Invest In The Apocalypse buff.ly/tvv9ODf Posted Nov 19, 2026 at 6:00PM",
+  "why": "Satirical headline, not high-signal reading."
  }
 ]
