@@ -3,600 +3,100 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "ai-essays",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "Sufficiently advanced interpolation is magic This is not theory-building in the usual sense. It is something much weirder and more alien. Th",
-  "why": "Profound insight into how AI solves deep mathematical problems through alien interpolation rather than human theory-building."
+  "topic": "contemplative",
+  "author": "1917AndAllThat",
+  "via": "erikphoel",
+  "text": "This is a beautiful bit of writing. Posted Nov 22, 2026 at 8:26AM",
+  "why": "Erik Hoel beautifully weaves the AI Riemann breakthrough with fatherhood and consciousness—a perfect intersection of your core interests."
  },
  {
   "rank": 2,
   "kept": true,
   "score": 9,
-  "topic": "econ-progress",
-  "author": "emollick",
-  "via": null,
-  "text": "I think trying to track how much work AI can do autonomously is critical, and this is a useful counter to some of the most audacious claims ",
-  "why": "Ethan Mollick provides crucial nuance on why AI's economic value in everyday tasks decouples from its ability to do autonomous research."
+  "topic": "ai-engineering",
+  "author": "thesupermannx",
+  "via": "GaryMarcus",
+  "text": "MIT published the most uncomfortable paper on vibe coding. They tracked every new app that dropped on the app store, play store and chrome w",
+  "why": "Brutal, data-backed anti-hype on AI coding agents: devs write 25x more code but 95% goes in the trash. Shipping remains the bottleneck."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 9,
   "topic": "ai-engineering",
-  "author": "c_valenzuelab",
-  "via": null,
-  "text": "In October 38% of PRs in Runway were created, reviewed and shipped autonomously by agents (up from 0.1% in June). It's a new world. Posted N",
-  "why": "Incredible real-world data on applied AI engineering: 38% of Runway's PRs are now handled autonomously by agents."
+  "author": "eddiedzhou",
+  "via": "sh_reya",
+  "text": "a context layer is actually not counter to the bitter lesson it’s just systems infra: a local read replica + derived indexes built by offlin",
+  "why": "Deep technical argument on why building a 'context layer' for LLMs doesn't violate the Bitter Lesson. High-signal systems engineering."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 9,
-  "topic": "ai-engineering",
-  "author": "aiDotEngineer",
-  "via": "swyx",
-  "text": "At Code Summit, @zachbruggeman said Inspect writes and ships ~75% of @tryramp 's code. One agent setup for the whole company. Shared session",
-  "why": "Incredible applied AI engineering case study: how a single agent setup writes and ships 75% of Ramp's code."
+  "topic": "ai-essays",
+  "author": "teortaxesTex",
+  "via": "krishnanrohit",
+  "text": "Replying to @teortaxesTex \"But it was just an example, you simpleton!\" – is the obvious comeback. I don't think this is good enough, Eliezer",
+  "why": "Substantive, rigorous philosophical pushback against AI doomerism, arguing why solving Riemann doesn't imply uncontrollable agency."
  },
  {
   "rank": 5,
   "kept": true,
-  "score": 9,
-  "topic": "econ-progress",
-  "author": "random_walker",
-  "via": "sayashk",
-  "text": "Reminder: racing to self-improve the verifiable subset of capabilities, which is what AI companies are currently doing, decreases the window",
-  "why": "Brilliant synthesis by Arvind Narayanan on how racing toward recursive self-improvement might actually extinguish AI labs' business models."
+  "score": 8,
+  "topic": "parenting-education",
+  "author": "C_Hendrick",
+  "via": null,
+  "text": "If you're saying that Direct Instruction can only be done by a teacher then you have to have an argument with Engelmann himself. Posted Nov ",
+  "why": "Nuanced deep dive into the cognitive science of Direct Instruction vs Explicit Instruction, and how AI changes curriculum design."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "Grady_Booch",
-  "via": "GaryMarcus",
-  "text": "“We've learned almost nothing mathematically from what they did.” Posted Nov 21, 2026 at 4:37AM",
-  "why": "Terence Tao's profound critique on how AI solves math by \"strip mining\" without building human understanding."
+  "topic": "frontier-ai",
+  "author": "levie",
+  "via": "Noahpinion",
+  "text": "This post nails why we why we should take the Riemann Hypothesis breakthrough very seriously, even beyond math. We’re entering an era where ",
+  "why": "Fascinating breakdown of how AI solved Riemann: not by building theory, but by creating a 'wormhole' through existing infrastructure."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "GoodfireAI",
-  "via": "thesephist",
-  "text": "Looped models are weird. A layer can write to itself or read from \"future\" layers. @thinkymachines gave us early access to Inkling 2 Mini so",
-  "why": "Fascinating mechanistic interpretability research on how looped transformers coordinate information flow."
+  "topic": "contemplative",
+  "author": "andruyeung",
+  "via": "Noahpinion",
+  "text": "I've been noticing Japanese grocery stores everywhere in New York City, so I looked into it and I was surprised by the data. There are now o",
+  "why": "A beautiful micro-essay on intentional living, craftsmanship, and the cultural shift away from hyper-optimized American productivity."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "judegomila",
-  "via": "naval",
-  "text": "So the universe is harmonious and on this monumental day of history - the beauty of the primes has likely been proven. Today based on the Al",
-  "why": "An incredible builder artifact: open-sourcing 17 months of deep mathematical exploration and Lean 4 proofs around the Riemann Hypothesis."
+  "topic": "ai-essays",
+  "author": "nicbstme",
+  "via": null,
+  "text": "We might lose the ability to tell how fast AI is improving precisely when it starts making its biggest discoveries. From now on it’s likely ",
+  "why": "Profound point on evals: as AI solves generational problems in hours, human understanding itself becomes the bottleneck for measurement."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 8,
-  "topic": "econ-progress",
-  "author": "econcallum",
-  "via": "Noahpinion",
-  "text": "This is yesterday's news. The more interesting trend is that the world has passed peak gerontocracy, as we argued last week. Old people's in",
-  "why": "Fascinating economic demographic analysis arguing that we have passed peak gerontocracy, challenging conventional wisdom."
+  "topic": "ai-engineering",
+  "author": "danshipper",
+  "via": null,
+  "text": "great piece benchmarks have to choose what to measure and what to keep constant—numbers go up doesn't always mean what you think it means an",
+  "why": "Dan Shipper shares Ramez Naam's rigorous breakdown of why current AI benchmarks are failing to measure real-world autonomous task length."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "ramez",
-  "via": "sayashk",
-  "text": "New from me: The most important graphs in AI are wrong. Specifically, measures of the length of task AIs can autonomously accomplish are dra",
-  "why": "Deep dive into AI evals and why current metrics for autonomous task length are fundamentally flawed."
- },
- {
-  "rank": 11,
-  "kept": false,
-  "score": 8,
-  "topic": "rationality",
-  "author": "HeidyKhlaaf",
-  "via": "GaryMarcus",
-  "text": "Compare this to the mathematician forced to announce his manual proof of Riemann Hypothesis and how it was undergoing peer review. We should",
-  "why": "Substantive methodological skepticism regarding the verifiability of a 250,000-page AI-generated mathematical proof."
- },
- {
-  "rank": 12,
-  "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "NateWitkin",
-  "via": "sayashk",
-  "text": "This, from @JakeASteckler , is really a must read, esp. given recent discourse growing out of @dwarkesh_sp 's podcast episode with @paulfchr",
-  "why": "A highly detailed, substantive skeptical breakdown of AI takeover scenarios, providing a strong counterweight to default doom narratives."
- },
- {
-  "rank": 13,
-  "kept": false,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "If you missed them, 20 favorite books from 20 years of The Marginalian (an impossibly hard winnowing) themarginalian.org/2026/10/24/20-… Pos",
-  "why": "Exceptional curation: 20 favorite books from 20 years of Maria Popova's deep contemplative reading."
- },
- {
-  "rank": 14,
-  "kept": false,
-  "score": 8,
   "topic": "ai-engineering",
-  "author": "nithinaray",
-  "via": "c_valenzuelab",
-  "text": "we just published a piece on how we're building a software factory. this year, it became clear that coding agents are only as effective as t",
-  "why": "Deep dive into how Runway built an end-to-end pipeline for autonomous AI agents to handle the software development lifecycle."
- },
- {
-  "rank": 15,
-  "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "allTheYud",
-  "via": "DKokotajlo",
-  "text": "The Riemann Hypothesis has fallen.  RH was the singular math result that had been named, in advance, as the obvious coal mine canary for dan",
-  "why": "Eliezer Yudkowsky's stark analysis of why the Riemann Hypothesis proof serves as a critical canary for recursive self-improvement."
- },
- {
-  "rank": 16,
-  "kept": false,
-  "score": 8,
-  "topic": "ai-engineering",
-  "author": "RhysSullivan",
-  "via": "bentossell",
-  "text": "it's really hard for me to see what the end state of personal agents and ai labs will be fundamentally, the agent input needs to merge with ",
-  "why": "Excellent product and engineering analysis on why personal AI agents must inevitably merge with the operating system layer."
- },
- {
-  "rank": 17,
-  "kept": false,
-  "score": 8,
-  "topic": "frontier-ai",
-  "author": "Noahpinion",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "The whole \"intelligence explosion\" debate is fun and interesting, but ultimately useless. If it's going to happen there's nothing we can do ",
-  "why": "A pragmatic, grounded argument that near-term AI capabilities will be transformative regardless of whether an 'intelligence explosion' occurs."
- },
- {
-  "rank": 18,
-  "kept": false,
-  "score": 8,
-  "topic": "builders-craft",
-  "author": "HaijunXia",
-  "via": "sh_reya",
-  "text": "Statements like “UI is dead. Chat is enough.” always frustrate me. First, chat is a UI too. Second, raw chat is far from sufficient for huma",
-  "why": "Excellent design philosophy on why chat is insufficient and how UI must evolve for rich human-agent communication."
- },
- {
-  "rank": 19,
-  "kept": false,
-  "score": 8,
-  "topic": "econ-progress",
-  "author": "JayRughani",
-  "via": "WillManidis",
-  "text": "“Chat, give me a quick synopsis of the Commanding Heights” - me 15m before my lunch w/ @WillManidis Posted Nov 20, 2026 at 8:02PM",
-  "why": "Will Manidis (a favorite author) exploring the macroeconomic reordering of capital and sovereignty driven by abundant intelligence."
- },
- {
-  "rank": 20,
-  "kept": false,
-  "score": 8,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Carl Jung on how to live and the origin of his famous tenet for navigating uncertainty: \"Do the next right thing.\" themarginalian.org/2021/1",
-  "why": "Timeless contemplative wisdom from Carl Jung on navigating uncertainty by simply doing the next right thing."
- },
- {
-  "rank": 21,
-  "kept": false,
-  "score": 7,
-  "topic": "ai-engineering",
-  "author": "thesephist",
-  "via": null,
-  "text": "beautiful way to think about model activations and language by @voooooogel vgel.me/notebook/words… Posted Nov 21, 2026 at 9:29AM",
-  "why": "A conceptual deep dive into model activations and language representation from a respected builder."
- },
- {
-  "rank": 22,
-  "kept": false,
-  "score": 7,
-  "topic": "parenting-education",
-  "author": "MrsG2nd",
-  "via": "C_Hendrick",
-  "text": "Anyone interested in @Alphaschool , regardless of your take, should probably read this. @ddmeyer @karenvaites @C_Hendrick @natwexler beyondc",
-  "why": "Substantive analysis of the complexity of teaching in the context of AI-driven schooling models like Alpha."
- },
- {
-  "rank": 23,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "nicoleperlroth",
-  "via": "GaryMarcus",
-  "text": "This is what I mean when I say we've been living on borrowed time. AI is uncovering vulnerabilities that have lain dormant for years. That v",
-  "why": "Sobering analysis of how AI-driven vulnerability discovery is fundamentally altering the cybersecurity clock."
- },
- {
-  "rank": 24,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Actuality vs. possibility and how to hear the signal of your life themarginalian.org/2026/08/15/geo… Posted Nov 21, 2026 at 5:13AM",
-  "why": "A beautiful contemplative essay on navigating actuality versus possibility in life."
- },
- {
-  "rank": 25,
-  "kept": false,
-  "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Hermann Hesse on discovering the soul beneath the self and the key to finding peace themarginalian.org/2024/02/18/hes… Posted Nov 21, 2026 a",
-  "why": "Timeless contemplative wisdom from Hermann Hesse on finding peace and understanding the soul."
- },
- {
-  "rank": 26,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "teortaxesTex",
-  "via": "nabeelqu",
-  "text": "While Yud is of course correct on the trivial point that solving RH indicates the level of capability that all eggsperts should be flabbergh",
-  "why": "Nuanced pushback on Eliezer Yudkowsky's framing of the Riemann Hypothesis proof and the capability-safety tradeoff frontier."
- },
- {
-  "rank": 27,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "Liv_Boeree",
-  "via": "waitbutwhy",
-  "text": "Congrats to Anthropic. You can’t deny its impressive what they’ve achieved in a few years. But it’s time for them to walk their talk on safe",
-  "why": "A prominent call for Anthropic to enact a unilateral pause on recursive self-improvement in light of recent breakthroughs."
- },
- {
-  "rank": 28,
-  "kept": false,
-  "score": 7,
-  "topic": "frontier-ai",
-  "author": "KLdivergence",
-  "via": "random_walker",
-  "text": "Sometimes I think about a counterfactual world in which the corner of the AI ethics community I used to be part of hadn't dogmatically rejec",
-  "why": "A thoughtful sociological reflection on how the AI ethics community's dogmatic rejection of LLMs marginalized their influence."
- },
- {
-  "rank": 29,
-  "kept": false,
-  "score": 6,
-  "topic": "rationality",
-  "author": "stevenstrogatz",
-  "via": "GaryMarcus",
-  "text": "The plot thickens! Ravi Vakil announces \"Alessandro Masullo has a proposed proof of GRH [Generalized Riemann Hypothesis], and Brian Conrad h",
-  "why": "Fascinating counter-narrative to the AI math hype: a simultaneous, purely human proposed proof of the Generalized Riemann Hypothesis."
- },
- {
-  "rank": 30,
-  "kept": false,
-  "score": 6,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "This is a preview of how AI will cause a scientific revolution Posted Nov 20, 2026 at 8:54PM",
-  "why": "Great framing of the Riemann Hypothesis proof as a preview of AI-driven scientific revolution."
- },
- {
-  "rank": 31,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "excid3",
-  "via": "asmartbear",
-  "text": "YouTube stopped recommending @excid3 's Rails screencasts, and @r00k thinks the old format is “probably kinda dead.” His fix on Smart Bear L",
-  "why": "Interesting meta-discussion on how AI is changing developer education and screencasting formats."
- },
- {
-  "rank": 32,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "vikktorrrre",
-  "via": "GaryMarcus",
-  "text": "Terence Tao: AI is winning at mathematics, but are we actually learning anything? “I've never seen such brutal competition, especially with ",
-  "why": "Duplicate of the Terence Tao commentary on AI and mathematics."
- },
- {
-  "rank": 33,
-  "kept": false,
-  "score": 5,
-  "topic": "builders-craft",
-  "author": "sonyasupposedly",
-  "via": "visakanv",
-  "text": "are you bored at work on this fine Friday? wonderful! because today I am pleased to present: AUTOZINE, a web app that turns your best recent",
-  "why": "A fun, creative builder project, but more of a toy than a high-signal long-form read."
- },
- {
-  "rank": 34,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "jonobri",
-  "via": "Noahpinion",
-  "text": "Underrated how low Australia’s pension spending remains. Superannuation has its problems, but at least our ageing population hasn’t got us t",
-  "why": "A specific regional note on the broader pension crisis thread; the main thread is more comprehensive."
- },
- {
-  "rank": 35,
-  "kept": false,
-  "score": 5,
-  "topic": "parenting-education",
-  "author": "melissapan",
-  "via": "sh_reya",
-  "text": "it’s that time of the year again, getting some student reach out for application help in my inbox, so here we go ☺️ Posted Nov 20, 2026 at 1",
-  "why": "Practical advice for PhD applicants, but falls outside your core focus on learning science and education systems."
- },
- {
-  "rank": 36,
-  "kept": false,
-  "score": 5,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Riemann thoughts: thread with pointer to other threads Posted Nov 20, 2026 at 11:00PM",
-  "why": "Gary Marcus reiterating his long-standing thesis on neurosymbolic AI in light of the Riemann news."
- },
- {
-  "rank": 37,
-  "kept": false,
-  "score": 5,
-  "topic": "econ-progress",
-  "author": "JosephPolitano",
-  "via": null,
-  "text": "Who knows what this means in practice, but Trump’s nationalistic AI policies are a big reason non-American democracies are losing trust in U",
-  "why": "Interesting note on the geopolitics of AI data centers, but leans heavily into political commentary."
- },
- {
-  "rank": 38,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "RamiElghandour",
-  "via": "GaryMarcus",
-  "text": "I’ve taken two companies public. The Anthropic IPO is one of the worst executions I’ve ever seen. This is especially true given the 6X deman",
-  "why": "Financial commentary on the Anthropic IPO; lacks the deeper structural or technical insight you prefer."
- },
- {
-  "rank": 39,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Always worth reading! Posted Nov 21, 2026 at 1:43AM",
-  "why": "Pointer to Ramez Naam's piece, but Ethan Mollick's share of this same link included much better original commentary."
- },
- {
-  "rank": 40,
-  "kept": false,
-  "score": 4,
-  "topic": "ai-essays",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "the fact that much of the twitterverse seems hellbent on leaving the human out of the story tells you all you need to know. Posted Nov 21, 2",
-  "why": "Meta-commentary on the AI discourse rather than substantive analysis of the math or the system itself."
- },
- {
-  "rank": 41,
-  "kept": false,
-  "score": 4,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "worth considering (in tandem with my own hot take) Posted Nov 20, 2026 at 9:13PM",
-  "why": "Pointer to the 250k-page proof skepticism, but the earlier share by Heidy Khlaaf had better framing."
- },
- {
-  "rank": 42,
-  "kept": false,
-  "score": 4,
-  "topic": "econ-progress",
-  "author": "RushDoshi",
-  "via": "Noahpinion",
-  "text": "New piece with Mike Wessel: Democrats shouldn't retire the China Select Committee. They should repurpose it. A new majority should set new p",
-  "why": "Detailed US-China policy proposal, but leans too heavily into partisan politics rather than core tech/econ progress."
- },
- {
-  "rank": 43,
-  "kept": false,
-  "score": 3,
-  "topic": "ai-engineering",
-  "author": "FatemeFouladkar",
-  "via": "Noahpinion",
-  "text": "یکی این پرامپتو به کلاد داده، و نتیجه‌ش خیلی جالبه! «یه وبسایت بساز که اول شبیه یه سایت مارکتینگ معمولیه‌. اما با اسکرول کردن کاربر، سایت به",
-  "why": "Fun AI web-dev demo, but lacks the long-form depth or analysis you prefer."
- },
- {
-  "rank": 44,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "OleAndreHagen",
-  "via": "GaryMarcus",
-  "text": "AI psychosis test: Are you enthusiastic about a mathematical problem allegedly being solved that you have never heard of? Are you enthusiast",
-  "why": "Skeptical dunking on AI hype without the substantive analysis or numbers required to clear the bar."
- },
- {
-  "rank": 45,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "DropSiteNews",
-  "via": "GaryMarcus",
-  "text": "▪️“Let capitalism take its course,\" Gary Marcus, an AI researcher, New York University professor emeritus and longtime critic of the AI indu",
-  "why": "Standard news recap of market movements and political commentary; lacks original deep analysis."
- },
- {
-  "rank": 46,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "How Trump’s looking the other way one time too many may have accidentally killed the AI boom: Posted Nov 21, 2026 at 1:54AM",
-  "why": "Political and financial scandal commentary rather than substantive technological or economic analysis."
- },
- {
-  "rank": 47,
-  "kept": false,
-  "score": 3,
-  "topic": "builders-craft",
-  "author": "MilksandMatcha",
-  "via": "swyx",
-  "text": "I host a lot of events both for personal and work and I wrote up how I do it in a #highROI way :) dx.tips/hosting Posted Nov 20, 2026 at 10:",
-  "why": "Networking and event-hosting advice; leans too close to audience-growth/hustle culture."
- },
- {
-  "rank": 48,
-  "kept": false,
-  "score": 3,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "nobody talks about the all human mathematician, because it doesn’t fit their narrative and in the AI-assisted team, the most ignore the huma",
-  "why": "Meta-complaint about media narratives rather than substantive analysis of the mathematical breakthroughs."
- },
- {
-  "rank": 49,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Looks like Gavin is finally in the acceptance of grief stage re Nvidia. Posted Nov 20, 2026 at 9:56PM",
-  "why": "Snarky commentary on semiconductor market dynamics without adding original insight."
- },
- {
-  "rank": 50,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "krishnanrohit",
-  "via": null,
-  "text": "Jensen, story so far. - He slept with a spy! - Well maybe not a spy, but she got told secrets - Maybe not spying per se but he helped smuggl",
-  "why": "Recap of CEO scandal drama; lacks the structural or technical depth you look for."
- },
- {
-  "rank": 51,
-  "kept": false,
-  "score": 3,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "told ya it would get worse. maybe Gerstener wanted Jensen back so that this shit wouldn’t get out. if so, too late. Posted Nov 20, 2026 at 8",
-  "why": "Financial news and scandal commentary without deep structural analysis."
- },
- {
-  "rank": 52,
-  "kept": false,
-  "score": 2,
-  "topic": "builders-craft",
-  "author": "bentossell",
-  "via": null,
-  "text": "keshav helped build bens bites since the early days he knows more about the space than most can write great content can build understands ex",
-  "why": "Job-seeking post, not high-signal long-form insight."
- },
- {
-  "rank": 53,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "AviBittMD",
-  "via": "Noahpinion",
-  "text": "Holy shit Posted Nov 20, 2026 at 8:17PM",
-  "why": "Media drama and retraction news, lacking long-form insight."
- },
- {
-  "rank": 54,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "more warnings people should have listened to: Posted Nov 21, 2026 at 12:40AM",
-  "why": "Book promotion and \"I told you so\" commentary without new substantive analysis."
- },
- {
-  "rank": 55,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "matthewstoller",
-  "via": "GaryMarcus",
-  "text": "Softbank is cooked Posted Nov 20, 2026 at 9:57PM",
-  "why": "Financial doom-casting without rigorous analysis or numbers."
- },
- {
-  "rank": 56,
-  "kept": false,
-  "score": 2,
-  "topic": "tools-for-thought",
-  "author": "akothari",
-  "via": "anuatluru",
-  "text": "notion.com/nsfw Posted Nov 20, 2026 at 7:20PM",
-  "why": "Bare link with no context or substantive analysis."
- },
- {
-  "rank": 57,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "people want to cheer; they don’t want to think Posted Nov 20, 2026 at 8:59PM",
-  "why": "Repetitive self-quoting and meta-complaining without new substance."
- },
- {
-  "rank": 58,
-  "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "ModeledBehavior",
-  "via": "Noahpinion",
-  "text": "Republicans must reject anti-Indian bigotry Must read from my colleague @jordanmcgillis nationalreview.com/magazine/janua… Posted Nov 20, 20",
-  "why": "Pure political commentary, which falls into your anti-taste filters."
- },
- {
-  "rank": 59,
-  "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Trump literally earlier today proposed to put a “tremendous tax” on anyone trying to build data centers outside the U.S. —and yet cannot see",
-  "why": "Political dunking and hypocrisy-pointing rather than substantive analysis of AI infrastructure."
- },
- {
-  "rank": 60,
-  "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "TheBabylonBee",
-  "via": "DKokotajlo",
-  "text": "Anthropic Offers Public Amazing Opportunity To Invest In The Apocalypse buff.ly/tvv9ODf Posted Nov 19, 2026 at 6:00PM",
-  "why": "Satirical headline, not high-signal reading."
+  "text": "Knowledge Factories are how we’ll progressively improve human, team, company knowledge over time this is one architecture that I (ie. my @bo",
+  "why": "Harrison Chase on 'Knowledge Factories'—a crucial architectural pattern for moving beyond raw context to structured knowledge for agents."
  }
 ]
