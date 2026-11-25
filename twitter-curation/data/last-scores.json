@@ -3,310 +3,370 @@
   "rank": 1,
   "kept": true,
   "score": 9,
-  "topic": "tools-for-thought",
-  "author": "andy_matuschak",
+  "topic": "ai-essays",
+  "author": "simonw",
   "via": null,
-  "text": "Very grateful to @alexwarth for recreating Sketchpad and making explainer videos. I really hadn't understood e.g. attachers, dismemberment, ",
-  "why": "Incredible historical context on Sketchpad (1963), a foundational piece of tools-for-thought and HCI history."
+  "text": "To accompany the video from my recent talk at @aiDotEngineer , here's an expanded version of my argument that we've seen three key inflectio",
+  "why": "Simon Willison synthesizes the three key LLM inflection points of the past year; high-signal state-of-the-art review."
  },
  {
   "rank": 2,
   "kept": true,
-  "score": 9,
+  "score": 8,
   "topic": "ai-engineering",
-  "author": "simonw",
+  "author": "nicbstme",
   "via": null,
-  "text": "GLM-5.4 is out, and in running pelicans riding bicycles for 5.4 v.s. 5.3, 5.2, and 5.1 I spotted quite a stark style change between 5.2 and ",
-  "why": "Simon Willison applying his signature informal evals to track stylistic shifts across GLM model versions."
+  "text": "This is excellent. I increasingly think reality is the ultimate verifier and time and money are its two best reward signals aka how well can",
+  "why": "Fascinating concept for evals and RL: using the historical internet as a point-in-time environment to test prediction capabilities."
  },
  {
   "rank": 3,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "emollick",
-  "via": null,
-  "text": "Two kinds of people: those watching the agent swarm trying to crack P=NP and those watching the agent swarm trying to illegally port the Xbo",
-  "why": "Ethan Mollick highlights a fascinating applied AI engineering experiment using agent swarms to tackle P=NP."
+  "topic": "econ-progress",
+  "author": "dwarkeshpodcast",
+  "via": "dwarkesh_sp",
+  "text": ". @JoHenrich explains how the Catholic Church unintentionally caused the Industrial Revolution. The Church wanted to acquire land and wealth",
+  "why": "Dwarkesh highlights a dense historical insight on how dismantling kinship networks sparked the Industrial Revolution."
  },
  {
   "rank": 4,
   "kept": true,
   "score": 8,
-  "topic": "builders-craft",
-  "author": "davidsenra",
-  "via": "tobi",
-  "text": "This conversation with @tobi is incredible. One of the best I’ve had on the podcast so far. Tobi on the miracles of entrepreneurship, techno",
-  "why": "Deep conversation with Tobi Lütke on the craft of building, markets as superintelligence, and the future of programming."
+  "topic": "ai-engineering",
+  "author": "swyx",
+  "via": null,
+  "text": "notable that a lot of the recent anthropic (and ant-alum) talks have been very specific about how much there is still left to do for human e",
+  "why": "Excellent synthesis of the unglamorous but critical engineering challenges in scaling multi-agent systems."
  },
  {
   "rank": 5,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "hlntnr",
-  "via": "natolambert",
-  "text": "This is not very vibe compliant, but we have a new post out today looking at what data on impacts of cyber attacks tells us about whether th",
-  "why": "Substantive, data-driven skepticism about the AI cyber-pocalypse narrative, focusing on attacker incentives."
+  "topic": "ai-engineering",
+  "author": "BrendanFoody",
+  "via": "_jasonwei",
+  "text": "we need better open source standards to benchmark pre-trained models great work @_jasonwei and @edwardjhu Posted Nov 24, 2026 at 10:39PM",
+  "why": "Methodological rigor applied to LLMs: proposing a cheap, reproducible proxy for perplexity using multiple-choice benchmarks."
  },
  {
   "rank": 6,
   "kept": true,
   "score": 8,
-  "topic": "ai-engineering",
-  "author": "Vtrivedy10",
+  "topic": "frontier-ai",
+  "author": "dwarkesh_sp",
   "via": null,
-  "text": "mentioned this before but this for eval generation! agents are much better interpolating over data than  they are at inventing from scratch ",
-  "why": "Highly practical applied AI engineering insight on using agents for eval generation and batch-processing tasks."
+  "text": "I responded to the strongest objections that people had about the RSI essay. Also available on YouTube and your podcasting app. Your browser",
+  "why": "Dwarkesh deeply addresses the strongest counterarguments to his recursive self-improvement thesis."
  },
  {
   "rank": 7,
   "kept": true,
   "score": 8,
-  "topic": "ai-essays",
-  "author": "DKThomp",
-  "via": "Noahpinion",
-  "text": "New newsletter: 5 QUESTIONS TO DECIDE THE FUTURE OF AI I teamed up with @binarybits for the 2nd annual Thanksgiving AI Debate guide—a pro/co",
-  "why": "Excellent synthesis and curation of the five biggest AI debates; exactly the kind of high-signal overview he values."
+  "topic": "ai-engineering",
+  "author": "jake_cole1",
+  "via": "_jasonwei",
+  "text": "🚨New research alert🚨 We found that models respond differently to time limits in engineering tasks. GPT 6 astra leads Fable 5.2 at most time ",
+  "why": "Crucial evals-as-discipline insight: demonstrating how arbitrary time limits in benchmarks can artificially favor specific models."
  },
  {
   "rank": 8,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "xavicfu",
-  "via": "erikphoel",
-  "text": "Replying to @xavicfu @lgngrvs bad idea to make happy slaves. better to have totally unconscious tools @erikphoel ’s proposal for qualiaphobi",
-  "why": "Explores the philosophy of AI consciousness and the ethics of creating 'unconscious tools' vs 'happy slaves.'"
+  "topic": "ai-engineering",
+  "author": "harvey",
+  "via": "swyx",
+  "text": "US open-weight models have caught up. We post-trained four US models from @meta , @nvidia , @reflection_ai and @thinkymachines with the Harv",
+  "why": "Real numbers on post-training open-weight models for agentic legal tasks, showing substantial capability gains."
  },
  {
   "rank": 9,
   "kept": true,
   "score": 7,
-  "topic": "ai-essays",
-  "author": "C_Hendrick",
-  "via": null,
-  "text": "\"The World Has Been Coming to an End for a Long, Long Time\" - An incredible essay by @sapinker challenging the many inconsistencies in the A",
-  "why": "Steven Pinker offers a substantive, skeptical counterweight to the AI doom narrative."
+  "topic": "econ-progress",
+  "author": "Thomashornall",
+  "via": "naval",
+  "text": "A Norwegian technologist built a data centre. Norway's wealth tax, he says, threatened to bankrupt him. So he sold it to a Singapore crypto ",
+  "why": "A fascinating micro-case-study on the unintended economic consequences of wealth taxes on infrastructure."
  },
  {
   "rank": 10,
   "kept": true,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "frontier-ai",
+  "author": "emollick",
   "via": null,
-  "text": "\"Life is exquisitely a time-thing, like music.\" The visionary marine biologist Ernest Everett Just, who illuminated the  mystery of how a ce",
-  "why": "A beautiful contemplative piece on the biology and philosophy of what makes life alive."
+  "text": "The story here is looking like a story in robotics and 3D design. The latest frontier models have a tremendous general capability for divers",
+  "why": "Ethan Mollick contextualizes a major frontier AI milestone in protein design as another victory for the Bitter Lesson."
  },
  {
   "rank": 11,
   "kept": false,
   "score": 7,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "topic": "ai-engineering",
+  "author": "Vtrivedy10",
   "via": null,
-  "text": "Oliver Sacks on despair and the meaning of life themarginalian.org/2024/11/08/oli… Posted Nov 24, 2026 at 1:35AM",
-  "why": "Oliver Sacks' reflections on meaning and despair; high-quality contemplative reading."
+  "text": "riffing more lately on LLM as RL Environment Simulator ->  fun rabbit hole for eval builders to eventually dive into LLMs are projections of",
+  "why": "Clever applied AI engineering thought: using well-instructed LLMs to simulate environments for agent evals."
  },
  {
   "rank": 12,
   "kept": false,
   "score": 7,
-  "topic": "econ-progress",
-  "author": "krishnanrohit",
+  "topic": "contemplative",
+  "author": "themarginalian",
   "via": null,
-  "text": "Martin is right that the private markets are big in size but the issue is that it's small in access, and that, I think, is a problem that wi",
-  "why": "Thoughtful economic analysis on the structural differences between public and private markets and access to capital."
+  "text": "Thich Nhat Hanh on true love and the five rivers of self-knowledge themarginalian.org/2024/02/03/thi… Posted Nov 24, 2026 at 8:07PM",
+  "why": "A beautiful contemplative piece from Thich Nhat Hanh on intentional living and self-knowledge."
  },
  {
   "rank": 13,
   "kept": false,
-  "score": 7,
+  "score": 6,
   "topic": "contemplative",
   "author": "themarginalian",
   "via": null,
-  "text": "Darwin on how to evolve your imagination themarginalian.org/2025/01/26/dar… Posted Nov 24, 2026 at 12:03AM",
-  "why": "A wonderful contemplative look at Charles Darwin's approach to cultivating imagination and thought."
+  "text": "Silence and love themarginalian.org/2026/11/24/sil… Posted Nov 24, 2026 at 10:32PM",
+  "why": "A contemplative piece on silence and love, though the tweet is just a title."
  },
  {
   "rank": 14,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
-  "via": null,
-  "text": "Walt Whitman, shortly after his paralytic stroke, on what makes life worth living themarginalian.org/2017/12/20/wal… Posted Nov 24, 2026 at ",
-  "why": "Classic contemplative reflection from Walt Whitman on finding meaning and intentional living."
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "bethanymac12",
+  "via": "DKThomp",
+  "text": "Can’t wait to listen to this one. Posted Nov 24, 2026 at 2:18PM",
+  "why": "Podcast promo discussing the economics of the AI boom, but the tweet itself is just a summary."
  },
  {
   "rank": 15,
   "kept": false,
-  "score": 6,
-  "topic": "contemplative",
-  "author": "themarginalian",
+  "score": 5,
+  "topic": "econ-progress",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Heart, the heretic – the forgotten visionary Jane Ellen Harrison on critical thinking, emotional imagination, and how to fix the world thema",
-  "why": "Contemplative essay on emotional imagination and critical thinking."
+  "text": "Lion in Winter syndrome. Xi is getting old and slipping. He wants to hold on to power for life but his mental faculties are declining and he",
+  "why": "Interesting geopolitical take on aging autocrats, but outside core focus areas."
  },
  {
   "rank": 16,
   "kept": false,
   "score": 5,
   "topic": "ai-engineering",
-  "author": "gdb",
-  "via": "kieranklaassen",
-  "text": "a new open-source Linux runtime, built for the agentic era, to empower defenders to defend systems at machine speed without downtime: Posted",
-  "why": "OpenAI announcement of an open-source agentic defense runtime; a bit too announcement-heavy."
+  "author": "aiDotEngineer",
+  "via": "swyx",
+  "text": "Millions of lines. Five rewrites. 140 agents. @jarredsumner of @AnthropicAI on building @bunjavascript 's compiler, and why tests that preda",
+  "why": "Highly relevant topic on building with agents, but it's a video-only link."
  },
  {
   "rank": 17,
   "kept": false,
   "score": 5,
-  "topic": "frontier-ai",
-  "author": "Markos_mom",
-  "via": "fortelabs",
-  "text": "What the fuck are we supposed to do with this? Dude, you're the Chief AI Officer of a division literally called Meta Superintelligence Labs.",
-  "why": "The underlying post is pure AI hype, and the commentary is just angry dunking rather than substantive skepticism."
+  "topic": "rationality",
+  "author": "simonsarris",
+  "via": null,
+  "text": "Probably the most generalizable advice is, after someone is done listing their preferences, getting them to interrogate what other people wo",
+  "why": "Interesting brief thought on interrogating preferences, but not a deep essay."
  },
  {
   "rank": 18,
   "kept": false,
-  "score": 5,
-  "topic": "contemplative",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "I SUPPORT CHINESE SLACKER CULTURE Posted Nov 24, 2026 at 12:49AM",
-  "why": "Interesting sociological thread on Chinese culture, but strays too far from his core focus on progress or intentional living."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "fluidstack",
+  "via": "WillManidis",
+  "text": "Today we’re launching Blackbird, a 400 MW modular data center designed to be built within six months of groundbreaking. Modules are designed",
+  "why": "Product launch thread for modular data centers; interesting infrastructure progress but lacks deep analysis."
  },
  {
   "rank": 19,
   "kept": false,
-  "score": 5,
-  "topic": "ai-engineering",
-  "author": "WillManidis",
+  "score": 4,
+  "topic": "frontier-ai",
+  "author": "Noahpinion",
   "via": null,
-  "text": "Posted Nov 24, 2026 at 12:26AM",
-  "why": "Will Manidis is a favorite, but this is just a bare announcement for an OpenAI initiative without his usual insight."
+  "text": "Someone is going to vibe-code the doomsday virus Posted Nov 24, 2026 at 11:51PM",
+  "why": "Quote tweet of a biology AI milestone framed with doomer hype; lacks the underlying paper or deep technical breakdown."
  },
  {
   "rank": 20,
   "kept": false,
   "score": 4,
-  "topic": "ai-engineering",
-  "author": "ArtificialAnlys",
-  "via": "swyx",
-  "text": "Phonic 1.1 (High) is the new #1 on the Artificial Analysis Speech to Speech Index at 89.1, taking the top spot from Phonic's own Phonic 1 (8",
-  "why": "Standard benchmark leaderboard update; lacks the deep methodological rigor or postmortem insights Matias prefers."
+  "topic": "builders-craft",
+  "author": "james_riney",
+  "via": "Noahpinion",
+  "text": "My co-founder Yohei Sawayama and I have both been ranked No. 1 on Forbes JAPAN’s annual ranking of venture capitalists, Japan’s equivalent o",
+  "why": "Reflection on team culture in VC, but mostly an announcement of a Forbes ranking."
  },
  {
   "rank": 21,
   "kept": false,
-  "score": 3,
+  "score": 4,
   "topic": "econ-progress",
-  "author": "RpsAgainstTrump",
-  "via": "GaryMarcus",
-  "text": "CNN: Vance coordinated directly with Huang in pressuring Nvidia’s board to take him back, including working to assure the company’s board th",
-  "why": "Political scandal and drama surrounding Nvidia; lacks the substantive tech or economic analysis Matias wants."
+  "author": "J21Ken",
+  "via": "Noahpinion",
+  "text": "tomshardware.com/software/japan… Japan is way ahead in this one Posted Nov 24, 2026 at 9:11PM",
+  "why": "Amusing anecdote about tech resilience, but mostly a joke."
  },
  {
   "rank": 22,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "Seems bad Posted Nov 24, 2026 at 8:23AM",
-  "why": "Pure culture-war and political commentary, which falls into the anti-taste category."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "onpardev",
+  "via": "swyx",
+  "text": "This was a fundamentally foundational talk. Skills changed the game for devs using coding agents. I can't tell you how many times someone wo",
+  "why": "Brief reflection on coding agents without much technical depth."
  },
  {
   "rank": 23,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "Noahpinion",
-  "via": null,
-  "text": "The New Right is failing, because it's fundamentally an online tantrum that builds nothing. noahpinion.blog/p/why-the-new-… Posted Nov 24, 2",
-  "why": "Political commentary and culture-war dunking, explicitly in the anti-taste list."
+  "score": 4,
+  "topic": "econ-progress",
+  "author": "carlquintanilla",
+  "via": "GaryMarcus",
+  "text": "(Bloomberg) - Bonds backing cloud computing provider CoreWeave Inc. fell to record lows Tuesday, among the day’s biggest corporate bond loss",
+  "why": "Financial news snippet about AI infrastructure bonds."
  },
  {
   "rank": 24,
   "kept": false,
-  "score": 2,
-  "topic": "rationality",
-  "author": "QualiaQuanta",
-  "via": "GaryMarcus",
-  "text": "I demand an apology now. I have spent the last 80 hours finding all the junk in that guy's code and being called a crank and every other nam",
-  "why": "Internet drama and personal grievances; zero signal for applied AI or intentional living."
+  "score": 4,
+  "topic": "ai-engineering",
+  "author": "RhysSullivan",
+  "via": "bentossell",
+  "text": "Executor now supports skills over MCP! Automatically added to context, available over slash commands, load them from GitHub, files, anywhere",
+  "why": "Changelog/update for a developer tool; useful but not a deep read."
  },
  {
   "rank": 25,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "Trump effectively sold a pardon* to a company for $15M in his own pocket. How is that even legal? ——— *In his words, “I gave them enough ass",
-  "why": "Political scandal and dunking; lacks substantive analysis of semiconductors or economics."
+  "score": 4,
+  "topic": "tools-for-thought",
+  "author": "amyxzh",
+  "via": "sh_reya",
+  "text": "Video from my Stanford HCI seminar talk is up (also gave this at MIT two weeks ago): youtube.com/watch?v=e1VYwg… I discuss how foundational ",
+  "why": "Video-only content of an academic seminar."
  },
  {
   "rank": 26,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "SenJohnCurtis",
-  "via": "GaryMarcus",
-  "text": "Nvidia’s board says it relied on input from senior U.S. officials to conclude that bringing Jensen Huang back posed no national security ris",
-  "why": "Political drama regarding Nvidia's CEO; not the deep economic or progress analysis Matias looks for."
+  "score": 3,
+  "topic": "contemplative",
+  "author": "emikusano",
+  "via": "Noahpinion",
+  "text": "I’m delighted to share that my work, Ego in the Shell, will be presented at the Victoria and Albert Museum (V&A) in London this Friday, as p",
+  "why": "Event announcement for an art exhibition, not a substantive essay."
  },
  {
   "rank": 27,
   "kept": false,
-  "score": 2,
-  "topic": "econ-progress",
-  "author": "wadhwa",
-  "via": "GaryMarcus",
-  "text": "Jensens return is surely a disaster for NVIDIA and for the tech industry. The board reportedly opposed his return until the White House inte",
-  "why": "Corporate and political drama surrounding Nvidia; lacks technical or economic depth."
+  "score": 3,
+  "topic": "ai-essays",
+  "author": "Noahpinion",
+  "via": null,
+  "text": "We're gonna die 😅 Posted Nov 24, 2026 at 11:25PM",
+  "why": "Engagement-baity listicle dunking on AI skeptics; lacks original analysis."
  },
  {
   "rank": 28,
   "kept": false,
-  "score": 1,
-  "topic": "rationality",
-  "author": "VickieforNYC",
-  "via": "naval",
-  "text": "I have said this for years. The criminal population is actually vanishingly small. This very small cohort is responsible for the VAST majori",
-  "why": "Pure political rage-bait and culture-war dunking."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "yashar",
+  "via": "Noahpinion",
+  "text": "NEW At a critical moment in the fight to stop AI chip smuggling into China, Commerce Secretary Howard Lutnick pulled federal agents off that",
+  "why": "Political news scoop without deep technical or economic analysis."
  },
  {
   "rank": 29,
   "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "GaryMarcus",
-  "via": null,
-  "text": "a fact that will be mentioned billions of times in the next elections. future Democratic nominees thank you for your service, sir 🫡 Posted N",
-  "why": "Pure political dunking and scandal-mongering."
+  "score": 3,
+  "topic": "rationality",
+  "author": "AndyMasley",
+  "via": "Noahpinion",
+  "text": "Very hard to come away from reading a lot about the 20th century and not think the good guys won. Fascism and communism were just so so so s",
+  "why": "Brief shower thought on 20th-century history; lacks depth."
  },
  {
   "rank": 30,
   "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "FT",
-  "via": "GaryMarcus",
-  "text": "Trump made up to $15mn on Nvidia shares after Huang’s return ft.trib.al/0LgTMHx Posted Nov 23, 2026 at 10:42PM",
-  "why": "Political scandal reporting, not relevant to his core interests."
+  "score": 3,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "In the evening of November 22, Donald Trump said he ‘hoped’ the Nvidia board would rehire Jensen Huang , as the ‘best thing for the Company.",
+  "why": "Long-form but highly political commentary on the Nvidia CEO reinstatement saga."
  },
  {
   "rank": 31,
   "kept": false,
-  "score": 1,
-  "topic": "econ-progress",
-  "author": "Noahpinion",
+  "score": 3,
+  "topic": "ai-engineering",
+  "author": "kieranklaassen",
   "via": null,
-  "text": "😬😬😬 Posted Nov 24, 2026 at 12:07AM",
-  "why": "Zero-substance reaction to political news."
+  "text": "so cool Posted Nov 24, 2026 at 7:50PM",
+  "why": "Hype/announcement post for a new Claude feature without technical depth."
+ },
+ {
+  "rank": 32,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "SenSchumer",
+  "via": "GaryMarcus",
+  "text": "Here are just a few things we’ve learned since Jensen Huang was reinstated yesterday: Trump and Xi discussed Huang during their talks in Chi",
+  "why": "Political rage-bait regarding Nvidia and the Trump administration; explicitly anti-taste."
+ },
+ {
+  "rank": 33,
+  "kept": false,
+  "score": 2,
+  "topic": "rationality",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "If people genuinely want to defeat @QualiaQuanta , there is simple solution: address the question below. so, c’mon, download the Lean, comme",
+  "why": "Twitter drama and dunking over a Lean proof; low signal."
+ },
+ {
+  "rank": 34,
+  "kept": false,
+  "score": 2,
+  "topic": "ai-essays",
+  "author": "GaryMarcus",
+  "via": null,
+  "text": "one-sided hatchet job from derek thompson with my reply below it Posted Nov 24, 2026 at 9:17PM",
+  "why": "More Twitter drama and grievance airing."
+ },
+ {
+  "rank": 35,
+  "kept": false,
+  "score": 2,
+  "topic": "frontier-ai",
+  "author": "DKThomp",
+  "via": "GaryMarcus",
+  "text": "I'd love someone in the pro-Jensen SV community to explain how \"Jensen slept with the director of a firm that inappropriately handled US-mad",
+  "why": "Political commentary and dunking regarding the Nvidia CEO."
+ },
+ {
+  "rank": 36,
+  "kept": false,
+  "score": 1,
+  "topic": "ai-engineering",
+  "author": "fchollet",
+  "via": "GregKamradt",
+  "text": "We're throwing a legendary party at NeurIPS in Atlanta -- join us! Posted Nov 24, 2026 at 11:17PM",
+  "why": "Pure event announcement for a NeurIPS party."
+ },
+ {
+  "rank": 37,
+  "kept": false,
+  "score": 1,
+  "topic": "frontier-ai",
+  "author": "TheZvi",
+  "via": null,
+  "text": "Anyone who has listened to this: What's key to know before I post about Jensen? Starting to run out of time, probably can't listen to the wh",
+  "why": "Just a request for a summary of a political interview."
  }
 ]
